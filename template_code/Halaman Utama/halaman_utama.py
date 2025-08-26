@@ -106,7 +106,7 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1vwGJtwy8I6LXglsLrXJ7JO12qEe6huXB"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1sfUpGUuu7myoGzx3vmaCQN7BD66T7kVu"
         layout(foto_kelompok)
         st.markdown(
             """<div style="text-align: justify;">GREEDY ADALAH KELOMPOK 8</div>""",
@@ -133,9 +133,9 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "haikal seventino tamba",
                 "sebagai": "Pak Lurah",
-                "nim": "122450016",
+                "nim": "122450012",
                 "fun_fact": "suka makan pedes, tapi ga suka efeknya",
                 "motto_hidup": "new semester new me",
             },
