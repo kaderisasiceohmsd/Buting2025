@@ -133,28 +133,28 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "haikal seventino tamba",
+                "nama": "Haikal Seventino Tamba",
                 "sebagai": "Pak Lurah",
-                "nim": "122450012",
+                "nim": "12450012",
                 "fun_fact": "suka makan pedes, tapi ga suka efeknya",
                 "motto_hidup": "new semester new me",
             },
             {
-                "nama": "x",
+                "nama": "Queenta Thifaal Nabila",
                 "sebagai": "Bu Lurah",
                 "nim": "122450000",
                 "fun_fact": "nyemilin es bata",
                 "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "x",
+                "nama": "Wielman Itolo Halawa",
                 "sebagai": "Anggota",
                 "nim": "122450083",
                 "fun_fact": "nyemilin es bata",
                 "motto_hidup": "mantap",
             },
             {
-                "nama": "x",
+                "nama": "Charrlindah",
                 "sebagai": "Anggotaa",
                 "nim": "122450000",
                 "fun_fact": "nyemilin",
