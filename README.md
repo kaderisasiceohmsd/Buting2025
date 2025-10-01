@@ -1,1 +1,11 @@
 Berikut Domain Deploy Streamlit masing-masing kelompok:
+- https://kelompok-1-tensor.streamlit.app
+- https://kelompok-2-poison.streamlit.app
+- https://kelompok-3-markov.streamlit.app
+- https://kelompok-4-anova.streamlit.app
+- https://kelompok-5-pandas.streamlit.app
+- https://kelompok-6-jordan.streamlit.app
+- https://kelompok-7-jacobi.streamlit.app
+- https://kelompok-8-greedy.streamlit.app
+- https://kelompok-9-cosval.streamlit.app
+- https://kelompok-10-bayessian.streamlit.app
