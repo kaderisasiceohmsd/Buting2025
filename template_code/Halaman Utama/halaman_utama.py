@@ -180,11 +180,11 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Raisya Izzati Harira",
+                "sebagai": "Anggota",
+                "nim": "122450122",
+                "fun_fact": "Pernah jadi atheist",
+                "motto_hidup": "Mapas betul idup ini",
             },
             {
                 "nama": "x",
