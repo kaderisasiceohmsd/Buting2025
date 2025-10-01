@@ -192,11 +192,11 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Helmy Surya Pratama",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "122450033",
+                "fun_fact":"Takut Balon  ",
+                "motto_hidup": " Hidup kadang kidding",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
