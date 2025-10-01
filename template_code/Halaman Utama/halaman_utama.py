@@ -102,7 +102,8 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;"> TESTING BUKU KATING GREEDY</div>""",
+            """<div style="text-align: justify;"> TESTING BUKU KATING GREEDY memang greedy tidak ada tandingan nya
+            greedy memang keren banget deh coba tes dari gio</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
