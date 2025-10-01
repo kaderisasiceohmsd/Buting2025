@@ -155,11 +155,11 @@ elif menu == "About Us":
                 "motto_hidup": "mantap",
             },
             {
-                "nama": "x",
+                "nama": "Manuel Frederika",
                 "sebagai": "Anggotaa",
-                "nim": "122450000",
-                "fun_fact": "nyemilin",
-                "motto_hidup": "jalanin dulu aja",
+                "nim": "122450039",
+                "fun_fact": "Mau tidur jam berapapun bangunnya jam 6 pagi",
+                "motto_hidup": "Fokus, Berproses, Bersabar, Berhasil",
             },
             {
                 "nama": "x",
