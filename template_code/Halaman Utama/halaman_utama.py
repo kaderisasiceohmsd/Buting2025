@@ -106,7 +106,7 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+        foto_kelompok = "https://drive.google.com/uc?export=1j2whG_RXnlMioXeOqXbXWct4OK6qqFxS"
         layout(foto_kelompok)
         st.markdown(
             """<div style="text-align: justify;">Kelompok kami merupakan sekumpulan mahasiswa Sains Data angkatan 2024 yang memiliki semangat belajar tinggi serta tekad untuk tumbuh dan berkembang bersama. Dengan latar belakang, karakter, dan minat yang beragam, kami saling melengkapi satu sama lain dalam menghadapi berbagai tantangan selama perkuliahan.
