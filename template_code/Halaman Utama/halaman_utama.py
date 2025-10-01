@@ -157,11 +157,11 @@ elif menu == "About Us":
                 "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "x",
+                "nama": "Faizatun Najmi",
                 "sebagai": "Anggota",
-                "nim": "122450083",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "mantap",
+                "nim": "124450126",
+                "fun_fact": "naik wahana ekstrim",
+                "motto_hidup": "manusia punya kendala, Tuhan punya kendali",
             },
             {
                 "nama": "x",
