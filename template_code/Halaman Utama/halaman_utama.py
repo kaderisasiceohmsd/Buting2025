@@ -106,7 +106,7 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1w19afVy4UoieYvxY1fmSNDIPNStBI9mP"
         layout(foto_kelompok)
         st.markdown(
             """<div style="text-align: justify;">Testing kelompok pandas by henry.</div>""",
@@ -182,11 +182,11 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Hasan Nur Ramadhan",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450013",
+                "fun_fact": "suka mancing tapi gak suka makan ikan",
+                "motto_hidup": "urip iku urup",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
