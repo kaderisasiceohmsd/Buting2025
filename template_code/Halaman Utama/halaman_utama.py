@@ -102,8 +102,8 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Kelompok 1 Tensor bukan hanya sekelompok nama; kami adalah simpul keakraban dan keharmonisan. 
-            Nama "Tensor" sendiri melambangkan kekuatan yang menyatukan berbagai elemen, dan itulah yang kami lakukan. Di sini, setiap individu dihargai, 
+            """<div style="text-align: justify;">Kelompok 1 Tensor bukan hanya sekelompok nama, kami adalah simpul keakraban dan keharmonisan. 
+            Nama Tensor sendiri melambangkan kekuatan yang menyatukan berbagai elemen, dan itulah yang kami lakukan. Di sini, setiap individu dihargai, 
             dan suasana yang tercipta terasa hangat—seperti keluarga kedua tempat setiap anggota bebas bercerita, tertawa, dan tumbuh bersama tanpa rasa 
             canggung. Kami percaya bahwa kaderisasi terbaik lahir dari kebersamaan yang solid. Kami belajar, berdiskusi, dan berproses dengan semangat 
             saling dukung dan gotong royong. Kelompok Tensor adalah bukti nyata bahwa ketika kita selaras, proses belajar pun terasa ringan dan 
