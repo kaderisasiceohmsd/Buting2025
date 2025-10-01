@@ -102,18 +102,18 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">ini alfa palu</div>""",
+            """<div style="text-align: justify;">Test ini Kaleb dari kelompok 6</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Testing Buku Kating Jordan Innovation!</div>""",
+            """<div style="text-align: justify;">hai ini kaleb.</div>""",
             unsafe_allow_html=True,
         )
-        
         st.write(""" """)
+
     home_page()
 
 elif menu == "About Us":
@@ -133,60 +133,74 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "Alfaya Rafif Abiyyi",
                 "sebagai": "Pak Lurah",
-                "nim": "122450016",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
-                "motto_hidup": "new semester new me",
+                "nim": "122450006",
+                "fun_fact": "sering jatoh dari motor",
+                "motto_hidup": "berjuang sampai titik akhir",
             },
             {
-                "nama": "x",
+                "nama": "Euodia Meiliana Friedita",
                 "sebagai": "Bu Lurah",
-                "nim": "122450000",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "Ya apa ya",
+                "nim": "122450029",
+                "fun_fact": "hobby ngisengin dua princess",
+                "motto_hidup": "apa yang sudah dimulai harus diselesaikan",
             },
             {
-                "nama": "x",
+                "nama": "Kaleb Filbert Istel",
                 "sebagai": "Anggota",
-                "nim": "122450083",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "mantap",
+                "nim": "124450053",
+                "fun_fact": "Username IG nya kelelep_comberan karena pernah kejebur di comberan",
+                "motto_hidup": "Semper ad meliora.",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450000",
-                "fun_fact": "nyemilin",
-                "motto_hidup": "jalanin dulu aja",
+                "nama": "Nabila Nur Azizah",
+                "sebagai": "Anggota",
+                "nim": "124450048",
+                "fun_fact": "makan roti tawar harus di kupas",
+                "motto_hidup": "berjalan seperti air",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Lucia Advencia Rachel Nainggolan",
+                "sebagai": "Anggota",
+                "nim": "122450085",
+                "fun_fact": "Eyangnya Sri Sultan Hamengkubuwana II",
+                "motto_hidup": "Tetaplah merasa bodoh supaya terus belajar",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Selma Siti Aisyah",
+                "sebagai": "Anggota",
+                "nim": "124450044", 
+                "fun_fact": "pernah ilang di kebun binatang", 
+                "motto_hidup": "Doa dan Usaha adalah Kartu Kemenangan Mereka",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Hani Qurrota Aini",
+                "sebagai": "Anggota",
+                "nim": "122450020",
+                "fun_fact": "suka buah stroberi tapi gasuka kalau stroberi nya diolah atau olahan stroberi",
+                "motto_hidup": "breathe, evolve,shine",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Siti Sarifah", 
+                "sebagai": "Anggota",
+                "nim": "124450015", 
+                "fun_fact": "ga suka alpukat", 
+                "motto_hidup": "Jangan pernah menyerah",
+            },
+            {
+                "nama": "Cika Adelia Br Marbun", 
+                "sebagai": "Anggota",
+                "nim": "124450107", 
+                "fun_fact": "ga bisa makan pedas",  
+                "motto_hidup": " Doakan apa yang kamu kerjakan, kerjakan apa yang kamu doakan",
+            },
+            {
+                "nama": "Siti Sarifah", "Gustin H. Tampubolon", 
+                "sebagai": "Anggota",
+                "nim": "124450068"
+                "fun_fact": "susah ingat nama orang, tapi hafal mukanya" 
+                "motto_hidup": "apapun yang kamu perbuat, perbuatlah dengan segenap hatimu"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
