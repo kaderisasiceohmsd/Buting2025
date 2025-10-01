@@ -109,11 +109,11 @@ if menu == "Home":
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Testing Buku Kating Jordan Innovation!!</div>""",
+            """<div style="text-align: justify;">Testing Buku Kating Jordan Innovation!</div>""",
             unsafe_allow_html=True,
         )
+        
         st.write(""" """)
-
     home_page()
 
 elif menu == "About Us":
