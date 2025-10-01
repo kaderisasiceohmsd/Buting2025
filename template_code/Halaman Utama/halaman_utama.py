@@ -109,7 +109,7 @@ if menu == "Home":
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1sfUpGUuu7myoGzx3vmaCQN7BD66T7kVu"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">GREEDY ADALAH KELOMPOK 8</div>""",
+            """<div style="text-align: justify;">GREEDY GACOR BANGET</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
