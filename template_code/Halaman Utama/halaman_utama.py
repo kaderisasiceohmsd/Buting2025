@@ -180,10 +180,10 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Raisya Izzati Harira",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
+                "nim": "124450122",
+                "fun_fact": "Pernah jadi atheist",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
