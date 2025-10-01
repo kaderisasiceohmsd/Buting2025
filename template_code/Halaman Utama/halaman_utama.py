@@ -176,11 +176,11 @@ elif menu == "About Us":
                 "motto_hidup": "Bergeraklah jangan seperti batu berlumut",
             },
             {
-                "nama": "x",
+                "nama": "Ahmad Bimo AKbar Arkana Putra",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450113",
+                "fun_fact": "keturunan pakistan",
+                "motto_hidup": "keberuntungan hanya berpihak kepada mereka yang berani",
             },
             {
                 "nama": "Faiza Try Anjani",
