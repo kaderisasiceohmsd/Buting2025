@@ -169,11 +169,11 @@ elif menu == "About Us":
                 "motto_hidup": "do everything with love",
             },
             {
-                "nama": "x",
+                "nama": "Muhammad Harvinsyah",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450128",
+                "fun_fact": "Pernah membakar rumah nenek karna suka bermain api",
+                "motto_hidup": "Bergeraklah jangan seperti batu berlumut",
             },
             {
                 "nama": "x",
