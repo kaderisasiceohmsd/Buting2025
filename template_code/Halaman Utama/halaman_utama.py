@@ -102,12 +102,7 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">Kami adalah Kelompok 03 - Markov, salah satu kelompok kaderisasi HMSD adyatama 2025 yang beranggotakan 12 orang. Markov berasal dari nama ilmuwan matematikawan rusia yang bernama Andrey Markov, yaitu matematika dan probabilitas yang artinya dalam kelompok ini setiap langkah ke depan bergantung pada kondisi saat ini, bukan pada masa lalu. Markov sebagai identitas kelompok kami dengan harapan dapat belajar, berkembang, dan berproses selama rangkaian kaderisasi ini.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -143,56 +138,56 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "Hazel Mahesa Handaka",
                 "sebagai": "Pak Lurah",
-                "nim": "122450016",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
+                "nim": "124450114",
+                "fun_fact": "suka makan, tapi gak suka makan berkuah",
                 "motto_hidup": "new semester new me",
             },
             {
-                "nama": "x",
+                "nama": "Sekar Dini Widya Putri",
                 "sebagai": "Bu Lurah",
-                "nim": "122450000",
+                "nim": "124450082",
                 "fun_fact": "nyemilin es bata",
                 "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "x",
+                "nama": "Melva Shaprina Febrianti ",
                 "sebagai": "Anggota",
-                "nim": "122450083",
-                "fun_fact": "nyemilin es bata",
+                "nim": "124450087",
+                "fun_fact": "gak bisa tidur tanpa kain ibu",
                 "motto_hidup": "mantap",
             },
             {
-                "nama": "x",
+                "nama": "Gathfan Nadif Ali",
                 "sebagai": "Anggotaa",
-                "nim": "122450000",
+                "nim": "124450001",
                 "fun_fact": "nyemilin",
                 "motto_hidup": "jalanin dulu aja",
             },
             {
-                "nama": "x",
+                "nama": "Allisha",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Bryan Paskah Telaumbanua ",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Vannisa Ramadhani",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Salavi Naharani",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
                 "fun_fact": "nyemilin es bata, kiko",
