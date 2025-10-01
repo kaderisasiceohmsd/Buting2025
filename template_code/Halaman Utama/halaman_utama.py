@@ -189,6 +189,13 @@ elif menu == "About Us":
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
+            {
+                "nama": "Saskia Nova Magdanlena",
+                "sebagai": "Anggotaa",
+                "nim": "124450074",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
 
