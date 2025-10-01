@@ -109,12 +109,8 @@ if menu == "Home":
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">Kelompok kami merupakan sekumpulan mahasiswa Sains Data angkatan 2024 yang memiliki semangat belajar tinggi serta tekad untuk tumbuh dan berkembang bersama. Dengan latar belakang, karakter, dan minat yang beragam, kami saling melengkapi satu sama lain dalam menghadapi berbagai tantangan selama perkuliahan.
+Kami percaya bahwa kerja sama, komunikasi yang baik, dan rasa saling mendukung adalah kunci untuk menciptakan lingkungan yang nyaman dan produktif. Melalui kebersamaan ini, kami berkomitmen untuk terus belajar, beradaptasi, dan memberikan yang terbaik dalam setiap kegiatan akademik maupun organisasi. Harapannya, kelompok ini dapat menjadi wadah yang solid untuk bertukar ide, membangun relasi, serta melangkah maju bersama menuju tujuan yang sama.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
