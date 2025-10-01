@@ -157,11 +157,11 @@ elif menu == "About Us":
                 "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "x",
+                "nama": "Gathfan Nadif Ali",
                 "sebagai": "Anggota",
-                "nim": "122450083",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "mantap",
+                "nim": "124450001",
+                "fun_fact": "Multitasking kalo main game santai",
+                "motto_hidup": "It is what it is",
             },
             {
                 "nama": "x",
