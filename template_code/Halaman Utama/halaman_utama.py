@@ -142,9 +142,9 @@ elif menu == "About Us":
             {
                 "nama": "Queenta Thifaal Nabila",
                 "sebagai": "Bu Lurah",
-                "nim": "122450000",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "Ya apa ya",
+                "nim": "124450059",
+                "fun_fact": "ga suka kucing",
+                "motto_hidup": "makan geprek tiap hari enak",
             },
             {
                 "nama": "Wielman Itolo Halawa",
