@@ -102,12 +102,11 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">Kelompok Bayesian merupakan dua belas bayi naga kecil yang sempat kehilangan arah dalam perjalanan mereka. Di tengah kebingungan itu, 
+            mereka akhirnya bertemu dengan sosok ibu yang penuh kasih bernama Dea Amanda yang dengan sabar sekaligus tegas membimbing mereka.
+            Dari kedua belas naga tersebut ada Nando sebagai naga tertua yang bijak bersama Azzelya yang selalu setia mendampinginya dalam menjaga
+            dan mengarahkan adik-adiknya. Bersama-sama mereka menuntun sepuluh naga lainnya yaitu Yazid, Iqbal, Alsi, Hafis, Zaldi, Bina, Yolanda, Iffa, Arfai dan Yulia agar tidak lagi tersesat. 
+            Dari hari ke hari berkat bimbingan Dea Amanda keluarga naga kecil ini tumbuh semakin kuat kompak dan siap menorehkan jejak besar sebagai satu kesatuan keluarga naga Bayesian.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
