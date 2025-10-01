@@ -113,12 +113,12 @@ if menu == "Home":
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">Sebagai simbol, gaya Bayes digambarkan dengan pose unik: 
+            tangan kiri mengepal lurus ke depan, sementara tangan kanan siaga layaknya gerakan bela diri. 
+            Gerakan ini bukan sekadar gaya, tapi punya makna. Tangan kiri yang tegak lurus melambangkan keyakinan awal yang kuat, 
+            sedangkan tangan kanan yang siap menjaga menggambarkan bukti baru yang datang untuk memperkuat arah yang dipilih. 
+            Dengan filosofi itu, naga Bayesian bukan hanya sebuah kelompok, melainkan keluarga yang terus belajar, berkembang,
+            dan semakin kokoh lewat proses pembaruan keyakinan, persis seperti semangat teori Bayes.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
