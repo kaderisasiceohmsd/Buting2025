@@ -153,8 +153,8 @@ elif menu == "About Us":
             },
             {
                 "nama": "x",
-                "sebagai": "Anggota",
-                "nim": "122450083",
+                "sebagai": "Fadya Izzatul 'Aini",
+                "nim": "124450062",
                 "fun_fact": "nyemilin es bata",
                 "motto_hidup": "mantap",
             },
