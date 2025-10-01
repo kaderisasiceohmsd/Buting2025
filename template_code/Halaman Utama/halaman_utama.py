@@ -130,7 +130,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=10DZICvueHl1NOGxcD2DYpPGiQXREqQkh",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=11xetiejm5bOM1wOGc1zep1ohwqTzqQ-O",
         ]
         data_list = [
             {
@@ -162,11 +162,11 @@ elif menu == "About Us":
                 "motto_hidup": "Fokus, Berproses, Bersabar, Berhasil",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Sherena Florencia",
+                "sebagai": "Anggota",
+                "nim": "124450027",
+                "fun_fact": "gasuka kulot ayam",
+                "motto_hidup": "do everything with love",
             },
             {
                 "nama": "x",
