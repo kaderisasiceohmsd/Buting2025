@@ -152,8 +152,8 @@ elif menu == "About Us":
                 "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "x",
-                "sebagai": "Fadya Izzatul 'Aini",
+                "nama": "Fadya Izzatul 'Aini",
+                "sebagai": "anggota",
                 "nim": "124450062",
                 "fun_fact": "nyemilin es bata",
                 "motto_hidup": "mantap",
@@ -173,9 +173,9 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Anggun Nita",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
+                "nim": "124450009",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
