@@ -106,7 +106,7 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1w19afVy4UoieYvxY1fmSNDIPNStBI9mP"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1rrnH49b8Wjd_vQ6OTZzoiwqtejfpZogk"
         layout(foto_kelompok)
         st.markdown(
             """<div style="text-align: justify;">Testing kelompok pandas by henry.</div>""",
