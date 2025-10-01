@@ -6,7 +6,7 @@ from io import BytesIO
 
 
 # JANGAN DIUBAH
-@st.cache_data
+@st.cache_datacc
 def load_image(url):
     response = requests.get(url)
     img = Image.open(BytesIO(response.content))
@@ -109,8 +109,7 @@ if menu == "Home":
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Kelompok kami merupakan sekumpulan mahasiswa Sains Data angkatan 2024 yang memiliki semangat belajar tinggi serta tekad untuk tumbuh dan berkembang bersama. Dengan latar belakang, karakter, dan minat yang beragam, kami saling melengkapi satu sama lain dalam menghadapi berbagai tantangan selama perkuliahan.
-Kami percaya bahwa kerja sama, komunikasi yang baik, dan rasa saling mendukung adalah kunci untuk menciptakan lingkungan yang nyaman dan produktif. Melalui kebersamaan ini, kami berkomitmen untuk terus belajar, beradaptasi, dan memberikan yang terbaik dalam setiap kegiatan akademik maupun organisasi. Harapannya, kelompok ini dapat menjadi wadah yang solid untuk bertukar ide, membangun relasi, serta melangkah maju bersama menuju tujuan yang sama.</div>""",
+            """<div style="text-align: justify;"> Poisson.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
