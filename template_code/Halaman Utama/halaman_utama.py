@@ -196,6 +196,13 @@ elif menu == "About Us":
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
+             {
+                "nama": "Abigael Limbong",
+                "sebagai": "Anggotaa",
+                "nim": "124450080",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
 
