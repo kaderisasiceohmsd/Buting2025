@@ -183,9 +183,9 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Faiza Try Anjani",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
+                "nim": "122450075",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
