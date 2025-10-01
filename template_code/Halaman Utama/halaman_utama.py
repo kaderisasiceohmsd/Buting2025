@@ -143,7 +143,7 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "Hazel mahar",
                 "sebagai": "Pak Lurah",
                 "nim": "122450016",
                 "fun_fact": "suka makan pedes, tapi ga suka efeknya",
