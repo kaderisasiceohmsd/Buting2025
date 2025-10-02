@@ -116,7 +116,7 @@ if menu == "Home":
 
     home_page()
 
-elif menu == "About Us":
+elif menu == "Tentang Greedy":
 
     def about_page():
         st.markdown(
@@ -226,9 +226,9 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
              {
-                "nama": "ashila",
+                "nama": "Ashila",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
+                "nim": "124450028",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
