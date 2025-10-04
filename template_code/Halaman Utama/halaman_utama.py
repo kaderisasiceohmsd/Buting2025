@@ -182,11 +182,11 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Faiza Try Anjani",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "122450075",
+                "fun_fact": "pernah bikin tugas satu kelas hilang",
+                "motto_hidup": "dream, learn, achieve",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
