@@ -202,7 +202,7 @@ elif menu == "About Us":
                 "nim": "124450080",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
 
