@@ -141,11 +141,11 @@ elif menu == "About Us":
                 "motto_hidup": "beyond your limits",
             },
             {
-                "nama": "x",
+                "nama": "Aqila Zayyan Salsabil",
                 "sebagai": "Bu Lurah",
-                "nim": "122450000",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "Ya apa ya",
+                "nim": "124450014",
+                "fun_fact": "suka orang wanginya manis",
+                "motto_hidup": "gatau",
             },
             {
                 "nama": "Faizatun Najmi",
