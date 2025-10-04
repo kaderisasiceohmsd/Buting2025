@@ -110,7 +110,7 @@ if menu == "Home":
         layout(foto_kelompok)
         st.markdown(
             """<div style="text-align: justify;">Kelompok kami merupakan sekumpulan mahasiswa Sains Data angkatan 2024 yang memiliki semangat belajar tinggi serta tekad untuk tumbuh dan berkembang bersama. Dengan latar belakang, karakter, dan minat yang beragam, kami saling melengkapi satu sama lain dalam menghadapi berbagai tantangan selama perkuliahan.
-Kami percaya bahwa kerja sama, komunikasi yang baik, dan rasa saling mendukung adalah kunci untuk menciptakan lingkungan yang nyaman dan produktif. Melalui kebersamaan ini, kami berkomitmen untuk terus belajar, beradaptasi, dan memberikan yang terbaik dalam setiap kegiatan akademik maupun organisasi. Harapannya, kelompok ini dapat menjadi wadah yang solid untuk bertukar ide, membangun relasi, serta melangkah maju bersama menuju tujuan yang sama.</div>""",
+            Kami percaya bahwa kerja sama, komunikasi yang baik, dan rasa saling mendukung adalah kunci untuk menciptakan lingkungan yang nyaman dan produktif. Melalui kebersamaan ini, kami berkomitmen untuk terus belajar, beradaptasi, dan memberikan yang terbaik dalam setiap kegiatan akademik maupun organisasi. Harapannya, kelompok ini dapat menjadi wadah yang solid untuk bertukar ide, membangun relasi, serta melangkah maju bersama menuju tujuan yang sama.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
