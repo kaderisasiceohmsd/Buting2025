@@ -102,11 +102,11 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;"> kelompok poisson adalahs</div>""",
+            """<div style="text-align: justify;"> kelompok poisson adalah</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=1j2whG_RXnlMioXeOqXbXWct4OK6qqFxS"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1j2whG_RXnlMioXeOqXbXWct4OK6qqFxS"
         layout(foto_kelompok)
         st.markdown(
             """<div style="text-align: justify;">Kelompok kami merupakan sekumpulan mahasiswa Sains Data angkatan 2024 yang memiliki semangat belajar tinggi serta tekad untuk tumbuh dan berkembang bersama. Dengan latar belakang, karakter, dan minat yang beragam, kami saling melengkapi satu sama lain dalam menghadapi berbagai tantangan selama perkuliahan.
@@ -157,7 +157,7 @@ elif menu == "About Us":
             {
                 "nama": "Manuel Frederika",
                 "sebagai": "Anggotaa",
-                "nim": "122450039",
+                "nim": "124450039",
                 "fun_fact": "Mau tidur jam berapapun bangunnya jam 6 pagi",
                 "motto_hidup": "Fokus, Berproses, Bersabar, Berhasil",
             },
@@ -165,7 +165,7 @@ elif menu == "About Us":
                 "nama": "Sherena Florencia",
                 "sebagai": "Anggota",
                 "nim": "124450027",
-                "fun_fact": "gasuka kulot ayam",
+                "fun_fact": "gasuka kulit ayam",
                 "motto_hidup": "do everything with love",
             },
             {
