@@ -134,11 +134,11 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "Bima Ekayasa",
                 "sebagai": "Pak Lurah",
-                "nim": "122450016",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
-                "motto_hidup": "new semester new me",
+                "nim": "124450106",
+                "fun_fact": "main gitar everyday",
+                "motto_hidup": "beyond your limits",
             },
             {
                 "nama": "x",
