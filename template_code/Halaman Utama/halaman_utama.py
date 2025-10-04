@@ -167,41 +167,6 @@ elif menu == "About Us":
                 "nim": "124450027",
                 "fun_fact": "gasuka kulot ayam",
                 "motto_hidup": "do everything with love",
-            },
-            {
-                "nama": "Muhammad Harvinsyah",
-                "sebagai": "Anggotaa",
-                "nim": "124450128",
-                "fun_fact": "Pernah membakar rumah nenek karna suka bermain api",
-                "motto_hidup": "Bergeraklah jangan seperti batu berlumut",
-            },
-            {
-                "nama": "Ahmad Bimo AKbar Arkana Putra",
-                "sebagai": "Anggotaa",
-                "nim": "124450113",
-                "fun_fact": "keturunan pakistan",
-                "motto_hidup": "keberuntungan hanya berpihak kepada mereka yang berani",
-            },
-            {
-                "nama": "Faiza Try Anjani",
-                "sebagai": "Anggota",
-                "nim": "124450075",
-                "fun_fact": "pernah bikin tugas satu kelas hilang",
-                "motto_hidup": "dream, learn, achieve",
-            },
-            {
-                "nama": "Saskia Nova Magdanlena",
-                "sebagai": "Anggotaa",
-                "nim": "124450074",
-                "fun_fact": "Tenggelam di sumur, dan masih hidup",
-                "motto_hidup": "Do what you love, and love what you do",
-            },
-             {
-                "nama": "Abigael Limbong",
-                "sebagai": "Anggotaa",
-                "nim": "124450080",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
             }
         ]
         display_images_with_data(gambar_urls, data_list)
