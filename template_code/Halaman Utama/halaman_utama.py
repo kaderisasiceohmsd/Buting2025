@@ -141,7 +141,7 @@ elif menu == "About Us":
             """<style>.centered-title {text-align: center;}</style>""",
             unsafe_allow_html=True,
         )
-        st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 class='centered-title'>𝓞𝓾𝓻 𝓓𝓲𝓼𝓽𝓻𝓲𝓫𝓾𝓽𝓲𝓸𝓷</h1>", unsafe_allow_html=True)
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1ICkBFIOuO2ouVfoCVaUCD3p3MHdSPMIO",
             "https://drive.google.com/uc?export=view&id=1Zj6Jo4aT2IONt0NbZHYqJ2eUGM_LKljK",
