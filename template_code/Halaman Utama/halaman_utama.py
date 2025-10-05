@@ -130,6 +130,12 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
@@ -196,11 +202,18 @@ elif menu == "About Us":
                 "motto_hidup": " Doakan apa yang kamu kerjakan, kerjakan apa yang kamu doakan",
             },
             {
-                "nama": "Siti Sarifah", "Gustin H. Tampubolon", 
+                "nama": "Gustin H. Tampubolon", 
                 "sebagai": "Anggota",
-                "nim": "124450068"
-                "fun_fact": "susah ingat nama orang, tapi hafal mukanya" 
-                "motto_hidup": "apapun yang kamu perbuat, perbuatlah dengan segenap hatimu"
+                "nim": "124450068",
+                "fun_fact": "susah ingat nama orang, tapi hafal mukanya",
+                "motto_hidup": "apapun yang kamu perbuat, perbuatlah dengan segenap hatimu",
+            },
+            {
+                "nama": "Danil Nur Fadillah",
+                "sebagai": "Anggota",
+                "nim": "124450103",
+                "fun_fact": "punya panggilan khusus di kelompok, nama panggilan nya Duta Gorengan",
+                "motto_hidup": "dimana langit dipinjak, disitu langit dijunjung",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
