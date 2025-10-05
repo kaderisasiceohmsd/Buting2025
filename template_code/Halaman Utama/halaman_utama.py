@@ -109,8 +109,25 @@ if menu == "Home":
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1j2whG_RXnlMioXeOqXbXWct4OK6qqFxS"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Kelompok kami merupakan sekumpulan mahasiswa Sains Data angkatan 2024 yang memiliki semangat belajar tinggi serta tekad untuk tumbuh dan berkembang bersama. Dengan latar belakang, karakter, dan minat yang beragam, kami saling melengkapi satu sama lain dalam menghadapi berbagai tantangan selama perkuliahan.
-            Kami percaya bahwa kerja sama, komunikasi yang baik, dan rasa saling mendukung adalah kunci untuk menciptakan lingkungan yang nyaman dan produktif. Melalui kebersamaan ini, kami berkomitmen untuk terus belajar, beradaptasi, dan memberikan yang terbaik dalam setiap kegiatan akademik maupun organisasi. Harapannya, kelompok ini dapat menjadi wadah yang solid untuk bertukar ide, membangun relasi, serta melangkah maju bersama menuju tujuan yang sama.</div>""",
+            """<div style="text-align: justify;">Kami adalah Poisson, tiga belas jiwa dari Datasena, Sains Data ITERA 2024.
+Di antara angka dan peluang, kami berdiri dengan semangat untuk memahami makna di balik ketidakpastian.
+Terinspirasi dari Distribusi Poisson, kami belajar bahwa bahkan peristiwa acak pun menyimpan pola,
+dan di balik kebetulan, selalu ada keteraturan yang menunggu untuk ditemukan.
+
+Seperti rumus yang hidup di antara deretan bilangan, kami percaya bahwa setiap data punya cerita,
+setiap anomali punya makna, dan setiap anggota kami adalah satu titik dalam grafik besar kehidupan —
+unik, berdiri sendiri, namun indah saat disatukan.
+
+Kami tumbuh bersama sebagai satu kesatuan, saling melengkapi di setiap proses,
+menjadi jejaring kebersamaan yang menguatkan langkah kami menuju masa depan.
+Bersama Datasena 2024, kami bukan hanya sekumpulan individu yang mencintai data,
+tapi keluarga yang belajar, tertawa, dan berproses dalam irama yang sama.
+
+Dari kekacauan, kami membaca keindahan;
+dari acak, kami menulis makna;
+dari data, kami mencipta arah.
+Kami adalah Poisson — harmoni dari ketidakpastian, pola dari kebetulan,
+dan kisah yang tumbuh dari rasa ingin tahu tanpa batas.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
