@@ -1,12 +1,13 @@
 import streamlit as st
 
 # session state agar ketika pindah page tidak berubah data yang tersedia
-
 st.session_state.pindah = True
 
-Homepage = st.Page("Halaman Utama/halaman_utama.py",
+Homepage = st.Page(
+    "Halaman Utama/halaman_utama.py",
     title="Nama_Kelompok",
-    default=True)
+    default=True
+)
 
 Mahasiswa1 = st.Page(
     "Buku Kating/106_Bima Ekayasa.py",
@@ -74,11 +75,11 @@ Mahasiswa13 = st.Page(
     icon=":material/person:",
 )
 
-#Perlu diperhatikan perubahannya
+# Tools
 KREASI = st.Page("tools/KREASI.py", title="KREASI", icon=":material/search:")
 KREASII = st.Page("tools/KREASII.py", title="KREASII", icon=":material/search:")
 
-#Perlu diperhatikan perubahannya
+# Navigasi halaman
 if st.session_state.pindah:
     pg = st.navigation(
         {
@@ -92,6 +93,6 @@ if st.session_state.pindah:
         }
     )
 else:
-    st.write("Maaf Anda kurang beruntung :(") 
-pg.run()
+    st.write("Maaf Anda kurang beruntung :(")
 
+pg.run()
