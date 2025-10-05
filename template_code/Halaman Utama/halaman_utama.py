@@ -167,6 +167,27 @@ elif menu == "About Us":
                 "nim": "124450027",
                 "fun_fact": "gasuka kulot ayam",
                 "motto_hidup": "do everything with love",
+            },
+            {
+                "nama": "Faizatun Najmi",
+                "sebagai": "Anggota",
+                "nim": "124450126",
+                "fun_fact": "naik wahana ekstrim",
+                "motto_hidup": "manusia punya kendala, Tuhan punya kendali",
+            },
+            {
+                "nama": "Manuel Frederika",
+                "sebagai": "Anggota",
+                "nim": "124450039",
+                "fun_fact": "Mau tidur jam berapapun bangunnya jam 6 pagi",
+                "motto_hidup": "Fokus, Berproses, Bersabar, Berhasil",
+            },
+            {
+                "nama": "Sherena Florencia",
+                "sebagai": "Anggota",
+                "nim": "124450027",
+                "fun_fact": "gasuka kulot ayam",
+                "motto_hidup": "do everything with love",
             }
         ]
         display_images_with_data(gambar_urls, data_list)
