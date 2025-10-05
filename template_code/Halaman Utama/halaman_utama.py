@@ -126,11 +126,19 @@ elif menu == "About Us":
         )
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1ICkBFIOuO2ouVfoCVaUCD3p3MHdSPMIO",
+            "https://drive.google.com/uc?export=view&id=1Zj6Jo4aT2IONt0NbZHYqJ2eUGM_LKljK",
             "https://drive.google.com/uc?export=view&id=10DZICvueHl1NOGxcD2DYpPGiQXREqQkh",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1HaqrQfQLYdm073TpvAL1tm817f_pKNj2",
             "https://drive.google.com/uc?export=view&id=11xetiejm5bOM1wOGc1zep1ohwqTzqQ-O",
+            "https://drive.google.com/uc?export=view&id=1G5CXa7vA-Iv1r8Lcs83P6ANHKukG6PEn",
+            "https://drive.google.com/uc?export=view&id=1fwwht7ywCIOaBc37jEA5kzoDoUuwLviB",
+            "https://drive.google.com/uc?export=view&id=1K0XDJWDivz-4VFKADPvil4XT_X3awthu",
+            "https://drive.google.com/uc?export=view&id=1SGWJsXr4FpN82gF2xmt1UrWHjDKW_n8N",
+            "https://drive.google.com/uc?export=view&id=1ZK2DdiICd_VtlJXzBCLPLvOimDu1moKI",
+            "https://drive.google.com/uc?export=view&id=19obrPF1fjUwTvDdVsiJxZdYkf7EFR_WA",
+            "https://drive.google.com/uc?export=view&id=1eUNb9eNqio1OA8d9FPP9wLNZ3yW5Ao1a",
+            "https://drive.google.com/uc?export=view&id=14RPBtKtuZjoLX_6qknsXimW37dQRaxp6",
         ]
         data_list = [
             {
@@ -188,6 +196,41 @@ elif menu == "About Us":
                 "nim": "124450113",
                 "fun_fact": "keturunan Pakistan",
                 "motto_hidup": "keberuntungan hanya berpihak kepada mereka yang berani",
+            },
+             {
+                "nama": "Abigael Limbong",
+                "sebagai": "Anggota",
+                "nim": "124450080",
+                "fun_fact": "Suka EXO",
+                "motto_hidup": "Tetap tersenyum",
+            },
+             {
+                "nama": "Faiza Try Anjani",
+                "sebagai": "Anggota",
+                "nim": "124450",
+                "fun_fact": "",
+                "motto_hidup": "",
+            },
+             {
+                "nama": "Saskia Nova Magdalena",
+                "sebagai": "Anggota",
+                "nim": "124450",
+                "fun_fact": "",
+                "motto_hidup": "",
+            },
+             {
+                "nama": "Daffa Kharisma Adzana",
+                "sebagai": "Anggota",
+                "nim": "124450061",
+                "fun_fact": "",
+                "motto_hidup": "",
+            },
+             {
+                "nama": "Tubagus Abdani Pamungkas",
+                "sebagai": "Anggota",
+                "nim": "124450035",
+                "fun_fact": "",
+                "motto_hidup": "",
             }
         ]
         display_images_with_data(gambar_urls, data_list)
