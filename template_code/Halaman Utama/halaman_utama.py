@@ -170,38 +170,45 @@ elif menu == "About Us":
             },
             {
                 "nama": "Muhammad Harvinsyah",
-                "sebagai": "Anggotaa",
+                "sebagai": "Anggota",
                 "nim": "124450128",
                 "fun_fact": "Pernah membakar rumah nenek karna suka bermain api",
                 "motto_hidup": "Bergeraklah jangan seperti batu berlumut",
             },
             {
                 "nama": "Ahmad Bimo AKbar Arkana Putra",
-                "sebagai": "Anggotaa",
+                "sebagai": "Anggota",
                 "nim": "124450113",
                 "fun_fact": "keturunan pakistan",
                 "motto_hidup": "keberuntungan hanya berpihak kepada mereka yang berani",
             },
             {
                 "nama": "Faiza Try Anjani",
-                "sebagai": "Anggotaa",
+                "sebagai": "Anggota",
                 "nim": "122450075",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
                 "nama": "Saskia Nova Magdanlena",
-                "sebagai": "Anggotaa",
+                "sebagai": "Anggota",
                 "nim": "124450074",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
              {
                 "nama": "Abigael Limbong",
-                "sebagai": "Anggotaa",
+                "sebagai": "Anggota",
                 "nim": "124450080",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Edsel Adya Pradipta",
+                "sebagai": "Anggota",
+                "nim": "124450098",
+                "fun_fact": "punya gigi 2 layer",
+                "motto_hidup": "menjadi lebih baik bukan pilihan, tetapi sebuah keharusan",
             }
         ]
         display_images_with_data(gambar_urls, data_list)
