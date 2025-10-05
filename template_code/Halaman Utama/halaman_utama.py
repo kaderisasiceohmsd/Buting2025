@@ -169,25 +169,25 @@ elif menu == "About Us":
                 "motto_hidup": "do everything with love",
             },
             {
-                "nama": "Faizatun Najmi",
+                "nama": "Edsel Adya Pradipta",
                 "sebagai": "Anggota",
-                "nim": "124450126",
-                "fun_fact": "naik wahana ekstrim",
-                "motto_hidup": "manusia punya kendala, Tuhan punya kendali",
+                "nim": "124450098",
+                "fun_fact": "punya gigi 2 layer",
+                "motto_hidup": "menjadi lebih baik bukan pilihan, tetapi sebuah keharusan",
             },
             {
-                "nama": "Manuel Frederika",
+                "nama": "Muhammad Harvinsyah",
                 "sebagai": "Anggota",
-                "nim": "124450039",
-                "fun_fact": "Mau tidur jam berapapun bangunnya jam 6 pagi",
-                "motto_hidup": "Fokus, Berproses, Bersabar, Berhasil",
+                "nim": "124450128",
+                "fun_fact": "Pernah membakar rumah nenek karena suka bermain api",
+                "motto_hidup": "Bergeraklah jangan sampai seperti batu berlumut",
             },
             {
-                "nama": "Sherena Florencia",
+                "nama": "Ahmad Bimo Akbar Arkana Putra",
                 "sebagai": "Anggota",
-                "nim": "124450027",
-                "fun_fact": "gasuka kulot ayam",
-                "motto_hidup": "do everything with love",
+                "nim": "124450113",
+                "fun_fact": "keturunan Pakistan",
+                "motto_hidup": "keberuntungan hanya berpihak kepada mereka yang berani",
             }
         ]
         display_images_with_data(gambar_urls, data_list)
