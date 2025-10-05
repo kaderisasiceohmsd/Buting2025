@@ -99,7 +99,7 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+            "<h1 class='centered-title'>Deskripsi Kelompok ANOVA cihuy</h1>", unsafe_allow_html=True
         )
         st.markdown(
             """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
