@@ -173,7 +173,7 @@ elif menu == "About Us":
                 "nama": "Sherena Florencia",
                 "sebagai": "Anggota",
                 "nim": "124450027",
-                "fun_fact": "gasuka kulot ayam",
+                "fun_fact": "gasuka kulit ayam",
                 "motto_hidup": "do everything with love",
             },
             {
@@ -207,14 +207,14 @@ elif menu == "About Us":
              {
                 "nama": "Faiza Try Anjani",
                 "sebagai": "Anggota",
-                "nim": "124450",
+                "nim": "124450075",
                 "fun_fact": "",
                 "motto_hidup": "",
             },
              {
                 "nama": "Saskia Nova Magdalena",
                 "sebagai": "Anggota",
-                "nim": "124450",
+                "nim": "124450074",
                 "fun_fact": "",
                 "motto_hidup": "",
             },
