@@ -134,7 +134,7 @@ if menu == "Kesekjenan":
                 "nim": "122450123",
                 "umur": "20",
                 "asal": "Bogor",
-                "alamat": "Natar (Raden Inten)",
+                "alamat": " ",
                 "hobbi": "Gangguin Orang",
                 "sosmed": "@celisabethh_",
                 "kesan": "Kakak ini senyumnya manis, jadi suka deh!",  
