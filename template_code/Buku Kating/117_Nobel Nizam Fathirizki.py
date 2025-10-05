@@ -134,7 +134,7 @@ if menu == "Kesekjenan":
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan diaa",  
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
         ]
@@ -142,4 +142,3 @@ if menu == "Kesekjenan":
     kesekjenan()
 
 # Tambahkan menu lainnya sesuai kebutuhan
-
