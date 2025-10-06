@@ -29,7 +29,7 @@ Mahasiswa4 = st.Page(
     icon=":material/person:",
 )
 Mahasiswa5 = st.Page(
-    "Buku Kating/029_Euodia Meiliana Friedita",
+    "Buku Kating/029_Euodia Meiliana Friedita.py",
     title="029 - Euodia Meiliana Friedita",
     icon=":material/person:",
 )
@@ -73,7 +73,7 @@ if st.session_state.pindah:
         {
             "Halaman Utama": [Homepage],
             "Buku Kating": [Mahasiswa1, Mahasiswa2, Mahasiswa3, Mahasiswa4, Mahasiswa5, Mahasiswa6, Mahasiswa7, Mahasiswa8, Mahasiswa9, Mahasiswa10, Mahasiswa11],
-            "Try Me !!": [KREASI, KREASII], #kreasinya pikirin
+            "Try Me !!": [KREASI, KREASII],
         }
     )
 else:
