@@ -133,12 +133,12 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #niko
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #rahma
             "https://drive.google.com/uc?export=view&id=1PlYQrm1pg9FoCmZHf9o79lLAYC2ozbuZ", #fadya
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #indah
+            "https://drive.google.com/uc?export=view&id=1RpUljY4kbmbHDiXhbts5hZMmpfh1usw3", #indah
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #caca
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #anggun
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #raisya
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #jaya
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #riska
+            "https://drive.google.com/uc?export=view&id=1hAmwIuWyGLNfiwBNUwKsh6Ke-_ihyKbo", #riska
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #helmay           
         ]
         data_list = [
@@ -160,15 +160,15 @@ elif menu == "About Us":
                 "nama": "Fadya Izzatul 'Aini",
                 "sebagai": "Anggota",
                 "nim": "124450062",
-                "fun_fact": "ngga suka ikan",
-                "motto_hidup": "m",
+                "fun_fact": "Suka buta map",
+                "motto_hidup": "Do the best, be the best.",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450000",
-                "fun_fact": "nyemilin",
-                "motto_hidup": "jalanin dulu aja",
+                "nama": "Indah Khairunnisa",
+                "sebagai": "Anggota",
+                "nim": "124450077",
+                "fun_fact": "Suka bikin kesal",
+                "motto_hidup": "Succes is the sum of small efforts, repeated day in and day out.",
             },
             {
                 "nama": "x",
