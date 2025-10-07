@@ -99,46 +99,84 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1GIz1zURUYL7QEY5NEJA2RUVJuDUsBKl4
+            "https://drive.google.com/uc?export=view&id=1oW7buiEZ4QoqgaIfUbl_O70WDf_pTvGN",
+            "https://drive.google.com/uc?export=view&id=11aBqimw88Kauum7ggBIT7RZP66anqk6Qx",
+            "https://drive.google.com/uc?export=view&id=1q7TO3ydblV7a9pzpLyC96OT_qXOYVvOV",
+            "https://drive.google.com/uc?export=view&id=1imWWzIxJy_cxWq2bF5Mkms49zbi6RuLI",
+            "https://drive.google.com/uc?export=view&id=1lHcbOCn0FdIX5MssKW7tFfvTkjc2H7Ra",
         ]
         data_list = [
-            {
-                "nama": "Kakak A",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+           {
+                "nama": "Kakak Rendra Eka Prayoga",
+                "nim": "122450112",
+                "umur": "21",
+                "asal": "Bekasi",
+                "alamat": "Pulau Damar",
+                "hobbi": "Makan Pisang",
+                "sosmed": "@_erendraa",
+                "kesan": "Kakak ini tegas dan ketawanya menular hahaha, asik banget!",  
+                "pesan": "semoga selalu sukses dimana pun berada kakak !!!"# 1
             },
             {
-                "nama": "Kakak B",
+                "nama": "Kakak Johannes Krisjon Silitonga",
                 "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "umur": "20",
+                "asal": "Tangerang",
+                "alamat": "Jalan Lapas",
+                "hobbi": "Baca buku sequel ",
+                "sosmed": "@johanneskrisjnnn",
+                "kesan": "Kakak ini lucu banget parah!",  
+                "pesan": "semoga lancar kuliahnya kakak!!!"# 1
+            },
+              {
+                "nama": "Kakak Elisabeth Claudia Simanjuntak",
+                "nim": "122450123",
+                "umur": "20",
+                "asal": "Bogor",
+                "alamat": "Ayres Kost",
+                "hobbi": "Gangguin Orang",
+                "sosmed": "@celisabethh_",
+                "kesan": "Kakak ini senyumnya manis, jadi suka deh!",  
+                "pesan": "semoga sehat selalu kakak!!!"# 1
+            },
+              {
+                "nama": "Kakak Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "21",
+                "asal": "Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Tidur",
+                "sosmed": "@puspadrr",
+                "kesan": "Kakak ini pendiam tapi lucu, manis deh!",  
+                "pesan": "Semoga sukses selalu kakak !!!"# 1
             },
             {
-                "nama": "Kakak CCc",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Kakak Eksanty Febriana Sukma Islamiaty",
+                "nim": "122450001",
+                "umur": "21",
+                "asal": "Sammosir/Sumatera Utara",
+                "alamat": "Natar (Raden Intan)",
+                "hobbi": "Nemenin orang dari nol sampai jatuh ke jurang kemiskinan",
+                "sosmed": "@eksantyfebriana",
+                "kesan": "Kakak ini tegas sekaligus lucu dalam satu waktu, sukaaa!",  
+                "pesan":"Jangan lupa jaga kesehatan kakak !!!"# 1
             },
+             {
+                "nama": "Kakak Farahanum Afifah Ardiansyah",
+                "nim": "122450001",
+                "umur": "21",
+                "asal": "Padang",
+                "alamat": "Belwis",
+                "hobbi": "Cutek Kahim",
+                "sosmed": "@farahanumafifah",
+                "kesan": "Kakak ini seru banget diajak ngobrol, suka deh",  
+                "pesan": "Jaga kesehatan terus kakak !!!"# 1
+            },
+            
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
+    
 
 # Tambahkan menu lainnya sesuai kebutuhan
