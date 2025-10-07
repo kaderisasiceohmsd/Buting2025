@@ -6,7 +6,7 @@ st.session_state.pindah = True
 # Halaman utama
 Homepage = st.Page(
     "Halaman Utama/halaman_utama.py",
-    title="Nama_Kelompok",
+    title="ANOVA",
     default=True
 )
 
