@@ -143,61 +143,89 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "Andra",
                 "sebagai": "Pak Lurah",
                 "nim": "122450016",
                 "fun_fact": "suka makan pedes, tapi ga suka efeknya",
                 "motto_hidup": "new semester new me",
             },
             {
-                "nama": "x",
+                "nama": "Aisyah",
                 "sebagai": "Bu Lurah",
                 "nim": "122450000",
                 "fun_fact": "nyemilin es bata",
                 "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "x",
+                "nama": "Aliya",
                 "sebagai": "Anggota",
                 "nim": "122450083",
                 "fun_fact": "nyemilin es bata",
                 "motto_hidup": "mantap",
             },
             {
-                "nama": "x",
+                "nama": "Della",
                 "sebagai": "Anggotaa",
                 "nim": "122450000",
                 "fun_fact": "nyemilin",
                 "motto_hidup": "jalanin dulu aja",
             },
             {
-                "nama": "x",
+                "nama": "Elsa",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Favian",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Felisya",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Ghiyat",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
+            {
+                "nama": "Afdhal",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Nazlah",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Razan",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Rozak",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
 
