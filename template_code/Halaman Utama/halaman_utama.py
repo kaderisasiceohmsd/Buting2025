@@ -70,8 +70,28 @@ layout(url1)
 def streamlit_menu():
     selected = option_menu(
         menu_title=None,
-        options=["Home", "About Us"],
-        icons=["house-door", "hand-index"],
+        options=[
+            "Kesekjenan",
+            "Baleg",
+            "Senator",
+            "Departemen PSDA",
+            "Departemen MIKFES",
+            "Departemen Eksternal",
+            "Departemen Internal",
+            "Departemen SSD",
+            "Departemen Medkraf",
+        ],
+        icons=[
+            "people-fill",
+            "people-fill",
+            "people-fill",
+            "people-fill",
+            "people-fill",
+            "people-fill",
+            "people-fill",
+            "people-fill",
+            "people-fill",
+        ],
         default_index=0,
         orientation="horizontal",
         styles={
@@ -99,17 +119,34 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+            "<h1 class='centered-title'>Kami Cosval</h1>", unsafe_allow_html=True
         )
         st.markdown(
+
+            """<div style="text-align: justify;">Dalam sains data, cosval adalah singkatan dari cosine value, 
+            yaitu hasil perhitungan cosine similarity antara dua vektor. Konsep ini berasal dari matematika trigonometri, 
+            di mana cosinus digunakan untuk mengukur sudut antara dua vektor.
+            Dalam sains data, khususnya pada analisis kelompok (clustering) atau pengelompokan data, 
+            cosval (cosine value) dipahami sebagai ukuran numerik yang menunjukkan tingkat kemiripan antar anggota kelompok 
+            atau tingkat kedekatan suatu data dengan pusat kelompok (centroid).</div>""",
             """<div style="text-align: justify;">Buku Kating Cosval</div>""",
+
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1s2CshvEIz3_fV3QK_TOgpMsJQkcb3rDi"
         layout(foto_kelompok)
         st.markdown(
+
+            """<div style="text-align: justify;">Dalam sains data, cosval adalah singkatan dari cosine value, 
+            yaitu hasil perhitungan cosine similarity antara dua vektor. Konsep ini berasal dari matematika trigonometri, 
+            di mana cosinus digunakan untuk mengukur sudut antara dua vektor.
+            Dalam sains data, khususnya pada analisis kelompok (clustering) atau pengelompokan data, 
+            cosval (cosine value) dipahami sebagai ukuran numerik yang menunjukkan tingkat kemiripan antar anggota kelompok 
+            atau tingkat kedekatan suatu data dengan pusat kelompok (centroid)</div>""",
+
             """<div style="text-align: justify;">Buku Kating Cosval!</div>""",
+
             unsafe_allow_html=True,
         )
         st.write(""" """)
