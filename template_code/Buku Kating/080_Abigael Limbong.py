@@ -115,7 +115,7 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Makan Pisang",
                 "sosmed": "@_erendraa",
-                "kesan": "Kakak ini tegas dan ketawanya nular hahaha, asik banget!",  
+                "kesan": "Kakak ini tegas dan ketawanya menular hahaha, asik banget!",  
                 "pesan": "semoga selalu sukses dimana pun berada kakak !!!"# 1
             },
             {
@@ -124,7 +124,7 @@ if menu == "Kesekjenan":
                 "umur": "20",
                 "asal": "Tangerang",
                 "alamat": "Jalan Lapas",
-                "hobbi": " ",
+                "hobbi": "Baca buku sequel ",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "Kakak ini lucu banget parah!",  
                 "pesan": "semoga lancar kuliahnya kakak!!!"# 1
@@ -134,7 +134,7 @@ if menu == "Kesekjenan":
                 "nim": "122450123",
                 "umur": "20",
                 "asal": "Bogor",
-                "alamat": "Natar (Raden Inten)",
+                "alamat": "Ayres Kost",
                 "hobbi": "Gangguin Orang",
                 "sosmed": "@celisabethh_",
                 "kesan": "Kakak ini senyumnya manis, jadi suka deh!",  
@@ -156,7 +156,7 @@ if menu == "Kesekjenan":
                 "nim": "122450001",
                 "umur": "21",
                 "asal": "Sammosir/Sumatera Utara",
-                "alamat": "Natar (Raden Inten)",
+                "alamat": "Natar (Raden Intan)",
                 "hobbi": "Nemenin orang dari nol sampai jatuh ke jurang kemiskinan",
                 "sosmed": "@eksantyfebriana",
                 "kesan": "Kakak ini tegas sekaligus lucu dalam satu waktu, sukaaa!",  
@@ -166,9 +166,9 @@ if menu == "Kesekjenan":
                 "nama": "Kakak Farahanum Afifah Ardiansyah",
                 "nim": "122450001",
                 "umur": "21",
-                "asal": "Palembang",
+                "asal": "Padang",
                 "alamat": "Belwis",
-                "hobbi": "Tidur",
+                "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifah",
                 "kesan": "Kakak ini seru banget diajak ngobrol, suka deh",  
                 "pesan": "Jaga kesehatan terus kakak !!!"# 1
@@ -177,6 +177,241 @@ if menu == "Kesekjenan":
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
+    
+if menu == "Baleg":
+    def baleg():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1GssFMzoRbCwkWiQDvoT5E_IkjtR8uAJu",
+            "https://drive.google.com/uc?export=view&id=1KV23gXma6AWwl7U8ZRjLdgTe_FWHoahO",
+             "https://drive.google.com/uc?export=view&id=14w3iUtKO_YUypsET8QYnIvd13kHid53C",
+             "https://drive.google.com/uc?export=view&id=151L2RoWLX0NHM4ga_oJayPcR3pmV_JZV",
+            "https://drive.google.com/uc?export=view&id=15yOWLJSgO1GleNpPjQWJ38grdKQ7YOqa",
+             "https://drive.google.com/uc?export=view&id=1VfZ-PSvsNHI03AsBgZvauo9_q8aH35P-",
+            "https://drive.google.com/uc?export=view&id=1DVyXlMwFf4TNja5MZUCRVve7Z9uFzJlk",
+            "https://drive.google.com/uc?export=view&id=1kXxgMLoBHNE2Qe9fJ58F8VHrNk7eY86E",
+            "https://drive.google.com/uc?export=view&id=1S4cdEXqkmL73XmQZZANTi_hF0vTXVzmE",
+            "https://drive.google.com/uc?export=view&id=1TpuYU3vt-9JFsE1076z5qjoK258VNocr",
+            "https://drive.google.com/uc?export=view&id=1hDUdmPT1jS1sIAz2RtQaBGoHSs_nSh31",
+            "https://drive.google.com/uc?export=view&id=1SdocdhBPqOJB-44b3P1w6S6K-t1Xb3Am",
+            "https://drive.google.com/uc?export=view&id=1q8ezJRhP1GKjOdC02cWcRIlVs6Gv1QhA",
+            "https://drive.google.com/uc?export=view&id=1m60QTcZLXNseW7awAieINFi1EgkD5PXc",
+        ]
+        data_list = [
+            {
+                "nama": "Kakak Jeremia Susanto",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@ ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Dhea Amelia Putri",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@ ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Renisha Putri Giani",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Annisa Fitriyani",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Dharu Cahyoaji Sasongko",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@",
+                "kesan": " ",  
+                "pesan":" "# 1
+            },
+             {
+                "nama": "Kakak Feby Wulandari",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Givaro Ananta",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Mirzan Yusuf Rabbani",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Berliana Enda Putri",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Juesi Apridelia Saragih",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Ridho Benedictus Togi Manik",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@ ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Feryadi Yulius",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Monica Patricia Tanjung",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@ ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Wan Nashwa Alhasni Yuska",
+                "nim": " ",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@ ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    baleg()
+
+if menu == "Senator":
+    def senator():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1bJiSw9OQ_B3IGAMnMYqkdUaFyXtl12ai",
+            "https://drive.google.com/uc?export=view&id=1kQ_UKG693TchnUWBrQi43H3spdJ3dbo_",
+             "https://drive.google.com/uc?export=view&id=1LzasgfP-hAMih41Y1hvI1ENm_yK8Ave2",
+             "https://drive.google.com/uc?export=view&id=1nSNh-fkhR2vR8B40mIoRq4BKEFUVePWE",
+        ]
+        data_list = [
+            {
+                "nama": "Kakak Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal": "Palembang",
+                "alamat": "Pulau Damar",
+                "hobbi": "Tidur",
+                "sosmed": "@bintangtwinkle",
+                "kesan": "Kakak ini suka suasana santai tapi sopan, sangat unik!",  
+                "pesan": "semoga semuanya dipermudah kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak Nadya Ratu Anjani",
+                "nim": "123450043",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Mendengar Lagu ",
+                "sosmed": "@nadyaanjaani",
+                "kesan": "Kakak ini cantik banget, pangling lihatnya!",  
+                "pesan": "semoga akademik nya diperlancar kakak!!!"# 1
+            },
+              {
+                "nama": "Kakak Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi": "Melamun",
+                "sosmed": "@fathinahnazzh",
+                "kesan": "Kakak ini independent women looks banget, jadi inspirasi aku!",  
+                "pesan": "semoga sehat selalu ya kakak!!!"# 1
+            },
+              {
+                "nama": "Kakak Lia Hana Ichisasmita",
+                "nim": "123450089",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Indomaret Belwis",
+                "hobbi": "Main Roblox",
+                "sosmed": "@lia.h_264",
+                "kesan": "Kakak ini pendiam tapi lucu, manis deh!",  
+                "pesan": "Semoga kuliahnya lancar selalu ya kakak !!!"# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    senator()
 
 # Tambahkan menu lainnya sesuai kebutuhan
 
