@@ -108,7 +108,7 @@ if menu == "Kesekjenan":
                 "nama": "Rendra Eka Prayoga",
                 "nim": "122450000",
                 "umur": "20",
-                "asal":"Bekasi",
+                "asal":"Bekasis",
                 "alamat": "Gg.sakum",
                 "hobbi": "Ahoy",
                 "sosmed": "@i",
