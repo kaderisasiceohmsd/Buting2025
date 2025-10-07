@@ -122,21 +122,24 @@ if menu == "Home":
             "<h1 class='centered-title'>Kami Cosval</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Dalam sains data, cosval adalah 
-            singkatan dari cosine value, yaitu hasil perhitungan cosine similarity 
-            antara dua vektor. Konsep ini berasal dari matematika trigonometri, 
+            """<div style="text-align: justify;">Dalam sains data, cosval adalah singkatan dari cosine value, 
+            yaitu hasil perhitungan cosine similarity antara dua vektor. Konsep ini berasal dari matematika trigonometri, 
             di mana cosinus digunakan untuk mengukur sudut antara dua vektor.
-            Dalam sains data, khususnya pada analisis kelompok (clustering) atau 
-            pengelompokan data, cosval (cosine value) dipahami sebagai ukuran numerik 
-            yang menunjukkan tingkat kemiripan antar anggota kelompok atau tingkat 
-            kedekatan suatu data dengan pusat kelompok (centroid).</div>""",
+            Dalam sains data, khususnya pada analisis kelompok (clustering) atau pengelompokan data, 
+            cosval (cosine value) dipahami sebagai ukuran numerik yang menunjukkan tingkat kemiripan antar anggota kelompok 
+            atau tingkat kedekatan suatu data dengan pusat kelompok (centroid).</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/file/d/1s2CshvEIz3_fV3QK_TOgpMsJQkcb3rDi/view?usp=sharing"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1s2CshvEIz3_fV3QK_TOgpMsJQkcb3rDi"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">KAMI ADALAH KELUARGA.</div>""",
+            """<div style="text-align: justify;">Dalam sains data, cosval adalah singkatan dari cosine value, 
+            yaitu hasil perhitungan cosine similarity antara dua vektor. Konsep ini berasal dari matematika trigonometri, 
+            di mana cosinus digunakan untuk mengukur sudut antara dua vektor.
+            Dalam sains data, khususnya pada analisis kelompok (clustering) atau pengelompokan data, 
+            cosval (cosine value) dipahami sebagai ukuran numerik yang menunjukkan tingkat kemiripan antar anggota kelompok 
+            atau tingkat kedekatan suatu data dengan pusat kelompok (centroid)</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
