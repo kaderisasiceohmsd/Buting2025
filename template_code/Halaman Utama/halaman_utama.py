@@ -143,11 +143,11 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "Gh Mikael Niko Antoni Setiadi",
                 "sebagai": "Pak Lurah",
-                "nim": "122450016",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
-                "motto_hidup": "new semester new me",
+                "nim": "124450025",
+                "fun_fact": "saya lahir mirip krisna",
+                "motto_hidup": "Permasalahan hidup adalah sumber kebijaksanaan",
             },
             {
                 "nama": "x",
