@@ -134,7 +134,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1NRBQH_QT8lNsbMgg6gWx4wvw-yfxObUU", #rahma
             "https://drive.google.com/uc?export=view&id=1PlYQrm1pg9FoCmZHf9o79lLAYC2ozbuZ", #fadya
             "https://drive.google.com/uc?export=view&id=1RpUljY4kbmbHDiXhbts5hZMmpfh1usw3", #indah
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #caca
+            "https://drive.google.com/uc?export=view&id=1qI4MFay1-fhuszwZQwlPxYsv2BY-ybne", #caca
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #anggun
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #raisya
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #jaya
@@ -171,11 +171,11 @@ elif menu == "About Us":
                 "motto_hidup": "Succes is the sum of small efforts, repeated day in and day out.",
             },
             {
-                "nama": "x",
+                "nama": "Jacinda Kesya Alvara",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450023",
+                "fun_fact": "Suka buat skenario sebelum tidur",
+                "motto_hidup": "Stop talking about your dreams, and start doing them",
             },
             {
                 "nama": "Anggun Nita",
