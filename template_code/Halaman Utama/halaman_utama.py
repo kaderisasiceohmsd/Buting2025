@@ -37,7 +37,32 @@ def display_images_with_data(gambar_urls, data_list):
 
 
 # JANGAN DIUBAH
+st.markdown(
+    """
+    <style>
+   
+    .stApp {
+        background-color: #234C6A; /* Ganti dengan warna yang kamu mau */
+    }
 
+    /* Mengubah warna sidebar */
+    [data-testid="stSidebar"] {
+        background-color: #456882; /* Ganti warna biru sidebar */
+    }
+
+    /* Ubah warna teks di sidebar biar kontras */
+    [data-testid="stSidebar"] * {
+        color: white !important;
+    }
+
+    /* (Opsional) ubah warna tombol atau teks di navbar */
+    .nav-link {
+        color: white !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 st.markdown(
     """
     <div style='text-align: center;'>
