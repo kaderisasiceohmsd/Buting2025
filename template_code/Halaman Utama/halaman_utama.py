@@ -75,7 +75,7 @@ def streamlit_menu():
         default_index=0,
         orientation="horizontal",
         styles={
-            "container": {"padding": "0!important", "background-color": "#099df3"},
+            "container": {"padding": "0!important", "background-color": "#CC9933"},
             "icon": {"color": "black", "font-size": "19px"},
             "nav-link": {
                 "font-size": "15px",
@@ -83,7 +83,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "#178C72"},
+            "nav-link-selected": {"background-color": "#134158"},
         },
     )
     return selected
@@ -120,7 +120,7 @@ Dalam dunia statistik 📊, ANOVA adalah singkatan dari Analysis of Variance, se
     Karena kami percaya, seperti halnya dalam analisis variansi, setiap perbedaan bisa berarti, asal kita tahu cara mengolahnya bersama💻.
     <br><br>
     <div style="text-align:center; font-weight:bold; margin-top:10px;">
-    "WE ARE THE NEXT EXCELLENCE GENERATION!"
+    "We are the Next Excellent Generation"
     </div>
     </div>""",
     unsafe_allow_html=True,
