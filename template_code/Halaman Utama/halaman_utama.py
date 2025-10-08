@@ -173,10 +173,10 @@ elif menu == "About Us":
             },
             {
                 "nama": "Cerine Sihotang",
-                "sebagai": "Anak Palu & Bulu",
-                "nim": "124450101",
-                "fun_fact": "Bisa Beatbox, Lucid Dream",
-                "motto_hidup": "Do The Best & Let God The Rest",
+                "sebagai": "Sebagai member anova ter imupp dan tercantikkk",
+                "nim": "124450049",
+                "fun_fact": "Suka ngomong sama pulpen",
+                "motto_hidup": "capek boleh nyerah jangan",
             },
             {
                 "nama": "Anash Tasya Ausyaqila",
