@@ -131,7 +131,7 @@ elif menu == "About Us":
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #niko
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #rahma
+            "https://drive.google.com/uc?export=view&id=1NRBQH_QT8lNsbMgg6gWx4wvw-yfxObUU", #rahma
             "https://drive.google.com/uc?export=view&id=1PlYQrm1pg9FoCmZHf9o79lLAYC2ozbuZ", #fadya
             "https://drive.google.com/uc?export=view&id=1RpUljY4kbmbHDiXhbts5hZMmpfh1usw3", #indah
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #caca
@@ -150,11 +150,11 @@ elif menu == "About Us":
                 "motto_hidup": "Permasalahan hidup adalah sumber kebijaksanaan",
             },
             {
-                "nama": "x",
+                "nama": "Dwi Rahma Fitriani",
                 "sebagai": "Bu Lurah",
-                "nim": "122450000",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "Ya apa ya",
+                "nim": "124450084",
+                "fun_fact": "Takut ikan gabus",
+                "motto_hidup": "No delay no problem",
             },
             {
                 "nama": "Fadya Izzatul 'Aini",
