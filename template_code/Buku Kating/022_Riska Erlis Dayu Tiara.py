@@ -102,7 +102,7 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=14wXKui8Gw1LXY3vyzmfNzG4DU_RqEOBc",
             "https://drive.google.com/uc?export=view&id=14l1N_1vSxJXWceeMJw3apHz5Upp2O3sI",
             "https://drive.google.com/uc?export=view&id=14bNj8xOm6VFC3FZtNWMyU5qjDvb9WyWN",
-            "https://drive.google.com/uc?export=view&id=14ox7sx2GJflj43kqnBjlamSpIPgMTh2L",
+            "https://drive.google.com/uc?export=view&id=14LLpC8yIepUsl9dVE8jA6C5gWPQL6bkc",
             "https://drive.google.com/uc?export=view&id=14mqEOiUvhhmhIgJ0C_GZ8RkJPv09o4u1",
             "https://drive.google.com/uc?export=view&id=14ox7sx2GJflj43kqnBjlamSpIPgMTh2L",
         ]
@@ -178,5 +178,6 @@ if menu == "Kesekjenan":
     kesekjenan()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
