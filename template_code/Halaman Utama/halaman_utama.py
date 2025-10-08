@@ -199,11 +199,11 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "Afdhal",
+                "nama": "Lutfi",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450047",
+                "fun_fact": "Makan sayur hanya daunnya saja tidak dengan tangkainya",
+                "motto_hidup": "Man Jadda Wa Jadda",
             },
             {
                 "nama": "Nazlah",
