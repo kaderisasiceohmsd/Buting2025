@@ -106,7 +106,7 @@ def display_images_with_data(gambar_urls, data_list):
         box-shadow: 0 4px 10px rgba(0,0,0,0.08);
         letter-spacing: 0.5px;
     ">
-        Anda telah mencapai akhir halaman <br>
+        Anda telah mencapai akhir halaman<br>
         <span style="font-weight:500; font-size:18px; color:#555;">(tidak ada apa-apa disini)</span>
     </div>
 """, unsafe_allow_html=True)
