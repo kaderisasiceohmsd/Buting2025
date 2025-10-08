@@ -164,11 +164,11 @@ elif menu == "About Us":
                 "motto_hidup": "mantap",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450000",
-                "fun_fact": "nyemilin",
-                "motto_hidup": "jalanin dulu aja",
+                "nama": "Nazlah Auliya",
+                "sebagai": "Anggota",
+                "nim": "122450054",
+                "fun_fact": "Susah ngapalin Nama Orang",
+                "motto_hidup": "Berbuatlah kebaikan maka itu akan kembali ke diri sendiri",
             },
             {
                 "nama": "x",
