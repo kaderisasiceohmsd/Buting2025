@@ -100,7 +100,7 @@ def streamlit_menu():
         default_index=0,
         orientation="horizontal",
         styles={
-            "container": {"padding": "0!important", "background-color": "#234C6A"},
+            "container": {"padding": "0!important", "background-color": "#708993"},
             "icon": {"color": "black", "font-size": "19px"},
             "nav-link": {
                 "font-size": "15px",
@@ -108,7 +108,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "456882"},
+            "nav-link-selected": {"background-color": "#E7F2EF"},
         },
     )
     return selected
