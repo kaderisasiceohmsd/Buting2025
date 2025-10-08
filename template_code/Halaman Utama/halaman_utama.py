@@ -210,7 +210,7 @@ elif menu == "About Us":
                 "nama": "Shafa Delaila Azzahra",
                 "sebagai": "member anova terimupp",
                 "nim": "124450124",
-                "fun_fact": "suka makan tempe mentah",
+                "fun_fact": "suka makan tempe mentaahh",
                 "motto_hidup": "Not long, but meaningful",
             },
             {
