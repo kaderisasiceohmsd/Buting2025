@@ -198,6 +198,13 @@ elif menu == "About Us":
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
+            {
+                "nama": "Riska Erlis Dayu Tiara",
+                "sebagai": "Anggotaa",
+                "nim": "12450022",
+                "fun_fact": "suka bengong liat sekitar",
+                "motto_hidup": "setiap tantangan adalah peluang untuk berkembang",
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
 
