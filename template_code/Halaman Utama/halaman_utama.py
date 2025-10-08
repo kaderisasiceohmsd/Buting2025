@@ -187,10 +187,10 @@ elif menu == "About Us":
             },
             {
                 "nama": "Fitra Pratama Mega",
-                "sebagai": "Anak Palu & Bulu",
-                "nim": "124450101",
-                "fun_fact": "Bisa Beatbox, Lucid Dream",
-                "motto_hidup": "Do The Best & Let God The Rest",
+                "sebagai": "member",
+                "nim": "124450070",
+                "fun_fact": "gabisa tidur kalau kamar masi berantakan",
+                "motto_hidup": "selalu belajar hal hal baik dari apa yang dilihat dan didengar",
             },
             {
                 "nama": "Afriza Azmi",
@@ -215,10 +215,10 @@ elif menu == "About Us":
             },
             {
                 "nama": "Ahmad Zidane Rabbaanee",
-                "sebagai": "Anak Palu & Bulu",
-                "nim": "124450101",
-                "fun_fact": "Bisa Beatbox, Lucid Dream",
-                "motto_hidup": "Do The Best & Let God The Rest",
+                "sebagai": "member anova",
+                "nim": "124450130",
+                "fun_fact": "bisa diem seharian",
+                "motto_hidup": "cukup diam lalu buktikan",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
