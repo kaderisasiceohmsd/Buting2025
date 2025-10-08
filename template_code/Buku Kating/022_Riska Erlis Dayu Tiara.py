@@ -99,13 +99,16 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=14wXKui8Gw1LXY3vyzmfNzG4DU_RqEOBc/view",
+            "https://drive.google.com/uc?export=view&id=14LLpC8yIepUsl9dVE8jA6C5gWPQL6bkc/view",
+            "https://drive.google.com/uc?export=view&id=14bNj8xOm6VFC3FZtNWMyU5qjDvb9WyWN/view",
+            "https://drive.google.com/uc?export=view&id=1vSxJXWceeMJw3apHz5Upp2O3sI/view",
+            "https://drive.google.com/uc?export=view&id=14mqEOiUvhhmhIgJ0C_GZ8RkJPv09o4u1/view",
+            "https://drive.google.com/uc?export=view&id=14ox7sx2GJflj43kqnBjlamSpIPgMTh2L/view",
         ]
         data_list = [
             {
-                "nama": "Kakak A",
+                "nama": "Rendra Eka Prayoga",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -116,7 +119,7 @@ if menu == "Kesekjenan":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak B",
+                "nama": "Syadza Puspadari Azhar",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -127,7 +130,40 @@ if menu == "Kesekjenan":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak CCc",
+                "nama": "Elisabeth Claudia Simanjuntak",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Johannes Krisjon Silitonga",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Eksanty F. Sukma Islamiaty",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Farahanum Afifah Ardiansyah",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -142,3 +178,4 @@ if menu == "Kesekjenan":
     kesekjenan()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
