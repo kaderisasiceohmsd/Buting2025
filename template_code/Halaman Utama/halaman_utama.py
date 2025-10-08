@@ -214,7 +214,7 @@ elif menu == "About Us":
                 "motto_hidup": "Do The Best & Let God The Rest",
             },
             {
-                "nama": "JAhmad Zidane Rabbaanee",
+                "nama": "Ahmad Zidane Rabbaanee",
                 "sebagai": "Anak Palu & Bulu",
                 "nim": "124450101",
                 "fun_fact": "Bisa Beatbox, Lucid Dream",
