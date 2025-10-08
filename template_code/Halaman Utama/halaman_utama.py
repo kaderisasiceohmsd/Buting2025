@@ -201,11 +201,11 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "Rizaldi",
+                "nama": "Muhammad Rizaldi",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450093",
+                "fun_fact": "Semua jariku bengkok, suka ngelipetin kantong kresek",
+                "motto_hidup": "Jalanin dulu hari ini, Hari esok liat nanti lah",
             },
             {
                 "nama": "Yazid",
