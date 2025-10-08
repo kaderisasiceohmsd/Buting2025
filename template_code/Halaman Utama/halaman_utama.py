@@ -42,7 +42,7 @@ st.markdown(
     """
     <div style='text-align: center;'>
         <h1 style='font-size: 5.5em;'>WEBSITE KATING</h1>
-        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2024</p>
+        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2025</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -75,7 +75,7 @@ def streamlit_menu():
         default_index=0,
         orientation="horizontal",
         styles={
-            "container": {"padding": "0!important", "background-color": "#fafafa"},
+            "container": {"padding": "0!important", "background-color": "#099df3"},
             "icon": {"color": "black", "font-size": "19px"},
             "nav-link": {
                 "font-size": "15px",
@@ -83,7 +83,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "#3FBAD8"},
+            "nav-link-selected": {"background-color": "#178C72"},
         },
     )
     return selected
@@ -99,29 +99,32 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+            "<h1 class='centered-title'>Deskripsi Kelompok 4 ANOVA</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">Halo semua! Perkenalkan kami, Kelompok 4 ANOVA, salah satu kelompok kaderisasi HMSD Adyatama 2025! 🤩
+Kami beranggotakan 10 orang luar biasa dengan mentor yang super keren, Bang Givaro.🙆🏻
+Nama ANOVA bukan sekadar nama biasa ia punya makna yang dalam dan penuh semangat.🙌🏻
+Dalam dunia statistik 📊, ANOVA adalah singkatan dari Analysis of Variance, sebuah metode untuk melihat perbedaan antar kelompok dan menentukan apakah perbedaan itu benar-benar berarti. Nah, filosofi itu kami bawa ke dalam kelompok kami.😉
+</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1_Zd4qf_dnTmdU4uyae5VtVNNxRrb8t2g"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
-            unsafe_allow_html=True,
-        )
+    """<div style="text-align: justify;">
+    ANOVA bagi kami berarti perbedaan yang menyatu jadi kekuatan🤔. Kami datang dari latar belakang, karakter, dan kemampuan yang beragam tapi justru di situlah keindahannya🌈. 
+    Setiap anggota punya “warna” sendiri, dan saat semua warna itu digabungkan, terbentuklah satu harmoni yang solid dan berenergi. 
+    Dengan semangat kerja sama, rasa ingin tahu, dan tekad untuk terus berkembang, ANOVA siap jadi kelompok yang nggak cuma kompak, tapi juga berprestasi💫! 
+    Karena kami percaya, seperti halnya dalam analisis variansi, setiap perbedaan bisa berarti asal kita tahu cara mengolahnya bersama💻.
+    <br><br>
+    <div style="text-align:center; font-weight:bold; margin-top:10px;">
+    "WE ARE THE NEXT EXCELLENCE GENERATION!"
+    </div>
+    </div>""",
+    unsafe_allow_html=True,
+)
         st.write(""" """)
 
     home_page()
@@ -135,6 +138,11 @@ elif menu == "About Us":
         )
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1tQAhvJOTqEg9zCiZdwSWpsr58CaFdsAp",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -143,60 +151,74 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "x",
-                "sebagai": "Pak Lurah",
-                "nim": "122450016",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
-                "motto_hidup": "new semester new me",
+                "nama": "Jeremia Halim",
+                "sebagai": "Anak Palu & Bulu terkeren",
+                "nim": "124450101",
+                "fun_fact": "Bisa Beatbox, Lucid Dream",
+                "motto_hidup": "Do your best & let God handle the rest.",
             },
             {
-                "nama": "x",
-                "sebagai": "Bu Lurah",
-                "nim": "122450000",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "Ya apa ya",
+                "nama": "Asri Meilani",
+                "sebagai": "Bulu Gorjes",
+                "nim": "124450010",
+                "fun_fact": "-",
+                "motto_hidup": "-",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggota",
-                "nim": "122450083",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "mantap",
+                "nama": "Difanya Husakina",
+                "sebagai": "Anggota Anova paling imup",
+                "nim": "124450043",
+                "fun_fact": "Kalau tidur harus ada suara dan pernah ilang 2 kali waktu TK",
+                "motto_hidup": "what you do now is the result of your efforts in the past",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450000",
-                "fun_fact": "nyemilin",
-                "motto_hidup": "jalanin dulu aja",
+                "nama": "Cerine Sihotang",
+                "sebagai": "Anak Palu & Bulu",
+                "nim": "124450101",
+                "fun_fact": "Bisa Beatbox, Lucid Dream",
+                "motto_hidup": "Do The Best & Let God The Rest",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Anash Tasya Ausyaqila",
+                "sebagai": "Anggota Anova paling kalem",
+                "nim": "124450050",
+                "fun_fact": "Gasuka daging sapi sama kambing",
+                "motto_hidup": "Dream big, act bigger",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Fitra Pratama Mega",
+                "sebagai": "Anak Palu & Bulu",
+                "nim": "124450101",
+                "fun_fact": "Bisa Beatbox, Lucid Dream",
+                "motto_hidup": "Do The Best & Let God The Rest",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Afriza Azmi",
+                "sebagai": "Palu tergacor",
+                "nim": "124450110",
+                "fun_fact": "sering ngomong sama diri sendiri",
+                "motto_hidup": "Power is not given, it's taken",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Jona Timothy Ogatse Panjaitan",
+                "sebagai": "Anak Palu & Bulu",
+                "nim": "124450101",
+                "fun_fact": "Bisa Beatbox, Lucid Dream",
+                "motto_hidup": "Do The Best & Let God The Rest",
+            },
+            {
+                "nama": "Shafa Delaila Azzahra",
+                "sebagai": "Anak Palu & Bulu",
+                "nim": "124450101",
+                "fun_fact": "Bisa Beatbox, Lucid Dream",
+                "motto_hidup": "Do The Best & Let God The Rest",
+            },
+            {
+                "nama": "Ahmad Zidane Rabbaanee",
+                "sebagai": "Anak Palu & Bulu",
+                "nim": "124450101",
+                "fun_fact": "Bisa Beatbox, Lucid Dream",
+                "motto_hidup": "Do The Best & Let God The Rest",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
