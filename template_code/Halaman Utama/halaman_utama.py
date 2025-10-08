@@ -102,24 +102,33 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">
+            Teorema Bayes mengajarkan bahwa keyakinan awal (prior) bukanlah sesuatu yang mutlak. Setiap 
+            bukti baru (evidence) yang datang dapat memperkaya dan bahkan mengubah keyakinan itu, sehingga lahirlah 
+            pemahaman yang lebih matang (posterior).
+            Dari sini ada beberapa nilai filosofis yang bisa ditarik:
+            1. Belajar dari pengalaman: 
+            Kita tidak boleh terpaku pada pandangan lama. Bukti baru harus dijadikan dasar untuk 
+            memperbaiki cara berpikir.
+            2. Keterbukaan & kerendahan hati:
+            Tidak ada keyakinan awal yang sempurna. 
+            Teorema Bayes menekankan perlunya terbuka terhadap informasi baru agar tidak 
+            terjebak pada kesalahan.
+            3. Proses berkelanjutan:
+            Pembaruan keyakinan bukan terjadi sekali, tapi terus-menerus. Ini menggambarkan 
+            bahwa hidup adalah proses belajar tanpa henti.
+            4. Keseimbangan antara tradisi & perubahan:
+            Prior tidak dibuang, tapi dikoreksi dengan evidence. Artinya, identitas awal tetap penting, 
+            namun harus siap disempurnakan oleh pengalaman.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">Jadi secara singkat:
+            Teorema Bayes memberi filosofi bahwa hidup adalah proses memperbarui keyakinan dan keputusan 
+            berdasarkan bukti baru, sehingga kita menjadi lebih adaptif, bijak, dan terus berkembang.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -143,56 +152,77 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "Fernando",
                 "sebagai": "Pak Lurah",
                 "nim": "122450016",
                 "fun_fact": "suka makan pedes, tapi ga suka efeknya",
                 "motto_hidup": "new semester new me",
             },
             {
-                "nama": "x",
+                "nama": "Azzelya Thianandry",
                 "sebagai": "Bu Lurah",
-                "nim": "122450000",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "Ya apa ya",
+                "nim": "124450041",
+                "fun_fact": "gabisa tidur tanpa selimut",
+                "motto_hidup": "Do it for the plot",
             },
             {
-                "nama": "x",
+                "nama": "Alsi",
                 "sebagai": "Anggota",
                 "nim": "122450083",
                 "fun_fact": "nyemilin es bata",
                 "motto_hidup": "mantap",
             },
             {
-                "nama": "x",
+                "nama": "Bina",
                 "sebagai": "Anggotaa",
                 "nim": "122450000",
                 "fun_fact": "nyemilin",
                 "motto_hidup": "jalanin dulu aja",
             },
             {
-                "nama": "x",
+                "nama": "Hafidz",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Zannuba",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Iqbal",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Rizaldi",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Yazid",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Yollanda",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Yulia",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
                 "fun_fact": "nyemilin es bata, kiko",
