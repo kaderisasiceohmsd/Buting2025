@@ -188,8 +188,8 @@ elif menu == "About Us":
                 "nama": "Raisya Izzati Harira",
                 "sebagai": "Anggotaa",
                 "nim": "124450122",
-                "fun_fact": "Pernah jadi atheist",
-                "motto_hidup": "jalanin dulu keles",
+                "fun_fact": "Pernah jadi atheist :v",
+                "motto_hidup": "Selagi masih nafas, jangan sengaja dihentiin",
             },
             {
                 "nama": "x",
