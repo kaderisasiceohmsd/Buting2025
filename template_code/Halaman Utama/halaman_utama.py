@@ -102,11 +102,16 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Testing Butu Kating Anovaaaaa!!!</div>""",
+            """<div style="text-align: justify;">🎉 Welcome to the Best Group ANOVA! 🎉
+
+Hai semuanya! Selamat datang di ANOVA, kelompok yang nggak cuma keren dari nama, tapi juga dari semangat di baliknya! 😎
+Nama ANOVA diambil dari istilah statistik Analysis of Variance, yang berarti analisis perbedaan. Tapi buat kami, ANOVA bukan sekadar istilah ilmiah ini adalah filosofi tentang bagaimana setiap perbedaan bisa menghasilkan sesuatu yang luar biasa. ✨
+
+</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1_Zd4qf_dnTmdU4uyae5VtVNNxRrb8t2g"
         layout(foto_kelompok)
         st.markdown(
             """<div style="text-align: justify;">Deskripsi Anova ni bos!</div>""",
