@@ -207,18 +207,18 @@ elif menu == "About Us":
                 "motto_hidup": "Do The Best & Let God The Rest",
             },
             {
-                "Nama": "Shafa Delaila Azzahra",
-                "Sebagai": "Anak Palu & Bulu",
-                "NIM": "124450101",
-                "Fun Fact": "Bisa Beatbox, Lucid Dream",
-                "Motto Hidup": "Do The Best & Let God The Rest",
+                "nama": "Shafa Delaila Azzahra",
+                "sebagai": "Anak Palu & Bulu",
+                "nim": "124450101",
+                "fun_fact": "Bisa Beatbox, Lucid Dream",
+                "motto_hidup": "Do The Best & Let God The Rest",
             },
             {
-                "Nama": "JAhmad Zidane Rabbaanee",
-                "Sebagai": "Anak Palu & Bulu",
-                "NIM": "124450101",
-                "Fun Fact": "Bisa Beatbox, Lucid Dream",
-                "Motto Hidup": "Do The Best & Let God The Rest",
+                "nama": "JAhmad Zidane Rabbaanee",
+                "sebagai": "Anak Palu & Bulu",
+                "nim": "124450101",
+                "fun_fact": "Bisa Beatbox, Lucid Dream",
+                "motto_hidup": "Do The Best & Let God The Rest",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
