@@ -211,7 +211,7 @@ elif menu == "About Us":
                 "sebagai": "member anova terimupp",
                 "nim": "124450124",
                 "fun_fact": "suka makan tempe mentah",
-                "motto_hidup": "not long, but meaningful",
+                "motto_hidup": "Not long, but meaningful",
             },
             {
                 "nama": "Ahmad Zidane Rabbaanee",
