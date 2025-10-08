@@ -99,14 +99,13 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok ANOVA</h1>", unsafe_allow_html=True
+            "<h1 class='centered-title'>Deskripsi Kelompok 4 ANOVA</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">🎉 Welcome to the Best Group ANOVA! 🎉
-
-Hai semuanya! Selamat datang di ANOVA, kelompok yang nggak cuma keren dari nama, tapi juga dari semangat di baliknya! 😎
-Nama ANOVA diambil dari istilah statistik Analysis of Variance, yang berarti analisis perbedaan. Tapi buat kami, ANOVA bukan sekadar istilah ilmiah, ini adalah filosofi tentang bagaimana setiap perbedaan bisa menghasilkan sesuatu yang luar biasa. ✨
-
+            """<div style="text-align: justify;">Halo semua! Perkenalkan kami, Kelompok 4 ANOVA, salah satu kelompok kaderisasi HMSD Adyatama 2025! 🤩
+Kami beranggotakan 10 orang luar biasa dengan mentor yang super keren, Bang Givaro.🙆🏻
+Nama ANOVA bukan sekadar nama biasa ia punya makna yang dalam dan penuh semangat.🙌🏻
+Dalam dunia statistik 📊, ANOVA adalah singkatan dari Analysis of Variance, sebuah metode untuk melihat perbedaan antar kelompok dan menentukan apakah perbedaan itu benar-benar berarti. Nah, filosofi itu kami bawa ke dalam kelompok kami.😉
 </div>""",
             unsafe_allow_html=True,
         )
@@ -114,7 +113,7 @@ Nama ANOVA diambil dari istilah statistik Analysis of Variance, yang berarti ana
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1_Zd4qf_dnTmdU4uyae5VtVNNxRrb8t2g"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Deskripsi Anova ni bos!</div>""",
+            """<div style="text-align: justify;">ANOVA bagi kami berarti perbedaan yang menyatu jadi kekuatan🤔. Kami datang dari latar belakang, karakter, dan kemampuan yang beragam  tapi justru di situlah keindahannya🌈. Setiap anggota punya “warna” sendiri, dan saat semua warna itu digabungkan, terbentuklah satu harmoni yang solid dan berenergi.  Dengan semangat kerja sama, rasa ingin tahu, dan tekad untuk terus berkembang, ANOVA siap jadi kelompok yang nggak cuma kompak, tapi juga berprestasi💫! Karena kami percaya, seperti halnya dalam analisis variansi, setiap perbedaan bisa berarti asal kita tahu cara mengolahnya bersama💻.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
