@@ -117,7 +117,7 @@ Dalam dunia statistik 📊, ANOVA adalah singkatan dari Analysis of Variance, se
     ANOVA bagi kami berarti perbedaan yang menyatu jadi kekuatan🤔. Kami datang dari latar belakang, karakter, dan kemampuan yang beragam tapi justru di situlah keindahannya🌈. 
     Setiap anggota punya “warna” sendiri, dan saat semua warna itu digabungkan, terbentuklah satu harmoni yang solid dan berenergi. 
     Dengan semangat kerja sama, rasa ingin tahu, dan tekad untuk terus berkembang, ANOVA siap jadi kelompok yang nggak cuma kompak, tapi juga berprestasi💫! 
-    Karena kami percaya, seperti halnya dalam analisis variansi, setiap perbedaan bisa berarti asal kita tahu cara mengolahnya bersama💻.
+    Karena kami percaya, seperti halnya dalam analisis variansi, setiap perbedaan bisa berarti, asal kita tahu cara mengolahnya bersama💻.
     <br><br>
     <div style="text-align:center; font-weight:bold; margin-top:10px;">
     "WE ARE THE NEXT EXCELLENCE GENERATION!"
@@ -201,17 +201,17 @@ elif menu == "About Us":
             },
             {
                 "nama": "Jona Timothy Ogatse Panjaitan",
-                "sebagai": "Anak Palu & Bulu",
-                "nim": "124450101",
-                "fun_fact": "Bisa Beatbox, Lucid Dream",
-                "motto_hidup": "Do The Best & Let God The Rest",
+                "sebagai": "member anova",
+                "nim": "124450121",
+                "fun_fact": "bisa bunyiin tangan(kecapin)",
+                "motto_hidup": "Chase goals at sunrise, not excuses at sunset",
             },
             {
                 "nama": "Shafa Delaila Azzahra",
-                "sebagai": "Anak Palu & Bulu",
-                "nim": "124450101",
-                "fun_fact": "Bisa Beatbox, Lucid Dream",
-                "motto_hidup": "Do The Best & Let God The Rest",
+                "sebagai": "member anova terimupp",
+                "nim": "124450124",
+                "fun_fact": "suka makan tempe mentah",
+                "motto_hidup": "not long, but meaningful",
             },
             {
                 "nama": "Ahmad Zidane Rabbaanee",
