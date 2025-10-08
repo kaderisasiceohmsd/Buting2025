@@ -137,49 +137,63 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
-    {
-        # --- Konflik 1 Diselesaikan ---
-        # Kita memilih versi dari branch Melva
-        "nama": "Hazel Mahesa Handaka",
-        "sebagai": "Pak Lurah",
-        "nim": "124450114",
-        "fun_fact": "suka makan, tapi gak suka makan berkuah",
-        "motto_hidup": "new semester new me",
-    },
-    {
-        "nama": "Sekar Dini Widya Putri",
-        "sebagai": "Bu Lurah",
-        "nim": "124450082",
-        "fun_fact": "nyemilin es bata",
-        "motto_hidup": "Ya apa ya",
-    },
-    {
-        # --- Konflik 2 Diselesaikan (Opsi 1: Menambahkan keduanya) ---
-        # Kita ambil data Melva
-        "nama": "Melva Shaprina Febrianti ",
-        "sebagai": "Anggota",
-        "nim": "124450087",
-        "fun_fact": "gak bisa tidur tanpa kain ibu",
-        "motto_hidup": "mantap",
-    },
-    {
-        # Kita juga ambil data Gathfan dari branch Markov
-        "nama": "Gathfan Nadif Ali",
-        "sebagai": "Anggota",
-        "nim": "124450001",
-        "fun_fact": "Multitasking kalo main game santai",
-        "motto_hidup": "It is what it is",
-    },
-    {
-        # Perhatikan, data Gathfan sudah ada di bawah ini.
-        # Anda mungkin ingin menghapus salah satunya agar tidak duplikat.
-        "nama": "Gathfan Nadif Ali",
-        "sebagai": "Anggotaa",
-        "nim": "124450001",
-        "fun_fact": "nyemilin",
-        "motto_hidup": "jalanin dulu aja",
-    },
-    {
-        # ... (Struktur data sepertinya belum selesai di sini, tambahkan '}' jika perlu)
-    }
-]
+            {
+                "nama": "x",
+                "sebagai": "Pak Lurah",
+                "nim": "122450016",
+                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
+                "motto_hidup": "new semester new me",
+            },
+            {
+                "nama": "x",
+                "sebagai": "Bu Lurah",
+                "nim": "122450000",
+                "fun_fact": "nyemilin es bata",
+                "motto_hidup": "Ya apa ya",
+            },
+            {
+                "nama": "x",
+                "sebagai": "Anggota",
+                "nim": "122450083",
+                "fun_fact": "nyemilin es bata",
+                "motto_hidup": "mantap",
+            },
+            {
+                "nama": "x",
+                "sebagai": "Anggotaa",
+                "nim": "122450000",
+                "fun_fact": "nyemilin",
+                "motto_hidup": "jalanin dulu aja",
+            },
+            {
+                "nama": "x",
+                "sebagai": "Anggotaa",
+                "nim": "122450100",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "x",
+                "sebagai": "Anggotaa",
+                "nim": "122450100",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "x",
+                "sebagai": "Anggotaa",
+                "nim": "122450100",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "x",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+
+    about_page()
