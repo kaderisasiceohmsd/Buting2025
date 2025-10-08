@@ -92,7 +92,24 @@ def display_images_with_data(gambar_urls, data_list):
             st.write(f"Kesan: {data_list[i]['kesan']}")
             st.write(f"Pesan: {data_list[i]['pesan']}")
             st.write("  ")
-    st.write("Semua gambar telah dimuat!")
+    st.markdown("""
+    <div style="
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        color: #2c3e50;
+        background: linear-gradient(90deg, #f8f9fa 0%, #e8e8e8 100%);
+        padding: 20px;
+        border-radius: 15px;
+        width: 90%;
+        margin: 60px auto 30px auto;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        letter-spacing: 0.5px;
+    ">
+        Anda telah mencapai akhir halaman <br>
+        <span style="font-weight:500; font-size:18px; color:#555;">(tidak ada apa-apa disini)</span>
+    </div>
+""", unsafe_allow_html=True)
 menu = streamlit_menu()
 
 # BAGIAN SINI YANG HANYA BOLEH DIUABAH
