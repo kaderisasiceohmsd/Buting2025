@@ -99,13 +99,13 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+            "<h1 class='centered-title'>Deskripsi Kelompok ANOVA</h1>", unsafe_allow_html=True
         )
         st.markdown(
             """<div style="text-align: justify;">🎉 Welcome to the Best Group ANOVA! 🎉
 
 Hai semuanya! Selamat datang di ANOVA, kelompok yang nggak cuma keren dari nama, tapi juga dari semangat di baliknya! 😎
-Nama ANOVA diambil dari istilah statistik Analysis of Variance, yang berarti analisis perbedaan. Tapi buat kami, ANOVA bukan sekadar istilah ilmiah ini adalah filosofi tentang bagaimana setiap perbedaan bisa menghasilkan sesuatu yang luar biasa. ✨
+Nama ANOVA diambil dari istilah statistik Analysis of Variance, yang berarti analisis perbedaan. Tapi buat kami, ANOVA bukan sekadar istilah ilmiah, ini adalah filosofi tentang bagaimana setiap perbedaan bisa menghasilkan sesuatu yang luar biasa. ✨
 
 </div>""",
             unsafe_allow_html=True,
