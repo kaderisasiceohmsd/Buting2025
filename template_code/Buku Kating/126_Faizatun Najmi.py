@@ -99,7 +99,7 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1GIz1zURUYL7QEY5NEJA2RUVJuDUsBKl4
+            "https://drive.google.com/uc?export=view&id=1GIz1zURUYL7QEY5NEJA2RUVJuDUsBKl4",
             "https://drive.google.com/uc?export=view&id=1oW7buiEZ4QoqgaIfUbl_O70WDf_pTvGN",
             "https://drive.google.com/uc?export=view&id=11aBqimw88Kauum7ggBIT7RZP66anqk6Qx",
             "https://drive.google.com/uc?export=view&id=1q7TO3ydblV7a9pzpLyC96OT_qXOYVvOV",
@@ -177,6 +177,62 @@ if menu == "Kesekjenan":
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
-    
+
+if menu == "Senator":
+    def senator():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1d6G2AlNF85-ZSOjtF8a6an2bVm-wI1xB",
+            "https://drive.google.com/uc?export=view&id=1I8tqnO-V_8VeEwnt6s3_AQb34VzK9VyF",
+             "https://drive.google.com/uc?export=view&id=1FyXfLR6RBt-lXmSRAfhAdYXPToUItfDu",
+             "https://drive.google.com/uc?export=view&id=1Q375ArjKLKncdGOrIKMcLSidsMOVLV0N",
+        ]
+        data_list = [
+            {
+                "nama": "Kakak Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal": "Palembang",
+                "alamat": "Pulau Damar",
+                "hobbi": "Tidur",
+                "sosmed": "@bintangtwinkle",
+                "kesan": "Kakak bintang tegas namun keren public speakingnya",  
+                "pesan": "semoga rencana-rencana selalu dimudahkan kak"# 1
+            },
+            {
+                "nama": "Kakak Nadya Ratu Anjani",
+                "nim": "123450043",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Mendengar Lagu ",
+                "sosmed": "@nadyaanjaani",
+                "kesan": "Kak Nadyaa tips cantik dong",  
+                "pesan": "Semoga kakak sehat dan selalu cantik ya kak"# 1
+            },
+              {
+                "nama": "Kakak Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi": "Melamun",
+                "sosmed": "@fathinahnazzh",
+                "kesan": "Kakak Azizah keren banget aku suka deh",  
+                "pesan": "Tetap keren ya kak"# 1
+            },
+              {
+                "nama": "Kakak Lia Hana Ichisasmita",
+                "nim": "123450089",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Indomaret Belwis",
+                "hobbi": "Main Roblox",
+                "sosmed": "@lia.h_264",
+                "kesan": "Kakak ini manis senyumnyaa",  
+                "pesan": "Selalu bahagia ya kak"# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    senator()
 
 # Tambahkan menu lainnya sesuai kebutuhan
