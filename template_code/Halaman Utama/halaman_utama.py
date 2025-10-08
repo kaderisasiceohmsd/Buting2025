@@ -113,9 +113,18 @@ Dalam dunia statistik 📊, ANOVA adalah singkatan dari Analysis of Variance, se
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1_Zd4qf_dnTmdU4uyae5VtVNNxRrb8t2g"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">ANOVA bagi kami berarti perbedaan yang menyatu jadi kekuatan🤔. Kami datang dari latar belakang, karakter, dan kemampuan yang beragam  tapi justru di situlah keindahannya🌈. Setiap anggota punya “warna” sendiri, dan saat semua warna itu digabungkan, terbentuklah satu harmoni yang solid dan berenergi.  Dengan semangat kerja sama, rasa ingin tahu, dan tekad untuk terus berkembang, ANOVA siap jadi kelompok yang nggak cuma kompak, tapi juga berprestasi💫! Karena kami percaya, seperti halnya dalam analisis variansi, setiap perbedaan bisa berarti asal kita tahu cara mengolahnya bersama💻.</div>""",
-            unsafe_allow_html=True,
-        )
+    """<div style="text-align: justify;">
+    ANOVA bagi kami berarti perbedaan yang menyatu jadi kekuatan🤔. Kami datang dari latar belakang, karakter, dan kemampuan yang beragam tapi justru di situlah keindahannya🌈. 
+    Setiap anggota punya “warna” sendiri, dan saat semua warna itu digabungkan, terbentuklah satu harmoni yang solid dan berenergi. 
+    Dengan semangat kerja sama, rasa ingin tahu, dan tekad untuk terus berkembang, ANOVA siap jadi kelompok yang nggak cuma kompak, tapi juga berprestasi💫! 
+    Karena kami percaya, seperti halnya dalam analisis variansi, setiap perbedaan bisa berarti asal kita tahu cara mengolahnya bersama💻.
+    <br><br>
+    <div style="text-align:center; font-weight:bold; margin-top:10px;">
+    "WE ARE THE NEXT EXCELLENCE GENERATION!"
+    </div>
+    </div>""",
+    unsafe_allow_html=True,
+)
         st.write(""" """)
 
     home_page()
@@ -134,66 +143,78 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
                 "nama": "Jeremia Halim",
+                "sebagai": "Anak Palu & Bulu terkeren",
+                "nim": "124450101",
+                "fun_fact": "Bisa Beatbox, Lucid Dream",
+                "motto_hidup": "Do your best & let God handle the rest.",
+            },
+            {
+                "nama": "Asri Meilani",
+                "sebagai": "Bulu Gorjes",
+                "nim": "124450010",
+                "fun_fact": "-",
+                "motto_hidup": "-",
+            },
+            {
+                "nama": "Difanya Husakina",
+                "sebagai": "Anggota Anova paling imup",
+                "nim": "124450043",
+                "fun_fact": "Kalau tidur harus ada suara dan pernah ilang 2 kali waktu TK",
+                "motto_hidup": "what you do now is the result of your efforts in the past",
+            },
+            {
+                "nama": "Cerine Sihotang",
                 "sebagai": "Anak Palu & Bulu",
                 "nim": "124450101",
                 "fun_fact": "Bisa Beatbox, Lucid Dream",
                 "motto_hidup": "Do The Best & Let God The Rest",
             },
             {
-                "nama": "Jeremia Halim",
+                "nama": "Anash Tasya Ausyaqila",
+                "sebagai": "Anggota Anova paling kalem",
+                "nim": "124450050",
+                "fun_fact": "Gasuka daging sapi sama kambing",
+                "motto_hidup": "Dream big, act bigger",
+            },
+            {
+                "nama": "Fitra Pratama Mega",
                 "sebagai": "Anak Palu & Bulu",
                 "nim": "124450101",
                 "fun_fact": "Bisa Beatbox, Lucid Dream",
                 "motto_hidup": "Do The Best & Let God The Rest",
             },
             {
-                "nama": "Jeremia Halim",
+                "nama": "Afriza Azmi",
+                "sebagai": "Palu tergacor",
+                "nim": "124450110",
+                "fun_fact": "sering ngomong sama diri sendiri",
+                "motto_hidup": "Power is not given, it's taken",
+            },
+            {
+                "nama": "Jona Timothy Ogatse Panjaitan",
                 "sebagai": "Anak Palu & Bulu",
                 "nim": "124450101",
                 "fun_fact": "Bisa Beatbox, Lucid Dream",
                 "motto_hidup": "Do The Best & Let God The Rest",
             },
             {
-                "nama": "Jeremia Halim",
-                "sebagai": "Anak Palu & Bulu",
-                "nim": "124450101",
-                "fun_fact": "Bisa Beatbox, Lucid Dream",
-                "motto_hidup": "Do The Best & Let God The Rest",
+                "Nama": "Shafa Delaila Azzahra",
+                "Sebagai": "Anak Palu & Bulu",
+                "NIM": "124450101",
+                "Fun Fact": "Bisa Beatbox, Lucid Dream",
+                "Motto Hidup": "Do The Best & Let God The Rest",
             },
             {
-                "nama": "Jeremia Halim",
-                "sebagai": "Anak Palu & Bulu",
-                "nim": "124450101",
-                "fun_fact": "Bisa Beatbox, Lucid Dream",
-                "motto_hidup": "Do The Best & Let God The Rest",
-            },
-            {
-                "nama": "Jeremia Halim",
-                "sebagai": "Anak Palu & Bulu",
-                "nim": "124450101",
-                "fun_fact": "Bisa Beatbox, Lucid Dream",
-                "motto_hidup": "Do The Best & Let God The Rest",
-            },
-            {
-                "nama": "Jeremia Halim",
-                "sebagai": "Anak Palu & Bulu",
-                "nim": "124450101",
-                "fun_fact": "Bisa Beatbox, Lucid Dream",
-                "motto_hidup": "Do The Best & Let God The Rest",
-            },
-            {
-                "nama": "Jeremia Halim",
-                "sebagai": "Anak Palu & Bulu",
-                "nim": "124450101",
-                "fun_fact": "Bisa Beatbox, Lucid Dream",
-                "motto_hidup": "Do The Best & Let God The Rest",
-            },
-            {
-                "Nama": "Jeremia Halim",
+                "Nama": "JAhmad Zidane Rabbaanee",
                 "Sebagai": "Anak Palu & Bulu",
                 "NIM": "124450101",
                 "Fun Fact": "Bisa Beatbox, Lucid Dream",
