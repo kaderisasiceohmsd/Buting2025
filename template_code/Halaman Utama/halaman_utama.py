@@ -58,7 +58,7 @@ def layout(url):
     with col1:
         st.write("")  # Menyisakan kolom kosong
     with col2:
-        st.image(load_image(url), use_container_width="True", width=350)
+        st.image(load_image(url), use_container_width=True, width=350)
     with col3:
         st.write("")  # Menyisakan kolom kosong
 
@@ -99,25 +99,23 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
-        )
-        st.markdown(
-            """<div style="text-align: justify;">Testing Buku Kating Cosvalflow!!!</div>""",
+            "<h1 class='centered-title'>Deskripsi Kelompok</h1>",
             unsafe_allow_html=True,
         )
-        st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+        st.markdown(
+
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1s2CshvEIz3_fV3QK_TOgpMsJQkcb3rDi"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum</div>""",
+            """<div style="text-align: justify;">Dalam sains data, cosval adalah singkatan dari cosine value, 
+            yaitu hasil perhitungan cosine similarity antara dua vektor. Konsep ini berasal dari matematika trigonometri, 
+            di mana cosinus digunakan untuk mengukur sudut antara dua vektor.
+            Dalam sains data, khususnya pada analisis kelompok (clustering) atau pengelompokan data, 
+            cosval (cosine value) dipahami sebagai ukuran numerik yang menunjukkan tingkat kemiripan antar anggota kelompok 
+            atau tingkat kedekatan suatu data dengan pusat kelompok (centroid)</div>""",
             unsafe_allow_html=True,
         )
-        st.write(""" """)
+        st.write("")
 
     home_page()
 
