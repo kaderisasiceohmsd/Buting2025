@@ -240,29 +240,29 @@ elif menu == "About Us":
                 "nama": "Faiza Try Anjani",
                 "sebagai": "Anggota",
                 "nim": "124450075",
-                "fun_fact": "",
-                "motto_hidup": "",
+                "fun_fact": "Suka Matematika",
+                "motto_hidup": "Keberhasilan adalah milik mereka yang berani mencoba.",
             },
              {
                 "nama": "Saskia Nova Magdalena",
                 "sebagai": "Anggota",
                 "nim": "124450074",
-                "fun_fact": "",
-                "motto_hidup": "",
+                "fun_fact": "Pecinta somay garis keras",
+                "motto_hidup": "Bersyukur atas Hal Sederhana, Hidup Akan Jadi Lebih Berarti. Contohnya bersyukur bisa makan somay setiap hari",
             },
              {
                 "nama": "Daffa Kharisma Adzana",
                 "sebagai": "Anggota",
                 "nim": "124450061",
-                "fun_fact": "",
-                "motto_hidup": "",
+                "fun_fact": "Suka Minum Matcha",
+                "motto_hidup": "Fokus pada solusi, bukan masalah.",
             },
              {
                 "nama": "Tubagus Abdani Pamungkas",
                 "sebagai": "Anggota",
                 "nim": "124450035",
-                "fun_fact": "",
-                "motto_hidup": "",
+                "fun_fact": "Rumahnya Jauh tapi Akamsi",
+                "motto_hidup": "Setiap hari adalah kesempatan baru untuk berkembang",
             }
         ]
         display_images_with_data(gambar_urls, data_list)
