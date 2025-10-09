@@ -153,7 +153,7 @@ if menu == "Kesekjenan":
             },
             {
                 "nama": "Eksanty Febriana Sugma Islamiaty",
-                "nim": "123450001",
+                "nim": "122450001",
                 "umur": "19",
                 "asal":"Bulaleng, Bali",
                 "alamat": "Asrama TB 4",
@@ -164,7 +164,7 @@ if menu == "Kesekjenan":
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
-                "nim": "123450123",
+                "nim": "122450123",
                 "umur": "23",
                 "asal":"Baduy Dalem",
                 "alamat": "Agrest Kost",
