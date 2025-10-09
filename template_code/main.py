@@ -79,7 +79,7 @@ if st.session_state.pindah:
     pg = st.navigation(
         {
             "Halaman Utama": [Homepage],
-            "Buku Kating": [Mahasiswa1,Mahasiswa2,Mahasiswa3,Mahasiswa4,Mahasiswa5,Mahasiswa6,Mahasiswa7,Mahasiswa8,Mahasiswa9,Mahasiswa10,Mahasiswa11,Mahasiswa12],
+            "Buku Kating": [Mahasiswa1, Mahasiswa2, Mahasiswa3, Mahasiswa4, Mahasiswa5, Mahasiswa6, Mahasiswa7, Mahasiswa8, Mahasiswa9, Mahasiswa10, Mahasiswa11, Mahasiswa12],
             "Try Me !!": [KREASI, KREASII],
         }
     )
