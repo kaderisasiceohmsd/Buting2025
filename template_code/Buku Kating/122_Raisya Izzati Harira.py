@@ -99,8 +99,8 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1b4JhMNu3Zyu6383g5CgOEtPlQj5Bbt7x", #bang rendra
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
@@ -141,4 +141,193 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
+if menu == "Departemen Internal"
+    def Departemen_Internal():
+         gambar_urls = [
+             "https://drive.google.com/uc?export=view&id= ", #isi sendiri
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+             "https://drive.google.com/uc?export=view&id= ",
+         ]
+        data_list = [
+            {
+                "nama": "Kakak A",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak B",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak CCc",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak A",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak B",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak CCc",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak A",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak B",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak CCc",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak A",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak B",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak CCc",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak A",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak B",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak CCc",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+Departemen_Internal()
 # Tambahkan menu lainnya sesuai kebutuhan
+
