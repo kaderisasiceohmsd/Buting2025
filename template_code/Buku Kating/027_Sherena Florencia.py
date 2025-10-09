@@ -205,8 +205,8 @@ if menu == "Baleg":
                 "alamat": "Lapas , Belwis",
                 "hobbi": "Melarikan Diri",
                 "sosmed": "@jeremia_s_ ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya manis, lucu ",  
+                "pesan": " Semoga dilancarkan semuanya dan dipermudah urusannya"# 1
             },
             {
                 "nama": "Kakak Dhea Amelia Putri",
@@ -216,8 +216,8 @@ if menu == "Baleg":
                 "alamat": "Metro",
                 "hobbi": "Bertutur kata baik dan sopan",
                 "sosmed": "@_.dheamelia ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak nya baik, seru ",  
+                "pesan": "Sehat selalu kak, dilancakan semuanya "# 1
             },
               {
                 "nama": "Kakak Renisha Putri Giani",
@@ -227,8 +227,8 @@ if menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "Jualan Pancing",
                 "sosmed": "@renishapg",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya keren dan asik ",  
+                "pesan": "Semoga dilancarkan urusannya kak "# 1
             },
               {
                 "nama": "Kakak Anisa Fitriyani",
@@ -238,8 +238,8 @@ if menu == "Baleg":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Mencari kesibukan",
                 "sosmed": "@ansftynn_",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kakaknya keren ",  
+                "pesan": "Semoga urusannya diperlancar "# 1
             },
             {
                 "nama": "Kakak Dharu Cahyoaji Sasongko",
@@ -249,8 +249,8 @@ if menu == "Baleg":
                 "alamat": "Way Halim",
                 "hobbi": "Nonton AGZ",
                 "sosmed": "@dhruchyo",
-                "kesan": " ",  
-                "pesan":" "# 1
+                "kesan": "Kakaknya keren banget ",  
+                "pesan":"Semoga diperlancar semuanya  "# 1
             },
              {
                 "nama": "Kakak Feby Wulandari",
@@ -260,8 +260,8 @@ if menu == "Baleg":
                 "alamat": "Way Huwi",
                 "hobbi": "Nguleg Cabai",
                 "sosmed": "@fby.wlndr",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya cantik dan lucu ",  
+                "pesan": "Semangat kak, diperlancar semuanya "# 1
             },
               {
                 "nama": "Kakak Givaro Ananta",
@@ -271,8 +271,8 @@ if menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Nemenin ridho main pedel",
                 "sosmed": "@givarooo",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya keren banget ",  
+                "pesan": "Semoga dilancarkan semuanya kak "# 1
             },
               {
                 "nama": "Kakak Mirzan Yusuf Rabbani",
