@@ -417,3 +417,4 @@ elif menu == "Senator"
 # Tambahkan menu lainnya sesuai kebutuhan
 
 
+
