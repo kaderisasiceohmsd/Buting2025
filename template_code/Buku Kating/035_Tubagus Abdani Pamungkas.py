@@ -96,7 +96,7 @@ def display_images_with_data(gambar_urls, data_list):
 menu = streamlit_menu()
 
 # BAGIAN SINI YANG HANYA BOLEH DIUABAH
-if menu == "MIKFES":
+if menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1zDyb2jWOrSIUjefaMx8Qjq2NqK1BAtqD", #1
@@ -371,5 +371,6 @@ if menu == "MIKFES":
     mikfes()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
