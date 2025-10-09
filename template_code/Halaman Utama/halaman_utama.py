@@ -145,8 +145,8 @@ elif menu == "Tentang Greedy":
                 "nama": "Haikal Seventino Tamba",
                 "sebagai": "Pak Lurah",
                 "nim": "12450012",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
-                "motto_hidup": "new semester new me",
+                "fun_fact": "masuk itera dan milih sains data h-15 menit penutupan snbp",
+                "motto_hidup": "telat bukan berarti gagal,lebih baik gagal daripada tidak mencoba",
             },
             {
                 "nama": "Queenta Thifaal Nabila",
