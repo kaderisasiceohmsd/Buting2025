@@ -42,22 +42,12 @@ st.markdown(
     <style>
    
     .stApp {
-        background-color: #234C6A; /* Ganti dengan warna yang kamu mau */
+        background-color: #234C6A;
     }
 
-    /* Mengubah warna sidebar */
-    [data-testid="stSidebar"] {
-        background-color: #456882; /* Ganti warna biru sidebar */
-    }
-
-    /* Ubah warna teks di sidebar biar kontras */
-    [data-testid="stSidebar"] * {
-        color: white !important;
-    }
-
-    /* (Opsional) ubah warna tombol atau teks di navbar */
-    .nav-link {
-        color: white !important;
+    [data-testid="stSidebar"] 
+    {
+        background-color: #D2C1B6;
     }
     </style>
     """,
