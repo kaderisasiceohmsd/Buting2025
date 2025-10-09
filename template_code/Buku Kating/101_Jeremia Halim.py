@@ -365,7 +365,7 @@ if menu == "Baleg":
                 "asal":"Pekanbaru",
                 "alamat": "Way Huwi",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "-",
+                "sosmed": "@nshaysk",
                 "kesan": "Kakak ini asik seru dan humoris",  
                 "pesan":"semangat terus kakk"# 1
             },
