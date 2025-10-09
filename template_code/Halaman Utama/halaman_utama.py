@@ -102,7 +102,10 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Testing kelompok pandas by Pandas</div>""",
+            """<div style="text-align: justify;">We are Pandas!, We are the next excellent generation.
+            Kami merupakan kelompok yang berkomitmen untuk mencapai keunggulan dalam setiap aspek.
+            Baik itu akademik dan non akademik. Apapun itu, kami siap untuk menghadapi tantangan dan berinovasi.
+            </div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -130,14 +133,20 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
                 "nama": "Rifky Henry Ferdianto",
                 "sebagai": "Pak Lurah",
                 "nim": "124450115",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
-                "motto_hidup": "new semester new me",
+                "fun_fact": "Suka belajar bahasa baru",
+                "motto_hidup": "Berkembanglah terus meski lambat asal pasti",
             },
             {
                 "nama": "Suci Aulia Putri",
@@ -147,39 +156,60 @@ elif menu == "About Us":
                 "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "x",
+                "nama": "Dimas Arya Ramadhan",
                 "sebagai": "Anggota",
-                "nim": "122450083",
+                "nim": "124450118",
                 "fun_fact": "nyemilin es bata",
                 "motto_hidup": "mantap",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450000",
+                "nama": "Ayake Alfatih Ramadan",
+                "sebagai": "Anggota",
+                "nim": "124450108",
                 "fun_fact": "nyemilin",
                 "motto_hidup": "jalanin dulu aja",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
+                "nama": "Najla Nursyifa",
+                "sebagai": "Anggota",
+                "nim": "124450051",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
+                "nama": "Teresa Christiani Purba",
+                "sebagai": "Anggota",
+                "nim": "124450046",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
+                "nama": "Afghanis Nursholehatunnisa",
+                "sebagai": "Anggota",
+                "nim": "124450042",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Caesar Ozora Alrando",
+                "sebagai": "Anggota",
+                "nim": "124450017",
+                "fun_fact": "suka mancing tapi gak suka makan ikan",
+                "motto_hidup": "urip iku urup",
+            },
+            {
+                "nama": "Layina Ropiqo",
+                "sebagai": "Anggota",
+                "nim": "124450016",
+                "fun_fact": "suka mancing tapi gak suka makan ikan",
+                "motto_hidup": "urip iku urup",
+            },
+            {
+                "nama": "Ni Made Okta Viola Darma Putri",
+                "sebagai": "Anggota",
+                "nim": "124450015",
+                "fun_fact": "suka mancing tapi gak suka makan ikan",
+                "motto_hidup": "urip iku urup",
             },
             {
                 "nama": "Hasan Nur Ramadhan",
