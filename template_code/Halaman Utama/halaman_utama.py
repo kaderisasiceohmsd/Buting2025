@@ -240,29 +240,29 @@ elif menu == "About Us":
                 "nama": "Faiza Try Anjani",
                 "sebagai": "Anggota",
                 "nim": "124450075",
-                "fun_fact": "",
-                "motto_hidup": "",
+                "fun_fact": "Cinta mati sama matematika",
+                "motto_hidup": "Kesuksesan adalah hasil dari kerja keras dan ketekunan",
             },
              {
                 "nama": "Saskia Nova Magdalena",
                 "sebagai": "Anggota",
                 "nim": "124450074",
-                "fun_fact": "",
-                "motto_hidup": "",
+                "fun_fact": "Pecinta somay garis kerass",
+                "motto_hidup": "Kebahagiaan dimulai dari rasa syukur, contohnya bersyukur bisa makan somay tiap hari",
             },
              {
                 "nama": "Daffa Kharisma Adzana",
                 "sebagai": "Anggota",
                 "nim": "124450061",
-                "fun_fact": "",
-                "motto_hidup": "",
+                "fun_fact": "Satu keluarga besar dari kakek, paman, sepupu suaranya bagus semua kecuali aku",
+                "motto_hidup": "Fokus pada solusi, bukan masalah",
             },
              {
                 "nama": "Tubagus Abdani Pamungkas",
                 "sebagai": "Anggota",
                 "nim": "124450035",
-                "fun_fact": "",
-                "motto_hidup": "",
+                "fun_fact": "Rumahnya jauh tapi Akamsi",
+                "motto_hidup": "Keberanian adalah langkah pertama menuju mimpi",
             }
         ]
         display_images_with_data(gambar_urls, data_list)
