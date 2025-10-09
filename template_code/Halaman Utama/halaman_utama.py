@@ -116,7 +116,7 @@ if menu == "Home":
 
     home_page()
 
-elif menu == "Tentang Greedy":
+elif menu == "About Us":
 
     def about_page():
         st.markdown(
