@@ -99,9 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1RADX3YweO96EwsFP7jIv0Wf2f5KAdLOr",
+            "https://drive.google.com/uc?export=view&id=1Oe0C-Jq_qoxBmrRqL-M1bE1EQARhzprK",
+            "https://drive.google.com/uc?export=view&id=1uxUvigYV_WuwUuFtPRbCTnnDGEHB7DUP",
+            "https://drive.google.com/uc?export=view&id=1PcTWTSx5siMTie24EsiR6IVL9-FGxfiB",
+            "https://drive.google.com/uc?export=view&id=183mDRcmxpQSpheICWkTLVaFw3UdNJ2fI",
+            "https://drive.google.com/uc?export=view&id=1FoLncpQTwPBB-OHWyVZPwPQq6pXZMIaT",
         ]
         data_list = [
             {
@@ -116,24 +119,57 @@ if menu == "Kesekjenan":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak B",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "nama": "Johannes Krisjon Silitonga",
+                "nim": "122450043",
+                "umur": "20",
+                "asal":"Tangerang",
+                "alamat": "Jl. Lapas",
+                "hobbi": "Baca buku SQL",
+                "sosmed": "@johanneskrisjnnn",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak CCc",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "nama": "Elisabeth Claudia Simajuntak",
+                "nim": "122450123",
+                "umur": "24",
+                "asal":"Baduy Dalem",
+                "alamat": "Ayres Kost",
+                "hobbi": "Makan Kuaci",
+                "sosmed": "@celisabethh_",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "21",
+                "asal":"Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Membaca",
+                "sosmed": "@puspadrr",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Eksanty Febriana Sugma Islamiaty",
+                "nim": "122450001",
+                "umur": "21",
+                "asal":"Wakatobi, Sulawesi Tenggara",
+                "alamat": "Mutun, Pesawaran",
+                "hobbi": "Komenin tiktok cewek cantik",
+                "sosmed": "@eksantyferiana",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Farahanum Afifah Ardiansyah",
+                "nim": "122450056",
+                "umur": "21",
+                "asal":"Padang, Sumatera Barat",
+                "alamat": "Gya Kost Korpri",
+                "hobbi": "Cute jendral",
+                "sosmed": "@farahanumafifahh",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -142,3 +178,4 @@ if menu == "Kesekjenan":
     kesekjenan()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
