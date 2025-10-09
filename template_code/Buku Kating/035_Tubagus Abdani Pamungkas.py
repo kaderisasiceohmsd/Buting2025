@@ -216,7 +216,7 @@ if menu == "MIKFES":
                 "nim": "122450092",
                 "umur": "21",
                 "asal":"Depok",
-                "alamat": "Jl. Nangka 3,
+                "alamat": "Jl. Nangka 3",
                 "hobbi": "Main Musik",
                 "sosmed": "@marletacornelia",
                 "kesan": "Kakak marleta murah senyum",  
@@ -371,4 +371,5 @@ if menu == "MIKFES":
     mikfes()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
