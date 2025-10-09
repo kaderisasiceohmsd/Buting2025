@@ -105,6 +105,7 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=1y43-sBetd5yI4amnewOsOI6ScCDnZvlx",
             "https://drive.google.com/uc?export=view&id=1DElqlQzPsYWCy60coQfWZ2JciQlGxGHA",
             "https://drive.google.com/uc?export=view&id=1BaBqw1v3sabBQELuhzl0T1yMqcFk28z8",
+            
         ]
         data_list = [
             {
@@ -179,12 +180,20 @@ if menu == "Kesekjenan":
 elif menu == "Baleg"
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=16dXgpsRMn4dcYe9VI6pz6kDVrqU_p180",
-            "https://drive.google.com/uc?export=view&id=13MbD7Q1jQwIK0ByFFOubU4jBW7PCcmg8",
-            "https://drive.google.com/uc?export=view&id=13Wdgv9VfylUgnNrbhLRHGIQfTL9KpEDQ",
+            "https://drive.google.com/uc?export=view&id=12k2hpTc_sTU5sPV-38LvSBHCI9IU6geI",
+            "https://drive.google.com/uc?export=view&id=15B6p1oSF9SVrlEFHAEcTe_ne4INmfOru",
+            "https://drive.google.com/uc?export=view&id=1PNte5ChCn1Hss0ByfjhyvQfK5TAhbRWZ",
             "https://drive.google.com/uc?export=view&id=1y43-sBetd5yI4amnewOsOI6ScCDnZvlx",
-            "https://drive.google.com/uc?export=view&id=1DElqlQzPsYWCy60coQfWZ2JciQlGxGHA",
-            "https://drive.google.com/uc?export=view&id=1BaBqw1v3sabBQELuhzl0T1yMqcFk28z8",
+            "https://drive.google.com/uc?export=view&id=1L6xazy2bpf8DfaSJHNolYPLIL49TXkNj",
+            "https://drive.google.com/uc?export=view&id=1A8LxpRGncON9kryrQJgDQBS_9UmrHFz8",
+            "https://drive.google.com/uc?export=view&id=16L66za0Yo5n86-ahN63Rb5nBfY4yc0ot",
+            "https://drive.google.com/uc?export=view&id=11HZz4W_ktEYHuZlmwC18JcZF3lG5AGsnw",
+            "https://drive.google.com/uc?export=view&id=1TrZhbBQbuVClysjLyXv-ilCycZ0CF4Ct",
+            "https://drive.google.com/uc?export=view&id=17gWKZAsS3fFt6WRUoOla7X4T3ZyWwtIi",
+            "https://drive.google.com/uc?export=view&id=13iTG0OVueyFm7Uo6emgM_uN85DGDQC5V",
+            "https://drive.google.com/uc?export=view&id=1akZ8fbhEchRrK9Ln9-NK2zqCDSe09YuW",
+            "https://drive.google.com/uc?export=view&id=1yDGy5ityBerupWGSuDi9MaX75ZYRo1gD",
+            "https://drive.google.com/uc?export=view&id=1uYxx_sSgQD6NBxGRrj_loV3b7QjBlLO3",
         ]
         data_list = [
             {
@@ -348,13 +357,11 @@ elif menu == "Baleg"
 elif menu == "Senator"
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=16dXgpsRMn4dcYe9VI6pz6kDVrqU_p180",
-            "https://drive.google.com/uc?export=view&id=13MbD7Q1jQwIK0ByFFOubU4jBW7PCcmg8",
-            "https://drive.google.com/uc?export=view&id=13Wdgv9VfylUgnNrbhLRHGIQfTL9KpEDQ",
-            "https://drive.google.com/uc?export=view&id=1y43-sBetd5yI4amnewOsOI6ScCDnZvlx",
-            "https://drive.google.com/uc?export=view&id=1DElqlQzPsYWCy60coQfWZ2JciQlGxGHA",
-            "https://drive.google.com/uc?export=view&id=1BaBqw1v3sabBQELuhzl0T1yMqcFk28z8",
-        ]
+            "https://drive.google.com/uc?export=view&id=17WjNEjeTUITRFOO9wRctaotVMiol6Hhf",
+            "https://drive.google.com/uc?export=view&id=1dsEvHL5n9xQg_6VddK2yML2gXOeoedCJ",
+            "https://drive.google.com/uc?export=view&id=1PllktHRmEtiCaETEpU-dDmZHTNa-ksgR",
+            "https://drive.google.com/uc?export=view&id=1_iVfaKLi3TPCSiJZDdmRUm6-00HMeyxJ",
+           
         data_list = [
             {
                 "nama": "Rian Bintang Wijaya",
@@ -408,4 +415,5 @@ elif menu == "Senator"
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
