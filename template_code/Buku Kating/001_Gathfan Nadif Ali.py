@@ -366,7 +366,7 @@ if menu == "Senator":
         ]
         data_list = [
             {
-                "nama": "Kakak A",
+                "nama": "-",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
