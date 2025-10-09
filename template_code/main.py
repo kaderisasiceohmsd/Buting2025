@@ -9,10 +9,66 @@ Homepage = st.Page("Halaman Utama/halaman_utama.py",
     default=True)
 
 Mahasiswa1 = st.Page(
-    "Buku Kating/117_Nobel Nizam Fathirizki.py",
+    "Buku Kating/012_Haikal Seventino Tamba.py",
     title="117 - Nobel Nizam Fathirizki",
     icon=":material/person:",
 )
+Mahasiswa2 = st.Page(
+    "Buku Kating/012_Haikal Seventino Tamba.py",
+    title="117 - Nobel Nizam Fathirizki",
+    icon=":material/person:",
+)
+Mahasiswa3 = st.Page(
+    "Buku Kating/012_Haikal Seventino Tamba.py",
+    title="117 - Nobel Nizam Fathirizki",
+    icon=":material/person:",
+)
+Mahasiswa4 = st.Page(
+    "Buku Kating/012_Haikal Seventino Tamba.py",
+    title="117 - Nobel Nizam Fathirizki",
+    icon=":material/person:",
+)
+Mahasiswa5 = st.Page(
+    "Buku Kating/012_Haikal Seventino Tamba.py",
+    title="117 - Nobel Nizam Fathirizki",
+    icon=":material/person:",
+)
+Mahasiswa6 = st.Page(
+    "Buku Kating/012_Haikal Seventino Tamba.py",
+    title="117 - Nobel Nizam Fathirizki",
+    icon=":material/person:",
+)
+Mahasiswa7 = st.Page(
+    "Buku Kating/012_Haikal Seventino Tamba.py",
+    title="117 - Nobel Nizam Fathirizki",
+    icon=":material/person:",
+)
+Mahasiswa8 = st.Page(
+    "Buku Kating/012_Haikal Seventino Tamba.py",
+    title="117 - Nobel Nizam Fathirizki",
+    icon=":material/person:",
+)
+Mahasiswa9 = st.Page(
+    "Buku Kating/012_Haikal Seventino Tamba.py",
+    title="117 - Nobel Nizam Fathirizki",
+    icon=":material/person:",
+)
+Mahasiswa10 = st.Page(
+    "Buku Kating/012_Haikal Seventino Tamba.py",
+    title="117 - Nobel Nizam Fathirizki",
+    icon=":material/person:",
+)
+Mahasiswa11 = st.Page(
+    "Buku Kating/012_Haikal Seventino Tamba.py",
+    title="117 - Nobel Nizam Fathirizki",
+    icon=":material/person:",
+)
+Mahasiswa12 = st.Page(
+    "Buku Kating/012_Haikal Seventino Tamba.py",
+    title="117 - Nobel Nizam Fathirizki",
+    icon=":material/person:",
+)
+
 
 #Perlu diperhatikan perubahannya
 KREASI = st.Page("tools/KREASI.py", title="KREASI", icon=":material/search:")
@@ -23,7 +79,7 @@ if st.session_state.pindah:
     pg = st.navigation(
         {
             "Halaman Utama": [Homepage],
-            "Buku Kating": [Mahasiswa1],
+            "Buku Kating": [Mahasiswa1,Mahasiswa2,Mahasiswa3,Mahasiswa4,Mahasiswa5,Mahasiswa6,Mahasiswa7,Mahasiswa8,Mahasiswa9,Mahasiswa10,Mahasiswa11,Mahasiswa12],
             "Try Me !!": [KREASI, KREASII],
         }
     )
