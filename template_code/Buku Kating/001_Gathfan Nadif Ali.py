@@ -100,11 +100,11 @@ if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1DDbsNyFIl_8VfRtG4qre1Jmh9k-hK5Qs",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1g2RczlmZoGu2UZNdN2PvzoTiq91N1cSC",
+            "https://drive.google.com/uc?export=view&id=1AabH0nhKYj9W3mP2QpU3QHKX-plNkv5p",
+            "https://drive.google.com/uc?export=view&id=1rs1F_rvm5IqzkS4dSzmMYqV-azNeF30d",
+            "https://drive.google.com/uc?export=view&id=1ULhJJmso3XBj59ZGlcxI2e2rAn5NQVYQ",
+            "https://drive.google.com/uc?export=view&id=11lZT1qbDb3N3lywP4nbehgDEQbW31hKh",
         ]
         data_list = [
             {
@@ -182,20 +182,20 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=11KyHR1JBKxnag3fu8slew5xTiOW3Aud5",
+            "https://drive.google.com/uc?export=view&id=130ogFvCrJQEAeDFolybVk9Re72bHhcH9",
+            "https://drive.google.com/uc?export=view&id=1aZAGbGbvCzO_Z16raStNPVJEq1Q2yUVt",
+            "https://drive.google.com/uc?export=view&id=16rJxdt3kE7yIGZ_Gnqz2c0c8mRx9q4N3",
+            "https://drive.google.com/uc?export=view&id=1kylY_iJ6s_0wi7vVGPnBVpRVNvlreD5d",
+            "https://drive.google.com/uc?export=view&id=18RIBzgGkAgnKPh-99r2JPo3Z64AT87Gy",
+            "https://drive.google.com/uc?export=view&id=1WxUypYscUkhTk-WagXdz_imCndNh15K0",
+            "https://drive.google.com/uc?export=view&id=1IEOMy0OgoSufS5y-hP4DqDg2LN4X-e5-",
+            "https://drive.google.com/uc?export=view&id=135sLMjV09tvrNS9cR8d4p8bHwas7HTRF",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1gjRE8so4e2WeRWdsBQgMO67x6QuO9w1-",
+            "https://drive.google.com/uc?export=view&id=1Lpm1PUM_yWChVLd-4c071yWC2oE28Uz7",
+            "https://drive.google.com/uc?export=view&id=1b0jqA7CAbM2qsf7aOAwYZv48g2i4g1Zm",
+            "https://drive.google.com/uc?export=view&id=1UGTAbZU1yAbsRVA6lswJBA4Cyp6wuTGe",
         ]
         data_list = [
             {
@@ -1637,7 +1637,7 @@ if menu == "Departemen SSD":
 if menu == "Departemen Medkraf":
     def medkraf():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1_0Pxisc6fVvCkj0ktwrYurk6ECCJYSmQ",
             "https://drive.google.com/uc?export=view&id=1WGUHHq0648gE6sBt9Hi6SWO_2ldp0kUj",
             "https://drive.google.com/uc?export=view&id=1oI57iCL_d0uUE0tmydKpTMUQDT9f63N2",
             "https://drive.google.com/uc?export=view&id=1fzY0zXaP2ZmFHz5NZL5IDmMn14hOLTzm",
