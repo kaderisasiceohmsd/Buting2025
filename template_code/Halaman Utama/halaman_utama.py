@@ -225,7 +225,7 @@ elif menu == "About Us":
                 "nama": "Yulia",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
+                "fun_fact": "suka campurin makanannn",
                 "motto_hidup": "jalanin dulu keles",
             },
         ]
