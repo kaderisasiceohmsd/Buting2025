@@ -170,7 +170,7 @@ if menu == "Kesekjenan":
                 "alamat": "Gya Kost Korpri",
                 "hobbi": "Cute Jenderal",
                 "sosmed": "@farahanumafifah",
-                "kesan": "Kakaknya terlihat bersemangat dan positif",  
+                "kesan": "",  
                 "pesan":" "# 1
             },
         ]
