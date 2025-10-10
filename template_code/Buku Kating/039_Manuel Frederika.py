@@ -327,6 +327,20 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1kQ_UKG693TchnUWBrQi43H3spdJ3dbo_",
              "https://drive.google.com/uc?export=view&id=1LzasgfP-hAMih41Y1hvI1ENm_yK8Ave2",
              "https://drive.google.com/uc?export=view&id=1nSNh-fkhR2vR8B40mIoRq4BKEFUVePWE",
+             "https://drive.google.com/uc?export=view&id=1bJiSw9OQ_B3IGAMnMYqkdUaFyXtl12ai",
+            "https://drive.google.com/uc?export=view&id=1kQ_UKG693TchnUWBrQi43H3spdJ3dbo_",
+             "https://drive.google.com/uc?export=view&id=1LzasgfP-hAMih41Y1hvI1ENm_yK8Ave2",
+             "https://drive.google.com/uc?export=view&id=1nSNh-fkhR2vR8B40mIoRq4BKEFUVePWE",
+            "https://drive.google.com/uc?export=view&id=1bJiSw9OQ_B3IGAMnMYqkdUaFyXtl12ai",
+            "https://drive.google.com/uc?export=view&id=1kQ_UKG693TchnUWBrQi43H3spdJ3dbo_",
+             "https://drive.google.com/uc?export=view&id=1LzasgfP-hAMih41Y1hvI1ENm_yK8Ave2",
+             "https://drive.google.com/uc?export=view&id=1nSNh-fkhR2vR8B40mIoRq4BKEFUVePWE",
+             "https://drive.google.com/uc?export=view&id=1bJiSw9OQ_B3IGAMnMYqkdUaFyXtl12ai",
+            "https://drive.google.com/uc?export=view&id=1kQ_UKG693TchnUWBrQi43H3spdJ3dbo_",
+             "https://drive.google.com/uc?export=view&id=1LzasgfP-hAMih41Y1hvI1ENm_yK8Ave2",
+             "https://drive.google.com/uc?export=view&id=1nSNh-fkhR2vR8B40mIoRq4BKEFUVePWE",
+             "https://drive.google.com/uc?export=view&id=1LzasgfP-hAMih41Y1hvI1ENm_yK8Ave2",
+             "https://drive.google.com/uc?export=view&id=1nSNh-fkhR2vR8B40mIoRq4BKEFUVePWE",
         ]
         data_list = [
             {
@@ -511,3 +525,4 @@ if menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
