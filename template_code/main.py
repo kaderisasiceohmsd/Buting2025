@@ -44,21 +44,26 @@ Mahasiswa7 = st.Page(
     icon=":material/person:",
 )
 Mahasiswa8 = st.Page(
+    "Buku Kating/087_Melva Shaprina Febrianti.py",
+    title="087 - Melva Shaprina Febrianti",
+    icon=":material/person:",
+)
+Mahasiswa9 = st.Page(
     "Buku Kating/090_Salavi Naharani.py",
     title="090 - Salavi Naharani",
     icon=":material/person:",
 )
-Mahasiswa9 = st.Page(
+Mahasiswa10 = st.Page(
     "Buku Kating/097_Bunga Clarisa Sefa.py",
     title="097 - Bunga Clarisa Sefa",
     icon=":material/person:",
 )
-Mahasiswa10 = st.Page(
+Mahasiswa11 = st.Page(
     "Buku Kating/114_Hazel Mahesa Handhaka.py",
     title="114 - Hazel Mahesa Handhaka",
     icon=":material/person:",
 )
-Mahasiswa11 = st.Page(
+Mahasiswa12 = st.Page(
     "Buku Kating/131_Dafa Elpriza.py",
     title="131 - Dafa Elpriza",
     icon=":material/person:",
@@ -75,7 +80,7 @@ if st.session_state.pindah:
             "Halaman Utama": [Homepage],
             "Buku Kating": [Mahasiswa1, Mahasiswa2, Mahasiswa3, Mahasiswa4, 
                             Mahasiswa5, Mahasiswa6, Mahasiswa7, Mahasiswa8, 
-                            Mahasiswa9, Mahasiswa10, Mahasiswa11],
+                            Mahasiswa9, Mahasiswa10, Mahasiswa11, Mahasiswa12],
             "Try Me !!": [KREASI, KREASII],
         }
     )
