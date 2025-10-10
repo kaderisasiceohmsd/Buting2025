@@ -425,12 +425,29 @@ elif menu == "Departemen PSDA":
 elif menu == "Departemen MIKFES":
     def DepartemenMIKFES():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1_WB-NQPJkRrss8lPdH1Ci6h0idlOAOqT",
-            "https://drive.google.com/uc?export=view&id=1Ysl65G0q1n29a5WLx4FH3w5uta0H94pZ",
-            "https://drive.google.com/uc?export=view&id=1nf-azSQKdXkhYc1cZLyZ_zdgeTmbIkkC",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1gSYkrxPmG-xs0HAlK-TUoWuOizMnwTVQ",
+            "https://drive.google.com/uc?export=view&id=1frAjl8bEEdFBovycir7eaKk0-gSKkof_",
+            "https://drive.google.com/uc?export=view&id=14b6YL1hihi05GM8dv0fvimZ7bMGvuAFP",
+            "https://drive.google.com/uc?export=view&id=1evKwlESkMjSaeSUODpI8YsHJp95EuAJX",
+            "https://drive.google.com/uc?export=view&id=1ik2yqMvpnbbDIJRh2MybsbEcngJr52ra",
+            "https://drive.google.com/uc?export=view&id=15Zh5X9Hi0aI68Zi95UwP6QnfHedaR9hD",
+            "https://drive.google.com/uc?export=view&id=1lpXwk9ivPl3rIa7r26IwXM7o_a6mjoPE",
+            "https://drive.google.com/uc?export=view&id=1h8sSg76KYnJE4B0pOtfGAZLdGClT4NBm",
+            "https://drive.google.com/uc?export=view&id=1gyxIZK9IL5JyQwp3WnBJaewxyGkCFa8D",
+            "https://drive.google.com/uc?export=view&id=1nVQ5YkL9yfE8OBZLFUUdR-YOmbixaYVR",
+            "https://drive.google.com/uc?export=view&id=18nq16zUMmQATFCilhjcMrcSAK3nt7j1v",
+            "https://drive.google.com/uc?export=view&id=1QDDzKvgtr8NnubbrZ-znUEfP1cv1Ooyp",
+            "https://drive.google.com/uc?export=view&id=1f-qI4L_jdNNDRPjv_eUGmt_YmsBBF7hg",
+            "https://drive.google.com/uc?export=view&id=1M25TStGPAp4HVGkwpgJBGBTpieoM1BTu",
+            "https://drive.google.com/uc?export=view&id=1a5SaY-tMqishLvbrCyh2QDz1yrkZz3yn",
+            "https://drive.google.com/uc?export=view&id=1o8nI-h66VmkTlFTMGKLoJUC7R4YhD5UN",
+            "https://drive.google.com/uc?export=view&id=1x6MtZQL354ffAsxan7AbWApDBdtXviB_",
+            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=",
+            
         ]
         data_list = [
             {
