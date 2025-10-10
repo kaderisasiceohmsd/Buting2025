@@ -94,5 +94,4 @@ if st.session_state.pindah:
     )
 else:
     st.write("Maaf Anda kurang beruntung :(")
-
 pg.run()
