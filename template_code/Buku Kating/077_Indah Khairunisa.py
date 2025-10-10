@@ -355,10 +355,10 @@ elif menu == "Baleg":
 elif menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1-G-pIpfc-mf9LxWD5RhJYvb-h6sduc_V",
-            "https://drive.google.com/uc?export=view&id=1kFLWcezvISPm-BFIwtzHjIHHgqijFfRr",
-            "https://drive.google.com/uc?export=view&id=1MHQ2a1qNVC_zn_M8smbiCXP95uTavI6z",
-            "https://drive.google.com/uc?export=view&id=1ZNJDZsT1SD85PmGw7cVLlj_AZStk6eHI",
+            "https://drive.google.com/uc?export=view&id=1mdWfkZYEv9pKDJrNV8JBjkP5YlX6NdRQ",
+            "https://drive.google.com/uc?export=view&id=1ONOur7fziMw8CT3z4yBoKZgkLPCOhV6W",
+            "https://drive.google.com/uc?export=view&id=1Chp6zIr7BYdhe8-nndoaq7sm4NNCCEGG",
+            "https://drive.google.com/uc?export=view&id=1tQ_Pugo1_372TsnSHKxT0O8_ex2hbiLo",
         ]
         data_list = [
             {
@@ -411,32 +411,32 @@ elif menu == "Senator":
 elif menu == "Departemen PSDA":
     def DepartemenPSDA():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1ScJxo2dovYdzHAak2B3BrM3I8LgubnUh", #bg ferdy
-            "https://drive.google.com/uc?export=view&id=1SXK3ylfvS22_oIaUxBU4DK6P9c3FBU7L", #ka nisrina afifah
-            "https://drive.google.com/uc?export=view&id=1tUyE8TA1o7TiYDkYH87atKxFDViNpAXu", #ka pasha
-            "https://drive.google.com/uc?export=view&id=1xDzj12p7pAM6nH7j-Zhs049G8hY0AO2r", #bg ahmad
-            "https://drive.google.com/uc?export=view&id=1BPBINrz4NV9ArdGSuSP4N-Z5KY9HfyOC", #ka arienta
-            "https://drive.google.com/uc?export=view&id=1K7iT8DNsUeD0pdhcCVWIvTdBITLUii0w", #bg daffa hadyan
-            "https://drive.google.com/uc?export=view&id=1tCLHu9q0W1K7H82TsceAJGrgYUuvyco8", #bg fajar
-            "https://drive.google.com/uc?export=view&id=1GkhRclhg0WIxGJAiWRJJ6sjP03iatpew", #ka natasya
-            "https://drive.google.com/uc?export=view&id=1D0tXMvKvwt9cMqM6MgyxdO3gTFH0N82G", #bg nobel 
-            "https://drive.google.com/uc?export=view&id=1RBgY6yqoT8fgAKVGcMRc4i7i4PxST4oP", #bg aji
-            "https://drive.google.com/uc?export=view&id=1twwWZ1XOuFzDn6iJ7s2d6SEeU2h_3-QJ", #ka vany
-            "https://drive.google.com/uc?export=view&id=1UGmL2ZD4yWE45cCGJeCeOg086i85zZZ7", #bg ahmad sahidin
-            "https://drive.google.com/uc?export=view&id=1KRATJTzmlLOf_ZSeNV0djYaSWbY17XtX", #bg ali
-            "https://drive.google.com/uc?export=view&id=1-pTpz9MHy4-NS4pKTHMLhNUyPurcWg0o", #ka razka
-            "https://drive.google.com/uc?export=view&id=1gRfwLYrje76kC5TYas-2a5XaBSqP-iGJ", #ka risma
-            "https://drive.google.com/uc?export=view&id=11ZNUJfxz1-MDqKmLdoO6KwZ28_HnryXp", #ka oca
-            "https://drive.google.com/uc?export=view&id=1sFpTDEJFgGpLQKmefOUQuOhHd8KtrLgx", #bg sahid maulana
-            "https://drive.google.com/uc?export=view&id=1LAQgxdayDzB-lXUqgNz-aLtRz0F8Kx-3", #bg daffa ahmad 
-            "https://drive.google.com/uc?export=view&id=1kLbqvU5lVJNJi5ixa7BnjJMNM-DrchzV", #ka erma
-            "https://drive.google.com/uc?export=view&id=1JevhYwhzBBVJQZQ7aNZfD7cgvK9v59mZ", #bg ihsan
-            "https://drive.google.com/uc?export=view&id=1ZivlcgD-0Bxs0ecAVT7KJcQrDU17Yp7C", #bg kevin
-            "https://drive.google.com/uc?export=view&id=12supRmADPFP7X9mgqtzU9ZL2SgvI4lRX", #ka lidia
-            "https://drive.google.com/uc?export=view&id=1GkhRclhg0WIxGJAiWRJJ6sjP03iatpew", #bg ridwan
-            "https://drive.google.com/uc?export=view&id=1GkhRclhg0WIxGJAiWRJJ6sjP03iatpew", #bg uliano
-            "https://drive.google.com/uc?export=view&id=1GkhRclhg0WIxGJAiWRJJ6sjP03iatpew", #bg benget
-            "https://drive.google.com/uc?export=view&id=1GkhRclhg0WIxGJAiWRJJ6sjP03iatpew", #ka rewina
+            "https://drive.google.com/uc?export=view&id=1D87dWJw9VhT38uFSzKOgUetaxAysVOJy", #bg ferdy
+            "https://drive.google.com/uc?export=view&id=1ZHOZvKqua23SqQd7gwUkGosnlzoqHVQS", #ka nisrina afifah
+            "https://drive.google.com/uc?export=view&id=1pJGfHMm-UEBpmkne6z2Ed291rueYo5ag", #ka pasha
+            "https://drive.google.com/uc?export=view&id=116lZ3ER4Zy2Ia6aXofyEnrkltIkhBl5l", #bg ahmad
+            "https://drive.google.com/uc?export=view&id=1Fhdv6YKODsHCILzKv68xydg8CHEM8Zix", #ka arienta
+            "https://drive.google.com/uc?export=view&id=1_p0aIFYR6FfKaeeAJFXjin7M0ag6QplB", #bg daffa hadyan
+            "https://drive.google.com/uc?export=view&id=1mAOE7GgvfhCnPpj2daQobBzRA0ojcQJl", #bg fajar
+            "https://drive.google.com/uc?export=view&id=1kDJ0mfVi4evKXccvoBJSc4aJ2HsuUUH8", #ka natasya
+            "https://drive.google.com/uc?export=view&id=1-RVjJiJt-5F-hob1x9ec9_sFcdTuHDt8", #bg nobel 
+            "https://drive.google.com/uc?export=view&id=1LQeke16OsQrMKTm5Ze9WP3HQ1trDa5bK", #bg aji
+            "https://drive.google.com/uc?export=view&id=1YXNSfydCeLVAPMZTPkgNiIN369YsexZP", #ka vany
+            "https://drive.google.com/uc?export=view&id=12YIShGMBFrqQGs1cZoB4vDRo2KujSxma", #bg ahmad sahidin
+            "https://drive.google.com/uc?export=view&id=14ILN2Y--Z8l3g8ktFQSzhcYhQrbVrfSb", #bg ali
+            "https://drive.google.com/uc?export=view&id=1V_r9bGwk5wryPBZ8XI0ALImFT_PIobE4", #ka razka
+            "https://drive.google.com/uc?export=view&id=1FBTK3aXH4F5uPxjR5RotximjcMjWFneu", #ka risma
+            "https://drive.google.com/uc?export=view&id=1GFpI3Uj0-9HiU7I9QAo3dMKb1OWmzmnt", #ka oca
+            "https://drive.google.com/uc?export=view&id=1TgYCgFHkT71UpZ3ZoMoWy8KM43KnnQoG", #bg sahid maulana
+            "https://drive.google.com/uc?export=view&id=16A2Rwjw99PRDwDt17zcegvJaJ2BJW55M", #bg daffa ahmad 
+            "https://drive.google.com/uc?export=view&id=11cxsbf5PY2XyzYINcQ1h_jgROLCo0zN0", #ka erma
+            "https://drive.google.com/uc?export=view&id=17acpksE0g7mm43QjLkr3fMmNuIbHYwvE", #bg ihsan
+            "https://drive.google.com/uc?export=view&id=1PFVhWDLY6ZIl598-CHs5UUas0YcchcwK", #bg kevin
+            "https://drive.google.com/uc?export=view&id=1Ak_nND7KH4WzcrWVDsmnh7lq1b5981z3", #ka lidia
+            "https://drive.google.com/uc?export=view&id=161yIBR-vveLXLcNBjMzNYTrTdLNtPY7M", #bg ridwan
+            "https://drive.google.com/uc?export=view&id=1EzyaymeKce3SBW8Iw9Pw4O0WwnFksuHa", #bg uliano
+            "https://drive.google.com/uc?export=view&id=1dj5UNspA0rVxMwkvSuxltRie-1v_bb_y", #bg benget
+            "https://drive.google.com/uc?export=view&id=1XB9-1jh_BBN3O9iwFvAvlV73lNca4Z6N", #ka rewina
         ]
         data_list = [
             {
@@ -728,7 +728,50 @@ elif menu == "Departemen PSDA":
         ]
         display_images_with_data(gambar_urls, data_list)
         DepartemenPSDA()
+elif menu == "Departemen MIKFES":
+    def DepartemenMIKFES():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1D87dWJw9VhT38uFSzKOgUetaxAysVOJy", #bg ferdy
+            "https://drive.google.com/uc?export=view&id=1ZHOZvKqua23SqQd7gwUkGosnlzoqHVQS", #ka nisrina afifah
+            "https://drive.google.com/uc?export=view&id=1pJGfHMm-UEBpmkne6z2Ed291rueYo5ag", #ka pasha
+            "https://drive.google.com/uc?export=view&id=116lZ3ER4Zy2Ia6aXofyEnrkltIkhBl5l", #bg ahmad
+            "https://drive.google.com/uc?export=view&id=1Fhdv6YKODsHCILzKv68xydg8CHEM8Zix", #ka arienta
+            "https://drive.google.com/uc?export=view&id=1_p0aIFYR6FfKaeeAJFXjin7M0ag6QplB", #bg daffa hadyan
+            "https://drive.google.com/uc?export=view&id=1mAOE7GgvfhCnPpj2daQobBzRA0ojcQJl", #bg fajar
+            "https://drive.google.com/uc?export=view&id=1kDJ0mfVi4evKXccvoBJSc4aJ2HsuUUH8", #ka natasya
+            "https://drive.google.com/uc?export=view&id=1-RVjJiJt-5F-hob1x9ec9_sFcdTuHDt8", #bg nobel 
+            "https://drive.google.com/uc?export=view&id=1LQeke16OsQrMKTm5Ze9WP3HQ1trDa5bK", #bg aji
+            "https://drive.google.com/uc?export=view&id=1YXNSfydCeLVAPMZTPkgNiIN369YsexZP", #ka vany
+            "https://drive.google.com/uc?export=view&id=12YIShGMBFrqQGs1cZoB4vDRo2KujSxma", #bg ahmad sahidin
+            "https://drive.google.com/uc?export=view&id=14ILN2Y--Z8l3g8ktFQSzhcYhQrbVrfSb", #bg ali
+            "https://drive.google.com/uc?export=view&id=1V_r9bGwk5wryPBZ8XI0ALImFT_PIobE4", #ka razka
+            "https://drive.google.com/uc?export=view&id=1FBTK3aXH4F5uPxjR5RotximjcMjWFneu", #ka risma
+            "https://drive.google.com/uc?export=view&id=1GFpI3Uj0-9HiU7I9QAo3dMKb1OWmzmnt", #ka oca
+            "https://drive.google.com/uc?export=view&id=1TgYCgFHkT71UpZ3ZoMoWy8KM43KnnQoG", #bg sahid maulana
+            "https://drive.google.com/uc?export=view&id=16A2Rwjw99PRDwDt17zcegvJaJ2BJW55M", #bg daffa ahmad 
+            "https://drive.google.com/uc?export=view&id=11cxsbf5PY2XyzYINcQ1h_jgROLCo0zN0", #ka erma
+            "https://drive.google.com/uc?export=view&id=17acpksE0g7mm43QjLkr3fMmNuIbHYwvE", #bg ihsan
+            "https://drive.google.com/uc?export=view&id=1PFVhWDLY6ZIl598-CHs5UUas0YcchcwK", #bg kevin
+            "https://drive.google.com/uc?export=view&id=1Ak_nND7KH4WzcrWVDsmnh7lq1b5981z3", #ka lidia
+            "https://drive.google.com/uc?export=view&id=161yIBR-vveLXLcNBjMzNYTrTdLNtPY7M", #bg ridwan
+            "https://drive.google.com/uc?export=view&id=1EzyaymeKce3SBW8Iw9Pw4O0WwnFksuHa", #bg uliano
+            "https://drive.google.com/uc?export=view&id=1dj5UNspA0rVxMwkvSuxltRie-1v_bb_y", #bg benget
+            "https://drive.google.com/uc?export=view&id=1XB9-1jh_BBN3O9iwFvAvlV73lNca4Z6N", #ka rewina
+        ]
+        data_list = [
+            {
+                "nama": "Ferdy Kevin Naibaho",
+                "nim": "122450107",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@ferdy_kevin",
+                "kesan": "",  
+                "pesan":""# 1
+            },
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
