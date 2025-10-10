@@ -204,7 +204,7 @@ if menu == "Baleg":
                 "asal":"Nusa Kambangan",
                 "alamat": "Lapas, Belwis",
                 "hobbi": "Melarikan diri",
-                "sosmed": "@-",
+                "sosmed": "@jeremia_s_",
                 "kesan": "keren banget banggg bisa jadi ",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -215,7 +215,7 @@ if menu == "Baleg":
                 "asal":"Kendari",
                 "alamat": "Metro",
                 "hobbi": "Bertutur kata baik dan sopan",
-                "sosmed": "@-",
+                "sosmed": "@_.deamalia",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
