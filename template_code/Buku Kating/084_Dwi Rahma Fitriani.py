@@ -115,7 +115,7 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Beli donat kentang",
                 "sosmed": "@endraa",
-                "kesan": "Abang ini humbel banget
+                "kesan": "Abang ini humbel banget",
                 "pesan":"semangat terus banggg"# 1
             },
             {
@@ -321,7 +321,7 @@ elif menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     senator()
 elif menu == "Departemen SSD":
-    def Departemen SSD():
+    def DepartemenSSD():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1aY4rkqcTQUKHC5yh0pQLVc1f244uVLHE", #Bang ...
             "https://drive.google.com/uc?export=view&id=1wA13TEORYp690XiiIE22ZJE2jJRViA6B", #Kak ...
@@ -398,7 +398,7 @@ elif menu == "Departemen SSD":
                 "asal":"Bandar Lampung",
                 "alamat": "Way Halim",
                 "hobbi": "Jogging",
-                "sosmed": "@"nabila_azazahra,
+                "sosmed": "@nabila_azazahra",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -453,13 +453,13 @@ elif menu == "Departemen SSD":
                 "asal":"Bandar Lampung",
                 "alamat": "Tanjung Karang Timur",
                 "hobbi": "Main",
-                "sosmed": "@"nydiaaptr,
+                "sosmed": "@nydiaaptr",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen SSD()
+    DepartemenSSD()
     
 # Tambahkan menu lainnya sesuai kebutuhan
 

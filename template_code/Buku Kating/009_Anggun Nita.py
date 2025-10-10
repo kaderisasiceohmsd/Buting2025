@@ -324,7 +324,7 @@ if menu == "Kesekjenan":
                 "asal":"Bangka Belitung",
                 "alamat": "Tanjung Karang",
                 "hobbi": "koleksi batch google cloud",
-                "sosmed": "@"fer_yulius,
+                "sosmed": "@fer_yulius",
                 "kesan": "abangnya terlihat tegas dan berkomitmen",  
                 "pesan":"Semoga selalu bahagia dan sukses ke depannya"#12
             },
@@ -353,60 +353,61 @@ if menu == "Kesekjenan":
         ]
         display_images_with_data(gambar_urls, data_list)
     baleg()
-        def Senator():
+    def Senator():
             gambar_urls = [
                 "https://drive.google.com/uc?export=view&id=1neDjsaTInHgSaalL3wkmfrc2LFu7AP_z",#1
                 "https://drive.google.com/uc?export=view&id=1neDjsaTInHgSaalL3wkmfrc2LFu7AP_z",#2
                 "https://drive.google.com/uc?export=view&id=1neDjsaTInHgSaalL3wkmfrc2LFu7AP_z",#3
                 "https://drive.google.com/uc?export=view&id=1neDjsaTInHgSaalL3wkmfrc2LFu7AP_z",#4
             ]
-        data_list = [
-            {
-                "nama": "Rian Bintang Wijaya",
-                "nim": "122450094",
-                "umur": "20",
-                "asal":"Palembang",
-                "alamat": "Tanya caesar",
-                "hobbi": "padel",
-                "sosmed": "@bintangtwinkle",
-                "kesan": "Abangnya asik",  
-                "pesan":"Semangat kuliahnya bang"# 1
-            },
-            {
-                "nama": "Nadya Ratu Anjani",
-                "nim": "123450089",
-                "umur": "20",
-                "asal":"Jakarta",
-                "alamat": "belakang indomaret belwis",
-                "hobbi": "Maen roblox",
-                "sosmed": "@nadyaanjaani",
-                "kesan": "Kakaknya asik",  
-                "pesan":"Semangat kuliahnya kak"#2
-            },
-            {
-                "nama": "Fathinah Nur Azizah",
-                "nim": "123450072",
-                "umur": "20",
-                "asal":"jakarta",
-                "alamat": "123450072",
-                "hobbi": "like instagram",
-                "sosmed": "@fathinahnazzh",
-                "kesan": "Kakaknya asik",  
-                "pesan":"Semangat kuliahnya kak"#3
-            },
-            {
-                "nama": "Lia Hana Ichisasmita",
-                "nim": "123450083",
-                "umur": "20",
-                "asal":"Bandar Lampung",
-                "alamat": "Sukarame",
-                "hobbi": "dengerin lagu",
-                "sosmed": "@lia.h_264",
-                "kesan": "Kakaknya asik",  
-                "pesan":"Semangat kuliahnya kak"#4
-            },
-        display_images_with_data(gambar_urls, data_list)
-   Senator()
+            data_list = [
+                {
+                    "nama": "Rian Bintang Wijaya",
+                    "nim": "122450094",
+                    "umur": "20",
+                    "asal":"Palembang",
+                    "alamat": "Tanya caesar",
+                    "hobbi": "padel",
+                    "sosmed": "@bintangtwinkle",
+                    "kesan": "Abangnya asik",  
+                    "pesan":"Semangat kuliahnya bang"# 1
+                },
+                {
+                    "nama": "Nadya Ratu Anjani",
+                    "nim": "123450089",
+                    "umur": "20",
+                    "asal":"Jakarta",
+                    "alamat": "belakang indomaret belwis",
+                    "hobbi": "Maen roblox",
+                    "sosmed": "@nadyaanjaani",
+                    "kesan": "Kakaknya asik",  
+                    "pesan":"Semangat kuliahnya kak"#2
+                },
+                {
+                    "nama": "Fathinah Nur Azizah",
+                    "nim": "123450072",
+                    "umur": "20",
+                    "asal":"jakarta",
+                    "alamat": "123450072",
+                    "hobbi": "like instagram",
+                    "sosmed": "@fathinahnazzh",
+                    "kesan": "Kakaknya asik",  
+                    "pesan":"Semangat kuliahnya kak"#3
+                },
+                {
+                    "nama": "Lia Hana Ichisasmita",
+                    "nim": "123450083",
+                    "umur": "20",
+                    "asal":"Bandar Lampung",
+                    "alamat": "Sukarame",
+                    "hobbi": "dengerin lagu",
+                    "sosmed": "@lia.h_264",
+                    "kesan": "Kakaknya asik",  
+                    "pesan":"Semangat kuliahnya kak"#4
+                },
+            ]
+            display_images_with_data(gambar_urls, data_list)
+    Senator()
 
 
 

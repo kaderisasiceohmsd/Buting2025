@@ -177,7 +177,7 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
-if menu == "Baleg"
+if menu == "Baleg":
     def Baleg():
          gambar_urls = [
              "https://drive.google.com/uc?export=view&id= ", #isi sendiri
@@ -195,7 +195,7 @@ if menu == "Baleg"
              "https://drive.google.com/uc?export=view&id= ",
              "https://drive.google.com/uc?export=view&id= ",
          ]
-        data_list = [
+         data_list = [
             {
                 "nama": "Kakak A",
                 "nim": "122450000",
@@ -351,10 +351,10 @@ if menu == "Baleg"
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
         ]
-        display_images_with_data(gambar_urls, data_list)
-Baleg()
+         display_images_with_data(gambar_urls, data_list)
+         Baleg()
 
-if menu == "Senator"
+if menu == "Senator":
     def Senator():
          gambar_urls = [
              "https://drive.google.com/uc?export=view&id= ", #isi sendiri
@@ -362,7 +362,7 @@ if menu == "Senator"
              "https://drive.google.com/uc?export=view&id= ",
              "https://drive.google.com/uc?export=view&id= ",
              ]
-        data_list = [
+         data_list = [
             {
                 "nama": "Kakak A",
                 "nim": "122450000",
@@ -407,12 +407,11 @@ if menu == "Senator"
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
-            },
         ]
-        display_images_with_data(gambar_urls, data_list)
+    display_images_with_data(gambar_urls, data_list)
     Senator()
 
-if menu == "Departemen Internal"
+if menu == "Departemen Internal":
     def Departemen_Internal():
          gambar_urls = [
              "https://drive.google.com/uc?export=view&id= ", #isi sendiri
@@ -431,7 +430,7 @@ if menu == "Departemen Internal"
              "https://drive.google.com/uc?export=view&id= ",
              "https://drive.google.com/uc?export=view&id= ",
          ]
-        data_list = [
+         data_list = [
             {
                 "nama": "Kakak A",
                 "nim": "122450000",
@@ -598,7 +597,7 @@ if menu == "Departemen Internal"
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
         ]
-        display_images_with_data(gambar_urls, data_list)
+    display_images_with_data(gambar_urls, data_list)
 Departemen_Internal()
 # Tambahkan menu lainnya sesuai kebutuhan
 
