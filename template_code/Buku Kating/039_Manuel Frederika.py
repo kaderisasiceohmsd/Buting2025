@@ -415,7 +415,7 @@ if menu == "Departemen Medkraf":
                 "umur": "19",
                 "asal": "KotaBumi",
                 "alamat": "Gracia Kost 1",
-                "hobbi": "Main Gitar,
+                "hobbi": "Main Gitar",
                 "sosmed": "@aliyaammara",
                 "kesan": "",  
                 "pesan": ""# 1
@@ -525,4 +525,5 @@ if menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
