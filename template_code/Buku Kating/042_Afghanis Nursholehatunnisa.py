@@ -355,16 +355,14 @@ elif menu == "Baleg":
 elif menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1_WB-NQPJkRrss8lPdH1Ci6h0idlOAOqT",
-            "https://drive.google.com/uc?export=view&id=1Ysl65G0q1n29a5WLx4FH3w5uta0H94pZ",
-            "https://drive.google.com/uc?export=view&id=1nf-azSQKdXkhYc1cZLyZ_zdgeTmbIkkC",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=12jpsmRCuRORL79dXQo133qHLHdjGzKJR",
+            "https://drive.google.com/uc?export=view&id=1MpZ6yJkR-GSU1uh73au4Lz9WnJPjBfhR",
+            "https://drive.google.com/uc?export=view&id=1uIB4DiZnc8KSL5AySQM4h17bz_mS15ZX",
+            "https://drive.google.com/uc?export=view&id=1A8okF1ifc5chqMdIhGZmsqPMqgD1QYxG",
         ]
         data_list = [
             {
-                "nama": "Rendra Eka Prayoga",
+                "nama": "Rian Bintang Wijaya",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -375,7 +373,7 @@ elif menu == "Senator":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Johannes Krisjon Silitonga",
+                "nama": "Nadya Ratu Anjani",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -386,7 +384,7 @@ elif menu == "Senator":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Elisabeth Claudia Simanjuntak",
+                "nama": "Fathinah Nur Azizah",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -397,29 +395,7 @@ elif menu == "Senator":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Syadza Puspadari Azhar",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
-            {
-                "nama": "Eksanty F. Sukma Islamiaty",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
-            {
-                "nama": "Farahanum Afifah Ardiansyah",
+                "nama": "Lia Hana Ichisasmita",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
