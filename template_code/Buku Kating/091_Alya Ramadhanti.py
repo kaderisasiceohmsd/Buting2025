@@ -398,7 +398,7 @@ if menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     Senator()
 
-if menu == "Departemen_PSDA":
+if menu == "Departemen PSDA":
     def Departemen_PSDA():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -674,7 +674,7 @@ if menu == "Departemen_PSDA":
         display_images_with_data(gambar_urls, data_list)
     Departemen_PSDA()
 
-if menu == "Departemen_Mikfes":
+if menu == "Departemen Mikfes":
     def Departemen_Mikfes():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -939,7 +939,7 @@ if menu == "Departemen_Mikfes":
         display_images_with_data(gambar_urls, data_list)
     Departemen_Mikfes()
 
-if menu == "Departemen_Eksternal":
+if menu == "Departemen Eksternal":
     def Departemen_Eksternal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -1215,7 +1215,7 @@ if menu == "Departemen_Eksternal":
         display_images_with_data(gambar_urls, data_list)
     Departemen_Eksternal()
 
-if menu == "Departemen_Internal":
+if menu == "Departemen Internal":
     def Departemen_Internal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -1392,7 +1392,7 @@ if menu == "Departemen_Internal":
         display_images_with_data(gambar_urls, data_list)
     Departemen_Internal()
 
-if menu == "Departemen_SSD":
+if menu == "Departemen SSD":
     def Departemen_SSD():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -1525,7 +1525,7 @@ if menu == "Departemen_SSD":
         display_images_with_data(gambar_urls, data_list)
     Departemen_SSD()
 
-if menu == "Departemen_Medkraf":
+if menu == "Departemen Medkraf":
     def Departemen_Medkraf():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -1734,6 +1734,11 @@ if menu == "Departemen_Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_Medkraf()
+
+
+
+
+
 
 
 
