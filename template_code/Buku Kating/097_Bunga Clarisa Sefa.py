@@ -1779,7 +1779,7 @@ if menu == "Departemen Medkraf":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Raihan Adelia Putri",
+                "nama": "Raihana Adelia Putri",
                 "nim": "123450041",
                 "umur": "19",
                 "asal":"Lampung Tengah",
@@ -1834,13 +1834,13 @@ if menu == "Departemen Medkraf":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Raihana Adelia Putri",
-                "nim": "123450091",
-                "umur": "20",
-                "asal":"Lampung Tengah",
-                "alamat": "Airan 1",
-                "hobbi": "Menulis,, Membaca, Mendengarkan Musik",
-                "sosmed": "@nltg._",
+                "nama": "Khoirul Anam",
+                "nim": "122450039",
+                "umur": "22",
+                "asal":"Pesawaran",
+                "alamat": "Pesawaran",
+                "hobbi": "Billiard dan volly",
+                "sosmed": "@mananam_",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },

@@ -102,11 +102,16 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Kami adalah Kelompok 03 - Markov, salah satu kelompok kaderisasi HMSD adyatama 2025 yang beranggotakan 12 orang. Markov berasal dari nama ilmuwan matematikawan rusia yang bernama Andrey Markov, yaitu matematika dan probabilitas yang artinya dalam kelompok ini setiap langkah ke depan bergantung pada kondisi saat ini, bukan pada masa lalu. Markov sebagai identitas kelompok kami dengan harapan dapat belajar, berkembang, dan berproses selama rangkaian kaderisasi ini.</div>""",
+            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+                    laborum.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1Gny0GZHIDORK7yGyweU7M3jce0m_WHY_"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
         layout(foto_kelompok)
         st.markdown(
             """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

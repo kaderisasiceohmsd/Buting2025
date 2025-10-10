@@ -373,8 +373,8 @@ if menu == "Senator":
                 "alamat": "tanya caesar",
                 "hobbi": "Padel",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abangnya sangat bijak dan keren",  
+                "pesan":"Semoga lancar-lancar urusannya"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -384,8 +384,8 @@ if menu == "Senator":
                 "alamat": "Belakang Indomaret belwis",
                 "hobbi": "Maen Roblox",
                 "sosmed": "@nadyaanjani",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Keren banget kakaknya",  
+                "pesan":"Semoga dipermudah urusannya kak"# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -395,8 +395,8 @@ if menu == "Senator":
                 "alamat": "Asrama TB1",
                 "hobbi": "like instagram",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Enak banget pas ngajar tutor",  
+                "pesan":"Sehat-sehat kak"# 1
             },
             {
                 "nama": "Lia Hana Ichisasmita ",
@@ -406,8 +406,8 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Dengerin Lagu",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakak ini asli pembaik",  
+                "pesan":"Semangat kuliahnya kak"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -452,8 +452,8 @@ if menu == "Departemen PSDA":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "",
-                "kesan": "Kakak sangat berwibawa dan mengayomi.",
-                "pesan": "Mohon bimbingannya selalu, Kak. Sehat dan sukses terus!"
+                "kesan": "Terima kasih banyak atas ilmunya, Kak.",
+                "pesan": "Sukses selalu ya, Kak!"
             },
             {
                 "nama": "Nisrina Nur Afifah",
@@ -463,129 +463,129 @@ if menu == "Departemen PSDA":
                 "alamat": "korpri sukarame",
                 "hobbi": "jajan",
                 "sosmed": "@afifahhnsrn",
-                "kesan": "Terima kasih atas bimbingannya selama ini, Kak.",
-                "pesan": "Semoga kami bisa meneladani semangat kakak."
+                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
+                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
             },
             {
                 "nama": "Rewina Audriya Melva Sari",
                 "nim": "123450049",
                 "umur": "20",
-                "asal":"Bandar Lampung",
+                "asal": "Bandar Lampung",
                 "alamat": "Way Kandis",
                 "hobbi": "Dengerin musik",
                 "sosmed": "@rewinanaaa",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Senang bisa dibimbing sama Kakak. Keren!",
+                "pesan": "Semoga studinya lancar dan sukses terus ya, Kak."
             },
             {
                 "nama": "Ihsan Maulana Yusuf",
                 "nim": "123450110",
                 "umur": "20",
-                "asal":"Sumatera Barat",
+                "asal": "Sumatera Barat",
                 "alamat": "Belwis, pemda",
                 "hobbi": "Nangkap lele",
                 "sosmed": "@ihsan.yusuf",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Terima kasih banyak atas ilmunya, Kak.",
+                "pesan": "Sukses selalu ya, Kak!"
             },
             {
                 "nama": "Daffa Ahmad Noval",
                 "nim": "122450137",
                 "umur": "21",
-                "asal":"Jakarta",
+                "asal": "Jakarta",
                 "alamat": "Korpri",
                 "hobbi": "Cari masalah anak 23",
                 "sosmed": "@ahmadnoval_11",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
+                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
             },
             {
                 "nama": "Benget Sidabutar",
                 "nim": "123450047",
                 "umur": "20",
-                "asal":"Sumatera Utara",
+                "asal": "Sumatera Utara",
                 "alamat": "Belwis",
                 "hobbi": "Futsal",
                 "sosmed": "@sidabutar.26",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Senang bisa dibimbing sama Kakak. Keren!",
+                "pesan": "Semoga studinya lancar dan sukses terus ya, Kak."
             },
             {
                 "nama": "Ulliano William Purba",
                 "nim": "122450098",
                 "umur": "19",
-                "asal":"Depok",
+                "asal": "Depok",
                 "alamat": "Jl. Raden Saleh",
                 "hobbi": "Main piano, ngoding, menanam anggrek, berantem",
                 "sosmed": "@ullianowlm",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Terima kasih banyak atas ilmunya, Kak.",
+                "pesan": "Sukses selalu ya, Kak!"
             },
             {
                 "nama": "Ahmad Sahidin Akbar",
                 "nim": "122450044",
                 "umur": "21",
-                "asal":"Tulang Bawang",
+                "asal": "Tulang Bawang",
                 "alamat": "Sukarame",
                 "hobbi": "Voli",
                 "sosmed": "@shahid22_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
+                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
             },
             {
                 "nama": "Ali Aristo Muthahari Parisi",
                 "nim": "123450088",
                 "umur": "20",
-                "asal":"Jabung, Lampung Timur",
+                "asal": "Jabung, Lampung Timur",
                 "alamat": "Gang Nangka 4 Sukarame",
                 "hobbi": "Main game, Kuliner malam jika ada uang",
                 "sosmed": "@ali_parisi3",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Senang bisa dibimbing sama Kakak. Keren!",
+                "pesan": "Semoga studinya lancar dan sukses terus ya, Kak."
             },
             {
                 "nama": "Rosalia Siregar",
                 "nim": "123450036",
                 "umur": "19",
-                "asal":"Medan",
+                "asal": "Medan",
                 "alamat": "Belwis",
                 "hobbi": "Main roblox",
                 "sosmed": "@rosaliasiregar",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Terima kasih banyak atas ilmunya, Kak.",
+                "pesan": "Sukses selalu ya, Kak!"
             },
             {
                 "nama": "Kharisma Mustika Sari",
                 "nim": "123450034",
                 "umur": "20",
-                "asal":"Way Kanan",
+                "asal": "Way Kanan",
                 "alamat": "Untung",
                 "hobbi": "Scroll tiktok",
                 "sosmed": "@rismaa.mustika_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
+                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
             },
             {
                 "nama": "Gusti Putu Ferazka",
                 "nim": "123450046",
                 "umur": "20",
-                "asal":"Bekasi",
+                "asal": "Bekasi",
                 "alamat": "Way Dadi",
                 "hobbi": "Tidur",
                 "sosmed": "@feraztaaa",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Senang bisa dibimbing sama Kakak. Keren!",
+                "pesan": "Semoga studinya lancar dan sukses terus ya, Kak."
             },
             {
                 "nama": "Sahid Maulana",
                 "nim": "122450109",
                 "umur": "22",
-                "asal":"Depok",
+                "asal": "Depok",
                 "alamat": "Jln. Airan",
                 "hobbi": "Main game",
                 "sosmed": "@sahid_maul19",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Terima kasih banyak atas ilmunya, Kak.",
+                "pesan": "Sukses selalu ya, Kak!"
             },
             {
                 "nama": "Allya Nurul Islami Pasha",
@@ -595,8 +595,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Gang Perwira Belwis",
                 "hobbi": "Main",
                 "sosmed": "@allyapasha_",
-                "kesan": "Sikapnya tegas dan disiplin, menjadi panutan bagi kami.",
-                "pesan": "Terima kasih atas ilmunya, semoga kakak sehat selalu."
+                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
+                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
             },
             {
                 "nama": "Ahmad Rizky",
@@ -606,8 +606,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main Bola",
                 "sosmed": "@ahmad.rizky__",
-                "kesan": "Senang mendapat arahan dari kakak, sangat memotivasi.",
-                "pesan": "Semangat terus dalam menjalankan amanahnya, Kak!"
+                "kesan": "Senang bisa dibimbing sama Kakak. Keren!",
+                "pesan": "Semoga studinya lancar dan sukses terus ya, Kak."
             },
             {
                 "nama": "Arienta Khusnul Ananda",
@@ -617,8 +617,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Main Blockblast",
                 "sosmed": "@arientakhsnl_",
-                "kesan": "Pembawaannya tenang dan bijaksana.",
-                "pesan": "Sukses selalu untuk kakak, ditunggu arahan selanjutnya."
+                "kesan": "Terima kasih banyak atas ilmunya, Kak.",
+                "pesan": "Sukses selalu ya, Kak!"
             },
             {
                 "nama": "Daffa Hadyan Navista",
@@ -628,8 +628,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Jahilin Miyor",
                 "sosmed": "@daffahdynn_",
-                "kesan": "Kakak sangat berwibawa dan mengayomi.",
-                "pesan": "Mohon bimbingannya selalu, Kak. Sehat dan sukses terus!"
+                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
+                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
             },
             {
                 "nama": "Ginda Fajar Riadi Marpaung",
@@ -639,8 +639,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Kontrakan GH",
                 "hobbi": "Main game, Baca, Badminton, Gitar",
                 "sosmed": "@ginda_mrp",
-                "kesan": "Terima kasih atas bimbingannya selama ini, Kak.",
-                "pesan": "Semoga kami bisa meneladani semangat kakak."
+                "kesan": "Senang bisa dibimbing sama Kakak. Keren!",
+                "pesan": "Semoga studinya lancar dan sukses terus ya, Kak."
             },
             {
                 "nama": "Natasya Amavisca",
@@ -650,8 +650,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Kost putri gerbang barat",
                 "hobbi": "",
                 "sosmed": "@natasyamavisca",
-                "kesan": "Sikapnya tegas dan disiplin, menjadi panutan bagi kami.",
-                "pesan": "Terima kasih atas ilmunya, semoga kakak sehat selalu."
+                "kesan": "Terima kasih banyak atas ilmunya, Kak.",
+                "pesan": "Sukses selalu ya, Kak!"
             },
             {
                 "nama": "Nobel Nizam F",
@@ -661,8 +661,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Wisma Emas Setengah",
                 "hobbi": "Ngekader",
                 "sosmed": "@nobelnizam",
-                "kesan": "Senang mendapat arahan dari kakak, sangat memotivasi.",
-                "pesan": "Semangat terus dalam menjalankan amanahnya, Kak!"
+                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
+                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
             },
             {
                 "nama": "Nurul Alfajar Gumel",
@@ -672,8 +672,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Sigma Family",
                 "hobbi": "Mancing Emosi",
                 "sosmed": "@ji_gumel17",
-                "kesan": "Pembawaannya tenang dan bijaksana.",
-                "pesan": "Sukses selalu untuk kakak, ditunggu arahan selanjutnya."
+                "kesan": "Senang bisa dibimbing sama Kakak. Keren!",
+                "pesan": "Semoga studinya lancar dan sukses terus ya, Kak."
             },
             {
                 "nama": "Vany Salsabila Putri",
@@ -683,53 +683,53 @@ if menu == "Departemen PSDA":
                 "alamat": "Lampung Selatan",
                 "hobbi": "Senang berbicara",
                 "sosmed": "@vany.salsabilaa",
-                "kesan": "Kakak sangat berwibawa dan mengayomi.",
-                "pesan": "Mohon bimbingannya selalu, Kak. Sehat dan sukses terus!"
+                "kesan": "Terima kasih banyak atas ilmunya, Kak.",
+                "pesan": "Sukses selalu ya, Kak!"
             },
             {
                 "nama": "Erma Daniar Safitri",
                 "nim": "123450061",
                 "umur": "20",
-                "asal":"Pringsewu",
+                "asal": "Pringsewu",
                 "alamat": "Jl. Lapas Raya No 50",
                 "hobbi": "Dance",
                 "sosmed": "@d__aniar",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
+                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
             },
             {
                 "nama": "Kevin Antoni Junior",
                 "nim": "123450109",
                 "umur": "20",
-                "asal":"Panjang Selamat",
+                "asal": "Panjang Selamat",
                 "alamat": "Bandar Lampung",
                 "hobbi": "Duduk",
                 "sosmed": "@kevinaj_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Senang bisa dibimbing sama Kakak. Keren!",
+                "pesan": "Semoga studinya lancar dan sukses terus ya, Kak."
             },
             {
                 "nama": "Lidia Natasyah Marpaung",
                 "nim": "123450023",
                 "umur": "20",
-                "asal":"Medan",
+                "asal": "Medan",
                 "alamat": "Pemda",
                 "hobbi": "Merajuk",
                 "sosmed": "@dla_natzzyaa",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Terima kasih banyak atas ilmunya, Kak.",
+                "pesan": "Sukses selalu ya, Kak!"
             },
             {
                 "nama": "Muhammad Ridwan",
                 "nim": "123450091",
                 "umur": "20",
-                "asal":"Lampung Tengah",
+                "asal": "Lampung Tengah",
                 "alamat": "Belwis",
                 "hobbi": "Nghina orang Bengkinang",
                 "sosmed": "@ridwan122",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
+                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
+                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     psda()
@@ -1328,166 +1328,166 @@ if menu == "Departemen Internal":
                 "nama": "Rani Puspita Sari",
                 "nim": "122450030",
                 "umur": "21",
-                "asal":"Surabaya",
+                "asal": "Surabaya",
                 "alamat": "Rajabasa",
                 "hobbi": "Mengaji",
                 "sosmed": "@rannipu",
-                "kesan": "Kakak sangat peduli dengan keakraban dan kesejahteraan anggota.",
-                "pesan":"Semoga kakak selalu bisa menjadi perekat bagi kami semua. Semangat terus!"
+                "kesan": "Kakaknya baik banget dan ramah.",
+                "pesan": "Sehat dan semangat terus ya, Kak!"
             },
             {
                 "nama": "Renta Siahaan",
                 "nim": "122450070",
                 "umur": "22",
-                "asal":"Sumatera Utara",
+                "asal": "Sumatera Utara",
                 "alamat": "Gerbang Barat",
                 "hobbi": "Memancing",
                 "sosmed": "@renta.shn",
-                "kesan": "Terima kasih sudah membuat suasana internal himpunan menjadi hangat dan nyaman.",
-                "pesan":"Teruslah jaga kehangatan dan kekeluargaan di himpunan kita, Kak."
+                "kesan": "Kakaknya asik dan seru.",
+                "pesan": "Semoga urusan kuliahnya lancar selalu, Kak."
             },
             {
                 "nama": "Salwa Farhanatussaidah",
                 "nim": "122450055",
                 "umur": "21",
-                "asal":"Brebes, Jawa Tengah",
+                "asal": "Brebes, Jawa Tengah",
                 "alamat": "Airan",
                 "hobbi": "Memanah",
                 "sosmed": "@salwa_fhn",
-                "kesan": "Kemampuan kakak dalam menjaga soliditas tim internal sangat luar biasa.",
-                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal kita, Kak!"
+                "kesan": "Senang bisa kenal sama kakak.",
+                "pesan": "Sukses terus buat ke depannya ya, Kak!"
             },
             {
                 "nama": "Rendi Alexander Hutagalu",
                 "nim": "122450057",
                 "umur": "21",
-                "asal":"Tangerang",
+                "asal": "Tangerang",
                 "alamat": "Airan",
                 "hobbi": "Menyanyi",
                 "sosmed": "@rexanderr",
-                "kesan": "Selalu menjadi penengah dan penguat bagi kami semua di internal.",
-                "pesan":"Terima kasih telah menjadi garda terdepan untuk kesejahteraan kami."
+                "kesan": "Kakaknya humble dan mudah diajak ngobrol.",
+                "pesan": "Semangat terus ya, Kak, jangan sungkan sapa kami."
             },
             {
                 "nama": "Hanna Grecia Sinaga",
                 "nim": "123450038",
                 "umur": "21",
-                "asal":"Jakarta Selatan",
+                "asal": "Jakarta Selatan",
                 "alamat": "Pemda",
                 "hobbi": "Melihat cicak",
                 "sosmed": "@hanna_g_sinaga",
-                "kesan": "Kakak sangat peduli dengan keakraban dan kesejahteraan anggota.",
-                "pesan":"Semoga kakak selalu bisa menjadi perekat bagi kami semua. Semangat terus!"
+                "kesan": "Kakaknya baik dan friendly.",
+                "pesan": "Semoga lancar-lancar semua urusannya, Kak."
             },
             {
                 "nama": "Iqfina Haula Halika",
                 "nim": "123450076",
                 "umur": "20",
-                "asal":"Bandar Lampung",
+                "asal": "Bandar Lampung",
                 "alamat": "Bandar Lampung",
                 "hobbi": "Baking",
                 "sosmed": "@iqfinahalikaa_",
-                "kesan": "Terima kasih sudah membuat suasana internal himpunan menjadi hangat dan nyaman.",
-                "pesan":"Teruslah jaga kehangatan dan kekeluargaan di himpunan kita, Kak."
+                "kesan": "Kakaknya asik banget.",
+                "pesan": "Sehat selalu, Kak!"
             },
             {
                 "nama": "Haikal Fransisqo Simbolon",
                 "nim": "123450106",
                 "umur": "19",
-                "asal":"Bekasi",
+                "asal": "Bekasi",
                 "alamat": "Kota Baru",
                 "hobbi": "Balapan",
                 "sosmed": "@haikalsbln_",
-                "kesan": "Kemampuan kakak dalam menjaga soliditas tim internal sangat luar biasa.",
-                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal kita, Kak!"
+                "kesan": "Kakaknya seru dan suka membantu.",
+                "pesan": "Semangat terus kuliahnya, Kak!"
             },
             {
                 "nama": "Zailani Satria",
                 "nim": "123450111",
                 "umur": "19",
-                "asal":"Bandar Lampung",
+                "asal": "Bandar Lampung",
                 "alamat": "Rajabasa",
                 "hobbi": "Olahraga",
                 "sosmed": "@zailanisatria",
-                "kesan": "Selalu menjadi penengah dan penguat bagi kami semua di internal.",
-                "pesan":"Terima kasih telah menjadi garda terdepan untuk kesejahteraan kami."
+                "kesan": "Kakaknya baik dan supel.",
+                "pesan": "Sukses selalu ya, Kak."
             },
             {
                 "nama": "May Talitha Dahlia",
                 "nim": "123450009",
                 "umur": "20",
-                "asal":"Bandung",
+                "asal": "Bandung",
                 "alamat": "Urip",
                 "hobbi": "Berkuda",
                 "sosmed": "@may_dahlia12",
-                "kesan": "Kakak sangat peduli dengan keakraban dan kesejahteraan anggota.",
-                "pesan":"Semoga kakak selalu bisa menjadi perekat bagi kami semua. Semangat terus!"
+                "kesan": "Kesan pertamanya positif banget, Kak.",
+                "pesan": "Semoga kita bisa makin akrab ya, Kak."
             },
             {
                 "nama": "Azzahra Putri Kamila",
                 "nim": "123450013",
                 "umur": "20",
-                "asal":"Pekanbaru",
+                "asal": "Pekanbaru",
                 "alamat": "Asrama TB4",
                 "hobbi": "Memasak",
                 "sosmed": "@azza.rrr_",
-                "kesan": "Terima kasih sudah membuat suasana internal himpunan menjadi hangat dan nyaman.",
-                "pesan":"Teruslah jaga kehangatan dan kekeluargaan di himpunan kita, Kak."
+                "kesan": "Kakaknya ramah banget.",
+                "pesan": "Sehat dan bahagia selalu, Kak!"
             },
             {
                 "nama": "Sarah Wasti",
                 "nim": "123450057",
                 "umur": "20",
-                "asal":"Kota Bekasi",
+                "asal": "Kota Bekasi",
                 "alamat": "Tanjung Senang",
                 "hobbi": "Bermain alat musik",
                 "sosmed": "@sarahwsti",
-                "kesan": "Kemampuan kakak dalam menjaga soliditas tim internal sangat luar biasa.",
-                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal kita, Kak!"
+                "kesan": "Kakaknya asik untuk diajak diskusi.",
+                "pesan": "Lancar-lancar ya, Kak, kuliahnya."
             },
             {
                 "nama": "Keren Marito Lumba Gaol",
                 "nim": "123450020",
                 "umur": "19",
-                "asal":"Bekasi",
+                "asal": "Bekasi",
                 "alamat": "Way Hui Pemda",
                 "hobbi": "Main musik",
                 "sosmed": "@kerenmrtv",
-                "kesan": "Selalu menjadi penengah dan penguat bagi kami semua di internal.",
-                "pesan":"Terima kasih telah menjadi garda terdepan untuk kesejahteraan kami."
+                "kesan": "Kakaknya baik dan seru.",
+                "pesan": "Semangat terus, Kak!"
             },
             {
                 "nama": "Muhammad Hanif Dzaky",
                 "nim": "123450064",
                 "umur": "20",
-                "asal":"Kota Padang",
+                "asal": "Kota Padang",
                 "alamat": "Prumnas Way Kandis",
                 "hobbi": "Futsal",
                 "sosmed": "@hndzky_",
-                "kesan": "Kakak sangat peduli dengan keakraban dan kesejahteraan anggota.",
-                "pesan":"Semoga kakak selalu bisa menjadi perekat bagi kami semua. Semangat terus!"
+                "kesan": "Senang bisa satu himpunan sama kakak.",
+                "pesan": "Semoga urusannya dipermudah selalu, Kak."
             },
             {
                 "nama": "-",
                 "nim": "122450030",
                 "umur": "21",
-                "asal":"Surabaya",
+                "asal": "Surabaya",
                 "alamat": "Rajabasa",
                 "hobbi": "Mengaji",
                 "sosmed": "@rannipu",
-                "kesan": "Terima kasih sudah membuat suasana internal himpunan menjadi hangat dan nyaman.",
-                "pesan":"Teruslah jaga kehangatan dan kekeluargaan di himpunan kita, Kak."
+                "kesan": "Kakaknya baik banget.",
+                "pesan": "Sehat selalu ya, Kak."
             },
             {
                 "nama": "-",
                 "nim": "122450070",
                 "umur": "22",
-                "asal":"Sumatera Utara",
+                "asal": "Sumatera Utara",
                 "alamat": "Gerbang Barat",
                 "hobbi": "Memancing",
                 "sosmed": "@renta.shn",
-                "kesan": "Kemampuan kakak dalam menjaga soliditas tim internal sangat luar biasa.",
-                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal kita, Kak!"
+                "kesan": "Kakaknya ramah dan asik.",
+                "pesan": "Sukses terus, Kak!"
             }
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1501,12 +1501,12 @@ if menu == "Departemen SSD":
             "https://drive.google.com/uc?export=view&id=1ZO6GffhjvkSZEH31O1s6ssZmUAj0Yzfp",
             "https://drive.google.com/uc?export=view&id=1rvWO6bmLhAl1w4FSCNirRH7VhOk_Resr",
             "https://drive.google.com/uc?export=view&id=17wQH8j4nrlVO1AuGS7LLSnOa7Lqr9pOq",
-            "https://drive.google.com/uc?export=view&id=1shNNbdV_jL2P8FBnzvzigUJu8KK8zA4O",
+            "https://drive.google.com/uc?export=view&id=1TX2u1X8Xk-dKKPL6aYwjVTp09WaqHcBy",
             "https://drive.google.com/uc?export=view&id=1uAx6wcjnF7aSx1fZXZIidg3_ipSpMfqD",
             "https://drive.google.com/uc?export=view&id=1yYeCVJ8JZDsehsG-8lAnFFTmFj8ZsKGN",
             "https://drive.google.com/uc?export=view&id=14sHT1QziX-RwE5A3mJuBwb-3EyA7K5FW",
             "https://drive.google.com/uc?export=view&id=1guhzluEvmlBsPWBgBK6Rjm5GzEjpg0uU",
-            "https://drive.google.com/uc?export=view&id=1TX2u1X8Xk-dKKPL6aYwjVTp09WaqHcBy",
+            "https://drive.google.com/uc?export=view&id=1shNNbdV_jL2P8FBnzvzigUJu8KK8zA4O",
         ]
         data_list = [
             {
@@ -1654,207 +1654,207 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1mjt-JX_n3MzqgaobO4AEULwYY7M7NsdS",
             "https://drive.google.com/uc?export=view&id=1MzM3-72A_GlILWzBAkCttpk2HDiItsaX",
             "https://drive.google.com/uc?export=view&id=1_xRbojpM6a4Jc9Mu9WyrGUZSJ2R9zMop",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1rX165GgXAyJdEOKisObNKt0cCwrY6p3C",
         ]
         data_list = [
             {
                 "nama": "Patricia Leondrea Diajeng Putri",
                 "nim": "122450050",
                 "umur": "21",
-                "asal":"Lamsel",
+                "asal": "Lamsel",
                 "alamat": "Jatimulyo",
                 "hobbi": "Sleep Call",
                 "sosmed": "@patriciadiajeng",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya asik dan seru",
+                "pesan": "Sukses selalu ya, kak!"
             },
             {
                 "nama": "Rahma Neliyana",
                 "nim": "122450036",
                 "umur": "21",
-                "asal":"Lampung",
+                "asal": "Lampung",
                 "alamat": "Korpri, Sukarame",
                 "hobbi": "Gym, Masak",
                 "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Belajar sama kakaknya jadi menyenangkan",
+                "pesan": "Semoga lancar terus kuliahnya!"
             },
             {
                 "nama": "Try Yani Rizki Nur Rohmah",
                 "nim": "122450020",
                 "umur": "20",
-                "asal":"Lampung Barat",
+                "asal": "Lampung Barat",
                 "alamat": "Korpri",
                 "hobbi": "Belajar",
                 "sosmed": "@tryyaniciaaa",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya sangat membantu dan baik",
+                "pesan": "Tetap semangat, kak!"
             },
             {
                 "nama": "Rafi Diva Efangga",
                 "nim": "123450001",
                 "umur": "21",
-                "asal":"Lampung Tengah",
+                "asal": "Lampung Tengah",
                 "alamat": "Airan",
                 "hobbi": "Olahraga",
                 "sosmed": "@rafidivaefangga",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Seru banget bisa kenal kakak ini",
+                "pesan": "Semoga sehat dan sukses selalu"
             },
             {
                 "nama": "Romauli Oktavia Silaban",
                 "nim": "123450014",
                 "umur": "19",
-                "asal":"Sumatera Utara",
+                "asal": "Sumatera Utara",
                 "alamat": "Kelengkeng 2",
                 "hobbi": "Dance",
                 "sosmed": "@roms.slbn",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya ramah dan humble",
+                "pesan": "Terima kasih atas bimbingannya, kak."
             },
             {
                 "nama": "Eigi Artamevia",
                 "nim": "123450011",
                 "umur": "21",
-                "asal":"Lampung Selatan",
+                "asal": "Lampung Selatan",
                 "alamat": "Sabah Balau",
                 "hobbi": "Melukis",
                 "sosmed": "@eigirtmv",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya keren dan inspiratif",
+                "pesan": "Semoga apa yang dicita-citakan tercapai."
             },
             {
                 "nama": "Citra Agustin",
                 "nim": "123450108",
                 "umur": "21",
-                "asal":"Lampung Selatan",
+                "asal": "Lampung Selatan",
                 "alamat": "Natar",
                 "hobbi": "Scroll Pinterest",
                 "sosmed": "@citrastin",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Suasananya jadi asik kalau ada kakak ini",
+                "pesan": "Jangan lupa jaga kesehatan ya, kak."
             },
             {
                 "nama": "Aliya Ammara Ananta",
                 "nim": "123450075",
                 "umur": "20",
-                "asal":"Lampung Utara",
+                "asal": "Lampung Utara",
                 "alamat": "Sukarame",
                 "hobbi": "Nonton Netflix",
                 "sosmed": "@aliyaamara",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Penjelasannya mudah dimengerti",
+                "pesan": "Semangat terus kak, jangan menyerah!"
             },
             {
                 "nama": "Hafsa Fazila Arradhi",
                 "nim": "123450079",
                 "umur": "20",
-                "asal":"Bandar Lampung",
+                "asal": "Bandar Lampung",
                 "alamat": "Bandar Lampung",
                 "hobbi": "Memasak",
                 "sosmed": "@hafsa.fazila",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya baik banget",
+                "pesan": "Sukses untuk ke depannya, kak!"
             },
             {
                 "nama": "Refa Destini Pranata",
                 "nim": "123450016",
                 "umur": "19",
-                "asal":"Bandar Lampung",
+                "asal": "Bandar Lampung",
                 "alamat": "Kedaton",
                 "hobbi": "Mengoleksi Gelang",
                 "sosmed": "@refadp_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Senang bisa belajar bareng kakak",
+                "pesan": "Semoga sukses selalu menyertai."
             },
             {
                 "nama": "Feby Angelina",
                 "nim": "123450039",
                 "umur": "20",
-                "asal":"Kemiling",
+                "asal": "Kemiling",
                 "alamat": "Kemiling",
                 "hobbi": "Scroll Pinterest",
                 "sosmed": "@writtenbyangel",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya asik diajak diskusi",
+                "pesan": "Lancar terus ya kak kuliahnya!"
             },
             {
                 "nama": "Raihana Adelia Putri",
                 "nim": "123450041",
                 "umur": "19",
-                "asal":"Lampung Tengah",
+                "asal": "Lampung Tengah",
                 "alamat": "Airan Raya 1",
                 "hobbi": "Menulis, membaca, memasak",
                 "sosmed": "@nltg._",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya sangat welcome dan ramah",
+                "pesan": "Semangat terus dan semoga sukses!"
             },
             {
                 "nama": "Sania Dwi Ayu Lestari",
                 "nim": "123450086",
                 "umur": "20",
-                "asal":"Karawang",
+                "asal": "Karawang",
                 "alamat": "Airan",
                 "hobbi": "Main roblox",
                 "sosmed": "@saniayyllstr",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Sangat berkesan bisa diajar kakak",
+                "pesan": "Semoga sehat selalu, kak."
             },
             {
                 "nama": "Nayla Salsabila Fathianisa",
                 "nim": "123450082",
                 "umur": "20",
-                "asal":"Payakumbuh, Sumatera Barat",
+                "asal": "Payakumbuh, Sumatera Barat",
                 "alamat": "Jl. Lapas Raya, Jati Agung",
                 "hobbi": "Dengerin musik",
                 "sosmed": "@naylasalsabilaa",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya seru dan pintar",
+                "pesan": "Sukses terus untuk karirnya nanti."
             },
             {
-                "nama": "Akmal Faiz Abdilah ",
+                "nama": "Akmal Faiz Abdilah",
                 "nim": "122450114",
                 "umur": "21",
-                "asal":"Bandar Lampung",
+                "asal": "Bandar Lampung",
                 "alamat": "Griya Sukarame",
                 "hobbi": "Main Hp",
                 "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Orangnya asik dan mudah bergaul",
+                "pesan": "Semangat terus kak kuliahnya!"
             },
             {
                 "nama": "Dona Maya Puspita",
                 "nim": "123450028",
                 "umur": "20",
-                "asal":"Bekasi",
+                "asal": "Bekasi",
                 "alamat": "Way Huwi",
                 "hobbi": "Mendengar musik",
                 "sosmed": "@donamaya.p",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Terima kasih sudah berbagi ilmu",
+                "pesan": "Semoga sukses di masa depan!"
             },
             {
                 "nama": "Labo Napitupulu",
                 "nim": "123450037",
                 "umur": "20",
-                "asal":"Medan",
+                "asal": "Medan",
                 "alamat": "Gg.sakum",
                 "hobbi": "Motoran",
                 "sosmed": "@noe_rruuu",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya friendly dan baik hati",
+                "pesan": "Sehat dan sukses selalu, kak!"
             },
             {
                 "nama": "Khoirul Anam",
                 "nim": "122450039",
                 "umur": "22",
-                "asal":"Pesawaran",
+                "asal": "Pesawaran",
                 "alamat": "Pesawaran",
                 "hobbi": "Billiard dan volly",
                 "sosmed": "@mananam_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
+                "kesan": "Pengalamannya keren dan menginspirasi",
+                "pesan": "Teruslah berkarya, kak!"
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     medkraf()
