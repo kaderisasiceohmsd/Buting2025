@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=19vybQZr9mz0WOY6Il1ElD1CGhE7kPwxT",
+            "https://drive.google.com/uc?export=view&id=1Z7rMay3chRvVm9IRS8YiEV9t63v3Hws2",
+            "https://drive.google.com/uc?export=view&id=1GgoDSUvDyHDHMbtku3yDrxMv_obkmFTO",
+            "https://drive.google.com/uc?export=view&id=1IR19hPg5BSFfRiVqhEHn40DqONnItZfH",
+            "https://drive.google.com/uc?export=view&id=1a4jojPsXNztYmqlsVJsTh57Y4-Htt6Ww",
+            "https://drive.google.com/uc?export=view&id=127v5oPEojUoTG-fSERPi44ZMZkgsm16U",
         ]
         data_list = [
             {
@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Sangat berwibawa dan keren",  
-                "pesan":"Semangat terus bang menjalani hidup sebagai ketua"# 1
+                "kesan": "Sangat berwibawa, keren, positive vibes",  
+                "pesan":"Semoga amanah dan semangat kuliahnya"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,7 +126,7 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Keren banget karna ngajarin ilmu data sains",  
+                "kesan": "Keren banget, postive vibes",  
                 "pesan":"Semoga kehidupan kuliahnya berjalan mulus"# 1
             },
             {
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Korpri",
                 "hobbi": "Cutekahim",
                 "sosmed": "@farahanumafifah",
-                "kesan": "Bisa ada diposisi ini aja udah keren banget",  
-                "pesan":"Semoga ga banyak masalah menghampiri"# 1
+                "kesan": "Keren baik, lucu, asik",  
+                "pesan":"Lancar kuliah dan kariernya"# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Udah hobi membaca, punya posisi penting pula",  
-                "pesan":"Semoga lancar-lancar saja kehidupannya"# 1
+                "kesan": "Lucu, baik, postive vibes",  
+                "pesan":"Lancar selalu kuliah dan kariernya"# 1
             },
             {
                 "nama": "Eksanty Febriana Sugma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Asrama TB 4",
                 "hobbi": "Nahan Eeq",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Walau hobbynya ngawur, tapi bisa berada di posisi penting haha",  
-                "pesan":"Semoga tidak ada masalah yang menghampiri"# 1
+                "kesan": "Lucu, bikin ketawa terus",  
+                "pesan":"Lancar kuliah dan kariernya"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Agrest Kost",
                 "hobbi": "Nahan Pipis",
                 "sosmed": "@celisabethh_",
-                "kesan": "Hobbynya ngawur, tapi megang posisi penting",  
-                "pesan":"Semoga lancar kehidupan kuliahnya"# 1
+                "kesan": "asik, lucu, dan baik hati",  
+                "pesan":"Semoga lancar kuliah dan kariernya"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
