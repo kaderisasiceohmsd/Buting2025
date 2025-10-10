@@ -171,7 +171,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Cute Jenderal",
                 "sosmed": "@farahanumafifah",
                 "kesan": "Kakaknya terlihat bersemangat dan positif",  
-                "pesan":""# 1
+                "pesan":"   "# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
