@@ -398,7 +398,7 @@ if menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     Senator()
 
-if menu == "Departemen_PSDA":
+if menu == "Departemen PSDA":
     def Departemen_PSDA():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
