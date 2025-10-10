@@ -205,7 +205,7 @@ elif menu == "Baleg":
                 "hobbi": "nonton orang kayang",
                 "sosmed": "@jeremia_s_",
                 "kesan": "abangnya berwibawa dan bijak dalam bersikap",  
-                "pesan":"Semoga makin sukses dan terus berkembang!"# 1
+                "pesan":""# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
