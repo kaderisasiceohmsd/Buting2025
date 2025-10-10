@@ -131,12 +131,12 @@ elif menu == "About Us":
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #niko
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #rahma
+            "https://drive.google.com/uc?export=view&id=1NRBQH_QT8lNsbMgg6gWx4wvw-yfxObUU", #rahma
             "https://drive.google.com/uc?export=view&id=1PlYQrm1pg9FoCmZHf9o79lLAYC2ozbuZ", #fadya
             "https://drive.google.com/uc?export=view&id=1RpUljY4kbmbHDiXhbts5hZMmpfh1usw3", #indah
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #caca
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #anggun
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #raisya
+            "https://drive.google.com/uc?export=view&id=1qI4MFay1-fhuszwZQwlPxYsv2BY-ybne", #caca
+            "https://drive.google.com/uc?export=view&id=1D8o9sEkhFUTPat3GTF3HKkQnnwIqiIyP", #anggun
+            "https://drive.google.com/uc?export=view&id=1wwBHyFgyIi0idBbpFwosCgw5TXvv2glv", #raisya
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #jaya
             "https://drive.google.com/uc?export=view&id=1hAmwIuWyGLNfiwBNUwKsh6Ke-_ihyKbo", #riska
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #helmay           
@@ -150,11 +150,11 @@ elif menu == "About Us":
                 "motto_hidup": "Permasalahan hidup adalah sumber kebijaksanaan",
             },
             {
-                "nama": "x",
+                "nama": "Dwi Rahma Fitriani",
                 "sebagai": "Bu Lurah",
-                "nim": "122450000",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "Ya apa ya",
+                "nim": "124450084",
+                "fun_fact": "Takut ikan gabus",
+                "motto_hidup": "No delay no problem",
             },
             {
                 "nama": "Fadya Izzatul 'Aini",
@@ -171,25 +171,25 @@ elif menu == "About Us":
                 "motto_hidup": "Succes is the sum of small efforts, repeated day in and day out.",
             },
             {
-                "nama": "x",
+                "nama": "Jacinda Kesya Alvara",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450023",
+                "fun_fact": "Suka buat skenario sebelum tidur",
+                "motto_hidup": "Stop talking about your dreams, and start doing them",
             },
             {
                 "nama": "Anggun Nita",
                 "sebagai": "Anggotaa",
                 "nim": "124450009",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "fun_fact": "Dikejar orang gila dan masuk rumah orang gila itu sendiri",
+                "motto_hidup": "Berusaha selagi masih ada waktu",
             },
             {
-                "nama": "x",
+                "nama": "Raisya Izzati Harira",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450122",
+                "fun_fact": "Pernah jadi atheist :v",
+                "motto_hidup": "Selagi masih nafas, jangan sengaja dihentiin",
             },
             {
                 "nama": "x",
@@ -197,6 +197,13 @@ elif menu == "About Us":
                 "nim": "122450110",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Riska Erlis Dayu Tiara",
+                "sebagai": "Anggotaa",
+                "nim": "12450022",
+                "fun_fact": "suka bengong liat sekitar",
+                "motto_hidup": "setiap tantangan adalah peluang untuk berkembang",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
