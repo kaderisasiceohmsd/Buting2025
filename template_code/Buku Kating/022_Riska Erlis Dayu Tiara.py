@@ -113,8 +113,8 @@ if menu == "Kesekjenan":
                 "umur": "21",
                 "asal":"Bekasi",
                 "alamat": "Pulau Damar",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@endraa",
+                "hobbi": "beli donat kentang",
+                "sosmed": "@_erendraa",
                 "kesan": "abangnya inspiratif dan berjiwa pemimpin",  
                 "pesan":"Sukses terus, semoga selalu jadi panutan!"# 1
             },
@@ -132,8 +132,8 @@ if menu == "Kesekjenan":
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
                 "nim": "122450123",
-                "umur": "23",
-                "asal":"Tangerang",
+                "umur": "24",
+                "asal":"Baduy dalem",
                 "alamat": "Airest Kost",
                 "hobbi": "Makan kuaci",
                 "sosmed": "@celisabethh",
@@ -327,7 +327,7 @@ elif menu == "Baleg":
                 "asal":"Bangka Belitung",
                 "alamat": "Tanjung Karang",
                 "hobbi": "koleksi batch google cloud",
-                "sosmed": "@"fer_yulius,
+                "sosmed": "@fer_yulius",
                 "kesan": "abangnya terlihat tegas dan berkomitmen",  
                 "pesan":"Semoga selalu bahagia dan sukses ke depannya"# 1
             },
@@ -434,11 +434,11 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1yf83u6GZT6R7U4jOcmuVFoRjW-fMoMoz",
             "https://drive.google.com/uc?export=view&id=1yRSY7nUZzm8DOoRZo3l37AVcfySlu2-Y",
             "https://drive.google.com/uc?export=view&id=1QWcNDCYyku5ITQZT_1bMq9tyTgwJ3lDg",
-            "https://drive.google.com/uc?export=view&id=18IjV4gPhmZjLVxqxsnJ9i_9x-2XXG_7f,
+            "https://drive.google.com/uc?export=view&id=18IjV4gPhmZjLVxqxsnJ9i_9x-2XXG_7f",
             "https://drive.google.com/uc?export=view&id=1-acYqa2Pi5clRIp3eLloPFQ50BzypwLN",
             "https://drive.google.com/uc?export=view&id=1X0WJZG9FpqvbwB3acUMeqqPbkIc5kw1g",
             "https://drive.google.com/uc?export=view&id=1IQ9KrRwlu5kXaNuTtPfOc-6-41QBWHek",
-            "https://drive.google.com/uc?export=view&id=1S3Asfgvdrv6mqYjmtEHsNWX4FMxFafov,
+            "https://drive.google.com/uc?export=view&id=1S3Asfgvdrv6mqYjmtEHsNWX4FMxFafov",
             "https://drive.google.com/uc?export=view&id=1Y7eax6u2FMp_KLKZvDj9eAwweurxUTYs",
             "https://drive.google.com/uc?export=view&id=1R484m_LB5BEhrbHJ3jRF554X-ydWDOhl",
             "https://drive.google.com/uc?export=view&id=1pdN6FLYu2E9IKnkG6bAe2kOLEJsPEgcD",
@@ -735,9 +735,3 @@ elif menu == "Departemen PSDA":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenPSDA()
-
-
-
-
-
-
