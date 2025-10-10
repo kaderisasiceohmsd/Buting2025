@@ -179,16 +179,24 @@ if menu == "Kesekjenan":
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1_WB-NQPJkRrss8lPdH1Ci6h0idlOAOqT",
-            "https://drive.google.com/uc?export=view&id=1Ysl65G0q1n29a5WLx4FH3w5uta0H94pZ",
-            "https://drive.google.com/uc?export=view&id=1nf-azSQKdXkhYc1cZLyZ_zdgeTmbIkkC",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1VohUQlmq4LfQnTXsyroWp9-6s1sx40Or",
+            "https://drive.google.com/uc?export=view&id=1-JiP7-Ey5sOL_g663UMwIn2PXmOWXJ1G",
+            "https://drive.google.com/uc?export=view&id=1rkkw5D3kxHbJSvGwxXhH-Dt2iRHdIrKT",
+            "https://drive.google.com/uc?export=view&id=1RBnJ0s8wDEFbNIkG8aaWhtHCMGxbkRVC",
+            "https://drive.google.com/uc?export=view&id=12UFosd0D1mhWLzRQzHfPvjg3Wp9HJU8z",
+            "https://drive.google.com/uc?export=view&id=1T30pUWtXHfY_70tmq5BOPr1GkkOyGeCr",
+            "https://drive.google.com/uc?export=view&id=1WUc4tF9wE3riQu3Md8HBuLQqgEoLp463",
+            "https://drive.google.com/uc?export=view&id=1qI5vHXzFjBaqLDhYa5pgbZQAr_q_cmnc",
+            "https://drive.google.com/uc?export=view&id=1GQ_5EV2fBgPbUckYZZ422K0DGvgCgmy5",
+            "https://drive.google.com/uc?export=view&id=180RQpC_g09lN0r60dc-ani5ioHEgbb4N",
+            "https://drive.google.com/uc?export=view&id=1fr0jucnW0dfOaRnakv82sjmeRaxPknP4",
+            "https://drive.google.com/uc?export=view&id=1JpuGDkiE0nw7lUeXR4e-fpfBO2B7NUqn",
+            "https://drive.google.com/uc?export=view&id=18w5Asd9Q8cLizApZ8xIAhr0nf5i3i7Qy",
+            "https://drive.google.com/uc?export=view&id=1JpuGDkiE0nw7lUeXR4e-fpfBO2B7NUqn",
         ]
         data_list = [
             {
-                "nama": "Rendra Eka Prayoga",
+                "nama": "Jeremia Susanto",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -199,7 +207,7 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Johannes Krisjon Silitonga",
+                "nama": "Dhea Amelia Putri",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -210,7 +218,7 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Elisabeth Claudia Simanjuntak",
+                "nama": "Renisha Putri Giani",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -221,7 +229,7 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Syadza Puspadari Azhar",
+                "nama": "Anisa Fitriyani",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -232,7 +240,7 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Eksanty F. Sukma Islamiaty",
+                "nama": "Dharu Cahyoaji Sasongko",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -243,7 +251,95 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Farahanum Afifah Ardiansyah",
+                "nama": "Feby Wulandari",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Givaro Ananta",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Mirzan Yusuf Rabbani",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Berliana Enda Putri",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Juesi Apridelia Saragih",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Ridho Benedictus Togi Manik",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Feryadi Yulius",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Monica Patricia Tanjung",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Wan Nashwa Alhasni Yuska",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
