@@ -179,16 +179,24 @@ if menu == "Kesekjenan":
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1_WB-NQPJkRrss8lPdH1Ci6h0idlOAOqT",
-            "https://drive.google.com/uc?export=view&id=1Ysl65G0q1n29a5WLx4FH3w5uta0H94pZ",
-            "https://drive.google.com/uc?export=view&id=1nf-azSQKdXkhYc1cZLyZ_zdgeTmbIkkC",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=14B7AJSo9lSSxekaufGioIPzVhipY2set",
+            "https://drive.google.com/uc?export=view&id=1Z3eNE3EYQ8DsfzYPpZmZ7TzLzb9Dtt46",
+            "https://drive.google.com/uc?export=view&id=1Z3eNE3EYQ8DsfzYPpZmZ7TzLzb9Dtt46",
+            "https://drive.google.com/uc?export=view&id=1I9rX837FUEq79aZw2iviNRg3QETcFdyF",
+            "https://drive.google.com/uc?export=view&id=15vGYikMXL5VCa9iOptu3qd-zvF0A8xCb",
+            "https://drive.google.com/uc?export=view&id=14Eqjj6iIA7VDvfu04eE3tI-P81gXN0oz",
+            "https://drive.google.com/uc?export=view&id=19QiuXA4zfrvn7Cc-4EpkVsNwFQ23BG5E",
+            "https://drive.google.com/uc?export=view&id=1ckjyya_lde6_4vHpGBr7dk40OBK51W7U",
+            "https://drive.google.com/uc?export=view&id=1ckjyya_lde6_4vHpGBr7dk40OBK51W7U",
+            "https://drive.google.com/uc?export=view&id=1skE8UAUlXaiFyvfM2VUVqSCZy0U0iJ3V",
+            "https://drive.google.com/uc?export=view&id=1COnASlXDBkorXp7cxMf77BPBvYFkl9Ud",
+            "https://drive.google.com/uc?export=view&id=1COnASlXDBkorXp7cxMf77BPBvYFkl9Ud",
+            "https://drive.google.com/uc?export=view&id=1gzmFNcHJEMZ32a_tnSnshPKTFfEtoc9c",
+            "https://drive.google.com/uc?export=view&id=1_XaQ5vXIng2WSZWyAHbA8EumnieqzxdW",
         ]
         data_list = [
             {
-                "nama": "Rendra Eka Prayoga",
+                "nama": "Jeremia Susanto",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -199,7 +207,7 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Johannes Krisjon Silitonga",
+                "nama": "Dhea Amelia Putri",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -210,7 +218,7 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Elisabeth Claudia Simanjuntak",
+                "nama": "Renisha Putri Giani",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -221,7 +229,7 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Syadza Puspadari Azhar",
+                "nama": "Anisa Fitriyani",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -232,7 +240,7 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Eksanty F. Sukma Islamiaty",
+                "nama": "Dharu Cahyoaji Sasongko",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -243,7 +251,95 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Farahanum Afifah Ardiansyah",
+                "nama": "Feby Wulandari",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Givaro Ananta",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Mirzan Yusuf Rabbani",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Berliana Enda Putri",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Juesi Apridelia Saragih",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Ridho Benedictus Togi Manik",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Feryadi Yulius",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Monica Patricia Tanjung",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Wan Nashwa Alhasni Yuska",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -259,12 +355,10 @@ elif menu == "Baleg":
 elif menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1_WB-NQPJkRrss8lPdH1Ci6h0idlOAOqT",
-            "https://drive.google.com/uc?export=view&id=1Ysl65G0q1n29a5WLx4FH3w5uta0H94pZ",
-            "https://drive.google.com/uc?export=view&id=1nf-azSQKdXkhYc1cZLyZ_zdgeTmbIkkC",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1bbHEPSlCNpi5ia-mHeqhkWba5KSrTmxi",
+            "https://drive.google.com/uc?export=view&id=1DaTAnF0XxTnkAx6TKFjp38mPVN8aYimJ",
+            "https://drive.google.com/uc?export=view&id=1nkJmqYfOLO52o7qZB2klOxxKoDJzRXU1",
+            "https://drive.google.com/uc?export=view&id=1CJappB1EJZZjA52l-77rMyGbC0K1QjK4",
         ]
         data_list = [
             {
@@ -716,3 +810,4 @@ elif menu == "Departemen Medkraf":
     DepartemenMedkraf()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
