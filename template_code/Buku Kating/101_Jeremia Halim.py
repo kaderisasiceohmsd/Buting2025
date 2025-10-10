@@ -1080,7 +1080,7 @@ if menu == "Departemen SSD":
                 "hobbi": "Baca Novel",
                 "sosmed": "@syalaishaa_31",
                 "kesan": "Kakak ini asik",  
-                "pesan":"semangat terus kuliahnya kakak!!"# 1
+                "pesan":"Semangat terus kuliahnya kakak!!"# 1
             },
             {
                 "nama": "Ahmad Rizqi",
