@@ -160,7 +160,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Ngomenin tiktok cewe cantik",
                 "sosmed": "@eksantyfebriana",
                 "kesan": "Kakak keren dan bijak banget",  
-                "pesan":"Semoga semua hal baik terus ngikutin kakak!"# 1
+                "pesan":""# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
