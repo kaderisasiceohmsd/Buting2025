@@ -181,12 +181,20 @@ if menu == "Kesekjenan":
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/file/d/1facqC5h5O0K4zmoXXsay0U-HlqWzqMb6/view?usp=sharing",
-            "https://drive.google.com/file/d/1gGAQ6Wkw0I-XMBdPZ7GLIE0XQOJVPKAk/view?usp=sharing",
-            "https://drive.google.com/file/d/1RLGL--fisT7O42uaF8-BicEvVtysL7UU/view?usp=sharing",
-            "https://drive.google.com/file/d/119hABbvcr2QFIahM2KGPm88P8qw4pNRM/view?usp=sharing",
-            "https://drive.google.com/file/d/1G7tT1YYHvWeZNXISvxnRc3hy3zjXc6Do/view?usp=sharing",
-            "https://drive.google.com/file/d/1_M3yFRQWlTgGmdqhJ1Ih8RKt2AfJg1Fk/view?usp=sharing",
+            "https://drive.google.com/file/d/1qhqxoUyqFCnmn5MjrOga9CWmrxlg2pa1/view?usp=sharing",
+            "https://drive.google.com/file/d/1nhG44Yf9LG6VjhLDdbx_lIvF4a1AvVOB/view?usp=sharing",
+            "hhttps://drive.google.com/file/d/17kz08pPVu15mOGiivNKmfNjhcE8GmjN1/view?usp=sharing",
+            "https://drive.google.com/file/d/1v5UrXOuduIvxBnl3c1vAVBxLQvcdKEuk/view?usp=sharing",
+            "https://drive.google.com/file/d/1Kh0s6LTRqOtIi7CWI7gsrn6gcu4SD6EJ/view?usp=sharing",
+            "https://drive.google.com/file/d/12jJeWep97P9yYbH8AyW1S_dAPMOt6DJx/view?usp=sharing",
+            "https://drive.google.com/file/d/1nYgFPfH_psqkwEr_I_BMPaiHn6v9rrd3/view?usp=sharing",
+            "https://drive.google.com/file/d/1H7Wqg0mx5oOjdSMmYcyzpp11FhegUyVX/view?usp=sharing",
+            "https://drive.google.com/file/d/1wMaJ6_UZ705wPHCLJe6iVLhFccaWP7NH/view?usp=sharing",
+            "https://drive.google.com/file/d/15OexmIE_UaVggDMXxUHUlYRv0L3Ekzl1/view?usp=sharing",
+            "https://drive.google.com/file/d/13z9ggaL_OUgevBYYtwtAzULY6pJe53pj/view?usp=sharing",
+            "https://drive.google.com/file/d/17xWlh1Knxhqpjk2LapYj_2lQ9esbZiAR/view?usp=sharing",
+            "https://drive.google.com/file/d/1XszkR-kyXo8qHaCZP3gi04UkOmGqSVbZ/view?usp=sharing",
+            "https://drive.google.com/file/d/1Tqd46sxxISB17qcpIbybUJwJaVQuJplA/view?usp=sharing",
         ]
         data_list = [
             {
@@ -346,5 +354,60 @@ elif menu == "Baleg":
         ]
         display_images_with_data(gambar_urls, data_list)
     Baleg()
-
 # Tambahkan menu lainnya sesuai kebutuhan
+elif menu == "Senator":
+    def Senator():
+        gambar_urls = [
+            "https://drive.google.com/file/d/1v4YdCiCvXRTl1kg-atrAAaYclLPbZwFh/view?usp=sharing",
+            "https://drive.google.com/file/d/1xFIgU9ZvNb5qQJt3ebzjQWF14wyZFRAU/view?usp=sharing",
+            "https://drive.google.com/file/d/1HTcm3S2k3sAZJs7qXCS4ziDFhwwQaL12/view?usp=sharing",
+            "https://drive.google.com/file/d/1ruq4Td4Fuo61wjgxZWM_uqBEQ2W38Rn2/view?usp=sharing",    
+        ]   
+        data_list = [
+            {
+                "nama": "Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal": "Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Belajar",
+                "sosmed": "@bintangtwinkle",
+                "kesan": "Bang Bintang rajin banget dan selalu semangat belajar!",
+                "pesan": "Semangat belajarnya Bang Bintang!"
+            },
+            {
+                "nama": "Nadya Ratu Anjani",
+                "nim": "123450083",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Denger lagu",
+                "sosmed": "@nadyaanjani",
+                "kesan": "Kak Nadya santai banget dan punya selera musik yang bagus!",
+                "pesan": "Semoga hari-hari kaka selalu penuh lagu yang menenangkan ya kak!"
+            },
+            {
+                "nama": "Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi": "Bengong",
+                "sosmed": "@fathinahnazzh",
+                "kesan": "Kak Fathinah suka bengong tapi tetep lucu banget!",
+                "pesan": "Tetap santai tapi jangan kebanyakan bengong ya kak hehe!"
+            },
+            {
+                "nama": "Lia Hana Ichisasmita",
+                "nim": "123450089",
+                "umur": "21",
+                "asal": "Jakarta",
+                "alamat": "Belakang Indomaret Belwis",
+                "hobbi": "Tidur",
+                "sosmed": "@lia.h_264",
+                "kesan": "Kak Lia chill banget dan suka tidur di waktu yang pas!",
+                "pesan": "Semangat terus kuliahnya kak Lia, tapi jangan kebanyakan tidur ya!"
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Senator()
