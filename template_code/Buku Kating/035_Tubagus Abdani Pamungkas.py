@@ -372,20 +372,20 @@ if menu == "Departemen MIKFES":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-            "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-             "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-             "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-            "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-             "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-            "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-            "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-            "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-            "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-            "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-            "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-            "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
-            "https://drive.google.com/uc?export=view&id=1Wu_cXHMwrVe0OZJDJnr7kpJxVOfXBRWz",
+           "https://drive.google.com/uc?export=view&id=1ZqTYQywevzEUqNDXKtns_JnPXcEWSUBw", #1
+            "https://drive.google.com/uc?export=view&id=1edUO6AL4gBaB6_LcW3YOtpzskqLnVQGe", #2
+            "https://drive.google.com/uc?export=view&id=1F3DgW2b8AK1xdZt4DkR23n144AGzgxsJ", #3
+            "https://drive.google.com/uc?export=view&id=1dfEhuBjXRS9MjjmcWlZ3RcMnwEA7QK5M", #4
+            "https://drive.google.com/uc?export=view&id=1n_X6bKZrqCupQgk2IUC6Qg1Wx06mnKPL", #5
+            "https://drive.google.com/uc?export=view&id=1FXu0FxkTadzYvhau9W4-5VvJmK4W-0sj", #6
+            "https://drive.google.com/uc?export=view&id=1w7JBlhhWmnBWf9X06bZLkc1ZPsTqzS_9", #7
+            "https://drive.google.com/uc?export=view&id=18KHe-RIRW5qQ-5wp5LymVNpD3UBARiak", #8
+            "https://drive.google.com/uc?export=view&id=1bFvUaDDab2VbAkvkniAKdh4f3cbjglLi", #9
+            "https://drive.google.com/uc?export=view&id=1JSvDxaj2dlUvfZS74B_gw4I4oi1y0_gS", #10
+            "https://drive.google.com/uc?export=view&id=1NoW5rwZFhVZHwAH0Q98vfJz3kjRUCILn", #11
+            "https://drive.google.com/uc?export=view&id=1HjeAmgt8T5s4DbRKi0MCljRXt9Kvcpyv", #12
+            "https://drive.google.com/uc?export=view&id=1zNKgXBsTd0RDY8_cwDNyRsXaBBdSzp34", #13
+            "https://drive.google.com/uc?export=view&id=1ctlqHF9hGPFJjTbcQ9bpYTcVK2UI5JUg", #14
         ]
         data_list = [
             {
@@ -408,7 +408,7 @@ if menu == "Baleg":
                 "hobbi": "Bertutur kata baik dan sopan",
                 "sosmed": "@_.dheamelia ",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 2
             },
               {
                 "nama": "Kakak Renisha Putri Giani",
@@ -419,7 +419,7 @@ if menu == "Baleg":
                 "hobbi": "Jualan Pancing",
                 "sosmed": "@renishapg",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 3
             },
               {
                 "nama": "Kakak Anisa Fitriyani",
@@ -430,7 +430,7 @@ if menu == "Baleg":
                 "hobbi": "Mencari kesibukan",
                 "sosmed": "@ansftynn_",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 4
             },
             {
                 "nama": "Kakak Dharu Cahyoaji Sasongko",
@@ -441,7 +441,7 @@ if menu == "Baleg":
                 "hobbi": "Nonton AGZ",
                 "sosmed": "@dhruchyo",
                 "kesan": " ",  
-                "pesan":" "# 1
+                "pesan":" "# 5
             },
              {
                 "nama": "Kakak Feby Wulandari",
@@ -452,7 +452,7 @@ if menu == "Baleg":
                 "hobbi": "Nguleg Cabai",
                 "sosmed": "@fby.wlndr",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 6
             },
               {
                 "nama": "Kakak Givaro Ananta",
@@ -463,7 +463,7 @@ if menu == "Baleg":
                 "hobbi": "Nemenin ridho main pedel",
                 "sosmed": "@givarooo",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 7
             },
               {
                 "nama": "Kakak Mirzan Yusuf Rabbani",
@@ -474,7 +474,7 @@ if menu == "Baleg":
                 "hobbi": "Istirahat",
                 "sosmed": "@myrrinn",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 8
             },
               {
                 "nama": "Kakak Berliana Enda Putri",
@@ -485,7 +485,7 @@ if menu == "Baleg":
                 "hobbi": "Ngukir Sabun",
                 "sosmed": "@berlyyanda",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 9
             },
               {
                 "nama": "Kakak Juesi Apridelia Saragih",
@@ -496,7 +496,7 @@ if menu == "Baleg":
                 "hobbi": "Mendengarkan wave to earth",
                 "sosmed": "@j__eesie",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 10
             },
               {
                 "nama": "Kakak Ridho Benedictus Togi Manik",
@@ -507,7 +507,7 @@ if menu == "Baleg":
                 "hobbi": "Main Pedel",
                 "sosmed": "@iamridhomanik ",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 11
             },
               {
                 "nama": "Kakak Feryadi Yulius",
@@ -518,7 +518,7 @@ if menu == "Baleg":
                 "hobbi": "Ngeliatin warna baju orang",
                 "sosmed": "@fer_yulius",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 12
             },
               {
                 "nama": "Kakak Monica Patricia Tanjung",
@@ -529,7 +529,7 @@ if menu == "Baleg":
                 "hobbi": "Makan gula merah",
                 "sosmed": "@monica_tjg ",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 13
             },
               {
                 "nama": "Kakak Wan Nashwa Alhasni Yuska",
@@ -540,15 +540,149 @@ if menu == "Baleg":
                 "hobbi": "Nyapa Angin",
                 "sosmed": "@nshaysk ",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " "# 14
             },
             
         ]
         display_images_with_data(gambar_urls, data_list)
     baleg()
 
-# Tambahkan menu lainnya sesuai kebutuhan
-
-
-
+if menu == "Kesekjenan":
+    def kesekjenan():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+        
+        ]
+        data_list = [
+            {
+                "nama": "Kakak Rendra Eka Prayoga",
+                "nim": "122450112",
+                "umur": "21",
+                "asal": "Bekasi",
+                "alamat": "Pulau Damar",
+                "hobbi": "Makan Pisang",
+                "sosmed": "@_erendraa",
+                "kesan": "Kakak Rendra asik",  
+                "pesan": "Be happy kakak"# 1
+            },
+            {
+                "nama": "Kakak Johannes Krisjon Silitonga",
+                "nim": "122450000",
+                "umur": "20",
+                "asal": "Tangerang",
+                "alamat": "Jalan Lapas",
+                "hobbi": "Baca buku sequel ",
+                "sosmed": "@johanneskrisjnnn",
+                "kesan": "Kak Jo Lucu",  
+                "pesan": "Semoga jalannya selalu dipermudah"# 1
+            },
+              {
+                "nama": "Kakak Elisabeth Claudia Simanjuntak",
+                "nim": "122450123",
+                "umur": "20",
+                "asal": "Bogor",
+                "alamat": "Ayres Kost",
+                "hobbi": "Gangguin Orang",
+                "sosmed": "@celisabethh_",
+                "kesan": "Kak Elisabeth lucu dan senyumnya manis",  
+                "pesan": "Lancar kuliahnya kak"# 1
+            },
+              {
+                "nama": "Kakak Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "21",
+                "asal": "Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Tidur",
+                "sosmed": "@puspadrr",
+                "kesan": "Kak Puspa ramah",  
+                "pesan": "Semoga sehat selalu kak"# 1
+            },
+            {
+                "nama": "Kakak Eksanty Febriana Sukma Islamiaty",
+                "nim": "122450001",
+                "umur": "21",
+                "asal": "Sammosir/Sumatera Utara",
+                "alamat": "Natar (Raden Intan)",
+                "hobbi": "Nemenin orang dari nol sampai jatuh ke jurang kemiskinan",
+                "sosmed": "@eksantyfebriana",
+                "kesan": "Kak Eksanty seruu",  
+                "pesan":"Jangan lupa makan kak"# 1
+            },
+             {
+                "nama": "Kakak Farahanum Afifah Ardiansyah",
+                "nim": "122450001",
+                "umur": "21",
+                "asal": "Padang",
+                "alamat": "Belwis",
+                "hobbi": "Cutek Kahim",
+                "sosmed": "@farahanumafifah",
+                "kesan": "Kak Hanum lucu",  
+                "pesan": "Semoga bahagia selalu kakak"# 1
+            },
+            
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    kesekjenan()
+elif menu == "Senator":
+    def senator():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            
+        data_list = [
+            {
+                "nama": "Kakak Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal": "Palembang",
+                "alamat": "Pulau Damar",
+                "hobbi": "Tidur",
+                "sosmed": "@bintangtwinkle",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Nadya Ratu Anjani",
+                "nim": "123450043",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Mendengar Lagu ",
+                "sosmed": "@nadyaanjaani",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi": "Melamun",
+                "sosmed": "@fathinahnazzh",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Lia Hana Ichisasmita",
+                "nim": "123450089",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Indomaret Belwis",
+                "hobbi": "Main Roblox",
+                "sosmed": "@lia.h_264",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    senator()
 
