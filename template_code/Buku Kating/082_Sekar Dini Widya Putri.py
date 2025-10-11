@@ -1501,7 +1501,7 @@ if menu == "Departemen SSD":
             "https://drive.google.com/uc?export=view&id=1ACF657O6dTROIOReADac7nJirzmP91zk",
             "https://drive.google.com/uc?export=view&id=1pngot8TVRUpn9AkFT411XzroeejYuyVU",
             "https://drive.google.com/uc?export=view&id=1Si91o5vg5Hbvfg2mzGleRJrh3gD2KxK4",
-            "https://drive.google.com/uc?export=view&id=1Si91o5vg5Hbvfg2mzGleRJrh3gD2KxK4",
+            "https://drive.google.com/uc?export=view&id=1ULBFdAzTeDw8iBCn_Md6WQh3wDy-2xh1",
             "https://drive.google.com/uc?export=view&id=1bSMgOqN6K7hopvxRiXMlecAthhGv_TYj",
             "https://drive.google.com/uc?export=view&id=1C_sxAGMnxiPpjC5gL6rTyDUolKedJR10",
             "https://drive.google.com/uc?export=view&id=1WAl99d_iVoT-sZOTeQqr22_wrlJl91mF",
