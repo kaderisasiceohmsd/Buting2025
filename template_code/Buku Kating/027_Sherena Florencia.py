@@ -413,7 +413,7 @@ elif menu == "Senator":
     senator()
 
 elif menu == "Departemen PSDA":
-    def Departemen PSDA():
+    def psda():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1XF4k2U3-f1_fEXaA75wEVmabUWSCBk13",
             "https://drive.google.com/uc?export=view&id=1zSf34kQ4_9fcPAmbjn0CGLdsJ4fLkPC0",
@@ -732,9 +732,9 @@ elif menu == "Departemen PSDA":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen PSDA()
+    psda()
 elif menu == "Departemen MIKFES":
-    def Departemen MIKFES():
+    def mikfes():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1EIeKDIkbiw1ewmm5PWWLewzIFXGjHZBj", #1
             "https://drive.google.com/uc?export=view&id=19_5WusRBxzhZmB13IoiVj-FGl-rMZvlz", #2
@@ -1005,9 +1005,9 @@ elif menu == "Departemen MIKFES":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen MIKFES()
+    mikfes()
 elif menu == "Departemen Eksternal":
-    def Departemen Eksternal():
+    def eksternal():
         gambar_urls = [
              "https://drive.google.com/uc?export=view&id=1SUx-9KysDrpH1wOk9DvJ4u_8W0aj3zVR",
              "https://drive.google.com/uc?export=view&id=1wUgNvEXYwu5KSQJ-E_yR9aFYxvu2956k",
@@ -1303,9 +1303,9 @@ elif menu == "Departemen Eksternal":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-  Departemen Eksternal()   
+  eksternal()   
 elif menu == "Departemen Internal":
-    def Departemen Internal():
+    def internal():
         gambar_urls = [
            "https://drive.google.com/uc?export=view&id=1yM1KDSQ6Fr0HDi8cx2LanstNuduqg0h0",
            "https://drive.google.com/uc?export=view&id=12ln77QpAFtF-sJPlHsigpcbudpcw1cZv",
@@ -1494,9 +1494,9 @@ elif menu == "Departemen Internal":
             
         ]
         display_images_with_data(gambar_urls, data_list)
-   Departemen Internal()
+   internal()
 elif menu == "Departemen SSD":
-    def Departemen SSD():
+    def ssd():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1e9fQEjEYFLUWL8I0LfxNbZAATHmYbqu5",
             "https://drive.google.com/uc?export=view&id=193IWCujfiWGr6m6WKCdt7HFGxKT8aasZ",
@@ -1635,9 +1635,9 @@ elif menu == "Departemen SSD":
             },     
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen SSD()
+   ssd()
 elif menu == "Departemen Medkraf":
-    def Departemen Medkraf():
+    def medkraf():
         gambar_urls = [
            "https://drive.google.com/uc?export=view&id=1xJkBVcrpWXrbMYgjiHDtf2gdkYhm_VC3",
            "https://drive.google.com/uc?export=view&id=1b3fUmJ1vuoo8LyU1G3ePtJG20LjpikJF",
@@ -1860,4 +1860,4 @@ elif menu == "Departemen Medkraf":
             
         ]
         display_images_with_data(gambar_urls, data_list)
-  Departemen Medkraf()
+ medkraf()
