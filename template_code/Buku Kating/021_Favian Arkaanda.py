@@ -435,13 +435,13 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1L4DlB6RfTFlgrwHnnoni7rplTprnNSGJ",
             "https://drive.google.com/uc?export=view&id=1LUuoRafnVmYrxqtX-C617Pi_p_BxZh--",
             "https://drive.google.com/uc?export=view&id=1LZtL3pMVP1stYjqfHBW3ww6nGjkJXbYu",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1Lijy5q87OZe68J4EDRRPHASAbv2LJkoq",
+            "https://drive.google.com/uc?export=view&id=1LLEY5vlKZOfFIZI7Zjne2X6k-8rx2IP9",
+            "https://drive.google.com/uc?export=view&id=1LREtcGHvBS_9v7P0KOpqdACCNpDnFGpY",
+            "https://drive.google.com/uc?export=view&id=1OvshwzRZ6X213XXYNcXUEQ3Qn9oWNxxi",
+            "https://drive.google.com/uc?export=view&id=1LReISMj37LrFzT8QqfCWbbiB9KSjzQxT",
+            "https://drive.google.com/uc?export=view&id=1LU5nFBvau7-g1WS027D8i5lo_QjBSr59",
+            "https://drive.google.com/uc?export=view&id=1a59pTw-2Erciq1xTRf1twD5a71hG3WHU",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
@@ -720,7 +720,18 @@ if menu == "Departemen PSDA":
                 "sosmed": "@sidabutar.26",
                 "kesan": "-",
                 "pesan": "-"
-            }
+            },
+            {
+                "nama": "Rewina Audriya Melva Sari",
+                "nim": "123450049",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Way Kandis",
+                "hobbi": "dengerin musik",
+                "sosmed": "@rewinanaaa",
+                "kesan": "-",
+                "pesan": "-"
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_PSDA()
