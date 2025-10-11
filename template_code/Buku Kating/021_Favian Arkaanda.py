@@ -1102,7 +1102,7 @@ if menu == "Departemen Eksternal":
                 "alamat": "Sukarame",
                 "hobbi": "Main main",
                 "sosmed": "@khoirul_muttoharoh",
-                "kesan": "Seneng banget bisa jadi adek nim kak mutt, udah baikk baik, orangnya juga perhatian dan asikk banget. Ga expect bisa se nim sama kakak satu ini :)",
+                "kesan": "Seneng banget bisa jadi adek nim kak mutt, udah mah baikk, orangnya juga perhatian dan asikk banget. Ga expect bisa se nim sama kakak satu ini :)",
                 "pesan": "semangat terus yaa kakk, tetap jadi orang baikk, sehat sehat orang baikkk!!!"
             },
            {
