@@ -187,7 +187,7 @@ elif menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1v5UrXOuduIvxBnl3c1vAVBxLQvcdKEuk",
             "https://drive.google.com/uc?export=view&id=1Kh0s6LTRqOtIi7CWI7gsrn6gcu4SD6EJ",
             "https://drive.google.com/uc?export=view&id=12jJeWep97P9yYbH8AyW1S_dAPMOt6DJx",
-            "https://drive.google.com/uc?export=view&id=1nYgFPfH_psqkwEr_I_BMPaiHn6v9rrd3",
+            "https://drive.google.com/uc?export=view&id=1nUm3APcMLftKwS6gX3IcALPoTHMbEXdS",
             "https://drive.google.com/uc?export=view&id=1H7Wqg0mx5oOjdSMmYcyzpp11FhegUyVX",
             "https://drive.google.com/uc?export=view&id=1wMaJ6_UZ705wPHCLJe6iVLhFccaWP7NH",
             "https://drive.google.com/uc?export=view&id=15OexmIE_UaVggDMXxUHUlYRv0L3Ekzl1",
@@ -358,10 +358,10 @@ elif menu == "Baleg":
 elif menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1v4YdCiCvXRTl1kg-atrAAaYclLPbZwFh",
+            "https://drive.google.com/uc?export=view&id=1n7-mkDuBFJXIDyq-ZX4FFbLOgj1CmM3n",
             "https://drive.google.com/uc?export=view&id=1xFIgU9ZvNb5qQJt3ebzjQWF14wyZFRAU",
-            "https://drive.google.com/uc?export=view&id=1HTcm3S2k3sAZJs7qXCS4ziDFhwwQaL12",
-            "https://drive.google.com/uc?export=view&id=1ruq4Td4Fuo61wjgxZWM_uqBEQ2W38Rn2",   
+            "https://drive.google.com/uc?export=view&id=1LN4Hvl-Mj5LetNQvMPgMhS1fpQtfYB4c",
+            "https://drive.google.com/uc?export=view&id=1IK3Uelukq9rie1KAh4W4aueypgBdJvAe",   
         ]   
         data_list = [
             {
