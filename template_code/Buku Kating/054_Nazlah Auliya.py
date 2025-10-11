@@ -91,18 +91,19 @@ def display_images_with_data(gambar_urls, data_list):
             st.write(f"Sosial Media: {data_list[i]['sosmed']}")
             st.write(f"Kesan: {data_list[i]['kesan']}")
             st.write(f"Pesan: {data_list[i]['pesan']}")
-            st.write("  ")
+            st.write("  ")      
     st.write("Semua gambar telah dimuat!")
 menu = streamlit_menu()
 
 # BAGIAN SINI YANG HANYA BOLEH DIUABAH
 if menu == "Kesekjenan":
-    def kesekjenan():
+    def kesekjenan():   
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1KoIEKyIMeevecKfcvpbl3Y-CLcTWy7oE",
             "https://drive.google.com/uc?export=view&id=1wwkiZyM7Q5F1SoJqnvAEX4cYGL2yZQB7",
             "https://drive.google.com/uc?export=view&id=1JH4al1fJ_zqRM8TMD7L1qgcOe4E6i3d7",
             "https://drive.google.com/uc?export=view&id=13XhdtXVGNBouJnlegwTgc7FE4U3LX4Sy",
+            "https://drive.google.com/uc?export=view&id=1RXnNfGJXpm9wvMzLUViYldnmgZ8_MsLm",
             "https://drive.google.com/uc?export=view&id=1aL_oxmOeusWAdW5na-nYW9CCnZsGiYNR",
         ]
         data_list = [
