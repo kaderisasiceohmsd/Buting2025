@@ -206,9 +206,9 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "Iqbal",
+                "nama": "M. Alsi Syahrulloh",
                 "sebagai": "Anggotaa",
-                "nim": "12245052",
+                "nim": "12245082",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
