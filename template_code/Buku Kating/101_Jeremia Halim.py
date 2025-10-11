@@ -141,7 +141,7 @@ if menu == "Kesekjenan":
                 "umur": "20",
                 "asal":"Tangerang",
                 "alamat": "Jl.Lapas",
-                "hobbi": "Baca Buku SQL",
+                "hobbi": "Baca Buku SQL!",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "Bang Jo Seru & Ternyata satu daerah asal",  
                 "pesan":"Gassin terus bang !!!"# 1
