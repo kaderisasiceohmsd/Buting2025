@@ -208,7 +208,7 @@ elif menu == "About Us":
             {
                 "nama": "Iqbal",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
+                "nim": "12245052",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
