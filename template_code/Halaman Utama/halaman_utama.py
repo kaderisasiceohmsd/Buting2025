@@ -102,24 +102,14 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">test salsabila hahaha</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1sfUpGUuu7myoGzx3vmaCQN7BD66T7kVu"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">GREEDY GACOR BANGET</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -140,61 +130,103 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "Haikal Seventino Tamba",
                 "sebagai": "Pak Lurah",
-                "nim": "122450016",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
-                "motto_hidup": "new semester new me",
+                "nim": "12450012",
+                "fun_fact": "masuk itera dan milih sains data h-15 menit penutupan snbp",
+                "motto_hidup": "telat bukan berarti gagal,lebih baik gagal daripada tidak mencoba",
             },
             {
-                "nama": "x",
+                "nama": "Queenta Thifaal Nabila",
                 "sebagai": "Bu Lurah",
-                "nim": "122450000",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "Ya apa ya",
+                "nim": "124450059",
+                "fun_fact": "ga suka kucing",
+                "motto_hidup": "makan geprek tiap hari enak",
             },
             {
-                "nama": "x",
+                "nama": "Wielman Itolo Halawa",
                 "sebagai": "Anggota",
                 "nim": "122450083",
                 "fun_fact": "nyemilin es bata",
                 "motto_hidup": "mantap",
             },
             {
-                "nama": "x",
+                "nama": "Charrlindah",
                 "sebagai": "Anggotaa",
                 "nim": "122450000",
                 "fun_fact": "nyemilin",
                 "motto_hidup": "jalanin dulu aja",
             },
             {
-                "nama": "x",
+                "nama": "fislam fathurrahman",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "najwa",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "rafli",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "indah",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "bernardius",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "one day or day one",
+            },
+           {
+                "nama": "gio silma",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es batu, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "risa",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "salsabila",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+             {
+                "nama": "Ashila",
+                "sebagai": "Anggotaa",
+                "nim": "124450028",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
