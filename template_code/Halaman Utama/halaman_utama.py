@@ -39,22 +39,6 @@ def display_images_with_data(gambar_urls, data_list):
 # JANGAN DIUBAH
 st.markdown(
     """
-    <style>
-   
-    .stApp {
-        background-color: #234C6A;
-    }
-
-    [data-testid="stSidebar"] 
-    {
-        background-color: #D2C1B6;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-st.markdown(
-    """
     <div style='text-align: center;'>
         <h1 style='font-size: 5.5em;'>WEBSITE KATING</h1>
         <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2024</p>
