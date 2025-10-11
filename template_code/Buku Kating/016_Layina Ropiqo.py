@@ -100,13 +100,13 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1SdgYKOKfyiNqrdNc18ss5HEJGkmSQKXq",
+            "https://drive.google.com/uc?export=view&id=1UPIP0PY4PtBQjjbmaaRce0MA5SCSIV3V",
+            "https://drive.google.com/uc?export=view&id=13hS7Qn82zZxqwHNTzA5TUg74vy-uRt8l",
         ]
         data_list = [
             {
-                "nama": "Kakak A",
+                "nama": "Johannes Krisjon Silitonga",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -117,7 +117,7 @@ if menu == "Kesekjenan":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak B",
+                "nama": "Syadza Puspadari Azhar",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -128,7 +128,7 @@ if menu == "Kesekjenan":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak CCc",
+                "nama": "Elisabeth Claudia Simanjuntak",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -142,4 +142,48 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
+if menu == "Departemen PSDA":
+    def Departemen_PSDA():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1n7zYC3CHqYXJvOxjhobhWVl6_LwvF1dc",
+            "https://drive.google.com/uc?export=view&id=1Wpqa_Mfu9pFTv1yMxiYXggScgtjparEe",
+            "https://drive.google.com/uc?export=view&id=1-Ikdw_getIAT_CmpWkh0BxFvAIo9h8fj",
+        ]
+        data_list = [
+            {
+                "nama": "Sahid Maulana",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Gusti Putu Ferazka",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kharisma Mustika Sari",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Departemen_PSDA()
 # Tambahkan menu lainnya sesuai kebutuhan
