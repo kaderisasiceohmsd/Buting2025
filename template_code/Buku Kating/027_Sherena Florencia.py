@@ -178,7 +178,7 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
-if menu == "Baleg":
+elif menu == "Baleg":
     def baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1SJzaDhyzbFQU4sUKkCucatiQ02FRZsDh",
@@ -230,7 +230,7 @@ if menu == "Baleg":
                 "kesan": "Kakaknya keren dan asik ",  
                 "pesan": "Semoga dilancarkan urusannya kak "# 1
             },
-              {
+            {
                 "nama": "Kakak Anisa Fitriyani",
                 "nim": "122450019",
                 "umur": "21",
@@ -355,7 +355,7 @@ if menu == "Baleg":
         ]
         display_images_with_data(gambar_urls, data_list)
     baleg()
-if menu == "Senator":
+elif menu == "Senator":
     def senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1W7LRKmzFD0iFnmRqHgq-0ffWeSlQjGsx",
@@ -412,8 +412,8 @@ if menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     senator()
 
-if menu == "Departemen_PSDA":
-    def Departemen_PSDA():
+elif menu == "Departemen PSDA":
+    def Departemen PSDA():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1XF4k2U3-f1_fEXaA75wEVmabUWSCBk13",
             "https://drive.google.com/uc?export=view&id=1zSf34kQ4_9fcPAmbjn0CGLdsJ4fLkPC0",
@@ -555,7 +555,7 @@ if menu == "Departemen_PSDA":
                 "pesan":" "# 1
             },
             {
-                "nama": "Kakak Vany Salsabila Putri", #ke bawah belum ada
+                "nama": "Kakak Vany Salsabila Putri", #ke bawah belum ku isi
                 "nim": "123450022",
                 "umur": "20",
                 "asal":"Palembang",
@@ -732,9 +732,9 @@ if menu == "Departemen_PSDA":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_PSDA()
-if menu == "Departemen_MIKFES":
-    def Departemen_MIKFES():
+    Departemen PSDA()
+elif menu == "Departemen MIKFES":
+    def Departemen MIKFES():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1EIeKDIkbiw1ewmm5PWWLewzIFXGjHZBj", #1
             "https://drive.google.com/uc?export=view&id=19_5WusRBxzhZmB13IoiVj-FGl-rMZvlz", #2
@@ -761,7 +761,7 @@ if menu == "Departemen_MIKFES":
         ] 
         data_list = [
             {
-                "nama": "Kakak Randra Andriana Putra",
+                "nama": "Kakak Randra Andriana Putra", #Datanya belum ku isi
                 "nim": "122450083",
                 "umur": "22",
                 "asal":"serang, Banten",
@@ -1005,9 +1005,9 @@ if menu == "Departemen_MIKFES":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_MIKFES()
-if menu == "Departemen_Eksternal":
-    def Departemen_Eksternal():
+    Departemen MIKFES()
+elif menu == "Departemen Eksternal":
+    def Departemen Eksternal():
         gambar_urls = [
              "https://drive.google.com/uc?export=view&id=1SUx-9KysDrpH1wOk9DvJ4u_8W0aj3zVR",
              "https://drive.google.com/uc?export=view&id=1wUgNvEXYwu5KSQJ-E_yR9aFYxvu2956k",
@@ -1037,7 +1037,7 @@ if menu == "Departemen_Eksternal":
         ] 
         data_list = [
             {
-                "nama": "Kakak Randra Andriana Putra",
+                "nama": "Kakak Randra Andriana Putra", #Datanya belum ku isi
                 "nim": "122450083",
                 "umur": "22",
                 "asal":"serang, Banten",
@@ -1303,9 +1303,9 @@ if menu == "Departemen_Eksternal":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-  Departemen_Eksternal()   
-if menu == "Departemen_Internal":
-    def Departemen_Internal():
+  Departemen Eksternal()   
+elif menu == "Departemen Internal":
+    def Departemen Internal():
         gambar_urls = [
            "https://drive.google.com/uc?export=view&id=1yM1KDSQ6Fr0HDi8cx2LanstNuduqg0h0",
            "https://drive.google.com/uc?export=view&id=12ln77QpAFtF-sJPlHsigpcbudpcw1cZv",
@@ -1494,9 +1494,9 @@ if menu == "Departemen_Internal":
             
         ]
         display_images_with_data(gambar_urls, data_list)
-   Departemen_Internal()
-if menu == "Departemen_SSD":
-    def Departemen_SSD():
+   Departemen Internal()
+elif menu == "Departemen SSD":
+    def Departemen SSD():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1e9fQEjEYFLUWL8I0LfxNbZAATHmYbqu5",
             "https://drive.google.com/uc?export=view&id=193IWCujfiWGr6m6WKCdt7HFGxKT8aasZ",
@@ -1635,9 +1635,9 @@ if menu == "Departemen_SSD":
             },     
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_SSD()
-if menu == "Departemen_Medkraf":
-    def Departemen_Medkraf():
+    Departemen SSD()
+elif menu == "Departemen Medkraf":
+    def Departemen Medkraf():
         gambar_urls = [
            "https://drive.google.com/uc?export=view&id=1xJkBVcrpWXrbMYgjiHDtf2gdkYhm_VC3",
            "https://drive.google.com/uc?export=view&id=1b3fUmJ1vuoo8LyU1G3ePtJG20LjpikJF",
@@ -1657,10 +1657,6 @@ if menu == "Departemen_Medkraf":
            "https://drive.google.com/uc?export=view&id=1K52FXYFS50q9kmowEDC6PZFpfvTrYWdJ",
            "https://drive.google.com/uc?export=view&id=170v_W-Rv_aaUREK3HtkALUrrkuUk3Do-",
            "https://drive.google.com/uc?export=view&id=1xzv6gsz9pqj9Zy5xE4apKEZASrOLZvsw", 
-
-
-
-
         ]
         data_list = [
             {
@@ -1864,4 +1860,4 @@ if menu == "Departemen_Medkraf":
             
         ]
         display_images_with_data(gambar_urls, data_list)
-  Departemen_Medkraf()
+  Departemen Medkraf()
