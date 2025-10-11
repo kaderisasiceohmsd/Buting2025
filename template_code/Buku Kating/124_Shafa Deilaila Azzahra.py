@@ -1709,7 +1709,3 @@ if menu == "Departemen Medkraf":
     DepartemenMedkraf()
 
 
-
-
-
-    
