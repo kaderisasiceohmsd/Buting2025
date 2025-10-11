@@ -186,19 +186,19 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1Pu7rUm-yGx7_09tAFjfOawGqbkKLdGpd",
             "https://drive.google.com/uc?export=view&id=1dgttd4FlxH-ye971xYV3kZw2NG466-y_",
             "https://drive.google.com/uc?export=view&id=1FEGnlXbAvU2xfntfot7kfkuYcEjwHUVH",
-            "https://drive.google.com/uc?export=view&id=1egLrp_QSva1yV2Md5_ApuNYMUEQVKj0r",
+            "https://drive.google.com/uc?export=view&id=1q1dmW6MkzWeOz5cmcq-ws3dVxN9Ctp7x",
             "https://drive.google.com/uc?export=view&id=1FNHwBe486uqcbWL1Upm0tVcu1MiCFKc9",
             "https://drive.google.com/uc?export=view&id=1DZ10bhKvgRDcspXvgxdPCGN94g3_ChjB",
             "https://drive.google.com/uc?export=view&id=1ALE0ay71Cxdf6N8l06IvaHkQU4szOvkS",
             "https://drive.google.com/uc?export=view&id=1Vj-SVw68fuZ0zN28yiXTbORMfNbsbUb1",
             "https://drive.google.com/uc?export=view&id=1GtRASWOp5QYbRBpDHl9NYwFagekX1YVm",
             "https://drive.google.com/uc?export=view&id=1NDT-sW7a0Nub1Z8ugoPGzaH3km8z5_gu",
-            "https://drive.google.com/uc?export=view&id=1_BRT4--r8jcduUjYLM-Uuucf7m9RNxRT",
+            "https://drive.google.com/uc?export=view&id=1hTqQMF6Xt4OoJCtDwIr-beJeSshRYPDw",
             "https://drive.google.com/uc?export=view&id=13_Gs5IAFHmEhvRn-k2c3ze4kIoYSZNo-",
         ]
         data_list = [
             {
-                "nama": "Kakak Jeremia Susanto",
+                "nama": "Bang Jeremia Susanto",
                 "nim": "122450022",
                 "umur": "21",
                 "asal": "Nusa Kambangan",
@@ -242,7 +242,7 @@ if menu == "Baleg":
                 "pesan": "semangat kuliahnya kak"# 1
             },
             {
-                "nama": "Kakak Dharu Cahyoaji Sasongko",
+                "nama": "Bang Dharu Cahyoaji Sasongko",
                 "nim": "123450023",
                 "umur": "18",
                 "asal": "Bandar Lampung",
@@ -264,7 +264,7 @@ if menu == "Baleg":
                 "pesan": "semangatt kak jadi pimsid"# 1
             },
               {
-                "nama": "Kakak Givaro Ananta",
+                "nama": "Bang Givaro Ananta",
                 "nim": "123450078",
                 "umur": "20",
                 "asal": "Lampung Barat",
@@ -275,7 +275,7 @@ if menu == "Baleg":
                 "pesan": "semangat kuliahnya bang"# 1
             },
               {
-                "nama": "Kakak Mirzan Yusuf Rabbani",
+                "nama": "Bang Mirzan Yusuf Rabbani",
                 "nim": "122450118",
                 "umur": "21",
                 "asal": "Jakarta",
@@ -308,7 +308,7 @@ if menu == "Baleg":
                 "pesan": "semangatt ya kakak kuliahnya"# 1
             },
               {
-                "nama": "Kakak Ridho Benedictus Togi Manik",
+                "nama": "Bang Ridho Benedictus Togi Manik",
                 "nim": "123450060",
                 "umur": "19",
                 "asal": "Medan",
@@ -319,7 +319,7 @@ if menu == "Baleg":
                 "pesan": "semangat ya bang kuliahnya"# 1
             },
               {
-                "nama": "Kakak Feryadi Yulius",
+                "nama": "Bang Feryadi Yulius",
                 "nim": "122450087",
                 "umur": "22",
                 "asal": "Sumatera Selatan",
@@ -404,7 +404,7 @@ if menu == "Departemen Medkraf":
                 "pesan": ""# 1
             },
               {
-                "nama": "Kakak Khoirul Anam",
+                "nama": "Bang Khoirul Anam",
                 "nim": "122450039",
                 "umur": "21",
                 "asal": "Pesawaran",
@@ -415,7 +415,7 @@ if menu == "Departemen Medkraf":
                 "pesan": ""# 1
             },
               {
-                "nama": "Kakak Labo John Noel Napitupulu",
+                "nama": "BangLabo John Noel Napitupulu",
                 "nim": "123450037",
                 "umur": "19",
                 "asal": "Medan",
@@ -426,7 +426,7 @@ if menu == "Departemen Medkraf":
                 "pesan": ""# 1
             },
               {
-                "nama": "Kakak Ravi Diva Efangga",
+                "nama": "Bang Ravi Diva Efangga",
                 "nim": "123450001",
                 "umur": "21",
                 "asal": "Lampung Tengah, Gunung Sugih",
@@ -525,7 +525,7 @@ if menu == "Departemen Medkraf":
                 "pesan": ""# 1
             },
               {
-                "nama": "Kakak Akmal Faiz Abdillah",
+                "nama": "Bang Akmal Faiz Abdillah",
                 "nim": "122450114",
                 "umur": "21",
                 "asal": "Bandar Lampung",
@@ -583,6 +583,7 @@ if menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     medkraf()
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
