@@ -101,10 +101,10 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=14g_TmuRo5vL0jGnQI0EMBKhSoTe1gT0n",
             "https://drive.google.com/uc?export=view&id=1IetOiuDn2Jg4U0Zxc3lDNpO6hLsj0va_",
-             "https://drive.google.com/uc?export=view&id=1SXFAtqHB84s0PzELJvn-UaN5radbpArx",
-             "https://drive.google.com/uc?export=view&id=1v7Rt_l-PRIH7lp3HL2jt27LTiu4ujRcA",
+            "https://drive.google.com/uc?export=view&id=1SXFAtqHB84s0PzELJvn-UaN5radbpArx",
+            "https://drive.google.com/uc?export=view&id=1v7Rt_l-PRIH7lp3HL2jt27LTiu4ujRcA",
             "https://drive.google.com/uc?export=view&id=1iBZzGWXl_D0KDBlSmDmrQaztAIiPS8qu",
-             "https://drive.google.com/uc?export=view&id=1e1OrcGVC12P9qrnFMa_054BeErSGPLcK",
+            "https://drive.google.com/uc?export=view&id=1e1OrcGVC12P9qrnFMa_054BeErSGPLcK",
         ]
         data_list = [
             {
@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Makan Pisang",
                 "sosmed": "@_erendraa",
-                "kesan": "  ",  
-                "pesan": " !"# 1
+                "kesan": "Kakak rendra keren sekali jadi Kahim",  
+                "pesan": "Keren selalu ya kak!!" # 1
             },
             {
                 "nama": "Kakak Johannes Krisjon Silitonga",
@@ -127,9 +127,9 @@ if menu == "Kesekjenan":
                 "hobbi": "Baca buku sequel ",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "  ",  
-                "pesan": " "# 1
+                "pesan": " " # 2
             },
-              {
+            {
                 "nama": "Kakak Elisabeth Claudia Simanjuntak",
                 "nim": "122450123",
                 "umur": "20",
@@ -140,7 +140,7 @@ if menu == "Kesekjenan":
                 "kesan": " ",  
                 "pesan": "  "# 1
             },
-              {
+            {
                 "nama": "Kakak Syadza Puspadari Azhar",
                 "nim": "122450072",
                 "umur": "21",
@@ -183,10 +183,10 @@ if menu == "Baleg":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1SJzaDhyzbFQU4sUKkCucatiQ02FRZsDh",
             "https://drive.google.com/uc?export=view&id=1vEhVv3oWuTA0jxG3VE35jVcZRHZ2KQHF",
-             "https://drive.google.com/uc?export=view&id=18eQ8jmGasgCf3Qc7ha6DoazjTMB9lqjJ",
-             "https://drive.google.com/uc?export=view&id=1ArBZOSp9m6ILPzHbRNCIOVz201xGZdgI",
+            "https://drive.google.com/uc?export=view&id=18eQ8jmGasgCf3Qc7ha6DoazjTMB9lqjJ",
+            "https://drive.google.com/uc?export=view&id=1ArBZOSp9m6ILPzHbRNCIOVz201xGZdgI",
             "https://drive.google.com/uc?export=view&id=1YOzgSl5Kglc3PbAHZVeK9dXsQp1WN_dP",
-             "https://drive.google.com/uc?export=view&id=1uHnfvNXIKp1eKdwI_fgfWwZGiGR5ZS9l",
+            "https://drive.google.com/uc?export=view&id=1uHnfvNXIKp1eKdwI_fgfWwZGiGR5ZS9l",
             "https://drive.google.com/uc?export=view&id=14lDDtRDs1zzFRP2dRa3iAz0tMXuobD2M",
             "https://drive.google.com/uc?export=view&id=1MGHBrd5mYCjTaoU42DHtiRqc1z5pIafT",
             "https://drive.google.com/uc?export=view&id=12CDrjNQ18SYIurDh8by2V4vUh8XOXkdY",
@@ -219,7 +219,7 @@ if menu == "Baleg":
                 "kesan": "Kakak nya baik, seru ",  
                 "pesan": "Sehat selalu kak, dilancakan semuanya "# 1
             },
-              {
+            {
                 "nama": "Kakak Renisha Putri Giani",
                 "nim": "122450079",
                 "umur": "22",
@@ -293,7 +293,7 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Ngukir Sabun",
                 "sosmed": "@berlyyanda",
-                "kesan": " ",  
+                "kesan": "Keren kak Berlin",  
                 "pesan": " "# 1
             },
               {
@@ -305,7 +305,7 @@ if menu == "Baleg":
                 "hobbi": "Mendengarkan wave to earth",
                 "sosmed": "@j__eesie",
                 "kesan": " ",  
-                "pesan": " "# 1
+                "pesan": " " # 1
             },
               {
                 "nama": "Kakak Ridho Benedictus Togi Manik",
@@ -695,7 +695,7 @@ if menu == "Senator":
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_PSDA()
-    if menu == "Departemen MIKFES":
+if menu == "Departemen MIKFES":
     def Departemen_MIKFES():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1EIeKDIkbiw1ewmm5PWWLewzIFXGjHZBj", #1
@@ -973,10 +973,10 @@ if menu == "Departemen SSD":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1e9fQEjEYFLUWL8I0LfxNbZAATHmYbqu5",
             "https://drive.google.com/uc?export=view&id=193IWCujfiWGr6m6WKCdt7HFGxKT8aasZ",
-             "https://drive.google.com/uc?export=view&id=1sSUDImgo3hedDSOUMnm_U654gMJD-4F1",
-             "https://drive.google.com/uc?export=view&id=1sAM9ToSWJTKuZ74_75CDyqHT2uhHCmTi",
+            "https://drive.google.com/uc?export=view&id=1sSUDImgo3hedDSOUMnm_U654gMJD-4F1",
+            "https://drive.google.com/uc?export=view&id=1sAM9ToSWJTKuZ74_75CDyqHT2uhHCmTi",
             "https://drive.google.com/uc?export=view&id=1JildNj6bOxp59XrEJRAIqTvEWELiR-6n",
-             "https://drive.google.com/uc?export=view&id=15W2vT-H2-fHRMJl51X5xq6kk120r6q5C",
+            "https://drive.google.com/uc?export=view&id=15W2vT-H2-fHRMJl51X5xq6kk120r6q5C",
             "https://drive.google.com/uc?export=view&id=1hlC9rm-nIW2tUOFbmLsF-1RQZm8Fvw9V",
             "https://drive.google.com/uc?export=view&id=1kCmowRnNbpXskwVROUbEcpUt9eEoNdfs",
             "https://drive.google.com/uc?export=view&id=12CDrjNQ18SYIurDh8by2V4vUh8XOXkdY", #
