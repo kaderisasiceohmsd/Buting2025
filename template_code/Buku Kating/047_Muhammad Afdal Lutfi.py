@@ -99,11 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1CGxOjcK_MofRLOIZzrkIddq3wAOK6lKd",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1nldQIc67ILaywdUHiD9T2ncqg1MI9Owy",
+            "https://drive.google.com/uc?export=view&id=1TQpA61F9By1c861AuIgrYfKbz9Jbhdts",
+            "https://drive.google.com/uc?export=view&id=1t7zHWhoI_y7xug6zQnqQqFStG_FcTLQX",
+            "https://drive.google.com/uc?export=view&id=1cK4CkoXT5J_LsoVk5woXZQ_ynRitZH6o",
+            "https://drive.google.com/uc?export=view&id=1pFnhQqq9NthIQXamv16I1wRLIeRm19RO",
+            "https://drive.google.com/uc?export=view&id=1wg872AjvtT8zQoVSoU6PkKCMT4RzKxLf"
         ]
         data_list = [
             {
@@ -358,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=11VFkOLTPdQXFRTGHOJHMtDkIWeXi7vhyt",
+            "https://drive.google.com/uc?export=view&id=1JscLPfOsGOEyFG1QF8asg44BARl0tKEd",
+            "https://drive.google.com/uc?export=view&id=1GmUshhQYBiMp165nFgacvx4nge8JyVO",
+            "https://drive.google.com/uc?export=view&id=1jk3Qpav9qS_EsDOD9ulHCGbDgg5NqbX5",
         ]
         data_list = [
             {
