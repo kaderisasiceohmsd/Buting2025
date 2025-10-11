@@ -105,18 +105,18 @@ if menu == "Kesekjenan":
         ]
         data_list = [
             {
-                "nama": "nasi goreng 1, ga pake timun",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "Nama": "Rendra Eka Prayoga",
+                "NIM": "122450000",
+                "Umur": "18",
+                "Asal":"Bekasi",
+                "Alamat": "Gg.sakum",
+                "Hobi": "Mainn Bola, Belajar",
+                "Sosmed": "@i",
+                "Kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "Pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak gulali",
+                "nama": "Kakak B",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
