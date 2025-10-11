@@ -736,28 +736,28 @@ if menu == "Departemen PSDA":
         display_images_with_data(gambar_urls, data_list)
     Departemen_PSDA()
 
-if menu == "Departemen Mikfes":
-    def Departemen_Mikfes():
+if menu == "Departemen MIKFES":
+    def Departemen_MIKFES():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1I1-urAjD-GvjMRH3EzJOb96fYYgwS85r",
+            "https://drive.google.com/uc?export=view&id=1Ifd1nTdUE4Wefsa_aB2j6Gkv5j5tFe6L",
+            "https://drive.google.com/uc?export=view&id=1HRHzFFzHio08vpEJ248etq4TFcjPEt4K",
+            "https://drive.google.com/uc?export=view&id=1JBF-JGKH6XfT6f3y3c0nuYjMaH55FT3W",
+            "https://drive.google.com/uc?export=view&id=1HQ-AVewGw5koWyCxcyF1pNgx7DSZm3gy",
+            "https://drive.google.com/uc?export=view&id=1HNXxUVIrR2IhL3Xm5heQ7HlreFHnGROA",
+            "https://drive.google.com/uc?export=view&id=1IeiH-ja3VD0SNVa40C60B9x_Bd37uBeb",
+            "https://drive.google.com/uc?export=view&id=1HrIBYH9Uzv9zlWT21Xzx3C6N8BJ_DPaq",
+            "https://drive.google.com/uc?export=view&id=1IpMb7MqWe-D5FyiOrRfo_2507S3zk_WV",
+            "https://drive.google.com/uc?export=view&id=1IvMhavh2HVJ0BUG2hiPxvjPhcbTghSbk",
+            "https://drive.google.com/uc?export=view&id=1I7x_xQU0Uhy-gGVuglpedXT2QrmUr0_E",
+            "https://drive.google.com/uc?export=view&id=1IQLjz7Jd3x6T77wD7RMLyRuznDmYJrB3",
+            "https://drive.google.com/uc?export=view&id=1J0MFP6J_PuRHIHaFD42GEII26Vwx7Vcr",
+            "https://drive.google.com/uc?export=view&id=1Ir2eYKNXRgtgfWTg7gwWO7Nlbe9VLGug",
+            "https://drive.google.com/uc?export=view&id=1J9C4XGK5zsge1DlCoq1rxYIA6AZGqPUN",
+            "https://drive.google.com/uc?export=view&id=1Hlhd1MXx8PT4cHeEMQHm9g_tUAPlWoGD",
+            "https://drive.google.com/uc?export=view&id=1I6DbSJR9lNza478LJdhjMknt_uBRLLaS",
+            "https://drive.google.com/uc?export=view&id=1HQRQGf-cQ8OGCJl5ucFsDB3uuDTLifBU",
+            "https://drive.google.com/uc?export=view&id=1IxH_J_OaiUnPPjmbIOXvpcA5KudKaI_E",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -919,17 +919,6 @@ if menu == "Departemen Mikfes":
                 "pesan": "semangat terus kuliahnya kakak !!!"
             },
             {
-                "nama": "Kharisma Mustika Sari",
-                "nim": "123450077",
-                "umur": "19",
-                "asal": "Fafa",
-                "alamat": "Belwis",
-                "hobbi": "Nyapa angin",
-                "sosmed": "@-",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
-            {
                 "nama": "Tanty Widiyastuti",
                 "nim": "123450094",
                 "umur": "20",
@@ -1019,7 +1008,7 @@ if menu == "Departemen Mikfes":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_Mikfes()
+    Departemen_MIKFES()
 
 if menu == "Departemen Eksternal":
     def Departemen_Eksternal():

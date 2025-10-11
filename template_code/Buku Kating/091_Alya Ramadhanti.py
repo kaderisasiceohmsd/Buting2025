@@ -918,17 +918,6 @@ if menu == "Departemen Mikfes":
                 "pesan": "semangat terus kuliahnya kakak !!!"
             },
             {
-                "nama": "Kharisma Mustika Sari",
-                "nim": "123450077",
-                "umur": "19",
-                "asal": "Fafa",
-                "alamat": "Belwis",
-                "hobbi": "Nyapa angin",
-                "sosmed": "@-",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
-            {
                 "nama": "Tanty Widiyastuti",
                 "nim": "123450094",
                 "umur": "20",
