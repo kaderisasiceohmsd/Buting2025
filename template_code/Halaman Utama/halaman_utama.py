@@ -91,6 +91,7 @@ def streamlit_menu():
 
 menu = streamlit_menu()
 
+
 if menu == "Home":
 
     def home_page():
@@ -138,9 +139,9 @@ elif menu == "About Us":
         )
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tQAhvJOTqEg9zCiZdwSWpsr58CaFdsAp",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -150,12 +151,13 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
+            
             {
-                "nama": "Jeremia Halim",
-                "sebagai": "Anak Palu & Bulu terkeren",
-                "nim": "124450101",
-                "fun_fact": "Bisa Beatbox, Lucid Dream",
-                "motto_hidup": "Do your best & let God handle the rest.",
+                "nama": "Afriza Azmi",
+                "sebagai": "Palu tergacor",
+                "nim": "124450110",
+                "fun_fact": "sering ngomong sama diri sendiri",
+                "motto_hidup": "Power is not given, it's taken",
             },
             {
                 "nama": "Asri Meilani",
@@ -163,6 +165,13 @@ elif menu == "About Us":
                 "nim": "124450010",
                 "fun_fact": "-",
                 "motto_hidup": "-",
+            },
+            {
+                "nama": "Jeremia Halim",
+                "sebagai": "Anak Palu & Bulu terkeren",
+                "nim": "124450101",
+                "fun_fact": "Bisa Beatbox, Lucid Dream",
+                "motto_hidup": "Do your best & let God handle the rest.",
             },
             {
                 "nama": "Difanya Husakina",
@@ -191,13 +200,6 @@ elif menu == "About Us":
                 "nim": "124450070",
                 "fun_fact": "gabisa tidur kalau kamar masi berantakan",
                 "motto_hidup": "selalu belajar hal hal baik dari apa yang dilihat dan didengar",
-            },
-            {
-                "nama": "Afriza Azmi",
-                "sebagai": "Palu tergacor",
-                "nim": "124450110",
-                "fun_fact": "sering ngomong sama diri sendiri",
-                "motto_hidup": "Power is not given, it's taken",
             },
             {
                 "nama": "Jona Timothy Ogatse Panjaitan",
