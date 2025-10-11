@@ -326,7 +326,7 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=11HytWDD5DssoSqu602MfliZw_IK9Myc1",
             "https://drive.google.com/uc?export=view&id=1XRNnLCAgXea-VALLGARKF8Mf_nE0R4_b",
              "https://drive.google.com/uc?export=view&id=1S5JHx8bYxIGKLzamKRds9W_LpS-9kTF9",
-            "https://drive.google.com/uc?export=view&id=1Jarb0f8BEIvFNfHd18P59Y3XqZKQTvzx,
+            "https://drive.google.com/uc?export=view&id=1Jarb0f8BEIvFNfHd18P59Y3XqZKQTvzx",
              "https://drive.google.com/uc?export=view&id=1C3wYEOieh7VqG_CewEH4NYhnlZxlQn0-",
              "https://drive.google.com/uc?export=view&id=1NvA46Jt4-m0j-vuCmPSQbka-TUeKg-Wn",
             "https://drive.google.com/uc?export=view&id=1ZuAYg2wGlUU7LEzKascxnLAeq5bFIRaH",
@@ -545,6 +545,7 @@ if menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
