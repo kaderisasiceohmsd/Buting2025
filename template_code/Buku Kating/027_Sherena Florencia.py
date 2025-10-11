@@ -178,7 +178,7 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
-if menu == "Baleg":
+elif menu == "Baleg":
     def baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1SJzaDhyzbFQU4sUKkCucatiQ02FRZsDh",
@@ -354,8 +354,8 @@ if menu == "Baleg":
             
         ]
         display_images_with_data(gambar_urls, data_list)
-     baleg()
-if menu == "Senator":
+    baleg()
+elif menu == "Senator":
     def senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1W7LRKmzFD0iFnmRqHgq-0ffWeSlQjGsx",
@@ -411,8 +411,9 @@ if menu == "Senator":
         ]
         display_images_with_data(gambar_urls, data_list)
     senator()
-    if menu == "Departemen PSDA":
-    def Departemen_PSDA():
+
+elif menu == "Departemen PSDA":
+    def psda():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1XF4k2U3-f1_fEXaA75wEVmabUWSCBk13",
             "https://drive.google.com/uc?export=view&id=1zSf34kQ4_9fcPAmbjn0CGLdsJ4fLkPC0",
@@ -694,9 +695,9 @@ if menu == "Senator":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_PSDA()
-if menu == "Departemen MIKFES":
-    def Departemen_MIKFES():
+    psda()
+elif menu == "Departemen MIKFES":
+    def mikfes():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1EIeKDIkbiw1ewmm5PWWLewzIFXGjHZBj", #1
             "https://drive.google.com/uc?export=view&id=19_5WusRBxzhZmB13IoiVj-FGl-rMZvlz", #2
@@ -967,9 +968,9 @@ if menu == "Departemen MIKFES":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-   Departemen_MIKFES()
-if menu == "Departemen SSD":
-    def Departemen_SSD():
+    mikfes()
+elif menu == "Departemen SSD":
+    def ssd():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1e9fQEjEYFLUWL8I0LfxNbZAATHmYbqu5",
             "https://drive.google.com/uc?export=view&id=193IWCujfiWGr6m6WKCdt7HFGxKT8aasZ",
@@ -1108,5 +1109,5 @@ if menu == "Departemen SSD":
             },     
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_SSD()
+    ssd()
     
