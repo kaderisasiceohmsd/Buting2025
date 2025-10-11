@@ -110,7 +110,7 @@ if menu == "Kesekjenan":
             {
                 "nama": "Rendra Eka Prayoga",
                 "nim": "122450000",
-                "umur": "18",
+                "umur": "21",
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
