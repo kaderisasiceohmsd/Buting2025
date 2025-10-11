@@ -319,5 +319,232 @@ if menu == "Baleg":
         display_images_with_data(gambar_urls, data_list)
     baleg()
 
+if menu == "Departemen Medkraf":
+    def medkraf():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1GAb6oEKFnfn_AlOJtIET7UirsHe76wcc",
+            "https://drive.google.com/uc?export=view&id=16M71EUFBtobTkTVL6ApiBH8fHFUWGslL",
+            "https://drive.google.com/uc?export=view&id=1_1DozeW7_vrOsmApmFCDeVu--1gIQ086",
+            "https://drive.google.com/uc?export=view&id=1pB8SVumqk9b1UHfiaIiFG3b0ak_PMYAK",
+            "https://drive.google.com/uc?export=view&id=1_BRT4--r8jcduUjYLM-Uuucf7m9RNxRT",
+            "https://drive.google.com/uc?export=view&id=1IQFZ8mQPBzeKXVVwO8IMjTPciAF0z8Dr",
+            "https://drive.google.com/uc?export=view&id=1t_aB_7mq27hulbl1bU3cIrpJNdUgXFsN",
+            "https://drive.google.com/uc?export=view&id=1JO8j5JKiesm4Nb8XHCC3lj7TfC14J3x_",
+            "https://drive.google.com/uc?export=view&id=1EQzv53enl_Lj5EoIk22UspEX5b1Lt9sM",
+            "https://drive.google.com/uc?export=view&id=1GAb6oEKFnfn_AlOJtIET7UirsHe76wcc",
+            "https://drive.google.com/uc?export=view&id=1PfyzQWCnyftL5Bfsz9fQuPoJDinRfuEG",
+            "https://drive.google.com/uc?export=view&id=1ZT501seAPHQjynP4Mw1MEm8hX_kBu7fp",
+            "https://drive.google.com/uc?export=view&id=16TqOXnnrodDT7xKQC-qNG-W7eZAQCrOo",
+            "https://drive.google.com/uc?export=view&id=1IQFZ8mQPBzeKXVVwO8IMjTPciAF0z8Dr",
+            "https://drive.google.com/uc?export=view&id=1BWWqdszW1wH58EmZbVevmEzDmLesL5SQ",
+            "https://drive.google.com/uc?export=view&id=1a9x5CevN4wk1UELv46DXnduNCMyTrwCK",
+            "https://drive.google.com/uc?export=view&id=1NFVzBnEScgkeBgDYWZ0SjptOQ44VNZ9X",
+            "https://drive.google.com/uc?export=view&id=1Z-wtnPgIVVYy12SsCEM_ZIXmC_95U4G1",
+        
+            
+        ]
+        data_list = [
+            {
+                "nama": "Kakak Patricia Leondrea Diajeng Putri",
+                "nim": "122450050",
+                "umur": "21",
+                "asal": "Lampung Selatan",
+                "alamat": "Jatimulyo",
+                "hobbi": "Mendengarkan musik",
+                "sosmed": "@patriciadiajeng",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+            {
+                "nama": "Kakak Rahma Neliyana",
+                "nim": "122450036",
+                "umur": "21",
+                "asal": "Lampung",
+                "alamat": "Jalan Kresna, Korpri",
+                "hobbi": "Nge-gym",
+                "sosmed": "@rahmaneliyana",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Khoirul Anam",
+                "nim": "122450039",
+                "umur": "21",
+                "asal": "Pesawaran",
+                "alamat": "Pesawaran",
+                "hobbi": "Volly, billyard",
+                "sosmed": "@mananam__",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Labo John Noel Napitupulu",
+                "nim": "123450037",
+                "umur": "19",
+                "asal": "Medan",
+                "alamat": "Way Huwi",
+                "hobbi": "Motoran",
+                "sosmed": "@noerruuu",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Ravi Diva Efangga",
+                "nim": "123450001",
+                "umur": "21",
+                "asal": "Lampung Tengah, Gunung Sugih",
+                "alamat": "Airan Raya",
+                "hobbi": "Olahraga",
+                "sosmed": "@rafidivaefangga_",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Refa Destiny Pranata",
+                "nim": "123450016",
+                "umur": "19",
+                "asal": "Bandar Lampung",
+                "alamat": "Kedaton",
+                "hobbi": "Nge-vlog",
+                "sosmed": "@refadp_",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Try Yani Rizki Nur Rohmah",
+                "nim": "",
+                "umur": "",
+                "asal": "",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Aliya Ammara Ananta",
+                "nim": "123450075",
+                "umur": "19",
+                "asal": "KotaBumi",
+                "alamat": "Gracia Kost 1",
+                "hobbi": "Main Gitar",
+                "sosmed": "@aliyaammara",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Donna Maya Puspita",
+                "nim": "123450028",
+                "umur": "20",
+                "asal": "Bekasi, Jawa Barat",
+                "alamat": "Way Huwi, Gang Mangga",
+                "hobbi": "Mendengarkan musik",
+                "sosmed": "@donnamaya.p",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Feby Angelina",
+                "nim": "123450039",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Kemmiling",
+                "hobbi": "Scoll Pinterest",
+                "sosmed": "@writtenbyangel",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Hafsa Fazila Arradhi",
+                "nim": "123450079",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Labuhan Ratu",
+                "hobbi": "Memasak",
+                "sosmed": "@hafsa.fazila",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Nayla Salsabila Fathianisa",
+                "nim": "123450082",
+                "umur": "19",
+                "asal": "Payahkumbuh, Sumatera Selatan",
+                "alamat": "Jalan Lapas, Kec. Kota Agung",
+                "hobbi": "Mendengarkan musik",
+                "sosmed": "@naylasasabilaa_",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Sania Dwi Ayu Lestari",
+                "nim": "123450086",
+                "umur": "20",
+                "asal": "Karawang",
+                "alamat": "Airan Raya",
+                "hobbi": "Main roblox",
+                "sosmed": "@saniayyllstr",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Akmal Faiz Abdillah",
+                "nim": "122450114",
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Griya Sukarame",
+                "hobbi": "Membaca",
+                "sosmed": "@_akmal.faiz",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Raihan Addelia Putri",
+                "nim": "123450041",
+                "umur": "19",
+                "asal": "Lampug Tengah, Terbanggi",
+                "alamat": "Airan Raya 1",
+                "hobbi": "Menulis, membaca, memasak",
+                "sosmed": "@n1tg._",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Citra Agustin",
+                "nim": "123450108",
+                "umur": "21",
+                "asal": "Natar",
+                "alamat": "Natar",
+                "hobbi": "Scroll Pinterest",
+                "sosmed": "@citrastin",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Eigi Artamevia",
+                "nim": "123450011",
+                "umur": "20",
+                "asal": "Krui, Kec. Pesisir Selatan",
+                "alamat": "Sabah Balau Residence",
+                "hobbi": "Melukis",
+                "sosmed": "@eigitvm",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kakak Romauli Oktavia Silaban",
+                "nim": "123450014",
+                "umur": "19",
+                "asal": "Sumatra Utara",
+                "alamat": "Kelengkeng 2 Pemda",
+                "hobbi": "Menanyi",
+                "sosmed": "@roms.slbn",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    medkraf()
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
