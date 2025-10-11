@@ -355,6 +355,7 @@ elif menu == "Baleg":
         ]
         display_images_with_data(gambar_urls, data_list)
     baleg()
+
 elif menu == "Senator":
     def senator():
         gambar_urls = [
@@ -733,6 +734,7 @@ elif menu == "Departemen PSDA":
         ]
         display_images_with_data(gambar_urls, data_list)
     psda()
+
 elif menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
@@ -1005,7 +1007,8 @@ elif menu == "Departemen MIKFES":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    mikfes()
+        mikfes()
+        
 elif menu == "Departemen Eksternal":
     def eksternal():
         gambar_urls = [
@@ -1303,7 +1306,7 @@ elif menu == "Departemen Eksternal":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-  eksternal()   
+    eksternal()   
 elif menu == "Departemen Internal":
     def internal():
         gambar_urls = [
@@ -1322,8 +1325,6 @@ elif menu == "Departemen Internal":
            "https://drive.google.com/uc?export=view&id=1ccydgPGSmxwIutCEU1Hn3-Qm5mJOo00h", 
            "https://drive.google.com/uc?export=view&id=1xbiACmmK_xDcwt1m6UXWKhaJDJUGR9sg",
            "https://drive.google.com/uc?export=view&id=1XrgWf9EaoDWt4WEPV_K_K7zZRv9_AAMb",
-
-
         ]
         data_list = [
             {
@@ -1494,7 +1495,8 @@ elif menu == "Departemen Internal":
             
         ]
         display_images_with_data(gambar_urls, data_list)
-   internal()
+    internal()
+
 elif menu == "Departemen SSD":
     def ssd():
         gambar_urls = [
@@ -1635,7 +1637,8 @@ elif menu == "Departemen SSD":
             },     
         ]
         display_images_with_data(gambar_urls, data_list)
-   ssd()
+    ssd()
+
 elif menu == "Departemen Medkraf":
     def medkraf():
         gambar_urls = [
@@ -1860,4 +1863,4 @@ elif menu == "Departemen Medkraf":
             
         ]
         display_images_with_data(gambar_urls, data_list)
- medkraf()
+    medkraf()
