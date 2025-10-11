@@ -211,7 +211,7 @@ if menu == "Baleg":
             },
             {
                 "nama": "Dhea Amelia Putri",
-                "nim": "",
+                "nim": "122450004",
                 "umur": "20",
                 "asal":"Chiwidew, Jawa Barat",
                 "alamat": "Pesawaran",
@@ -359,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1elYxQdimcEJwctEdx5p2JKZi-jMROnZy",
+            "https://drive.google.com/uc?export=view&id=1IC0AFqb2JCOMP_ttKGBLNwsY118Y7Wgm",
+            "https://drive.google.com/uc?export=view&id=1Q9oB9WZxc6tQpXntURf6yjq8KNnRfMUa",
+            "https://drive.google.com/uc?export=view&id=1Q6rVdx1rtPAvdId9w7ON26eLG4h5aD3y",
         ]
         data_list = [
             {
@@ -370,11 +370,11 @@ if menu == "Senator":
                 "nim": "122450094",
                 "umur": "20",
                 "asal":"Palembang",
-                "alamat": "tanya caesar",
+                "alamat": "Raden Saleh",
                 "hobbi": "Padel",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abangnya seru, baik dan sengat ramah",  
+                "pesan":"Lancar selalu kuliah dan sukses untuk kariernya"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -384,8 +384,8 @@ if menu == "Senator":
                 "alamat": "Belakang Indomaret belwis",
                 "hobbi": "Maen Roblox",
                 "sosmed": "@nadyaanjani",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya seru dan baik",  
+                "pesan":"Sukses selalu dan semangat kuliahnya kak"# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -395,8 +395,8 @@ if menu == "Senator":
                 "alamat": "Asrama TB1",
                 "hobbi": "like instagram",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya baik banget dan ramah",  
+                "pesan":"Semangat kuliah dan sukses kariernya"# 1
             },
             {
                 "nama": "Lia Hana Ichisasmita ",
@@ -406,8 +406,8 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Dengerin Lagu",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya keren dan baik banget",  
+                "pesan":"Lancar selalu kuliah dan sukses kedepannya"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
