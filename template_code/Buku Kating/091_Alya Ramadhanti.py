@@ -719,7 +719,18 @@ if menu == "Departemen PSDA":
                 "sosmed": "@sidabutar.26",
                 "kesan": "-",
                 "pesan": "-"
-            }
+            },
+             {
+                "nama": "Rewina Audriya Melva Sari",
+                "nim": "123450049",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Way Kandis",
+                "hobbi": "dengerin musik",
+                "sosmed": "@rewinanaaa",
+                "kesan": "-",
+                "pesan": "-"
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_PSDA()
