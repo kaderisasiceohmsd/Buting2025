@@ -107,6 +107,24 @@ if menu == "Home":
             Dari kedua belas naga tersebut ada Nando sebagai naga tertua yang bijak bersama Azzelya yang selalu setia mendampinginya dalam menjaga
             dan mengarahkan adik-adiknya. Bersama-sama mereka menuntun sepuluh naga lainnya yaitu Yazid, Iqbal, Alsi, Hafis, Zaldi, Bina, Yolanda, Iffa, Arfai dan Yulia agar tidak lagi tersesat. 
             Dari hari ke hari berkat bimbingan Dea Amanda keluarga naga kecil ini tumbuh semakin kuat kompak dan siap menorehkan jejak besar sebagai satu kesatuan keluarga naga Bayesian.</div>""",
+            """<div style="text-align: justify;">
+            Teorema Bayes mengajarkan bahwa keyakinan awal (prior) bukanlah sesuatu yang mutlak. Setiap 
+            bukti baru (evidence) yang datang dapat memperkaya dan bahkan mengubah keyakinan itu, sehingga lahirlah 
+            pemahaman yang lebih matang (posterior).
+            Dari sini ada beberapa nilai filosofis yang bisa ditarik:
+            1. Belajar dari pengalaman: 
+            Kita tidak boleh terpaku pada pandangan lama. Bukti baru harus dijadikan dasar untuk 
+            memperbaiki cara berpikir.
+            2. Keterbukaan & kerendahan hati:
+            Tidak ada keyakinan awal yang sempurna. 
+            Teorema Bayes menekankan perlunya terbuka terhadap informasi baru agar tidak 
+            terjebak pada kesalahan.
+            3. Proses berkelanjutan:
+            Pembaruan keyakinan bukan terjadi sekali, tapi terus-menerus. Ini menggambarkan 
+            bahwa hidup adalah proses belajar tanpa henti.
+            4. Keseimbangan antara tradisi & perubahan:
+            Prior tidak dibuang, tapi dikoreksi dengan evidence. Artinya, identitas awal tetap penting, 
+            namun harus siap disempurnakan oleh pengalaman.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -119,6 +137,9 @@ if menu == "Home":
             sedangkan tangan kanan yang siap menjaga menggambarkan bukti baru yang datang untuk memperkuat arah yang dipilih. 
             Dengan filosofi itu, naga Bayesian bukan hanya sebuah kelompok, melainkan keluarga yang terus belajar, berkembang,
             dan semakin kokoh lewat proses pembaruan keyakinan, persis seperti semangat teori Bayes.</div>""",
+            """<div style="text-align: justify;">Jadi secara singkat:
+            Teorema Bayes memberi filosofi bahwa hidup adalah proses memperbarui keyakinan dan keputusan 
+            berdasarkan bukti baru, sehingga kita menjadi lebih adaptif, bijak, dan terus berkembang.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -142,25 +163,26 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "Fernando",
                 "sebagai": "Pak Lurah",
                 "nim": "122450016",
                 "fun_fact": "suka makan pedes, tapi ga suka efeknya",
                 "motto_hidup": "new semester new me",
             },
             {
-                "nama": "x",
+                "nama": "Azzelya Thianandry",
                 "sebagai": "Bu Lurah",
-                "nim": "122450000",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "Ya apa ya",
+                "nim": "124450041",
+                "fun_fact": "gabisa tidur tanpa selimut",
+                "motto_hidup": "Do it for the plot",
             },
             {
+
                 "nama": "Moch. Iqbal Az-Zahir",
                 "sebagai": "Anggota",
                 "nim": "124450052",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "mantap",
+                "fun_fact": "Kadang yapping",
+                "motto_hidup": "Terpuji dalam akhlak, beruntung dalam langkah, nyata dalam jejak.",
             },
             {
                 "nama": "Hafidz Wahdiansyah",
@@ -177,24 +199,45 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Zannuba",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Iqbal",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Muhammad Rizaldi",
+                "sebagai": "Anggotaa",
+                "nim": "124450093",
+                "fun_fact": "Semua jariku bengkok, suka ngelipetin kantong kresek",
+                "motto_hidup": "Jalanin dulu hari ini, Hari esok liat nanti lah",
+            },
+            {
+                "nama": "Yazid",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
                 "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Yollanda",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Yulia",
+                "sebagai": "Anggotaa",
+                "nim": "122450110",
+                "fun_fact": "suka campurin makanannn",
                 "motto_hidup": "jalanin dulu keles",
             },
         ]
