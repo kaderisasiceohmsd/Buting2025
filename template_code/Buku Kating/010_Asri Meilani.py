@@ -92,6 +92,7 @@ def display_images_with_data(gambar_urls, data_list):
             st.write(f"Kesan: {data_list[i]['kesan']}")
             st.write(f"Pesan: {data_list[i]['pesan']}")
             st.write("  ")
+<<<<<<< HEAD
     st.markdown("""
     <div style="
         text-align: center;
@@ -110,6 +111,8 @@ def display_images_with_data(gambar_urls, data_list):
         <span style="font-weight:500; font-size:18px; color:#555;">(tidak ada apa-apa disini)</span>
     </div>
 """, unsafe_allow_html=True)
+=======
+>>>>>>> origin/asrimeilani
     st.write("Semua gambar telah dimuat!")
 menu = streamlit_menu()
 
@@ -126,9 +129,12 @@ if menu == "Kesekjenan":
         ]
         data_list = [
             {
+<<<<<<< HEAD
                 "nama": "Rendra Eka Prayoga",
                 "nim": "122450112",
                 "umur": "21",
+=======
+>>>>>>> origin/asrimeilani
                 "nama": "Rendra Eka Prayogaa",
                 "nim": "122450000",
                 "umur": "18",
