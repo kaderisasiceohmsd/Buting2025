@@ -146,17 +146,17 @@ if menu == "Baleg":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1F6a9BMeoXdcK522HI1JxDyRqQ1YNGXRz",
             "https://drive.google.com/uc?export=view&id=1I361S79fmrqWdy9euF2YfqJIS0tnJGiW",
-             "https://drive.google.com/uc?export=view&id=1Pu7rUm-yGx7_09tAFjfOawGqbkKLdGpd",
-             "https://drive.google.com/uc?export=view&id=1dgttd4FlxH-ye971xYV3kZw2NG466-y_",
-            "https://drive.google.com/uc?export=view&id=12b4av0FaOe5ML_uMLSG6CPPlMsdUgoup",
-             "https://drive.google.com/uc?export=view&id=1eYmGdjHGxZEBpzUMcFN_4IMsAMcAz2hy",
+            "https://drive.google.com/uc?export=view&id=1Pu7rUm-yGx7_09tAFjfOawGqbkKLdGpd",
+            "https://drive.google.com/uc?export=view&id=1dgttd4FlxH-ye971xYV3kZw2NG466-y_",
+            "https://drive.google.com/uc?export=view&id=1FEGnlXbAvU2xfntfot7kfkuYcEjwHUVH",
+            "https://drive.google.com/uc?export=view&id=1egLrp_QSva1yV2Md5_ApuNYMUEQVKj0r",
             "https://drive.google.com/uc?export=view&id=1FNHwBe486uqcbWL1Upm0tVcu1MiCFKc9",
             "https://drive.google.com/uc?export=view&id=1DZ10bhKvgRDcspXvgxdPCGN94g3_ChjB",
             "https://drive.google.com/uc?export=view&id=1ALE0ay71Cxdf6N8l06IvaHkQU4szOvkS",
             "https://drive.google.com/uc?export=view&id=1Vj-SVw68fuZ0zN28yiXTbORMfNbsbUb1",
             "https://drive.google.com/uc?export=view&id=1GtRASWOp5QYbRBpDHl9NYwFagekX1YVm",
             "https://drive.google.com/uc?export=view&id=1NDT-sW7a0Nub1Z8ugoPGzaH3km8z5_gu",
-            "https://drive.google.com/uc?export=view&id=1FEGnlXbAvU2xfntfot7kfkuYcEjwHUVH",
+            "https://drive.google.com/uc?export=view&id=1_BRT4--r8jcduUjYLM-Uuucf7m9RNxRT",
             "https://drive.google.com/uc?export=view&id=13_Gs5IAFHmEhvRn-k2c3ze4kIoYSZNo-",
         ]
         data_list = [
@@ -546,5 +546,6 @@ if menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     medkraf()
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
