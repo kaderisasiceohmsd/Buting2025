@@ -92,7 +92,6 @@ def display_images_with_data(gambar_urls, data_list):
             st.write(f"Kesan: {data_list[i]['kesan']}")
             st.write(f"Pesan: {data_list[i]['pesan']}")
             st.write("  ")
-<<<<<<< HEAD
     st.markdown("""
     <div style="
         text-align: center;
@@ -111,16 +110,13 @@ def display_images_with_data(gambar_urls, data_list):
         <span style="font-weight:500; font-size:18px; color:#555;">(tidak ada apa-apa disini)</span>
     </div>
 """, unsafe_allow_html=True)
-=======
->>>>>>> origin/asrimeilani
-    st.write("Semua gambar telah dimuat!")
 menu = streamlit_menu()
 
 # BAGIAN SINI YANG HANYA BOLEH DIUABAH
 if menu == "Kesekjenan":
     def Kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=171cZ6YvWJMUWGX0vlMD_q2JnDC5cID0t",
+            "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
             "https://drive.google.com/uc?export=view&id=1GqJ5F_vejQJ196U50ciIIR4NR-xS0RPZ",
             "https://drive.google.com/uc?export=view&id=1Ke724M-V9OyKlZ9m1WhdaHF-3T2Kq45L",
             "https://drive.google.com/uc?export=view&id=1S06Ws-NpvUEJg-o8ueVkoVMFc99Efuj3",
@@ -129,12 +125,6 @@ if menu == "Kesekjenan":
         ]
         data_list = [
             {
-<<<<<<< HEAD
-                "nama": "Rendra Eka Prayoga",
-                "nim": "122450112",
-                "umur": "21",
-=======
->>>>>>> origin/asrimeilani
                 "nama": "Rendra Eka Prayogaa",
                 "nim": "122450000",
                 "umur": "18",
