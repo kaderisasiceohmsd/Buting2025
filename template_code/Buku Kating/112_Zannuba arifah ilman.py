@@ -127,15 +127,48 @@ if menu == "Kesekjenan":
                 "pesan":"semangat kuliahnya bang!!!"
             },
             {
-                "nama": "Kakak CCc",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Elisabeth Claudia",
+                "nim": "122450123",
+                "umur": "19",
+                "asal":"Tangerang",
+                "alamat": "airas kost",
+                "hobbi": "nyemil",
+                "sosmed": "@celisabethh_",
+                "kesan": "kakak asik bangeett ",  
+                "pesan":"semangat kuliahnya kakaaakkk!!!"
+            },
+             {
+                "nama": "Eksanty Febriana Sugma Islamiati",
+                "nim": "122450001",
+                "umur": "21",
+                "asal":"borneo kalimantan barat",
+                "alamat": "gedung tataan pesawaran",
+                "hobbi": "ngelas ngelus kucing",
+                "sosmed": "@eksantyfebriana",
+                "kesan": "kakak asik bangeett ",  
+                "pesan":"semangat kuliahnya kakaaakkk!!!"
+            },
+             {
+                "nama": "Farahanum Afifah Ardiansyah",
+                "nim": "122450056",
+                "umur": "21",
+                "asal":"padang, sumbar",
+                "alamat": "kiya kost",
+                "hobbi": "domino, qtek kahim",
+                "sosmed": "@farahanumafifahh",
+                "kesan": "kakak asik bangeett ",  
+                "pesan":"semangat kuliahnya kakaaakkk!!!"
+            },
+             {
+                "nama": "Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "21",
+                "asal":"Palembang",
+                "alamat": "belwis",
+                "hobbi": "membaca",
+                "sosmed": "@puspadrr",
+                "kesan": "kakak asik bangeett ",  
+                "pesan":"semangat kuliahnya kakaaakkk!!!"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
