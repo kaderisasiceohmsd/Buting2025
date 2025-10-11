@@ -116,7 +116,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
                 "kesan": "Abangnya Santai tapi Tegas",  
-                "pesan":"Semangat nyusun TA nya pak kahim !!!"# 1
+                "pesan":"Semangat nyusun TA nya pak kahim !!!"
             },
             {
                 "nama": "Abang Johannes Krisjon Silitonga",
@@ -127,7 +127,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "Abangnya Tegas dan Berintegritas",  
-                "pesan":"Semangat TA nya Bang Jo"# 1
+                "pesan":"Semangat TA nya Bang Jo"
             },
             {
                 "nama": "Kakak Farahanum Afifah Ardiansyah",
@@ -138,7 +138,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Cute Kahim",
                 "sosmed": "@farahanumafifah",
                 "kesan": "Kakaknya Humble dan Asik",  
-                "pesan":"Semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"Semangat terus kuliahnya kakak !!!"
             },
             {
                 "nama": "Kakak Syadza Puspadari Azhar",
@@ -149,18 +149,18 @@ if menu == "Kesekjenan":
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
                 "kesan": "Kakak nya kalem dan pendiam",  
-                "pesan":"Semoga lancar nyusun TA nya kak"# 1
+                "pesan":"Semoga lancar nyusun TA nya kak"
             },
             {
                 "nama": "Kakak Eksanty Febriana Sugma Islamiaty",
                 "nim": "122450001",
                 "umur": "19",
-                "asal":"Buleleng, Bali,
+                "asal":"Buleleng, Bali",
                 "alamat": "Asrama TB 4",
                 "hobbi": "Nahan Eeq",
                 "sosmed": "@eksantyfebriana",
                 "kesan": "Kakak nya Usil dan Random",  
-                "pesan":"Semangat jadi Pemandu kak"# 1
+                "pesan":"Semangat jadi Pemandu kak"
             },
             {
                 "nama": "Kakak Elisabeth Claudia Simanjuntak",
@@ -171,7 +171,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Nahan Pipis",
                 "sosmed": "@celisabethh_",
                 "kesan": "Kakak nya Random dan Asik",  
-                "pesan":"Jangan nahan pipis terus kak, nanti jadi penyakit# 1
+                "pesan":"Jangan nahan pipis terus kak, nanti jadi penyakit",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
