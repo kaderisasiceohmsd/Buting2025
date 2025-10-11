@@ -1,4 +1,4 @@
-import streamlit as st
+    import streamlit as st
 from streamlit_option_menu import option_menu
 import requests
 from PIL import Image, ImageOps
@@ -359,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1-LH4vdl_n00XeDjTqBdz9SuJl5y9Bbyi",
+            "https://drive.google.com/uc?export=view&id=11PQQupEggLhDWtyyj4GDe-iZAWqJSs4F",
+            "https://drive.google.com/uc?export=view&id=1FfIvphnt7En4pEV4k61opO6QrGfvE9Lz",
+            "https://drive.google.com/uc?export=view&id=1zbF7px1cwyYc25GQlK0VbDx86THot8mF",
         ]
         data_list = [
             {
