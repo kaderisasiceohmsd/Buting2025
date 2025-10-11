@@ -193,7 +193,7 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1Vj-SVw68fuZ0zN28yiXTbORMfNbsbUb1",
             "https://drive.google.com/uc?export=view&id=1GtRASWOp5QYbRBpDHl9NYwFagekX1YVm",
             "https://drive.google.com/uc?export=view&id=1NDT-sW7a0Nub1Z8ugoPGzaH3km8z5_gu",
-            "https://drive.google.com/uc?export=view&id=1hTqQMF6Xt4OoJCtDwIr-beJeSshRYPDw",
+            "https://drive.google.com/uc?export=view&id=1NmK8iyVcKegXOLrKE4bCjeJs0RxIyUy7",
             "https://drive.google.com/uc?export=view&id=13_Gs5IAFHmEhvRn-k2c3ze4kIoYSZNo-",
         ]
         data_list = [
@@ -583,6 +583,7 @@ if menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     medkraf()
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
