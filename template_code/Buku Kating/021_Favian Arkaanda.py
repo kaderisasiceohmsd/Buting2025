@@ -758,10 +758,9 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1I6DbSJR9lNza478LJdhjMknt_uBRLLaS",
             "https://drive.google.com/uc?export=view&id=1HQRQGf-cQ8OGCJl5ucFsDB3uuDTLifBU",
             "https://drive.google.com/uc?export=view&id=1IxH_J_OaiUnPPjmbIOXvpcA5KudKaI_E",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1I6XYRE4NOhHPQOh43k-65MZZUCocmiwl",
+            "https://drive.google.com/uc?export=view&id=1J1DEzGkoSQJymlTmsXcTiKbbI4De8qfa",
+            "https://drive.google.com/uc?export=view&id=1HQpym_nv5f9n8ZYVy137G0DrqSF2l4kA",
         ]
         data_list = [
             {
@@ -1013,12 +1012,12 @@ if menu == "Departemen MIKFES":
 if menu == "Departemen Eksternal":
     def Departemen_Eksternal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1MX8ozi8GXtFf-FmZFz217vmgRemNh20T",
+            "https://drive.google.com/uc?export=view&id=1MPWT6DHwxjdAsp4J6ARQ8evXRpM9wvMF",
+            "https://drive.google.com/uc?export=view&id=1MXiAz1VDYYDWXBv5AfTXa7JU919OwRHw",
+            "https://drive.google.com/uc?export=view&id=1NTMcyWfhbLqTXSTfpouGse6DErEoixuA",
+            "https://drive.google.com/uc?export=view&id=1NcRX3yfHdRL2VJpAZH5tdpWAI7ymM4aS",
+            "https://drive.google.com/uc?export=view&id=1ME9F9fMjxuutqsjuOi83mvQEUNtmMhu9",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -1103,8 +1102,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Sukarame",
                 "hobbi": "Main main",
                 "sosmed": "@khoirul_muttoharoh",
-                "kesan": "keren banget banggg bisa jadi",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "Seneng banget bisa jadi adek nim kak mutt, udah baikk baik, orangnya juga perhatian dan asikk banget. Ga expect bisa se nim sama kakak satu ini :)",
+                "pesan": "semangat terus yaa kakk, tetap jadi orang baikk, sehat sehat orang baikkk!!!"
             },
            {
                 "nama": "Lutfia Aisyah Putri",
