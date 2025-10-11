@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
         data_list = [
             {
                 "nama": "Rendra Eka Prayogaa",
-                "nim": "122450000",
-                "umur": "18",
+                "nim": "122450112",
+                "umur": "21",
                 "asal":"Bekasi",
                 "alamat": "Pulau Damai",
                 "hobbi": "Nyanyi",
