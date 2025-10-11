@@ -101,7 +101,7 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1KoIEKyIMeevecKfcvpbl3Y-CLcTWy7oE",
             "https://drive.google.com/uc?export=view&id=1wwkiZyM7Q5F1SoJqnvAEX4cYGL2yZQB7",
-            "https://drive.google.com/uc?export=view&id=1RXnNfGJXpm9wvMzLUViYldnmgZ8_MsLm",
+            "https://drive.google.com/uc?export=view&id=1JH4al1fJ_zqRM8TMD7L1qgcOe4E6i3d7",
             "https://drive.google.com/uc?export=view&id=13XhdtXVGNBouJnlegwTgc7FE4U3LX4Sy",
             "https://drive.google.com/uc?export=view&id=1aL_oxmOeusWAdW5na-nYW9CCnZsGiYNR",
         ]
@@ -355,10 +355,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tL66mc3OpB7TG6IRSrg_YresCuczkNEJ",
+            "https://drive.google.com/uc?export=view&id=1BA0m1cDGbOsyNzrTo0JZM872zNSti8JB",
+            "https://drive.google.com/uc?export=view&id=1rGLp3o1giRdyIbcSy_NJtx7pBrHS1AGv",
+            "https://drive.google.com/uc?export=view&id=1R04U2sR1ruEJeXZ8A8ySBKOurOFKh41p",
         ]
         data_list = [
             {
