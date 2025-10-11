@@ -155,7 +155,7 @@ if menu == "Kesekjenan":
                 "nama": "Kakak Eksanty Febriana Sugma Islamiaty",
                 "nim": "122450001",
                 "umur": "19",
-                "asal":"Buleleng, Bali,
+                "asal":"Buleleng, Bali",
                 "alamat": "Asrama TB 4",
                 "hobbi": "Nahan Eeq",
                 "sosmed": "@eksantyfebriana",
@@ -171,7 +171,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Nahan Pipis",
                 "sosmed": "@celisabethh_",
                 "kesan": "Kakak nya Random dan Asik",  
-                "pesan":"Jangan nahan pipis terus kak, nanti jadi penyakit# 1
+                "pesan":"Jangan nahan pipis terus kak, nanti jadi penyakit"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
