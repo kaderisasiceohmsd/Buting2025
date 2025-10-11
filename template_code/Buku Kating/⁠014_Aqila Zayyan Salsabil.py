@@ -99,47 +99,85 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+           "https://drive.google.com/uc?export=view&id=1aYgsQKjkvBIhf8HSjlEc7oUdgpnVxvDQ",
+            "https://drive.google.com/uc?export=view&id=1TmY_Y-cpZ50srBkidcOxBsVjXABNOq5q",
+            "https://drive.google.com/uc?export=view&id=1ED9Cnzz4PqBhuYkg33iuil0Qk0tZqJ5g",
+            "https://drive.google.com/uc?export=view&id=1kcuQNN0pXTZBCfhUZvBS6DEYQ4dtvou7",
+            "https://drive.google.com/uc?export=view&id=1LsArrs4gQoI7dqXi5p7YeOjak8nCtvEo",
+            "https://drive.google.com/uc?export=view&id=1yENowFyxVpWIfe7XcZInm5D2Ol9GcG9_",
         ]
         data_list = [
             {
-                "nama": "Kakak A",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Bang Rendra Eka Prayoga",
+                "nim": "122450112",
+                "umur": "21",
+                "asal": "Bekasi",
+                "alamat": "Pulau Damar",
+                "hobbi": "Makan Pisang",
+                "sosmed": "@_erendraa",
+                "kesan": "",  
+                "pesan": ""# 1
             },
             {
-                "nama": "Kakak B",
+                "nama": "Bang Johannes Krisjon Silitonga",
                 "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "umur": "20",
+                "asal": "Tangerang",
+                "alamat": "Jalan Lapas",
+                "hobbi": "Baca buku sequel ",
+                "sosmed": "@johanneskrisjnnn",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kak Elisabeth Claudia Simanjuntak",
+                "nim": "122450123",
+                "umur": "20",
+                "asal": "Bogor",
+                "alamat": "Ayres Kost",
+                "hobbi": "Gangguin Orang",
+                "sosmed": "@celisabethh_",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+              {
+                "nama": "Kak Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "21",
+                "asal": "Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Tidur",
+                "sosmed": "@puspadrr",
+                "kesan": "",  
+                "pesan": ""# 1
             },
             {
-                "nama": "Kakak CCc",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Kakak Eksanty Febriana Sukma Islamiaty",
+                "nim": "122450001",
+                "umur": "21",
+                "asal": "Sammosir/Sumatera Utara",
+                "alamat": "Natar (Raden Intan)",
+                "hobbi": "Nemenin orang dari nol sampai jatuh ke jurang kemiskinan",
+                "sosmed": "@eksantyfebriana",
+                "kesan": "",  
+                "pesan":""# 1
             },
+             {
+                "nama": "Kakak Farahanum Afifah Ardiansyah",
+                "nim": "122450001",
+                "umur": "21",
+                "asal": "Padang",
+                "alamat": "Belwis",
+                "hobbi": "Cutek Kahim",
+                "sosmed": "@farahanumafifah",
+                "kesan": "",  
+                "pesan": ""# 1
+            },
+            
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
+
 
 if menu == "Baleg":
     def baleg():
