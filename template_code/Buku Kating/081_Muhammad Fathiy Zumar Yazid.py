@@ -115,7 +115,7 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau damar",
                 "hobbi": "Bikin lagu",
                 "sosmed": "@_rendraa",
-                "kesan": "Kak Rendra keren banget, jago bikin lagu!",
+                "kesan": "Bang Rendra keren banget, jago bikin lagu!",
                 "pesan": "Semangat terus kuliahnya Bang Rendra!!!"
             },
             {
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "jl.Lapas",
                 "hobbi": "Baca buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Kak Johannes suka banget baca dan rajin belajar SQL!",
-                "pesan": "Terus semangat eksplor data dan kodingnya kak Johannes!"
+                "kesan": "Bang Johannes suka banget baca dan rajin belajar SQL!",
+                "pesan": "Terus semangat eksplor data dan kodingnya Bang!"
             },
             {
                 "nama": "Elisabeth Claudia",
