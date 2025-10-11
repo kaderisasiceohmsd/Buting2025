@@ -178,7 +178,7 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
-elif menu == "Baleg":
+if menu == "Baleg":
     def baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1SJzaDhyzbFQU4sUKkCucatiQ02FRZsDh",
@@ -355,7 +355,7 @@ elif menu == "Baleg":
         ]
         display_images_with_data(gambar_urls, data_list)
     baleg()
-elif menu == "Senator":
+if menu == "Senator":
     def senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1W7LRKmzFD0iFnmRqHgq-0ffWeSlQjGsx",
@@ -412,8 +412,8 @@ elif menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     senator()
 
-elif menu == "Departemen PSDA":
-    def psda():
+if menu == "Departemen_PSDA":
+    def Departemen_PSDA():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1XF4k2U3-f1_fEXaA75wEVmabUWSCBk13",
             "https://drive.google.com/uc?export=view&id=1zSf34kQ4_9fcPAmbjn0CGLdsJ4fLkPC0",
@@ -438,6 +438,10 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1uNY7Cr20WvDgTat2h_RPKgxcdDMqXZUw",
             "https://drive.google.com/uc?export=view&id=1ovD8p40T0U7x6qz_LOgTPMQuTPsqU8ar",
             "https://drive.google.com/uc?export=view&id=1x0YxcB_owX9qLBUnGFq0I76W2wNMF8vc",
+            "https://drive.google.com/uc?export=view&id=17HAOzsgvtWOFIZGpxdmuIEyvpIYfL_4-",
+            "https://drive.google.com/uc?export=view&id=1_XLXl9AHm_LrTo-bVdp4SzFQ2E6dPEFP",
+            "https://drive.google.com/uc?export=view&id1ZefdkGdVNG413wvVLqSp8-b_juVOSOxq",
+
         ]
         data_list = [
             {
@@ -551,7 +555,7 @@ elif menu == "Departemen PSDA":
                 "pesan":" "# 1
             },
             {
-                "nama": "Kakak Vany Salsabila Putri",
+                "nama": "Kakak Vany Salsabila Putri", #ke bawah belum ada
                 "nim": "123450022",
                 "umur": "20",
                 "asal":"Palembang",
@@ -690,14 +694,47 @@ elif menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Marah-marah",
                 "sosmed": "@vany.salsabilaa",
+                "kesan": " ",  
+                "pesan":" "# 1
+            },
+            {
+                "nama": "Kakak Daffa Hadyan Navista",
+                "nim": "123450025",
+                "umur": "21",
+                "asal":"Sumatera Barat",
+                "alamat": "Sebelah kost Arienta",
+                "hobbi": "Jailin orang sampe nangis",
+                "sosmed": "@daffahdynn_",
+                "kesan": " ",  
+                "pesan":" "# 1
+            },
+            {
+                "nama": "Kakak Ginda Fajar Riadi Marpaung",
+                "nim": "123450103",
+                "umur": "20",
+                "asal":"Batam",
+                "alamat": "Kontrakan GH",
+                "hobbi": "Banyak",
+                "sosmed": "@ginda_mrp",
+                "kesan": " ",  
+                "pesan":" "# 1
+            },
+            {
+                "nama": "Kakak Natasya Amavisca",
+                "nim": "123450024",
+                "umur": "20",
+                "asal":" ",
+                "alamat": " ",
+                "hobbi": "Belajar",
+                "sosmed": "@natasyaamavisca",
                 "kesan": " ",  
                 "pesan":" "# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    psda()
-elif menu == "Departemen MIKFES":
-    def mikfes():
+    Departemen_PSDA()
+if menu == "Departemen_MIKFES":
+    def Departemen_MIKFES():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1EIeKDIkbiw1ewmm5PWWLewzIFXGjHZBj", #1
             "https://drive.google.com/uc?export=view&id=19_5WusRBxzhZmB13IoiVj-FGl-rMZvlz", #2
@@ -968,9 +1005,498 @@ elif menu == "Departemen MIKFES":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    mikfes()
-elif menu == "Departemen SSD":
-    def ssd():
+    Departemen_MIKFES()
+if menu == "Departemen_Eksternal":
+    def Departemen_Eksternal():
+        gambar_urls = [
+             "https://drive.google.com/uc?export=view&id=1SUx-9KysDrpH1wOk9DvJ4u_8W0aj3zVR",
+             "https://drive.google.com/uc?export=view&id=1wUgNvEXYwu5KSQJ-E_yR9aFYxvu2956k",
+             "https://drive.google.com/uc?export=view&id=1BuFlM0G0VvM4qgbfNBQWT89S0qnsPNyf",
+             "https://drive.google.com/uc?export=view&id=1BCYLca5Q1pvchvamh8qeK3SCoiztSJdd",
+             "https://drive.google.com/uc?export=view&id=19vyJnmAxX-Cen8wPacfSeu7hleqjt9yJ",
+             "https://drive.google.com/uc?export=view&id=1M5-YbhtaNp5JCqLIMzCQxm4skNsFGJY5",
+             "https://drive.google.com/uc?export=view&id=19j7hnINYzYQ15ID4qZoSEl4dx8CmjUCp",
+             "https://drive.google.com/uc?export=view&id=1LHqYOXPWEDcYsuADh-EdorO1pFtoErod",
+             "https://drive.google.com/uc?export=view&id=1r_pfSOy5ggMcOWOmRCQ2eLUWpZ1oUttI",
+             "https://drive.google.com/uc?export=view&id=1mtSqn_TW4LaQLVcmqnRf4mcTKSGR7qgg",
+             "https://drive.google.com/uc?export=view&id=1PiV46wBy4OPnabgpnotNQxQIZAC_j-Jc",
+             "https://drive.google.com/uc?export=view&id=1WAhurKLQQMaYASVa0GbXjtiSG14pMkrX",
+             "https://drive.google.com/uc?export=view&id=16a22Yq8GYhGkpIuyIQxjq9CcAbHHbN4k",
+             "https://drive.google.com/uc?export=view&id=1rKLpZ0suYw-bNivl7l_MKCq6AWU5IqqJ",
+             "https://drive.google.com/uc?export=view&id=1ZizUagw2_j102eIyrm2NS8JUGqrHmNzx",
+             "https://drive.google.com/uc?export=view&id=1Y9thDB6s0FsxSdXuOJH1bdlYq31e7zH2",
+             "https://drive.google.com/uc?export=view&id=1Z9JSMPgdD6JiCHiikxNpTXx5lLYRbf6v",
+             "https://drive.google.com/uc?export=view&id=1w1PR0QS-mmnTFowvOmFJsWGArKaJ0J-9",
+             "https://drive.google.com/uc?export=view&id=1KOLNshMhH1lMLWB94n_fP-Svfax8d1l1",
+             "https://drive.google.com/uc?export=view&id=1fYX34rW3vwT1cenS6uZTBegoEEIKJxP_",
+             "https://drive.google.com/uc?export=view&id=1uUIFXTPWcKPE6uZRcpOn2xYQsDcf89n3",
+             "https://drive.google.com/uc?export=view&id=1KOLNshMhH1lMLWB94n_fP-Svfax8d1l1",
+             "https://drive.google.com/uc?export=view&id=1a6cl7WOOrB2W2nKVPwV5W8wH0cmRCyRC",
+             "https://drive.google.com/uc?export=view&id=18Sm-rMFqlmqSYs7p-MJXH4pZ5kPcOb3Q",
+
+        ] 
+        data_list = [
+            {
+                "nama": "Kakak Randra Andriana Putra",
+                "nim": "122450083",
+                "umur": "22",
+                "asal":"serang, Banten",
+                "alamat": "Sukarame",
+                "hobbi": "Tidur dan berkembang",
+                "sosmed": "@randaandriana_",
+                "kesan": "Kak Randa asik, wawasannya luas",  
+                "pesan":"Semangat kuliahnya kak"# 1
+            },
+            {
+                "nama": "Kakak Rut Junita Sari Siburian",
+                "nim": "122450103",
+                "umur": "21",
+                "asal":"Kepulauan Riau",
+                "alamat": "Jalan Nangka 3",
+                "hobbi": "Membaca Buku",
+                "sosmed": "@junitaa_0406",
+                "kesan": "Kakak Rut asyik dan keren",  
+                "pesan":"Lancar-lancar kuliahnya kak Rut"# 2
+            },
+            {
+                "nama": "Kakak Muhammad Regi Abdi Putra Ananta",
+                "nim": "122450031",
+                "umur": "19",
+                "asal":"Palembang",
+                "alamat": "Jalan Permadi, Sukarame",
+                "hobbi": "Mendengar Musik",
+                "sosmed": "@mregiiii_",
+                "kesan": "Kakak Regi kadiv PSD keren",  
+                "pesan":"Semangat Kak Regi, terus menginspirasi"# 3
+            },
+            {
+                "nama": "Kakak Aisyah Musfirah",
+                "nim": "123450084",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@_aishsahi",
+                "kesan": "Kakak Aisyah keren cara berbicaranya",  
+                "pesan":"semangat menjalani semester 5 kakak"# 4
+            },
+            {
+                "nama": "Kakak Fadil Prasetyo Alfarizzi",
+                "nim": "123450048",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Segar Miden",
+                "hobbi": "Fore",
+                "sosmed": "@fadilalfarizzii",
+                "kesan": "Kakak Fadil keren banget jadi duta genre",  
+                "pesan":"Semoga selalu kece ya kak fadil"# 5
+            },
+            {
+                "nama": "Kakak Muhammad Aqil Ramadhan",
+                "nim": "123450066",
+                "umur": "20",
+                "asal":"Kampar, Riau",
+                "alamat": "GH Belwis",
+                "hobbi": "Ngerokok",
+                "sosmed": "@muhammadaqil1111",
+                "kesan": "Kakak Aqil keren gacor",  
+                "pesan":"Semoga hobinya bisa dikurangi ya kak, biar sehat hehe"# 6
+            },
+            {
+                "nama": "Kakak Muhammad Naufal Ramadhan",
+                "nim": "123450113",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Mendengarkan musik",
+                "sosmed": "@_notfall.s",
+                "kesan": "Kakak Naufal pendiam sekali",  
+                "pesan":"Semoga sehat selalu dan bahagia"# 7
+            },
+            {
+                "nama": "Kakak Nadia Faraj Alyafaatin Simbolon",
+                "nim": "123450092",
+                "umur": "21",
+                "asal":"Kalianda",
+                "alamat": "Jl. Manggis 1",
+                "hobbi": "Menonton Film",
+                "sosmed": "@nadiaafrj",
+                "kesan": "Kakak Nadia Keren banget",  
+                "pesan":"Selalu keren ya kak"# 8
+            },
+            {
+                "nama": "Kakak Marleta Cornelia Leander",
+                "nim": "122450092",
+                "umur": "21",
+                "asal":"Depok",
+                "alamat": "Jl. Nangka 3",
+                "hobbi": "Main Musik",
+                "sosmed": "@marletacornelia",
+                "kesan": "Kakak marleta murah senyum",  
+                "pesan":"semangat kak semester 7 nya semoga lulus tepat waktu" # 9
+            },
+            {
+                "nama": "Kakak Akeyla Fairuz Shafi",
+                "nim": "123450119",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Pramuka, bandar Lampung",
+                "hobbi": "Mendengar Musik",
+                "sosmed": "@keyshafi_",
+                "kesan": "Kakak Akeyla namanya bagus",  
+                "pesan":"Sehat-sehat kak di pramuka"# 10
+            },
+            {
+                "nama": "Kakak Anggi Puspita Ningrum",
+                "nim": "123450012",
+                "umur": "20",
+                "asal":"Lampung Selatan",
+                "alamat": "Jln. Seputih, Bumisari, Natar",
+                "hobbi": "Mendengarkan musik, nonton drakor, ngedance",
+                "sosmed": "@anggi_yllow2318",
+                "kesan": "Kakak Anggi kita sam sama dari Natar",  
+                "pesan":"Semangat kak pp Natar-Iteranya"# 11
+            },
+            {
+                "nama": "Kakak Efi Defiyati",
+                "nim": "123450005",
+                "umur": "20",
+                "asal":"Lampung Timur",
+                "alamat": "Jl. Raden Saleh",
+                "hobbi": "Membaca",
+                "sosmed": "@eeffiidefi",
+                "kesan": "Kakak Efi keren banget",  
+                "pesan":"Kakak Efi semangat ya"# 12
+            },
+            {
+                "nama": "Kakak Fabiolla Charissa Putri",
+                "nim": "123450035",
+                "umur": "20",
+                "asal":"Pesawaran",
+                "alamat": "Pesawaran",
+                "hobbi": "Main Piano dan bernyanyi",
+                "sosmed": "@hey.olla",
+                "kesan": "Kakak Fabiolla kita sama NIM akhirnya",  
+                "pesan":"Semangat selalu kak fabiolla"# 13
+            },
+            {
+                "nama": "Kakak Fairus Ary Syifa",
+                "nim": "123450044",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
+                "kesan": "",  
+                "pesan":""# 14
+            },
+            {
+                "nama": "Kakak Tanty Widyiastuti",
+                "nim": "123450094",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@i",
+                "kesan": "",  
+                "pesan":""# 15
+            },
+            {
+                "nama": "Kakak Eggi Satria",
+                "nim": "122450032",
+                "umur": "21",
+                "asal":"Sukabumi",
+                "alamat": "Jl. Permadi",
+                "hobbi": "Bernafas",
+                "sosmed": "@_egistr",
+                "kesan": "Kakak Eggi hebat",  
+                "pesan":"Semangat kuliahnya kakak hebat!"# 16
+            },
+            { 
+                "nama": "Kakak Afifah Fauziah",
+                "nim": "123450002",
+                "umur": "20",
+                "asal":"Bekasi",
+                "alamat": "Padang, Sumbar",
+                "hobbi": "Isengin orang dan ngobrol random with gpt",
+                "sosmed": "@fifah.zy",
+                "kesan": "Kakak Afifah asyik bangett",  
+                "pesan":"Semangat kak ngobrolnyaa"# 17
+            },
+            {
+                "nama": "Kakak Fabio Banyu Cyto",
+                "nim": "123450104",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Jalan Teratai No 27A, Kedaton",
+                "hobbi": "Jadi PJ Kelas bu Febri",
+                "sosmed": "@biyokcb",
+                "kesan": "Kakak Fabio keren abis",  
+                "pesan":"semangat terus kak jadi pj bu Febri"# 18
+            },
+          
+            {
+                "nama": "Kakak Rahma Oktavia Albar",
+                "nim": "123450003",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
+                "kesan": "",  
+                "pesan":""# 19
+            },
+            {
+                "nama": "Kakak Rahmah Gustriana Deka",
+                "nim": "123450102",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
+                "kesan": "",  
+                "pesan":""# 20
+            },
+            {
+                "nama": "Kakak Razin Hafid Hamdi",
+                "nim": "123450096",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
+                "kesan": "",  
+                "pesan":""# 21
+            },
+            {
+                "nama": "Kakak Giofani Aristyo",
+                "nim": "123450065",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "",
+                "hobbi": "Catur",
+                "sosmed": "@biyokcb",
+                "kesan": "Kakak Gio keren banget",  
+                "pesan":"semangat Caturnya kak"# 22
+            },
+             {
+                "nama": "Kakak Razin Hafid Hamdi",
+                "nim": "123450096",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
+                "kesan": "",  
+                "pesan":""# 21
+            },
+            {
+                "nama": "Kakak Giofani Aristyo",
+                "nim": "123450065",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "",
+                "hobbi": "Catur",
+                "sosmed": "@biyokcb",
+                "kesan": "Kakak Gio keren banget",  
+                "pesan":"semangat Caturnya kak"# 22
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+  Departemen_Eksternal()   
+if menu == "Departemen_Internal":
+    def Departemen_Internal():
+        gambar_urls = [
+           "https://drive.google.com/uc?export=view&id=1yM1KDSQ6Fr0HDi8cx2LanstNuduqg0h0",
+           "https://drive.google.com/uc?export=view&id=12ln77QpAFtF-sJPlHsigpcbudpcw1cZv",
+           "https://drive.google.com/uc?export=view&id=1oVT6DaFSTgnCX_zPD_rfp3y_G-tCJHn-",
+           "https://drive.google.com/uc?export=view&id=13ewsPxrBtXGXsZMCunmeMU1LvB1HWZPi",
+           "https://drive.google.com/uc?export=view&id=1pgFDUm2oRM6jfzG-4H79al-lWRuKLcDU",
+           "https://drive.google.com/uc?export=view&id=1kfQRYUxE9j1RcqVBElnDvBCqLModfbAY",
+           "https://drive.google.com/uc?export=view&id=1MhVEjom1d3BC9YzHoU5vIRQCnl7en4gI",
+           "https://drive.google.com/uc?export=view&id=1w8Eelzo9b6c2vO4qgKR0RUxlgC2UVdCE",
+           "https://drive.google.com/uc?export=view&id=1sGZ9E_W5dG1bXIS3dbXKEg5y18ZZl2qq", 
+           "https://drive.google.com/uc?export=view&id=1l8ZfRaV7mkyjh8yzaYw8XwhIebPhaEis",
+           "https://drive.google.com/uc?export=view&id=19_ntFq6HSoktMvPXvaF3zx1j2U1I_cHl",
+           "https://drive.google.com/uc?export=view&id=1XCARcsbMEu7LpYQbf7SLqRbg3fX0sC9J",
+           "https://drive.google.com/uc?export=view&id=1ccydgPGSmxwIutCEU1Hn3-Qm5mJOo00h", 
+           "https://drive.google.com/uc?export=view&id=1xbiACmmK_xDcwt1m6UXWKhaJDJUGR9sg",
+           "https://drive.google.com/uc?export=view&id=1XrgWf9EaoDWt4WEPV_K_K7zZRv9_AAMb",
+
+
+        ]
+        data_list = [
+            {
+                "nama": "Kakak Jeremia Susanto", #Datanya belum ku isi
+                "nim": "122450022",
+                "umur": "21",
+                "asal": "Nusa Kambangan",
+                "alamat": "Lapas , Belwis",
+                "hobbi": "Melarikan Diri",
+                "sosmed": "@jeremia_s_ ",
+                "kesan": "Kakaknya manis, lucu ",  
+                "pesan": " Semoga dilancarkan semuanya dan dipermudah urusannya"# 1
+            },
+            {
+                "nama": "Kakak Dhea Amelia Putri",
+                "nim": "122450004",
+                "umur": "21",
+                "asal": "Kendari",
+                "alamat": "Metro",
+                "hobbi": "Bertutur kata baik dan sopan",
+                "sosmed": "@_.dheamelia ",
+                "kesan": "Kakak nya baik, seru ",  
+                "pesan": "Sehat selalu kak, dilancakan semuanya "# 1
+            },
+            {
+                "nama": "Kakak Renisha Putri Giani",
+                "nim": "122450079",
+                "umur": "22",
+                "asal": "Teluk",
+                "alamat": "Teluk",
+                "hobbi": "Jualan Pancing",
+                "sosmed": "@renishapg",
+                "kesan": "Kakaknya keren dan asik ",  
+                "pesan": "Semoga dilancarkan urusannya kak "# 1
+            },
+              {
+                "nama": "Kakak Anisa Fitriyani",
+                "nim": "122450019",
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Bandar Lampung",
+                "hobbi": "Mencari kesibukan",
+                "sosmed": "@ansftynn_",
+                "kesan": "kakaknya keren ",  
+                "pesan": "Semoga urusannya diperlancar "# 1
+            },
+            {
+                "nama": "Kakak Dharu Cahyoaji Sasongko",
+                "nim": "123450023",
+                "umur": "18",
+                "asal": "Bandar Lampung",
+                "alamat": "Way Halim",
+                "hobbi": "Nonton AGZ",
+                "sosmed": "@dhruchyo",
+                "kesan": "Kakaknya keren banget ",  
+                "pesan":"Semoga diperlancar semuanya  "# 1
+            },
+             {
+                "nama": "Kakak Feby Wulandari",
+                "nim": "123450042",
+                "umur": "20",
+                "asal": "Bekasi",
+                "alamat": "Way Huwi",
+                "hobbi": "Nguleg Cabai",
+                "sosmed": "@fby.wlndr",
+                "kesan": "Kakaknya cantik dan lucu ",  
+                "pesan": "Semangat kak, diperlancar semuanya "# 1
+            },
+              {
+                "nama": "Kakak Givaro Ananta",
+                "nim": "123450078",
+                "umur": "20",
+                "asal": "Lampung Barat",
+                "alamat": "Sukabumi",
+                "hobbi": "Nemenin ridho main pedel",
+                "sosmed": "@givarooo",
+                "kesan": "Kakaknya keren banget ",  
+                "pesan": "Semoga dilancarkan semuanya kak "# 1
+            },
+              {
+                "nama": "Kakak Mirzan Yusuf Rabbani",
+                "nim": "122450118",
+                "umur": "21",
+                "asal": "Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Istirahat",
+                "sosmed": "@myrrinn",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Berliana Enda Putri",
+                "nim": "122450065",
+                "umur": "21",
+                "asal": "Surabaya",
+                "alamat": "Belwis",
+                "hobbi": "Ngukir Sabun",
+                "sosmed": "@berlyyanda",
+                "kesan": "Keren kak Berlin",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Juesi Apridelia Saragih",
+                "nim": "123450085",
+                "umur": "19",
+                "asal": "Teluk Kuandama",
+                "alamat": "Belwis",
+                "hobbi": "Mendengarkan wave to earth",
+                "sosmed": "@j__eesie",
+                "kesan": " ",  
+                "pesan": " " # 1
+            },
+              {
+                "nama": "Kakak Ridho Benedictus Togi Manik",
+                "nim": "123450060",
+                "umur": "19",
+                "asal": "Medan",
+                "alamat": "GH",
+                "hobbi": "Main Pedel",
+                "sosmed": "@iamridhomanik ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Feryadi Yulius",
+                "nim": "122450087",
+                "umur": "22",
+                "asal": "Sumatera Selatan",
+                "alamat": "Kobang",
+                "hobbi": "Ngeliatin warna baju orang",
+                "sosmed": "@fer_yulius",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Monica Patricia Tanjung",
+                "nim": "123450073",
+                "umur": "19",
+                "asal": "Sumatera Utara",
+                "alamat": "Belwis",
+                "hobbi": "Makan gula merah",
+                "sosmed": "@monica_tjg ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Wan Nashwa Alhasni Yuska",
+                "nim": "123450077",
+                "umur": "19",
+                "asal": "Tanjung Batu",
+                "alamat": "Belwis",
+                "hobbi": "Nyapa Angin",
+                "sosmed": "@nshaysk ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Wan Nashwa Alhasni Yuska",
+                "nim": "123450077",
+                "umur": "19",
+                "asal": "Tanjung Batu",
+                "alamat": "Belwis",
+                "hobbi": "Nyapa Angin",
+                "sosmed": "@nshaysk ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            
+        ]
+        display_images_with_data(gambar_urls, data_list)
+   Departemen_Internal()
+if menu == "Departemen_SSD":
+    def Departemen_SSD():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1e9fQEjEYFLUWL8I0LfxNbZAATHmYbqu5",
             "https://drive.google.com/uc?export=view&id=193IWCujfiWGr6m6WKCdt7HFGxKT8aasZ",
@@ -1109,5 +1635,233 @@ elif menu == "Departemen SSD":
             },     
         ]
         display_images_with_data(gambar_urls, data_list)
-    ssd()
-    
+    Departemen_SSD()
+if menu == "Departemen_Medkraf":
+    def Departemen_Medkraf():
+        gambar_urls = [
+           "https://drive.google.com/uc?export=view&id=1xJkBVcrpWXrbMYgjiHDtf2gdkYhm_VC3",
+           "https://drive.google.com/uc?export=view&id=1b3fUmJ1vuoo8LyU1G3ePtJG20LjpikJF",
+           "https://drive.google.com/uc?export=view&id=172K5aEeSGr2lyCek7dMO4p-rhKB2OcDs",
+           "https://drive.google.com/uc?export=view&id=1c5ivT2CNAWNDSz_dRzMk2146zl22MSCD",
+           "https://drive.google.com/uc?export=view&id=1-lkeD1KUuL50lZqpIq9FjPfE2XpSAbbC",
+           "https://drive.google.com/uc?export=view&id=1aha6cGB234KUId53dZGq3T0C5R3aDJ3c",
+           "https://drive.google.com/uc?export=view&id=1TTut3U4rNeoj2s5-q-b6awhr5tQTVJwl",
+           "https://drive.google.com/uc?export=view&id=15FPsm2g9wQHBt3gm9Jm6sPOrRsnQeCeh",
+           "https://drive.google.com/uc?export=view&id=16vT_kXGfTNFRgk6RHuuMqNKWouYtYdn3", 
+           "https://drive.google.com/uc?export=view&id=19WFuDjmAp8-njgk9Ae5laVsICTwotN2Y",
+           "https://drive.google.com/uc?export=view&id=1z3jnt8ZOaht9YKl1IFhGQgUMUGrVG3AY",
+           "https://drive.google.com/uc?export=view&id=1CgfzyEJDIBdhny_lmg3qvKSTiGsVaTmR",
+           "https://drive.google.com/uc?export=view&id=16NjHu4HinxmBRiRxVL8KKCFV8vmivArv", 
+           "https://drive.google.com/uc?export=view&id=1xqNEl5J8WqtUTPkTBRFIPFT1RAESIodJ",
+           "https://drive.google.com/uc?export=view&id=1Jld2t41tKIAuEkLKjJoC_tT7_yKUl_-t",
+           "https://drive.google.com/uc?export=view&id=1K52FXYFS50q9kmowEDC6PZFpfvTrYWdJ",
+           "https://drive.google.com/uc?export=view&id=170v_W-Rv_aaUREK3HtkALUrrkuUk3Do-",
+           "https://drive.google.com/uc?export=view&id=1xzv6gsz9pqj9Zy5xE4apKEZASrOLZvsw", 
+
+
+
+
+        ]
+        data_list = [
+            {
+                "nama": "Kakak Jeremia Susanto", #Datanya belum ku isi
+                "nim": "122450022",
+                "umur": "21",
+                "asal": "Nusa Kambangan",
+                "alamat": "Lapas , Belwis",
+                "hobbi": "Melarikan Diri",
+                "sosmed": "@jeremia_s_ ",
+                "kesan": "Kakaknya manis, lucu ",  
+                "pesan": " Semoga dilancarkan semuanya dan dipermudah urusannya"# 1
+            },
+            {
+                "nama": "Kakak Dhea Amelia Putri",
+                "nim": "122450004",
+                "umur": "21",
+                "asal": "Kendari",
+                "alamat": "Metro",
+                "hobbi": "Bertutur kata baik dan sopan",
+                "sosmed": "@_.dheamelia ",
+                "kesan": "Kakak nya baik, seru ",  
+                "pesan": "Sehat selalu kak, dilancakan semuanya "# 1
+            },
+            {
+                "nama": "Kakak Renisha Putri Giani",
+                "nim": "122450079",
+                "umur": "22",
+                "asal": "Teluk",
+                "alamat": "Teluk",
+                "hobbi": "Jualan Pancing",
+                "sosmed": "@renishapg",
+                "kesan": "Kakaknya keren dan asik ",  
+                "pesan": "Semoga dilancarkan urusannya kak "# 1
+            },
+              {
+                "nama": "Kakak Anisa Fitriyani",
+                "nim": "122450019",
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Bandar Lampung",
+                "hobbi": "Mencari kesibukan",
+                "sosmed": "@ansftynn_",
+                "kesan": "kakaknya keren ",  
+                "pesan": "Semoga urusannya diperlancar "# 1
+            },
+            {
+                "nama": "Kakak Dharu Cahyoaji Sasongko",
+                "nim": "123450023",
+                "umur": "18",
+                "asal": "Bandar Lampung",
+                "alamat": "Way Halim",
+                "hobbi": "Nonton AGZ",
+                "sosmed": "@dhruchyo",
+                "kesan": "Kakaknya keren banget ",  
+                "pesan":"Semoga diperlancar semuanya  "# 1
+            },
+             {
+                "nama": "Kakak Feby Wulandari",
+                "nim": "123450042",
+                "umur": "20",
+                "asal": "Bekasi",
+                "alamat": "Way Huwi",
+                "hobbi": "Nguleg Cabai",
+                "sosmed": "@fby.wlndr",
+                "kesan": "Kakaknya cantik dan lucu ",  
+                "pesan": "Semangat kak, diperlancar semuanya "# 1
+            },
+              {
+                "nama": "Kakak Givaro Ananta",
+                "nim": "123450078",
+                "umur": "20",
+                "asal": "Lampung Barat",
+                "alamat": "Sukabumi",
+                "hobbi": "Nemenin ridho main pedel",
+                "sosmed": "@givarooo",
+                "kesan": "Kakaknya keren banget ",  
+                "pesan": "Semoga dilancarkan semuanya kak "# 1
+            },
+              {
+                "nama": "Kakak Mirzan Yusuf Rabbani",
+                "nim": "122450118",
+                "umur": "21",
+                "asal": "Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Istirahat",
+                "sosmed": "@myrrinn",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Berliana Enda Putri",
+                "nim": "122450065",
+                "umur": "21",
+                "asal": "Surabaya",
+                "alamat": "Belwis",
+                "hobbi": "Ngukir Sabun",
+                "sosmed": "@berlyyanda",
+                "kesan": "Keren kak Berlin",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Juesi Apridelia Saragih",
+                "nim": "123450085",
+                "umur": "19",
+                "asal": "Teluk Kuandama",
+                "alamat": "Belwis",
+                "hobbi": "Mendengarkan wave to earth",
+                "sosmed": "@j__eesie",
+                "kesan": " ",  
+                "pesan": " " # 1
+            },
+              {
+                "nama": "Kakak Ridho Benedictus Togi Manik",
+                "nim": "123450060",
+                "umur": "19",
+                "asal": "Medan",
+                "alamat": "GH",
+                "hobbi": "Main Pedel",
+                "sosmed": "@iamridhomanik ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Feryadi Yulius",
+                "nim": "122450087",
+                "umur": "22",
+                "asal": "Sumatera Selatan",
+                "alamat": "Kobang",
+                "hobbi": "Ngeliatin warna baju orang",
+                "sosmed": "@fer_yulius",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Monica Patricia Tanjung",
+                "nim": "123450073",
+                "umur": "19",
+                "asal": "Sumatera Utara",
+                "alamat": "Belwis",
+                "hobbi": "Makan gula merah",
+                "sosmed": "@monica_tjg ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Wan Nashwa Alhasni Yuska",
+                "nim": "123450077",
+                "umur": "19",
+                "asal": "Tanjung Batu",
+                "alamat": "Belwis",
+                "hobbi": "Nyapa Angin",
+                "sosmed": "@nshaysk ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Wan Nashwa Alhasni Yuska",
+                "nim": "123450077",
+                "umur": "19",
+                "asal": "Tanjung Batu",
+                "alamat": "Belwis",
+                "hobbi": "Nyapa Angin",
+                "sosmed": "@nshaysk ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+             {
+                "nama": "Kakak Monica Patricia Tanjung",
+                "nim": "123450073",
+                "umur": "19",
+                "asal": "Sumatera Utara",
+                "alamat": "Belwis",
+                "hobbi": "Makan gula merah",
+                "sosmed": "@monica_tjg ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Wan Nashwa Alhasni Yuska",
+                "nim": "123450077",
+                "umur": "19",
+                "asal": "Tanjung Batu",
+                "alamat": "Belwis",
+                "hobbi": "Nyapa Angin",
+                "sosmed": "@nshaysk ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Wan Nashwa Alhasni Yuska",
+                "nim": "123450077",
+                "umur": "19",
+                "asal": "Tanjung Batu",
+                "alamat": "Belwis",
+                "hobbi": "Nyapa Angin",
+                "sosmed": "@nshaysk ",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            
+        ]
+        display_images_with_data(gambar_urls, data_list)
+  Departemen_Medkraf()
