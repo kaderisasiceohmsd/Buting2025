@@ -413,5 +413,279 @@ if menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     senator()
 
+if menu == "Departemen MIKFES":
+    def mikfes():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1aBNjXyz3CHdNFzqpUP-kY_Tn3EuxwD8H", #1
+            "https://drive.google.com/uc?export=view&id=1K7h4xOYdlSgJmCZOZKtH7SdV_WNRZMTh", #2
+            "https://drive.google.com/uc?export=view&id=1AY7CGzLoD4RRswnoJqavoWuX7AFD-06H", #3
+            "https://drive.google.com/uc?export=view&id=1TLLdzX6USsK9BKbHVlqV989gVTI6t8a0", #4
+            "https://drive.google.com/uc?export=view&id=1_oOJkJo9O7q8Jq3AYQp1Sxb_uXA4OJ3", #5
+            "https://drive.google.com/uc?export=view&id=1zaAAqd1wDtCVR6ya-5dh4TgVCZ53C040", #6
+            "https://drive.google.com/uc?export=view&id=1TYdrADhjDlWFlpHNoAOoycRol_UMj-cB", #7
+            "https://drive.google.com/uc?export=view&id=1Gwq-K7kFg6hARzerODJajwDFCK3a28Nv", #8
+            "https://drive.google.com/uc?export=view&id=1qayfrg8hNzPqJFZQSwPTh8LlYvjC_dop", #9
+            "https://drive.google.com/uc?export=view&id=1bTOyO0W4pCQ5HI3jfhBR_IoBRsY_VtIv", #10
+            "https://drive.google.com/uc?export=view&id=1JQ-CspHT25aYYS6SG6lnPUxlxtxtm5IG", #11
+            "https://drive.google.com/uc?export=view&id=1HvX9GpHwkVpMk_r0pRkYebCJ-B0TpeuI", #12
+            "https://drive.google.com/uc?export=view&id=1XInjivN1YyQ7VtktdtFYvvaoT4r_Qm86", #13
+            "https://drive.google.com/uc?export=view&id=1iuHKmXlbJBgupqS2UdAbdErJIJE5NRxe", #14
+            "https://drive.google.com/uc?export=view&id=1TcIy6E0u-z6JcbpIJjPOTQM6y__aPT6P", #15
+            "https://drive.google.com/uc?export=view&id=1lN2NuvwbNXYbKfMo0VvWfROrCpRFcKHm", #16
+            "https://drive.google.com/uc?export=view&id=1fRAFfG3SPlh-APBP9D-cvlFHmN4D071W", #17
+            "https://drive.google.com/uc?export=view&id=1WGo71HOoWpkCmkfx_3GwQ9KLaEp5uuSx", #18
+            "https://drive.google.com/uc?export=view&id=1uf3jCnzI_YsGMBsSC9pSAopeAbnS_udW", #19
+            "https://drive.google.com/uc?export=view&id=1SMFhxBJs_a6WN5k2CoDhA0PLuqLnn50x", #20
+            "https://drive.google.com/uc?export=view&id=1beNTjXmHd1Wlsr1hSvNPlykiQ-lihKz5", #21
+            "https://drive.google.com/uc?export=view&id=1WWeUVrsQkAkfGX6WH_F7xap1QEK5NePk", #22
+        ] 
+        data_list = [
+            {
+                "nama": "Kakak Randa Andriana Putra",
+                "nim": "122450083",
+                "umur": "22",
+                "asal":"serang, Banten",
+                "alamat": "Sukarame",
+                "hobbi": "Tidur dan berkembang",
+                "sosmed": "@randaandriana_",
+                "kesan": "Kak Randa sangat meginspirasi!",  
+                "pesan":"Semoga kuliahnya lancar selalu, kakak!"# 1
+            },
+            {
+                "nama": "Kakak Rut Junita Sari Siburian",
+                "nim": "122450103",
+                "umur": "21",
+                "asal":"Kepulauan Riau",
+                "alamat": "Jalan Nangka 3",
+                "hobbi": "Membaca Buku",
+                "sosmed": "@junitaa_0406",
+                "kesan": "Kak Rut cantik sekali!",  
+                "pesan":"Sehat selalu kakak!"# 2
+            },
+            {
+                "nama": "Kakak Muhammad Regi Abdi Putra Ananta",
+                "nim": "122450031",
+                "umur": "19",
+                "asal":"Palembang",
+                "alamat": "Jalan Permadi, Sukarame",
+                "hobbi": "Mendengar Musik",
+                "sosmed": "@mregiiii_",
+                "kesan": "Pencapaian kak Regi bikin tercengang!",  
+                "pesan":"Semoga kuliahnya lancar selalu kakak!"# 3
+            },
+            {
+                "nama": "Kakak Aisyah Musfirah",
+                "nim": "123450084",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@_aishsahi",
+                "kesan": "Kakak Aisyah manis banget",  
+                "pesan":"Sehat selalu ya kakak!"# 4
+            },
+            {
+                "nama": "Kakak Fadil Prasetyo Alfarizzi",
+                "nim": "123450048",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Segar Miden",
+                "hobbi": "Fore",
+                "sosmed": "@fadilalfarizzii",
+                "kesan": "Kakak ini sangat menginspirasi!",  
+                "pesan":"Semoga terus menjadi inspirasi ya kakak!"# 5
+            },
+            {
+                "nama": "Kakak Muhammad Aqil Ramadhan",
+                "nim": "123450066",
+                "umur": "20",
+                "asal":"Kampar, Riau",
+                "alamat": "GH Belwis",
+                "hobbi": "Ngerokok",
+                "sosmed": "@muhammadaqil1111",
+                "kesan": "Kakak Aqil tinggi banget",  
+                "pesan":"Jaga kesehatan terus ya kak"# 6
+            },
+            {
+                "nama": "Kakak Muhammad Naufal Ramadhan",
+                "nim": "123450113",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Mendengarkan musik",
+                "sosmed": "@_notfall.s",
+                "kesan": "Kakak ini mmanis banget deh",  
+                "pesan":"Semoga terus manis kedepannya, kak!"# 7
+            },
+            {
+                "nama": "Kakak Nadia Faraj Alyafaatin Simbolon",
+                "nim": "123450092",
+                "umur": "21",
+                "asal":"Kalianda",
+                "alamat": "Jl. Manggis 1",
+                "hobbi": "Menonton Film",
+                "sosmed": "@nadiaafrj",
+                "kesan": "Kak Nadia cantik banget!",  
+                "pesan":"Semoga semua urusan akademiknya diperlancar ya kakak!"# 8
+            },
+            {
+                "nama": "Kakak Marleta Cornelia Leander",
+                "nim": "122450092",
+                "umur": "21",
+                "asal":"Depok",
+                "alamat": "Jl. Nangka 3",
+                "hobbi": "Main Musik",
+                "sosmed": "@marletacornelia",
+                "kesan": "Kakak ini bikin kaget soal keturunannya! Cantik jugaa!",  
+                "pesan":" Semoga terus cantik kedepannya kakak! Jaga kesehatan yaa!" # 9
+            },
+            {
+                "nama": "Kakak Akeyla Fairuz Shafi",
+                "nim": "123450119",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Pramuka, bandar Lampung",
+                "hobbi": "Mendengar Musik",
+                "sosmed": "@keyshafi_",
+                "kesan": "Kakak Akeyla pendiam tapi ada lucunya!",  
+                "pesan":"Semoga kuliahnya terus diperlancar ya kakak!"# 10
+            },
+            {
+                "nama": "Kakak Anggi Puspita Ningrum",
+                "nim": "123450012",
+                "umur": "20",
+                "asal":"Lampung Selatan",
+                "alamat": "Jln. Seputih, Bumisari, Natar",
+                "hobbi": "Mendengarkan musik, nonton drakor, ngedance",
+                "sosmed": "@anggi_yllow2318",
+                "kesan": "Kakak Anggi cantik deh, sukaa!",  
+                "pesan":"Jaga kesehatan terus ya kakak!"# 11
+            },
+            {
+                "nama": "Kakak Efi Defiyati",
+                "nim": "123450005",
+                "umur": "20",
+                "asal":"Lampung Timur",
+                "alamat": "Jl. Raden Saleh",
+                "hobbi": "Membaca",
+                "sosmed": "@eeffiidefi",
+                "kesan": "Kakak Efi pinter banget!",  
+                "pesan":"Makasih udah jadi tutor kami kakak! Semoga kuliahnya diperlancar!"# 12
+            },
+            {
+                "nama": "Kakak Fabiolla Charissa Putri",
+                "nim": "123450035",
+                "umur": "20",
+                "asal":"Pesawaran",
+                "alamat": "Pesawaran",
+                "hobbi": "Main Piano dan bernyanyi",
+                "sosmed": "@hey.olla",
+                "kesan": "Kakak Fabiolla super baik baikk! Aku sukaa pakai bangett!",  
+                "pesan":"Semoga diperkuat hingga tahap akhir studi ya kakak!"# 13
+            },
+            {
+                "nama": "Kakak Fairus Ary Syifa",
+                "nim": "123450044",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
+                "kesan": "Kakak Fairuz maniss! Kaya gula merah, kebangetan manisnya!",  
+                "pesan":"Semoga apapun itu, diberi jalan dan kemudahan ya kakak!"# 14
+            },
+            {
+                "nama": "Kakak Tanty Widyiastuti",
+                "nim": "123450094",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@i",
+                "kesan": "Kakak Tanty hiperaktif banget, kayanya kita satu frekuensi deh kak,hehehe.",  
+                "pesan":"Selalu jadi pribadi yang ceria ya kakak!"# 15
+            },
+            {
+                "nama": "Kakak Eggi Satria",
+                "nim": "122450032",
+                "umur": "21",
+                "asal":"Sukabumi",
+                "alamat": "Jl. Permadi",
+                "hobbi": "Bernafas",
+                "sosmed": "@_egistr",
+                "kesan": "Kakak Eggi dengan kacamatanya adalah ikon mikfes ^^ ",  
+                "pesan":"Semoga kuliahnya diperlancar ya kakak"# 16
+            },
+            { 
+                "nama": "Kakak Afifah Fauziah",
+                "nim": "123450002",
+                "umur": "20",
+                "asal":"Bekasi",
+                "alamat": "Padang, Sumbar",
+                "hobbi": "Isengin orang dan ngobrol random with gpt",
+                "sosmed": "@fifah.zy",
+                "kesan": "Aduh, kakak Afifah manis, tegas dan lucu! Paket Komplit di mikfes",  
+                "pesan":"Semoga semua urusan diberi kemudahan ya kakak"# 17
+            },
+            {
+                "nama": "Kakak Fabio Banyu Cyto",
+                "nim": "123450104",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Jalan Teratai No 27A, Kedaton",
+                "hobbi": "Jadi PJ Kelas bu Febri",
+                "sosmed": "@biyokcb",
+                "kesan": "Kakak Fabio! Lucu dan pinter dalam satu waktu! Suka deh!",  
+                "pesan":"Terus jadi pribadi yang ceria ya kakak! Sehat selaluuu!"# 18
+            },
+          
+            {
+                "nama": "Kakak Rahma Oktavia Albar",
+                "nim": "123450003",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
+                "kesan": "Manis sekali kakak, jadi suka dehh!",  
+                "pesan":"Terus jadi orang manis ya kakak, ITERA butuh orang manis seperti kakak!"# 19
+            },
+            {
+                "nama": "Kakak Rahmah Gustriana Deka",
+                "nim": "123450102",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
+                "kesan": "Kakak tutorkuu! Terima kasih udah jadi pribadi ya baik dan manis ya kakak!",  
+                "pesan":"Terima kasih sudah lahir ke dunia ini, heheh!"# 20
+            },
+            {
+                "nama": "Kakak Razin Hafid Hamdi",
+                "nim": "123450096",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
+                "kesan": "Kakak Razin dan kacamatanya juga ikon Mikfes banget!",  
+                "pesan":"Sehat dan kuat selalu di perkuliahan kakak!"# 21
+            },
+            {
+                "nama": "Kakak Giofani Aristyo",
+                "nim": "123450065",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "",
+                "hobbi": "Catur",
+                "sosmed": "@",
+                "kesan": "Pasti kakak Giofani cerdas deh! Soalnya dari mukanya kelihatan banget! Kerennn!",  
+                "pesan":"Semoga terus jadi orang pintar dan gajinya dua digit ya kakak!"# 22
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    mikfes()
+
 # Tambahkan menu lainnya sesuai kebutuhan
 
