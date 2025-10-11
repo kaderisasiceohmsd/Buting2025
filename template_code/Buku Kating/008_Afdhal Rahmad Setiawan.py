@@ -213,8 +213,8 @@ if menu == "Baleg":
                 "nama": "Dhea Amelia Putri",
                 "nim": "122450004",
                 "umur": "20",
-                "asal":"Chiwidew, Jawa Barat",
-                "alamat": "Pesawaran",
+                "asal": "Chiwidew, Jawa Barat",
+                "alamat":"Pesawaran",
                 "hobbi": "Pawat Piwit",
                 "sosmed": "@_.dheamelia",
                 "kesan": "kakak paling riuh dan asik",
@@ -351,7 +351,7 @@ if menu == "Baleg":
                 "sosmed": "@nshaysk",
                 "kesan": "kakak yang lucu dan asik",
                 "pesan":"semangat terus kak kuliahnya"
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     baleg()
