@@ -24,67 +24,67 @@ Homepage = st.Page(
 # ===============================
 Mahasiswa1 = st.Page(
     "Buku Kating/106_Bima_Ekayasa.py",
-    title="106 - Bima Ekayasa",
+    title="106_Bima Ekayasa",
     icon=":material/person:",
 )
 Mahasiswa2 = st.Page(
     "Buku Kating/014_Aqila_Zayyan_Salsabil.py",   # pastikan nama file-nya benar!
-    title="014 - Aqila Zayyan Salsabil",
+    title="014_Aqila Zayyan Salsabil",
     icon=":material/person:",
 )
 Mahasiswa3 = st.Page(
     "Buku Kating/126_Faizatun_Najmi.py",
-    title="126 - Faizatun Najmi",
+    title="126_Faizatun Najmi",
     icon=":material/person:",
 )
 Mahasiswa4 = st.Page(
     "Buku Kating/039_Manuel_Frederika.py",
-    title="039 - Manuel Frederika",
+    title="039_Manuel Frederika",
     icon=":material/person:",
 )
 Mahasiswa5 = st.Page(
     "Buku Kating/027_Sherena_Florencia.py",
-    title="027 - Sherena Florencia",
+    title="027_Sherena Florencia",
     icon=":material/person:",
 )
 Mahasiswa6 = st.Page(
     "Buku Kating/098_Edsel_Adya_Pradipta.py",
-    title="098 - Edsel Adya Pradipta",
+    title="098_Edsel Adya Pradipta",
     icon=":material/person:",
 )
 Mahasiswa7 = st.Page(
     "Buku Kating/128_Muhammad_Harvinsyah.py",
-    title="128 - Muhammad Harvinsyah",
+    title="128_Muhammad Harvinsyah",
     icon=":material/person:",
 )
 Mahasiswa8 = st.Page(
     "Buku Kating/113_Ahmad_Bimo_Akbar_Arkana_Putra.py",
-    title="113 - Ahmad Bimo Akbar Arkana Putra",
+    title="113_Ahmad Bimo Akbar Arkana Putra",
     icon=":material/person:",
 )
 Mahasiswa9 = st.Page(
     "Buku Kating/080_Abigael_Limbong.py",
-    title="080 - Abigael Limbong",
+    title="080_Abigael Limbong",
     icon=":material/person:",
 )
 Mahasiswa10 = st.Page(
     "Buku Kating/075_Faiza_Try_Anjani.py",
-    title="075 - Faiza Try Anjani",
+    title="075_Faiza Try Anjani",
     icon=":material/person:",
 )
 Mahasiswa11 = st.Page(
     "Buku Kating/074_Saskia_Nova_Magdalena.py",
-    title="074 - Saskia Nova Magdalena",
+    title="074_Saskia Nova Magdalena",
     icon=":material/person:",
 )
 Mahasiswa12 = st.Page(
     "Buku Kating/061_Daffa_Kharisma_Adzana.py",
-    title="061 - Daffa Kharisma Adzana",
+    title="061_Daffa Kharisma Adzana",
     icon=":material/person:",
 )
 Mahasiswa13 = st.Page(
     "Buku Kating/035_Tubagus_Abdani_Pamungkas.py",
-    title="035 - Tubagus Abdani Pamungkas",
+    title="035_Tubagus Abdani Pamungkas",
     icon=":material/person:",
 )
 
@@ -129,4 +129,4 @@ if st.session_state.pindah:
     )
     pg.run()
 else:
-    st.write("Maaf Anda kurang beruntung :(")
+    st.write("Maaf Anda kurang beruntung hehe :(")
