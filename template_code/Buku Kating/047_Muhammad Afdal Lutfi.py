@@ -361,8 +361,8 @@ if menu == "Senator":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1VFkOLTPdQXFRTGHOJHMtDkIWeXi7vhyt",
             "https://drive.google.com/uc?export=view&id=1JscLPfOsGOEyFG1QF8asg44BARl0tKEd",
-            "https://drive.google.com/uc?export=view&id=1GmUshhQYBiMp165nFgacvx4nge8JyVO",
-            "https://drive.google.com/uc?export=view&id=1jk3Qpav9qSEsDOD9ulHCGbDgg5NqbX5",
+            "https://drive.google.com/uc?export=view&id=1GmUshhQ-YBiMp165nFgacvx4nge8JyVO",
+            "https://drive.google.com/uc?export=view&id=1jk3Qpav9qS_EsDOD9ulHCGbDgg5NqbX5",
         ]
         data_list = [
             {
