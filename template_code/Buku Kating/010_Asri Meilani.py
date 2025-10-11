@@ -110,6 +110,7 @@ def display_images_with_data(gambar_urls, data_list):
         <span style="font-weight:500; font-size:18px; color:#555;">(tidak ada apa-apa disini)</span>
     </div>
 """, unsafe_allow_html=True)
+    st.write("Semua gambar telah dimuat!")
 menu = streamlit_menu()
 
 # BAGIAN SINI YANG HANYA BOLEH DIUABAH
