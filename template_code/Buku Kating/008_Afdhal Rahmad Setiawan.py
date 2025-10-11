@@ -351,7 +351,7 @@ if menu == "Baleg":
                 "sosmed": "@nshaysk",
                 "kesan": "kakak yang lucu dan asik",
                 "pesan":"semangat terus kak kuliahnya"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     baleg()
