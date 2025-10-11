@@ -354,8 +354,8 @@ if menu == "Baleg":
             
         ]
         display_images_with_data(gambar_urls, data_list)
-    baleg()
-    if menu == "Senator":
+     baleg()
+if menu == "Senator":
     def senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1W7LRKmzFD0iFnmRqHgq-0ffWeSlQjGsx",
