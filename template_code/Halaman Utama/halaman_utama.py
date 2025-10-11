@@ -101,7 +101,7 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: center;"> WE ARE POISSON</div>""",
+            """<div style="text-align: center;"> 𝐖𝐄 𝐀𝐑𝐄 𝐏𝐎𝐈𝐒𝐒𝐎𝐍</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
