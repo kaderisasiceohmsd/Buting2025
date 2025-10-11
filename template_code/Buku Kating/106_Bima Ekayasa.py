@@ -326,19 +326,19 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=16M71EUFBtobTkTVL6ApiBH8fHFUWGslL",
             "https://drive.google.com/uc?export=view&id=1_1DozeW7_vrOsmApmFCDeVu--1gIQ086",
             "https://drive.google.com/uc?export=view&id=1pB8SVumqk9b1UHfiaIiFG3b0ak_PMYAK",
-            "https://drive.google.com/uc?export=view&id=1_BRT4--r8jcduUjYLM-Uuucf7m9RNxRT",
-            "https://drive.google.com/uc?export=view&id=1IQFZ8mQPBzeKXVVwO8IMjTPciAF0z8Dr",
+            "https://drive.google.com/uc?export=view&id=1NFVzBnEScgkeBgDYWZ0SjptOQ44VNZ9X",
+            "https://drive.google.com/uc?export=view&id=1egLrp_QSva1yV2Md5_ApuNYMUEQVKj0r",
             "https://drive.google.com/uc?export=view&id=1t_aB_7mq27hulbl1bU3cIrpJNdUgXFsN",
             "https://drive.google.com/uc?export=view&id=1JO8j5JKiesm4Nb8XHCC3lj7TfC14J3x_",
             "https://drive.google.com/uc?export=view&id=1EQzv53enl_Lj5EoIk22UspEX5b1Lt9sM",
-            "https://drive.google.com/uc?export=view&id=1GAb6oEKFnfn_AlOJtIET7UirsHe76wcc",
+            "https://drive.google.com/uc?export=view&id=1245rrDcdKRqkMpJNjkvsWf0jzl7GOfHs",
             "https://drive.google.com/uc?export=view&id=1PfyzQWCnyftL5Bfsz9fQuPoJDinRfuEG",
             "https://drive.google.com/uc?export=view&id=1ZT501seAPHQjynP4Mw1MEm8hX_kBu7fp",
             "https://drive.google.com/uc?export=view&id=16TqOXnnrodDT7xKQC-qNG-W7eZAQCrOo",
             "https://drive.google.com/uc?export=view&id=1IQFZ8mQPBzeKXVVwO8IMjTPciAF0z8Dr",
             "https://drive.google.com/uc?export=view&id=1BWWqdszW1wH58EmZbVevmEzDmLesL5SQ",
             "https://drive.google.com/uc?export=view&id=1a9x5CevN4wk1UELv46DXnduNCMyTrwCK",
-            "https://drive.google.com/uc?export=view&id=1NFVzBnEScgkeBgDYWZ0SjptOQ44VNZ9X",
+            "https://drive.google.com/uc?export=view&id=1_BRT4--r8jcduUjYLM-Uuucf7m9RNxRT",
             "https://drive.google.com/uc?export=view&id=1Z-wtnPgIVVYy12SsCEM_ZIXmC_95U4G1",
         
             
@@ -546,6 +546,7 @@ if menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     medkraf()
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
