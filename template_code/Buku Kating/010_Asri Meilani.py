@@ -125,7 +125,7 @@ if menu == "Kesekjenan":
         ]
         data_list = [
             {
-                "nama": "Rendra Eka Prayoga",
+                "nama": "Rendra Eka Prayogaa",
                 "nim": "122450112",
                 "umur": "21",
                 "asal":"Bekasi",
