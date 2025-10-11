@@ -5,7 +5,7 @@ import streamlit as st
 st.session_state.pindah = True
 
 Homepage = st.Page("Halaman Utama/halaman_utama.py",
-    title="Nama_Kelompok",
+    title="Bayessian",
     default=True)
 
 Mahasiswa1 = st.Page(
