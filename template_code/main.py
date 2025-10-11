@@ -94,4 +94,6 @@ if st.session_state.pindah:
     )
 else:
     st.write("Maaf Anda kurang beruntung teman-teman :(")
-    pg.run()
+
+# Jalankan navigasi (harus di luar if)
+pg.run()
