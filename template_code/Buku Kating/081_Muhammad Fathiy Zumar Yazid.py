@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/file/d/1facqC5h5O0K4zmoXXsay0U-HlqWzqMb6/view?usp=sharing",
-            "https://drive.google.com/file/d/1gGAQ6Wkw0I-XMBdPZ7GLIE0XQOJVPKAk/view?usp=sharing",
-            "https://drive.google.com/file/d/1RLGL--fisT7O42uaF8-BicEvVtysL7UU/view?usp=sharing",
-            "https://drive.google.com/file/d/119hABbvcr2QFIahM2KGPm88P8qw4pNRM/view?usp=sharing",
-            "https://drive.google.com/file/d/1G7tT1YYHvWeZNXISvxnRc3hy3zjXc6Do/view?usp=sharing",
-            "https://drive.google.com/file/d/1_M3yFRQWlTgGmdqhJ1Ih8RKt2AfJg1Fk/view?usp=sharing",
+            "https://drive.google.com/uc?export=view&id=1facqC5h5O0K4zmoXXsay0U-HlqWzqMb6",
+            "https://drive.google.com/uc?export=view&id=1gGAQ6Wkw0I-XMBdPZ7GLIE0XQOJVPKAk",
+            "https://drive.google.com/uc?export=view&id=1RLGL--fisT7O42uaF8-BicEvVtysL7UU",
+            "https://drive.google.com/uc?export=view&id=119hABbvcr2QFIahM2KGPm88P8qw4pNRM",
+            "https://drive.google.com/uc?export=view&id=1G7tT1YYHvWeZNXISvxnRc3hy3zjXc6Do",
+            "https://drive.google.com/uc?export=view&id=1_M3yFRQWlTgGmdqhJ1Ih8RKt2AfJg1Fk",
         ]
         data_list = [
             {
@@ -181,20 +181,20 @@ if menu == "Kesekjenan":
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/file/d/1qhqxoUyqFCnmn5MjrOga9CWmrxlg2pa1/view?usp=sharing",
-            "https://drive.google.com/file/d/1nhG44Yf9LG6VjhLDdbx_lIvF4a1AvVOB/view?usp=sharing",
-            "hhttps://drive.google.com/file/d/17kz08pPVu15mOGiivNKmfNjhcE8GmjN1/view?usp=sharing",
-            "https://drive.google.com/file/d/1v5UrXOuduIvxBnl3c1vAVBxLQvcdKEuk/view?usp=sharing",
-            "https://drive.google.com/file/d/1Kh0s6LTRqOtIi7CWI7gsrn6gcu4SD6EJ/view?usp=sharing",
-            "https://drive.google.com/file/d/12jJeWep97P9yYbH8AyW1S_dAPMOt6DJx/view?usp=sharing",
-            "https://drive.google.com/file/d/1nYgFPfH_psqkwEr_I_BMPaiHn6v9rrd3/view?usp=sharing",
-            "https://drive.google.com/file/d/1H7Wqg0mx5oOjdSMmYcyzpp11FhegUyVX/view?usp=sharing",
-            "https://drive.google.com/file/d/1wMaJ6_UZ705wPHCLJe6iVLhFccaWP7NH/view?usp=sharing",
-            "https://drive.google.com/file/d/15OexmIE_UaVggDMXxUHUlYRv0L3Ekzl1/view?usp=sharing",
-            "https://drive.google.com/file/d/13z9ggaL_OUgevBYYtwtAzULY6pJe53pj/view?usp=sharing",
-            "https://drive.google.com/file/d/17xWlh1Knxhqpjk2LapYj_2lQ9esbZiAR/view?usp=sharing",
-            "https://drive.google.com/file/d/1XszkR-kyXo8qHaCZP3gi04UkOmGqSVbZ/view?usp=sharing",
-            "https://drive.google.com/file/d/1Tqd46sxxISB17qcpIbybUJwJaVQuJplA/view?usp=sharing",
+            "https://drive.google.com/uc?export=view&id=1qhqxoUyqFCnmn5MjrOga9CWmrxlg2pa1",
+            "https://drive.google.com/uc?export=view&id=1nhG44Yf9LG6VjhLDdbx_lIvF4a1AvVOB",
+            "https://drive.google.com/uc?export=view&id=17kz08pPVu15mOGiivNKmfNjhcE8GmjN1",
+            "https://drive.google.com/uc?export=view&id=1v5UrXOuduIvxBnl3c1vAVBxLQvcdKEuk",
+            "https://drive.google.com/uc?export=view&id=1Kh0s6LTRqOtIi7CWI7gsrn6gcu4SD6EJ",
+            "https://drive.google.com/uc?export=view&id=12jJeWep97P9yYbH8AyW1S_dAPMOt6DJx",
+            "https://drive.google.com/uc?export=view&id=1nYgFPfH_psqkwEr_I_BMPaiHn6v9rrd3",
+            "https://drive.google.com/uc?export=view&id=1H7Wqg0mx5oOjdSMmYcyzpp11FhegUyVX",
+            "https://drive.google.com/uc?export=view&id=1wMaJ6_UZ705wPHCLJe6iVLhFccaWP7NH",
+            "https://drive.google.com/uc?export=view&id=15OexmIE_UaVggDMXxUHUlYRv0L3Ekzl1",
+            "https://drive.google.com/uc?export=view&id=13z9ggaL_OUgevBYYtwtAzULY6pJe53pj",
+            "https://drive.google.com/uc?export=view&id=17xWlh1Knxhqpjk2LapYj_2lQ9esbZiAR",
+            "https://drive.google.com/uc?export=view&id=1XszkR-kyXo8qHaCZP3gi04UkOmGqSVbZ",
+            "https://drive.google.com/uc?export=view&id=1Tqd46sxxISB17qcpIbybUJwJaVQuJplA",
         ]
         data_list = [
             {
@@ -358,10 +358,10 @@ elif menu == "Baleg":
 elif menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/file/d/1v4YdCiCvXRTl1kg-atrAAaYclLPbZwFh/view?usp=sharing",
-            "https://drive.google.com/file/d/1xFIgU9ZvNb5qQJt3ebzjQWF14wyZFRAU/view?usp=sharing",
-            "https://drive.google.com/file/d/1HTcm3S2k3sAZJs7qXCS4ziDFhwwQaL12/view?usp=sharing",
-            "https://drive.google.com/file/d/1ruq4Td4Fuo61wjgxZWM_uqBEQ2W38Rn2/view?usp=sharing",    
+            "https://drive.google.com/uc?export=view&id=1v4YdCiCvXRTl1kg-atrAAaYclLPbZwFh",
+            "https://drive.google.com/uc?export=view&id=1xFIgU9ZvNb5qQJt3ebzjQWF14wyZFRAU",
+            "https://drive.google.com/uc?export=view&id=1HTcm3S2k3sAZJs7qXCS4ziDFhwwQaL12",
+            "https://drive.google.com/uc?export=view&id=1ruq4Td4Fuo61wjgxZWM_uqBEQ2W38Rn2",   
         ]   
         data_list = [
             {
