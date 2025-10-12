@@ -102,14 +102,14 @@ if menu == "Home":
             "<h1 class='centered-title'>Greedy keren banget>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">test salsabila hahaha</div>""",
+            """<div style="text-align: justify;">GREEDY</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1sfUpGUuu7myoGzx3vmaCQN7BD66T7kVu"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">GREEDY GACOR BANGET</div>""",
+            """<div style="text-align: justify;">GREEDY KEREN BANGET, MANTAP BANGET, GACOR BANGET, YAREUUU</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -189,11 +189,11 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "indah",
-                "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Indah Julia Mawar Pratiwi",
+                "sebagai": "Anggota",
+                "nim": "124450055",
+                "fun_fact": "ga suka makan sayur",
+                "motto_hidup": "yang bisa dilakuin sekarang, jangan ditunda besok",
             },
             {
                 "nama": "bernardius",
