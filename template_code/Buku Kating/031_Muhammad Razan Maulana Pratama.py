@@ -99,11 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1CGxOjcK_MofRLOIZzrkIddq3wAOK6lKd",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1l59a1EhP_9kx7lJ74RAIwypZZcmLdk8c",
+            "https://drive.google.com/uc?export=view&id=1e0r1Di1wCLHHrRQc5lUg1QsKRYipZHnY",
+            "https://drive.google.com/uc?export=view&id=1-5KqZNlWnwNkNxeDJ4QEMbe8OB96YRlH",
+            "https://drive.google.com/uc?export=view&id=1CAw-qWbsy5XrsegjtuS_5W1xJUUD-avi",
+            "https://drive.google.com/uc?export=view&id=1YAPy0IIyxMOAUqVB0TxjZpzms5rpCJ81",
+            "https://drive.google.com/uc?export=view&id=1vj3WEYec1A7yokmtNmzcH4cdsug6dr9G"
         ]
         data_list = [
             {
@@ -181,20 +182,20 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1lUOdyiXq7lpp0Qo1bS6KiWYtwFbJQP6D",#1
+            "https://drive.google.com/uc?export=view&id=11hVpINSF1hNPAPYxTDYlpz5xXQLUmQEb",#2
+            "https://drive.google.com/uc?export=view&id=1DCwTwzBUvKOkAe-EAqLz0_B1vkicXGhP",#3
+            "https://drive.google.com/uc?export=view&id=1YaZJniXXl1psNaQ9lB8xTFM4aaFKy91v",#4
+            "https://drive.google.com/uc?export=view&id=13qQ_tBrdwff-TQiVY98DdFa2K0tfnya8",#5
+            "https://drive.google.com/uc?export=view&id=1FYuFW2FtsxwVNYc-XC3XHNf8LCRpdHhV",#6
+            "https://drive.google.com/uc?export=view&id=1mej2fYHssiDHRqbOQ8YGY2f_MAG8-9e7",#7
+            "https://drive.google.com/uc?export=view&id=1AP85fair6XscZoLdzuNgGgCMAfg3BlgB",#8
+            "https://drive.google.com/uc?export=view&id=1dLXT807PHnyFiAat4zkCvc-fmqgHn7xn",#9
+            "https://drive.google.com/uc?export=view&id=1izjfETxv4gpms1jV7i6mVmVU-9LwoGeN",#10
+            "https://drive.google.com/uc?export=view&id=1R99zp0Lb5a95ECHlkFIu28L5WGIOMXT1",#11
+            "https://drive.google.com/uc?export=view&id=1FIigeFIWRrNy5_AKngfE2Bif3RHaW-IQ",#12
+            "https://drive.google.com/uc?export=view&id=1L6YK0DsVX4nP6WjB2g1C4p47nVMZm9Oq",#13
+            "https://drive.google.com/uc?export=view&id=1v7CWCM-dl5T2QETWC2w0Po9aqNF1n9_D"#14
         ]
         data_list = [
             {
@@ -217,7 +218,7 @@ if menu == "Baleg":
                 "hobbi": "Bertutur kata baik dan sopan",
                 "sosmed": "@_.deamalia",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 2
             },
             {
                 "nama": "Renisha Putri Giani",
@@ -228,7 +229,7 @@ if menu == "Baleg":
                 "hobbi": "Jualan Pancing",
                 "sosmed": "@renishapg",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 3
             },
             {
                 "nama": "Anisa Fitriyani",
@@ -239,7 +240,7 @@ if menu == "Baleg":
                 "hobbi": "Mencari kesibukan",
                 "sosmed": "@anisafitriani_01",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 4
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
@@ -250,7 +251,7 @@ if menu == "Baleg":
                 "hobbi": "Nyuci baju",
                 "sosmed": "dhruchyo",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 5
             },
             {
                 "nama": "Feby Wulandari",
@@ -261,7 +262,7 @@ if menu == "Baleg":
                 "hobbi": "Ngulek cabe",
                 "sosmed": "@fby.wlndr",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 6
             },
             {
                 "nama": "Givaro Ananta",
@@ -272,7 +273,7 @@ if menu == "Baleg":
                 "hobbi": "Nemenin Ridho maen padel",
                 "sosmed": "@givarooo",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 7
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
@@ -283,7 +284,7 @@ if menu == "Baleg":
                 "hobbi": "Istirahat",
                 "sosmed": "@myrrinn",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 8
             },
             {
                 "nama": "Berliana Enda Putri",
@@ -294,7 +295,7 @@ if menu == "Baleg":
                 "hobbi": "Ngukir sabun",
                 "sosmed": "@berlyyanda",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 9
             },
             {
                 "nama": "Juesi Apridelia Saragih",
@@ -305,7 +306,7 @@ if menu == "Baleg":
                 "hobbi": "Mendengar Wave to Earth",
                 "sosmed": "@j__eesie",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 10
             },
             {
                 "nama": "Ridho Benedictus Togi Manik",
@@ -316,7 +317,7 @@ if menu == "Baleg":
                 "hobbi": "Main Padel",
                 "sosmed": "@iamridhomanik",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 11
             },
             {
                 "nama": "Feryadi Tulus",
@@ -327,7 +328,7 @@ if menu == "Baleg":
                 "hobbi": "Ngeliatin warna baju orang",
                 "sosmed": "@fer_yulius",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 12
             },
             {
                 "nama": "Monica Patricia Tanjung",
@@ -338,7 +339,7 @@ if menu == "Baleg":
                 "hobbi": "Makan gula merah",
                 "sosmed": "@monica_tjg",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 13
             },
             {
                 "nama": "Wan Nashwa Alhasni Yuska",
@@ -349,8 +350,8 @@ if menu == "Baleg":
                 "hobbi": "Nyapa angin",
                 "sosmed": "@nshaysk",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
+                "pesan":"semangat terus kuliahnya kakak !!!"# 14
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     Baleg()
@@ -358,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1yxov3u4K7fnE_n10QNsO8DAx4Tk5Mspy",
+            "https://drive.google.com/uc?export=view&id=1OJa01k8g6Slg-sTr3h-nWfYH-UxPu53f",
+            "https://drive.google.com/uc?export=view&id=1Ghw-pCCY4SixrfMuFCJtqEshb2WRt_d4",
+            "https://drive.google.com/uc?export=view&id=1CO7oTZOhh3gLvDxlQZ_T_4lyuI98KZKx",
         ]
         data_list = [
             {
@@ -384,7 +385,7 @@ if menu == "Senator":
                 "hobbi": "Maen Roblok",
                 "sosmed": "@nadyaanjaani",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 2
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -395,7 +396,7 @@ if menu == "Senator":
                 "hobbi": "Like Instagram",
                 "sosmed": "@fatinahnazzh",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 3
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -406,7 +407,7 @@ if menu == "Senator":
                 "hobbi": "Dengerin lagu",
                 "sosmed": "@lia.h_264",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 4
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1864,13 +1865,3 @@ if menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_Medkraf()
-
-
-
-
-
-
-
-
-
-
