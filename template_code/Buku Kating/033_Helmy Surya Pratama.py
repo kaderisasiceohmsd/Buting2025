@@ -357,5 +357,76 @@ elif menu == "Baleg":
         display_images_with_data(gambar_urls, data_list)
     Baleg()
 
+elif menu == "Senator":
+    def Senator():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1lu47GJ16VxfjxdcM9YStLaP9ODGSoBNc",
+            "https://drive.google.com/uc?export=view&id=1cohPAqSag7hshdQ-MmV9q-xtHzfYXk5m",
+            "https://drive.google.com/uc?export=view&id=1tRZx_vWhBWhPgKrO9gpX5J1js2ahJ61r",
+            "https://drive.google.com/uc?export=view&id=1jHxWFqm3rKABP56Ei-tdafLVdCYSwPAR",
+        
+        ]
+        data_list = [
+            {
+                "nama": "Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal":"Palembang",
+                "alamat": "Jalan Raden Saleh",
+                "hobbi": "Dengar lagu, nyanyi, rapat",
+                "sosmed": "@bintangtwinkle",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",
+                "pesan": "semangat terus kuliahnya kakak !!!"  # 1
+            },
+            {
+                "nama": "Nadya Ratu Anjani",
+                "nim": "123450083",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Denger lagu",
+                "sosmed": "@nadyaanjani",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",
+                "pesan": "semangat terus kuliahnya kakak !!!"  # 1
+            },
+            {
+                "nama": "Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal":"Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi": "Main Ice Skating",
+                "sosmed": "@fathinahnazzh",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "18",
+                "asal":"Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Membaca",
+                "sosmed": "@puspadrr",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Lia Hana Ichisasmita",
+                "nim": "123450089",
+                "umur": "21",
+                "asal":"Jakarta",
+                "alamat": "Belakang Indomaret Belwis",
+                "hobbi": "Rebahan",
+                "sosmed": "@lia.h_264",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Senator()
+
+
 
 # Tambahkan menu lainnya sesuai kebutuhan
