@@ -99,15 +99,10 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+            "<h1 class='centered-title'>Greedy</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">Greedy adalah kelompok 8.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -164,11 +159,11 @@ elif menu == "About Us":
                 "motto_hidup": "mantap",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450000",
-                "fun_fact": "nyemilin",
-                "motto_hidup": "jalanin dulu aja",
+                "nama": "Indah Julia Mawar Pratiwi",
+                "sebagai": "Anggota",
+                "nim": "124450055",
+                "fun_fact": "ga suka makan sayur",
+                "motto_hidup": "fokus apa yang ada di depan",
             },
             {
                 "nama": "x",
