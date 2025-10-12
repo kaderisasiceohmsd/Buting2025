@@ -411,8 +411,8 @@ if menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     senator()
 
-if menu == "Baleg":
-    def baleg():
+if menu == "PSDA":
+    def psda():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1f1RadtfwCMXMUJSsQB7QyiVaxkUH898r",
             "https://drive.google.com/uc?export=view&id=1xzqDLDEtNCMjn6UNc2c_1bkQmFPadp75",
@@ -421,24 +421,24 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1greRFBeVcvJV3QbRCdMAi1bAvKWjC_zF",
             "https://drive.google.com/uc?export=view&id=1JK35Asi0XZPcz_UTGYcZ03J7QUjFws9e",
             "https://drive.google.com/uc?export=view&id=1rMckCAhl-LMzKqJPi5XZVBThXOMXtbcC",
-            "https://drive.google.com/uc?export=view&id=0000",
-            "https://drive.google.com/uc?export=view&id=00000",
+            "https://drive.google.com/uc?export=view&id=1faJSKGK8JVOZM9gVfZzEuvjfTDok4N6i",
+            "https://drive.google.com/uc?export=view&id=1v1UelcHZPmsaqLgDFPeLzN5bWsxNFIE7",
+            "https://drive.google.com/uc?export=view&id=1cMn4OmPSVIFybiPHmieZGGinMslOTk8d",
+            "https://drive.google.com/uc?export=view&id=1FVsquGm547BU3xno_MyFaqT7ulrQ5lt3",
+            "https://drive.google.com/uc?export=view&id=1Np3DSYBEGq3u1UgBitJDf_Ny7P6aF0kw",
+            "https://drive.google.com/uc?export=view&id=154oX7H7y9GHbsi3bw_rfJbUU26gwjzNQ",
+            "https://drive.google.com/uc?export=view&id=1YC18MCFbcNy5M6DOMbVPo0dqBlllC6eH",
+            "https://drive.google.com/uc?export=view&id=1V7PqvtMsmWSSgUYUsoZD1DPCfChawtN8",
+            "https://drive.google.com/uc?export=view&id=1EAp4oM3QRtQEC1DymvHFwXORXkyLxYMo",
+            "https://drive.google.com/uc?export=view&id=1KN7MEK-ZHD_E85ND6ayPiet6CyqQTfE-",
+            "https://drive.google.com/uc?export=view&id=1JBY0bYsiOPyf92RspdDFkQ6rUqZbgDfl",
+            "https://drive.google.com/uc?export=view&id=1dykVpP6VTa4HZ9ZHvDGenFxEVuDUrB8y",
+            "https://drive.google.com/uc?export=view&id=1vizzno5rZKaJg6Zv9GCZq9nPaOFobx9v",
+            "https://drive.google.com/uc?export=view&id=18yE59Im3mDlOItbQzVF2snbL02mVQayW",
             "https://drive.google.com/uc?export=view&id=000",
-            "https://drive.google.com/uc?export=view&id=0000",
-            "https://drive.google.com/uc?export=view&id=0000",
-            "https://drive.google.com/uc?export=view&id=0000",
-            "https://drive.google.com/uc?export=view&id=0000",
-            "https://drive.google.com/uc?export=view&id=00000",
-            "https://drive.google.com/uc?export=view&id=000",
-            "https://drive.google.com/uc?export=view&id=0000",
-            "https://drive.google.com/uc?export=view&id=0000",
-            "https://drive.google.com/uc?export=view&id=0000",
-            "https://drive.google.com/uc?export=view&id=0000",
-            "https://drive.google.com/uc?export=view&id=00000",
-            "https://drive.google.com/uc?export=view&id=000",
-            "https://drive.google.com/uc?export=view&id=0000",
-            "https://drive.google.com/uc?export=view&id=0000",
-            "https://drive.google.com/uc?export=view&id=0000",
+            "https://drive.google.com/uc?export=view&id=1HwcDKOeAu9xna7ReMm7jHG9qWvnt0-_g",
+            "https://drive.google.com/uc?export=view&id=1WbRqFYPhJUojnW18trxMhadldrtTy53R",
+            "https://drive.google.com/uc?export=view&id=1DotoW71FlXDLFRjslR6KIWSr9oLXmNZv",
             "https://drive.google.com/uc?export=view&id=1i7eWGVIO8GmcORPzHmqaIpnTIedT4qFK",
         ]
         data_list = [
@@ -531,7 +531,7 @@ if menu == "Baleg":
                 "pesan":"-"# 1
             },
             {
-                "nama": "Nobel Nizam F",
+                "nama": "Nobel Nizam Fathirizki",
                 "nim": "123450117",
                 "umur": "21",
                 "asal": "Bandar Lampung",
@@ -596,7 +596,7 @@ if menu == "Baleg":
                 "kesan": "-",  
                 "pesan":"-"# 1
             },
-                        {
+            {
                 "nama": "Kharisma Mustika Sari",
                 "nim": "123450034",
                 "umur": "20",
@@ -730,7 +730,7 @@ if menu == "Baleg":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    baleg()
+    psda()
 
 
 
