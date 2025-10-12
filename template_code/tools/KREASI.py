@@ -86,6 +86,11 @@ with main_content:
     </div>
 
     <style>
+      /* --- [FIX] Menghilangkan margin/padding bawaan dari iframe --- */
+      body {
+        margin: 0;
+        padding: 0;
+      }
       @keyframes goldPulse { 0%, 100% { box-shadow:0 0 35px rgba(255,215,100,0.4), 0 0 70px rgba(255,225,150,0.3); } 50% { box-shadow:0 0 60px rgba(255,230,150,0.6), 0 0 100px rgba(255,245,180,0.4); } }
       @keyframes floating { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
       #startBtn:hover, #pauseBtn:hover, #restartBtn:hover { transform: scale(1.08); }
@@ -219,5 +224,5 @@ with main_content:
     });
     </script>
     """
-    # TINGGI KOMPONEN JUGA DIKECILKAN AGAR PAS
-    st.components.v1.html(snake_game_html, height=750)
+    # --- [FIX] Menaikkan tinggi komponen agar tidak terpotong di Streamlit Cloud ---
+    st.components.v1.html(snake_game_html, height=800)
