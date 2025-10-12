@@ -165,7 +165,7 @@ if menu == "Kesekjenan":
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
-                "nim": "122450056",ss
+                "nim": "122450056",
                 "umur": "21",
                 "asal":"kota Padang,Sumbar",
                 "alamat": "sukarame",
