@@ -4,6 +4,13 @@ import requests
 from PIL import Image, ImageOps
 from io import BytesIO
 
+response = requests.get(url)
+if response.status_code == 200:
+    img = Image.open(BytesIO(response.content))
+    st.image(img, caption="Gambar dari Google Drive")
+else:
+    st.error("Gagal memuat gambar 😢")
+    
 st.markdown("""<style>.centered-title {text-align: center;}</style>""",unsafe_allow_html=True)
 st.markdown("<h1 class='centered-title'>BUKU KATING</h1>", unsafe_allow_html=True)
 
