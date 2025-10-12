@@ -99,44 +99,84 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1Uh7qm1zfD98B0vkELM8xg5wGGgldSeWX",
+            "https://drive.google.com/uc?export=view&id=1ZSahPi2FU9SwHqF1520SPLPQFNAGiy-y",
+            "https://drive.google.com/uc?export=view&id=1jyFORbm9Adv31r3_0modlXQHO4pJs4hs",
+            "https://drive.google.com/uc?export=view&id=1IXde6MbEQfJrLdTqtxgLhErInjdDjfJp",
+            "https://drive.google.com/uc?export=view&id=1DEOEUwUI15V8HJh7AqrfSIIBwptKsul0",
+            "https://drive.google.com/uc?export=view&id=1c6o_314cjE4L9c4uIurH5KK7s2r-Qjzq",
+            
         ]
         data_list = [
             {
-                "nama": "Kakak A",
-                "nim": "122450000",
-                "umur": "18",
+                "nama": "Rendra Eka Prayoga",
+                "nim": "122450112",
+                "umur": "21",
                 "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "alamat": "Pulau Damar",
+                "hobbi": "beli donat kentang",
+                "sosmed": "@_erendraa",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak B",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "nama": "Johannes Krisjon Sitilonga",
+                "nim": "122450043",
+                "umur": "20",
+                "asal":"Tanggerang",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "baca buku (dasar-dasar sql)",
+                "sosmed": "@johanneskrisjnnn",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak CCc",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "nama": "Elisabeth Claudia Simanjuntak",
+                "nim": "122450043",
+                "umur": "20",
+                "asal":"Tanggerang",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "baca buku (dasar-dasar sql)",
+                "sosmed": "@johanneskrisjnnn",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
+            {
+                "nama": "Johannes Krisjon Sitilonga",
+                "nim": "122450043",
+                "umur": "20",
+                "asal":"Tanggerang",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "baca buku (dasar-dasar sql)",
+                "sosmed": "@johanneskrisjnnn",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Johannes Krisjon Sitilonga",
+                "nim": "122450043",
+                "umur": "20",
+                "asal":"Tanggerang",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "baca buku (dasar-dasar sql)",
+                "sosmed": "@johanneskrisjnnn",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+             {
+                "nama": "Johannes Krisjon Sitilonga",
+                "nim": "122450043",
+                "umur": "20",
+                "asal":"Tanggerang",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "baca buku (dasar-dasar sql)",
+                "sosmed": "@johanneskrisjnnn",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            
+            
+            
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
