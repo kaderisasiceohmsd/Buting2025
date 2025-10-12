@@ -183,8 +183,8 @@ elif menu == "About Us":
                 "nama": "Gatfan Nadif Ali",
                 "sebagai": "Anggotaa",
                 "nim": "124450001",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "fun_fact": "Bisa multitasking kalo lagi santai",
+                "motto_hidup": "it is what it is",
             },
             {
                 "nama": "Bryan Paskah telaumbanua",
@@ -196,7 +196,7 @@ elif menu == "About Us":
             {
                 "nama": "Allisha",
                 "sebagai": "Anggotaa",
-                "nim": "124450003",
+                "nim": "124450019",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
