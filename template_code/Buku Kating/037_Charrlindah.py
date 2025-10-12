@@ -101,16 +101,16 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1lSS6r4pEKsQ-uhXo2P30xIi1VDqqMd2b",
             "https://drive.google.com/uc?export=view&id=1Cve5830JwonU5IfSRcGn0mwTQhaI7Fxb",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1NPyS2RjV_AbymQISFcbu9oFPtdxbA88B",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
         ]
         data_list = [
             {
-                "nama": "Kakak A",
+                "nama": "Rendra Eka Prayoga",
                 "nim": "122450000",
-                "umur": "18",
+                "umur": "21",
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
@@ -119,7 +119,7 @@ if menu == "Kesekjenan":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak B",
+                "nama": "Johannes krisjon Silitonga",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
