@@ -163,8 +163,8 @@ elif menu == "About Us":
                 "nama": "Asri Meilani",
                 "sebagai": "Bulu Gorjes",
                 "nim": "124450010",
-                "fun_fact": "-",
-                "motto_hidup": "-",
+                "fun_fact": "Suka Makan Wortel Mentah",
+                "motto_hidup": "in order to love who you are, you must not hate the experience that shaped you.",
             },
             {
                 "nama": "Jeremia Halim",
