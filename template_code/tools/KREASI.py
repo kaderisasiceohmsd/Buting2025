@@ -299,5 +299,5 @@ document.addEventListener('keydown', (e) => {
 });
 </script>
 """
-st.components.v1.html(snake_game_html, height=900)
+
 st.components.v1.html(snake_game_html, height=900)
