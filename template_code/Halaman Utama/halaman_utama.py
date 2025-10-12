@@ -99,7 +99,7 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+            "<h1 class='centered-title'>Greedy keren banget>", unsafe_allow_html=True
         )
         st.markdown(
             """<div style="text-align: justify;">test salsabila hahaha</div>""",
@@ -212,9 +212,9 @@ elif menu == "About Us":
             {
                 "nama": "risa",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "122450127",
+                "fun_fact": "gabisa makan durian",
+                "motto_hidup": "jalani dan syukuri",
             },
             {
                 "nama": "salsabila",
