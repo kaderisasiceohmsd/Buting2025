@@ -95,16 +95,16 @@ def display_images_with_data(gambar_urls, data_list):
     st.write("Semua gambar telah dimuat!")
 menu = streamlit_menu()
 
-# BAGIAN SINI YANG HANYA BOLEH DIUBAH
+# BAGIAN SINI YANG HANYA BOLEH DIUABAH
 if menu == "Kesekjenan":
     def Kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1Uh7qm1zfD98B0vkELM8xg5wGGgldSeWX",
-            "https://drive.google.com/uc?export=view&id=1ZSahPi2FU9SwHqF1520SPLPQFNAGiy-y",
-            "https://drive.google.com/uc?export=view&id=1jyFORbm9Adv31r3_0modlXQHO4pJs4hs",
-            "https://drive.google.com/uc?export=view&id=1IXde6MbEQfJrLdTqtxgLhErInjdDjfJp",
-            "https://drive.google.com/uc?export=view&id=1DEOEUwUI15V8HJh7AqrfSIIBwptKsul0",
-            "https://drive.google.com/uc?export=view&id=1c6o_314cjE4L9c4uIurH5KK7s2r-Qjzq",
+            "https://drive.google.com/uc?export=view&id=1_WB-NQPJkRrss8lPdH1Ci6h0idlOAOqT",
+            "https://drive.google.com/uc?export=view&id=1HGA0CUrN0ae4Xjq5KgYLZvUuQMLDYsoL",
+            "https://drive.google.com/uc?export=view&id=1AYrddRJ6ZoZMAmNa8VyAN8SvNeeM6zkb",
+            "https://drive.google.com/uc?export=view&id=1Qy2fYRpPfvWd2bob3cowe7iK5w45CGhf",
+            "https://drive.google.com/uc?export=view&id=1QjZQ8Jpktnr3A_yODp677gOQizoU4kXX",
+            "https://drive.google.com/uc?export=view&id=1PN_-OJtGFpi9nK-GkjPjTz4rQIv3u-AH",
         ]
         data_list = [
             {
@@ -172,10 +172,10 @@ if menu == "Kesekjenan":
                 "sosmed": "@i",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },   
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Kesekjenan()
+    kesekjenan()
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
