@@ -102,9 +102,11 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok 8 (GREEDY)", unsafe_allow_html=True
         )
         st.markdown(
+          
             """<div style="text-align: justify;">Selamat datang di Kelompok Greedy! 💡
 Kami adalah kelompok yang terinspirasi dari filosofi Greedy Algorithm — selalu berusaha mengambil setiap kesempatan terbaik di setiap langkah untuk mencapai hasil yang optimal. Greedy To Grow, Ready To Glow!
 </div>""",
+            """<div style="text-align: justify;">GREEDY</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -114,6 +116,8 @@ Kami adalah kelompok yang terinspirasi dari filosofi Greedy Algorithm — selalu
             """<div style="text-align: justify;">Kelompok Greedy terinspirasi dari filosofi algoritma Greedy dalam ilmu komputer, di mana setiap langkah diambil dengan memilih keputusan terbaik pada saat itu untuk mencapai hasil optimal secara keseluruhan. Filosofi ini kami maknai sebagai semangat untuk selalu mengambil setiap kesempatan belajar, berproses, dan berkontribusi sebaik mungkin dalam setiap tahap kaderisasi.
 Sebagai kader, kami percaya bahwa perubahan besar dimulai dari keputusan-keputusan kecil yang konsisten dan bijak. Dengan semangat adaptif, kolaboratif, dan progresif, Greedy berkomitmen untuk tumbuh bersama — tidak hanya menjadi kader yang cerdas, tetapi juga berkarakter dan berpengaruh positif bagi lingkungan sekitar.
 </div>""",
+            """<div style="text-align: justify;">GREEDY KEREN BANGET, MANTAP BANGET, GACOR BANGET, YAREUUU</div>""",
+
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -193,11 +197,11 @@ elif menu == "About Us":
                 "motto_hidup": "Love What You Do. Do What You Love",
             },
             {
-                "nama": "indah",
-                "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Indah Julia Mawar Pratiwi",
+                "sebagai": "Anggota",
+                "nim": "124450055",
+                "fun_fact": "ga suka makan sayur",
+                "motto_hidup": "yang bisa dilakuin sekarang, jangan ditunda besok",
             },
             {
                 "nama": "bernardius",
