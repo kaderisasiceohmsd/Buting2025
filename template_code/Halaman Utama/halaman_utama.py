@@ -171,11 +171,11 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu aja",
             },
             {
-                "nama": "x",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Indah Julia Mawar Pratiwi",
+                "sebagai": "Anggota",
+                "nim": "124450055",
+                "fun_fact": "ga suka makan sayur",
+                "motto_hidup": "fokus apa yang ada didepan",
             },
             {
                 "nama": "x",
