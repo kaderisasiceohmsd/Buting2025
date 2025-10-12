@@ -97,7 +97,7 @@ menu = streamlit_menu()
 
 # BAGIAN SINI YANG HANYA BOLEH DIUABAH
 if menu == "Kesekjenan":
-    def kesekjenan():
+    def Kesekjenan():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1Uh7qm1zfD98B0vkELM8xg5wGGgldSeWX",
             "https://drive.google.com/uc?export=view&id=1ZSahPi2FU9SwHqF1520SPLPQFNAGiy-y",
@@ -175,7 +175,7 @@ if menu == "Kesekjenan":
             },   
         ]
         display_images_with_data(gambar_urls, data_list)
-    kesekjenan()
+    Kesekjenan()
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
