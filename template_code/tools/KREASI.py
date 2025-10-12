@@ -1,7 +1,6 @@
 import streamlit as st
 
 st.set_page_config(page_title="Game Ular Python - ANOVA", page_icon="🐍", layout="centered")
-
 st.markdown("<h2 style='text-align:center;'>🐍 Game Ular Python (Kelompok 04 ANOVA)</h2>", unsafe_allow_html=True)
 
 snake_game_html = """
@@ -20,7 +19,7 @@ snake_game_html = """
     </h1>
   </div>
 
-  <canvas id="gameCanvas" width="520" height="520"
+  <canvas id="gameCanvas" width="520" height="520" tabindex="0"
     style="
       border:3px solid #c5a253;
       background-color:black;
@@ -61,6 +60,22 @@ snake_game_html = """
       transition:all 0.3s ease;
       display:none;
       ">🔁 Mulai Ulang</button>
+
+    <button id="pauseBtn" style="
+      background: linear-gradient(135deg, #f4a261, #ffb703, #e9c46a);
+      color:black;
+      font-weight:bold;
+      border:none;
+      padding:12px 28px;
+      border-radius:12px;
+      cursor:pointer;
+      font-family:'Courier New', monospace;
+      font-size:16px;
+      margin-left:8px;
+      box-shadow:0 0 15px rgba(255,200,80,0.5);
+      display:none;
+      transition:all 0.3s ease;
+      ">⏸️ Pause</button>
   </div>
 
   <p style="
@@ -70,7 +85,8 @@ snake_game_html = """
     margin-top:14px;
     text-shadow:0 0 6px rgba(255,225,150,0.7);
   ">
-    Gunakan tombol: <b>W</b> (atas), <b>A</b> (kiri), <b>S</b> (bawah), <b>D</b> (kanan)
+    Gunakan tombol: <b>W</b> / <b>A</b> / <b>S</b> / <b>D</b> atau panah ⬆️⬅️⬇️➡️ <br>
+    Tekan <b>Spasi</b> untuk <i>Pause / Lanjut</i>.
   </p>
 
 </div>
@@ -86,8 +102,9 @@ snake_game_html = """
     50% { transform: translateY(-6px); }
   }
 
-  #startBtn:hover { transform: scale(1.1); background: linear-gradient(135deg, #f4a261, #ffb703, #e9c46a); }
-  #restartBtn:hover { transform: scale(1.1); background: linear-gradient(135deg, #f4a261, #f77f00, #e9c46a); }
+  #startBtn:hover, #pauseBtn:hover, #restartBtn:hover {
+    transform: scale(1.08);
+  }
 </style>
 
 <script>
@@ -95,16 +112,14 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 const startBtn = document.getElementById("startBtn");
 const restartBtn = document.getElementById("restartBtn");
+const pauseBtn = document.getElementById("pauseBtn");
 
 let box = 25;
-let snake;
-let food;
-let d;
-let score;
-let game;
-let gameOver = false;
-let speed = 100;
+let snake, food, d, score, game, speed;
 let started = false;
+let paused = false;
+let gameOver = false;
+let highscore = localStorage.getItem("anova_snake_highscore") || 0;
 
 function drawStartScreen() {
   ctx.fillStyle = "black";
@@ -113,6 +128,8 @@ function drawStartScreen() {
   ctx.font = "18px Courier";
   ctx.textAlign = "center";
   ctx.fillText("Tekan tombol 'Mulai Game' untuk bermain", 260, 260);
+  ctx.font = "16px Courier";
+  ctx.fillText("Highscore: " + highscore, 260, 290);
 }
 drawStartScreen();
 
@@ -123,22 +140,49 @@ function initGame() {
   score = 0;
   speed = 100;
   gameOver = false;
+  paused = false;
   started = true;
-  restartBtn.style.display = "none";
+
   startBtn.style.display = "none";
+  restartBtn.style.display = "none";
+  pauseBtn.style.display = "inline-block";
+
   clearInterval(game);
   game = setInterval(draw, speed);
-  canvas.focus();
+
+  setTimeout(() => canvas.focus(), 50);
 }
+
+canvas.addEventListener('click', ()=> canvas.focus());
 
 document.addEventListener("keydown", direction);
 function direction(event) {
-  if (!started) return;
-  let key = event.key.toLowerCase();
+  if (!started || paused) return;
+  const key = event.key.toLowerCase();
+  if (key.startsWith("arrow")) event.preventDefault();
+
   if((key === "a" || key === "arrowleft") && d != "RIGHT") d = "LEFT";
   else if((key === "w" || key === "arrowup") && d != "DOWN") d = "UP";
   else if((key === "d" || key === "arrowright") && d != "LEFT") d = "RIGHT";
   else if((key === "s" || key === "arrowdown") && d != "UP") d = "DOWN";
+}
+
+function togglePause() {
+  if (!started || gameOver) return;
+  paused = !paused;
+  if (paused) {
+    clearInterval(game);
+    ctx.fillStyle = "rgba(0,0,0,0.6)";
+    ctx.fillRect(0,0,520,520);
+    ctx.fillStyle = "#e9c46a";
+    ctx.font = "28px Courier";
+    ctx.textAlign = "center";
+    ctx.fillText("⏸️ PAUSED", 260, 260);
+    pauseBtn.textContent = "▶️ Lanjut";
+  } else {
+    game = setInterval(draw, speed);
+    pauseBtn.textContent = "⏸️ Pause";
+  }
 }
 
 function collision(head, array){
@@ -190,13 +234,24 @@ function draw() {
     clearInterval(game);
     gameOver = true;
     started = false;
+
     ctx.fillStyle = "#f4a261";
     ctx.font = "28px Courier";
     ctx.textAlign = "center";
     ctx.fillText("GAME OVER", 260, 250);
     ctx.font = "20px Courier";
     ctx.fillText("Skor: " + score, 260, 280);
+    ctx.fillText("Highscore: " + highscore, 260, 310);
+
+    if (score > highscore) {
+      highscore = score;
+      localStorage.setItem("anova_snake_highscore", highscore);
+      ctx.fillText("✨ Rekor Baru!", 260, 340);
+    }
+
     restartBtn.style.display = "inline-block";
+    pauseBtn.style.display = "none";
+    startBtn.style.display = "none";
     return;
   }
 
@@ -205,11 +260,21 @@ function draw() {
   ctx.font = "16px Courier";
   ctx.textAlign = "left";
   ctx.fillText("Score: " + score, 10, 510);
+  ctx.textAlign = "right";
+  ctx.fillText("Highscore: " + highscore, 510, 510);
 }
 
+// Tombol-tombol
 startBtn.addEventListener("click", initGame);
 restartBtn.addEventListener("click", initGame);
+pauseBtn.addEventListener("click", togglePause);
+
+// Tombol spasi buat pause/resume
+document.addEventListener('keydown', (e) => {
+  if (!started && (e.key === ' ' || e.key === 'Enter')) initGame();
+  else if (started && e.key === ' ') togglePause();
+});
 </script>
 """
 
-st.components.v1.html(snake_game_html, height=720)
+st.components.v1.html(snake_game_html, height=800)
