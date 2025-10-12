@@ -1673,10 +1673,10 @@ if menu == "Departemen Medkraf":
     def DepartemenMedkraf():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1i20rTVtOwHqW23l4cgDYscNOr4X2Mh7d",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
-            "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
+            "https://drive.google.com/uc?export=view&id=1q4IqbXH6vSKkHEkTgETsGG1VxQgSWYUc",
+            "https://drive.google.com/uc?export=view&id=1zYEsXHcCdGLtgiCttqvjlkYnyGw2YVZG",
+            "https://drive.google.com/uc?export=view&id=1-xVnK7L2muVCWNstqMEiXD4qv1WQNLel",
+            "https://drive.google.com/uc?export=view&id=1ndiH23p1Vg3GaLXeVKdO4KyC1eoVmTS1",
             "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
             "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
             "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
