@@ -195,7 +195,7 @@ elif menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1UCMWirIFSETLCxyffDHg_2ehFOI4q4z6", #Kak Monica
             "https://drive.google.com/uc?export=view&id=17j7RLivu-ZFLd3FRUDOirNg-f79OeLR2", #Kak Nashwa
         ]
-        data_list = [
+        data_list =[
             {
                 "nama": "Jeremia Susanto",
                 "nim": "122450022",
@@ -252,7 +252,7 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliah dan organisasinya kak !!!"# 1
             },
             {
-                "nama": "Dharu Cahyo Aji Sasongko"
+                "nama": "Dharu Cahyo Aji Sasongko",
                 "nim": "123450023",
                 "umur": "18",
                 "asal":"Bandar Lampung",
@@ -1451,6 +1451,3 @@ elif menu == "Departemen SSD":
     DepartemenSSD()
     
 # Tambahkan menu lainnya sesuai kebutuhan
-
-
-
