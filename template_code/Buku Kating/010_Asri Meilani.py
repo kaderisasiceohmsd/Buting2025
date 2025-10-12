@@ -261,7 +261,7 @@ if menu == "Baleg":
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
-                "nim": "122450023",
+                "nim": "123450023",
                 "umur": "18",
                 "asal":"Bandar Lampung",
                 "alamat": "Kedaton",
