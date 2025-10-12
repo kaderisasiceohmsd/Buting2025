@@ -43,6 +43,16 @@ Mahasiswa7 = st.Page(
     title="026 - Farhanah Hadaya Fatin",
     icon=":material/person:",
 )
+Mahasiswa8 = st.Page(
+    "Buku Kating/026_Farhanah Hadaya Fatin.py",
+    title="026 - Farhanah Hadaya Fatin",
+    icon=":material/person:",
+)
+Mahasiswa9 = st.Page(
+    "Buku Kating/026_Farhanah Hadaya Fatin.py",
+    title="026 - Farhanah Hadaya Fatin",
+    icon=":material/person:",
+)
 
 #Perlu diperhatikan perubahannya
 KREASI = st.Page("tools/KREASI.py", title="KREASI", icon=":material/search:")
