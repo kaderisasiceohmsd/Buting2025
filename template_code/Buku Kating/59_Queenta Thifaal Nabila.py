@@ -125,7 +125,7 @@ if menu == "Kesekjenan":
                 "asal":"Tanggerang",
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "baca buku (dasar-dasar sql)",
-                "sosmed": "@johanneskrisjnnn",s
+                "sosmed": "@johanneskrisjnnn",
                 "kesan": "Bijak dan punya pemikiran yang luas",  
                 "pesan":"semangat terus kuliahnya bang !!!"# 1
             },
@@ -144,7 +144,7 @@ if menu == "Kesekjenan":
 
                 "nama": "Syadza Puspandari Azhar",
                 "nim": "122450072",
-                "umur": "19",
+                "umur": "18",
                 "asal":"Palembang",
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
@@ -177,5 +177,88 @@ if menu == "Kesekjenan":
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
+elif menu == "Baleg":
+    def baleg():
+        gambar_urls = [  
+            "https://drive.google.com/file/d/1LnYMTAAim4mor_uniUbgs8mpbOvTTtRp/view?usp=drivesdk",
+            "https://drive.google.com/file/d/15WhedyljD7bQvJIBpuOQE49gmOV5w71_/view?usp=drivesdk",
+            "https://drive.google.com/file/d/1WPESi1JbEv9E3A6xsNhcCzO2lJ1ao8lx/view?usp=drivesdk",
+            "https://drive.google.com/file/d/1x8y1pqXyiVOxGs4OF3oSTkR_lCkXTmhy/view?usp=drivesdk",
+            "https://drive.google.com/file/d/1kGiOFOpZ-yweciuBowB3wCiiSEleFbHG/view?usp=drivesdk",
+            "https://drive.google.com/file/d/1dKaCqEDIWMqnhMSG3pZS3t4i3Yt_a1c4/view?usp=drivesdk",
+        ]
+        data_list = [
+            {
+                "nama": "Rendra Eka Prayoga",
+                "nim": "122450112",
+                "umur": "21",
+                "asal":"Bekasi",
+                "alamat": "Pulau Damar",
+                "hobbi": "beli donat kentang",
+                "sosmed": "@_erendraa",
+                "kesan": "Tegas tapi perhatian, bikin kami jadi lebih disiplin",  
+                "pesan":"Semoga semangat dan kepemimpinan kakak terus menginspirasi !!!"# 1
+            },
+            {
+                "nama": "Johannes Krisjon Sitilonga",
+                "nim": "122450043",
+                "umur": "20",
+                "asal":"Tanggerang",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "baca buku (dasar-dasar sql)",
+                "sosmed": "@johanneskrisjnnn",
+                "kesan": "Bijak dan punya pemikiran yang luas",  
+                "pesan":"semangat terus kuliahnya bang !!!"# 1
+            },
+            {
+                "nama": "Elisabeth Claudia Simanjuntak",
+                "nim": "122450123",
+                "umur": "19",
+                "asal":"Tanggerang",
+                "alamat": "Airest Kost",
+                "hobbi": "siram shopee",
+                "sosmed": "@celisabethh_",
+                "kesan": "Kakaknya lembut dan sabar banget waktu menjelaskan ke kami",  
+                "pesan":"Terima kasih sudah jadi panutan, semoga karier kakak lancar selalu !!!"# 1
+            },
+            {
+
+                "nama": "Syadza Puspandari Azhar",
+                "nim": "122450072",
+                "umur": "18",
+                "asal":"Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Membaca",
+                "sosmed": "@celisabethh_",
+                "kesan": "Kakaknya lembut dan sabar banget waktu menjelaskan ke kami",  
+                "pesan":"Terima kasih sudah jadi panutan, semoga karier kakak lancar selalu !!!"# 1
+            },
+            {
+                "nama": "Eksanty F. Sukma Islamiaty",
+                "nim": "122450001",
+                "umur": "19",
+                "asal":"Rote, NTT",
+                "alamat": "rajabasa",
+                "hobbi": "baca buku , saku pramuka",
+                "sosmed": "@ekshantyfebriana",
+                "kesan": "Punya energi positif yang bikin semangat",  
+                "pesan":"Semoga semua hal baik terus menyertai langkah kakak !!!"# 1
+            },
+            {
+                "nama": "Farahanum Afifah Ardiansyah",
+                "nim": "122450056",
+                "umur": "21",
+                "asal":"kota Padang,Sumbar",
+                "alamat": "sukarame",
+                "hobbi": "tidur",
+                "sosmed": "@farahanumafifahh",
+                "kesan": "Seru banget bisa kenal kakak yang suportif dan penuh semangat!",  
+                "pesan":"Semoga semua impian kakak tercapai, dan jangan lupa mampir kasih semangat lagi ke kami !!!"# 1
+            },
+        ]
+
+        
+    
+
 
 # Tambahkan menu lainnya sesuai kebutuhan
