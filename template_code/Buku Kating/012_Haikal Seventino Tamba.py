@@ -105,7 +105,6 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=1IXde6MbEQfJrLdTqtxgLhErInjdDjfJp",
             "https://drive.google.com/uc?export=view&id=1DEOEUwUI15V8HJh7AqrfSIIBwptKsul0",
             "https://drive.google.com/uc?export=view&id=1c6o_314cjE4L9c4uIurH5KK7s2r-Qjzq",
-            
         ]
         data_list = [
             {
@@ -173,10 +172,7 @@ if menu == "Kesekjenan":
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
-            
-            
-            
+            },   
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
