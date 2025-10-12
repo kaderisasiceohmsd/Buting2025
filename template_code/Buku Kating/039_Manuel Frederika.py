@@ -639,8 +639,150 @@ if menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     senator()
 
+if menu == "Departemen SSD":
+    def Departemen_SSD():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1y0vf4oJqigo-9DTcG9U3vouxz-GVup6j", #1
+            "https://drive.google.com/uc?export=view&id=1RyfB9RQm_wLMKxTZhbjP5zWg5FDcRbD5", #2
+            "https://drive.google.com/uc?export=view&id=1RIpO649SxbpyZO_hueNlTKamw927xz3e", #3
+            "https://drive.google.com/uc?export=view&id=1ojc7tkA4qoTNmxmvSxsQm6u-cu1JBM6o", #4
+            "https://drive.google.com/uc?export=view&id=1uY21z7ZARqUx0DYlRjN9I_QJ3v2Mh-oo", #5
+            "https://drive.google.com/uc?export=view&id=1Qn72oVqc7q2PN1Y60cZPsX6bekHq6QAw", #6
+            "https://drive.google.com/uc?export=view&id=1vpE6FSS--nDQsoYOmU1lBUPha2GxhI7L", #7
+            "https://drive.google.com/uc?export=view&id=1oJj0RNeGGXsiNEtQNZMNoJzlijmHBSQR", #8
+            "https://drive.google.com/uc?export=view&id=1ZTy11a561IMam-VCVK9NVqx7B-Zc15bY", #9
+            "https://drive.google.com/uc?export=view&id=162vdqnHfMcZUYla1kI0mKEhUg5AYGusT", #10
+            "https://drive.google.com/uc?export=view&id=1cnpXvSAZfo3GAWNNXAvBvdXdqpxSXjY1", #11
+        ]
+        data_list = [
+            {
+                "nama": "Kakak Danang Hilal Kurniawan",
+                "nim": "122450085",
+                "umur": "22",
+                "asal": "Bandar Lampung",
+                "alamat": "Belakang PB Swalayan",
+                "hobbi": "Jogging",
+                "sosmed": "@dananghk_ ",
+                "kesan": "Kakaknya manis, lucu ",  
+                "pesan": " Semoga dilancarkan semuanya dan dipermudah urusannya"# 1
+            },
+            {
+                "nama": "Kakak Syalaisha Andina Putriansyah",
+                "nim": "122450021",
+                "umur": "22",
+                "asal": "Tangerang",
+                "alamat": "Suka Rame",
+                "hobbi": "Baca Novel",
+                "sosmed": "@syalaishaa_31 ",
+                "kesan": "Kakak nya baik, seru ",  
+                "pesan": "Sehat selalu kak, dilancakan semuanya "# 2
+            },
+              {
+                "nama": "Kakak Ahmad Rizqi",
+                "nim": "122450138",
+                "umur": "20",
+                "asal": "Padang",
+                "alamat": "Airan",
+                "hobbi": "Pergi ke cafe tengah malam",
+                "sosmed": "@den_iki__",
+                "kesan": "Kakaknya keren dan asik ",  
+                "pesan": "Semoga dilancarkan urusannya kak "# 3
+            },
+              {
+                "nama": "Kakak Anadia Carana",
+                "nim": "123450019",
+                "umur": "20",
+                "asal": "Palembang",
+                "alamat": "Lampung Selatan",
+                "hobbi": "Jogging",
+                "sosmed": "@anadiacrn_",
+                "kesan": "kakaknya keren ",  
+                "pesan": "Semoga urusannya diperlancar "# 4
+                   },
+              {
+                "nama": "Kakak Aprilia Dewi Hutapea",
+                "nim": "123450040",
+                "umur": "20",
+                "asal": "Lampung Selatan",
+                "alamat": "Lampung Selatan",
+                "hobbi": "Nonton di Facebook",
+                "sosmed": "@aprhtp_ ",
+                "kesan": " ",  
+                "pesan": " "# 5
+            },
+            {
+                "nama": "Kakak Nabila Zakiyah Zahra",
+                "nim": "123450023",
+                "umur": ".",
+                "asal": ".",
+                "alamat": ".",
+                "hobbi": ".",
+                "sosmed": ".",
+                "kesan": "Kakaknya keren banget ",  
+                "pesan":"Semoga diperlancar semuanya  "# 6
+            },
+             {
+                "nama": "Kakak Dhafin Razaqa Luthfi",
+                "nim": "122450133",
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Belajar",
+                "sosmed": "@dhafinrzqa13",
+                "kesan": "Kakaknya cantik dan lucu ",  
+                "pesan": "Semangat kak, diperlancar semuanya "# 7
+            },
+              {
+                "nama": "Kakak Devi Rahayu",
+                "nim": "123450010",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Bandar Lampung",
+                "hobbi": "Nonton Drakor",
+                "sosmed": "@deviirhyu",
+                "kesan": "Kakaknya keren banget ",  
+                "pesan": "Semoga dilancarkan semuanya kak "# 8
+            },
+              {
+                "nama": "Kakak Enggli Rahmadhani",
+                "nim": "122450043",
+                "umur": "20",
+                "asal": "Sumatera Barat",
+                "alamat": "Gang Pawira 2",
+                "hobbi": "Main Mobile Legend",
+                "sosmed": "@engliramdhnii",
+                "kesan": " ",  
+                "pesan": " "# 9
+            },
+              {
+                "nama": "Kakak Hanifah Inaya Sani",
+                "nim": "123450123",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Korpri",
+                "hobbi": "Memasak",
+                "sosmed": "@_inayasani",
+                "kesan": " ",  
+                "pesan": " "# 10
+            },
+              {
+                "nama": "Kakak Nydia Manda Putri",
+                "nim": "123450018",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Tanjung Karang Timur",
+                "hobbi": "Main",
+                "sosmed": "@nydiaaptr_",
+                "kesan": " ",  
+                "pesan": " "# 11
+            },     
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Departemen_SSD()
+
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
