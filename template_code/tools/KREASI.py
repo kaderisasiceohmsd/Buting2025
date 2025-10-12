@@ -2,14 +2,29 @@ import streamlit as st
 
 st.set_page_config(page_title="Game Ular Python - ANOVA", page_icon="🐍", layout="wide")
 
-# === BLOK CSS YANG BERMASALAH SUDAH DIHAPUS DARI SINI ===
+# === CSS FINAL UNTUK MENENGahkan KONTEN SECARA AMAN ===
+st.markdown("""
+<style>
+.block-container {
+    /* Menentukan lebar maksimum dari area konten utama */
+    max-width: 1000px;
+
+    /* Trik CSS klasik dan aman untuk menengahkan sebuah block */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Memberi jarak dari atas agar judul utama tidak terpotong */
+    padding-top: 3rem;
+}
+</style>
+""", unsafe_allow_html=True)
+
 
 # === JUDUL HALAMAN ===
-# Judul ini sudah memiliki style center sendiri, jadi tidak perlu CSS tambahan
 st.markdown("<h2 style='text-align:center; margin-bottom:1rem;'>🐍 Game Ular Python (Kelompok 04 ANOVA)</h2>", unsafe_allow_html=True)
 
+
 # === HTML + JS GAME ===
-# Komponen game ini juga sudah diatur untuk center di dalam HTML-nya sendiri
 snake_game_html = """
 <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; width:100%;">
 
