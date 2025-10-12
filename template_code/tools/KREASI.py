@@ -297,4 +297,5 @@ document.addEventListener('keydown', (e) => {
 </script>
 """
 
-st.components.v1.html(snake_game_html, height=850)
+# PERBAIKAN DI BARIS INI: Nilai height dinaikkan dari 850 menjadi 900
+st.components.v1.html(snake_game_html, height=900)
