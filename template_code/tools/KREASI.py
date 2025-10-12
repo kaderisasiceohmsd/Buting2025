@@ -43,6 +43,8 @@ snake_game_html = """
   <div style="display:flex; justify-content:center; width:100%;">
     <canvas id="gameCanvas" width="600" height="600" tabindex="0"
       style="
+        width: 600px;
+        height: 600px;
         border:3px solid #c5a253;
         background-color:black;
         border-radius:16px;
@@ -297,5 +299,4 @@ document.addEventListener('keydown', (e) => {
 </script>
 """
 
-# PERBAIKAN DI BARIS INI: Nilai height dinaikkan dari 850 menjadi 900
 st.components.v1.html(snake_game_html, height=900)
