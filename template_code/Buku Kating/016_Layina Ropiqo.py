@@ -198,7 +198,7 @@ if menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak B",
+                "nama": "Kakak A",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -209,7 +209,7 @@ if menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak CCc",
+                "nama": "Kakak A",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -221,6 +221,7 @@ if menu == "Baleg":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
+    kesekjenan()
     Baleg()
 
 if menu == "Senator":
@@ -271,6 +272,7 @@ if menu == "Senator":
 if menu == "Departemen PSDA":
     def Departemen_PSDA():
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1n7zYC3CHqYXJvOxjhobhWVl6_LwvF1dc",
             "https://drive.google.com/uc?export=view&id=1v7_TugMNDohNn6UzFhDnNWYrtI5C9FLW", # Ketua
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", # Sekre
             "https://drive.google.com/uc?export=view&id=1Am4CkzFMmBQ7KA5bozrNMa3bVH7e-1_a", # Kader
@@ -342,7 +344,7 @@ if menu == "Departemen PSDA":
                 "Pesan"  : "semangat terus kuliahnya bang !!!"
             },
              {
-               "Nama"   : "Arienta Khusnul Ananda",
+                "Nama"   : "Arienta Khusnul Ananda",
                 "NIM"    : "123456789",
                 "Umur"   : ".....",
                 "Asal"   : ".....",
@@ -353,7 +355,7 @@ if menu == "Departemen PSDA":
                 "Pesan"  : "semangat terus kuliahnya kak !!!"# 1
             },
              {
-               "Nama"   : "Daffa Hadyan Navista",
+                "Nama"   : "Daffa Hadyan Navista",
                 "NIM"    : "123456789",
                 "Umur"   : ".....",
                 "Asal"   : ".....",
@@ -585,7 +587,7 @@ if menu == "Departemen MIKFES":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak B",
+                "nama": "Kakak A",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -596,7 +598,7 @@ if menu == "Departemen MIKFES":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Kakak CCc",
+                "nama": "Kakak A",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -608,6 +610,7 @@ if menu == "Departemen MIKFES":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
+    Departemen_PSDA()
     Departemen_MIKFES()
 
 if menu == "Departemen Eksternal":
