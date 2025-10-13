@@ -211,7 +211,7 @@ if menu == "Baleg":
             },
             {
                 "nama": "Dhea Amelia Putri",
-                "nim": "",
+                "nim": "122450004",
                 "umur": "20",
                 "asal":"Chiwidew, Jawa Barat",
                 "alamat": "Pesawaran",
@@ -359,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1elYxQdimcEJwctEdx5p2JKZi-jMROnZy",
+            "https://drive.google.com/uc?export=view&id=1I1eEFsYtEq67cqQxYh_sN9gr22LV4k3s",
+            "https://drive.google.com/uc?export=view&id=1Q9oB9WZxc6tQpXntURf6yjq8KNnRfMUa",
+            "https://drive.google.com/uc?export=view&id=1Q6rVdx1rtPAvdId9w7ON26eLG4h5aD3y",
         ]
         data_list = [
             {
@@ -370,11 +370,11 @@ if menu == "Senator":
                 "nim": "122450094",
                 "umur": "20",
                 "asal":"Palembang",
-                "alamat": "tanya caesar",
+                "alamat": "Jalan Raden Saleh",
                 "hobbi": "Padel",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abangnya seru dan baik",  
+                "pesan":"Semangat kuliahnya dan sukses kariernya bang"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -384,8 +384,8 @@ if menu == "Senator":
                 "alamat": "Belakang Indomaret belwis",
                 "hobbi": "Maen Roblox",
                 "sosmed": "@nadyaanjani",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya postive vibes dan pembawaanya tenang",  
+                "pesan":"Lancar selalu kuliah dan sukses kariernya kak"# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -395,8 +395,8 @@ if menu == "Senator":
                 "alamat": "Asrama TB1",
                 "hobbi": "like instagram",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya baik banget",  
+                "pesan":"Seomga selalu lancar kuliahnya dan sukses kariernya"# 1
             },
             {
                 "nama": "Lia Hana Ichisasmita ",
@@ -406,8 +406,8 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Dengerin Lagu",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya seru dan baik",  
+                "pesan":"semangat terus kuliahnya kak dan sukses kariernya"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -416,32 +416,32 @@ if menu == "Senator":
 if menu == "Departemen PSDA":
     def psda():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tLJvcpT8-9opP3Hg_VM9SoDkfsJxv0DG",
+            "https://drive.google.com/uc?export=view&id=13MkvL0lSifR3DYg_pWfe86qcdLpDxZ2c",
+            "https://drive.google.com/uc?export=view&id=1nNI4pIqJHUwQdhZn6f23S5vJyf5Q_hp0",
+            "https://drive.google.com/uc?export=view&id=13Ydr7b61fnUUN4KNMFnzILCJfJcTMVHL",
+            "https://drive.google.com/uc?export=view&id=1eKyi7d7Zc_fYavofGOCwpf67AIDnOroY",
+            "https://drive.google.com/uc?export=view&id=12Es26-6eT9YQd5TDu597akF6Tjxz-6Qy",
+            "https://drive.google.com/uc?export=view&id=1msDx2yTnbtH3Tam2s464_f1BjjBwn-i2",
+            "https://drive.google.com/uc?export=view&id=1UPnP72AlH9RD3hLY3TL7DFnfAvd3q9LH",
+            "https://drive.google.com/uc?export=view&id=11MZ_puNvNEshBDipJdM-uK44KgUkBL9m",
+            "https://drive.google.com/uc?export=view&id=1xvoY98SUXsxgTlF8gS7H254CB_RgKn3f",
+            "https://drive.google.com/uc?export=view&id=13ZmnlyBZBPFYXCqpbjYDPq-fJoeEVdx8",
+            "https://drive.google.com/uc?export=view&id=1lvLk2xHtqWv7G_RY4NEDiXbHlBC0hI_q",
+            "https://drive.google.com/uc?export=view&id=1ScDZ4xc7_Vp9rKAlTI368GzYIWLOzfP6",
+            "https://drive.google.com/uc?export=view&id=183ZPdMx1sHyWR3dIphhmM5lDsg0_jq8d",
+            "https://drive.google.com/uc?export=view&id=1MCc4rU-PLP9eRygKSwvIi3d5L5lvGx-X",
+            "https://drive.google.com/uc?export=view&id=11m6HhXLZSDQ4bUiR0GqcVPpXhSaV-a-Y",
+            "https://drive.google.com/uc?export=view&id=17COLtzTtCUnnu-xxjKSxzT3eYvBM4z-V",
+            "https://drive.google.com/uc?export=view&id=1-65MVdGf3gvn4E4SOhuad05TFyMssjBr",
+            "https://drive.google.com/uc?export=view&id=1ME3sXuIqFgnq6uDjr6yHQV47FnemHjSO",
+            "https://drive.google.com/uc?export=view&id=1pIdGtbQ-f2GvwYCLmNYx57_OytzS-JmO",
+            "https://drive.google.com/uc?export=view&id=1O6i7fsD3a1KQA8cqwgb44Y4pmYN5Yl-V",
+            "https://drive.google.com/uc?export=view&id=1lhglMGbxFQdYJQcx2L-ElIV_sJ9Osg_f",
+            "https://drive.google.com/uc?export=view&id=1jVEohqk8qqm_Fgedwrc1eyBVBucNsPRQ",
+            "https://drive.google.com/uc?export=view&id=1zr3b9Oa0Er3ffil7dybNE3DaY4suBxKs",
+            "https://drive.google.com/uc?export=view&id=1dcWa3RozXAO7DxgzAob-EFazFEHpAvBV",
+            "https://drive.google.com/uc?export=view&id=1FJLExfmgUw77Q2lakLCHvVeBvAvAzzL9",
         ]
         data_list = [
             {
@@ -452,8 +452,8 @@ if menu == "Departemen PSDA":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "",
-                "kesan": "Kakak sangat berwibawa dan mengayomi.",
-                "pesan": "Mohon bimbingannya selalu, Kak. Sehat dan sukses terus!"
+                "kesan": "Abangnya positive vibes dan sangat berwibawa",
+                "pesan": "Lancar selalu untuk kuliah dan kariernya bang"
             },
             {
                 "nama": "Nisrina Nur Afifah",
@@ -463,8 +463,8 @@ if menu == "Departemen PSDA":
                 "alamat": "korpri sukarame",
                 "hobbi": "jajan",
                 "sosmed": "@afifahhnsrn",
-                "kesan": "Terima kasih atas bimbingannya selama ini, Kak.",
-                "pesan": "Semoga kami bisa meneladani semangat kakak."
+                "kesan": "Kakaknya postive vibes dan baik",
+                "pesan": "Semoga selau lancar kuliahnya dan sukses untuk kariernya"
             },
             {
                 "nama": "Rewina Audriya Melva Sari",
@@ -474,8 +474,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Way Kandis",
                 "hobbi": "Dengerin musik",
                 "sosmed": "@rewinanaaa",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya keren dan baik",  
+                "pesan":"Sukses selalu untuk kedepannya kak"# 1
             },
             {
                 "nama": "Ihsan Maulana Yusuf",
@@ -485,8 +485,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis, pemda",
                 "hobbi": "Nangkap lele",
                 "sosmed": "@ihsan.yusuf",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abangnya ramah",  
+                "pesan":"Sukses selalu untuk kedepannya bang"# 1
             },
             {
                 "nama": "Daffa Ahmad Noval",
@@ -496,8 +496,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Korpri",
                 "hobbi": "Cari masalah anak 23",
                 "sosmed": "@ahmadnoval_11",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abangnya seru dan ramah",  
+                "pesan":"Semangat kuliahnya dan sukses untuk karier kedepan bang"# 1
             },
             {
                 "nama": "Benget Sidabutar",
@@ -507,8 +507,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Futsal",
                 "sosmed": "@sidabutar.26",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abangnya ini asik dan ramah ",  
+                "pesan":"Sukses selalu untuk kuliah dan kariernya bang"# 1
             },
             {
                 "nama": "Ulliano William Purba",
@@ -518,8 +518,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Jl. Raden Saleh",
                 "hobbi": "Main piano, ngoding, menanam anggrek, berantem",
                 "sosmed": "@ullianowlm",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Hobbinya keren dan abangnya seru",  
+                "pesan":"Semangat kuliahnya dan sukses untuk karier kedepan bang"# 1
             },
             {
                 "nama": "Ahmad Sahidin Akbar",
@@ -529,8 +529,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Sukarame",
                 "hobbi": "Voli",
                 "sosmed": "@shahid22_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abangnya keren dan seru",  
+                "pesan":"semangat terus kuliahnya bang dan sukses kariernya"# 1
             },
             {
                 "nama": "Ali Aristo Muthahari Parisi",
@@ -540,8 +540,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Gang Nangka 4 Sukarame",
                 "hobbi": "Main game, Kuliner malam jika ada uang",
                 "sosmed": "@ali_parisi3",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abangnya seru dan ramah",  
+                "pesan":"Lancar selalu kuliah dan kariernya"# 1
             },
             {
                 "nama": "Rosalia Siregar",
@@ -551,8 +551,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main roblox",
                 "sosmed": "@rosaliasiregar",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya postive vibes dan baik",  
+                "pesan":"semangat terus kuliahnya kakak dan sukses untuk kariernya"# 1
             },
             {
                 "nama": "Kharisma Mustika Sari",
@@ -562,8 +562,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Untung",
                 "hobbi": "Scroll tiktok",
                 "sosmed": "@rismaa.mustika_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakak ini asik dan baik",  
+                "pesan":"Semoga selalu lancar kuliah dan juga kariernya"# 1
             },
             {
                 "nama": "Gusti Putu Ferazka",
@@ -573,8 +573,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Way Dadi",
                 "hobbi": "Tidur",
                 "sosmed": "@feraztaaa",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya ramah dan enak diajak ngobrol",  
+                "pesan":"Sukses terus buat karier dan kuliahnya"# 1
             },
             {
                 "nama": "Sahid Maulana",
@@ -584,8 +584,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Jln. Airan",
                 "hobbi": "Main game",
                 "sosmed": "@sahid_maul19",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abangnya baik dan asik banget.",  
+                "pesan":"Semoga semua yang dicita-citakan tercapai"# 1
             },
             {
                 "nama": "Allya Nurul Islami Pasha",
@@ -595,8 +595,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Gang Perwira Belwis",
                 "hobbi": "Main",
                 "sosmed": "@allyapasha_",
-                "kesan": "Sikapnya tegas dan disiplin, menjadi panutan bagi kami.",
-                "pesan": "Terima kasih atas ilmunya, semoga kakak sehat selalu."
+                "kesan": "Kakaknya keren dan inspiratif banget",
+                "pesan": "Semoga makin sukses dan bahagia terus"
             },
             {
                 "nama": "Ahmad Rizky",
@@ -606,8 +606,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main Bola",
                 "sosmed": "@ahmad.rizky__",
-                "kesan": "Senang mendapat arahan dari kakak, sangat memotivasi.",
-                "pesan": "Semangat terus dalam menjalankan amanahnya, Kak!"
+                "kesan": "Abangnya tenang tapi tegas",
+                "pesan": "Semoga semangatnya nggak pernah padam"
             },
             {
                 "nama": "Arienta Khusnul Ananda",
@@ -617,8 +617,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Main Blockblast",
                 "sosmed": "@arientakhsnl_",
-                "kesan": "Pembawaannya tenang dan bijaksana.",
-                "pesan": "Sukses selalu untuk kakak, ditunggu arahan selanjutnya."
+                "kesan": "Kakaknya lucu tapi tetap berwibawa",
+                "pesan": "Semoga selalu sukses di semua hal yang dikerjakan"
             },
             {
                 "nama": "Daffa Hadyan Navista",
@@ -628,8 +628,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Jahilin Miyor",
                 "sosmed": "@daffahdynn_",
-                "kesan": "Kakak sangat berwibawa dan mengayomi.",
-                "pesan": "Mohon bimbingannya selalu, Kak. Sehat dan sukses terus!"
+                "kesan": "Abangnya sangat berwibawa dan mengayomi.",
+                "pesan": "Semoga semua urusannya selalu dimudahkan dan sukses"
             },
             {
                 "nama": "Ginda Fajar Riadi Marpaung",
@@ -639,8 +639,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Kontrakan GH",
                 "hobbi": "Main game, Baca, Badminton, Gitar",
                 "sosmed": "@ginda_mrp",
-                "kesan": "Terima kasih atas bimbingannya selama ini, Kak.",
-                "pesan": "Semoga kami bisa meneladani semangat kakak."
+                "kesan": "Pembawaanya tenang dan berwibawa",
+                "pesan": "Semoga sukses di setiap langkah yang diambil"
             },
             {
                 "nama": "Natasya Amavisca",
@@ -650,8 +650,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Kost putri gerbang barat",
                 "hobbi": "",
                 "sosmed": "@natasyamavisca",
-                "kesan": "Sikapnya tegas dan disiplin, menjadi panutan bagi kami.",
-                "pesan": "Terima kasih atas ilmunya, semoga kakak sehat selalu."
+                "kesan": "Kakaknya pembawaanya tenang tapi tegas.",
+                "pesan": "Sukses terus dalam semua kegiatan yang diikuti"
             },
             {
                 "nama": "Nobel Nizam F",
@@ -661,8 +661,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Wisma Emas Setengah",
                 "hobbi": "Ngekader",
                 "sosmed": "@nobelnizam",
-                "kesan": "Senang mendapat arahan dari kakak, sangat memotivasi.",
-                "pesan": "Semangat terus dalam menjalankan amanahnya, Kak!"
+                "kesan": "Kakaknya tenang dan bijak",
+                "pesan": "Semoga lancar kuliahnya dan sukses besar nanti"
             },
             {
                 "nama": "Nurul Alfajar Gumel",
@@ -672,8 +672,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Sigma Family",
                 "hobbi": "Mancing Emosi",
                 "sosmed": "@ji_gumel17",
-                "kesan": "Pembawaannya tenang dan bijaksana.",
-                "pesan": "Sukses selalu untuk kakak, ditunggu arahan selanjutnya."
+                "kesan": "Pembawaannya tenang dan berwibawa.",
+                "pesan": "Semoga karier dan kuliahnya selalu lancar"
             },
             {
                 "nama": "Vany Salsabila Putri",
@@ -683,8 +683,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Lampung Selatan",
                 "hobbi": "Senang berbicara",
                 "sosmed": "@vany.salsabilaa",
-                "kesan": "Kakak sangat berwibawa dan mengayomi.",
-                "pesan": "Mohon bimbingannya selalu, Kak. Sehat dan sukses terus!"
+                "kesan": "Kakaknya punya vibe positif banget",
+                "pesan": "Semoga selalu bahagia dan penuh semangat setiap hari"
             },
             {
                 "nama": "Erma Daniar Safitri",
@@ -694,8 +694,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Jl. Lapas Raya No 50",
                 "hobbi": "Dance",
                 "sosmed": "@d__aniar",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya santai tapi tetap profesional",  
+                "pesan":"Lancar selalu kuliahnya dan semoga semua impian tercapai"# 1
             },
             {
                 "nama": "Kevin Antoni Junior",
@@ -705,8 +705,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Duduk",
                 "sosmed": "@kevinaj_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abangnya tenang tapi tetap tegas kalau perlu",  
+                "pesan":"Sukses selalu untuk setiap langkah dan keputusan diambil"# 1
             },
             {
                 "nama": "Lidia Natasyah Marpaung",
@@ -716,8 +716,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Pemda",
                 "hobbi": "Merajuk",
                 "sosmed": "@dla_natzzyaa",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya baik dan humble",  
+                "pesan":"Sukses terus buat karier dan kuliahnya"# 1
             },
             {
                 "nama": "Muhammad Ridwan",
@@ -727,8 +727,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Nghina orang Bengkinang",
                 "sosmed": "@ridwan122",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abangnya lucu dan asik banget.",  
+                "pesan":"Semoga hari-harinya selalu menyenangkan"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
