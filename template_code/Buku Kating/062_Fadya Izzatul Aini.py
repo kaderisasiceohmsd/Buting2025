@@ -1303,7 +1303,7 @@ elif menu == "Departemen Eksternal":
     DepartemenEksternal()
 
 elif menu == "Departemen Internal":
-    def Departemen_Internal():
+    def DepartemenInternal():
          gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1qE4iK-VREnPFiKGWFnxfcjkinTxRRrB9",
             "https://drive.google.com/uc?export=view&id=1ZfCaL4O_EWKdnQGxi6My62TFOuyBfFmU",
@@ -1489,10 +1489,10 @@ elif menu == "Departemen Internal":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_Internal()
+    DepartemenInternal()
 
-elif menu == "Departemen_SSD":
-    def Departemen_SSD():
+elif menu == "Departemen SSD":
+    def DepartemenSSD():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1i7iODzKC6V-wRmAz9ZfKKsGhqrGQHXXk", 
             "https://drive.google.com/uc?export=view&id=1m9_ZaYDrFFPnRE3SXXTDvFANO2ILvZ9H", 
@@ -1630,7 +1630,7 @@ elif menu == "Departemen_SSD":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_SSD()
+    DepartemenSSD()
 
 elif menu == "Departemen Medkraf":
     def DepartemenMedkraf():
@@ -1857,6 +1857,7 @@ elif menu == "Departemen Medkraf":
     DepartemenMedkraf()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
