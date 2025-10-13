@@ -95,16 +95,16 @@ def display_images_with_data(gambar_urls, data_list):
     st.write("Semua gambar telah dimuat!")
 menu = streamlit_menu()
 
-# BAGIAN SINI YANG HANYA BOLEH DIUABAH
+# BAGIAN SINI YANG HANYA BOLEH DIUBAH
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tvVvfHjLDUOMYXVr3ZFqXfUoRZ2r1aqY",
-            "https://drive.google.com/uc?export=view&id=1qH6nKFVwwSn8woO9tPq18yXlsefCbfvg",
-            "https://drive.google.com/uc?export=view&id=195eQZBn35VwbTfmnAWk1gvE9jhz5gFi5",
-            "https://drive.google.com/uc?export=view&id=1BOWk0qmHreVyNK8GIifqa_cPdqR0V7FO",
-            "https://drive.google.com/uc?export=view&id=1Rn7XDgN112PkyCLuP0-8IA3sZXuhmLKP",
-            "https://drive.google.com/uc?export=view&id=1cukEc2ErSbsfpI18J4WUTTUqudRjMX0w",
+            "https://drive.google.com/uc?export=view&id=10O0CcwiROev0r6bU3JBdZvnYzuLiSmY4",
+            "https://drive.google.com/uc?export=view&id=1JLNJNz_XY1k4RvEzWSx0hIOccCuTh1JB",
+            "https://drive.google.com/uc?export=view&id=1vp_7Bx602WQwysEYpFGT_TZFasvbNgFZ",
+            "https://drive.google.com/uc?export=view&id=1W6N5ijLW742fpfjRjuVFio9KQyMIVdfN",
+            "https://drive.google.com/uc?export=view&id=1hbmH3I6sKsRTvJESxH6Py-NqFJzyygb3",
+            "https://drive.google.com/uc?export=view&id=1bq0SBkgywLH_3_n2-UOF37S8HnFo9LPg",
         ]
         data_list = [
             {
@@ -113,7 +113,7 @@ if menu == "Kesekjenan":
                 "umur": "21",
                 "asal":"Bekasi",
                 "alamat": "Pulau Damar",
-                "hobbi": "Menyanyi",
+                "hobbi": "beli donat kentang",
                 "sosmed": "@_erendraa",
                 "kesan": "Sangat berwibawa dan keren",  
                 "pesan":"Semangat terus bang menjalani hidup sebagai ketua"
@@ -124,26 +124,26 @@ if menu == "Kesekjenan":
                 "umur": "20",
                 "asal":"Tangerang",
                 "alamat": "Jl.Lapas",
-                "hobbi": "Baca Buku SQL",
+                "hobbi": "baca buku (dasar-dasar sql)",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "Keren banget karna ngajarin ilmu data sains",  
                 "pesan":"Semoga kehidupan kuliahnya berjalan mulus"
             },
-            {
-                "nama": "Farahanum Afifah Ardiansyah",
-                "nim": "122450056",
-                "umur": "21",
-                "asal":"Kota Padang",
-                "alamat": "Korpri",
-                "hobbi": "Cutekahim",
-                "sosmed": "@farahanumafifah",
-                "kesan": "Bisa ada diposisi ini aja udah keren banget",  
-                "pesan":"Semoga ga banyak masalah menghampiri"
+             {
+                "nama": "Elisabeth Claudia Simanjuntak",
+                "nim": "122450123",
+                "umur": "19x    `",
+                "asal":"Tanggerang",
+                "alamat": "Airest Kost",
+                "hobbi": "siram shopee",
+                "sosmed": "@celisabethh_",
+                "kesan": "Hobbynya ngawur, tapi megang posisi penting",  
+                "pesan":"Semoga lancar kehidupan kuliahnya"
             },
-            {
+             {
                 "nama": "Syadza Puspadari Azhar",
                 "nim": "122450072",
-                "umur": "21",
+                "umur": "18",
                 "asal":"Palembang",
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
@@ -151,27 +151,27 @@ if menu == "Kesekjenan":
                 "kesan": "Udah hobi membaca, punya posisi penting pula",  
                 "pesan":"Semoga lancar-lancar saja kehidupannya"
             },
-            {
+              {
                 "nama": "Eksanty Febriana Sugma Islamiaty",
                 "nim": "122450001",
                 "umur": "19",
-                "asal":"Bulaleng, Bali",
-                "alamat": "Asrama TB 4",
-                "hobbi": "Nahan Eeq",
+                "asal":"Rote, NTTi",
+                "alamat": "rajabasa",
+                "hobbi": "baca buku , saku pramuka",
                 "sosmed": "@eksantyfebriana",
                 "kesan": "Walau hobbynya ngawur, tapi bisa berada di posisi penting haha",  
                 "pesan":"Semoga tidak ada masalah yang menghampiri"
             },
             {
-                "nama": "Elisabeth Claudia Simanjuntak",
-                "nim": "122450123",
-                "umur": "23",
-                "asal":"Baduy Dalem",
-                "alamat": "Agrest Kost",
-                "hobbi": "Nahan Pipis",
-                "sosmed": "@celisabethh_",
-                "kesan": "Hobbynya ngawur, tapi megang posisi penting",  
-                "pesan":"Semoga lancar kehidupan kuliahnya"
+                "nama": "Farahanum Afifah Ardiansyah",
+                "nim": "122450056",
+                "umur": "21",
+                "asal":"kota Padang,Sumbar",
+                "alamat": "Sukarame",
+                "hobbi": "Tidur",
+                "sosmed": "@farahanumafifah",
+                "kesan": "Bisa ada diposisi ini aja udah keren banget",  
+                "pesan":"Semoga ga banyak masalah menghampiri"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
