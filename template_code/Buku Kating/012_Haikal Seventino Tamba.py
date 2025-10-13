@@ -360,7 +360,7 @@ if menu == "Senator":
     def senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=14--NgFUoQtPwB5ej26air0xWcdHqFUzt",
-            "https://drive.google.com/uc?export=view&id=1H_UgZtN6mXJeQuJ1glk66AdU0orAthIh",
+            "https://drive.google.com/uc?export=view&id=1zgNaZWv-fXdf-uRO_vZfTRMty2CX1ko6",
             "https://drive.google.com/uc?export=view&id=1XiK95Wk3Q28nJJZE7OTTAuTZV08hERcR",
             "https://drive.google.com/uc?export=view&id=1JjDLZzyg-yU3xmzIW8SZol7zPAm7IHyC",
         ]
