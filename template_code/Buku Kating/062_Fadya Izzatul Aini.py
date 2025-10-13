@@ -768,7 +768,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Tidur dan berenang",
                 "sosmed": "@randaandriana_",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Rut Junita Sari Siburian",
@@ -779,7 +779,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Membaca Buku",
                 "sosmed": "@junitaa_0406",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Muhammad Regi Abdi Putra Amanta",
@@ -790,7 +790,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Bernafas",
                 "sosmed": "@mregiiii_",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Aisyah Musfirah",
@@ -801,7 +801,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "",
                 "sosmed": "@_aishsahi",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Fadil Prasetyo Alfarizzi",
@@ -812,7 +812,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Liat Jam",
                 "sosmed": "@fadilalfarizzii",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Muhammad Aqil Ramadhan",
@@ -823,7 +823,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Main basket",
                 "sosmed": "@muhammadaqil1111",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Muhammad Naufal Ramadhan",
@@ -834,7 +834,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Dengerin musik",
                 "sosmed": "@notfall.s",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Nadia Faraj Alyafaatin Simbolon",
@@ -845,7 +845,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Nonton film",
                 "sosmed": "@nadiaafrj",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Marleta Cornelia Leander",
@@ -856,7 +856,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Kepo(baca codingan)",
                 "sosmed": "@marletacornelia",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Akeyla Fairuz Shafi",
@@ -867,7 +867,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Dengrin musik",
                 "sosmed": "@keyashafi_",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Anggi Puspita Ningrum",
@@ -878,7 +878,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Dance dan menyanyi",
                 "sosmed": "@anggi_yllow2318",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Efi Defiyati",
@@ -889,7 +889,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Membaca",
                 "sosmed": "@eeffiidefi",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Fabiolla Charissa Putri",
@@ -900,7 +900,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "main piano dan nyanyi",
                 "sosmed": "@pebby_olla525",
                 "kesan": "-",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Fairuz Ary Syifa",
@@ -911,7 +911,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "tidur",
                 "sosmed": "@_fairuzary",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
              {
                 "nama": "Tanty Widiyastuti",
@@ -922,7 +922,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Tidur",
                 "sosmed": "@tvnty_",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Eggi Satria",
@@ -933,7 +933,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "tidur",
                 "sosmed": "@_egistr",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Afifah Fauziah",
@@ -944,7 +944,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "isengin orang (main game)",
                 "sosmed": "@fifah.zy",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Fabio Banyu Cyto",
@@ -955,7 +955,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "game(proplayer),tidur,jalan-jalan",
                 "sosmed": "@biyokcb",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Giofani Aristyo",
@@ -966,7 +966,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Main game",
                 "sosmed": "@giofaniars_",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Rahma Oktavia Albar",
@@ -977,7 +977,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Main Catur",
                 "sosmed": "@_rhmaoktvia",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Rahmah Gustriana Deka",
@@ -988,7 +988,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Balap random",
                 "sosmed": "@gustriana.d_",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Razin Hafid Hamdi",
@@ -999,7 +999,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "futsal",
                 "sosmed": "@razynhfd",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1538,7 +1538,7 @@ elif menu == "Departemen SSD":
                 "hobbi": "Beli Parfum",
                 "sosmed": "@den_iki_",
                 "kesan": "Abangnya asiq",  
-                "pesan":"Sukses terus kakk!"#,
+                "pesan":"Sukses terus kakk!"# 1
             },
             {
                 "nama": "Anadia Carana",
@@ -1663,7 +1663,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Sleep call",
                 "sosmed": "@patriciadiajeng",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Rahma Neliyana",
@@ -1674,7 +1674,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Masak",
                 "sosmed": "@rahmanellyana",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Khoriul Anam",
@@ -1685,7 +1685,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Billiard dan voli",
                 "sosmed": "@mananam__",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Labo John Noel Napitupulu",
@@ -1696,7 +1696,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Motoran",
                 "sosmed": "@noerruuu",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Rafi Diva Efangga",
@@ -1707,7 +1707,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Olahraga",
                 "sosmed": "@rafidivaefangga_",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Refa Destiny Pranata",
@@ -1718,7 +1718,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Ngoleksi gelang",
                 "sosmed": "@refadp_",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Try Yani Rizki Nur Rohmah",
@@ -1729,7 +1729,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Belajar",
                 "sosmed": "@tryyaniciaa",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Aliya Ammara Ananta",
@@ -1740,7 +1740,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Main gitar",
                 "sosmed": "@aliyaammara",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Donna Maya Puspita",
@@ -1751,7 +1751,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Mendengarkan musik",
                 "sosmed": "@donnamaya.p",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Feby Angelina",
@@ -1762,7 +1762,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Scroll Pinterest",
                 "sosmed": "@wriitenbyangel",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Hafsa Fazila Arradhi",
@@ -1773,7 +1773,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Masak",
                 "sosmed": "@hafsafazilaa",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Nayla Salsabila Fathianisa",
@@ -1784,7 +1784,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Dengar musik",
                 "sosmed": "@naylasalsabilaa._",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Sania Dwi Ayu Lestari",
@@ -1795,7 +1795,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "main roblox",
                 "sosmed": "@saniayyllstr",
                 "kesan": "-",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Akmal Faiz Abdillah",
@@ -1806,7 +1806,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Main HP",
                 "sosmed": "@_akmal.faiz",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
              {
                 "nama": "Raihana Adelia Putri",
@@ -1817,7 +1817,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Membaca, Menulis, Memasak",
                 "sosmed": "@n1tg._",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Citra Agustin",
@@ -1828,7 +1828,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Melukis",
                 "sosmed": "@citrastin",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Eigi Artamevia",
@@ -1839,7 +1839,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Melukis",
                 "sosmed": "@eigirtmv",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
             {
                 "nama": "Romauli Oktavia Silaban",
@@ -1850,13 +1850,14 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Dance",
                 "sosmed": "@roms.slbn",
                 "kesan": "",  
-                "pesan":"", # 1
+                "pesan":""# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
