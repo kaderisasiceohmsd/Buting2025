@@ -988,7 +988,7 @@ if menu == "Departemen Eksternal":
         ]
         display_images_with_data(gambar_urls, data_list)
     eksternal()
-elif menu == "Baleg":
+elif menu == "Departemen Internal":
     def internal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1E7FEUk_KL894s6uUBj0adDHDnOohDF4Z", #1
@@ -1897,5 +1897,6 @@ elif menu == "Departemen SSD":
         ]
         display_images_with_data(gambar_urls, data_list)
     ssd()
+
 
 
