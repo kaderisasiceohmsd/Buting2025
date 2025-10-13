@@ -429,7 +429,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=13ZmnlyBZBPFYXCqpbjYDPq-fJoeEVdx8",
             "https://drive.google.com/uc?export=view&id=1lvLk2xHtqWv7G_RY4NEDiXbHlBC0hI_q",
             "https://drive.google.com/uc?export=view&id=1ScDZ4xc7_Vp9rKAlTI368GzYIWLOzfP6",
-            "https://drive.google.com/uc?export=view&id=183ZPdMx1sHyWR3dIphhmM5lDsg0_jq8d",
+            "https://drive.google.com/uc?export=view&id=10zMJQPXkgh8kEzezjSTjR3i0dUryqrhI",
             "https://drive.google.com/uc?export=view&id=1MCc4rU-PLP9eRygKSwvIi3d5L5lvGx-X",
             "https://drive.google.com/uc?export=view&id=11m6HhXLZSDQ4bUiR0GqcVPpXhSaV-a-Y",
             "https://drive.google.com/uc?export=view&id=17COLtzTtCUnnu-xxjKSxzT3eYvBM4z-V",
@@ -440,7 +440,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1lhglMGbxFQdYJQcx2L-ElIV_sJ9Osg_f",
             "https://drive.google.com/uc?export=view&id=1jVEohqk8qqm_Fgedwrc1eyBVBucNsPRQ",
             "https://drive.google.com/uc?export=view&id=1zr3b9Oa0Er3ffil7dybNE3DaY4suBxKs",
-            "https://drive.google.com/uc?export=view&id=1dcWa3RozXAO7DxgzAob-EFazFEHpAvBV",
+            "https://drive.google.com/uc?export=view&id=1ZFL1sge-PvHCm_mav93s1xCpYkK3SWRs",
             "https://drive.google.com/uc?export=view&id=1FJLExfmgUw77Q2lakLCHvVeBvAvAzzL9",
         ]
         data_list = [
