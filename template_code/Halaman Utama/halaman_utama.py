@@ -236,7 +236,7 @@ elif menu == "About Us":
                 "sebagai": "Anggotaa",
                 "nim": "124450028",
                 "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "motto_hidup": "jalanin dulu keled",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
