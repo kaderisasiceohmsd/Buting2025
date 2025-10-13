@@ -988,6 +988,7 @@ if menu == "Departemen Eksternal":
         ]
         display_images_with_data(gambar_urls, data_list)
     eksternal()
+    
 elif menu == "Departemen Internal":
     def internal():
         gambar_urls = [
@@ -1278,14 +1279,14 @@ elif menu == "Departemen Medkraf":
                 "pesan": "semangat kuliah semester 5 kak refa"# 6
             },
               {
-                "nama": "Try Yani Rizki Nur Rohmah",
+                "nama": "Kakak Try Yani Rizki Nur Rohmah",
                 "nim": "",
                 "umur": "",
                 "asal": "",
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@",
-                "kesan": "kakaknya canti dan imut",  
+                "kesan": "kakaknya cantik dan imut",  
                 "pesan": "sehat selalu kakak"# 7
             },
               {
@@ -1336,7 +1337,7 @@ elif menu == "Departemen Medkraf":
                 "nama": "Kakak Nayla Salsabila Fathianisa",
                 "nim": "123450082",
                 "umur": "19",
-                "asal": "Payahkumbuh, Sumatera Selatan",
+                "asal": "Payakumbuh, Sumatera Selatan",
                 "alamat": "Jalan Lapas, Kec. Kota Agung",
                 "hobbi": "Mendengarkan musik",
                 "sosmed": "@naylasasabilaa_",
@@ -1363,7 +1364,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Membaca",
                 "sosmed": "@_akmal.faiz",
                 "kesan": "bang akmal keren jadi kadiv desain",  
-                "pesan": "semangat bang ngerjar gelar S.Si.d nya"# 14
+                "pesan": "semangat bang ngejar gelar S.Si.d nya"# 14
             },
               {
                 "nama": "Kakak Raihana Adelia Putri",
@@ -1408,7 +1409,7 @@ elif menu == "Departemen Medkraf":
                 "sosmed": "@roms.slbn",
                 "kesan": "kak roma paling lucuu",  
                 "pesan": "semangat kuliahnya kak jangan berhenti lucu"# 18
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     medkraf()
@@ -1732,7 +1733,7 @@ elif menu == "Departemen PSDA":
                 "sosmed": "@dla_natzzyaa",
                 "kesan": "Kak Lidia lembut",
                 "pesan": "Semoga makin aktif dan sukses di setiap langkahnya kak" # 25
-            }
+            },
             {
                 "nama": "Kakak Muhammad Ridwan",
                 "nim": "123450091",
@@ -1886,10 +1887,11 @@ elif menu == "Departemen SSD":
                 "sosmed": "@nydiaaptr_",
                 "kesan": "kakaknya pendiam dan murah senyum",  
                 "pesan": "semangat selalu kak"# 11
-            },     
+            }     
         ]
         display_images_with_data(gambar_urls, data_list)
     ssd()
+
 
 
 
