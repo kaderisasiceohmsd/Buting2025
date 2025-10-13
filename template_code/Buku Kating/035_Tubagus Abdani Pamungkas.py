@@ -1019,7 +1019,6 @@ elif menu == "Departemen Internal":
                 "kesan": "Kak Rani sosok yang inspiratif dan bijak",
                 "pesan": "Semoga makin banyak ilmu dari setiap kajian yang diikuti!" # 1
             },
-            
             {
                 "nama": "Kakak Renta Siahaan",
                 "nim": "122450070",
@@ -1031,7 +1030,6 @@ elif menu == "Departemen Internal":
                 "kesan": "Kak Renta Bawa vibes positif.",
                 "pesan": "Tetap enjoy dan semangat terus ya kak" # 2
             },
-            
             {
                 "nama": "Kakak Salwa Farhanatussaidah",
                 "nim": "122450055",
@@ -1043,7 +1041,6 @@ elif menu == "Departemen Internal":
                 "kesan": "Kak Salwa keren",
                 "pesan": "Semoga makin enak masakannya" # 3
             },
-            
             {
                 "nama": "Kakak Azzahra Putri Kamilah",
                 "nim": "123450013",
@@ -1187,8 +1184,6 @@ elif menu == "Departemen Internal":
                 "kesan": "Kak Zahra lembut",
                 "pesan": "Semoga makin aktif dan terus menebar kebaikan di setiap kegiatan!" # 15
             }
-
-            
         ]
         display_images_with_data(gambar_urls, data_list)
     internal()
@@ -1213,9 +1208,7 @@ elif menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-        
-            
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", 
         ]
         data_list = [
             {
@@ -1420,7 +1413,7 @@ elif menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     medkraf()
 
-if menu == "Departemen PSDA":
+elif menu == "Departemen PSDA":
     def psda():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1u_wPCTbS9l022dVQEUkLsTVh8QP79Ax9", #1
@@ -1897,6 +1890,7 @@ elif menu == "Departemen SSD":
         ]
         display_images_with_data(gambar_urls, data_list)
     ssd()
+
 
 
 
