@@ -359,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1y7TMv9EU_sgikP8jMEn3jkJ9K06UGe8b",
-            "https://drive.google.com/uc?export=view&id=1KBZJHwFCyT17qj9ugM9NBgH2eR9mQmP8",
-            "https://drive.google.com/uc?export=view&id=1R-KDDkMFWE776PIl-fS96zze_3hidt8T",
-            "https://drive.google.com/uc?export=view&id=16neaeqe4A6TjQjr_9PthCjCKRDpZe3IZ",
+            "https://drive.google.com/uc?export=view&id=14--NgFUoQtPwB5ej26air0xWcdHqFUzt",
+            "https://drive.google.com/uc?export=view&id=1H_UgZtN6mXJeQuJ1glk66AdU0orAthIh",
+            "https://drive.google.com/uc?export=view&id=1XiK95Wk3Q28nJJZE7OTTAuTZV08hERcR",
+            "https://drive.google.com/uc?export=view&id=1JjDLZzyg-yU3xmzIW8SZol7zPAm7IHyC",
         ]
         data_list = [
             {
@@ -371,18 +371,18 @@ if menu == "Senator":
                 "umur": "20",
                 "asal":"Palembang",
                 "alamat": "tanya caesar",
-                "hobbi": "Padel",
+                "hobbi": "Mancing",
                 "sosmed": "@bintangtwinkle",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
             {
                 "nama": "Nadya Ratu Anjani",
-                "nim": "123450089",
+                "nim": "123450083",
                 "umur": "20",
-                "asal":"Jakarta",
-                "alamat": "Belakang Indomaret belwis",
-                "hobbi": "Maen Roblox",
+                "asal":"Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Mendengarkan Musik",
                 "sosmed": "@nadyaanjani",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
@@ -393,18 +393,18 @@ if menu == "Senator":
                 "umur": "20",
                 "asal":"Jakarta",
                 "alamat": "Asrama TB1",
-                "hobbi": "like instagram",
+                "hobbi": "Mendengarkan musik sambil jalan",
                 "sosmed": "@fathinahnazzh",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
             {
                 "nama": "Lia Hana Ichisasmita ",
-                "nim": "123450083",
+                "nim": "123450089",
                 "umur": "20",
-                "asal":"Bandar Lampung",
-                "alamat": "Sukarame",
-                "hobbi": "Dengerin Lagu",
+                "asal":"Jakarta",
+                "alamat": "Belakang Indomaret Belwis",
+                "hobbi": "Rebahan",
                 "sosmed": "@lia.h_264",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
