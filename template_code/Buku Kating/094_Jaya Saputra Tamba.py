@@ -105,7 +105,7 @@ if menu == "Kesekjenan":
         ]
         data_list = [
             {
-                "nama": "Kakak A",
+                "nama": "nasi goreng 1, ga pake timun",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
