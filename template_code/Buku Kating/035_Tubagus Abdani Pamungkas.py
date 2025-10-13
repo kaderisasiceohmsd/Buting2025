@@ -704,7 +704,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1nI2rypX1F5U8tgSeuaDFY93ohMy84yj_", #13
             "https://drive.google.com/uc?export=view&id=1tg1r5SvgFjICtxL_rwSWtET5gxJ80aOz", #14
             "https://drive.google.com/uc?export=view&id=1AAgwWw8MEypNa3F5a7B8R6Exeo0rA-C", #15
-            "https://drive.google.com/uc?export=view&id=1AyFKn1ZDbGEOG6D7H_0FjtPmuLDOYLJ2, #16
+            "https://drive.google.com/uc?export=view&id=1AyFKn1ZDbGEOG6D7H_0FjtPmuLDOYLJ2", #16
             "https://drive.google.com/uc?export=view&id=1ldUXLAtaAQZHkR8Qa0MWK2FrrItJiw_9", #17
             "https://drive.google.com/uc?export=view&id=1no3mCqfX2qRDzc5PMzMeMMns0prZ62SW", #18
             "https://drive.google.com/uc?export=view&id=1sWUWbc4sKl4UOS2X9kFGuixxiTuoVfx-", #19
@@ -1897,4 +1897,5 @@ elif menu == "Departemen SSD":
         ]
         display_images_with_data(gambar_urls, data_list)
     ssd()
+
 
