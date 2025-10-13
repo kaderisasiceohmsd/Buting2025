@@ -103,10 +103,13 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=1ox1yK7cFvulq44RL5ljUbsR4Dy08S5-Y",
             "https://drive.google.com/uc?export=view&id=1IqPH3oeHcEIpFYkCdn3Iq9KBlz3pIxwP",
             "https://drive.google.com/uc?export=view&id=1ZD5ybZV18rNhZHIQuhPjz1Pyi4MOUDQL",
+            "https://drive.google.com/uc?export=view&id=1gHbfG95RPgOT-cT6c9jMejieNYZj0ioe",
+            "https://drive.google.com/uc?export=view&id=1WdcP0ZL92Vobb1SAYr8O4hdQdbVvzwaj",
+
         ]   
         data_list = [
             {
-                "nama": "Rendra Eka Prayoga",
+                "nama": "Rendra Eka Prayoga", 
                 "nim": "122450122",
                 "umur": "21",
                 "asal":"Pulau Damar",
@@ -125,7 +128,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia, sangat memotivasi",
-                "pesan":"semangat terus kuliahnya abang!!!"# 1
+                "pesan":"semangat terus kuliahnya abang!!!"# 2
             },
             {
                 "nama": "Eksanty Febriana Sugma Islamiaty",
@@ -136,7 +139,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Nahan Eeq",
                 "sosmed": "@eksantyfebriana",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia, sangat memotivasi",
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 3
             },
             {
 
@@ -148,7 +151,30 @@ if menu == "Kesekjenan":
                 "hobbi": "Cute Kahim",
                 "sosmed": "@farahanumafifah",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia, sangat memotivasi",
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"# 4
+            },
+            {
+
+                "nama": "Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "21",
+                "asal": "Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Membaca",
+                "sosmed": "@puspadrr",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia, sangat memotivasi",
+                "pesan":"semangat terus kuliahnya kakak !!!"# 5
+            },
+            {
+                "nama": "Elisabeth Claudia Simanjuntak",
+                "nim": "122450123",
+                "umur": "23",
+                "asal": "Baduy Dalem",
+                "alamat": "Agrest Kost",
+                "hobbi": "Nahan Pipis",
+                "sosmed": "@celisabethh_",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia, sangat memotivasi",
+                "pesan":"semangat terus kuliahnya kakak !!!"# 6
             },
         ]
         display_images_with_data(gambar_urls, data_list)
