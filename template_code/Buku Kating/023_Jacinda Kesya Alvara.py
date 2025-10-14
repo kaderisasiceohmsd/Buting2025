@@ -114,7 +114,7 @@ if menu == "Kesekjenan":
                 "umur": "21",
                 "asal":"Bekasi",
                 "alamat": "Pulau Damar",
-                "hobbi": "Beli donat kentang"
+                "hobbi": "Beli donat kentang",
                 "sosmed": "@endraa",
                 "kesan": "-----",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
@@ -162,13 +162,14 @@ if menu == "Kesekjenan":
                 "sosmed": "@eksantyfebriana",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },{
+            },
+            {
                 "nama": "Farahanum Afifah Ardiansyah",
                 "nim": "122450056",
                 "umur": "21",
                 "asal":"Padang, Sumbar",
                 "alamat": "Gya kost korpri",
-                "hobbi": "Cute Sekjen"
+                "hobbi": "Cute Sekjen",
                 "sosmed": "@farahanumafifahh",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
@@ -177,7 +178,7 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
-elif menu == "Baleg"
+elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=12k2hpTc_sTU5sPV-38LvSBHCI9IU6geI",
@@ -202,7 +203,7 @@ elif menu == "Baleg"
                 "umur": "21",
                 "asal":"Kutai Timur",
                 "alamat": "Bilabong",
-                "hobbi": "Nonton orang kayang"
+                "hobbi": "Nonton orang kayang",
                 "sosmed": "@jeremia_s_",
                 "kesan": "-----",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
@@ -257,7 +258,7 @@ elif menu == "Baleg"
                 "umur": "20",
                 "asal":"Bekasi",
                 "alamat": "Way Huwi",
-                "hobbi": "Bajak Sawah"
+                "hobbi": "Bajak Sawah",
                 "sosmed": "@farahanumafifahh",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
@@ -268,7 +269,7 @@ elif menu == "Baleg"
                 "umur": "20",
                 "asal":"Lampung Barat",
                 "alamat": "Sukabumi",
-                "hobbi": "Dengerin Spoyify"
+                "hobbi": "Dengerin Spoyify",
                 "sosmed": "@givarooo",
                 "kesan": "-----",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
@@ -323,7 +324,7 @@ elif menu == "Baleg"
                 "umur": "25",
                 "asal":"Bangka Belitung",
                 "alamat": "Tanjung Karang",
-                "hobbi": "Koleksi batch google clood"
+                "hobbi": "Koleksi batch google clood",
                 "sosmed": "@fer_yulius",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
@@ -345,7 +346,7 @@ elif menu == "Baleg"
                 "umur": "25",
                 "asal":"Bangka Belitung",
                 "alamat": "Tanjung Karang",
-                "hobbi": "Koleksi batch google clood"
+                "hobbi": "Koleksi batch google clood",
                 "sosmed": "@nshaysk",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
@@ -354,14 +355,14 @@ elif menu == "Baleg"
         display_images_with_data(gambar_urls, data_list)
     Baleg()
 
-elif menu == "Senator"
+elif menu == "Senator":
     def Senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=17WjNEjeTUITRFOO9wRctaotVMiol6Hhf",
             "https://drive.google.com/uc?export=view&id=1dsEvHL5n9xQg_6VddK2yML2gXOeoedCJ",
             "https://drive.google.com/uc?export=view&id=1PllktHRmEtiCaETEpU-dDmZHTNa-ksgR",
             "https://drive.google.com/uc?export=view&id=1_iVfaKLi3TPCSiJZDdmRUm6-00HMeyxJ",
-           
+        ]
         data_list = [
             {
                 "nama": "Rian Bintang Wijaya",
@@ -369,7 +370,7 @@ elif menu == "Senator"
                 "umur": "20",
                 "asal":"Palembang",
                 "alamat": "Raden Saleh",
-                "hobbi": "dengerin lagu, nyanyi, baca, main game, rapat"
+                "hobbi": "dengerin lagu, nyanyi, baca, main game, rapat",
                 "sosmed": "@bintangtwinkle",
                 "kesan": "-----",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
@@ -409,9 +410,9 @@ elif menu == "Senator"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-   Senator()
+    Senator()
 
-elif menu == "Departemen PSDA":
+if menu == "Departemen PSDA":
     def DepartemenPSDA():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=11InFfSyhx79U4PVAl5jOaehFlTDhWVfb",
@@ -731,11 +732,3 @@ elif menu == "Departemen PSDA":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenPSDA()
-
-
-
-
-# Tambahkan menu lainnya sesuai kebutuhan
-
-
-
