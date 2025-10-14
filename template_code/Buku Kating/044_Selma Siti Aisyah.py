@@ -175,8 +175,8 @@ if menu == "Kesekjenan":
                 "sosmed": "@celisabethh_",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia, sangat memotivasi",
                 "pesan":"semangat terus kuliahnya kakak !!!"# 6 
-         },  ]
-        []
+         },  
+        ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
@@ -239,3 +239,5 @@ if menu == "Senator":
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
+
+
