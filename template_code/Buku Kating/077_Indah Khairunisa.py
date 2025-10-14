@@ -728,6 +728,7 @@ elif menu == "Departemen PSDA":
         ]
         display_images_with_data(gambar_urls, data_list)
         DepartemenPSDA()
+
 elif menu == "Departemen MIKFES":
     def DepartemenMIKFES():
         gambar_urls = [
@@ -1297,7 +1298,6 @@ elif menu == "Departemen Eksternal":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenEksternal()
-# Tambahkan menu lainnya sesuai kebutuhan
 
 
 

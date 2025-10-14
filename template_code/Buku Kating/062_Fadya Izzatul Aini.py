@@ -1488,7 +1488,7 @@ elif menu == "Departemen Internal":
                 "pesan":""# 1
             },
         ]
-        display_images_with_data(gambar_urls, data_list)
+         display_images_with_data(gambar_urls, data_list)
     DepartemenInternal()
 
 elif menu == "Departemen SSD":
@@ -1653,6 +1653,7 @@ elif menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1BWSB2QPEqfNvlX4gd6f0I3Y06blbZAX6",
             "https://drive.google.com/uc?export=view&id=1MFDbW5ofCLU14APorCwwF_JYIpIXnKXV",
             "https://drive.google.com/uc?export=view&id=1z-W8VMzOlIGjbQMpwULR0djJkgcLmJUT",
+        ]
         data_list = [
             {
                 "nama": "Patricia Leondrea Diajeng Putri",
@@ -1767,7 +1768,7 @@ elif menu == "Departemen Medkraf":
             {
                 "nama": "Hafsa Fazila Arradhi",
                 "nim": "123450079",
-                "umur": 20"",
+                "umur": "20",
                 "asal":"Bandar Lampung",
                 "alamat": "Labuhan Ratu",
                 "hobbi": "Masak",
