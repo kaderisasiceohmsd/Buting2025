@@ -8,39 +8,40 @@ Homepage = st.Page("Halaman Utama/halaman_utama.py",
     title="Jordan",
     default=True)
 
+
 Mahasiswa1 = st.Page(
-    "Buku Kating/053_Kaleb Filbert Istel.py",
-    title="053 - Kaleb Filbert Istel",
-    icon=":material/person:",
-)
-Mahasiswa2 = st.Page(
     "Buku Kating/006_Alfaya Rafif Abiyyi.py",
     title="006 - Alfaya Rafif Abiyyi",
     icon=":material/person:",
 )
-Mahasiswa3 = st.Page(
+Mahasiswa2 = st.Page(
     "Buku Kating/015_Siti Sarifah.py",
     title="015 - Siti Sarifah",
     icon=":material/person:",
 )
-Mahasiswa4 = st.Page(
+Mahasiswa3 = st.Page(
     "Buku Kating/020_Hani Qurrota Aini.py",
     title="020 - Hani Qurrota Aini",
     icon=":material/person:",
 )
-Mahasiswa5 = st.Page(
+Mahasiswa4 = st.Page(
     "Buku Kating/029_Euodia Meiliana Friedita.py",
     title="029 - Euodia Meiliana Friedita",
     icon=":material/person:",
 )
-Mahasiswa6 = st.Page(
+Mahasiswa5 = st.Page(
     "Buku Kating/044_Selma Siti Aisyah.py",
     title="044 - Selma Siti Aisyah",
     icon=":material/person:",
 )
-Mahasiswa7 = st.Page(
+Mahasiswa6 = st.Page(
     "Buku Kating/048_Nabila Nur Azizah.py",
     title="048 - Nabila Nur Azizah",
+    icon=":material/person:",
+)
+Mahasiswa7 = st.Page(
+    "Buku Kating/053_Kaleb Filbert Istel.py",
+    title="053 - Kaleb Filbert Istel",
     icon=":material/person:",
 )
 Mahasiswa8 = st.Page(
