@@ -130,7 +130,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@i",
                 "kesan": "Abang ini pinter banget",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak, semoga apa yang dituju mudah dicapai !!!"# 1
             },
             {
                 "nama": "Kakak B",
