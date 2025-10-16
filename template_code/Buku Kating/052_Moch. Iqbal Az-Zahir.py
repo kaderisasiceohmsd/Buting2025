@@ -102,9 +102,6 @@ if menu == "Kesekjenan":
             "https://drive.google.com/file/d/1raJs9jl9lRH_uXDa-zvEahnIpVGmYQfD/view?usp=drivesdk",
             "https://drive.google.com/file/d/1nsw4dSdxhoYLYBHqLCCl7-itIb2UCwM9/view?usp=drivesdk",
             "https://drive.google.com/file/d/1Xpj686MS9YMA4h2Zh2hLYHP5MvdUeZaz/view?usp=drivesdk",
-            "https://drive.google.com/file/d/1v61dGBOHfg7uBKsGAliC-kOOLr2VckDz/view?usp=drivesdk",
-            "https://drive.google.com/file/d/1nSAbDLAvG3VYM8zadbrAVf_3NgQmaumR/view?usp=drivesdk",
-            "https://drive.google.com/file/d/1COdHLghT9LQ1lcv_nT5zix_zuSdaDzkb/view?usp=drivesdk",
         ]
         data_list = [
             {
