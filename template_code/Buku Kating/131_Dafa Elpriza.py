@@ -416,14 +416,14 @@ if menu == "Senator":
 if menu == "Departemen PSDA":
     def psda():
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=17LnhuzDZ-QiSF4AAcvbRfCEnYe0oKZdy",
+            "https://drive.google.com/uc?export=view&id=1Tmow_JZmbNGwleUpgHUYmWtZur0Ol5x3",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1LOJxUmqkPL8-P9w3LL4qBcQkNS-hdiqy",
+            "https://drive.google.com/uc?export=view&id=1w7Suvmde3wxD9q6huDGUVDvectv7vjiV",
+            "https://drive.google.com/uc?export=view&id=1gSNG-271DARWiza2U-MWXzculEaemH0h",
+            "https://drive.google.com/uc?export=view&id=1m6FPXvgNU5WewyqobzzWaN0CvkTgfotK",
+            "https://drive.google.com/uc?export=view&id=14ZNNrhgBPHqxvpYrj6j4ALgplSOU8pAb",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
