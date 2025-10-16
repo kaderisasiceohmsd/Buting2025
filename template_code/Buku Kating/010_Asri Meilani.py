@@ -132,7 +132,7 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damai",
                 "hobbi": "Nyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Abang ini seru Abiez",  
+                "kesan": "hai",  
                 "pesan":"Semangat Bang jadi Kahim!!"# 1
             },
             {
