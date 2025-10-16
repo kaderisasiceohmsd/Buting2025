@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Makan Pisang",
                 "sosmed": "@_erendraa",
-                "kesan": "Kakak rendra keren sekali jadi Kahim",  
-                "pesan": "Keren selalu ya kak!!" # 1
+                "kesan": "Kakaknya keren, baik dan asik",  
+                "pesan": "Dimudahkan semuanya ya kak apalagi di semester akhir. SEMANGATTT" 
             },
             {
                 "nama": "Kakak Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jalan Lapas",
                 "hobbi": "Baca buku sequel ",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "  ",  
-                "pesan": " " # 2
+                "kesan": "Abangnya lucu, asik dan keren",  
+                "pesan": "Semangat semester akhir kak, tetap andalkan Tuhan Yesus"# 1
             },
             {
                 "nama": "Kakak Elisabeth Claudia Simanjuntak",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Ayres Kost",
                 "hobbi": "Gangguin Orang",
                 "sosmed": "@celisabethh_",
-                "kesan": " ",  
-                "pesan": "  "# 1
+                "kesan": "Kakaknya keren dan asik",  
+                "pesan": "Semangat semester akhir kak, tetap andalkan Tuhan Yesus"# 1
             },
             {
                 "nama": "Kakak Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Tidur",
                 "sosmed": "@puspadrr",
-                "kesan": "  ",  
-                "pesan": "  "# 1
+                "kesan": "Kakaknya cantik dan lucu",  
+                "pesan": "Semangat kak"# 1
             },
             {
                 "nama": "Kakak Eksanty Febriana Sukma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Natar (Raden Intan)",
                 "hobbi": "Nemenin orang dari nol sampai jatuh ke jurang kemiskinan",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "   ",  
-                "pesan":" "# 1
+                "kesan": "Kakaknya lucu banget, orangnya asik",  
+                "pesan":"Semangat kak semester akhirnya"# 1
             },
              {
                 "nama": "Kakak Farahanum Afifah Ardiansyah",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifah",
-                "kesan": "  ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya cantik dan lucu",  
+                "pesan": "Semangat ya kak semester akhirnya"# 1
             },
             
         ]
@@ -206,7 +206,7 @@ elif menu == "Baleg":
                 "hobbi": "Melarikan Diri",
                 "sosmed": "@jeremia_s_ ",
                 "kesan": "Kakaknya manis, lucu ",  
-                "pesan": " Semoga dilancarkan semuanya dan dipermudah urusannya"# 1
+                "pesan": " Semoga dilancarkan semuanya dan dipermudah urusannya. Tetap andalkan Tuhan Yesus ya kak"# 1
             },
             {
                 "nama": "Kakak Dhea Amelia Putri",
@@ -282,8 +282,8 @@ elif menu == "Baleg":
                 "alamat": "Korpri",
                 "hobbi": "Istirahat",
                 "sosmed": "@myrrinn",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya keren banget",  
+                "pesan": "Tetap semangat ya kak"# 1
             },
               {
                 "nama": "Kakak Berliana Enda Putri",
@@ -293,8 +293,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Ngukir Sabun",
                 "sosmed": "@berlyyanda",
-                "kesan": "Keren kak Berlin",  
-                "pesan": " "# 1
+                "kesan": "Keren banget kakaknya",  
+                "pesan": "Tetap semangat ya kak"# 1
             },
               {
                 "nama": "Kakak Juesi Apridelia Saragih",
@@ -304,8 +304,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Mendengarkan wave to earth",
                 "sosmed": "@j__eesie",
-                "kesan": " ",  
-                "pesan": " " # 1
+                "kesan": "Kakaknya lucu, cheerfull banget",  
+                "pesan": "Tetap semangat ya kak" # 1
             },
               {
                 "nama": "Kakak Ridho Benedictus Togi Manik",
@@ -315,8 +315,8 @@ elif menu == "Baleg":
                 "alamat": "GH",
                 "hobbi": "Main Pedel",
                 "sosmed": "@iamridhomanik ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kakaknya keren banget",  
+                "pesan": "Tetap semangat ya kak"# 1
             },
               {
                 "nama": "Kakak Feryadi Yulius",
@@ -326,8 +326,8 @@ elif menu == "Baleg":
                 "alamat": "Kobang",
                 "hobbi": "Ngeliatin warna baju orang",
                 "sosmed": "@fer_yulius",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya keren",  
+                "pesan": "Tetap semangat kak"# 1
             },
             {
                 "nama": "Kakak Monica Patricia Tanjung",
@@ -337,8 +337,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Makan gula merah",
                 "sosmed": "@monica_tjg ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya cantik, lucu",  
+                "pesan": "Semangat ya kak"# 1
             },
             {
                 "nama": "Kakak Wan Nashwa Alhasni Yuska",
@@ -348,8 +348,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyapa Angin",
                 "sosmed": "@nshaysk ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya keren dan lucu",  
+                "pesan": "Semangat kakak"# 1
             },
             
         ]
@@ -373,8 +373,8 @@ elif menu == "Senator":
                 "alamat": "Pulau Damar",
                 "hobbi": "Tidur",
                 "sosmed": "@bintangtwinkle",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya keren banget sih, asik",  
+                "pesan": "Semangat kak"# 1
             },
             {
                 "nama": "Kakak Nadya Ratu Anjani",
@@ -384,8 +384,8 @@ elif menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Mendengar Lagu ",
                 "sosmed": "@nadyaanjaani",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kakaknya cantik",  
+                "pesan": "Semangat selalu kakak"# 1
             },
             {
                 "nama": "Kakak Fathinah Nur Azizah",
@@ -395,8 +395,8 @@ elif menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Melamun",
                 "sosmed": "@fathinahnazzh",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya cantik dan asik",  
+                "pesan": "Semangat selalu ya kak"# 1
             },
             {
                 "nama": "Kakak Lia Hana Ichisasmita",
@@ -406,8 +406,8 @@ elif menu == "Senator":
                 "alamat": "Indomaret Belwis",
                 "hobbi": "Main Roblox",
                 "sosmed": "@lia.h_264",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya cantik dan lucu",  
+                "pesan": "Semangat ya kak"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
