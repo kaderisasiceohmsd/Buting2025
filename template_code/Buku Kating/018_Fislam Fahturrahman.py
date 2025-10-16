@@ -100,12 +100,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=10O0CcwiROev0r6bU3JBdZvnYzuLiSmY4",
-            "https://drive.google.com/uc?export=view&id=1JLNJNz_XY1k4RvEzWSx0hIOccCuTh1JB",
-            "https://drive.google.com/uc?export=view&id=1vp_7Bx602WQwysEYpFGT_TZFasvbNgFZ",
-            "https://drive.google.com/uc?export=view&id=1W6N5ijLW742fpfjRjuVFio9KQyMIVdfN",
-            "https://drive.google.com/uc?export=view&id=1hbmH3I6sKsRTvJESxH6Py-NqFJzyygb3",
-            "https://drive.google.com/uc?export=view&id=1bq0SBkgywLH_3_n2-UOF37S8HnFo9LPg",
+            "https://drive.google.com/uc?export=view&id=1ndEPtz6SWZKzjSHoz0U7cadKd4q0ieI9",
+            "https://drive.google.com/uc?export=view&id=1ii-p8LGOrp_fvhngT7TnAK9pIsxrxoHg",
+            "https://drive.google.com/uc?export=view&id=14h-jruI3jiZ0AL389YpjB34fOWwsL1gB",
+            "https://drive.google.com/uc?export=view&id=1lihcVtEg92GrcUCo7PU_YvCN2q2NrKeA",
+            "https://drive.google.com/uc?export=view&id=1BmYm8d8pbAF55y4P7BiQjXcJ2J7Ay4Ui",
+            "https://drive.google.com/uc?export=view&id=1SJycobKn8JxTuKaCE22GdEnQoV32mbWB",
         ]
         data_list = [
             {
@@ -116,8 +116,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "beli donat kentang",
                 "sosmed": "@_erendraa",
-                "kesan": "Sangat berwibawa dan keren",  
-                "pesan":"Semangat terus bang menjalani hidup sebagai ketua"
+                "kesan": "Keren, abangnya humble pernah ngingetin sholat juga",  
+                "pesan":"Semangat terus kuliahnya menjalani hidup sebagai seorang Leader"
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
