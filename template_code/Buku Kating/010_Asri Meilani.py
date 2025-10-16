@@ -133,7 +133,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Nyanyi",
                 "sosmed": "@_erendraa",
                 "kesan": "hai",  
-                "pesan":"Semangat Bang jadi Kahim!!"# 1
+                "pesan":"hai hai Bang jadi Kahim!!"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
