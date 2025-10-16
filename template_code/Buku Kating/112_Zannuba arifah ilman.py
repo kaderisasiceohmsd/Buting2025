@@ -411,7 +411,7 @@ elif menu == "Senator":
         ]
         display_images_with_data(gambar_urls, data_list)
     Senator()
-    # Tambahkan menu lainnya sesuai kebutuhan
+   # Tambahkan menu lainnya sesuai kebutuhan
 if menu == "Departemen PSDA":
     def psda():
         gambar_urls = [
@@ -731,4 +731,6 @@ if menu == "Departemen PSDA":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-   psda()
+    psda()
+
+# Tambahkan menu lainnya sesuai kebutuhan
