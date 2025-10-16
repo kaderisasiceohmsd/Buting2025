@@ -120,7 +120,7 @@ if menu == "Kesekjenan":
             },
             {
                 "nama": "Johannes krisjon Silitonga",
-                "nim": "122450000",
+                "nim": "122450043",
                 "umur": "18",
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
