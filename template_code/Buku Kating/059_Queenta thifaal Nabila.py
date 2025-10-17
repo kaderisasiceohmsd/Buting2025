@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=15WhedyljD7bQvJIBpuOQE49gmOV5w71",
-            "https://drive.google.com/uc?export=view&id=15WhedyljD7bQvJIBpuOQE49gmOV5w71",
-            "https://drive.google.com/uc?export=view&id=1WPESi1JbEv9E3A6xsNhcCzO2lJ1ao8lx",
-            "https://drive.google.com/uc?export=view&id=1x8y1pqXyiVOxGs4OF3oSTkR_lCkXTmhy",
-            "https://drive.google.com/uc?export=view&id=1kGiOFOpZ-yweciuBowB3wCiiSEleFbHG",
-            "https://drive.google.com/uc?export=view&id=1dKaCqEDIWMqnhMSG3pZS3t4i3Yt_a1c4",
+            "https://drive.google.com/uc?export=view&id=18NqhHgGVd5_fUeumoG88m7gzxaMb8AAD",
+            "https://drive.google.com/uc?export=view&id=1ofplx9YOIMxaZsK53sRcOufZV_kQdUvP",
+            "https://drive.google.com/uc?export=view&id=1Xqn254RgvF_bLtSWm2SBPih5F_WdlNMt",
+            "https://drive.google.com/uc?export=view&id=15AvRWVpylYjfhSnIbrZJDepCehMjFJ5q",
+            "https://drive.google.com/uc?export=view&id=1j4Cur6ir6KhxvXELfxJc7-dZbnfDrdRi",
+            "https://drive.google.com/uc?export=view&id=1QOidBo8KiHfynYchxJOCZ-nwvxZaM51e",
         ]
         data_list = [
             {
@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "beli donat kentang",
                 "sosmed": "@_erendraa",
-                "kesan": "Tegas tapi perhatian, bikin kami jadi lebih disiplin",  
-                "pesan":"Semoga semangat dan kepemimpinan kakak terus menginspirasi !!!"# 1
+                "kesan": "Abangnya ramah, sabar, dan selalu bisa mencairkan suasana. Sosok yang tenang tapi bisa jadi tempat cerita yang menyenangkan",  
+                "pesan":"Terima kasih sudah menjadi contoh yang baik bagi kami. Semoga setiap langkah abang selalu diberi kemudahan dan kesuksesan"
             },
             {
                 "nama": "Johannes Krisjon Sitilonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "baca buku (dasar-dasar sql)",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Bijak dan punya pemikiran yang luas",  
-                "pesan":"semangat terus kuliahnya bang !!!"# 1
+                "kesan": ": Abang yang tegas tapi tetap rendah hati. Selalu hadir dengan sikap yang bijak dan tanggung jawab yang tinggi",  
+                "pesan":"Terima kasih sudah banyak membantu dan memotivasi kami. Semoga abang terus diberi semangat dan kesuksesan di setiap perjalanan hidupnya"
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -138,10 +138,9 @@ if menu == "Kesekjenan":
                 "hobbi": "siram shopee",
                 "sosmed": "@celisabethh_",
                 "kesan": "Kakaknya lembut dan sabar banget waktu menjelaskan ke kami",  
-                "pesan":"Terima kasih sudah jadi panutan, semoga karier kakak lancar selalu !!!"# 1
+                "pesan":"Terima kasih sudah jadi panutan, semoga karier kakak lancar selalu !!!"
             },
             {
-
                 "nama": "Syadza Puspandari Azhar",
                 "nim": "122450072",
                 "umur": "18",
@@ -149,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@celisabethh_",
-                "kesan": "Kakaknya lembut dan sabar banget waktu menjelaskan ke kami",  
-                "pesan":"Terima kasih sudah jadi panutan, semoga karier kakak lancar selalu !!!"# 1
+                "kesan": "Kakaknya lembut dan penuh perhatian. Selalu bisa membuat suasana terasa nyaman dan menyenangkan.",  
+                "pesan":"Terima kasih atas kebaikan dan bimbingannya. Semoga kakak selalu diberi kesehatan dan kebahagiaan di setiap langkah"
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
@@ -160,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "rajabasa",
                 "hobbi": "baca buku , saku pramuka",
                 "sosmed": "@ekshantyfebriana",
-                "kesan": "Punya energi positif yang bikin semangat",  
-                "pesan":"Semoga semua hal baik terus menyertai langkah kakak !!!"# 1
+                "kesan": "Kakaknya ceria dan bersemangat, selalu menularkan energi positif kepada orang di sekitarnya",  
+                "pesan":"Terima kasih sudah menjadi sosok yang menginspirasi. Semoga semangat kakak tidak pernah padam dalam mengejar cita-cita"
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -171,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "sukarame",
                 "hobbi": "tidur",
                 "sosmed": "@farahanumafifahh",
-                "kesan": "Seru banget bisa kenal kakak yang suportif dan penuh semangat!",  
-                "pesan":"Semoga semua impian kakak tercapai, dan jangan lupa mampir kasih semangat lagi ke kami !!!"# 1
+                "kesan": ": Kakaknya bijak dan penyabar, selalu bisa memberikan solusi dengan tenang",  
+                "pesan":"Terima kasih sudah banyak membantu dan membimbing dengan sabar. Semoga semua kebaikan kakak dibalas berlipat ganda"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
