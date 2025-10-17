@@ -195,6 +195,7 @@ if menu == "Kesekjenan":
     Kesekjenan()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+#
 
 if menu == "Baleg":
     def Baleg():

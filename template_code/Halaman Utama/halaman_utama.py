@@ -140,11 +140,11 @@ elif menu == "About Us":
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1djo1xGvZKuKjpGzBfYR-mStm9DiJ6S2g",
             "https://drive.google.com/uc?export=view&id=1tQAhvJOTqEg9zCiZdwSWpsr58CaFdsAp",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1J7X30B_JkoVfKcCJSrVi8qWngonPOUDj",
+            "https://drive.google.com/uc?export=view&id=1zJDX0OggTE77AeUwLyH3ErEhkexCtYfv",
+            "https://drive.google.com/uc?export=view&id=1AaZewHnz5nRQDBg34iW5dAdx6KsP3M9Y",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -163,8 +163,8 @@ elif menu == "About Us":
                 "nama": "Asri Meilani",
                 "sebagai": "Bulu Gorjes",
                 "nim": "124450010",
-                "fun_fact": "-",
-                "motto_hidup": "-",
+                "fun_fact": "Suka Makan Wortel Mentah",
+                "motto_hidup": "in order to love who you are, you must not hate the experience that shaped you.",
             },
             {
                 "nama": "Jeremia Halim",
@@ -203,7 +203,7 @@ elif menu == "About Us":
             },
             {
                 "nama": "Jona Timothy Ogatse Panjaitan",
-                "sebagai": "member anova",
+                "sebagai": "member nya anova",
                 "nim": "124450121",
                 "fun_fact": "bisa bunyiin tangan(kecapin)",
                 "motto_hidup": "Chase goals at sunrise, not excuses at sunset",
