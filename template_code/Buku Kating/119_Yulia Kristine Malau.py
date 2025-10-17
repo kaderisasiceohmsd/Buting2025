@@ -179,3 +179,4 @@ if menu == "Kesekjenan":
 
 # Tambahkan menu lainnya sesuai kebutuhan
 
+
