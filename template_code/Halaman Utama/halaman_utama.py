@@ -140,13 +140,6 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
         ]
         data_list = [
             {
@@ -180,9 +173,9 @@ elif menu == "About Us":
             {
                 "nama": "Elsa",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "122450088",
+                "fun_fact": "Makan sayur tapi, ga makan tangkainya",
+                "motto_hidup": "Untuk segala sesuatu ada masanya, untuk apa pun di bawah langit ada waktunya.",
             },
             {
                 "nama": "Favian",
@@ -213,11 +206,11 @@ elif menu == "About Us":
                 "motto_hidup": "Man Jadda Wa Jadda",
             },
             {
-                "nama": "Nazlah Auliya",
+                "nama": "Nazlah",
                 "sebagai": "Anggotaa",
-                "nim": "124450054",
-                "fun_fact": "Suka Kucing tapi gasuka kucing kecil",
-                "motto_hidup": "tebarlah kebaikan maka ia akan kembali kepadamu",
+                "nim": "122450110",
+                "fun_fact": "nyemilin es bata, kiko",
+                "motto_hidup": "jalanin dulu keles",
             },
             {
                 "nama": "Razan",
