@@ -435,7 +435,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1dykVpP6VTa4HZ9ZHvDGenFxEVuDUrB8y",
             "https://drive.google.com/uc?export=view&id=1vizzno5rZKaJg6Zv9GCZq9nPaOFobx9v",
             "https://drive.google.com/uc?export=view&id=18yE59Im3mDlOItbQzVF2snbL02mVQayW",
-            "https://drive.google.com/uc?export=view&id=000",
+            "https://drive.google.com/uc?export=view&id=1NEA02rvjxWZiXIDSXFkjoiPiSbm0bWhF",
             "https://drive.google.com/uc?export=view&id=1HwcDKOeAu9xna7ReMm7jHG9qWvnt0-_g",
             "https://drive.google.com/uc?export=view&id=1WbRqFYPhJUojnW18trxMhadldrtTy53R",
             "https://drive.google.com/uc?export=view&id=1DotoW71FlXDLFRjslR6KIWSr9oLXmNZv",
@@ -730,7 +730,7 @@ if menu == "Departemen PSDA":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Psda()
+    PSDA()
 
 if menu == "Departemen MIKFES":
     def MIKFES():
@@ -1004,6 +1004,306 @@ if menu == "Departemen MIKFES":
         ]
         display_images_with_data(gambar_urls, data_list)
     MIKFES()
+
+if menu == "Departemen Eksternal":
+    def Eksternal():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=000",
+            "https://drive.google.com/uc?export=view&id=000",
+            "https://drive.google.com/uc?export=view&id=000U",
+            "https://drive.google.com/uc?export=view&id=000",
+            "https://drive.google.com/uc?export=view&id=1greRFBeVcvJV3QbRCdMAi1bAvKWjC_zF",
+            "https://drive.google.com/uc?export=view&id=1JK35Asi0XZPcz_UTGYcZ03J7QUjFws9e",
+            "https://drive.google.com/uc?export=view&id=1rMckCAhl-LMzKqJPi5XZVBThXOMXtbcC",
+            "https://drive.google.com/uc?export=view&id=1faJSKGK8JVOZM9gVfZzEuvjfTDok4N6i",
+            "https://drive.google.com/uc?export=view&id=1v1UelcHZPmsaqLgDFPeLzN5bWsxNFIE7",
+            "https://drive.google.com/uc?export=view&id=1cMn4OmPSVIFybiPHmieZGGinMslOTk8d",
+            "https://drive.google.com/uc?export=view&id=1FVsquGm547BU3xno_MyFaqT7ulrQ5lt3",
+            "https://drive.google.com/uc?export=view&id=1Np3DSYBEGq3u1UgBitJDf_Ny7P6aF0kw",
+            "https://drive.google.com/uc?export=view&id=154oX7H7y9GHbsi3bw_rfJbUU26gwjzNQ",
+            "https://drive.google.com/uc?export=view&id=1YC18MCFbcNy5M6DOMbVPo0dqBlllC6eH",
+            "https://drive.google.com/uc?export=view&id=1V7PqvtMsmWSSgUYUsoZD1DPCfChawtN8",
+            "https://drive.google.com/uc?export=view&id=1EAp4oM3QRtQEC1DymvHFwXORXkyLxYMo",
+            "https://drive.google.com/uc?export=view&id=1KN7MEK-ZHD_E85ND6ayPiet6CyqQTfE-",
+            "https://drive.google.com/uc?export=view&id=1JBY0bYsiOPyf92RspdDFkQ6rUqZbgDfl",
+            "https://drive.google.com/uc?export=view&id=1dykVpP6VTa4HZ9ZHvDGenFxEVuDUrB8y",
+            "https://drive.google.com/uc?export=view&id=1vizzno5rZKaJg6Zv9GCZq9nPaOFobx9v",
+            "https://drive.google.com/uc?export=view&id=18yE59Im3mDlOItbQzVF2snbL02mVQayW",
+            "https://drive.google.com/uc?export=view&id=000",
+            "https://drive.google.com/uc?export=view&id=1HwcDKOeAu9xna7ReMm7jHG9qWvnt0-_g",
+            "https://drive.google.com/uc?export=view&id=1WbRqFYPhJUojnW18trxMhadldrtTy53R",
+            "https://drive.google.com/uc?export=view&id=1DotoW71FlXDLFRjslR6KIWSr9oLXmNZv",
+            "https://drive.google.com/uc?export=view&id=1i7eWGVIO8GmcORPzHmqaIpnTIedT4qFK",
+        ]
+        data_list = [
+            {
+                "nama": "Arafi Ramadhan Maulana",
+                "nim": "122450002",
+                "umur": "20",
+                "asal":"Spanyol",
+                "alamat": "Asrama",
+                "hobbi": "Bank BSI",
+                "sosmed": "@ferdy_kevin",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Yohana Manik",
+                "nim": "-122450126",
+                "umur": "20",
+                "asal":"Usul",
+                "alamat": "Jln. Hidup",
+                "hobbi": "Balajar",
+                "sosmed": "@yo_anamnk",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Ratu Keisha Jasmine Deanova",
+                "nim": "122450106",
+                "umur": "21",
+                "asal":"Bogor",
+                "alamat": "Way Kandis",
+                "hobbi": "Nyetrika baju",
+                "sosmed": "@jasminednva",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Arini Puteri Elandra",
+                "nim": "123450069",
+                "umur": "20",
+                "asal": "Lampung",
+                "alamat": "Teluk, Bandar Lampung",
+                "hobbi": "Jalan jalan berkeliling dunia",
+                "sosmed": "@elandraa_",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Arya Muda Siregar",
+                "nim": "-",
+                "umur": "-",
+                "asal":"-",
+                "alamat": "-",
+                "hobbi": "ngelamun",
+                "sosmed": "@ahmad.rizky___",
+                "kesan": "-",  
+                "pesan":"@aryamudasiregar"# 1
+            },
+            {
+                "nama": "Khoirul Muttoharoh",
+                "nim": "123450097",
+                "umur": "20",
+                "asal":"Kalianda",
+                "alamat": "sebelah  kos bang dapa",
+                "hobbi": "Liatin Haikal",
+                "sosmed": "@arientakhsnl_",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Lutfia Aisyah Putri",
+                "nim": "123450025",
+                "umur": "21",
+                "asal":"Sumatera Barat",
+                "alamat": "sebelah kos kak arin",
+                "hobbi": "Isengin Fislam",
+                "sosmed": "@daffahdynn_",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Nabyla Sharfina",
+                "nim": "123450103",
+                "umur": "20",
+                "asal": "Cikarang",
+                "alamat": "Sama kek bang ahmad",
+                "hobbi": "Banyak",
+                "sosmed": "@ginda_mrp",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Syahrialdi Rachim Akbar",
+                "nim": "",
+                "umur": "-",
+                "asal":"-",
+                "alamat": "-",
+                "hobbi": "-",
+                "sosmed": "-",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Dea Mutia Risani",
+                "nim": "123450117",
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Gg. Perwira",
+                "hobbi": "Ngakader",
+                "sosmed": "@berlyyyanda",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Cindy Laura Manik",
+                "nim": "122450022",
+                "umur": "-",
+                "asal": "Sumatra Barat",
+                "alamat": "-",
+                "hobbi": "Mancing Keributan",
+                "sosmed": "@ji_gumel17",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Dea Amanda",
+                "nim": "-",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobbi": "-",
+                "sosmed": "@vany.salsabilaa",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Desman Velius Halawa",
+                "nim": "122450044",
+                "umur": "21",
+                "asal": "Tulang Bawang",
+                "alamat": "Sukarame",
+                "hobbi": "Bulu Tangkis",
+                "sosmed": "@sahid22",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Devyna Sonya Palupi Sanjaya",
+                "nim": "-",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobbi": "-",
+                "sosmed": "@ali_parisi3",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Luthfia Laila Ramadhani",
+                "nim": "123450046",
+                "umur": "20",
+                "asal": "Bekasi",
+                "alamat": "Waydadi",
+                "hobbi": "Tidur",
+                "sosmed": "@verazkaa",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Irvan Alfaritzi",
+                "nim": "123450034",
+                "umur": "20",
+                "asal":"Way Kanan",
+                "alamat": "Untung",
+                "hobbi": "Scroll TikTok",
+                "sosmed": "@risma.mustika_",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Aditya Taufiqurrohman",
+                "nim": "123450036",
+                "umur": "21",
+                "asal":"@ty_tq90",
+                "alamat": "Belwis",
+                "hobbi": "Main Roblox Open the new map",
+                "sosmed": "@ty_tq90",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Fathya Intami Gusda",
+                "nim": "123450095",
+                "umur": "19",
+                "asal":"Tanggerang Selatan",
+                "alamat": "Sukarame",
+                "hobbi": "minta tolong adit",
+                "sosmed": @fatthyaa_",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Khazanatil Ilmi",
+                "nim": "123450053",
+                "umur": "20",
+                "asal":"Padang",
+                "alamat": "Korpri Raya",
+                "hobbi": "nonton",
+                "sosmed": "@khazatil_ilmi05",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Melinza Nabila",
+                "nim": "123450122",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Kedamaian",
+                "hobbi": "Nonton film",
+                "sosmed": "@melynznb",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Nayla Shafira Roza",
+                "nim": "123450017",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Kedamaian",
+                "hobbi": "Me Time",
+                "sosmed": "@n.shafirarz",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Nurul Izzah Istiqomah",
+                "nim": "123450054",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Gang Nalim",
+                "hobbi": "Baking",
+                "sosmed": "@izzah_tq",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Qois Olifio",
+                "nim": "123450067",
+                "umur": "21",
+                "asal": "Batam, Kepri",
+                "alamat": "Gang Sakum",
+                "hobbi": "Ngabisin Bensin",
+                "sosmed": "@qoisolifio_",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+            {
+                "nama": "Tarisya hidayatul rahmi",
+                "nim": "123450052",
+                "umur": "21",
+                "asal": "Sumatera Barat",
+                "alamat": "Korpri",
+                "hobbi": "Jelajah desa Lamsel",
+                "sosmed": "@tari_sya",
+                "kesan": "-",  
+                "pesan":"-"# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Eksternal()
+
 
 
 
