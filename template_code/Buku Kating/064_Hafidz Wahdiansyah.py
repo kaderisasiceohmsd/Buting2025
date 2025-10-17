@@ -1010,3 +1010,301 @@ if menu == "Departemen MIKFES":
         ]
         display_images_with_data(gambar_urls, data_list)
     mikfes()
+    
+# Tambahkan menu lainnya sesuai kebutuhan
+if menu == "Departemen Eksternal":
+    def eksternal():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1C26j5JQQsgihLQC6y_twwSUK_iQQ8JVA",
+            "https://drive.google.com/uc?export=view&id=1b_M2SM9fX1wlBh0B6Z3ILCrJHzrl2snN",
+            "https://drive.google.com/uc?export=view&id=1SpBTx2KSVJN2aLqVs-Feuh6vBG5150Za",
+            "https://drive.google.com/uc?export=view&id=1MunHF0i0DBaRHxVeOgyYfkEQtG3e8LZ_",
+            "https://drive.google.com/uc?export=view&id=1m6myRe6NrhuUdUZ8ofDAwotKb6vQjT04",
+            "https://drive.google.com/uc?export=view&id=12G3itItbJz-wzCRf6OcvRrE_xljTbqbt",
+            "https://drive.google.com/uc?export=view&id=1QWtL-zFYXcO0O0Ws2IONWWA60O3zQPBH",
+            "https://drive.google.com/uc?export=view&id=1KRSHn9uRpv2VLmqDtDKfuG5dmsiZf21m",
+            "https://drive.google.com/uc?export=view&id=1Ax6319f11K_PoVK6_K3fFVOeftsqLzEy",
+            "https://drive.google.com/uc?export=view&id=1XUNDS7RquVZ3r4AYgthWPqJEdrCaqc8W",
+            "https://drive.google.com/uc?export=view&id=1wW2B3ivWSI-LfldO09tN_tbciPaCrBAo",
+            "https://drive.google.com/uc?export=view&id=1cgwMQU2b22S4OAs2PF-AHSd8YMuc3If0",
+            "https://drive.google.com/uc?export=view&id=1aAC1PEBCYkjL0UxGX4flOiEmRVN7c00B",
+            "https://drive.google.com/uc?export=view&id=1T3exMef4y9duY8lDCi8u99Zy1weAJIp-",
+            "https://drive.google.com/uc?export=view&id=1m6myRe6NrhuUdUZ8ofDAwotKb6vQjT04",
+            "https://drive.google.com/uc?export=view&id=1iokAPMnM6QobWuBRRi1MINDOWg_jlWof",
+            "https://drive.google.com/uc?export=view&id=1qr2Yse63JQKV61uhLidn-2ju8hVWYK9z",
+            "https://drive.google.com/uc?export=view&id=17wxAWgDMbQW2amYd2DajbtEmygVVpLQb",
+            "https://drive.google.com/uc?export=view&id=1zWD4DC8citgoCJ8dqOBLtblenk0K6rmv",
+            "https://drive.google.com/uc?export=view&id=1sOgluXXBmg5w_6lNXf8Ox8Egue2PPkVH",
+            "https://drive.google.com/uc?export=view&id=1h6Z-64aM2riDLJraqKnm_jE3dU6jfJXz",
+            "https://drive.google.com/uc?export=view&id=1RFJ-ZT1NoSrrr54GXA0VrfRj4JWDPzZX",
+            "https://drive.google.com/uc?export=view&id=1NAXVSHb_bxaJGhMEvxsVTndFUa-6f33h",
+            "https://drive.google.com/uc?export=view&id=1NAXVSHb_bxaJGhMEvxsVTndFUa-6f33h",
+        ]
+        data_list = [
+            {
+                "nama": "Arafi Ramadhan Maulana",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""
+            },
+           {
+                "nama": "Yohana Manik",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+             {
+                "nama": "Ratu Keisha Jasmine Deanova",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+              {
+                "nama": "Arini Puteri Elandra",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+           {
+                "nama": "Arya Muda Siregar",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Khoirul Muttoharoh",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Lutfia Aisyah Putri",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Nabyla Sharfina",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Syahrialdi Rachim Akbar",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Dea Mutia Risani",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Cindy Laura Manik",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Dea Amanda",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Desman Velius Halawa",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Devyna Sonya Palupi Sanjaya",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Luthfia Laila Ramadhani",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Irvan Alfaritzi",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Aditya Taufiqurrohman",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Fathya Intami Gusda",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Khazanatil Ilmi",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Melinza Nabila",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Nayla Shafira Roza",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Nurul Izzah Istiqomah",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Qois Olifio",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Tarisya hidayatul rahmi",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    eksternal()
