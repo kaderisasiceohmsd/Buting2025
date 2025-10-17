@@ -206,7 +206,7 @@ if menu == "Baleg":
                 "hobbi": "Zumba di pln setiap jumat pagi",
                 "sosmed": "@jeremia.s",
                 "kesan": "Abangnya kalem tapi seru banget kalau udah diajak ngobrol",  
-                "pesan":"Semoga selalu diberi kelancaran dan jangan lupa main bareng adik-adik lagi!"# 1
+                "pesan":"Semoga selalu diberi kelancaran dan jangan lupa main bareng adik-adik lagi!"
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -217,7 +217,7 @@ if menu == "Baleg":
                 "hobbi": "Suka buat setan minder",
                 "sosmed": "@_.dheamelia",
                 "kesan": "Lembut tapi tegas, sosok kakak yang bijak banget",  
-                "pesan":"Semoga selalu bahagia dan terus jadi panutan kami semua!"# 1
+                "pesan":"Semoga selalu bahagia dan terus jadi panutan kami semua!"
             },
             {
                 "nama": "Renisha Putri Giani",
@@ -316,7 +316,7 @@ if menu == "Baleg":
                 "hobbi": "Main  Padel",
                 "sosmed": "@ianridhomanik",
                 "kesan": "Gampang akrab sama siapa pun, humble banget",  
-                "pesan":"Jangan pernah berubah, semoga sukses di semua hal yang abang kerjain!"# 1
+                "pesan":"Jangan pernah berubah, semoga sukses di semua hal yang abang kerjain!"
             },
             {
                 "nama": "Feryadi Yulius",
@@ -338,7 +338,7 @@ if menu == "Baleg":
                 "hobbi": "Memanah",
                 "sosmed": "@monca_tjg",
                 "kesan": "Disiplin dan tangguh, tapi tetap care sama adik-adiknya.",  
-                "pesan":"Semoga kakak terus semangat dan jadi inspirasi banyak orang!"# 1
+                "pesan":"Semoga kakak terus semangat dan jadi inspirasi banyak orang!"
             },
             {
                 "nama": "Wan Nashwa Alhasni Yuska",
@@ -349,7 +349,7 @@ if menu == "Baleg":
                 "hobbi": "Nyapa Angin",
                 "sosmed": "@nshaysk",
                 "kesan": "Baik hati dan selalu siap bantu tanpa banyak bicara.",  
-                "pesan":"Makasih atas semua kebaikannya, semoga dibalas berkali lipat!"# 1
+                "pesan":"Makasih atas semua kebaikannya, semoga dibalas berkali lipat!"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
