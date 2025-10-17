@@ -1852,17 +1852,9 @@ if menu == "Departemen Medkraf":
                 "hobbi": "Billiard dan volly",
                 "sosmed": "@mananam_",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
+                "pesan":"semangat terus kuliahnya kakakk !!!"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
     medkraf()
 
-
-
-
-
-# Tambahkan menu lainnya sesuai kebutuhan
-
-
-# Tambahkan menu lainnya sesuai kebutuhan
