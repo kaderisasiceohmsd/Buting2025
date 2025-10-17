@@ -181,20 +181,20 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1pDgvJzfBbScLJ2caJKuXnMVC-O6M-Bmw",
-            "https://drive.google.com/uc?export=view&id=1f4F0mzAsHOpxueLXUU8DfS3rAsYotwdN",
-            "https://drive.google.com/uc?export=view&id=14MVjnyAc238OfxAvaoAaSNSByljlrnLA",
-            "https://drive.google.com/uc?export=view&id=1ActJPLQAEvsukaaDww03eQb8OaOjIuGs",
-            "https://drive.google.com/uc?export=view&id=1BlKYDKZdQoY8ZJZQ-aPTKskvKmHi5SKJ",
-            "https://drive.google.com/uc?export=view&id=1cpbpGkeexlhHugcrt8WBJj1e138t_Dkx",
-            "https://drive.google.com/uc?export=view&id=1UFcr0rw47Pn-8jlVq8uybZhIq4DFUsQR",
-            "https://drive.google.com/uc?export=view&id=1jEZb31lcDwPuFe-Z7NmaUxm_S9x4XkWH",
-            "https://drive.google.com/uc?export=view&id=1XKvgTMzk8a3VzPNXnmzSqrqE8iiR0uFO",
-            "https://drive.google.com/uc?export=view&id=1pzljJSFLgfioLHaepkdCZ1vJuRtv4Vm3",
-            "https://drive.google.com/uc?export=view&id=1Fx-D-_OKBdZo7R-33AAUAAEchHy5pdK1",
-            "https://drive.google.com/uc?export=view&id=1qVAkFlxbxCzkMl080wlcslrZUgQBfQ03",
-            "https://drive.google.com/uc?export=view&id=17uazMsFhy4nzkev7E7_jsG-56uyKyLW-",
-            "https://drive.google.com/uc?export=view&id=149KJ_6fXwYGXCdRjybnU8xWCe1JM5Cbs",
+            "https://drive.google.com/uc?export=view&id=1rNO20NnVvKsUpIDmT-K5HunibmZZ0abV",
+            "https://drive.google.com/uc?export=view&id=1cqjmr5dy356sHoR-zU7gdThn6bNdyyxv",
+            "https://drive.google.com/uc?export=view&id=1UengXToOnncgq_a7VL9Y0DKpp9NY6mop",
+            "https://drive.google.com/uc?export=view&id=1TOJ9CMl1a7pTeaNj7VipiaMWX8QrxtuD",
+            "https://drive.google.com/uc?export=view&id=1dz6U5OJKzNxQcy_N28QEHFJ-rxp0Xx7c",
+            "https://drive.google.com/uc?export=view&id=15oTXcaK355m1pGKlpZxs1VcO8rbn6bG0",
+            "https://drive.google.com/uc?export=view&id=1hwNUytpFR43k0cZm813b-l-KE9UvZVqO",
+            "https://drive.google.com/uc?export=view&id=1xw6YjJCuiDDOLX7UWRGO4y7p4VQFs3AU",
+            "https://drive.google.com/uc?export=view&id=1FTUZDHJi4RNbsC1a395b4anE1c8wCQ7N",
+            "https://drive.google.com/uc?export=view&id=1qeNHZHlir0EsVqs5x5K35D6Vp44YFAvZ",
+            "https://drive.google.com/uc?export=view&id=1nx0Qolaqqe_yy7zyIFprXYeIq68O5T85",
+            "https://drive.google.com/uc?export=view&id=17ovsCP8sJE3barvjmELfQGN1xZnBTvve",
+            "https://drive.google.com/uc?export=view&id=1fUW1UDbJQSG0GIVdpNVp0DnVxTBVT77J",
+            "https://drive.google.com/uc?export=view&id=1htd20bCDyDMYv2bmJN2iabQGHdZinmQ9",
         ]
         data_list = [
             {
@@ -205,8 +205,8 @@ if menu == "Baleg":
                 "alamat": "Pulau Damar",
                 "hobbi": "Zumba di pln setiap jumat pagi",
                 "sosmed": "@jeremia.s",
-                "kesan": "Kakaknya keren dan humble banget",  
-                "pesan":"Semoga makin sukses dan terus jadi inspirasi buat kami!"# 1
+                "kesan": "Abangnya kalem tapi seru banget kalau udah diajak ngobrol",  
+                "pesan":"Semoga selalu diberi kelancaran dan jangan lupa main bareng adik-adik lagi!"# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -216,8 +216,8 @@ if menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "Suka buat setan minder",
                 "sosmed": "@_.dheamelia",
-                "kesan": "Ramah tapi juga tegas, panutan banget",  
-                "pesan":"Jangan bosen ngasih arahan ke adek-adek ya kak!"# 1
+                "kesan": "Lembut tapi tegas, sosok kakak yang bijak banget",  
+                "pesan":"Semoga selalu bahagia dan terus jadi panutan kami semua!"# 1
             },
             {
                 "nama": "Renisha Putri Giani",
@@ -227,8 +227,8 @@ if menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "Jualan pancing",
                 "sosmed": "@renishapg",
-                "kesan": "Kakak tampak tenang dan bijak dalam bersikap.",  
-                "pesan":"Semoga bisa mengenal kakak lebih dekat lagi ke depannya."
+                "kesan": Ceria dan rame, selalu bawa suasana positif ke mana pun..",  
+                "pesan":"Tetap jadi kakak yang penuh semangat dan nyebarin energi baik ya."
             },
             {
                 "nama": "Anisa Fitriyani",
@@ -238,8 +238,8 @@ if menu == "Baleg":
                 "alamat": "C2",
                 "hobbi": "Belajar Mengaji",
                 "sosmed": "@ansftynn_",
-                "kesan": "Kakak orangnya santai tapi tetap terarah dalam bersikap.",  
-                "pesan":"Semoga kakak selalu sukses dan terus menginspirasi."
+                "kesan": "Teliti dan tanggung jawabnya tinggi banget.",  
+                "pesan":"Semoga semua kerja keras kakak dibalas dengan kesuksesan besar."
             },
             {
                 "nama": "Dharu Cahyo Aji Sasongko",
@@ -249,8 +249,8 @@ if menu == "Baleg":
                 "alamat": "Way Halim",
                 "hobbi": "Bengong",
                 "sosmed": "@dhruchyo",
-                "kesan": "Kakak punya kepribadian yang menarik dan sopan.",  
-                "pesan":"Semoga ke depannya bisa lebih banyak mengenal kakak."
+                "kesan": "Gampang akrab sama siapa pun, humble banget.",  
+                "pesan":"Jangan pernah berubah, semoga sukses di semua hal yang abang kerjain."
             },
             {
                 "nama": "Feby Wulandari",
@@ -260,8 +260,8 @@ if menu == "Baleg":
                 "alamat": "Way Huwi",
                 "hobbi": "Menggodai Abang Cimol",
                 "sosmed": "@fby.wlndr",
-                "kesan": "Walau baru kenal sebentar, kakak terlihat positif dan inspiratif.",  
-                "pesan":"Terima kasih sudah memberi kesan baik sejak awal."
+                "kesan": "Perhatian dan penyayang, kayak kakak sendiri di rumah.",  
+                "pesan":"Terima kasih udah selalu support dan kasih semangat ke kami."
             },
             {
                 "nama": "Givaro Ananta",
@@ -271,8 +271,8 @@ if menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Mendengarkan musik",
                 "sosmed": "@givarooo",
-                "kesan": "Dari pertemuan singkat saja sudah terlihat kalau kakak punya semangat positif.",  
-                "pesan":"Semoga semangat itu bisa terus kakak jaga dan sebarkan"
+                "kesan": "Kocak dan santai, bikin suasana selalu cair.",  
+                "pesan":"Tetap jadi abang yang rame dan gak berubah ya"
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
@@ -282,8 +282,8 @@ if menu == "Baleg":
                 "alamat": "Korpri",
                 "hobbi": "Istirahat",
                 "sosmed": "@myrrinn",
-                "kesan": "Kaknya berwibawa tapi tetap asik",  
-                "pesan":"Semoga sukses selalu dan tetap rendah hati!"
+                "kesan": "Wibawanya kerasa banget, kayak pemimpin sejati.",  
+                "pesan":"Semoga langkah abang selalu dimudahkan dan terus jadi inspirasi!"
             },
             {
                 "nama": "Berliana Enda Putri",
@@ -304,8 +304,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Sibuk",
                 "sosmed": "@j__eesia",
-                "kesan": "Kakaknya calm banget walau suasana chaos",  
-                "pesan":"Semoga selalu tenang dan sabar hadapi dunia perkuliahan"
+                "kesan": "Kalem tapi lucu, selalu bikin suasana adem.",  
+                "pesan":"Jangan berubah ya kak, tetap jadi sosok yang menenangkan"
             },
             {
                 "nama": "Ridho Benedictus Togi Manik",
@@ -315,8 +315,8 @@ if menu == "Baleg":
                 "alamat": "Gang Sakung",
                 "hobbi": "Main  Padel",
                 "sosmed": "@ianridhomanik",
-                "kesan": "Kaknya produktif parah, panutan banget",  
-                "pesan":"Semoga semua project-nya lancar terus kak!"# 1
+                "kesan": "Gampang akrab sama siapa pun, humble banget",  
+                "pesan":"Jangan pernah berubah, semoga sukses di semua hal yang abang kerjain!"# 1
             },
             {
                 "nama": "Feryadi Yulius",
@@ -326,19 +326,19 @@ if menu == "Baleg":
                 "alamat": "Kobam",
                 "hobbi": "Nongkrong di gedung f",
                 "sosmed": "@fer_yulius",
-                "kesan": "Kakak tingkat adalah sosok yang berwibawa dan bisa diandalkan.",  
-                "pesan":"Semoga setiap langkah kakak selalu dipenuhi keberhasilan dan kebahagiaan."
+                "kesan": "Pendiam tapi perhatian, selalu ada saat dibutuhin.",  
+                "pesan":"Terima kasih udah selalu dengerin dan kasih saran yang nenangin."
             },
             {
-                "nama": "Monika Patricia Tanjung",
+                "nama": "Monica Patricia Tanjung",
                 "nim": "123450073",
                 "umur": "19",
                 "asal": "Ketapang, Kalimantan Barat",
                 "alamat": "Belwis",
                 "hobbi": "Memanah",
                 "sosmed": "@monca_tjg",
-                "kesan": "Ramah tapi juga tegas, panutan banget",  
-                "pesan":"Jangan bosen ngasih arahan ke adek-adek ya kak!"# 1
+                "kesan": "Disiplin dan tangguh, tapi tetap care sama adik-adiknya.",  
+                "pesan":"Semoga kakak terus semangat dan jadi inspirasi banyak orang!"# 1
             },
             {
                 "nama": "Wan Nashwa Alhasni Yuska",
@@ -348,8 +348,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyapa Angin",
                 "sosmed": "@nshaysk",
-                "kesan": "Kakak pendiam tapi kalau ngomong dalem banget",  
-                "pesan":"Terus jadi sosok inspiratif ya kak!"# 1
+                "kesan": "Baik hati dan selalu siap bantu tanpa banyak bicara.",  
+                "pesan":"Makasih atas semua kebaikannya, semoga dibalas berkali lipat!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
