@@ -61,7 +61,7 @@ Mahasiswa8 = st.Page(
 )
 
 Mahasiswa9 = st.Page(
-    "Buku Kating/124_Shafa Deilaila Azzahra.py",
+    "Buku Kating/124_Shafa Delaila Azzahra.py",
     title="124 - Shafa Delaila Azzahra",
     icon=":material/person:",
 )
