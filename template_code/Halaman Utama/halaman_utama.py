@@ -58,7 +58,7 @@ def layout(url):
     with col1:
         st.write("")  # Menyisakan kolom kosong
     with col2:
-        st.image(load_image(url), use_container_width="True", width=350)
+        st.image(load_image(url), use_container_width=True, width=350)
     with col3:
         st.write("")  # Menyisakan kolom kosong
 
