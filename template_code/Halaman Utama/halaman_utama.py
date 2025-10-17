@@ -203,7 +203,7 @@ elif menu == "About Us":
             },
             {
                 "nama": "Jona Timothy Ogatse Panjaitan",
-                "sebagai": "member anova",
+                "sebagai": "member nya anova",
                 "nim": "124450121",
                 "fun_fact": "bisa bunyiin tangan(kecapin)",
                 "motto_hidup": "Chase goals at sunrise, not excuses at sunset",
