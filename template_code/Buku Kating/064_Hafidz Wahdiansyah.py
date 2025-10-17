@@ -739,32 +739,32 @@ if menu == "Departemen PSDA":
 if menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=1o8z8hutyViicPj-VnDPPstcF1X_Q2j-O",
+            "https://drive.google.com/uc?export=view&id=1op7XUix3M3DLxwkVZRAwArPLgJYHdhxl",
+            "https://drive.google.com/uc?export=view&id=1p1KN57riYl9_rYp4j_HkXct0Lk7-_P4C",
+            "https://drive.google.com/uc?export=view&id=1oHmU0FYjyFv5BdcjQOQrwNtRxL1f5C6f",
+            "https://drive.google.com/uc?export=view&id=1k966nWStMGziSz90PyuSVCXLkabDEWbJ",
+            "https://drive.google.com/uc?export=view&id=1rkK5Gl3WPojkgUIhPGITp8XnNjcgDW0O",
+            "https://drive.google.com/uc?export=view&id=1psVxrEW_ZzLk_Xx0y7kQIK02QDZU2w-y",
+            "https://drive.google.com/uc?export=view&id=18d3SRYpRHvRVeF5LiYfN2fZsijrp0KGt",
+            "https://drive.google.com/uc?export=view&id=14ZZou3yFXL7fGOfskLvpxkSXypLXohYX",
+            "https://drive.google.com/uc?export=view&id=1IwT8DiPXVKFwEtnNknr2zTe7pnAGj3Mm",
+            "https://drive.google.com/uc?export=view&id=1-SK7Y2vR5AQvdZySaiAKPoYrlLQ5_IUG",
+            "https://drive.google.com/uc?export=view&id=1tW4cPbEI0vgE6XyESkQcY7iyYAcW346e",
+            "https://drive.google.com/uc?export=view&id=1UcStdBDDp9jOvQz6dHbB4t3k0lx4yY3N",
+            "https://drive.google.com/uc?export=view&id=1_4RiMKc9XwmRFUJBR-zCVo1E0YhLEUAs",
+            "https://drive.google.com/uc?export=view&id=1LBM_YQQcfCJjtH15Ye8rdcP0xEm7B2Im",
+            "https://drive.google.com/uc?export=view&id=1OpfRQLfbCjYHJLNHtpbHs1asyZhmLimS",
+            "https://drive.google.com/uc?export=view&id=11WHiO5mp3P8rTDWsZKH1HClS5ss8ATkF",
+            "https://drive.google.com/uc?export=view&id=1WE8dn_kakbRUjf5hNfWn5jztWM1MAze1",
+            "https://drive.google.com/uc?export=view&id=1NJcoUaR9WQQRX8-aDqUWqrYyJVeYjkE9",
+            "https://drive.google.com/uc?export=view&id=1B2qOUWtUXicC-ucxypm1IvzFUC-C2b7j",
+            "https://drive.google.com/uc?export=view&id=1h0p7J8BCHcD39aQ3is4MsbxCN68kOHET",
+            "https://drive.google.com/uc?export=view&id=1CKfbEM5NtCSNj38LigK4iOObA-nfa4Nt",
         ]
         data_list = [
             {
-                "nama": "Ferdy Kevin Naibaho",
+                "nama": "Randa Andriana Putra",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -775,7 +775,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""
             },
            {
-                "nama": "Nisrina Nur Afifah",
+                "nama": "Rut Junita Sari Siburian",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -786,7 +786,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
              {
-                "nama": "Allya Nurul Islami Pasha",
+                "nama": "Muhammad Regi Abdi Putra Amanta",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -797,7 +797,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
               {
-                "nama": "Ahmad Rizky",
+                "nama": "Aisyah Musfirah",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -808,7 +808,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
            {
-                "nama": "Arienta Khusnul Ananda",
+                "nama": "Fadil Prasetyo Alfarizzi",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -819,7 +819,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Daffa Hadyan Navista",
+                "nama": "Muhammad Aqil Ramadhan",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -830,7 +830,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Ginda Fajar Riadi Marpaung",
+                "nama": "Muhammad Naufal Ramadhan",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -841,7 +841,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Natasya Amavisca",
+                "nama": "Nadia Faraj Alyafaatin Simbolon",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -852,7 +852,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Nobel Nizam F",
+                "nama": "Marleta Cornelia Leander",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -863,7 +863,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Nurul Alfajar Gumel",
+                "nama": "Akeyla Fairuz Shafi",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -874,7 +874,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "vany salsabila putri",
+                "nama": "Anggi Puspita Ningrum",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -885,7 +885,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Ahmad Sahidin Akbar",
+                "nama": "Efi Defiyati",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -896,7 +896,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Ali Aristo Muthahhari Parisi",
+                "nama": "Fabiolla Charissa Putri",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -907,7 +907,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Gusti Putu Ferazka",
+                "nama": "Fairuz Ary Syifa",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -918,7 +918,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Kharisma Mustika Sari",
+                "nama": "Tanty Widiyastuti",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -929,7 +929,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Rosalia Siregar",
+                "nama": "Eggi Satria",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -940,7 +940,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Sahid Maulana",
+                "nama": "Afifah Fauziah",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -951,7 +951,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Daffa Ahmad Naufal",
+                "nama": "Fabio Banyu Cyto",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -962,7 +962,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Erma Daniar Safitri",
+                "nama": "Giofani Aristyo",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -973,7 +973,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Ihsan Maulana Yusuf",
+                "nama": "Rahma Oktavia Albar",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -984,7 +984,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Kevin Antoni Junior",
+                "nama": "Rahmah Gustriana Deka",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -995,7 +995,7 @@ if menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
             {
-                "nama": "Lidia Natasyah Marpaung",
+                "nama": "Razin Hafid Hamdi",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -1005,50 +1005,8 @@ if menu == "Departemen MIKFES":
                 "kesan": "",  
                 "pesan":""# 1
             },
-            {
-                "nama": "Muhammad Ridwan",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
-                "kesan": "",  
-                "pesan":""# 1
-            },
-            {
-                "nama": "Ulliano William Purba",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
-                "kesan": "",  
-                "pesan":""# 1
-            },
-            {
-                "nama": "Benget Sidabutar",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
-                "kesan": "",  
-                "pesan":""# 1
-            },
-            {
-                "nama": "Rewina Audriya Melva Sari",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
-                "kesan": "",  
-                "pesan":""# 1
-            },
+
+        
         ]
         display_images_with_data(gambar_urls, data_list)
     mikfes()
