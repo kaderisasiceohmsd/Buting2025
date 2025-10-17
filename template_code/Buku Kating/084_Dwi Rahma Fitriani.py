@@ -492,8 +492,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@ahmad.rizky___",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Bang Ahmad murah senyum banget",  
+                "pesan":"Sukses terus bang"# 1
             },
             {
                 "nama": "Arienta Khusnul Ananda",
@@ -1451,3 +1451,4 @@ elif menu == "Departemen SSD":
     DepartemenSSD()
     
 # Tambahkan menu lainnya sesuai kebutuhan
+
