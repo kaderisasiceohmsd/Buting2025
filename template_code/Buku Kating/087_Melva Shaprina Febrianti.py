@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1FOM-xbUxXKPIaygwE1kgjZoZJfJysbxS",
+            "https://drive.google.com/uc?export=view&id=1afy9XWyAGo4Bik7f-EZRKejslDgydfuz",
+            "https://drive.google.com/uc?export=view&id=1_A2O_u3psy9hsl1LI4Kol8mi3TiwiAQ9",
+            "https://drive.google.com/uc?export=view&id=1Fku6ZXobCbNATc08AOFHpaVpqV08q2UF",
+            "https://drive.google.com/uc?export=view&id=1d60WH4icPlArF2DH-bxbjLU2d8ALrtJ7",
+            "https://drive.google.com/uc?export=view&id=1TlJzS50Xfh9GiJq22x1wVs6kptWsIf4K",
         ]
         data_list = [
             {
@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Sangat berwibawa dan keren",  
-                "pesan":"Semangat terus bang menjalani hidup sebagai ketua"# 1
+                "kesan": "keren dan hebat",  
+                "pesan":"Semangat terus bang menjalani semester sekarang "# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Keren banget karna ngajarin ilmu data sains",  
-                "pesan":"Semoga kehidupan kuliahnya berjalan mulus"# 1
+                "kesan": "keren banget",  
+                "pesan":"semoga dipermudah kuliahnya bang"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
