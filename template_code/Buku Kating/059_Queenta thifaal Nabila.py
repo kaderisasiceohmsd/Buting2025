@@ -358,10 +358,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1FiQIR3pg96juNGlLZu8QZethb5MfYX5-",
-            "https://drive.google.com/uc?export=view&id=16bh12DpL1Z-tg9i6Re5ow4o-zGXXVtFv",
-            "https://drive.google.com/uc?export=view&id=1q8PZi78tXKOiSdw-n4X2UMPxF1fbqkgZ",
-            "https://drive.google.com/uc?export=view&id=1jm7vy_UKK2h1p7DZyw-tHLCqmosXqPqA",
+            "https://drive.google.com/uc?export=view&id=1hI4CkDmB6mgGscesWl_MJoZMw9BpcJIn",
+            "https://drive.google.com/uc?export=view&id=1FyKaA_10Ksx6a0PhN0aTQb2zTSJJLPR8",
+            "https://drive.google.com/uc?export=view&id=1rETssavIX5E-vZIPGT1S7s_TozwO8Nd-",
+            "https://drive.google.com/uc?export=view&id=1xBn_jEujnMxLQ9ok3jLq3LSdfqDFbmbV",
         ]
         data_list = [
             {
@@ -372,8 +372,8 @@ if menu == "Senator":
                 "alamat": "-",
                 "hobbi": "Mancing",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "abangnya asik,humble, suka perunggu juga yoai",  
-                "pesan":"tetep humble bang!"# 1
+                "kesan": "Ramah dan asik diajak ngobrol, suasana langsung cair.",  
+                "pesan":"Semoga selalu sukses dan terus menyebarkan energi positif"
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -382,9 +382,9 @@ if menu == "Senator":
                 "asal":"Bandar Lampung",
                 "alamat": "Sukarame",
                 "hobbi": "Mendengarkan Musik",
-                "sosmed": "@nadyaanjani",
-                "kesan": "kakaknya baik, lucu, imup",  
-                "pesan":"tetep humble kak!"# 1
+                "sosmed": "@nadyaanjaani",
+                "kesan": "kanad sangat perhatian sekali ke gweedy , imupppp ^^ ",  
+                "pesan":"Semoga hal hal baik selalu menyertai!"
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -394,19 +394,19 @@ if menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Mendengarkan musik sambil jalan",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "kakaknya asik seru",  
-                "pesan":"Semoga selalu tenang dan sabar hadapi dunia perkuliahan"
+                "kesan": "Kalem tapi lucu, selalu bikin suasana adem",  
+                "pesan":"Jangan berubah ya kak, tetap jadi sosok yang menenangkan"
             },
             {
-                "nama": "Lia Hana Ichisassmita",
+                "nama": "Lia Hana Ichisasmita",
                 "nim": "123450089",
                 "umur": "20",
                 "asal":"Jakarta",
                 "alamat": "Belakang Indomaret Belwis",
                 "hobbi": "Rebahan",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kaknya inspiratif banget, bikin pengen berkembang terus!",  
-                "pesan":"Terima kasih udah jadi role model yang luar biasa kak"
+                "kesan": "Ceria dan rame, selalu bawa suasana positif ke mana pun.",  
+                "pesan":"Tetap jadi kakak yang penuh semangat dan nyebarin energi baik ya"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
