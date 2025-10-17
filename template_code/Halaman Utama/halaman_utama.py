@@ -13,7 +13,6 @@ def load_image(url):
     img = ImageOps.exif_transpose(img)
     return img
 
-
 def display_images_with_data(gambar_urls, data_list):
     images = []
     for i, url in enumerate(gambar_urls):
@@ -92,7 +91,6 @@ def streamlit_menu():
 menu = streamlit_menu()
 
 if menu == "Home":
-
     def home_page():
         st.markdown(
             """<style>.centered-title {text-align: center;}</style>""",
@@ -102,31 +100,30 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Kelompok Bayesian merupakan dua belas bayi naga kecil yang sempat kehilangan arah dalam perjalanan mereka. Di tengah kebingungan itu, 
-            mereka akhirnya bertemu dengan sosok ibu yang penuh kasih bernama Dea Amanda yang dengan sabar sekaligus tegas membimbing mereka.
-            Dari kedua belas naga tersebut ada Nando sebagai naga tertua yang bijak bersama Azzelya yang selalu setia mendampinginya dalam menjaga
-            dan mengarahkan adik-adiknya. Bersama-sama mereka menuntun sepuluh naga lainnya yaitu Yazid, Iqbal, Alsi, Hafis, Zaldi, Bina, Yolanda, Iffa, Arfai dan Yulia agar tidak lagi tersesat. 
-            Dari hari ke hari berkat bimbingan Dea Amanda keluarga naga kecil ini tumbuh semakin kuat kompak dan siap menorehkan jejak besar sebagai satu kesatuan keluarga naga Bayesian.</div>""",
             """<div style="text-align: justify;">
-            Teorema Bayes mengajarkan bahwa keyakinan awal (prior) bukanlah sesuatu yang mutlak. Setiap 
-            bukti baru (evidence) yang datang dapat memperkaya dan bahkan mengubah keyakinan itu, sehingga lahirlah 
-            pemahaman yang lebih matang (posterior).
+            Kelompok Bayesian merupakan dua belas bayi naga kecil yang sempat kehilangan arah dalam perjalanan mereka. 
+            Di tengah kebingungan itu, mereka akhirnya bertemu dengan sosok ibu yang penuh kasih bernama Dea Amanda yang dengan sabar sekaligus tegas membimbing mereka.
+            Dari kedua belas naga tersebut ada Nando sebagai naga tertua yang bijak bersama Azzelya yang selalu setia mendampinginya dalam menjaga dan mengarahkan adik-adiknya. 
+            Bersama-sama mereka menuntun sepuluh naga lainnya yaitu Yazid, Iqbal, Alsi, Hafis, Zaldi, Bina, Yolanda, Iffa, Arfai dan Yulia agar tidak lagi tersesat. 
+            Dari hari ke hari berkat bimbingan Dea Amanda keluarga naga kecil ini tumbuh semakin kuat kompak dan siap menorehkan jejak besar sebagai satu kesatuan keluarga naga Bayesian.
+            </div>
+        
+            <br>
+        
+            <div style="text-align: justify;">
+            Teorema Bayes mengajarkan bahwa keyakinan awal (prior) bukanlah sesuatu yang mutlak. Setiap bukti baru (evidence) yang datang dapat memperkaya dan bahkan mengubah keyakinan itu, sehingga lahirlah pemahaman yang lebih matang (posterior).
             Dari sini ada beberapa nilai filosofis yang bisa ditarik:
-            1. Belajar dari pengalaman: 
-            Kita tidak boleh terpaku pada pandangan lama. Bukti baru harus dijadikan dasar untuk 
-            memperbaiki cara berpikir.
-            2. Keterbukaan & kerendahan hati:
-            Tidak ada keyakinan awal yang sempurna. 
-            Teorema Bayes menekankan perlunya terbuka terhadap informasi baru agar tidak 
-            terjebak pada kesalahan.
-            3. Proses berkelanjutan:
-            Pembaruan keyakinan bukan terjadi sekali, tapi terus-menerus. Ini menggambarkan 
-            bahwa hidup adalah proses belajar tanpa henti.
-            4. Keseimbangan antara tradisi & perubahan:
-            Prior tidak dibuang, tapi dikoreksi dengan evidence. Artinya, identitas awal tetap penting, 
-            namun harus siap disempurnakan oleh pengalaman.</div>""",
+            <ol>
+              <li>Belajar dari pengalaman: kita tidak boleh terpaku pada pandangan lama; bukti baru harus dijadikan dasar untuk memperbaiki cara berpikir.</li>
+              <li>Keterbukaan & kerendahan hati: tidak ada keyakinan awal yang sempurna; buka diri terhadap informasi baru.</li>
+              <li>Proses berkelanjutan: pembaruan keyakinan terjadi terus-menerus.</li>
+              <li>Keseimbangan antara tradisi & perubahan: prior tidak dibuang, tapi dikoreksi oleh evidence.</li>
+            </ol>
+            </div>
+            """,
             unsafe_allow_html=True,
         )
+
         st.write(""" """)
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
         layout(foto_kelompok)
