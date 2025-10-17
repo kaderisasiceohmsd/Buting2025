@@ -1308,3 +1308,194 @@ if menu == "Departemen Eksternal":
         ]
         display_images_with_data(gambar_urls, data_list)
     eksternal()
+# Tambahkan menu lainnya sesuai kebutuhan
+
+if menu == "Departemen Internal":
+    def internal():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1dj9XjxQIr1oZpj7RXYnjxsmENZhz4rAS",
+            "https://drive.google.com/uc?export=view&id=1JyAZxjpSkCTASzhZE9NrXqgO5Emcj1fl",
+            "https://drive.google.com/uc?export=view&id=1XgKFBALP9VNhjGmWBQcVM4yhMHzpZSSi",
+            "https://drive.google.com/uc?export=view&id=1rH-KSr1hl0qzM6rL2vJQQGliC4ZujJiT",
+            "https://drive.google.com/uc?export=view&id=19WMow8zHlVutKBGORYCzJ8ul-ll-z5c8",
+            "https://drive.google.com/uc?export=view&id=1odgVHLZzKZzcSlIx7RdQOZpQkF4NWqDc",
+            "https://drive.google.com/uc?export=view&id=1UQTqFv6kpL8QiMGev_S5AYZnmVGIJxD2",
+            "https://drive.google.com/uc?export=view&id=15H_YD2YtCH68BQfoueCXrej5LFOvfEyw",
+            "https://drive.google.com/uc?export=view&id=1tu3nQjzOokkrSee88yUu_giM8qYr5A8X",
+            "https://drive.google.com/uc?export=view&id=1iiH7eh2bdKpgH_0Twhky_S4YSPGSBWNc",
+            "https://drive.google.com/uc?export=view&id=1awH8h-SlaIxKkzDDaFJbnLr3FwsCnLUm",
+            "https://drive.google.com/uc?export=view&id=1CAAWrWwmUfXmAzLYpUwS0ze0R41kSN3g",
+            "https://drive.google.com/uc?export=view&id=1Woz8-FaphOuFMr_N5XpSQdYMvibBKB1O",
+            "https://drive.google.com/uc?export=view&id=1kX1v0AlKDjagyDTfSPsvhymtl3_wmXpF",
+            "https://drive.google.com/uc?export=view&id=1gNr7Pbl3SolGlF6o8SYOxPUxs1cP9EyH",
+        ]
+        data_list = [
+            {
+                "nama": "Rani Puspita sari",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""
+            },
+           {
+                "nama": "Renta Siahaan",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+             {
+                "nama": "Salwa Farhanatussaidah",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+              {
+                "nama": "Azzahra Putri Kamilah",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+           {
+                "nama": "Haikal Fransisko Simbolon",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Iqfina Haula Halika",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "May Talitha Dahlia",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Muhammad Naufal Alghani",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Zailani Satria",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Kadiv Kerohanian",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Hanna Gresia Sinaga",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Keren Marito Lumban Gaol",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Muhammad Hanif Dzaky Arifin",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Sarah Wasti",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Zahra Putri Salsabilla",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+     
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    internal()
