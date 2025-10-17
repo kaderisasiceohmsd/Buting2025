@@ -116,12 +116,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def Kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
-            "https://drive.google.com/uc?export=view&id=1GqJ5F_vejQJ196U50ciIIR4NR-xS0RPZ",
-            "https://drive.google.com/uc?export=view&id=1Ke724M-V9OyKlZ9m1WhdaHF-3T2Kq45L",
-            "https://drive.google.com/uc?export=view&id=1S06Ws-NpvUEJg-o8ueVkoVMFc99Efuj3",
-            "https://drive.google.com/uc?export=view&id=1vzUs4VrInJe6uzuOLvr7gyKOiqIBLzi9",
-            "https://drive.google.com/uc?export=view&id=1SFUNiVid6K4SBfoKc8Xh73gKBZEubRJi", 
+            "https://drive.google.com/uc?export=view&id=1lR5iM3C-cu91XJbKODMIHrW_7-ItsevY",
+            "https://drive.google.com/uc?export=view&id=1Xcc1wn8tP_M6tFipQUuFzxUANKDIDwZH",
+            "https://drive.google.com/uc?export=view&id=1J1JDTkQ_gdCiTskAE4wjWqsOKKLEsBQI",
+            "https://drive.google.com/uc?export=view&id=1Pzpsrgm1-YRlAzluz-BAGjtEyKbCJECU",
+            "https://drive.google.com/uc?export=view&id=1V1OoOcepglDtm5i-ooHtzHIJdBZxttYN",
+            "https://drive.google.com/uc?export=view&id=1cwsbwUTnmRM2wKcf20TrQKsP8c67hk5l",
         ]
         data_list = [
             {
@@ -129,55 +129,22 @@ if menu == "Kesekjenan":
                 "nim": "122450112",
                 "umur": "21",
                 "asal":"Bekasi",
-                "alamat": "Pulau Damai",
-                "hobbi": "Nyanyi",
-                "sosmed": "@_erendraa",
-                "kesan": "Abang ini seru Abiez",  
-                "pesan":"Semangat Bang jadi Kahim!!"# 1
+                "alamat": "Pulau Damar",
+                "hobbi": "Menyanyi",
+                "sosmed": "@_rendraa",
+                "kesan": "Bang Rendra keren banget dan berwibawa",  
+                "pesan":"semangat terus kuliahnya bang! bahagia terus!"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
                 "nim": "122450043",
                 "umur": "20",
                 "asal":"Tangerang",
-                "alamat": "Jl.Lapas",
-                "hobbi": "Baca Buku SQL!",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "Baca buku sql",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Bang Jo Seru & Ternyata satu daerah asal",  
-                "pesan":"Gassin terus bang !!!"# 1
-            },
-            {
-                "nama": "Elisabeth Claudia Simanjuntak",
-                "nim": "122450123",
-                "umur": "23",
-                "asal":"Badui",
-                "alamat": "Ayrest Kost",
-                "hobbi": "Nahan pipis",
-                "sosmed": "@celisabethh_",
-                "kesan": "Kakak ini lucu humoris dan seru",  
-                "pesan":"semoga akunnya gak kena suspend lagi kak"# 1
-            },
-            {
-                "nama": "Syadza Puspadari Azhar",
-                "nim": "122450072",
-                "umur": "21",
-                "asal":"Palembang",
-                "alamat": "Belwis",
-                "hobbi": "Membaca",
-                "sosmed": "@puspadrr",
-                "kesan": "Kak Syadza keren",  
-                "pesan":"semoga sukses terus kak"# 1
-            },
-            {
-                "nama": "Eksanty F. Sukma Islamiaty",
-                "nim": "122450001",
-                "umur": "19",
-                "asal":"Buleleng",
-                "alamat": "Asrama TB4",
-                "hobbi": "Nahan eek",
-                "sosmed": "@eksantyfebriana",
-                "kesan": "Kakak ini asik dan seru",  
-                "pesan":"sukses teruss kak"# 1
+                "kesan": "Bang Jo lucu dan seru",  
+                "pesan":"Sehat selalu bang, semangat terus kejar cita-citanya!"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -185,10 +152,43 @@ if menu == "Kesekjenan":
                 "umur": "21",
                 "asal":"Kota Padang",
                 "alamat": "Korpri",
-                "hobbi": "Cutek Kahim",
+                "hobbi": "Cute Kahim",
                 "sosmed": "@farahanumafifahh",
-                "kesan": "Kakak ini lucu, jutek tapi seru",  
-                "pesan":"semoga suksess terus kak"# 1
+                "kesan": "Kakaknya lucu banget dan cantikk",  
+                "pesan":"Semangat kuliahnya kakak, bahagia selalu ya kakk!"# 1
+            },
+            {
+                "nama": "Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "21",
+                "asal":"Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Baca",
+                "sosmed": "@puspadrr",
+                "kesan": "Kakak baik dan lucuuu",  
+                "pesan":"Semangat ya kak jalani hari-harinyaa"# 1
+            },
+            {
+                "nama": "Eksanty F. Sukma Islamiaty",
+                "nim": "122450001",
+                "umur": "19",
+                "asal":"Buleleng",
+                "alamat": "Asrama TB. 4",
+                "hobbi": "Nahan eek",
+                "sosmed": "@eksantyfebriana",
+                "kesan": "kakak lucu banget, asyik jugaa",  
+                "pesan":"sehat selalu kakak, be happy yaa kakk!"# 1
+            },
+            {
+                "nama": "Elisabeth Claudia Simanjuntak",
+                "nim": "122450123",
+                "umur": "21",
+                "asal":"Baduy dalam",
+                "alamat": "Ayresh kost",
+                "hobbi": "Nahan pipis",
+                "sosmed": "@celisabeth",
+                "kesan": "kak abeth lucuu cantikk",  
+                "pesan":"semangat ya kak kuliahnyaa, bahagia selalu kakk"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -761,40 +761,21 @@ if menu == "Departemen PSDA":
 if menu == "Departemen MIKFES":
     def DepartemenMIKFES():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1g1vGRymJLJwAK1id7sDzZdSl22VqBUAc",
-            "https://drive.google.com/uc?export=view&id=1cEbtwbTYNTsvKO2Kwie4ixA6wjsq1qJ1",
-            "https://drive.google.com/uc?export=view&id=1y2LfLTqBQ5vFKarGyRwjfUJDq5a_k_lo",
-            "https://drive.google.com/uc?export=view&id=1sTAnehD1i1gUets3TW9DlvUbCxkEdcD-",
-            "https://drive.google.com/uc?export=view&id=1IWPIvzxd7Fl6l3OGOBWHFHLtCZjqKStu",
-            "https://drive.google.com/uc?export=view&id=1-l6m815qJaawjoik6z7X8DP6L9NrwAYj",
-            "https://drive.google.com/uc?export=view&id=1G6WXxoDwMvfaKmV-nq3T-AwLIxGNAgnX",
-            "https://drive.google.com/uc?export=view&id=1KqyFNYC1mwu8BH05j8wYSdepZYy8lTdk",
-            "https://drive.google.com/uc?export=view&id=1hEwHP65xi08Lb9cEVoXK85uquFq3xVa2",
-            "https://drive.google.com/uc?export=view&id=1whv21tNT__Rz4gm3yxOvqW2pPPrPYmTo",
-            "https://drive.google.com/uc?export=view&id=1ry2Huh5sC-wi5G-oguMZEbkz29BGfTLP",
-            "https://drive.google.com/uc?export=view&id=1tzupAR1edjU_4p0e_fIwwk3QYhoWqSeu",
-            "https://drive.google.com/uc?export=view&id=1_R0zUhTf2pEipP3_lcsR9AvV0h1Wb1Tl",
-            "https://drive.google.com/uc?export=view&id=1JQViEti6h4jVMzdCP8nr6Xuqj_74k82N",
-            "https://drive.google.com/uc?export=view&id=1t8iHi9iqZPnJnlRVL5roPI0-EmYkLxFo",
-            "https://drive.google.com/uc?export=view&id=1uqAGzw6IUrv-lbbfwL0-Sf08bf6WfSPJ",
-            "https://drive.google.com/uc?export=view&id=1q9ZNhezSS7iYCo84CWpY4uykB1b1bpTS",
-            "https://drive.google.com/uc?export=view&id=13Zltf2lq7oy3ec6KiNk1DVKRm6YAJbH8",
-            "https://drive.google.com/uc?export=view&id=1swP64XIrvDZceDlU13gB6obR_icF0xcz",
-            "https://drive.google.com/uc?export=view&id=1I5dFM9J8O2BavqbOnE8eLzrdFhdI4YXn",
-            "https://drive.google.com/uc?export=view&id=1HoeAL3IvrpNu9HBzRC64GeRN66BAyN8T",
-            "https://drive.google.com/uc?export=view&id=1_fx2KSaLpQjeBspPlTEv7DC3UrvR18WJ",
+            "https://drive.google.com/uc?export=view&id=1Ki7yRrzYNcoI999z747psSLonkSia7qS",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
-                "nama": "Randa Andriana Putra",
-                "nim": "122450083",
-                "umur": "22",
-                "asal":"Serang, Banten",
-                "alamat": "Sukarame",
-                "hobbi": "Tidur, berkembang",
-                "sosmed": "@randaadriana_",
-                "kesan": "Abang santai, seru, asik",  
-                "pesan":"keep chill dan nonton windah bang!"# 1
+                "nama": "Rendra Eka Prayoga",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "keren banget",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
                 "nama": "Rut Junita Sari Siburian",
