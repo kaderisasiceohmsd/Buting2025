@@ -223,8 +223,8 @@ if menu == "Baleg":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Pilates",
                 "sosmed": "@jeremia_s_",
-                "kesan": "Abang terasik, terseru, & Satu Alumni Sekolah",  
-                "pesan":"semangat bang semster 7 nya!!!"# 1
+                "kesan": "Abangnya asik banget",  
+                "pesan":"be happy terus ya bang, semangat semester 7 nya!"# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
