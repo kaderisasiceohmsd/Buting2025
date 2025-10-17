@@ -83,7 +83,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "#3FBAD8"},
+            "nav-link-selected": {"background-color": "#E8A0B8"},
         },
     )
     return selected
@@ -99,23 +99,30 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+            "<h1 class='centered-title'>Deskripsi Kelompok 8 (GREEDY)</h1>",
+            unsafe_allow_html=True,
         )
         st.markdown(
-            """<div style="text-align: justify;"> TESTING BUKU KATING GREEDY</div>""",
+            """<div style="text-align: justify;">Selamat datang di Kelompok Greedy! 💡
+Kami adalah kelompok yang terinspirasi dari filosofi Greedy Algorithm — selalu berusaha mengambil setiap kesempatan terbaik di setiap langkah untuk mencapai hasil yang optimal. Greedy To Grow, Ready To Glow!
+</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
+
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1sfUpGUuu7myoGzx3vmaCQN7BD66T7kVu"
         layout(foto_kelompok)
+
         st.markdown(
-            """<div style="text-align: justify;">GREEDY ADALAH KELOMPOK 8</div>""",
+            """<div style="text-align: justify;">Kelompok Greedy terinspirasi dari filosofi algoritma Greedy dalam ilmu komputer, di mana setiap langkah diambil dengan memilih keputusan terbaik pada saat itu untuk mencapai hasil optimal secara keseluruhan. Filosofi ini kami maknai sebagai semangat untuk selalu mengambil setiap kesempatan belajar, berproses, dan berkontribusi sebaik mungkin dalam setiap tahap kaderisasi.
+Sebagai kader, kami percaya bahwa perubahan besar dimulai dari keputusan-keputusan kecil yang konsisten dan bijak. Dengan semangat adaptif, kolaboratif, dan progresif, Greedy berkomitmen untuk tumbuh bersama — tidak hanya menjadi kader yang cerdas, tetapi juga berkarakter dan berpengaruh positif bagi lingkungan sekitar.
+</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
 
     home_page()
-
+    
 elif menu == "About Us":
 
     def about_page():
@@ -130,14 +137,21 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
                 "nama": "Haikal Seventino Tamba",
                 "sebagai": "Pak Lurah",
                 "nim": "12450012",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
-                "motto_hidup": "new semester new me",
+                "fun_fact": "masuk itera dan milih sains data h-15 menit penutupan snbp",
+                "motto_hidup": "telat bukan berarti gagal,lebih baik gagal daripada tidak mencoba",
             },
             {
                 "nama": "Queenta Thifaal Nabila",
@@ -175,20 +189,20 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "rafli",
+                "nama": "Rafli Al Mansyah Tambunan",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "fun_fact": "bisa namatin drakor 1 season 1 hari",
+                "motto_hidup": "Love What You Do. Do What You Love",
             },
             {
-                "nama": "indah",
-                "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nama": "Indah Julia Mawar Pratiwi",
+                "sebagai": "Anggota",
+                "nim": "124450055",
+                "fun_fact": "ga suka makan sayur",
+                "motto_hidup": "yang bisa dilakuin sekarang, jangan ditunda besok",
             },
-             {
+            {
                 "nama": "bernardius",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
@@ -202,14 +216,14 @@ elif menu == "About Us":
                 "fun_fact": "nyemilin es batu, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
-               {
+            {
                 "nama": "risa",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "122450127",
+                "fun_fact": "gabisa makan durian",
+                "motto_hidup": "jalani dan syukuri",
             },
-             {
+            {
                 "nama": "salsabila",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
@@ -217,11 +231,11 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
              {
-                "nama": "ashila",
+                "nama": "Ashila",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
+                "nim": "124450028",
                 "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "motto_hidup": "jalanin dulu keled",
             },
         ]
         display_images_with_data(gambar_urls, data_list)

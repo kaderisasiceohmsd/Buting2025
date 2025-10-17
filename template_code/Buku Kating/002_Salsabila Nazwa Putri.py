@@ -44,7 +44,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "#3FBAD8"},
+            "nav-link-selected": {"background-color": "#ffb6c1"},
         },
     )
     return selected
@@ -99,81 +99,46 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=15WhedyljD7bQvJIBpuOQE49gmOV5w71",
-            "https://drive.google.com/uc?export=view&id=15WhedyljD7bQvJIBpuOQE49gmOV5w71",
-            "https://drive.google.com/uc?export=view&id=1WPESi1JbEv9E3A6xsNhcCzO2lJ1ao8lx",
-            "https://drive.google.com/uc?export=view&id=1x8y1pqXyiVOxGs4OF3oSTkR_lCkXTmhy",
-            "https://drive.google.com/uc?export=view&id=1kGiOFOpZ-yweciuBowB3wCiiSEleFbHG",
-            "https://drive.google.com/uc?export=view&id=1dKaCqEDIWMqnhMSG3pZS3t4i3Yt_a1c4",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
-                "nama": "Rendra Eka Prayoga",
-                "nim": "122450112",
-                "umur": "21",
-                "asal":"Bekasi",
-                "alamat": "Pulau Damar",
-                "hobbi": "beli donat kentang",
-                "sosmed": "@_erendraa",
-                "kesan": "Tegas tapi perhatian, bikin kami jadi lebih disiplin",  
-                "pesan":"Semoga semangat dan kepemimpinan kakak terus menginspirasi !!!"# 1
-            },
-            {
-                "nama": "Johannes Krisjon Sitilonga",
-                "nim": "122450043",
-                "umur": "20",
-                "asal":"Tanggerang",
-                "alamat": "Jl. Lapas Raya",
-                "hobbi": "baca buku (dasar-dasar sql)",
-                "sosmed": "@johanneskrisjnnn",
-                "kesan": "Bijak dan punya pemikiran yang luas",  
-                "pesan":"semangat terus kuliahnya bang !!!"# 1
-            },
-            {
-                "nama": "Elisabeth Claudia Simanjuntak",
-                "nim": "122450123",
-                "umur": "19",
-                "asal":"Tanggerang",
-                "alamat": "Airest Kost",
-                "hobbi": "siram shopee",
-                "sosmed": "@celisabethh_",
-                "kesan": "Kakaknya lembut dan sabar banget waktu menjelaskan ke kami",  
-                "pesan":"Terima kasih sudah jadi panutan, semoga karier kakak lancar selalu !!!"# 1
-            },
-            {
-
-                "nama": "Syadza Puspandari Azhar",
-                "nim": "122450072",
+                "nama": "Kakak A",
+                "nim": "122450000",
                 "umur": "18",
-                "asal":"Palembang",
-                "alamat": "Belwis",
-                "hobbi": "Membaca",
-                "sosmed": "@celisabethh_",
-                "kesan": "Kakaknya lembut dan sabar banget waktu menjelaskan ke kami",  
-                "pesan":"Terima kasih sudah jadi panutan, semoga karier kakak lancar selalu !!!"# 1
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Eksanty F. Sukma Islamiaty",
-                "nim": "122450001",
-                "umur": "19",
-                "asal":"Rote, NTT",
-                "alamat": "rajabasa",
-                "hobbi": "baca buku , saku pramuka",
-                "sosmed": "@ekshantyfebriana",
-                "kesan": "Punya energi positif yang bikin semangat",  
-                "pesan":"Semoga semua hal baik terus menyertai langkah kakak !!!"# 1
+                "nama": "Kakak B",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Farahanum Afifah Ardiansyah",
-                "nim": "122450056",
-                "umur": "21",
-                "asal":"kota Padang,Sumbar",
-                "alamat": "sukarame",
-                "hobbi": "tidur",
-                "sosmed": "@farahanumafifahh",
-                "kesan": "Seru banget bisa kenal kakak yang suportif dan penuh semangat!",  
-                "pesan":"Semoga semua impian kakak tercapai, dan jangan lupa mampir kasih semangat lagi ke kami !!!"# 1
+                "nama": "Kakak CCc",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
+
+# Tambahkan menu lainnya sesuai kebutuhan
