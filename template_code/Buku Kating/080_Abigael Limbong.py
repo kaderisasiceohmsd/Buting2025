@@ -120,7 +120,7 @@ if menu == "Kesekjenan":
             },
             {
                 "nama": "Kakak Johannes Krisjon Silitonga",
-                "nim": "122450000",
+                "nim": "122450043",
                 "umur": "20",
                 "asal": "Tangerang",
                 "alamat": "Jalan Lapas",
@@ -282,8 +282,8 @@ if menu == "Baleg":
                 "alamat": "Korpri",
                 "hobbi": "Istirahat",
                 "sosmed": "@myrrinn",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakaknya tampan dan cerdas! ",  
+                "pesan": "Semoga semuanya diperlancar ya kakak "# 1
             },
               {
                 "nama": "Kakak Berliana Enda Putri",
@@ -293,8 +293,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Ngukir Sabun",
                 "sosmed": "@berlyyanda",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak ini manis dan humoris! ",  
+                "pesan": "Jaga kesehatan selalu ya kakak! "# 1
             },
               {
                 "nama": "Kakak Juesi Apridelia Saragih",
@@ -304,8 +304,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Mendengarkan wave to earth",
                 "sosmed": "@j__eesie",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak ini cerdas, komunikatif dan ekspresif!",  
+                "pesan": "Jaga kesehatan selalu kakak, kakak keren! "# 1
             },
               {
                 "nama": "Kakak Ridho Benedictus Togi Manik",
@@ -315,8 +315,8 @@ if menu == "Baleg":
                 "alamat": "GH",
                 "hobbi": "Main Pedel",
                 "sosmed": "@iamridhomanik ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak ini cerdas dan wangi ",  
+                "pesan": "Tetap wangi selalu ya kakak, jaga kesehatan! "# 1
             },
               {
                 "nama": "Kakak Feryadi Yulius",
@@ -326,8 +326,8 @@ if menu == "Baleg":
                 "alamat": "Kobang",
                 "hobbi": "Ngeliatin warna baju orang",
                 "sosmed": "@fer_yulius",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak ini cerdas dan lugas ",  
+                "pesan": "Jaga kepercayaan diri selalu kakak, kakak keren! "# 1
             },
               {
                 "nama": "Kakak Monica Patricia Tanjung",
@@ -337,8 +337,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Makan gula merah",
                 "sosmed": "@monica_tjg ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak ini ramah dan manis! ",  
+                "pesan": "Terus menjadi pribadi yang ramah ya kakak, semoga Tuhan memperlancar semuanya "# 1
             },
               {
                 "nama": "Kakak Wan Nashwa Alhasni Yuska",
@@ -348,8 +348,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyapa Angin",
                 "sosmed": "@nshaysk ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak ini manis dan seru ",  
+                "pesan": "Sehat selalu kakak, banyak hal fantastis menanti kakak! "# 1
             },
             
         ]
@@ -420,7 +420,7 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1K7h4xOYdlSgJmCZOZKtH7SdV_WNRZMTh", #2
             "https://drive.google.com/uc?export=view&id=1AY7CGzLoD4RRswnoJqavoWuX7AFD-06H", #3
             "https://drive.google.com/uc?export=view&id=1TLLdzX6USsK9BKbHVlqV989gVTI6t8a0", #4
-            "https://drive.google.com/uc?export=view&id=1_oOJkJo9O7q8Jq3AYQp1Sxb_uXA4OJ3", #5
+            "https://drive.google.com/uc?export=view&id=1_oOJkJo9O7q8Jq3AYQp1Sxb_uXA4OJ3-", #5
             "https://drive.google.com/uc?export=view&id=1zaAAqd1wDtCVR6ya-5dh4TgVCZ53C040", #6
             "https://drive.google.com/uc?export=view&id=1TYdrADhjDlWFlpHNoAOoycRol_UMj-cB", #7
             "https://drive.google.com/uc?export=view&id=1Gwq-K7kFg6hARzerODJajwDFCK3a28Nv", #8
@@ -686,6 +686,149 @@ if menu == "Departemen MIKFES":
         ]
         display_images_with_data(gambar_urls, data_list)
     mikfes()
+
+if menu == "Departemen SSD":
+    def Departemen_SSD():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1gKYiETc7lFAWoYyQH3sHl7V-dNsPlmx1", #1
+            "https://drive.google.com/uc?export=view&id=1kmvWgp2LDrHPXf_bmQGwVRsLxY-FuwIf", #2
+            "https://drive.google.com/uc?export=view&id=150HxCxvjyUvoXYCb8GNzUJSYOhtJPzmT", #3
+            "https://drive.google.com/uc?export=view&id=1isPM3GykmD2VOpp3N02CmlXvDWWtfAWt", #4
+            "https://drive.google.com/uc?export=view&id=1591r4ueF3QXv0YZRQojA-3tHCUzHWjnJ", #5
+            "https://drive.google.com/uc?export=view&id=1ytVqQqH77N7bH7xOI_rSCb-ILyqi8Dkk", #6
+            "https://drive.google.com/uc?export=view&id=1KsRee8FkUtwxMAioCBOBpBg0FGkcAY5Z", #7
+            "https://drive.google.com/uc?export=view&id=1_3l5lUlGk0IO63zN6isXfwPwkW6PJQtJ", #8
+            "https://drive.google.com/uc?export=view&id=1fjvfITXQmbu9CqNLm7ogahK16cyoS1QR", #9
+            "https://drive.google.com/uc?export=view&id=1wxda3i93MLaxBKdMTEsAdRBEwQ08RzV0", #10
+            "https://drive.google.com/uc?export=view&id=1aX7zUTPggAswm7lRa1jHoDeCI8wQYzuh", #11
+        ]
+        data_list = [
+            {
+                "nama": "Kakak Danang Hilal Kurniawan",
+                "nim": "122450085",
+                "umur": "22",
+                "asal": "Bandar Lampung",
+                "alamat": "Belakang PB Swalayan",
+                "hobbi": "Jogging",
+                "sosmed": "@dananghk_ ",
+                "kesan": "Kakaknya berjiwa ambisius dan keren! ",  
+                "pesan": " Semoga dilancarkan semuanya dan dipermudah urusannya ya kakak"# 1
+            },
+            {
+                "nama": "Kakak Syalaisha Andina Putriansyah",
+                "nim": "122450021",
+                "umur": "22",
+                "asal": "Tangerang",
+                "alamat": "Suka Rame",
+                "hobbi": "Baca Novel",
+                "sosmed": "@syalaishaa_31 ",
+                "kesan": "Kakaknya cantik dan seru!",  
+                "pesan": "Sehat selalu ya kakak!"# 2
+            },
+              {
+                "nama": "Kakak Ahmad Rizqi",
+                "nim": "122450138",
+                "umur": "20",
+                "asal": "Padang",
+                "alamat": "Airan",
+                "hobbi": "Pergi ke cafe tengah malam",
+                "sosmed": "@den_iki__",
+                "kesan": "Kakaknya wangi dan seru!",  
+                "pesan": "Semoga dilancarkan pendidikannya kak "# 3
+            },
+              {
+                "nama": "Kakak Anadia Carana",
+                "nim": "123450019",
+                "umur": "20",
+                "asal": "Palembang",
+                "alamat": "Lampung Selatan",
+                "hobbi": "Jogging",
+                "sosmed": "@anadiacrn_",
+                "kesan": "kakaknya manis ",  
+                "pesan": "Semoga studinya diperlancar ya kakak "# 4
+                   },
+              {
+                "nama": "Kakak Aprilia Dewi Hutapea",
+                "nim": "123450040",
+                "umur": "20",
+                "asal": "Lampung Selatan",
+                "alamat": "Lampung Selatan",
+                "hobbi": "Nonton di Facebook",
+                "sosmed": "@aprhtp_ ",
+                "kesan": "Kakaknya pendiam tapi manis",  
+                "pesan": "Sehat selalu ya kakak"# 5
+            },
+            {
+                "nama": "Kakak Nabila Zakiyah Zahra",
+                "nim": "123450023",
+                "umur": ".",
+                "asal": ".",
+                "alamat": ".",
+                "hobbi": ".",
+                "sosmed": ".",
+                "kesan": "Kakaknya cantik dan wangi, suka! ",  
+                "pesan":"Semoga diperlancar studi dan semuanya, kakak  "# 6
+            },
+             {
+                "nama": "Kakak Dhafin Razaqa Luthfi",
+                "nim": "122450133",
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Belajar",
+                "sosmed": "@dhafinrzqa13",
+                "kesan": "Kakaknya pendiam tapi seru! ",  
+                "pesan": "Semangat kak, diperlancar studinya! "# 7
+            },
+              {
+                "nama": "Kakak Devi Rahayu",
+                "nim": "123450010",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Bandar Lampung",
+                "hobbi": "Nonton Drakor",
+                "sosmed": "@deviirhyu",
+                "kesan": "Kakaknya keren banget ",  
+                "pesan": "Semoga dilancarkan studinya ya kak "# 8
+            },
+              {
+                "nama": "Kakak Enggli Rahmadhani",
+                "nim": "122450043",
+                "umur": "20",
+                "asal": "Sumatera Barat",
+                "alamat": "Gang Pawira 2",
+                "hobbi": "Main Mobile Legend",
+                "sosmed": "@engliramdhnii",
+                "kesan": "Kakak ini manis banget!",  
+                "pesan": "Sehat selalu ya kakak"# 9
+            },
+              {
+                "nama": "Kakak Hanifah Inaya Sani",
+                "nim": "123450123",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Korpri",
+                "hobbi": "Memasak",
+                "sosmed": "@_inayasani",
+                "kesan": "Kakak ini aura bussines women banget!",  
+                "pesan": " Semoga rezekinya lancar terus, kakak"# 10
+            },
+              {
+                "nama": "Kakak Nydia Manda Putri",
+                "nim": "123450018",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Tanjung Karang Timur",
+                "hobbi": "Main",
+                "sosmed": "@nydiaaptr_",
+                "kesan": "Kakak ini cantik deh!",  
+                "pesan": "Semoga semua diperlancar, kakak!"# 11
+            },     
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Departemen_SSD()
+
+
 
 # Tambahkan menu lainnya sesuai kebutuhan
 
