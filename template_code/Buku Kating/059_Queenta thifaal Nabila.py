@@ -227,7 +227,7 @@ if menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "Jualan pancing",
                 "sosmed": "@renishapg",
-                "kesan": Ceria dan rame, selalu bawa suasana positif ke mana pun..",  
+                "kesan": "Ceria dan rame, selalu bawa suasana positif ke mana pun..",  
                 "pesan":"Tetap jadi kakak yang penuh semangat dan nyebarin energi baik ya."
             },
             {
