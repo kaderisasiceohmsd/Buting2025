@@ -99,6 +99,7 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
+<<<<<<< HEAD
             "https://drive.google.com/uc?export=view&id=17edwoyummfCXAZDwjjkLAp_3qZP_mlAM",
             "https://drive.google.com/uc?export=view&id=1N6wTdKDTN7ZzuEfUVhQxTg5eNZlgQxVl",
             "https://drive.google.com/uc?export=view&id=1jjfKzH4z0HLuGcvLSeOQYqoJI2kTOuqr",
@@ -172,11 +173,51 @@ if menu == "Kesekjenan":
                 "sosmed": "@farahanumafifahh",
                 "kesan": "asik, seru dan ga banyak ngomong juga",  
                 "pesan":" semangat kak, jangan lupa istirahat"# 1
+=======
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+        ]
+        data_list = [
+            {
+                "nama": "Kakak A",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak B",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak CCc",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+>>>>>>> 817325d84bbc7f712e12bf1b0c28548a5d74c6d0
             },
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
+<<<<<<< HEAD
 
 if menu == "Baleg":
     def Baleg():
@@ -1880,4 +1921,6 @@ if menu == "Departemen Medkraf":
 # Tambahkan menu lainnya sesuai kebutuhan
 
 
+=======
+>>>>>>> 817325d84bbc7f712e12bf1b0c28548a5d74c6d0
 # Tambahkan menu lainnya sesuai kebutuhan

@@ -4,6 +4,42 @@ import requests
 from PIL import Image, ImageOps
 from io import BytesIO
 
+st.markdown("""
+<style>
+/* ===== Sidebar Gradient ===== */
+[data-testid="stSidebar"] {
+    position: relative;
+    background: #f2f6fb;
+    color: #1e293b;
+    overflow: hidden;
+}
+[data-testid="stSidebar"]::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #3A6EA5 0%, #F2C94C 100%);
+    opacity: 0;
+    animation: fadeInGradient 3s ease forwards;
+    z-index: -1;
+}
+@keyframes fadeInGradient {
+    0% { opacity: 0; }
+    50% { opacity: 0.6; }
+    100% { opacity: 0.9; }
+}
+
+/* ===== Efek Transisi dan Background Halaman ===== */
+main, [data-testid="stAppViewContainer"] {
+    background-color: #F9F7F3;  /* atau warna lain yang kamu pilih */
+    transition: background-color 1.5s ease;
+}
+
+/* ===== Bayangan Lembut Sidebar ===== */
+[data-testid="stSidebar"] {
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.1);
+}
+</style>
+""", unsafe_allow_html=True)
 
 # JANGAN DIUBAH
 @st.cache_data
@@ -132,6 +168,14 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1EPD1nRRm700qOtb5m4rFcEc1ZGfr0CON",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1EPD1nRRm700qOtb5m4rFcEc1ZGfr0CON",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+           
         ]
         data_list = [
             {
