@@ -178,7 +178,7 @@ if menu == "Kesekjenan":
     kesekjenan()
 
 if menu == "Baleg":
-    def baleg():
+    def Baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1RKUQR7Sq3KIKW2z2Y6Htchqe-wT8rLHT",
             "https://drive.google.com/uc?export=view&id=1jjGBzRma01tsdiX5l7Xbnef8lME3vc_U",
@@ -352,10 +352,10 @@ if menu == "Baleg":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    baleg()
+    Baleg()
 
 if menu == "Senator":
-    def senator():
+    def Senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1U-4FiFTLlB2_JLwKhj9_KSwscoRgvA2v",
             "https://drive.google.com/uc?export=view&id=1iV72ffulfCF4PuFGjgE8djdjphZin3a1",
@@ -409,10 +409,10 @@ if menu == "Senator":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    senator()
+    Senator()
 
-if menu == "PSDA":
-    def psda():
+if menu == "Departemen PSDA":
+    def PSDA():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1f1RadtfwCMXMUJSsQB7QyiVaxkUH898r",
             "https://drive.google.com/uc?export=view&id=1xzqDLDEtNCMjn6UNc2c_1bkQmFPadp75",
@@ -730,7 +730,7 @@ if menu == "PSDA":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    psda()
+    Psda()
 
 
 
