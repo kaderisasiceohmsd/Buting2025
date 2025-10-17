@@ -1019,6 +1019,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1b_M2SM9fX1wlBh0B6Z3ILCrJHzrl2snN",
             "https://drive.google.com/uc?export=view&id=1SpBTx2KSVJN2aLqVs-Feuh6vBG5150Za",
             "https://drive.google.com/uc?export=view&id=1MunHF0i0DBaRHxVeOgyYfkEQtG3e8LZ_",
+            "https://drive.google.com/uc?export=view&id=1vofF80AGbJGKwdYBWlz09whdI1cb7mca",
             "https://drive.google.com/uc?export=view&id=1m6myRe6NrhuUdUZ8ofDAwotKb6vQjT04",
             "https://drive.google.com/uc?export=view&id=12G3itItbJz-wzCRf6OcvRrE_xljTbqbt",
             "https://drive.google.com/uc?export=view&id=1QWtL-zFYXcO0O0Ws2IONWWA60O3zQPBH",
@@ -1037,7 +1038,6 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1sOgluXXBmg5w_6lNXf8Ox8Egue2PPkVH",
             "https://drive.google.com/uc?export=view&id=1h6Z-64aM2riDLJraqKnm_jE3dU6jfJXz",
             "https://drive.google.com/uc?export=view&id=1RFJ-ZT1NoSrrr54GXA0VrfRj4JWDPzZX",
-            "https://drive.google.com/uc?export=view&id=1NAXVSHb_bxaJGhMEvxsVTndFUa-6f33h",
             "https://drive.google.com/uc?export=view&id=1NAXVSHb_bxaJGhMEvxsVTndFUa-6f33h",
         ]
         data_list = [
