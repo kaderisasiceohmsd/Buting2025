@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
+set "VIRTUAL_ENV=D:\Buting2025\template_code\venv"
+=======
 set "VIRTUAL_ENV=D:\ButingCosval2025\Buting2025\template_code\venv"
+>>>>>>> 817325d84bbc7f712e12bf1b0c28548a5d74c6d0
 
 if not defined PROMPT set PROMPT=$P$G
 
