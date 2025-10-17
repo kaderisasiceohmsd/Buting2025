@@ -97,7 +97,7 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+            "<h2 class='centered-title'>BAYESSIAN</h2>", unsafe_allow_html=True
         )
         st.markdown(
             """<div style="text-align: center;">Think With Logic, Act with data, Move for real impact!!</div>""",
@@ -106,6 +106,9 @@ if menu == "Home":
         st.write(""" """)
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1UkHLxu0dW8Yq9bQXVTjhrdIHyGQWZKP4"
         layout(foto_kelompok)
+        st.markdown(
+            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+        )
         st.markdown(
             """<div style="text-align: justify;">
             Kelompok Bayesian merupakan dua belas bayi naga kecil yang sempat kehilangan arah dalam perjalanan mereka. 
