@@ -177,7 +177,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Nahan eek",
                 "sosmed": "@eksantyfebriana",
                 "kesan": "kakak lucu banget, asyik jugaa",  
-                "pesan":"sehat selalu kakak, be happy yaa"# 1
+                "pesan":"sehat selalu kakak, be happy yaa kakk!"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
