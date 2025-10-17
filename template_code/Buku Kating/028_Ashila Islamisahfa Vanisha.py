@@ -44,7 +44,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "#3FBAD8"},
+            "nav-link-selected": {"background-color": "#ffb6c1"},
         },
     )
     return selected
@@ -680,7 +680,7 @@ if menu == "PSDA":
                 "asal": "Medan",
                 "alamat": "Pemda",
                 "hobbi": "Merajut",
-                "sosmed": "@dla_natzzyaa,
+                "sosmed": "@dla_natzzyaa",
                 "kesan": "-",  
                 "pesan":"-"# 1
             },
