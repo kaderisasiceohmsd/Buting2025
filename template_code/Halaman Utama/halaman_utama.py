@@ -57,7 +57,7 @@ def layout(url):
     with col1:
         st.write("")  # Menyisakan kolom kosong
     with col2:
-        st.image(load_image(url), use_container_width=True, width=350)
+        st.image(load_image(url), use_container_width="True", width=350)
     with col3:
         st.write("")  # Menyisakan kolom kosong
 
@@ -100,43 +100,20 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
+            """<div style="text-align: center;">Think With Logic, Act with data, Move for real impact!!</div>""",
+            unsafe_allow_html=True,
+        )
+        st.write(""" """)
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+        layout(foto_kelompok)
+        st.markdown(
             """<div style="text-align: justify;">
             Kelompok Bayesian merupakan dua belas bayi naga kecil yang sempat kehilangan arah dalam perjalanan mereka. 
             Di tengah kebingungan itu, mereka akhirnya bertemu dengan sosok ibu yang penuh kasih bernama Dea Amanda yang dengan sabar sekaligus tegas membimbing mereka.
             Dari kedua belas naga tersebut ada Nando sebagai naga tertua yang bijak bersama Azzelya yang selalu setia mendampinginya dalam menjaga dan mengarahkan adik-adiknya. 
             Bersama-sama mereka menuntun sepuluh naga lainnya yaitu Yazid, Iqbal, Alsi, Hafis, Zaldi, Bina, Yolanda, Iffa, Arfai dan Yulia agar tidak lagi tersesat. 
             Dari hari ke hari berkat bimbingan Dea Amanda keluarga naga kecil ini tumbuh semakin kuat kompak dan siap menorehkan jejak besar sebagai satu kesatuan keluarga naga Bayesian.
-            </div>
-        
-            <br>
-        
-            <div style="text-align: justify;">
-            Teorema Bayes mengajarkan bahwa keyakinan awal (prior) bukanlah sesuatu yang mutlak. Setiap bukti baru (evidence) yang datang dapat memperkaya dan bahkan mengubah keyakinan itu, sehingga lahirlah pemahaman yang lebih matang (posterior).
-            Dari sini ada beberapa nilai filosofis yang bisa ditarik:
-            <ol>
-              <li>Belajar dari pengalaman: kita tidak boleh terpaku pada pandangan lama; bukti baru harus dijadikan dasar untuk memperbaiki cara berpikir.</li>
-              <li>Keterbukaan & kerendahan hati: tidak ada keyakinan awal yang sempurna; buka diri terhadap informasi baru.</li>
-              <li>Proses berkelanjutan: pembaruan keyakinan terjadi terus-menerus.</li>
-              <li>Keseimbangan antara tradisi & perubahan: prior tidak dibuang, tapi dikoreksi oleh evidence.</li>
-            </ol>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-
-        st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
-        layout(foto_kelompok)
-        st.markdown(
-            """<div style="text-align: justify;">Sebagai simbol, gaya Bayes digambarkan dengan pose unik: 
-            tangan kiri mengepal lurus ke depan, sementara tangan kanan siaga layaknya gerakan bela diri. 
-            Gerakan ini bukan sekadar gaya, tapi punya makna. Tangan kiri yang tegak lurus melambangkan keyakinan awal yang kuat, 
-            sedangkan tangan kanan yang siap menjaga menggambarkan bukti baru yang datang untuk memperkuat arah yang dipilih. 
-            Dengan filosofi itu, naga Bayesian bukan hanya sebuah kelompok, melainkan keluarga yang terus belajar, berkembang,
-            dan semakin kokoh lewat proses pembaruan keyakinan, persis seperti semangat teori Bayes.</div>""",
-            """<div style="text-align: justify;">Jadi secara singkat:
-            Teorema Bayes memberi filosofi bahwa hidup adalah proses memperbarui keyakinan dan keputusan 
-            berdasarkan bukti baru, sehingga kita menjadi lebih adaptif, bijak, dan terus berkembang.</div>""",
+            </div> """,
             unsafe_allow_html=True,
         )
         st.write(""" """)
