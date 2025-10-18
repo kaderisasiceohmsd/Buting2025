@@ -1483,7 +1483,65 @@ if menu == "Departemen MIKFES":
         ]
         display_images_with_data(gambar_urls, data_list)
     mikfes()
+
+if menu == "Senator":
+    def senator():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1oGKypx5OxNseg_78SyBd0jo1GwAdNX4",
+            "https://drive.google.com/uc?export=view&id=12yuRtZw_MA5XzSd-Mmw8YDBDR64mEe_k",
+            "https://drive.google.com/uc?export=view&id=15ZG_4D24SLlWubobRWl_mothEfKL6osR",
+            "https://drive.google.com/uc?export=view&id=1QzuutQmNWxz7_WxjmWdo6r5KmkVft3-z",
+        ]
+        data_list = [
+            {
+                "nama": "Kakak Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal": "Palembang",
+                "alamat": "Pulau Damar",
+                "hobbi": "Tidur",
+                "sosmed": "@bintangtwinkle",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+            {
+                "nama": "Kakak Nadya Ratu Anjani",
+                "nim": "123450043",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Mendengar Lagu ",
+                "sosmed": "@nadyaanjaani",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi": "Melamun",
+                "sosmed": "@fathinahnazzh",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+              {
+                "nama": "Kakak Lia Hana Ichisasmita",
+                "nim": "123450089",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Indomaret Belwis",
+                "hobbi": "Main Roblox",
+                "sosmed": "@lia.h_264",
+                "kesan": " ",  
+                "pesan": " "# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    senator()
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
