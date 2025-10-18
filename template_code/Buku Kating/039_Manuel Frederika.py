@@ -116,8 +116,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Makan Pisang",
                 "sosmed": "@_erendraa",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Aslinya murah senyum dan chill banget",  
+                "pesan": "Tetap jadi orang chill dan semangat di semester akhirnya bang"# 1
             },
             {
                 "nama": "Kakak Johannes Krisjon Silitonga",
@@ -127,8 +127,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jalan Lapas",
                 "hobbi": "Baca buku sequel ",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Tegas dan beribawa ",  
+                "pesan": "Semangat terus buat menjalani semester akhir nya bang"# 1
             },
               {
                 "nama": "Kakak Elisabeth Claudia Simanjuntak",
@@ -138,8 +138,8 @@ if menu == "Kesekjenan":
                 "alamat": "Ayres Kost",
                 "hobbi": "Gangguin Orang",
                 "sosmed": "@celisabethh_",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kakaknya asik dan gampang untuk ketawa",  
+                "pesan": "Semoga kakak terus semangat menjalani hari harinya"# 1
             },
               {
                 "nama": "Kakak Syadza Puspadari Azhar",
@@ -149,8 +149,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Tidur",
                 "sosmed": "@puspadrr",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Vibes positif banget dan kalem ",  
+                "pesan": "Semoga diberi kemudahan menjalani kehidupan kuliahnya kak"# 1
             },
             {
                 "nama": "Kakak Eksanty Febriana Sukma Islamiaty",
@@ -160,8 +160,8 @@ if menu == "Kesekjenan":
                 "alamat": "Natar (Raden Intan)",
                 "hobbi": "Nemenin orang dari nol sampai jatuh ke jurang kemiskinan",
                 "sosmed": "@eksantyfebriana",
-                "kesan": " ",  
-                "pesan":" "# 1
+                "kesan": "Murah senyum dan sangat asik",  
+                "pesan":"Tetap jadi orang yang asik kak"# 1
             },
              {
                 "nama": "Kakak Farahanum Afifah Ardiansyah",
@@ -171,8 +171,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifah",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kalem tapi tetap beribawa ",  
+                "pesan": "Semangat menjalani dunia perkuliahannya kak"# 1
             },
             
         ]
@@ -206,8 +206,8 @@ elif menu == "Baleg":
                 "alamat": "Lapas , Belwis",
                 "hobbi": "Melarikan Diri",
                 "sosmed": "@jeremia_s_ ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Abangnya asik dan chill abis",  
+                "pesan": "Semoga tetap semangat di kehidupan sehari harinya bang"# 1
             },
             {
                 "nama": "Kakak Dhea Amelia Putri",
@@ -217,7 +217,7 @@ elif menu == "Baleg":
                 "alamat": "Metro",
                 "hobbi": "Bertutur kata baik dan sopan",
                 "sosmed": "@_.dheamelia ",
-                "kesan": " ",  
+                "kesan": "  ",  
                 "pesan": " "# 1
             },
               {
@@ -1878,6 +1878,7 @@ elif menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
