@@ -1006,7 +1006,7 @@ elif menu == "Departemen MIKFES":
         display_images_with_data(gambar_urls, data_list)
     MIKFES()
 elif menu == "Departemen Eksternal":
-    def eksternal():
+    def EKSTERNAL():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1HHDQNF6__W37ypJlNNEJTiumvvBrBAK0",
             "https://drive.google.com/uc?export=view&id=1VQ6BSnxa6hnFHHJD68qV7xiRhOw7dovV",
@@ -1301,9 +1301,10 @@ elif menu == "Departemen Eksternal":
               },
         ]
         display_images_with_data(gambar_urls, data_list)
-    eksternal()
-    elif menu == "Departemen Internal":
-    def internal():
+    EKSTERNAL()
+    
+elif menu == "Departemen Internal":
+    def INTERNAL():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1Yh7K_9QSko0B1zFNPNdYeFHt68TahrrA",
             "https://drive.google.com/uc?export=view&id=1LzGJQUdGZh61j5cWizTtu5BQDqVqv0Y_",
@@ -1489,4 +1490,4 @@ elif menu == "Departemen Eksternal":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    internal()
+    INTERNAL()
