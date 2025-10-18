@@ -118,10 +118,10 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1ersYC41EzUcmhnFkCd4LdvgE0atwPgrX",
             "https://drive.google.com/uc?export=view&id=1uYS99TFP5iLi6IQi07CO0NeiSXYjAWaX",
-            "https://drive.google.com/uc?export=view&id=1Ke724M-V9OyKlZ9m1WhdaHF-3T2Kq45L",
-            "https://drive.google.com/uc?export=view&id=1S06Ws-NpvUEJg-o8ueVkoVMFc99Efuj3",
-            "https://drive.google.com/uc?export=view&id=1vzUs4VrInJe6uzuOLvr7gyKOiqIBLzi9",
-            "https://drive.google.com/uc?export=view&id=1SFUNiVid6K4SBfoKc8Xh73gKBZEubRJi", 
+            "https://drive.google.com/uc?export=view&id=/1vSZavk3c1P3QZzb_Nru4gS_qknwfGF9O",
+            "https://drive.google.com/uc?export=view&id=1gO-PNnMtcwMI8gys-wl26febkqjdYpRq",
+            "https://drive.google.com/uc?export=view&id=1a2TybyYYAXrbLxtbMmKP5hegOh98EBbO",
+            "https://drive.google.com/uc?export=view&id=11tb9CjPYxurUCz4xo6IXpKyYP02u72de", 
         ]
         data_list = [
             {
