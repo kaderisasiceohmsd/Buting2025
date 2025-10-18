@@ -1166,7 +1166,7 @@ if menu == "Departemen Medkraf":
                 "umur": "19",
                 "asal": "KotaBumi",
                 "alamat": "Gracia Kost 1",
-                "hobbi": "Main Gitar,
+                "hobbi": "Main Gitar",
                 "sosmed": "@aliyaammara",
                 "kesan": "",  
                 "pesan": ""# 1
@@ -1285,6 +1285,7 @@ if menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     medkraf()
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
