@@ -217,8 +217,8 @@ if menu == "Baleg":
                 "alamat": "Metro",
                 "hobbi": "Bertutur kata baik dan sopan",
                 "sosmed": "@_.deamalia",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakak ini asik bangett orangnya",  
+                "pesan":"semangat terus kuliahnya yaa kakk"# 1
             },
             {
                 "nama": "Renisha Putri Giani",
