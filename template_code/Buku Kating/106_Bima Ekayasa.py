@@ -1547,14 +1547,14 @@ if menu == "Departemen SSD":
             "https://drive.google.com/uc?export=view&id=1FtmAumH7ggI21yR9dc4x3pdoMzPvOI09", #1
             "https://drive.google.com/uc?export=view&id=1vo1t0G_N-PXVRub3S9IQvh2f5mx4kAlm", #2
             "https://drive.google.com/uc?export=view&id=1h_K2zLowQePN-Ef-UKgDvWbXJbWSxGK1", #3
-            "https://drive.google.com/uc?export=view&id=", #4
-            "https://drive.google.com/uc?export=view&id=", #5
-            "https://drive.google.com/uc?export=view&id=", #6
-            "https://drive.google.com/uc?export=view&id=", #7
-            "https://drive.google.com/uc?export=view&id=", #8
-            "https://drive.google.com/uc?export=view&id=", #9
-            "https://drive.google.com/uc?export=view&id=", #10
-            "https://drive.google.com/uc?export=view&id=", #11
+            "https://drive.google.com/uc?export=view&id=1VLwHZ9G6-lcmNGubkHzbBtnJRNvuhzUf", #4
+            "https://drive.google.com/uc?export=view&id=1OvwmbPp5JUnQgbLkwLq98LxVinEv9ZxL", #5
+            "https://drive.google.com/uc?export=view&id=1MRusjVnhQGsEAdQh4Ie7DmbJW2BSqWWE", #6
+            "https://drive.google.com/uc?export=view&id=1kmj2zc5SF3ijTOtZ7T_X5knpqdetDzfT", #7
+            "https://drive.google.com/uc?export=view&id=1ZowycxedMnHW1NzAkLlekr5M97CVboTe", #8
+            "https://drive.google.com/uc?export=view&id=1KSGz0perASXOmkhRgltAbwTBB-PymIfS", #9
+            "https://drive.google.com/uc?export=view&id=11n6hJ79kDD_K-lErBWEMNb-WJ0xkQDet", #10
+            "https://drive.google.com/uc?export=view&id=1pKkiiOvQAR4Mp3DC8kaZFgc2bs3FRoM8", #11
         ]
         data_list = [
             {
@@ -1683,6 +1683,7 @@ if menu == "Departemen SSD":
     Departemen_SSD()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
