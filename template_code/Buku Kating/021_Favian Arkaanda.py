@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Beli donat kentang",
                 "sosmed": "@erendraa",
-                "kesan": "keren banget banggg bisa jadi ",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "orangnya humble banget bangg, asik jugaa ",  
+                "pesan":"semoga bisa cepat lulus sebagai sarjana Sains Data"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
