@@ -1664,7 +1664,6 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1y9A_T1Zbibykxl_YKKABOskRCBtPPWTc",
             "https://drive.google.com/uc?export=view&id=1L6G_OUwoLJ02TaB4ts5CAI4Gwuw3m49C",
             "https://drive.google.com/uc?export=view&id=17Rc-NXsfQAv7Z5YwPSacIaZqBTo_jAo2",
-
         ]
         data_list = [
             {
@@ -1777,17 +1776,7 @@ if menu == "Departemen Medkraf":
                 "kesan": "",  
                 "pesan":""# 1
             },
-            {
-                "nama": Hafsa Fazila Arradhi",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
-                "kesan": "",  
-                "pesan":""# 1
-            },
+            #kurang
             {
                 "nama": "Nayla Salsabila Fathianisa",
                 "nim": "",
@@ -1799,17 +1788,7 @@ if menu == "Departemen Medkraf":
                 "kesan": "",  
                 "pesan":""# 1
             },
-            {
-                "nama": "Sania Dwi Ayu Lestari",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
-                "kesan": "",  
-                "pesan":""# 1
-            },
+            #kurang
             {
                 "nama": "Akmal Faiz Abdillah",
                 "nim": "",
