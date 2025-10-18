@@ -115,7 +115,7 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Sangat berwibawa dan keren",  
+                "kesan": "TES VANNI",  
                 "pesan":"Semangat terus bang menjalani hidup sebagai ketua"# 1
             },
             {
