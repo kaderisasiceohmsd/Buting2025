@@ -1499,3 +1499,145 @@ if menu == "Departemen Internal":
         ]
         display_images_with_data(gambar_urls, data_list)
     internal()
+# Tambahkan menu lainnya sesuai kebutuhan
+
+if menu == "Departemen SSD":
+    def ssd():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1AHVrBBTSUs2gtHfljAaJlj_1mRKemm9e",
+            "https://drive.google.com/uc?export=view&id=1vUK-LzciuQ9-eWo-U0FpqExFnP-e7N-1",
+            "https://drive.google.com/uc?export=view&id=1NHMorgZ7eJua3DFQZLr2A2h6gGrI0wwW",
+            "https://drive.google.com/uc?export=view&id=1_5xvJ0HgOUXsKIXUndmtMGW0aHEJqLr_",
+            "https://drive.google.com/uc?export=view&id=1jPRvnTLkwz6KU9Oc0YswTVr_q9nU9sCQ",
+            "https://drive.google.com/uc?export=view&id=1sUW0sSNi_70TbV1vd5H2rTVSTMlqqEhT",
+            "https://drive.google.com/uc?export=view&id=1iT-5xjjGAY0rlR2hAYrtLahpYWq2SYuD",
+            "https://drive.google.com/uc?export=view&id=1aMlbtS3v93DdPckQpLtLG5KZmV1xJYnS",
+            "https://drive.google.com/uc?export=view&id=1FjGuK_UOMOa8hLGCPvOHaRatfbBsJs2-",
+            "https://drive.google.com/uc?export=view&id=1FjGuK_UOMOa8hLGCPvOHaRatfbBsJs2-",
+            "https://drive.google.com/uc?export=view&id=1I8CFhBc3f5j18wzL362kB8rkFg3BlxLc",
+        ]
+        data_list = [
+            {
+                "nama": "Danang Hilal Kurniawan",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""
+            },
+           {
+                "nama": "Syalaisha Andina Putriansyah",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+             {
+                "nama": "Ahmad Rizqi",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+              {
+                "nama": "Anadia Carana",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+           {
+                "nama": "Aprilia Dewi Hutapea",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Nabila Zakiyah Zahra",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Dhafin Razaqa Luthfi",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Devi Rahayu
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Enggli Rahmadhani",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Hanifah Inaya Sani",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+            {
+                "nama": "Nydia Manda Putri",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
+            },
+
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    ssd()
