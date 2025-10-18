@@ -1595,7 +1595,7 @@ if menu == "Departemen SSD":
                 "pesan":""# 1
             },
             {
-                "nama": "Devi Rahayu
+                "nama": "Devi Rahayu",
                 "umur": "",
                 "asal":"",
                 "alamat": "",
@@ -1637,7 +1637,6 @@ if menu == "Departemen SSD":
                 "kesan": "",  
                 "pesan":""# 1
             },
-
         ]
         display_images_with_data(gambar_urls, data_list)
     ssd()
