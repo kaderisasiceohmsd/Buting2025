@@ -359,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1JcDEG3mLFAhLfebBU2eVWg4Yc1m-hLuR",
-            "https://drive.google.com/uc?export=view&id=1RzOq2sxc_5gBTgYCZVOTavjBC5tHtH2b",
-            "https://drive.google.com/uc?export=view&id=1r-hj9mHvbb3qoP7cKfJ8MlqCn8eBSfWM",
-            "https://drive.google.com/uc?export=view&id=10zBljQ-qQnV1TluEEpNKYXFWZco2PQBI",
+            "https://drive.google.com/uc?export=view&id=1AO-7OfGdunzLAJBf4H-VJTcnAE021tAT",
+            "https://drive.google.com/uc?export=view&id=1dX2h9_voiRR2HcjJ7y6E-nE7jsK5MDId",
+            "https://drive.google.com/uc?export=view&id=1v7a7BVFSLyTLjJHBF3Jm-Pmw_NibqJXi",
+            "https://drive.google.com/uc?export=view&id=1aT4Df7jhjgaeeA55kTSVjf8nVb3esT6h",
         ]
         data_list = [
             {
