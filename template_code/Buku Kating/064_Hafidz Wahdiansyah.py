@@ -1646,24 +1646,25 @@ if menu == "Departemen SSD":
 if menu == "Departemen Medkraf":
     def medkraf():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=1o4WhENhwFGcGHq5YPkWnw7h9lHbleCwQ",
+            "https://drive.google.com/uc?export=view&id=19nAEvpAcj1m_ftbE5NRbdYDLsbdas2Wl",
+            "https://drive.google.com/uc?export=view&id=1R1_L5I7Of_kgu0EX-zoj-krs5YEjb_5_",
+            "https://drive.google.com/uc?export=view&id=180Fa34qWaVUOC2EsapDQ2XkJKcxYWSps",
+            "https://drive.google.com/uc?export=view&id=1mb8TCIvtrOoSfbQ2VAe6OAB_k0J95els",
+            "https://drive.google.com/uc?export=view&id=1dgfEdLhEP700RT4uGFF-Xo1u16uOUVDa",
+            "https://drive.google.com/uc?export=view&id=1FrgP_waXdp8TODp3sNFpJxRPm3dao8lp",
+            "https://drive.google.com/uc?export=view&id=1n6vPm5f3ph181Dpoy4JIlbfbdLHmL57O",
+            "https://drive.google.com/uc?export=view&id=170WsEA6uhgRXpUjzAS34RcfEloAOK_vc",
+            "https://drive.google.com/uc?export=view&id=1jhOZFWWCiDoX5bRakMI4slLl6HARd8lO", 
+            #kurang
+            "https://drive.google.com/uc?export=view&id=1VfvKjCtoM9kiz56X5InZjbPgX2Uj0p7Z",
+            #kurang
+            "https://drive.google.com/uc?export=view&id=1b8hfOYjC-kAjNJT31XhMRWlzue1VQENT",
+            "https://drive.google.com/uc?export=view&id=1a1jcHxlbC6IH2bu_jBpmEBbwnPbtk1x6",
+            "https://drive.google.com/uc?export=view&id=1y9A_T1Zbibykxl_YKKABOskRCBtPPWTc",
+            "https://drive.google.com/uc?export=view&id=1L6G_OUwoLJ02TaB4ts5CAI4Gwuw3m49C",
+            "https://drive.google.com/uc?export=view&id=17Rc-NXsfQAv7Z5YwPSacIaZqBTo_jAo2",
+
         ]
         data_list = [
             {
