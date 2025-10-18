@@ -174,10 +174,70 @@ if menu == "Kesekjenan":
                 "hobbi": "Nahan Pipis",
                 "sosmed": "@celisabethh_",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia, sangat memotivasi",
-                "pesan":"semangat terus kuliahnya kakak !!!"# 6
-            },
+                "pesan":"semangat terus kuliahnya kakak !!!"# 6 
+         },  
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+if menu == "Senator":
+    def Senator():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1xiyxnQ14j_juLL8brNS_3Y-QiwQqmsXf",
+            "https://drive.google.com/uc?export=view&id=1VfNy1c5VshwdNgur2SamAYNt383sPwcv",
+            "https://drive.google.com/uc?export=view&id=18zYDQWjfR7PoQAQUpdRU63TDtNiGSbeX",
+            "https://drive.google.com/uc?export=view&id=1W394vnpowF15bJyek5QRJRnZTXKlb-Qn",
+
+        ]   
+        data_list = [
+            {
+                "nama": "Ryan Bintang Wijaya", 
+                "nim": "122450094",
+                "umur": "21",
+                "asal":"Palembang",
+                "alamat": "Tanya Caesar",
+                "hobbi": "Padel",
+                "sosmed": "@bintangtwinkle",
+                "kesan": "Kakak ini asik dengan hobinya main padel, dilihat sangat asik ketika berdiskusi",  
+                "pesan":"semangat terus kuliahnya abang!!!"# 1
+            },
+            {
+                "nama": "Lia Hana Ichisasmita",
+                "nim": "123450089",
+                "umur": "20",
+                "asal":"Jakarta",
+                "alamat": "Belwis",
+                "hobbi": "Main Roblox",
+                "sosmed": "@lia.h_264",
+                "kesan": "Kakak ini asik suka main roblox, sangat memotivasi",
+                "pesan":"semangat terus kuliahnya kakak!!!"# 2
+            },
+            {
+                "nama": "Nadya Ratu Anjani",
+                "nim": "123450083",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Mendengarkan Musik",
+                "sosmed": "@nadyaanjani",
+                "kesan": "Kakak ini asik saya suka mendengarkan musik, sama saya juga",
+                "pesan":"semangat terus kuliahnya kakak !!!"# 3
+            },
+            {
+
+                "nama": "Fathinah Nur Azizzah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal":"Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi":  "live instagram",
+                "sosmed": "@fathinahazzh",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia, sangat memotivasi",
+                "pesan":"semangat terus kuliahnya kakak !!!"# 4
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    kesekjenan()
+
+
