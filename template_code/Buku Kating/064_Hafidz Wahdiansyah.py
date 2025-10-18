@@ -1776,7 +1776,7 @@ if menu == "Departemen Medkraf":
                 "kesan": "",  
                 "pesan":""# 1
             },
-            #kurang
+#kurang
             {
                 "nama": "Nayla Salsabila Fathianisa",
                 "nim": "",
@@ -1788,7 +1788,7 @@ if menu == "Departemen Medkraf":
                 "kesan": "",  
                 "pesan":""# 1
             },
-            #kurang
+#kurang
             {
                 "nama": "Akmal Faiz Abdillah",
                 "nim": "",
