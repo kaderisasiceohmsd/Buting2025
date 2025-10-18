@@ -115,7 +115,7 @@ elif menu == "Senator":
                 "hobbi": "Belajar",
                 "sosmed": "@bintangtwinkle",
                 "kesan": "-",
-                "pesan": "-"
+                "pesan": "-",
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -126,7 +126,7 @@ elif menu == "Senator":
                 "hobbi": "Denger lagu",
                 "sosmed": "@nadyaanjani",
                 "kesan": "-",
-                "pesan": "-"
+                "pesan": "-",
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -137,7 +137,7 @@ elif menu == "Senator":
                 "hobbi": "Bengong",
                 "sosmed": "@fathinahnazzh",
                 "kesan": "-",
-                "pesan": "-"
+                "pesan": "-",
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -148,7 +148,7 @@ elif menu == "Senator":
                 "hobbi": "Tidur",
                 "sosmed": "@lia.h_264",
                 "kesan": "-",
-                "pesan": "-"
+                "pesan": "-",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
