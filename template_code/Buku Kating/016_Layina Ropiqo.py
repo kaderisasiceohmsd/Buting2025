@@ -353,7 +353,6 @@ if menu == "Baleg":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    kesekjenan()
     Baleg()
 
 if menu == "Senator":
@@ -404,7 +403,6 @@ if menu == "Senator":
 if menu == "Departemen PSDA":
     def Departemen_PSDA():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1n7zYC3CHqYXJvOxjhobhWVl6_LwvF1dc",
             "https://drive.google.com/uc?export=view&id=1v7_TugMNDohNn6UzFhDnNWYrtI5C9FLW", # Ketua
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", # Sekre
             "https://drive.google.com/uc?export=view&id=1Am4CkzFMmBQ7KA5bozrNMa3bVH7e-1_a", # Kader
@@ -970,7 +968,6 @@ if menu == "Departemen MIKFES":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_PSDA()
     Departemen_MIKFES()
 
 if menu == "Departemen Eksternal":
