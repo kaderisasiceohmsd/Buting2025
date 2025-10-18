@@ -427,21 +427,21 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=18A_tuf9rokWfsx5QELP4kISjraqYrIls", #9
             "https://drive.google.com/uc?export=view&id=1ONSeWLHFVUXXLVlFWEZ9ge_06epwyRnc", #10
             "https://drive.google.com/uc?export=view&id=101MqkqKkoU6ao_guwYhp2TEA-FPDAtk8", #11
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #12
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #13
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #14
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #15
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #16
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #17
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #18
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #19
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #20
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #21
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #22
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #23
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #24
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #25
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #26
+            "https://drive.google.com/uc?export=view&id=1yaNODg_rO48ot32vZcHJU901xazkemR2", #12
+            "https://drive.google.com/uc?export=view&id=1M-bmSuBZubsQVX_qqjKMFiUSjXZh3TM5", #13
+            "https://drive.google.com/uc?export=view&id=1fsD2YmhN9caBl-7xcMJi3NC3hRvlhE1d", #14
+            "https://drive.google.com/uc?export=view&id=1QfOss-yt860ucnPHLYoarONeWn4_TJPM", #15
+            "https://drive.google.com/uc?export=view&id=1lnPHc4LGeoR0Yw1BQPq7oUlAv03boVnh", #16
+            "https://drive.google.com/uc?export=view&id=1fTltcesGV2O56VcuPjIwmG3WOUtVYV3u", #17
+            "https://drive.google.com/uc?export=view&id=1w_tgTKEPpdij-0T3kCVM5DqDp24DC-53", #18
+            "https://drive.google.com/uc?export=view&id=1CwkmC1bd29vOkUO8J6PkdGoAH-PaK44Z", #19
+            "https://drive.google.com/uc?export=view&id=1qNkEj-v62lvRMCC-g5EywLjgaOZCt1tS", #20
+            "https://drive.google.com/uc?export=view&id=1BO4OHeZTpVOt5cho8AYHlnJggoix2k2o", #21
+            "https://drive.google.com/uc?export=view&id=1MM1QGGcbmmmrO1C63gyzdVRJ61Ewy0YQ", #22
+            "https://drive.google.com/uc?export=view&id=1BhFYbY-kWlQ24hDzZBqBgyzd-NaZPzJH", #23
+            "https://drive.google.com/uc?export=view&id=1zob7mi6TRPHsjzPbThPbVawOkdfH4Dqe", #24
+            "https://drive.google.com/uc?export=view&id=1Jkzeixiwax3Eweh1EwaTf5I6Od7-jDcm", #25
+            "https://drive.google.com/uc?export=view&id=13xm5P6q1P7AjLG5cTxjJ3w9Oo1_jzg0d", #26
         ]
         data_list = [
             {
@@ -483,7 +483,7 @@ if menu == "Departemen PSDA":
                 "umur": "20",
                 "asal":"Tangerang",
                 "alamat": "GH Belwis",
-                "hobbi": " ",
+                "hobbi": "Main bola",
                 "sosmed": "@ahmad.rizky___",
                 "kesan": " ",  
                 "pesan":" "# 4
@@ -525,8 +525,8 @@ if menu == "Departemen PSDA":
                 "nama": "Kakak Natasya Amavisca",
                 "nim": "123450024",
                 "umur": "20",
-                "asal":" ",
-                "alamat": " ",
+                "asal":"Pasar Muara Beliti",
+                "alamat": "Kost Putri Gerbang Barat ",
                 "hobbi": "Belajar",
                 "sosmed": "@natasyaamavisca",
                 "kesan": " ",  
@@ -565,6 +565,184 @@ if menu == "Departemen PSDA":
                 "kesan": " ",  
                 "pesan":" "# 11
             },
+             {
+                "nama": "Kakak Ahmad Sahidin Akbar",
+                "nim": "122450144",
+                "umur": "21",
+                "asal": "Tulang Bawang",
+                "alamat": "Sukarame",
+                "hobbi": "Main Voli",
+                "sosmed": "@Syahidzz_",
+                "kesan": " ",
+                "pesan": " " # 12
+            },
+            
+            {
+                "nama": "Kakak Ali Aristo Muthahhari Parisi",
+                "nim": "123450088",
+                "umur": "20",
+                "asal": "Lampung Timur",
+                "alamat": "Gang Nangka 4 Sukarame",
+                "hobbi": "Main game, kuliner kalau ada uang",
+                "sosmed": "@ali_parisi3",
+                "kesan": " ",
+                "pesan": " " # 13
+            },
+            
+            {
+                "nama": "Kakak Rosalia Siregar",
+                "nim": "123450036",
+                "umur": "19",
+                "asal": "Medan",
+                "alamat": "Belwis",
+                "hobbi": "Main Roblox",
+                "sosmed": "@rosaliasiregar",
+                "kesan": " ",
+                "pesan": " " # 14
+            },
+            
+            {
+                "nama": "Kakak Kharisma Mustika Sari",
+                "nim": "123450034",
+                "umur": "20",
+                "asal": "Way Kanan",
+                "alamat": "Untung",
+                "hobbi": "Scroll Tiktok",
+                "sosmed": "@rismaa.mustika_",
+                "kesan": " ",
+                "pesan": " " # 15
+            },
+            
+            {
+                "nama": "Kakak Gusti Putu Ferazka",
+                "nim": "123450046",
+                "umur": "20",
+                "asal": "Bekasi",
+                "alamat": "Way Dadi",
+                "hobbi": "Tidur",
+                "sosmed": "@ferazkaa",
+                "kesan": " ",
+                "pesan": " " # 16
+            },
+            
+            {
+                "nama": "Kakak Sahid Maulana",
+                "nim": "122450109",
+                "umur": "22",
+                "asal": "Depok",
+                "alamat": "Jl. Airan Raya",
+                "hobbi": "Main Game",
+                "sosmed": "@sahid_maul19",
+                "kesan": " ",
+                "pesan": " " # 17
+            },
+            
+            {
+                "nama": "Kakak Daffa Ahmad Naufal",
+                "nim": "122450137",
+                "umur": "21",
+                "asal": "Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Cari masalah anak 23",
+                "sosmed": "@ahmadnaufal_11",
+                "kesan": " ",
+                "pesan": " " # 18
+            },
+            
+            {
+                "nama": "Kakak Ihsan Maulana Yusuf",
+                "nim": "123450110",
+                "umur": "20",
+                "asal": "Sumatera Barat",
+                "alamat": "Belwis, Pemda",
+                "hobbi": "Nangkap Lele",
+                "sosmed": "ihsan.yusuf",
+                "kesan": " ",
+                "pesan": " " # 19
+            },
+            
+            {
+                "nama": "Kakak Rewina Audriya Melva Sari",
+                "nim": "123450049",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Way Kandis",
+                "hobbi": "Dengerin Musik",
+                "sosmed": "@rewinaaa",
+                "kesan": " ",
+                "pesan": " " # 20
+            },
+            
+            {
+                "nama": "Kakak Benget Sidabutar",
+                "nim": "123450047",
+                "umur": "20",
+                "asal": "Sumatera Utara",
+                "alamat": "Belwis",
+                "hobbi": "Futsal",
+                "sosmed": "sidabutar.26",
+                "kesan": " ",
+                "pesan": " " # 21
+            },
+            
+            {
+                "nama": "Kakak Uliano William Purba",
+                "nim": "122450098",
+                "umur": "19",
+                "asal": "Depok",
+                "alamat": "Jl. Raden Saleh",
+                "hobbi": "Main piano, ngoding, nanem anggrek, berantem",
+                "sosmed": "@ulianowlm",
+                "kesan": " ",
+                "pesan": " " # 22
+            },
+            
+            {
+                "nama": "Kakak Kevin Antoni Junior",
+                "nim": "123450109",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Panjang",
+                "hobbi": "Main Basket",
+                "sosmed": "@kevinaj_",
+                "kesan": " ",
+                "pesan": " " # 23
+            },
+            
+            {
+                "nama": "Kakak Erma Daniar Safitri",
+                "nim": "123450061",
+                "umur": "20",
+                "asal": "Pringsewu",
+                "alamat": "Jl. Lapas Raya No 50",
+                "hobbi": "Dance",
+                "sosmed": "@d_aniar",
+                "kesan": " ",
+                "pesan": " " # 24
+            },
+            
+            {
+                "nama": "Kakak Lidia Natasyah Marpaung",
+                "nim": "123450015",
+                "umur": "20",
+                "asal": "Medan",
+                "alamat": "Pemda",
+                "hobbi": "Merajuk",
+                "sosmed": "@dla_natzzyaa",
+                "kesan": " ",
+                "pesan": " " # 25
+            },
+            {
+                "nama": "Kakak Muhammad Ridwan",
+                "nim": "123450091",
+                "umur": "20",
+                "asal": "Lampung Tengah",
+                "alamat": "Belwis",
+                "hobbi": "Badminton",
+                "sosmed": "@ridwan122",
+                "kesan": " ",
+                "pesan": " " # 26
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_PSDA()
@@ -582,7 +760,7 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1muSKRP1XZv_vjMgkIUtDvki0gqpi4TEt", #8
             "https://drive.google.com/uc?export=view&id=1bZmnFpbY7vc9w0lopEir8NKj4fQMcws-", #9
             "https://drive.google.com/uc?export=view&id=1V2FuvHFDzJtm4cbocR9HR_bsSSS6XK42", #10
-            "https://drive.google.com/uc?export=view&id=1ToZPY_nVntUEy3JXxQzI7EvrWc5aPTTK", #11
+            "https://drive.google.com/uc?export=view&id=1f-6vkVDPSyuy36yYMK97oRQ4UOIafhXU", #11
             "https://drive.google.com/uc?export=view&id=1NJFxEatsPN8sjDWDIb2_mmO4d5lbVXdh", #12
             "https://drive.google.com/uc?export=view&id=1o0RHXUm0BtKPE0g2nQAhrQUswMAntclG", #13
             "https://drive.google.com/uc?export=view&id=14ncieBvvIWMiTn_hqErwe-h5vCyIm10u", #14
@@ -740,24 +918,24 @@ if menu == "Departemen MIKFES":
                 "pesan":" "# 13
             },
             {
-                "nama": "Kakak Fairus Ary Syifa",
+                "nama": "Kakak Fairuz Ary Syifa",
                 "nim": "123450044",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "Sukarame",
+                "hobbi": "Tidur",
+                "sosmed": "@_fairuzary",
                 "kesan": "",  
                 "pesan":""# 14
             },
             {
                 "nama": "Kakak Tanty Widyiastuti",
                 "nim": "123450094",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@i",
+                "umur": "20",
+                "asal":"Lampung Tengah",
+                "alamat": "Asrama TB 4 ITERA",
+                "hobbi": "Tidur",
+                "sosmed": "@tvnty_",
                 "kesan": "",  
                 "pesan":""# 15
             },
@@ -798,11 +976,11 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Kakak Rahma Oktavia Albar",
                 "nim": "123450003",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "umur": "19",
+                "asal":"Bengkulu Selatan",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "Main Catur",
+                "sosmed": "@_rhmaoktvia",
                 "kesan": "",  
                 "pesan":""# 19
             },
@@ -810,21 +988,21 @@ if menu == "Departemen MIKFES":
                 "nama": "Kakak Rahmah Gustriana Deka",
                 "nim": "123450102",
                 "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "asal":"Lampung Timur",
+                "alamat": "Airan",
+                "hobbi": "ngerepotin Tanty",
+                "sosmed": "@gustriana.d_",
                 "kesan": "",  
                 "pesan":""# 20
             },
             {
                 "nama": "Kakak Razin Hafid Hamdi",
                 "nim": "123450096",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "Belwis",
+                "hobbi": "Futsal",
+                "sosmed": "@razyn.hfd",
                 "kesan": "",  
                 "pesan":""# 21
             },
@@ -833,9 +1011,9 @@ if menu == "Departemen MIKFES":
                 "nim": "123450065",
                 "umur": "20",
                 "asal":"Bandar Lampung",
-                "alamat": "",
+                "alamat": "Pemda",
                 "hobbi": "Catur",
-                "sosmed": "@",
+                "sosmed": "@giofaniars_",
                 "kesan": " ",  
                 "pesan":" "# 22
             },
@@ -906,7 +1084,7 @@ if menu == "Departemen Eksternal":
                 "pesan":" "# 3
             },
             {
-                "nama": "Kakak Devyna Palupi Sanjaya",
+                "nama": "Kakak Devyna Sonya Palupi Sanjaya",
                 "nim": "123450007",
                 "umur": "20",
                 "asal":"Duo P(Palembang & Pringsewu)",
@@ -1336,11 +1514,11 @@ if menu == "Departemen SSD":
             "https://drive.google.com/uc?export=view&id=14oVZ7BokIji1Nu78Y-vN3iJ7hwrpLlu_", #2
             "https://drive.google.com/uc?export=view&id=1wP2VPcZigocu-JBEBhZo6eVkP8tpA8GI", #3
             "https://drive.google.com/uc?export=view&id=1r6LICCp1HqR37NuHKcRLiPP2Uoo0oxdR", #4
-            "https://drive.google.com/uc?export=view&id=1YOzgSl5Kglc3PbAHZVeK9dXsQp1WN_dP", #5
+            "https://drive.google.com/uc?export=view&id=1qAzhSMuM8WQVHkZsA1AGmmJQvxMSFOaF", #5
             "https://drive.google.com/uc?export=view&id=18dQnTi_1iaINAs3VjZzPO-txynWyGWQY", #6
             "https://drive.google.com/uc?export=view&id=1MmO9MhK5Vg04z0emBqmfP8dlCg0s6Bar", #7
             "https://drive.google.com/uc?export=view&id=1nsNXzhg1MsKf8DHuOLvtemp2LCyN5WTQ", #8
-            "https://drive.google.com/uc?export=view&id=12CDrjNQ18SYIurDh8by2V4vUh8XOXkdY", #9
+            "https://drive.google.com/uc?export=view&id=1Vw8x6QqjhkRCySixQeswHJ75rsONAAM1", #9
             "https://drive.google.com/uc?export=view&id=107m0rzE6blHXyTAA8ap9XtZHy0ZDR3SK", #10
             "https://drive.google.com/uc?export=view&id=1R87R9I8MCxlX3XkQvSdNW0BEsVJBDOyy", #11
         ]
@@ -1353,8 +1531,8 @@ if menu == "Departemen SSD":
                 "alamat": "Belakang PB Swalayan",
                 "hobbi": "Jogging",
                 "sosmed": "@dananghk_ ",
-                "kesan": "Kakaknya manis, lucu ",  
-                "pesan": " Semoga dilancarkan semuanya dan dipermudah urusannya"# 1
+                "kesan": "  ",  
+                "pesan": "  "# 1
             },
             {
                 "nama": "Kakak Syalaisha Andina Putriansyah",
@@ -1364,8 +1542,8 @@ if menu == "Departemen SSD":
                 "alamat": "Suka Rame",
                 "hobbi": "Baca Novel",
                 "sosmed": "@syalaishaa_31 ",
-                "kesan": "Kakak nya baik, seru ",  
-                "pesan": "Sehat selalu kak, dilancakan semuanya "# 2
+                "kesan": "  ",  
+                "pesan": "  "# 2
             },
               {
                 "nama": "Kakak Ahmad Rizqi",
@@ -1375,8 +1553,8 @@ if menu == "Departemen SSD":
                 "alamat": "Airan",
                 "hobbi": "Pergi ke cafe tengah malam",
                 "sosmed": "@den_iki__",
-                "kesan": "Kakaknya keren dan asik ",  
-                "pesan": "Semoga dilancarkan urusannya kak "# 3
+                "kesan": "  ",  
+                "pesan": "  "# 3
             },
               {
                 "nama": "Kakak Anadia Carana",
@@ -1386,8 +1564,8 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "Jogging",
                 "sosmed": "@anadiacrn_",
-                "kesan": "kakaknya keren ",  
-                "pesan": "Semoga urusannya diperlancar "# 4
+                "kesan": "  ",  
+                "pesan": " "# 4
                    },
               {
                 "nama": "Kakak Aprilia Dewi Hutapea",
@@ -1403,13 +1581,13 @@ if menu == "Departemen SSD":
             {
                 "nama": "Kakak Nabila Zakiyah Zahra",
                 "nim": "123450023",
-                "umur": ".",
-                "asal": ".",
-                "alamat": ".",
-                "hobbi": ".",
-                "sosmed": ".",
-                "kesan": "Kakaknya keren banget ",  
-                "pesan":"Semoga diperlancar semuanya  "# 6
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Way Halim",
+                "hobbi": "Jogging",
+                "sosmed": "@nabila_zazahra",
+                "kesan": "  ",  
+                "pesan":"   "# 6
             },
              {
                 "nama": "Kakak Dhafin Razaqa Luthfi",
@@ -1419,8 +1597,8 @@ if menu == "Departemen SSD":
                 "alamat": "Sukarame",
                 "hobbi": "Belajar",
                 "sosmed": "@dhafinrzqa13",
-                "kesan": "Kakaknya cantik dan lucu ",  
-                "pesan": "Semangat kak, diperlancar semuanya "# 7
+                "kesan": "  ",  
+                "pesan": " "# 7
             },
               {
                 "nama": "Kakak Devi Rahayu",
@@ -1430,8 +1608,8 @@ if menu == "Departemen SSD":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Nonton Drakor",
                 "sosmed": "@deviirhyu",
-                "kesan": "Kakaknya keren banget ",  
-                "pesan": "Semoga dilancarkan semuanya kak "# 8
+                "kesan": "  ",  
+                "pesan": "  "# 8
             },
               {
                 "nama": "Kakak Enggli Rahmadhani",
@@ -1561,11 +1739,11 @@ elif menu == "Departemen Medkraf":
             },
               {
                 "nama": "Try Yani Rizki Nur Rohmah",
-                "nim": "",
-                "umur": "",
-                "asal": "",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "122450020",
+                "umur": "20",
+                "asal": "Lampung Barat",
+                "alamat": "Korpri",
+                "hobbi": "Belajar",
                 "sosmed": "@",
                 "kesan": "",  
                 "pesan": ""# 1
