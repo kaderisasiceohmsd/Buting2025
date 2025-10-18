@@ -362,7 +362,7 @@ if menu == "Senator":
             "https://drive.google.com/uc?export=view&id=1sB-7Hxd7gy6UqSogJEVQPiByXRXbHM3v",
             "https://drive.google.com/uc?export=view&id=1FGJfIifAxk6VdApNbSNIwE2hWGlJhAuA",
             "https://drive.google.com/uc?export=view&id=1Dj_jMCPNFPd8OAkg4EMnfT9DM61zPgBQ",
-            "https://drive.google.com/uc?export=view&id=1Dj_jMCPNFPd8OAkg4EMnfT9DM61zPgBQ",
+            "https://drive.google.com/uc?export=view&id=1U_iTh34KMpJ5PgB3cauWt4ip46FrVxjO",
         ]
         data_list = [
             {
@@ -1641,7 +1641,7 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=10q8vHERP-72dtwFQ3f56zXNYXEkvR_OU",
             "https://drive.google.com/uc?export=view&id=1wemfg5J3dhkItnkeEVed6h680m6fOsKp",
             "https://drive.google.com/uc?export=view&id=10IVMJJT43Wpgb470Obo5eVDZfpc44wRX",
-            "https://drive.google.com/uc?export=view&id=1S1XP-Cch9cGrEnRxugp33-naJ1z3PtTK",
+            "https://drive.google.com/uc?export=view&id=1ipqB2zhJwgUewiWRn4syVpcJ49pDfQu4",
             "https://drive.google.com/uc?export=view&id=18ACKKAPKURlMnAdeTLA59CV3G0FZDJGx",
             "https://drive.google.com/uc?export=view&id=1DUC6itWONXzTe_Uz7QdGhloEtdzTMjpp",
             "https://drive.google.com/uc?export=view&id=1UWstwiyhc-Z226oQAuQsroXeMksqCnGu",
