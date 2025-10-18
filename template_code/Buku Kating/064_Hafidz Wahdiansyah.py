@@ -1641,8 +1641,8 @@ if menu == "Departemen SSD":
         ]
         display_images_with_data(gambar_urls, data_list)
     ssd()
+    
 # Tambahkan menu lainnya sesuai kebutuhan
-
 if menu == "Departemen Medkraf":
     def medkraf():
         gambar_urls = [
@@ -1656,9 +1656,7 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1n6vPm5f3ph181Dpoy4JIlbfbdLHmL57O",
             "https://drive.google.com/uc?export=view&id=170WsEA6uhgRXpUjzAS34RcfEloAOK_vc",
             "https://drive.google.com/uc?export=view&id=1jhOZFWWCiDoX5bRakMI4slLl6HARd8lO", 
-            #kurang
             "https://drive.google.com/uc?export=view&id=1VfvKjCtoM9kiz56X5InZjbPgX2Uj0p7Z",
-            #kurang
             "https://drive.google.com/uc?export=view&id=1b8hfOYjC-kAjNJT31XhMRWlzue1VQENT",
             "https://drive.google.com/uc?export=view&id=1a1jcHxlbC6IH2bu_jBpmEBbwnPbtk1x6",
             "https://drive.google.com/uc?export=view&id=1y9A_T1Zbibykxl_YKKABOskRCBtPPWTc",
