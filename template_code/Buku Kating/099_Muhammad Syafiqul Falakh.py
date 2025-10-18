@@ -1093,7 +1093,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Sukses selalu untuk kakak ke depannya!"
             },
             {
-                 "nama": "Luthfia Laila Ramadhani",
+                "nama": "Luthfia Laila Ramadhani",
                 "nim": "123450004",
                 "umur": "19 Tahun",
                 "asal":"Tambun",
@@ -1624,15 +1624,15 @@ if menu == "Departemen SSD":
                 "pesan": "Semoga sukses selalu kuliahnya!"
             },
             {
-                "nama": "Engeli Rahmadhani",
+                "nama": "Enggli Rahmadhani",
                 "nim": "123450043",
                 "umur": "20",
                 "asal": "Sumatera Barat",
                 "alamat": "gg.perwira 2",
                 "hobbi": "menonton alur cerita film",
-                "sosmed": "englirahmdhnii",
-                "kesan": "Seru bisa kenal dengan kakak.",
-                "pesan": "Semoga sukses selalu, kak!"
+                "sosmed": "@englirahmdhnii",
+                "kesan": "kakanya asik dan seru diajak ngobrol",
+                "pesan": "Semoga sukses selalu ya kak!"
             },
             
         ]
