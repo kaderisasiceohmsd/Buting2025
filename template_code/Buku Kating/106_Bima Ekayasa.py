@@ -103,8 +103,8 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=1Y7n8KJBgaAO61pcjPCgt8b47fBhWOkqc",
             "https://drive.google.com/uc?export=view&id=1gJPR39QYuAHkK9DOo-Angby2Z7tmWrdh",
             "https://drive.google.com/uc?export=view&id=1aQ-SOh6O3bet4KZAVN2ePjZWRy4BT2Kl",
-            "https://drive.google.com/uc?export=view&id=1b1IPLfM-8hXxa5BZ9L9J9xinCYrrZpky",
             "https://drive.google.com/uc?export=view&id=15OneSvApF0CzpHcPn5SmME4eotBRYeMx",
+            "https://drive.google.com/uc?export=view&id=1b1IPLfM-8hXxa5BZ9L9J9xinCYrrZpky",
         ]
         data_list = [
             {
@@ -1072,17 +1072,17 @@ if menu == "Departemen Eksternal":
 if menu == "Departemen SSD":
     def ssd():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #1
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #2
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #3
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #4
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #5
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #6
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #7
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #8
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #9
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #10
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #11
+            "https://drive.google.com/uc?export=view&id=1FtmAumH7ggI21yR9dc4x3pdoMzPvOI09", #1
+            "https://drive.google.com/uc?export=view&id=1vo1t0G_N-PXVRub3S9IQvh2f5mx4kAlm", #2
+            "https://drive.google.com/uc?export=view&id=1h_K2zLowQePN-Ef-UKgDvWbXJbWSxGK1", #3
+            "https://drive.google.com/uc?export=view&id=1VLwHZ9G6-lcmNGubkHzbBtnJRNvuhzUf", #4
+            "https://drive.google.com/uc?export=view&id=1OvwmbPp5JUnQgbLkwLq98LxVinEv9ZxL", #5
+            "https://drive.google.com/uc?export=view&id=1MRusjVnhQGsEAdQh4Ie7DmbJW2BSqWWE", #6
+            "https://drive.google.com/uc?export=view&id=1kmj2zc5SF3ijTOtZ7T_X5knpqdetDzfT", #7
+            "https://drive.google.com/uc?export=view&id=1ZowycxedMnHW1NzAkLlekr5M97CVboTe", #8
+            "https://drive.google.com/uc?export=view&id=1KSGz0perASXOmkhRgltAbwTBB-PymIfS", #9
+            "https://drive.google.com/uc?export=view&id=1ZowycxedMnHW1NzAkLlekr5M97CVboTe", #10
+            "https://drive.google.com/uc?export=view&id=1pKkiiOvQAR4Mp3DC8kaZFgc2bs3FRoM8", #11
         ]
         data_list = [
             {
@@ -1487,7 +1487,7 @@ if menu == "Departemen MIKFES":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1oGKypx5OxNseg_78SyBd0jo1GwAdNX4",
+            "https://drive.google.com/uc?export=view&id=1oGKypx5OxNseg_78SyBd0jo1GwAdNX4j",
             "https://drive.google.com/uc?export=view&id=12yuRtZw_MA5XzSd-Mmw8YDBDR64mEe_k",
             "https://drive.google.com/uc?export=view&id=15ZG_4D24SLlWubobRWl_mothEfKL6osR",
             "https://drive.google.com/uc?export=view&id=1QzuutQmNWxz7_WxjmWdo6r5KmkVft3-z",
@@ -1683,6 +1683,7 @@ if menu == "Departemen SSD":
     Departemen_SSD()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
