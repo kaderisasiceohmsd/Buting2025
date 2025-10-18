@@ -96,49 +96,60 @@ def display_images_with_data(gambar_urls, data_list):
 menu = streamlit_menu()
 
 # BAGIAN SINI YANG HANYA BOLEH DIUABAH
-if menu == "Kesekjenan":
-    def kesekjenan():
+# Tambahkan menu lainnya sesuai kebutuhan
+elif menu == "Senator":
+    def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-        ]
+            "https://drive.google.com/uc?export=view&id=1xb0-I7AbqbYx9bsSMgMSwUVHdkX2he9A",
+            "https://drive.google.com/uc?export=view&id=1xb0-I7AbqbYx9bsSMgMSwUVHdkX2he9A",
+            "https://drive.google.com/uc?export=view&id=1xb0-I7AbqbYx9bsSMgMSwUVHdkX2he9A",
+            "https://drive.google.com/uc?export=view&id=1xb0-I7AbqbYx9bsSMgMSwUVHdkX2he9A",  
+        ]   
         data_list = [
             {
-                "nama": "Kakak A",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal": "Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Belajar",
+                "sosmed": "@bintangtwinkle",
+                "kesan": "-",
+                "pesan": "-"
             },
             {
-                "nama": "Kakak B",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Nadya Ratu Anjani",
+                "nim": "123450083",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Denger lagu",
+                "sosmed": "@nadyaanjani",
+                "kesan": "-",
+                "pesan": "-"
             },
             {
-                "nama": "Kakak CCc",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi": "Bengong",
+                "sosmed": "@fathinahnazzh",
+                "kesan": "-",
+                "pesan": "-"
+            },
+            {
+                "nama": "Lia Hana Ichisasmita",
+                "nim": "123450089",
+                "umur": "21",
+                "asal": "Jakarta",
+                "alamat": "Belakang Indomaret Belwis",
+                "hobbi": "Tidur",
+                "sosmed": "@lia.h_264",
+                "kesan": "-",
+                "pesan": "-"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    kesekjenan()
-
-# Tambahkan menu lainnya sesuai kebutuhan
+    Senator()
