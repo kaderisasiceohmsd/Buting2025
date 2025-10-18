@@ -103,42 +103,73 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
-        data_list = [
+       data_list = [
             {
-                "nama": "Kakak A",
-                "nim": "122450000",
-                "umur": "18",
+                "nama": "Rendra Eka Prayoga",
+                "nim": "122450122",
+                "umur": "21",
                 "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "alamat": "Pulau Damar",
+                "hobbi": "Menyanyi",
+                "sosmed": "@_erendraa",
+                "kesan": "Sangat berwibawa dan keren",  
+                "pesan":"Semangat terus bang menjalani hidup sebagai ketua"
             },
             {
-                "nama": "Kakak B",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Johannes Krisjon Silitonga",
+                "nim": "122450043",
+                "umur": "20",
+                "asal":"Tangerang",
+                "alamat": "Jl.Lapas",
+                "hobbi": "Baca Buku SQL",
+                "sosmed": "@johanneskrisjnnn",
+                "kesan": "Keren banget karna ngajarin ilmu data sains",  
+                "pesan":"Semoga kehidupan kuliahnya berjalan mulus"
             },
             {
-                "nama": "Kakak CCc",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Farahanum Afifah Ardiansyah",
+                "nim": "122450056",
+                "umur": "21",
+                "asal":"Kota Padang",
+                "alamat": "Korpri",
+                "hobbi": "Cutekahim",
+                "sosmed": "@farahanumafifah",
+                "kesan": "Bisa ada diposisi ini aja udah keren banget",  
+                "pesan":"Semoga ga banyak masalah menghampiri"
+            },
+            {
+                "nama": "Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "21",
+                "asal":"Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Membaca",
+                "sosmed": "@puspadrr",
+                "kesan": "Udah hobi membaca, punya posisi penting pula",  
+                "pesan":"Semoga lancar-lancar saja kehidupannya"
+            },
+            {
+                "nama": "Eksanty Febriana Sugma Islamiaty",
+                "nim": "122450001",
+                "umur": "19",
+                "asal":"Bulaleng, Bali",
+                "alamat": "Asrama TB 4",
+                "hobbi": "Nahan Eeq",
+                "sosmed": "@eksantyfebriana",
+                "kesan": "Walau hobbynya ngawur, tapi bisa berada di posisi penting haha",  
+                "pesan":"Semoga tidak ada masalah yang menghampiri"
+            },
+            {
+                "nama": "Elisabeth Claudia Simanjuntak",
+                "nim": "122450123",
+                "umur": "23",
+                "asal":"Baduy Dalem",
+                "alamat": "Agrest Kost",
+                "hobbi": "Nahan Pipis",
+                "sosmed": "@celisabethh_",
+                "kesan": "Hobbynya ngawur, tapi megang posisi penting",  
+                "pesan":"Semoga lancar kehidupan kuliahnya"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
-
-# Tambahkan menu lainnya sesuai kebutuhan
