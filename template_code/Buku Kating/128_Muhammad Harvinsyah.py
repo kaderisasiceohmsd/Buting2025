@@ -101,10 +101,10 @@ if menu == "Kesekjenan":
         gambar_urls = [
            "https://drive.google.com/uc?export=view&id=1Ok3q6n_xsdAnOJJWaoGazSuB5MjEspNR",#1
             "https://drive.google.com/uc?export=view&id=1oDhfns62AQW5yXJ0GEGRbXo5aptzEEoI",#2
-            "https://drive.google.com/uc?export=view&id1EBUl-extPFydoTN7BUSz8Iy-9tFautCb",#3
+            "https://drive.google.com/uc?export=view&id=1EBUl-extPFydoTN7BUSz8Iy-9tFautCb",#3
             "https://drive.google.com/uc?export=view&id=1VaVumephZz_uQu6Sy2hJ16IYQ1EFgkYW",#4
-            "https://drive.google.com/uc?export=view&id=-1mvSAabh0E6Vo36cjAI6CMJ_KYc5EqWVt",#4
-            "https://drive.google.com/uc?export=view&id1RP41bnOYjFTFwd6sNMckRjWnEc6xLugT",#6
+            "https://drive.google.com/uc?export=view&id=1mvSAabh0E6Vo36cjAI6CMJ_KYc5EqWVt",#5
+            "https://drive.google.com/uc?export=view&id=1RP41bnOYjFTFwd6sNMckRjWnEc6xLugT",#6
         ]
         data_list = [
             {
@@ -1881,4 +1881,5 @@ elif menu == "Departemen Medkraf":
     
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
