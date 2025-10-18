@@ -1860,7 +1860,7 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Sabah Balau Residence",
                 "hobbi": "Melukis",
                 "sosmed": "@eigitvm",
-                "kesan": "kerennn, lucuuu bangett kayak permen kapas",  
+                "kesan": "lucuuu, girly bangettt",  
                 "pesan": "Tetap semangat dan sehat selalu kak"# 1
             },
               {
@@ -1871,7 +1871,7 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Kelengkeng 2 Pemda",
                 "hobbi": "Menanyi",
                 "sosmed": "@roms.slbn",
-                "kesan": "kerennnn",  
+                "kesan": "cantikk bangett,lucuuu bangett kayak permen kapas",  
                 "pesan": "Tetap semangat dan sehat selalu kak"# 1
             },
         ]
