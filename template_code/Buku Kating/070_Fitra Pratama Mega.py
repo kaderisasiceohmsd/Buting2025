@@ -118,10 +118,10 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1vvJCNrFTal3F14mKT93iak2rtqvBGqxj",
             "https://drive.google.com/uc?export=view&id=1y6YzkTaxD-E-6Bu7c30tPPuS7Nib8sFg",
-            "https://drive.google.com/uc?export=view&id=1Ke724M-V9OyKlZ9m1WhdaHF-3T2Kq45L",
-            "https://drive.google.com/uc?export=view&id=1S06Ws-NpvUEJg-o8ueVkoVMFc99Efuj3",
-            "https://drive.google.com/uc?export=view&id=1vzUs4VrInJe6uzuOLvr7gyKOiqIBLzi9",
-            "https://drive.google.com/uc?export=view&id=1SFUNiVid6K4SBfoKc8Xh73gKBZEubRJi", 
+            "https://drive.google.com/uc?export=view&id=1890a3zXJ3o1juhfbG-i69InwDXpnGMLH",
+            "https://drive.google.com/uc?export=view&id=1RIJl5WPLsetjdKAIaD1yi2voshf1ttlJ",
+            "https://drive.google.com/uc?export=view&id=14xl25qARFPSox2JdD7R__4eVu2C6GUQU",
+            "https://drive.google.com/uc?export=view&id=19a6duvnYNjzSGUuPMRMuhRwjlwtWZ8BV", 
         ]
         data_list = [
             {
@@ -132,7 +132,7 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damai",
                 "hobbi": "Nyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Abang ini seru Abiez",  
+                "kesan": "Abang ini seru banget",  
                 "pesan":"Semangat Bang jadi Kahim!!"# 1
             },
             {
