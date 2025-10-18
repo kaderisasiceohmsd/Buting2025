@@ -205,13 +205,13 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=18qpsPGcsiE3cLfAdJg5a9iHVObfOFCHa",
             "https://drive.google.com/uc?export=view&id=1ENIVHFRQLMDJ4QsuCCm109AmCcCj34UW",
             "https://drive.google.com/uc?export=view&id=13OpwmQVk7QsWZ1Dw-FujQa5-S0P6AIZL",
-            "https://drive.google.com/uc?export=view&id=18en1yAV9WSQHwTvSjU2Ss98U4bGvFMEs",
             "https://drive.google.com/uc?export=view&id=1GoVupio4hc7-PP6eOTnudIkAJKgxdEIg",
             "https://drive.google.com/uc?export=view&id=1v4gotweJ8rhkB_KmJdIfAJnYpp4NALyW",
             "https://drive.google.com/uc?export=view&id=1K3xhE53b3jqQLmC7zb9lsHxflGIQbgtA",
             "https://drive.google.com/uc?export=view&id=1USjHn18kg27SJnr_aG2FRYiH1KjjYd9M",
             "https://drive.google.com/uc?export=view&id=1AJWI6dDkaLtK-OZAxkboTWdRSD8CKLJL",
             "https://drive.google.com/uc?export=view&id=1C4LlbLQ02712kmqEZTX1p2EFxge2hQry",
+            "https://drive.google.com/uc?export=view&id=1ZRyHgqU8JWfcv-prsd1RYT7IkmqrYyBt",
             "https://drive.google.com/uc?export=view&id=1ed1RIQt0YxMeu8bu0UTTGx6QzYXhtS7I",
         ]
         data_list = [
