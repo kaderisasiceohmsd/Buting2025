@@ -117,11 +117,11 @@ if menu == "Kesekjenan":
     def Kesekjenan():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1z-GmLV6CetlZ1IaqyI190lnwZvJiDBfT",
-            "https://drive.google.com/uc?export=view&id=1GqJ5F_vejQJ196U50ciIIR4NR-xS0RPZ",
-            "https://drive.google.com/uc?export=view&id=1Ke724M-V9OyKlZ9m1WhdaHF-3T2Kq45L",
-            "https://drive.google.com/uc?export=view&id=1S06Ws-NpvUEJg-o8ueVkoVMFc99Efuj3",
-            "https://drive.google.com/uc?export=view&id=1vzUs4VrInJe6uzuOLvr7gyKOiqIBLzi9",
-            "https://drive.google.com/uc?export=view&id=1SFUNiVid6K4SBfoKc8Xh73gKBZEubRJi", 
+            "https://drive.google.com/uc?export=view&id=1kpTV4lBv_V1x4tbQamEPztWa1AvM8DLx",
+            "https://drive.google.com/uc?export=view&id=1cruWNmv8xPkxrvUKl08yHl_CgVzsMjCJ",
+            "https://drive.google.com/uc?export=view&id=1ML2LTvyA3FeHqGMkKss3SwgVNridwMxg",
+            "https://drive.google.com/uc?export=view&id=1lkNjiX9WWs9OFGA7SNC7olFtqRhhXWKI",
+            "https://drive.google.com/uc?export=view&id=1cjS-3ef-UcdpYxdAB6rVGs860RpVsGXY", 
         ]
         data_list = [
             {
@@ -132,8 +132,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damai",
                 "hobbi": "Nyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Abang ini seru Abiez",  
-                "pesan":"Semangat Bang jadi Kahim!!"# 1
+                "kesan": "kahim paling gemoy nii wkwkw",  
+                "pesan":"semangat terus bang kahim!"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -143,8 +143,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL!",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Bang Jo Seru & Ternyata satu daerah asal",  
-                "pesan":"Gassin terus bang !!!"# 1
+                "kesan": "bang Jo asik banget orangnya",  
+                "pesan":"sukses terus bang!"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -154,8 +154,8 @@ if menu == "Kesekjenan":
                 "alamat": "Ayrest Kost",
                 "hobbi": "Nahan pipis",
                 "sosmed": "@celisabethh_",
-                "kesan": "Kakak ini lucu humoris dan seru",  
-                "pesan":"semoga akunnya gak kena suspend lagi kak"# 1
+                "kesan": "kak abet lucuuu",  
+                "pesan":"selalu ceria ya kakk!"# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -165,7 +165,7 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Kak Syadza keren",  
+                "kesan": "ku kira kakaknya kalem, ternyata engga wkwk",  
                 "pesan":"semoga sukses terus kak"# 1
             },
             {
@@ -176,8 +176,8 @@ if menu == "Kesekjenan":
                 "alamat": "Asrama TB4",
                 "hobbi": "Nahan eek",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Kakak ini asik dan seru",  
-                "pesan":"sukses teruss kak"# 1
+                "kesan": "kakaknya lucu banget plisss",  
+                "pesan":"semoga pintar nya nular ya kak hehe"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -187,8 +187,8 @@ if menu == "Kesekjenan":
                 "alamat": "Korpri",
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifahh",
-                "kesan": "Kakak ini lucu, jutek tapi seru",  
-                "pesan":"semoga suksess terus kak"# 1
+                "kesan": "kak hunam gemoyy hehe",  
+                "pesan":"sukses terus ya kak hunammm"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
