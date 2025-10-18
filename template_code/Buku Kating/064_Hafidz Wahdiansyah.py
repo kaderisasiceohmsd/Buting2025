@@ -1720,7 +1720,7 @@ if menu == "Departemen Medkraf":
                 "pesan":""# 1
             },
             {
-                "nama": Refa Destiny Pranata",
+                "nama": "Refa Destiny Pranata",
                 "nim": "",
                 "umur": "",
                 "asal":"",
@@ -1774,7 +1774,6 @@ if menu == "Departemen Medkraf":
                 "kesan": "",  
                 "pesan":""# 1
             },
-#kurang
             {
                 "nama": "Nayla Salsabila Fathianisa",
                 "nim": "",
@@ -1786,7 +1785,6 @@ if menu == "Departemen Medkraf":
                 "kesan": "",  
                 "pesan":""# 1
             },
-#kurang
             {
                 "nama": "Akmal Faiz Abdillah",
                 "nim": "",
