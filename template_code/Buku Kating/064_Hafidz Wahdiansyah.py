@@ -1596,6 +1596,7 @@ if menu == "Departemen SSD":
             },
             {
                 "nama": "Devi Rahayu",
+                "nim": "",
                 "umur": "",
                 "asal":"",
                 "alamat": "",
