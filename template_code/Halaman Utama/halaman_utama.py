@@ -137,7 +137,6 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
@@ -152,7 +151,7 @@ elif menu == "About Us":
                 "sebagai": "Bu Lurah",
                 "nim": "124450082",
                 "fun_fact": "suka banget mengoleksi stiker gemas",
-                "motto_hidup": "Hidup bebas selagi tidak melanggar"",
+                "motto_hidup": "Hidup bebas selagi tidak melanggar",
             },
             {
                 "nama": "Dafa Elpriza",
