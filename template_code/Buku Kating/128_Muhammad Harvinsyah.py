@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-           "https://drive.google.com/uc?export=view&id=1tRbJqTbwJ63BBNEm_xQjkStBO6Gy6DNL",
-            "https://drive.google.com/uc?export=view&id=1XlRVA93TFwksctaoUDgYdWjJIxCdHJ0E",
-            "https://drive.google.com/uc?export=view&id=1x2TwvZZWUtBlZ0Xp7F-elJ3ARsnkOkMe",
-            "https://drive.google.com/uc?export=view&id=1ld3Pdphp-lovV8nQCs2bEvX4kDIMJYyw",
-            "https://drive.google.com/uc?export=view&id=16_MnMxNzuMbZYKezwoq1-rE3_3Xgh_vM",
-            "https://drive.google.com/uc?export=view&id=1dSMoJzAF8P-eFu-rwpf5PK4hV3W22ceT",
+           "https://drive.google.com/uc?export=view&id=1Ok3q6n_xsdAnOJJWaoGazSuB5MjEspNR",#1
+            "https://drive.google.com/uc?export=view&id=1oDhfns62AQW5yXJ0GEGRbXo5aptzEEoI",#2
+            "https://drive.google.com/uc?export=view&id1EBUl-extPFydoTN7BUSz8Iy-9tFautCb",#3
+            "https://drive.google.com/uc?export=view&id=1VaVumephZz_uQu6Sy2hJ16IYQ1EFgkYW",#4
+            "https://drive.google.com/uc?export=view&id=-1mvSAabh0E6Vo36cjAI6CMJ_KYc5EqWVt",#4
+            "https://drive.google.com/uc?export=view&id1RP41bnOYjFTFwd6sNMckRjWnEc6xLugT",#6
         ]
         data_list = [
             {
@@ -116,7 +116,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Makan Pisang",
                 "sosmed": "@_erendraa",
                 "kesan": "Bang asik banget",  
-                "pesan": "Semangat bang kuliahnya!!"# 1
+                "pesan": "Semangat bang kuliahnya!!"#1
             },
             {
                 "nama": "Kakak Johannes Krisjon Silitonga",
@@ -127,7 +127,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Baca buku sequel ",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "Keren banget bang, dari pembawaanya keliatan banget orang keren nya",  
-                "pesan": "Semangat bang kuliahnya!"# 1
+                "pesan": "Semangat bang kuliahnya!"#2
             },
               {
                 "nama": "Kakak Elisabeth Claudia Simanjuntak",
@@ -138,7 +138,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Gangguin Orang",
                 "sosmed": "@celisabethh_",
                 "kesan": "Kak, asik sekalii",  
-                "pesan": "semangat terus kuliahnya kak!"# 1
+                "pesan": "semangat terus kuliahnya kak!"#3
             },
               {
                 "nama": "Kakak Syadza Puspadari Azhar",
@@ -149,7 +149,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Tidur",
                 "sosmed": "@puspadrr",
                 "kesan": "Kakaknya kalem banget, aku kenal orang yang mirip banget sama kak syadza, kuliah di Itera juga tapi udah lulus",  
-                "pesan": "semangat terus kuliahnya kakak !"# 1
+                "pesan": "semangat terus kuliahnya kakak !"#4
             },
             {
                 "nama": "Kakak Eksanty Febriana Sukma Islamiaty",
@@ -160,7 +160,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Nemenin orang dari nol sampai jatuh ke jurang kemiskinan",
                 "sosmed": "@eksantyfebriana",
                 "kesan": "Satu kata : Amazing",  
-                "pesan":"semangat terus kuliahnya kakak !"# 1
+                "pesan":"semangat terus kuliahnya kakak !"#5
             },
              {
                 "nama": "Kakak Farahanum Afifah Ardiansyah",
@@ -171,7 +171,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifah",
                 "kesan": "Kakak nya asik sekali membawa vibes positive banget",  
-                "pesan": "semangat terus kuliahnya kakak !"# 1
+                "pesan": "semangat terus kuliahnya kakak !"#6
             },
             
         ]
@@ -1881,3 +1881,4 @@ elif menu == "Departemen Medkraf":
     
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
