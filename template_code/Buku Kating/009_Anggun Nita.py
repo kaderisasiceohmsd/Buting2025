@@ -409,7 +409,7 @@ if menu == "Kesekjenan":
             display_images_with_data(gambar_urls, data_list)
     Senator()
 
- elif menu == "Departemen PSDA":
+elif menu == "Departemen PSDA":
     def DepartemenPSDA():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=",
@@ -729,6 +729,7 @@ if menu == "Kesekjenan":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenPSDA()
+
 
 
 
