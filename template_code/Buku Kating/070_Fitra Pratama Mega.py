@@ -379,9 +379,9 @@ if menu == "Senator":
     def Senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1bbwTvgbE0GOTmwdNyJCGyEcncHmaTYhU",
-            "https://drive.google.com/uc?export=view&id=1FHMGifwa1rmgjVFmPWZbSOuqdt0uiHVr",
-            "https://drive.google.com/uc?export=view&id=1rrP-UzSiHny3jDnB9QVzAT5J9G5OZpPq",
-            "https://drive.google.com/uc?export=view&id=1C-iIcj1TY1Yp6rZlFXjJB5InUGBuTs1r",
+            "https://drive.google.com/uc?export=view&id=1jPUQWFCY4gVhA_J8ka2og2Cd4TRe4-_W",
+            "https://drive.google.com/uc?export=view&id=1BBPjGLRbPtYbiJshlayjArFMSBVS5A_9",
+            "https://drive.google.com/uc?export=view&id=1qky1Mr5O5dR4AxICMbbDnQ7syKdLDLAQ",
         ]
         data_list = [
             {
