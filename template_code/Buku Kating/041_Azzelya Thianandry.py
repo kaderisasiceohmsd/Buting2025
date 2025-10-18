@@ -97,7 +97,7 @@ menu = streamlit_menu()
 
 # BAGIAN SINI YANG HANYA BOLEH DIUABAH
 
-elif menu == "Kesekjenan":
+if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1xb0-I7AbqbYx9bsSMgMSwUVHdkX2he9A",
