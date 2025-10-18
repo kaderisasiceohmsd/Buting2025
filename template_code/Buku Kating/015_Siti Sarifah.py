@@ -181,3 +181,180 @@ if menu == "Kesekjenan":
     kesekjenan()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
+if menu == "Baleg":
+    def baleg():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1wY4zPdROirlJ5UUDqOIijDxFCSz4rNUe",
+            "https://drive.google.com/uc?export=view&id=1ia0bUWBX2AR42DCAr4QSSPJwD7vsIIYz",
+            "https://drive.google.com/uc?export=view&id=1SVjIE8jivknR-Ap0tzaQDjnfJ1RG_zSy",
+            "https://drive.google.com/uc?export=view&id=1hmkMfji2o94gV50tgNHn_zcOpsQKKwYe",
+            "https://drive.google.com/uc?export=view&id=1YCR1vuCCdk8QUAnSeIwiLdiX622gDuaZ",
+            "https://drive.google.com/uc?export=view&id=1mv6n2N3JwWq3y05KWGidC69vc7ORjpeZ",
+            "https://drive.google.com/uc?export=view&id=1zaCBkuo_cJQV3ZztIBmWsYpPkTAyxNQY",
+            "https://drive.google.com/uc?export=view&id=1dku20D7FuFMkH4WLuSn3DZyr9ICEmvmV",
+            "https://drive.google.com/uc?export=view&id=1A17IONAj8h5IXX_aSTQ0CRI_YKPtZ0DC",
+            "https://drive.google.com/uc?export=view&id=1B9s3-wFzeK1FOaoQKRdsujjBBxPuPKh8",
+            "https://drive.google.com/uc?export=view&id=1hmkMfji2o94gV50tgNHn_zcOpsQKKwYe",
+            "https://drive.google.com/uc?export=view&id=1ymKd2r3O0Av_DqVa_5kONnCmq3l3U0fZ",
+            "https://drive.google.com/uc?export=view&id=1uQLvwzJvkr9gvZQbeItr6WAQQLkLMeU_",
+            "https://drive.google.com/uc?export=view&id=14amtjb_AP3vGOwL7JI2ZWO86QMygu86S",
+        ]
+        data_list = [
+            {
+                "nama": "Jeremia Susanto",
+                "nim": "122450022",
+                "umur": "21",
+                "asal":"Bandar Lampung",
+                "alamat": "Bandar Lampung",
+                "hobbi": "Yapping",
+                "sosmed": "@Jeremia_s_",
+                "kesan": "Awalnya keliatan tegas banget, tapi pas ngobrol ternyata asik parah",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Dhea Amelia Putri",
+                "nim": "",
+                "umur": "20",
+                "asal":"Chiwidew, Jawa Barat",
+                "alamat": "Pesawaran",
+                "hobbi": "Pawat Piwit",
+                "sosmed": "@_.dheamelia",
+                "kesan": "Awalnya keliatan galak, tapi ternyata asik banget",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Anisa Fitriyani",
+                "nim": "122450019",
+                "umur": "19",
+                "asal":"Lubuk Linggau",
+                "alamat": "Pringsewu",
+                "hobbi": "Hafalin sandi Morse",
+                "sosmed": "@ansftynn_",
+                "kesan": "Orangnya seru dan baik banget.",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Mirzan Yusuf Rabbani",
+                "nim": "122450118",
+                "umur": "21",
+                "asal":"Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Tidur",
+                "sosmed": "@myrrinn",
+                "kesan": "Pembawaannya positif dan menyenangkan.",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Feryadi Yulius",
+                "nim": "122450087",
+                "umur": "21",
+                "asal":"Bandung",
+                "alamat": "Way kandis",
+                "hobbi": "Baca buku",
+                "sosmed": "@fer_yulius",
+                "kesan": "Abangnya ramah, orangnya humble.",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Renisha Putri Giani",
+                "nim": "122450079",
+                "umur": "22",
+                "asal":"Teluk, Bandar Lampung",
+                "alamat": "Teluk, Bandar Lampung",
+                "hobbi": "Tidur",
+                "sosmed": "@Renishapg",
+                "kesan": "Kakaknya asik dan ramah.",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Dharu Cahyoaji Sasongko",
+                "nim": "123450023",
+                "umur": "18",
+                "asal":"Way halim, Bandar Lampung",
+                "alamat": "Way halim, Bandar Lampung",
+                "hobbi": "Nyuci baju",
+                "sosmed": "@dhruchyo",
+                "kesan": "Abangnya seru dan baik banget.",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Feby Wulandari",
+                "nim": "123450042",
+                "umur": "17",
+                "asal":"Bekasi",
+                "alamat": "Way huwi, Bandar Lampung",
+                "hobbi": "Main karambol",
+                "sosmed": "@fby.wlndr",
+                "kesan": "Ramah, asik, dan ngasih motivasi banget",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Givaro Ananta",
+                "nim": "123450078",
+                "umur": "20",
+                "asal":"Teluk Betung",
+                "alamat": "Teluk Betung",
+                "hobbi": "Dengerin Spotify",
+                "sosmed": "@givarooo",
+                "kesan": "Abangnya ramah banget dan cara ngomongnya santai tapi berisi banget",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Berliana Enda Putri",
+                "nim": "124450065",
+                "umur": "21",
+                "asal":"Bekasi",
+                "alamat": "Belwis",
+                "hobbi": "Nyanyi",
+                "sosmed": "@berlyyanda",
+                "kesan": "Kakaknya asik, orangnya humble.",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Juesi Apridelia Saragih",
+                "nim": "123450085",
+                "umur": "19",
+                "asal":"Sumatera Utara",
+                "alamat": "Way huwi",
+                "hobbi": "Dengerin Lany",
+                "sosmed": "@j_eesie",
+                "kesan": "Kakaknya asik dan ramah.",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Ridho Benedictus Togi Manik",
+                "nim": "123450060",
+                "umur": "19",
+                "asal":"Medan",
+                "alamat": "gang sekuntum",
+                "hobbi": "Main pedal",
+                "sosmed": "@iamridhomanik",
+                "kesan": "Orangnya seru dan baik banget.",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Monica Patricia Tanjung",
+                "nim": "123450073",
+                "umur": "19",
+                "asal":"Sibolga",
+                "alamat": "Belwis",
+                "hobbi": "Nonton",
+                "sosmed": "@monica_tjg",
+                "kesan": "Orangnya seru dan baik banget.",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            },
+            {
+                "nama": "Wan Nashwa Alhasni Yuska",
+                "nim": "123450077",
+                "umur": "17",
+                "asal":"Aceh",
+                "alamat": "Belwis",
+                "hobbi": "Tiktokan bareng sahroni",
+                "sosmed": "@nshaysk",
+                "kesan": "Pembawaannya positif dan menyenangkan.",
+                "pesan":"Sukses terus buat semuanya, kalian keren!"
+            }
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    baleg()
