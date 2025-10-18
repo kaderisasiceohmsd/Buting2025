@@ -118,7 +118,7 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1ersYC41EzUcmhnFkCd4LdvgE0atwPgrX",
             "https://drive.google.com/uc?export=view&id=1uYS99TFP5iLi6IQi07CO0NeiSXYjAWaX",
-            "https://drive.google.com/uc?export=view&id=/1vSZavk3c1P3QZzb_Nru4gS_qknwfGF9O",
+            "https://drive.google.com/uc?export=view&id=1vSZavk3c1P3QZzb_Nru4gS_qknwfGF9O",
             "https://drive.google.com/uc?export=view&id=1gO-PNnMtcwMI8gys-wl26febkqjdYpRq",
             "https://drive.google.com/uc?export=view&id=1a2TybyYYAXrbLxtbMmKP5hegOh98EBbO",
             "https://drive.google.com/uc?export=view&id=11tb9CjPYxurUCz4xo6IXpKyYP02u72de", 
