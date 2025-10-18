@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Beli donat kentang",
                 "sosmed": "@_erendraa",
-                "kesan": "-",  
-                "pesan":"-"# 1
+                "kesan": "Abangnya mirip papaku",  
+                "pesan":"Semangat yang semangat ya bang"# 1
             },
             {
                 "nama": "Johannes Krisjon Sitilonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Baca buku (Dasar-Dasar SQL)",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "-",  
-                "pesan":"-"# 1
+                "kesan": "Abangnya keren, pembawaannya menarikk banget",  
+                "pesan":"Sehat selalu yaa bangg, terus jadi penyemangatt"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Airest Kost",
                 "hobbi": "Siram Shopee",
                 "sosmed": "@celisabethh_",
-                "kesan": "-",  
-                "pesan":"-"# 1
+                "kesan": "Kakaknya lucuu",  
+                "pesan": ""# 1
             },
             {
                 "nama": "Syadza Puspandari Azhar",
