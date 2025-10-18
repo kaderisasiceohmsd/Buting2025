@@ -353,49 +353,60 @@ if menu == "Baleg":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    kesekjenan()
     Baleg()
 
 if menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=18hbeh6VRlDNYiPRuu-gSRaxMGIZFwjHh",
+            "https://drive.google.com/uc?export=view&id=1Vy8ZiNJ1uMeP3SIuXcAj4EmdXutmbq-H",
+            "https://drive.google.com/uc?export=view&id=1BTqmlMXkTqW2zT-ejKWtrEwPZHt6gAvP",
+            "https://drive.google.com/uc?export=view&id=1kBQ2kSU7anaU0zbpg1Z0DEFUqgnM8sll",
         ]
         data_list = [
             {
-                "nama"   : "Kakak A",
-                "nim"    : "122450000",
-                "umur"   : "18",
-                "asal"   : "Bekasi",
-                "alamat" : "Gg.sakum",
-                "hobbi"  : "Mainn Bola, Belajar",
+                "nama"   : "Rian Bintang Wijaya",
+                "nim"    : "122450094",
+                "umur"   : "20",
+                "asal"   : "Palembang",
+                "alamat" : "Tanya Caesar",
+                "hobbi"  : "Padel",
                 "sosmed" : "@i",
-                "kesan"  : "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan"  : "semangat terus kuliahnya kakak !!!"# 1
+                "kesan"  : "Abangnya keren 😎",  
+                "pesan"  : "semangat terus kuliahnya bang !!!"# 1
             },
             {
-                "nama"   : "Kakak B",
-                "nim"    : "122450000",
-                "umur"   : "18",
-                "asal"   : "Bekasi",
-                "alamat" : "Gg.sakum",
-                "hobbi"  : "Mainn Bola, Belajar",
+                "nama"   : "Nadya Ratu Anjani",
+                "nim"    : "123450089",
+                "umur"   : "20",
+                "asal"   : "Jakarta",
+                "alamat" : "Belakang Indomaret Belwis",
+                "hobbi"  : "Maen Roblox",
                 "sosmed" : "@i",
-                "kesan"  : "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan"  : "semangat terus kuliahnya kakak !!!"# 1
+                "kesan"  : "kakaknya baik 😊",  
+                "pesan"  : "semangat terus kuliahnya kak !!!"# 1
             },
             {
-                "nama"   : "Kakak CCc",
-                "nim"    : "122450000",
-                "umur"   : "18",
-                "asal"   : "Bekasi",
-                "alamat" : "Gg.sakum",
-                "hobbi"  : "Mainn Bola, Belajar",
+                "nama"   : "Fathinah Nur Azizah",
+                "nim"    : "123450072",
+                "umur"   : "20",
+                "asal"   : "Jakarta",
+                "alamat" : "Asrama TB 1",
+                "hobbi"  : "Like Instagram",
                 "sosmed" : "@i",
-                "kesan"  : "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan"  : "semangat terus kuliahnya kakak !!!"# 1
+                "kesan"  : "kakaknya baik 😊",  
+                "pesan"  : "semangat terus kuliahnya kak !!!"# 1
+            },
+            {
+                "nama"   : "Lia Hana Ichisasmita",
+                "nim"    : "123450083",
+                "umur"   : "20",
+                "asal"   : "Bandar Lampung",
+                "alamat" : "Sukarame",
+                "hobbi"  : "Dengerin lagu",
+                "sosmed" : "@i",
+                "kesan"  : "kakaknya baik 😊",  
+                "pesan"  : "semangat terus kuliahnya kak !!!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -404,7 +415,6 @@ if menu == "Senator":
 if menu == "Departemen PSDA":
     def Departemen_PSDA():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1n7zYC3CHqYXJvOxjhobhWVl6_LwvF1dc",
             "https://drive.google.com/uc?export=view&id=1v7_TugMNDohNn6UzFhDnNWYrtI5C9FLW", # Ketua
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", # Sekre
             "https://drive.google.com/uc?export=view&id=1Am4CkzFMmBQ7KA5bozrNMa3bVH7e-1_a", # Kader
@@ -970,7 +980,6 @@ if menu == "Departemen MIKFES":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_PSDA()
     Departemen_MIKFES()
 
 if menu == "Departemen Eksternal":
