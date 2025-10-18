@@ -206,8 +206,8 @@ if menu == "Baleg":
                 "alamat": "Lapas, Belwis",
                 "hobbi": "Melarikan diri",
                 "sosmed": "@jeremia_s_",
-                "kesan": "keren banget banggg bisa jadi ",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "vibes nya keren banget bangg asli ",  
+                "pesan":"Semoga bisa cepet lulus dengan ipk yang tinggi"# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
