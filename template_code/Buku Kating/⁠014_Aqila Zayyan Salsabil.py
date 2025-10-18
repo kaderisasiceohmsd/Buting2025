@@ -1074,13 +1074,13 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=15zRodBritb0x_o7mTLj0yv8yFQw2egA-", #15
             "https://drive.google.com/uc?export=view&id=1UpGaXXhDOpUPxpOITFkIIeBeSvVjQb7L", #16
             "https://drive.google.com/uc?export=view&id=1mLhcW81BODxSFgOs1oSsfihHa2r2pVH-", #17
-            "https://drive.google.com/uc?export=view&id=1euYs9OZXznl9x1d0azMxwSdfLUccO-2s", #18
-            "https://drive.google.com/uc?export=view&id=1I109Jy8MS1pQui_dmbiEZWuEkqryfxzB", #19
-            "https://drive.google.com/uc?export=view&id=1fTDqzEniWpliBFTshZ1vuBHlYrjRjJk7", #20
-            "https://drive.google.com/uc?export=view&id=1L3vkIYpsfTSY95-ZbGNvcIY56hww_RrV", #21
-            "https://drive.google.com/uc?export=view&id=17l493GWB7yBNar-zGTCI5mqYp7_U6_e0", #22
-            "https://drive.google.com/uc?export=view&id=1SWpA8pqlor25nbV3O_IsOLIVJ--hBdgB", #23
-            "https://drive.google.com/uc?export=view&id=1DrqL6jvJNVmSDQMKluQwXCluYiD7b9ht", #24
+            "https://drive.google.com/uc?export=view&id=14mEVPrWhgtAgdufi2AOsjK3lM4EtUJnU", #18
+            "https://drive.google.com/uc?export=view&id=1pMK5_auxffisC7BI26sWrulc2kTTFIFp", #19
+            "https://drive.google.com/uc?export=view&id=1qp_UNq_FIQrqnbt0wuFOS7sLpvt1jGWx", #20
+            "https://drive.google.com/uc?export=view&id=1PcJrC_RDlIUzcY_7XiTbGZwKQU4iF8Cu", #21
+            "https://drive.google.com/uc?export=view&id=16yw1B-es_wg0Z6smNW_HmNG01yTFfxt1", #22
+            "https://drive.google.com/uc?export=view&id=1HXbtXAfiWPL-UNabcmkWTz70gq6ykwlm", #23
+            "https://drive.google.com/uc?export=view&id=1cnh4Ps4sccxzwRbKkIwNchUb64UMdmhK", #24
         ]
         data_list = [
             {
@@ -1350,4 +1350,193 @@ if menu == "Departemen Eksternal":
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_Eksternal()
+
+if menu == "Departemen Internal":
+    def Departemen_Internal():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1rXBQyBPrz4-tmdpWoNYtUeAx8j_vGeLo", #1
+            "https://drive.google.com/uc?export=view&id=1Ff50qEl4JbBvdFexY4RzfZ3aitD-o560", #2
+            "https://drive.google.com/uc?export=view&id=1wHW35fH8gEyzomYIQUxhSoI2BAS5JpAn", #3
+            "https://drive.google.com/uc?export=view&id=1snSXrQM1Gp3wOp1W8O9PxXj8KxdWyMiI", #4
+            "https://drive.google.com/uc?export=view&id=1JRouZp2uakUi_Cz1oCxlVYbFhm9hfhLd", #5
+            "https://drive.google.com/uc?export=view&id=1iOCFSqObO6KcRuC4UJYdYopX_1QEDnq8", #6
+            "https://drive.google.com/uc?export=view&id=1jK7LGu2wilPgkLmktRXDGKtFkpyjiaws", #7
+            "https://drive.google.com/uc?export=view&id=1NGh4cU9t401FE_QY04whRykPwx4q1-7M", #8
+            "https://drive.google.com/uc?export=view&id=11NWwc3-a-7--id3_IfXmKj0JHJw3BtrU", #9
+            "https://drive.google.com/uc?export=view&id=1gGfvbuXF6Pb3tfrugNDhf55qQJlvh8TE", #10
+            "https://drive.google.com/uc?export=view&id=14VGeiQtg-MU9DQJFkt86FB-GpGXSZkuh", #11
+            "https://drive.google.com/uc?export=view&id=1wM20tRFuGb_66fXSc-IPlpYqMnpPH6iU", #12
+            "https://drive.google.com/uc?export=view&id=19ziizmXoGPU78MZr59xSXsO6pss2soMN", #13
+            "https://drive.google.com/uc?export=view&id=1HlZEXJ-XpsG8bjl3iDcENVNM_1QqI_L0", #14
+            "https://drive.google.com/uc?export=view&id=1s5zmCY7YSfmiQkQu0EvBhczS9ibIToXf", #15
+        ]
+        data_list = [
+            {
+                "nama": "Kakak Rani Puspita Sari",
+                "nim": "122450030",
+                "umur": "21",
+                "asal":"Metro",
+                "alamat": "Rajabasa",
+                "hobbi": "Datang kajian",
+                "sosmed": "@rannipu",
+                "kesan": " ",  
+                "pesan":" "# 1
+            },
+            {
+                "nama": "Kakak Renta Siahaan",
+                "nim": "122450070",
+                "umur": "22",
+                "asal":"Sumatera Utara",
+                "alamat": "Sukarame",
+                "hobbi": "Mancing",
+                "sosmed": "@renta.shn",
+                "kesan": " ",  
+                "pesan":" "# 2
+            },
+            {
+                "nama": "Kakak Salwa Farhanatussaidah",
+                "nim": "122450055",
+                "umur": "21",
+                "asal":"Jawa Tengah",
+                "alamat": "Airan",
+                "hobbi": "Masak",
+                "sosmed": "@salwa_fhn",
+                "kesan": " ",  
+                "pesan":" "# 3
+            },
+            {
+                "nama": "Kakak Azzahra Putri Kamilah",
+                "nim": "123450013",
+                "umur": "20",
+                "asal":"Pekanbaru",
+                "alamat": "Gerbang barat",
+                "hobbi": "Zumba",
+                "sosmed": "@azza.raaa",
+                "kesan": " ",  
+                "pesan":" "# 4
+            },
+            {
+                "nama": "Kakak Haikal Fransisko Simbolon",
+                "nim": "123450106",
+                "umur": "22",
+                "asal":"Medan sananya dikit",
+                "alamat": "Way Kandis",
+                "hobbi": "Menghitung Krikil",
+                "sosmed": "@haikalsbln_",
+                "kesan": " ",  
+                "pesan":" "# 5
+            },
+            {
+                "nama": "Kakak Iqfina Haula Halika",
+                "nim": "123450076",
+                "umur": "19",
+                "asal":"Bandar Lampung",
+                "alamat": "Bandar Lampung",
+                "hobbi": "Baking",
+                "sosmed": "@iqfinahalikaa_",
+                "kesan": " ",  
+                "pesan":" "# 6
+            },
+            {
+                "nama": "Kakak May Talitha Dahlia",
+                "nim": "123450009",
+                "umur": "20",
+                "asal":"Jambi",
+                "alamat": "Belakang PB",
+                "hobbi": "Yoga",
+                "sosmed": "@may_dahlia12",
+                "kesan": " ",  
+                "pesan":" "# 7
+            },
+            {
+                "nama": "Kakak Muhammad Naufal Al Ghani",
+                "nim": "123450116",
+                "umur": "20",
+                "asal":"Sidorejo, Sidomulyo, Kalianda",
+                "alamat": "Sabah Balau",
+                "hobbi": "Nonton anime",
+                "sosmed": "@muhammadnaufalalghani73",
+                "kesan": " ",  
+                "pesan":" "# 8
+            },
+            {
+                "nama": "Kakak Zailani Satria",
+                "nim": "123450111",
+                "umur": "19",
+                "asal":"Bandar Lampung",
+                "alamat": "Rajabasa",
+                "hobbi": "olahraga ",
+                "sosmed": "@zailanisatria",
+                "kesan": " ",  
+                "pesan":" "# 9
+            },
+            {
+                "nama": "Kakak Rendi Alexander Hutagalung",
+                "nim": "122450057",
+                "umur": "21",
+                "asal":"Tangerang",
+                "alamat": "Belwis",
+                "hobbi": "Melukis",
+                "sosmed": "@rexanderr",
+                "kesan": " ",  
+                "pesan":" "# 10
+            },
+            {
+                "nama": "Kakak Hanna Gresia Sinaga",
+                "nim": "123450038",
+                "umur": "20",
+                "asal":"Cikarang",
+                "alamat": "Gerbang Barat",
+                "hobbi": "Melihat Cicak",
+                "sosmed": "@hanna_g_sinaga",
+                "kesan": " ",  
+                "pesan":" "# 11
+            },
+            {
+                "nama": "Kakak Keren Marito Lumban Gaol",
+                "nim": "123450020",
+                "umur": "19",
+                "asal":"Bekasi",
+                "alamat": "Way Huwi",
+                "hobbi": "Bermain musik",
+                "sosmed": "@kerenmrtl",
+                "kesan": " ",  
+                "pesan":" "# 12
+            },
+            {
+                "nama": "Kakak Muhammad Hanif Dzaky Arifin",
+                "nim": "123450064",
+                "umur": "20",
+                "asal":"Padang, Sumbar",
+                "alamat": "Way Kandid",
+                "hobbi": "Futsal",
+                "sosmed": "@hnfdzky_",
+                "kesan": " ",  
+                "pesan":" "# 13
+            },
+            {
+                "nama": "Kakak Sarah Wasti",
+                "nim": "123450057",
+                "umur": "20",
+                "asal":"Bekasi",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Main Alat Musik",
+                "sosmed": "@ssarahwsti",
+                "kesan": " ",  
+                "pesan":" "# 14
+            },
+            {
+                "nama": "Kakak Zahra Putri Salsabila",
+                "nim": "123450026",
+                "umur": "19",
+                "asal":"Natar",
+                "alamat": "Way Huwi, Pemda",
+                "hobbi": "rubik miror",
+                "sosmed": "@zhrptsl",
+                "kesan": " ",  
+                "pesan":" "# 15
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Departemen_Internal()
 # Tambahkan menu lainnya sesuai kebutuhan
