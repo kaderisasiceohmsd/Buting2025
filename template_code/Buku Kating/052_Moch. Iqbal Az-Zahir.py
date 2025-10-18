@@ -99,9 +99,9 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/file/d/1raJs9jl9lRH_uXDa-zvEahnIpVGmYQfD/view?usp=drivesdk",
-            "https://drive.google.com/file/d/1nsw4dSdxhoYLYBHqLCCl7-itIb2UCwM9/view?usp=drivesdk",
-            "https://drive.google.com/file/d/1Xpj686MS9YMA4h2Zh2hLYHP5MvdUeZaz/view?usp=drivesdk",
+"1raJs9jl9lRH_uXDa-zvEahnIpVGmYQfD/view?usp=drive_link",
+            "1nsw4dSdxhoYLYBHqLCCl7-itIb2UCwM9/view?usp=drive_link",
+            "1Xpj686MS9YMA4h2Zh2hLYHP5MvdUeZaz/view?usp=drive_link",
         ]
         data_list = [
             {
