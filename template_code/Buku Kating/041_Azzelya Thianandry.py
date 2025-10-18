@@ -96,9 +96,9 @@ def display_images_with_data(gambar_urls, data_list):
 menu = streamlit_menu()
 
 # BAGIAN SINI YANG HANYA BOLEH DIUABAH
-# Tambahkan menu lainnya sesuai kebutuhan
-elif menu == "Senator":
-    def Senator():
+
+elif menu == "Kesekjenan":
+    def kesekjenan():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1xb0-I7AbqbYx9bsSMgMSwUVHdkX2he9A",
             "https://drive.google.com/uc?export=view&id=1xb0-I7AbqbYx9bsSMgMSwUVHdkX2he9A",
@@ -152,4 +152,4 @@ elif menu == "Senator":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Senator()
+    kesekjenan()
