@@ -99,13 +99,38 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=17i10zrZ1nMiSpfttAxNmyezE-6rhbNLy_",
+            "https://drive.google.com/uc?export=view&id=1w0CAKeisnWoW3O6ybyL5icT5A9KiYrUa_",
+            "https://drive.google.com/uc?export=view&id=11DsLJXpJ9DyRd1MjC3xaOzGk1gFVy_o9_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
-                "nama": "Kakak A",
+                "nama": "Rendra Eka Prayoga",
+                "nim": "122450112",
+                "umur": "21",
+                "asal":"Bekasi",
+                "alamat": "Pulau Damar",
+                "hobbi": "Beli donat kentang",
+                "sosmed": "@_erendraa",
+                "kesan": "wawasannya luas, asik diajak ngobrol",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Johannes Krisjon Silitonga",
+                "nim": "122450043",
+                "umur": "20",
+                "asal":"Tangerang",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "baca buku dasar dasar sql",
+                "sosmed": "@johanneskrisjnnn",
+                "kesan": "abangnya asik, banyak ilmu yang saya dapat dari dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Kakak CCc",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -115,8 +140,8 @@ if menu == "Kesekjenan":
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
-            {
-                "nama": "Kakak B",
+             {
+                "nama": "Kakak CCc",
                 "nim": "122450000",
                 "umur": "18",
                 "asal":"Bekasi",
@@ -126,7 +151,18 @@ if menu == "Kesekjenan":
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
-            {
+             {
+                "nama": "Kakak CCc",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+             {
                 "nama": "Kakak CCc",
                 "nim": "122450000",
                 "umur": "18",
