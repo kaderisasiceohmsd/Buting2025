@@ -546,7 +546,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main Roblox",
                 "sosmed": "@rosaliasiregar",
-                "kesan": "",  
+                "kesan": "main roblox seru kak",  
                 "pesan":""# 10
             },
             {
