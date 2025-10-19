@@ -127,7 +127,7 @@ if menu == "Kesekjenan":
                 "hobbi": "baca buku dasar dasar sql",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "abangnya asik, banyak ilmu yang saya dapat dari dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya bang !!!"# 1
             },
             {
                 "nama": "Kakak CCc",
