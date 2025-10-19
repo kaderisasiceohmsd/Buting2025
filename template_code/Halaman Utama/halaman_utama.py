@@ -166,8 +166,8 @@ elif menu == "About Us":
                 "nama": "Ayake Alfatih Ramadan",
                 "sebagai": "Anggota",
                 "nim": "124450108",
-                "fun_fact": "nyemilin",
-                "motto_hidup": "jalanin dulu aja",
+                "fun_fact": "Yang adzanin ketika lahir bukan ayah, tapi paman",
+                "motto_hidup": "Sesungguhnya sesudah kesulitan itu ada kemudahan",
             },
             {
                 "nama": "Najla Nursyifa",
