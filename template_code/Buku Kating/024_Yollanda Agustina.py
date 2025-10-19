@@ -103,39 +103,72 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
-        data_list = [
+         data_list = [
             {
-                "nama": "Kakak A",
-                "nim": "122450000",
-                "umur": "18",
+                "nama": "Rendra Eka Prayoga",
+                "nim": "122450112",
+                "umur": "21",
                 "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "alamat": "Pulau Damar",
+                "hobbi": "Menyanyi",
+                "sosmed": "@_erendraa",
+                "kesan": "Aura kepemimpinannya kenceng banget",  
+                "pesan":"Semangat Bang TA nya  !!!"# 1
             },
             {
-                "nama": "Kakak B",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Johannes Krisjon Silitonga",
+                "nim": "122450043",
+                "umur": "20",
+                "asal": "Tangerang",
+                "alamat": "jl.Lapas",
+                "hobbi": "Baca buku SQL",
+                "sosmed": "@johanneskrisjnnn",
+                "kesan": "Surprise banget semakin tahu lebih jauh ternyata keren abis",  
+                "pesan":"bang mau tips public speakingnya !!!"# 1
             },
             {
-                "nama": "Kakak CCc",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Elisabeth Claudia",
+                "nim": "122450123",
+                "umur": "19",
+                "asal": "Tangerang",
+                "alamat": "airas kost",
+                "hobbi": "nyemil",
+                "sosmed": "@celisabethh_",
+                 "kesan": "first impression kakak keknya orang yang ceria abis deh",  
+                "pesan":"Moga lancar trs akademik dan selainnya kaak"# 1
+            },
+             {
+                "nama": "Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "21",
+                "asal": "Palembang",
+                "alamat": "belwis",
+                "hobbi": "membaca",
+                "sosmed": "@puspadrr",
+                "kesan": "Auranya lembut banget kak",
+                "pesan": "Semangat kak ditengah gempuran semester mematikan ini!"
+            },
+            {
+                "nama": "Eksanty Febriana Sugma Islamiati",
+                "nim": "122450001",
+                "umur": "21",
+                "asal": "Borneo Kalimantan Barat",
+                "alamat": "Gedung Tataan Pesawaran",
+                "hobbi": "ngelas ngelus kucing",
+                "sosmed": "@eksantyfebriana",
+                "kesan": "kak aku percaya kalo kakak aksel tau",
+                "pesan": "Semangat membantai semester gila ini kak"
+            },
+              {
+                "nama": "Farahanum Afifah Ardiansyah",
+                "nim": "122450056",
+                "umur": "21",
+                "asal": "Padang, Sumbar",
+                "alamat": "kiya kost",
+                "hobbi": "domino, qtek kahim",
+                "sosmed": "@farahanumafifahh",
+                "kesan": "Seru banget dengerin kakak",
+                "pesan": "Keep smile menghadapii semester ini kak"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
