@@ -167,7 +167,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1EPD1nRRm700qOtb5m4rFcEc1ZGfr0CON",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=11k9_roq3GWftlNCVVNQlct3qmkaN6voJ",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1EPD1nRRm700qOtb5m4rFcEc1ZGfr0CON",
@@ -208,10 +208,10 @@ elif menu == "About Us":
             },
             {
                 "nama": "Juwita Sari",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "sebagai": "Anggota",
+                "nim": "124450066",
+                "fun_fact": "Suka bau sendal/sepatu baru",
+                "motto_hidup": "Don't be afraid to fail, be afraid not to try",
             },
             {
                 "nama": "Putri Manna Anantama Simbolon",
