@@ -896,14 +896,14 @@ if menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@pebby_olla525",
+                "nim": "123450035",
+                "umur": "20",
+                "asal":"Pesawaran",
+                "alamat": "Pesawaran",
+                "hobbi": "Main Piano dan Bernyanyi",
+                "sosmed": "@hey.olla",
                 "kesan": "kakanya baik, kalem",  
-                "pesan":"semangat terus ya kak"
+                "pesan":"semangat terus ya kak, selalu jaga kesehatan"
             },
             {
                 "nama": "Fairuz  Ary Syifa",
@@ -1320,13 +1320,12 @@ if menu == "Departemen Internal":
             "https://drive.google.com/uc?export=view&id=1jJx2TxyylY8T-uvt_BtPe5bILP8ESFlv",
             "https://drive.google.com/uc?export=view&id=1h4Dc7fxxe-UJKg4pG50lEbSKCzsbxIW5",
             "https://drive.google.com/uc?export=view&id=1I-oQIQCl1GS2orZs4fy5PM9SqcIUXIjo",
+            "https://drive.google.com/uc?export=view&id=1yO0Gz_bi92HuAR3Bhale-BvQ-igY7mgG",
             "https://drive.google.com/uc?export=view&id=1g9qPtfDgxXovCJwZDr2RAqBuzQtB_WrV",
             "https://drive.google.com/uc?export=view&id=1qidHoHkpt9lvixvBw0-JbqBt4k6LhxOv",
             "https://drive.google.com/uc?export=view&id=1GfSTk0a-gVS8QuJY1gcXP6NxQIHDsVR1",
             "https://drive.google.com/uc?export=view&id=1pd1w0VH3mUbq0lEU3X-02C2IvjAx7203",
-            "https://drive.google.com/uc?export=view&id=12cHiJZdByod3DLHPCxAEl7jonBjSRl6Y",
-            "https://drive.google.com/uc?export=view&id=1yO0Gz_bi92HuAR3Bhale-BvQ-igY7mgG",
-            
+            "https://drive.google.com/uc?export=view&id=12cHiJZdByod3DLHPCxAEl7jonBjSRl6Y",    
         ]
         data_list = [
             {
@@ -1408,12 +1407,12 @@ if menu == "Departemen Internal":
             },
             {
                 "nama": "Muhammad Naufal Alghani",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nim": "123450116",
+                "umur": "20",
+                "asal":"Sidorejo, Sidomulyo, Kalianda",
+                "alamat": "Sabah Balau",
+                "hobbi": "Nonton Anime",
+                "sosmed": "@muhammadnaufalghani73",
                 "kesan": "Abangnya asik, baik, ramah",  
                 "pesan":"semangat terus kuliahnya bang !!!"# 1
             },
@@ -1427,6 +1426,17 @@ if menu == "Departemen Internal":
                 "sosmed": "@zailanisatria",
                 "kesan": "Abangnya baik dan asik banget",
                 "pesan": "semangat terus kuliahnya bang"# 1
+            },
+            {
+                "nama": "Rendi Alexander Hutagalung",
+                "nim": "122450057",
+                "umur": "21",
+                "asal": "Tangerang",
+                "alamat": "Airan",
+                "hobbi": "Menyanyi",
+                "sosmed": "@rexanderr",
+                "kesan": "Abangnya humble dan asik diajak ngobrol",
+                "pesan": "Selalu jaga kesehatan ya bang"# 1
             },
             {
                 "nama": "Hanna Grecia Sinaga",
@@ -1474,25 +1484,14 @@ if menu == "Departemen Internal":
             },
             {
                 "nama": "Zahra Putri Salsabilla",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
+                "nim": "123450026",
+                "umur": "19",
+                "asal":"Natar",
+                "alamat": "Way Huwi, Pemda",
+                "hobbi": "Rubik Mirror",
+                "sosmed": "@zhrptsl",
                 "kesan": "kakanya asik dan seru",  
                 "pesan":"semangat terus kuliahnya kak"# 1
-            },
-            {
-                "nama": "Rendi Alexander Hutagalung",
-                "nim": "122450057",
-                "umur": "21",
-                "asal": "Tangerang",
-                "alamat": "Airan",
-                "hobbi": "Menyanyi",
-                "sosmed": "@rexanderr",
-                "kesan": "Abangnya humble dan asik diajak ngobrol",
-                "pesan": "Selalu jaga kesehatan ya bang"# 1
             },
             
         ]
@@ -1611,7 +1610,7 @@ if menu == "Departemen SSD":
                 "asal": "Sumatera Barat",
                 "alamat": "gg.perwira 2",
                 "hobbi": "menonton alur cerita film",
-                "sosmed": "englirahmdhnii",
+                "sosmed": "@englirahmdhnii",
                 "kesan": "Seru bisa kenal dengan kakak.",
                 "pesan": "Semoga sukses selalu ya kak!"# 1
             },
@@ -1622,7 +1621,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Korpri",
                 "hobbi": "Masak",
-                "sosmed": "_inayasani",
+                "sosmed": "@_inayasani",
                 "kesan": "Kakaknya sangat ramah",
                 "pesan": "Jaga kesehatan selalu kak!"# 1
             },
@@ -1633,7 +1632,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Tanjung Karang",
                 "hobbi": "Main",
-                "sosmed": "nydiaaptr_",
+                "sosmed": "@nydiaaptr_",
                 "kesan": "Kakanya baik, asik dan menyenangkan",
                 "pesan": "Semangat dan sukses selalu!"# 1
             },
@@ -1815,7 +1814,7 @@ if menu == "Departemen Medkraf":
                 "asal": "Bandar Lampung",
                 "alamat": "Griya Sukarame",
                 "hobbi": "Main Hp",
-                "sosmed": "@i",
+                "sosmed": "@_akmal.faiz",
                 "kesan": "Orangnya asik dan mudah bergaul",
                 "pesan": "Semangat terus bang kuliahnya!"# 1
             },
