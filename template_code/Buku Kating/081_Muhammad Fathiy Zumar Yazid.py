@@ -1632,3 +1632,231 @@ elif menu == "Departemen SSD":
         ]
         display_images_with_data(gambar_urls, data_list)
     ssd()
+    if menu == "Departemen Medkraf":
+    def medkraf():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1JQB4K5Ts4kBFxK2DLOgug3V0rBZGUzpT",
+            "https://drive.google.com/uc?export=view&id=1NZ2exWrkJJGbnAzENUd8nHhqhPvI0Hc_",
+            "https://drive.google.com/uc?export=view&id=1N8NGHmRoy9XAUtV3fkou3sPyTnDKF0F0",
+            "https://drive.google.com/uc?export=view&id=1Jw24Kf05XTqkDd9xTywdodPekMfFvHSJ",
+            "https://drive.google.com/uc?export=view&id=1JKx9P0xQqOf-wi7vxLrNQyaaL1GRUoGN",
+            "https://drive.google.com/uc?export=view&id=1KDyIEAeqpMBigaj344g6CbUu-94mnYDZ",
+            "https://drive.google.com/uc?export=view&id=1JgPIhqDDSiokqQ87uJVq6e-QwAEMqqEW",
+            "https://drive.google.com/uc?export=view&id=1JPC-XnM-J2Iw9k1YfnSGzNQ2bccmb0b8",
+            "https://drive.google.com/uc?export=view&id=1JM3CPdvsbZgX6ciqEdRNSxXlbrZ2RA4E",
+            "https://drive.google.com/uc?export=view&id=1J-nYZQt4bitbrN_NU3kVSReptSM0gejV",
+            "https://drive.google.com/uc?export=view&id=1KWS-34jJg32rLf539j8G8Oc9JxGyWvLX",
+            "https://drive.google.com/uc?export=view&id=1JMTDXgiNWOphZHlKGNCOJrhRTktxBpb0",
+            "https://drive.google.com/uc?export=view&id=1KAHb0CdLu1Vx-P-SLk28NALDlkFJhacX",
+            "https://drive.google.com/uc?export=view&id=1Jt8cpS0Gb1XLMI4siEIqPv7SKtUyKL2v",
+            "https://drive.google.com/uc?export=view&id=1JEWU-WLmPJzXl58e_wVigJ6HsbaIo3E4",
+            "https://drive.google.com/uc?export=view&id=1IvxXGlr14CvfRsaC610aLgvD5knBRGCA",
+            "https://drive.google.com/uc?export=view&id=1J9j8GmTLKZey1qwcV-8MkHFFXR7BeU4U",
+            "https://drive.google.com/uc?export=view&id=1Jfcx2zj9t316QVTM9YK00cHoWXgg2t0T",
+        ]
+        data_list = [
+            {
+                "nama": "Patricia Leondrea Diajeng Putri",
+                "nim": "122450050",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": "  ",
+                "sosmed": "@patriciadiajeng",
+                "kesan": "Kak ciaa asik banget dan seruu bangeett",
+                "pesan": "sehaatt selaluu dan selalu ceria kakk!"
+            },
+            {
+                "nama": "Rahma Neliyana",
+                "nim": "122450036",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@rahmanellyana",
+                "kesan": "pinterr bangeett dan ramah banget",
+                "pesan": "semangaatt kuliahnya kakk!"
+            },
+             {
+                "nama": "Khoirul Anam",
+                "nim": "122450039",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@mananam_",
+                "kesan": "baikk dan sabar bangett ngajarin nyaa",
+                "pesan": "semangaatt truss bangg!"
+            },
+            {
+            
+                "nama": "Labo Napitupulu",
+                "nim": "123450037",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@noe_rruuu",
+                "kesan": "keren banget dan seru banget juga",
+                "pesan": "semangaaatt kuliahnya bangg!"
+            },
+            {
+                "nama": "Rafi Diva Efangga",
+                "nim": "123450001",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@rafidivaefangga",
+                "kesan": "Seru banget abangnya dan ramah banget juga",
+                "pesan": "semangaatt kuliahnya bangg"
+            },
+            {
+                "nama": "Refa Destini Pranata",
+                "nim": "123450016",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": "  ",
+                "sosmed": "@refadp_",
+                "kesan": "seruu banget kakaknya dan asik banget",
+                "pesan": "semangatt kak kuliahnyaa, besok tepuk doa bareng ya kak wwkkwkw"
+            },
+            {
+                "nama": "Try Yani Rizki Nur Rohmah",
+                "nim": "122450020",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@tryyaniciaaa",
+                "kesan": "seruu bangeet kak dan ramah juga",
+                "pesan": "Tetap semangat kak kuliahnya!"
+            },
+            {
+                "nama": "Aliya Ammara Ananta",
+                "nim": "123450075",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@aliyaamara",
+                "kesan": "kereenn kakaknya dan seru juga",
+                "pesan": "Semangat kuliahnya kak!"
+            },
+            {
+                "nama": "Dona Maya Puspita",
+                "nim": "123450028",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@donamaya.p",
+                "kesan": "Kakaknya seru banget dan ramah juga",
+                "pesan": "Semoga sukses di masa depaann kaakk!"
+            },
+            {
+                "nama": "Feby Angelina",
+                "nim": "123450039",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@writtenbyangel",
+                "kesan": "baiikk bangeett kakaknya dan asik bangettt",
+                "pesan": "semangaatt kuliahnya kak!"
+            },
+            {
+                "nama": "Hafsa Fazila Arradhi",
+                "nim": "123450079",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Bandar Lampung",
+                "hobbi": "Memasak",
+                "sosmed": "@hafsa.fazila",
+                "kesan": "Kakaknya baik banget suka bantuin kalau kesusahan ngerjain praktikum alpro",
+                "pesan": "Sukses untuk ke depannya, kak dan selalu berbuat baik!"
+            },
+             {
+                "nama": "Nayla Salsabila Fathianisa",
+                "nim": "123450082",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@naylasalsabilaa",
+                "kesan": "baiikk bangeett kakaknya dan seru juga",
+                "pesan": "semangaatt kuliahnya kak!"
+            },
+             {
+                "nama": "Sania Dwi Ayu Lestari",
+                "nim": "123450086",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@saniayyllstr",
+                "kesan": "baiikk bangeett kakaknya dan seru",
+                "pesan": "semangaatt kuliahnya kak dan bahagia selalu kak!"
+            },
+            {
+                "nama": "Akmal Faiz Abdilah",
+                "nim": "122450114",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@i",
+                "kesan": "baiikk bangeett abangnya dan ramah juga",
+                "pesan": "semangaatt bang!"
+            },
+             {
+                "nama": "Raihana Adelia Putri",
+                "nim": "123450041",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@nltg._",
+                "kesan": "baiikk bangeett kakaknya dan ramah juga",
+                "pesan": "semangaatt kuliahnya kak!"
+            },
+            {
+                "nama": "Citra Agustin",
+                "nim": "123450108",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@citrastin",
+                "kesan": "baiikk bangeett kak dan asik juga",
+                "pesan": "semangaatt kuliahnya kak!"
+            },
+            {
+                "nama": "Eigi Artamevia",
+                "nim": "123450011",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@eigirtmv",
+                "kesan": "baiikk bangeett kakaknya dan ramah bangett",
+                "pesan": "semangaatt kuliahnya kak!"
+            },
+            {
+                "nama": "Romauli Oktavia Silaban",
+                "nim": "123450014",
+                "umur": " ",
+                "asal": " ",
+                "alamat": " ",
+                "hobbi": " ",
+                "sosmed": "@roms.slbn",
+                "kesan": "baiikk bangeett kak, asik juga dan ramah bangett",
+                "pesan": "sukses terus kedepannya kak!"
+            },
+           
+           
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    medkraf()
+    
