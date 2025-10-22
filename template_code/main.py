@@ -80,7 +80,7 @@ st.markdown("""
 <style>
 [data-testid="stSidebar"] {
     position: relative;
-    background: #CEC7FD;
+    background: #AFCBEF;
     color: #000000;
     overflow: hidden;
 }
@@ -89,7 +89,7 @@ st.markdown("""
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, #A374CC, #CEC7FD, #A374CC);
+    background: linear-gradient(135deg, #C6A0DC, #AFCBEF, #C6A0DC);
     background-size: 200% 200%;
     opacity: 0.9;
     animation: gradientShift 8s ease-in-out infinite;
