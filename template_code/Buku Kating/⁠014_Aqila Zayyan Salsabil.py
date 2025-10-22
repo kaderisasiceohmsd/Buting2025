@@ -108,7 +108,7 @@ if menu == "Kesekjenan":
         ]
         data_list = [
             {
-                "nama": "Bang Rendra Eka Prayoga",
+                "nama": "Rendra Eka Prayoga",
                 "nim": "122450112",
                 "umur": "21",
                 "asal": "Bekasi",
@@ -119,7 +119,7 @@ if menu == "Kesekjenan":
                 "pesan": "semoga dipermudah untuk segala urusan kelulusan ya bang"# 1
             },
             {
-                "nama": "Bang Johannes Krisjon Silitonga",
+                "nama": "Johannes Krisjon Silitonga",
                 "nim": "122450000",
                 "umur": "20",
                 "asal": "Tangerang",
@@ -130,7 +130,7 @@ if menu == "Kesekjenan":
                 "pesan": "selamat karena bentar lagi wisuda bang jo!"# 1
             },
               {
-                "nama": "Kak Elisabeth Claudia Simanjuntak",
+                "nama": "Elisabeth Claudia Simanjuntak",
                 "nim": "122450123",
                 "umur": "20",
                 "asal": "Bogor",
@@ -141,7 +141,7 @@ if menu == "Kesekjenan":
                 "pesan": "semogaa cepet lulus jugaa kaa ebeth!"# 1
             },
               {
-                "nama": "Kak Syadza Puspadari Azhar",
+                "nama": "Syadza Puspadari Azhar",
                 "nim": "122450072",
                 "umur": "21",
                 "asal": "Palembang",
@@ -152,7 +152,7 @@ if menu == "Kesekjenan":
                 "pesan": "semoga cepet lulus juga yaa kaa, dipermudah segala urusan!"# 1
             },
             {
-                "nama": "Kakak Eksanty Febriana Sukma Islamiaty",
+                "nama": "Eksanty Febriana Sukma Islamiaty",
                 "nim": "122450001",
                 "umur": "21",
                 "asal": "Sammosir/Sumatera Utara",
@@ -163,7 +163,7 @@ if menu == "Kesekjenan":
                 "pesan": "tetep selalu jadi orang yang ceria ya kaa, kakak lucu banget ga boong"# 1
             },
              {
-                "nama": "Kakak Farahanum Afifah Ardiansyah",
+                "nama": "Farahanum Afifah Ardiansyah",
                 "nim": "122450001",
                 "umur": "21",
                 "asal": "Padang",
@@ -199,147 +199,147 @@ if menu == "Baleg":
         ]
         data_list = [
             {
-                "nama": "Kakak Jeremia Susanto",
+                "nama": "Jeremia Susanto",
                 "nim": "122450022",
                 "umur": "21",
                 "asal": "Nusa Kambangan",
                 "alamat": "Lapas , Belwis",
                 "hobbi": "Melarikan Diri",
                 "sosmed": "@jeremia_s_ ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "abangnya lucu dan lampunggg bgtt, btw saya jg orang lampung kok bang (ga rasis)",  
+                "pesan": "semoga dipermudah sempronya bang jere!"# 1
             },
             {
-                "nama": "Kakak Dhea Amelia Putri",
+                "nama": "Dhea Amelia Putri",
                 "nim": "122450004",
                 "umur": "21",
                 "asal": "Kendari",
                 "alamat": "Metro",
                 "hobbi": "Bertutur kata baik dan sopan",
                 "sosmed": "@_.dheamelia ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "ka dhea juga LUCU BGT GABOONG, moodbooster kaa sumpah",  
+                "pesan": "sehat selalu ka dheaa, terus nge jokes ya kaa"# 1
             },
               {
-                "nama": "Kakak Renisha Putri Giani",
+                "nama": "Renisha Putri Giani",
                 "nim": "122450079",
                 "umur": "22",
                 "asal": "Teluk",
                 "alamat": "Teluk",
                 "hobbi": "Jualan Pancing",
                 "sosmed": "@renishapg",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kakak reni kalcer, vibesnya kaya kakak-kakak suka pake outfit skena",  
+                "pesan": "semangat menjalani semester akhirnya kaa"# 1
             },
               {
-                "nama": "Kakak Anisa Fitriyani",
+                "nama": "Anisa Fitriyani",
                 "nim": "122450019",
                 "umur": "21",
                 "asal": "Bandar Lampung",
                 "alamat": "Bandar Lampung",
                 "hobbi": "Mencari kesibukan",
                 "sosmed": "@ansftynn_",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kakaknya kalem dan pemalu..?",  
+                "pesan": "semangat selalu menjalani harinya kak nisaa cantik^^"# 1
             },
             {
-                "nama": "Kakak Dharu Cahyoaji Sasongko",
+                "nama": "Dharu Cahyoaji Sasongko",
                 "nim": "123450023",
                 "umur": "18",
                 "asal": "Bandar Lampung",
                 "alamat": "Way Halim",
                 "hobbi": "Nonton AGZ",
                 "sosmed": "@dhruchyo",
-                "kesan": " ",  
-                "pesan":" "# 1
+                "kesan": "abang ozt yang keren",  
+                "pesan":"semoga selalu mendapatkan nilai yang memuaskan ya bangg!"# 1
             },
              {
-                "nama": "Kakak Feby Wulandari",
+                "nama": "Feby Wulandari",
                 "nim": "123450042",
                 "umur": "20",
                 "asal": "Bekasi",
                 "alamat": "Way Huwi",
                 "hobbi": "Nguleg Cabai",
                 "sosmed": "@fby.wlndr",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kak, pertama kali ketemu itu aku langsung salfok karena kakaknya lucu + rambutnya LUCU",  
+                "pesan": "rambutnya lucu banget kaa, dirawat ya kak!"# 1
             },
               {
-                "nama": "Kakak Givaro Ananta",
+                "nama": "Givaro Ananta",
                 "nim": "123450078",
                 "umur": "20",
                 "asal": "Lampung Barat",
                 "alamat": "Sukabumi",
                 "hobbi": "Nemenin ridho main pedel",
                 "sosmed": "@givarooo",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kesan ketemu bang givaro, pasti jutek, kalem dsb. Ternyata ga sekalem itu ya bang",  
+                "pesan": "jaga kesehatan bang gitato"# 1
             },
               {
-                "nama": "Kakak Mirzan Yusuf Rabbani",
+                "nama": "Mirzan Yusuf Rabbani",
                 "nim": "122450118",
                 "umur": "21",
                 "asal": "Jakarta",
                 "alamat": "Korpri",
                 "hobbi": "Istirahat",
                 "sosmed": "@myrrinn",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "abangnya kalem dan lebih suka merhatiin orang ngomong",  
+                "pesan": "semoga abang bisa menjadi listener yang lebih baik lagi"# 1
             },
               {
-                "nama": "Kakak Berliana Enda Putri",
+                "nama": "Berliana Enda Putri",
                 "nim": "122450065",
                 "umur": "21",
                 "asal": "Surabaya",
                 "alamat": "Belwis",
                 "hobbi": "Ngukir Sabun",
                 "sosmed": "@berlyyanda",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kakaknya kalem tapi kayanya ga sekalem itu deh kak..?",  
+                "pesan": "jangan pernah luntur senyumnya yaa kak1"# 1
             },
               {
-                "nama": "Kakak Juesi Apridelia Saragih",
+                "nama": "Juesi Apridelia Saragih",
                 "nim": "123450085",
                 "umur": "19",
                 "asal": "Teluk Kuandama",
                 "alamat": "Belwis",
                 "hobbi": "Mendengarkan wave to earth",
                 "sosmed": "@j__eesie",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kakaknya jugaa selalu ceria dan bisa membangun suasana menyenangkan",  
+                "pesan": "semoga kakak selalu dikelilingi oleh orang-orang yang baik ya kaa"# 1
             },
               {
-                "nama": "Kakak Ridho Benedictus Togi Manik",
+                "nama": "Ridho Benedictus Togi Manik",
                 "nim": "123450060",
                 "umur": "19",
                 "asal": "Medan",
                 "alamat": "GH",
                 "hobbi": "Main Pedel",
                 "sosmed": "@iamridhomanik ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": " abangnnya pasti suka ngejokes bapak-bapak (kesan pertama kali meet)",  
+                "pesan": "semaangat semester 5 nya bang"# 1
             },
               {
-                "nama": "Kakak Feryadi Yulius",
+                "nama": "Feryadi Yulius",
                 "nim": "122450087",
                 "umur": "22",
                 "asal": "Sumatera Selatan",
                 "alamat": "Kobang",
                 "hobbi": "Ngeliatin warna baju orang",
                 "sosmed": "@fer_yulius",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "wah abangnya jago ngoding (karena megang laptop)",  
+                "pesan": "semoga abangnya makin jago ngodingnya bangg"# 1
             },
               {
-                "nama": "Kakak Monica Patricia Tanjung",
+                "nama": "Monica Patricia Tanjung",
                 "nim": "123450073",
                 "umur": "19",
                 "asal": "Sumatera Utara",
                 "alamat": "Belwis",
                 "hobbi": "Makan gula merah",
                 "sosmed": "@monica_tjg ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kakaknya pendiem, tipe yang manut-manut ajaa",  
+                "pesan": "bahagia terus ya kaaa><"# 1
             },
               {
                 "nama": "Kakak Wan Nashwa Alhasni Yuska",
@@ -349,8 +349,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyapa Angin",
                 "sosmed": "@nshaysk ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "orangnya ceria dan juga ekspresif banget",  
+                "pesan": "semangat untuk kehidupan semester 5 nya kak!"# 1
             },
             
         ]
@@ -381,103 +381,103 @@ elif menu == "Departemen Medkraf":
         ]
         data_list = [
             {
-                "nama": "Kakak Patricia Leondrea Diajeng Putri",
+                "nama": "Patricia Leondrea Diajeng Putri",
                 "nim": "122450050",
                 "umur": "21",
                 "asal": "Lampung Selatan",
                 "alamat": "Jatimulyo",
                 "hobbi": "Mendengarkan musik",
                 "sosmed": "@patriciadiajeng",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "kakanya cantik dan ceriaaa terus girly banget!",  
+                "pesan": "selalu sebarkan energi positifnya kak cia!"# 1
             },
             {
-                "nama": "Kakak Rahma Neliyana",
+                "nama": "Rahma Neliyana",
                 "nim": "122450036",
                 "umur": "21",
                 "asal": "Lampung",
                 "alamat": "Jalan Kresna, Korpri",
                 "hobbi": "Nge-gym",
                 "sosmed": "@rahmaneliyana",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "ramah dan baik banget, walaupun keliatannya aga jutek aslinya mah enggaa",  
+                "pesan": "kakak CP yang paling ramah, terimakasih kak!"# 1
             },
               {
-                "nama": "Kakak Khoirul Anam",
+                "nama": "Khoirul Anam",
                 "nim": "122450039",
                 "umur": "21",
                 "asal": "Pesawaran",
                 "alamat": "Pesawaran",
                 "hobbi": "Volly, billyard",
                 "sosmed": "@mananam__",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "abangnya lucu suka ngomong -aman banget-",  
+                "pesan": "semoga beneran aman banget disetiap situasi ya bang!"# 1
               },
               {
-                "nama": "Kakak Labo John Noel Napitupulu",
+                "nama": "Labo John Noel Napitupulu",
                 "nim": "123450037",
                 "umur": "19",
                 "asal": "Medan",
                 "alamat": "Way Huwi",
                 "hobbi": "Motoran",
                 "sosmed": "@noerruuu",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "abangnya baik dan jokesnya suka garing? (maaf bang)",  
+                "pesan": "semoga selalu lucu ya bang jokesnya"# 1
             },
               {
-                "nama": "Kakak Ravi Diva Efangga",
+                "nama": "Ravi Diva Efangga",
                 "nim": "123450001",
                 "umur": "21",
                 "asal": "Lampung Tengah, Gunung Sugih",
                 "alamat": "Airan Raya",
                 "hobbi": "Olahraga",
                 "sosmed": "@rafidivaefangga_",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "abangnya ramah dan baik banget",  
+                "pesan": "makasi ya bang udah tetep senyum walaupun kating yang lain lagi marah-marah"# 1
             },
               {
-                "nama": "Kakak Refa Destiny Pranata",
+                "nama": "Refa Destiny Pranata",
                 "nim": "123450016",
                 "umur": "19",
                 "asal": "Bandar Lampung",
                 "alamat": "Kedaton",
                 "hobbi": "Nge-vlog",
                 "sosmed": "@refadp_",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "kakanya baik dan ramah?! (semua kating medkraff ramah semua)",  
+                "pesan": "semangatt semester 5 nya kak!"# 1
             },
               {
                 "nama": "Try Yani Rizki Nur Rohmah",
-                "nim": "",
-                "umur": "",
-                "asal": "",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan": ""# 1
+                "nim": "122450002",
+                "umur": "20",
+                "asal": "Lampung Barat",
+                "alamat": "Korpri",
+                "hobbi": "Belajar",
+                "sosmed": "@tryyanitiaaa",
+                "kesan": "udah cantik, berprestasi lagi kak!",  
+                "pesan": "semoga selalu tetap ramah ya kak, kakanya udah paket lengkap!"# 1
             },
               {
-                "nama": "Kakak Aliya Ammara Ananta",
+                "nama": "Aliya Ammara Ananta",
                 "nim": "123450075",
                 "umur": "19",
                 "asal": "KotaBumi",
                 "alamat": "Gracia Kost 1",
                 "hobbi": "Main Gitar",
                 "sosmed": "@aliyaammara",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "baik dan orangnya gaenakan tapii ga sekalem itu kan kak aslinya?",  
+                "pesan": "semangat kak semester 5 nya, sebentar lagi semester 6 ^^"# 1
             },
               {
-                "nama": "Kakak Donna Maya Puspita",
+                "nama": "Donna Maya Puspita",
                 "nim": "123450028",
                 "umur": "20",
                 "asal": "Bekasi, Jawa Barat",
                 "alamat": "Way Huwi, Gang Mangga",
                 "hobbi": "Mendengarkan musik",
                 "sosmed": "@donnamaya.p",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "kakak yang baik dan pengertian banget, cara ngomongnya juga lemah lembut",  
+                "pesan": "kakak selalu keren dengan versi diri kakak sendiri!!"# 1
                 },
               {
                 "nama": "Feby Angelina",
@@ -487,74 +487,74 @@ elif menu == "Departemen Medkraf":
                 "alamat": "kemiling",
                 "hobbi": "scroll pinterest",
                 "sosmed": "@writtenbyangel",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "kakaknya sepertinya introvert?",  
+                "pesan": "sehat selalu kaka kontenn, jaga kesehatan kaa"# 1
             },
               {
-                "nama": "Kakak Hafsa Fazila Arradhi",
+                "nama": "Hafsa Fazila Arradhi",
                 "nim": "123450079",
                 "umur": "20",
                 "asal": "Bandar Lampung",
                 "alamat": "Labuhan Ratu",
                 "hobbi": "Memasak",
                 "sosmed": "@hafsa.fazila",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "kakaknya baikk dan ramahh, suka banget!",  
+                "pesan": "semoga dikelilingi orang-orang yang baik hatinya juga ya ka!"# 1
             },
               {
-                "nama": "Kakak Nayla Salsabila Fathianisa",
+                "nama": "Nayla Salsabila Fathianisa",
                 "nim": "123450082",
                 "umur": "19",
                 "asal": "Payahkumbuh, Sumatera Selatan",
                 "alamat": "Jalan Lapas, Kec. Kota Agung",
                 "hobbi": "Mendengarkan musik",
                 "sosmed": "@naylasasabilaa_",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "kakanya baik tapi sedikit pendiem.. ambivert?!!",  
+                "pesan": "spill info magang dimana kak"# 1
             },
               {
-                "nama": "Kakak Sania Dwi Ayu Lestari",
+                "nama": "Sania Dwi Ayu Lestari",
                 "nim": "123450086",
                 "umur": "20",
                 "asal": "Karawang",
                 "alamat": "Airan Raya",
                 "hobbi": "Main roblox",
                 "sosmed": "@saniayyllstr",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "kakaknya aslinya baik cuman kalau ga senyum jutek banget kaa keliatannya",  
+                "pesan": "jangan pernah luntur senyumnya ya kaa"# 1
             },
               {
-                "nama": "Kakak Akmal Faiz Abdillah",
+                "nama": "Akmal Faiz Abdillah",
                 "nim": "122450114",
                 "umur": "21",
                 "asal": "Bandar Lampung",
                 "alamat": "Griya Sukarame",
                 "hobbi": "Membaca",
                 "sosmed": "@_akmal.faiz",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "abangnya lucu, nyambung banget jokesnya sama bang labo dan bang anam",  
+                "pesan": "tetep jadi orang yang lucu ya bang1"# 1
             },
               {
-                "nama": "Kakak Raihana Addelia Putri",
+                "nama": "Raihana Addelia Putri",
                 "nim": "123450041",
                 "umur": "19",
                 "asal": "Lampug Tengah, Terbanggi",
                 "alamat": "Airan Raya 1",
                 "hobbi": "Menulis, membaca, memasak",
                 "sosmed": "@n1tg._",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "kakaknya pendiam dan kalem, tipe yang umi..",  
+                "pesan": "jangan luap self reward hari ini ya kak"# 1
             },
               {
-                "nama": "Kakak Citra Agustin",
+                "nama": "Citra Agustin",
                 "nim": "123450108",
                 "umur": "21",
                 "asal": "Natar",
                 "alamat": "Natar",
                 "hobbi": "Scroll Pinterest",
                 "sosmed": "@citrastin",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "aku bingung kakaknya beneran ga kalem atau kalem beneran..",  
+                "pesan": "tutorial jaga image kaa"# 1
             },
               {
                 "nama": "Kakak Eigi Artamevia",
@@ -564,19 +564,19 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Sabah Balau Residence",
                 "hobbi": "Melukis",
                 "sosmed": "@eigitvm",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "outfitnya colourfull banget, AKU SUKA, cantik banget kak, ramah lagii",  
+                "pesan": "semogaa cantik dan energi positifnya bisa menular ka!"# 1
             },
               {
-                "nama": "Kakak Romauli Oktavia Silaban",
+                "nama": "Romauli Oktavia Silaban",
                 "nim": "123450014",
                 "umur": "19",
                 "asal": "Sumatra Utara",
                 "alamat": "Kelengkeng 2 Pemda",
                 "hobbi": "Menanyi",
                 "sosmed": "@roms.slbn",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "kaget banget pas tau kakak itu kakak NIM akuu",  
+                "pesan": "mohon bimbingannya ka kedepannya"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
