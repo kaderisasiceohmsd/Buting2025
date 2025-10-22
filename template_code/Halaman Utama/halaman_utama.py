@@ -135,7 +135,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1PlYQrm1pg9FoCmZHf9o79lLAYC2ozbuZ", #fadya
             "https://drive.google.com/uc?export=view&id=1RpUljY4kbmbHDiXhbts5hZMmpfh1usw3", #indah
             "https://drive.google.com/uc?export=view&id=1qI4MFay1-fhuszwZQwlPxYsv2BY-ybne", #caca
-            "https://drive.google.com/uc?export=view&id=1D8o9sEkhFUTPat3GTF3HKkQnnwIqiIyP", #anggun
+            "https://drive.google.com/uc?export=view&id=1Cl0u_FOfQlMiPuROPViGGepppIommkko", #anggun
             "https://drive.google.com/uc?export=view&id=1wwBHyFgyIi0idBbpFwosCgw5TXvv2glv", #raisya
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #jaya
             "https://drive.google.com/uc?export=view&id=1hAmwIuWyGLNfiwBNUwKsh6Ke-_ihyKbo", #riska
@@ -182,7 +182,7 @@ elif menu == "About Us":
                 "sebagai": "Anggotaa",
                 "nim": "124450009",
                 "fun_fact": "Dikejar orang gila dan masuk rumah orang gila itu sendiri",
-                "motto_hidup": "Berusaha selagi masih ada waktu",
+                "motto_hidup": "Berusaha selagi masih ada kesempatan",
             },
             {
                 "nama": "Raisya Izzati Harira",
