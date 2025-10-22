@@ -403,7 +403,7 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Denger lagu, maen roblox",
                 "sosmed": "@nadyaanjanani",
-                "kesan": "kakaknyaa cantik bangettt plisss",  
+                "kesan": "kakaknyaa cantik bangettt plisss mulus banget salfok",  
                 "pesan":"semangat terus kuliahnya, dan langgeng terus ya kak ;)"# 1
             },
             {
