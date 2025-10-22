@@ -1330,7 +1330,7 @@ elif menu == "Departemen Internal":
                 "asal": "Metro",
                 "alamat": "Bandar Lampung",
                 "hobbi": "Mengaji",
-                "instagram": "@ranniku",
+                "sosmed": "@ranniku",
                 "kesan": "Kak Rani orangnya lembut dan bijaksana.",
                 "pesan": "Semoga selalu diberi kesehatan dan keberkahan dalam setiap langkah."
             },
@@ -1341,7 +1341,7 @@ elif menu == "Departemen Internal":
                 "asal": "Sumatera Utara",
                 "alamat": "Sukarame",
                 "hobbi": "Memancing",
-                "instagram": "@renta.shn",
+                "sosmed": "@renta.shn",
                 "kesan": "Kak Renta orangnya tenang dan sopan.",
                 "pesan": "Semoga selalu diberi kesabaran dan rezeki yang lancar."
             },
@@ -1352,7 +1352,7 @@ elif menu == "Departemen Internal":
                 "asal": "Brebes, Jateng",
                 "alamat": "Airan",
                 "hobbi": "Memasak",
-                "instagram": "@salwa.fhn",
+                "sosmed": "@salwa.fhn",
                 "kesan": "Kak Salwa lembut dan ramah banget.",
                 "pesan": "Semoga selalu bahagia dan sukses terus ya Kak!"
             },
@@ -1363,7 +1363,7 @@ elif menu == "Departemen Internal":
                 "asal": "Tanggerang",
                 "alamat": "Belwis",
                 "hobbi": "Nyanyi",
-                "instagram": "@reaxender",
+                "sosmed": "@reaxender",
                 "kesan": "Bang Rendi suaranya keren dan berkarisma.",
                 "pesan": "Semoga terus semangat berkarya dan tetap rendah hati bang!"
             },
@@ -1374,7 +1374,7 @@ elif menu == "Departemen Internal":
                 "asal": "Bandar Lampung",
                 "alamat": "Bandar Lampung",
                 "hobbi": "Olahraga",
-                "instagram": "@zailanisatria",
+                "sosmed": "@zailanisatria",
                 "kesan": "bang Zai aktif dan seru banget.",
                 "pesan": "Semoga tetap semangat bang!"
             },
@@ -1385,7 +1385,7 @@ elif menu == "Departemen Internal":
                 "asal": "Sidorejo",
                 "alamat": "Sabah Balau",
                 "hobbi": "Nonton Anime",
-                "instagram": "@muhammadnaufalalghani",
+                "sosmed": "@muhammadnaufalalghani",
                 "kesan": "Bang Naufal asik diajak ngobrol.",
                 "pesan": "Semoga makin sukses dan tetap rendah hati!"
             },
@@ -1396,7 +1396,7 @@ elif menu == "Departemen Internal":
                 "asal": "Pekan Baru, Riau",
                 "alamat": "Airan",
                 "hobbi": "Mancing Ribut",
-                "instagram": "@haikalsbln_",
+                "sosmed": "@haikalsbln_",
                 "kesan": "Bang Haikal seru dan keren banget.",
                 "pesan": "Semoga selalu membawa keceriaan di setiap suasana!"
             },
@@ -1407,7 +1407,7 @@ elif menu == "Departemen Internal":
                 "asal": "Padang",
                 "alamat": "Perumnas, Way Kandis",
                 "hobi": "Futsal",
-                "instagram": "@hnfdzky_",
+                "sosmed": "@hnfdzky_",
                 "kesan": "Bang Hanif orangnya sopan dan kalem.",
                 "pesan": "Semoga selalu diberkahi kesuksesan di setiap langkah!"
             },
@@ -1418,7 +1418,7 @@ elif menu == "Departemen Internal":
                 "asal": "Jawa Barat",
                 "alamat": "Tanjung Senang",
                 "hobbi": "Berkebun",
-                "instagram": "@sarahwrti",
+                "sosmed": "@sarahwrti",
                 "kesan": "Kak Sarah anggun dan ramah.",
                 "pesan": "Semoga selalu bahagia dan sukses di setiap perjalanan!"
             },
@@ -1429,7 +1429,7 @@ elif menu == "Departemen Internal":
                 "asal": "Bekasi",
                 "alamat": "Pemda",
                 "hobbi": "Bermain Musik",
-                "instagram": "@kerenmrtv",
+                "sosmed": "@kerenmrtv",
                 "kesan": "Kak Keren sesuai namanya, keren banget!",
                 "pesan": "Semoga terus berprestasi dan menginspirasi banyak orang."
             },
@@ -1440,7 +1440,7 @@ elif menu == "Departemen Internal":
                 "asal": "Natar",
                 "alamat": "Way Huwi, Pemda",
                 "hobbi": "Mengetik",
-                "instagram": "@zhrptsr",
+                "sosmed": "@zhrptsr",
                 "kesan": "Kak Zahra orangnya lembut dan sopan.",
                 "pesan": "Semoga selalu semangat dan penuh kebahagiaan!"
             },
@@ -1451,7 +1451,7 @@ elif menu == "Departemen Internal":
                 "asal": "Pekan Baru",
                 "alamat": "Asrama TB4",
                 "hobbi": "Main Palinfit",
-                "instagram": "@azzah.raaa_",
+                "sosmed": "@azzah.raaa_",
                 "kesan": "Kak Azzahra punya aura positif banget.",
                 "pesan": "Semoga selalu ceria dan makin sukses!"
             },
@@ -1462,7 +1462,7 @@ elif menu == "Departemen Internal":
                 "asal": "Bandung",
                 "alamat": "Kedaton",
                 "hobbi": "Menyelam",
-                "instagram": "@may_dahlia12",
+                "sosmed": "@may_dahlia12",
                 "kesan": "Kak May selalu tampil cerah dan ramah.",
                 "pesan": "Semoga terus jadi inspirasi bagi yang lain!"
             },
@@ -1473,7 +1473,7 @@ elif menu == "Departemen Internal":
                 "asal": "Lampung Barat",
                 "alamat": "Sukarame",
                 "hobbi": "Berkhayal",
-                "instagram": "iqfinanhalikaa_",
+                "sosmed": "iqfinanhalikaa_",
                 "kesan": "Kak Iqfinah imut dan kreatif banget.",
                 "pesan": "Semoga semua impian Kakak bisa terwujud!"
             },
@@ -1484,7 +1484,7 @@ elif menu == "Departemen Internal":
                 "asal": "Jakarta Selatan",
                 "alamat": "Belakang UIN",
                 "hobbi": "Menggoreng Pisang",
-                "instagram": "@hanna_g_sinaga",
+                "sosmed": "@hanna_g_sinaga",
                 "kesan": "Kak Hanna lucu dan supel.",
                 "pesan": "Semoga terus membawa suasana ceria dan positif ke sekeliling!"
             },
@@ -1515,7 +1515,7 @@ elif menu == "Departemen SSD":
                 "asal": "-",
                 "alamat": "-",
                 "hobbi": "-",
-                "instagram": "@dananghk_",
+                "sosmed": "@dananghk_",
                 "kesan": "-",
                 "pesan": "-"
             },
@@ -1526,7 +1526,7 @@ elif menu == "Departemen SSD":
                 "asal": "-",
                 "alamat": "-",
                 "hobbi": "-",
-                "instagram": "@syalaishaa_31",
+                "sosmed": "@syalaishaa_31",
                 "kesan": "-",
                 "pesan": "-"
             },
@@ -1537,7 +1537,7 @@ elif menu == "Departemen SSD":
                 "asal": "-",
                 "alamat": "-",
                 "hobbi": "-",
-                "instagram": "@den_iki_",
+                "sosmed": "@den_iki_",
                 "kesan": "-",
                 "pesan": "-"
             },
@@ -1548,7 +1548,7 @@ elif menu == "Departemen SSD":
                 "asal": "-",
                 "alamat": "-",
                 "hobbi": "-",
-                "instagram": "@anadiacrn_",
+                "sosmed": "@anadiacrn_",
                 "kesan": "-",
                 "pesan": "-"
             },
@@ -1559,7 +1559,7 @@ elif menu == "Departemen SSD":
                 "asal": "-",
                 "alamat": "-",
                 "hobbi": "-",
-                "instagram": "@aprhtp_",
+                "sosmed": "@aprhtp_",
                 "kesan": "-",
                 "pesan": "-"
             },
@@ -1570,7 +1570,7 @@ elif menu == "Departemen SSD":
                 "asal": "-",
                 "alamat": "-",
                 "hobbi": "-",
-                "instagram": "@nabila_zazahra",
+                "sosmed": "@nabila_zazahra",
                 "kesan": "-",
                 "pesan": "-"
             },
@@ -1581,7 +1581,7 @@ elif menu == "Departemen SSD":
                 "asal": "-",
                 "alamat": "-",
                 "hobbi": "-",
-                "instagram": "@dhafinrzqa13",
+                "sosmed": "@dhafinrzqa13",
                 "kesan": "-",
                 "pesan": "-"
             },
@@ -1592,7 +1592,7 @@ elif menu == "Departemen SSD":
                 "asal": "-",
                 "alamat": "-",
                 "hobbi": "-",
-                "instagram": "@deviirhyu",
+                "sosmed": "@deviirhyu",
                 "kesan": "-",
                 "pesan": "-"
             },
@@ -1603,7 +1603,7 @@ elif menu == "Departemen SSD":
                 "asal": "-",
                 "alamat": "-",
                 "hobbi": "-",
-                "instagram": "@englirahmdhanii",
+                "sosmed": "@englirahmdhanii",
                 "kesan": "-",
                 "pesan": "-"
             },
@@ -1614,7 +1614,7 @@ elif menu == "Departemen SSD":
                 "asal": "-",
                 "alamat": "-",
                 "hobbi": "-",
-                "instagram": "@_inayasari",
+                "sosmed": "@_inayasari",
                 "kesan": "-",
                 "pesan": "-"
             },
@@ -1625,7 +1625,7 @@ elif menu == "Departemen SSD":
                 "asal": "-",
                 "alamat": "-",
                 "hobbi": "-",
-                "instagram": "@nydiaaptr_",
+                "sosmed": "@nydiaaptr_",
                 "kesan": "-",
                 "pesan": "-"
             },
