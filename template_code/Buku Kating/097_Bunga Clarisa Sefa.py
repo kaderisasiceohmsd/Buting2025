@@ -306,7 +306,7 @@ if menu == "Baleg":
                 "hobbi": "Nyanyi",
                 "sosmed": "@berlyyanda",
                 "kesan": "kakanya seru dan orangnya humble",
-                "pesan":"Tetap semangat kuliahnya kak"
+                "pesan":"Tetap semangat kuliahnya ya kak"
             },
             {
                 "nama": "Juesi Apridelia Saragih",
