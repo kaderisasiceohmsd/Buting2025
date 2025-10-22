@@ -130,7 +130,7 @@ elif menu == "About Us":
         )
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1-P9gKjfZ6kzJtyES9viOhzqetyZSYqJN", #niko
+            "https://drive.google.com/uc?export=view&id=1zujBrFyxrhkbGMpG6DjZfAekH-_jbcyc", #niko
             "https://drive.google.com/uc?export=view&id=1NRBQH_QT8lNsbMgg6gWx4wvw-yfxObUU", #rahma
             "https://drive.google.com/uc?export=view&id=1PlYQrm1pg9FoCmZHf9o79lLAYC2ozbuZ", #fadya
             "https://drive.google.com/uc?export=view&id=1RpUljY4kbmbHDiXhbts5hZMmpfh1usw3", #indah
@@ -196,7 +196,7 @@ elif menu == "About Us":
                 "sebagai": "Anggotaa",
                 "nim": "124450032",
                 "fun_fact": "",
-                "motto_hidup": "Kenapa kita lakukan sekarang jika bisa kita lakukan nanti",
+                "motto_hidup": "",
             },
             {
                 "nama": "Riska Erlis Dayu Tiara",
@@ -204,6 +204,13 @@ elif menu == "About Us":
                 "nim": "12450022",
                 "fun_fact": "suka bengong liat sekitar",
                 "motto_hidup": "setiap tantangan adalah peluang untuk berkembang",
+            },
+            {
+                "nama": "Helmy Surya Pratama",
+                "sebagai": "Anggotaa",
+                "nim": "12450033",
+                "fun_fact": "",
+                "motto_hidup": "",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
