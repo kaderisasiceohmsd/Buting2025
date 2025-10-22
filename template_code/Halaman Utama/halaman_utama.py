@@ -139,7 +139,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1wwBHyFgyIi0idBbpFwosCgw5TXvv2glv", #raisya
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #jaya
             "https://drive.google.com/uc?export=view&id=1hAmwIuWyGLNfiwBNUwKsh6Ke-_ihyKbo", #riska
-            "https://drive.google.com/uc?export=view&id=1jn4cNQQAOuWjlsSgFvzPsT1kCze5CklB", #helmay           
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #helmay           
         ]
         data_list = [
             {
@@ -205,13 +205,6 @@ elif menu == "About Us":
                 "fun_fact": "suka bengong liat sekitar",
                 "motto_hidup": "setiap tantangan adalah peluang untuk berkembang",
             },
-            {
-                "nama": "Helmy Surya Pratama",
-                "sebagai": "Anggotaa",
-                "nim": "12450033",
-                "fun_fact": "Saya takut balon",
-                "motto_hidup": "Love the life you live, Live the life you love",
-            }
         ]
         display_images_with_data(gambar_urls, data_list)
 

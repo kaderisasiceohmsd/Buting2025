@@ -763,12 +763,17 @@ elif menu == "Departemen MIKFES":
                 "nama": "Randa Andriana Putra",
                 "nim": "1222450083",
                 "umur": "22",
-                "asal":"Serang,Banten",
+                "asal":"Serang,Baten",
                 "alamat": "Sukarame",
                 "hobbi": "Tidur dan berenang",
                 "sosmed": "@randaandriana_",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Abangnya orangnya santai",  
                 "pesan":"Semoga terus sukses dan tetap jadi sosok yang menyenangkan bang"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Rut Junita Sari Siburian",
@@ -778,8 +783,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Nangka 3",
                 "hobbi": "Membaca Buku",
                 "sosmed": "@junitaa_0406",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kak Rut lembut dan kalem, enak diajak ngobrol",  
                 "pesan":"Semoga terus semangat dan makin sukses ke depannya!"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Muhammad Regi Abdi Putra Amanta",
@@ -789,8 +799,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Permadi",
                 "hobbi": "Bernafas",
                 "sosmed": "@mregiiii_",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Abangnya lucu",  
                 "pesan":"Tetap jadi pribadi yang positif dan penuh energi ya, Bang!"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Aisyah Musfirah",
@@ -800,8 +815,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Lapas, Belwis",
                 "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kak Aisyah ramah dan sopan banget",  
                 "pesan":"Semoga selalu diberi kemudahan dan kesuksesan di setiap langkah"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Fadil Prasetyo Alfarizzi",
@@ -811,8 +831,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Segala Mider",
                 "hobbi": "Liat Jam",
                 "sosmed": "@fadilalfarizzii",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Abangnya keren banget",  
                 "pesan":"Semoga terus bahagia dan sukses, Bang Fadil!"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Muhammad Aqil Ramadhan",
@@ -822,8 +847,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Kasuari Gg Salam",
                 "hobbi": "Main basket",
                 "sosmed": "@muhammadaqil1111",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Abangnya lucu banget",  
                 "pesan":"Sehat-sehat abang lucu"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Muhammad Naufal Ramadhan",
@@ -833,8 +863,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Tanjung Senang",
                 "hobbi": "Dengerin musik",
                 "sosmed": "@notfall.s",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Abangnya asik banget",  
                 "pesan":"Semoga kuliahnya lancar terus bang!"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Nadia Faraj Alyafaatin Simbolon",
@@ -844,8 +879,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Manggis 1 Way Huwi",
                 "hobbi": "Nonton film",
                 "sosmed": "@nadiaafrj",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kak Nadia positive vibes banget",  
                 "pesan":"Semoga makin sukses dan terus jadi inspirasi kak!"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Marleta Cornelia Leander",
@@ -855,8 +895,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Nangka 3",
                 "hobbi": "Kepo(baca codingan)",
                 "sosmed": "@marletacornelia",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kak marleta cantik banget",  
                 "pesan":"Tips cantiknya dong kak"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Akeyla Fairuz Shafi",
@@ -866,8 +911,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Perum Bukit Alam Permai 3, Blokk C, No.9",
                 "hobbi": "Dengrin musik",
                 "sosmed": "@keyashafi_",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Bang akey keliatannya kalem",  
                 "pesan":"Semoga cita-citanya tercapai bang"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Anggi Puspita Ningrum",
@@ -877,8 +927,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Seputih, Bummisari Kec.Natar",
                 "hobbi": "Dance dan menyanyi",
                 "sosmed": "@anggi_yllow2318",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kak Anggi keren banget",  
                 "pesan":"Semoga makin bersinar kak"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Efi Defiyati",
@@ -888,8 +943,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Raden Sale, Airan",
                 "hobbi": "Membaca",
                 "sosmed": "@eeffiidefi",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kak Efi lembut banget",  
                 "pesan":"Bahagia selalu kak"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Fabiolla Charissa Putri",
@@ -899,8 +959,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Pesawaran, Lampung",
                 "hobbi": "main piano dan nyanyi",
                 "sosmed": "@pebby_olla525",
+<<<<<<< HEAD
+                "kesan": "-",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kak Fabiolla ramah banget",  
                 "pesan":"Sehat terus kak olla"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Fairuz Ary Syifa",
@@ -910,8 +975,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "tidur",
                 "sosmed": "@_fairuzary",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kakaknya cantik banget",  
                 "pesan":"Semoga kuliahnya lancar selalu kak"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
              {
                 "nama": "Tanty Widiyastuti",
@@ -921,8 +991,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Asrama TB 4 ITERA",
                 "hobbi": "Tidur",
                 "sosmed": "@tvnty_",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kak Tanty attractive banget",  
                 "pesan":"Selalu ceria ya kak!"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Eggi Satria",
@@ -932,8 +1007,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "tidur",
                 "sosmed": "@_egistr",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Abangnya humble banget",  
                 "pesan":"Semoga sukses terus bang"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Afifah Fauziah",
@@ -943,8 +1023,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Airan,Hasan 4",
                 "hobbi": "isengin orang (main game)",
                 "sosmed": "@fifah.zy",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kak Afifah seru banget",  
                 "pesan":"Semoga terus bahagia dan sukses selalu ya kak"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Fabio Banyu Cyto",
@@ -954,8 +1039,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Teratai No 27A, Kedaton",
                 "hobbi": "game(proplayer),tidur,jalan-jalan",
                 "sosmed": "@biyokcb",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Abangnya seru banget diajak ngobrol",  
                 "pesan":"Semoga terus sukses dan tetap semangat bang"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Giofani Aristyo",
@@ -965,8 +1055,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Pemda",
                 "hobbi": "Main game",
                 "sosmed": "@giofaniars_",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Abangnya kalem banget",  
                 "pesan":"Tips pinter dong bang"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Rahma Oktavia Albar",
@@ -976,8 +1071,13 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Laps Raya, Lampung Selatan",
                 "hobbi": "Main Catur",
                 "sosmed": "@_rhmaoktvia",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kakaknya cantik banget",  
                 "pesan":"Semangat kuliahnya kak"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Rahmah Gustriana Deka",
@@ -987,23 +1087,36 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Airan 1",
                 "hobbi": "Balap random",
                 "sosmed": "@gustriana.d_",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Kakaknya seru banget",  
                 "pesan":"Semoga lancar kuliahnya kak"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
             {
                 "nama": "Razin Hafid Hamdi",
-                "nim": "123450096",
+                "nim": "123450102",
                 "umur": "20",
                 "asal":"Sumatera Barat",
                 "alamat": "Grans Sakum,Belwis",
                 "hobbi": "futsal",
                 "sosmed": "@razynhfd",
+<<<<<<< HEAD
+                "kesan": "",  
+                "pesan":"", # 1
+=======
                 "kesan": "Abangnya asik banget",  
                 "pesan":"Semangat terus bang"# 1
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMIKFES()
+<<<<<<< HEAD
+    
+=======
 
 elif menu == "Departemen Eksternal":
     def DepartemenEksternal():
@@ -1857,7 +1970,12 @@ elif menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
 
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
 # Tambahkan menu lainnya sesuai kebutuhan
 
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1

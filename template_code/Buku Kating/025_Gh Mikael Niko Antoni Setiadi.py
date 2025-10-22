@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Mutun, Pesawaran",
                 "hobbi": "Ngomenin tiktok cewe cantik",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Kakak keren dan bijak banget",  
+                "pesan":"Semoga semua hal baik terus ngikutin kakak!"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -194,6 +194,7 @@ elif menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1EAq37k5aYI6lbZnyMUzTI9R8Rr_XmFPC", #Feriyadi
             "https://drive.google.com/uc?export=view&id=1Pz0A36PN5hmFByqXyiOQdSCJauCvtQ3X", #Monica
             "https://drive.google.com/uc?export=view&id=16Oc1WR6j4ERRxnie6jdOF4_f7vzCItF1", #Wan Naswa   
+
         ]
         data_list = [
             {
@@ -204,8 +205,8 @@ elif menu == "Baleg":
                 "alamat": "Bilabong",
                 "hobbi": "nonton orang kayang",
                 "sosmed": "@jeremia_s_",
-                "kesan": "abangnya berwibawa dan bijak dalam bersikap",  
-                "pesan":""# 1
+                "kesan": " ",  
+                "pesan":" "# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -215,7 +216,7 @@ elif menu == "Baleg":
                 "alamat": "Kemiling",
                 "hobbi": "lomba ga makan keerupuk",
                 "sosmed": "@_.dheamelia",
-                "kesan": "Kakaknya punya aura positif banget",  
+                "kesan": "",  
                 "pesan":"Semoga selalu dimudahkan dalam urusannya"# 1
             },
             {

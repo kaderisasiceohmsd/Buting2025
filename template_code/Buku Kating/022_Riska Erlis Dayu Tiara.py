@@ -440,7 +440,7 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1R484m_LB5BEhrbHJ3jRF554X-ydWDOhl",
             "https://drive.google.com/uc?export=view&id=1pdN6FLYu2E9IKnkG6bAe2kOLEJsPEgcD",
             "https://drive.google.com/uc?export=view&id=16V8xSfCBtH6pc5JjCBIvm_if7bRkqdLd",
-            "https://drive.google.com/uc?export=view&id=1GmrypZqAKoL2GmhWG2hIjEWihAbOuFs7",
+            "https://drive.google.com/uc?export=view&id=1GmrypZqAKoL2GmhWG2hIjEWihAbOuFs",
         ]
         data_list = [
             {
@@ -632,100 +632,100 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Daffa Ahmad Naufal",
-                "nim": "122450137",
-                "umur": "21",
-                "asal":"Jakarta",
-                "alamat": "Jl. Korpri Raya",
-                "hobbi": "Nontonin anak tari latihan",
-                "sosmed": "@ahmadnaufal_11",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Erma Daniar Safitri",
-                "nim": "123450061",
-                "umur": "20",
-                "asal":"Pringsewu",
-                "alamat": "Jl. Lapas Raya No. 55",
-                "hobbi": "Ngoleksi pita pink",
-                "sosmed": "@d__aniar",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Ihsan Maulana Yusuf",
-                "nim": "123450110",
-                "umur": "20",
-                "asal":"Sumatera Barat",
-                "alamat": "Belwis",
-                "hobbi": "Joki strava",
-                "sosmed": "@ihsan.myusus",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Kevin Antoni Junior",
-                "nim": "123450109",
-                "umur": "20",
-                "asal":"Bandar Lampung",
-                "alamat": "Panjang Selatan",
-                "hobbi": "Terjun Payung",
-                "sosmed": "@kevinaj__",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Lidia Natasyah Marpaung",
-                "nim": "123450015",
-                "umur": "20",
-                "asal":"Medan",
-                "alamat": "Pemda",
-                "hobbi": "Merajut",
-                "sosmed": "@dla_natzzyaa",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Muhammad Ridwan",
-                "nim": "123450091",
-                "umur": "20",
-                "asal":"Lampung Tengah",
-                "alamat": "Belwis",
-                "hobbi": "Nonton anak tari perform",
-                "sosmed": "@m.ridwan_22",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
-                "nama": "Uliano Wilyam Purba",
-                "nim": "122450098",
-                "umur": "19",
-                "asal":"Depok",
-                "alamat": "Jl. Raden Saleh",
-                "hobbi": "Ngerjain soal mtk",
-                "sosmed": "@liano.wlm",
+                "nama": "liano",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
-                "nama": "Benget Sidabutar",
-                "nim": "123450047",
-                "umur": "20",
-                "asal":"Sumatera Utara",
-                "alamat": "Belwis",
-                "hobbi": "Main bola",
-                "sosmed": "@sidabutar.26",
+                "nama": "",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
-                "nama": "Rewina Audrya Melva Sari",
-                "nim": "1233450049",
-                "umur": "20",
-                "asal":"Lampung",
-                "alamat": "Jl. Ratu, Bandar Lampung",
-                "hobbi": "Nonton anime",
-                "sosmed": "@rewinanaa",
+                "nama": "",
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "@",
                 "kesan": "",  
                 "pesan":""# 1
             },
@@ -736,7 +736,7 @@ elif menu == "Departemen PSDA":
 elif menu == "Departemen MIKFES":
     def DepartemenMIKFES():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=15AlIoKzVznuqaJ8Shm8AI_p6evDZn5rQ",
+            "https://drive.google.com/uc?export=view&id=115AlIoKzVznuqaJ8Shm8AI_p6evDZn5rQ",
             "https://drive.google.com/uc?export=view&id=1-MULAtSuT3jRv2wVNJLtsaMq5qp_StbH",
             "https://drive.google.com/uc?export=view&id=1_PwpTm5_4wiCqTPJIcRdwZ1qg6S9aNPW",
             "https://drive.google.com/uc?export=view&id=156PGcVZvIHtk6zBRTtqIDfhqi6bIaCff",
@@ -748,7 +748,7 @@ elif menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1aFc5LcVHb-VOyWQZkr7aXQCIpGJ3PRU3",
             "https://drive.google.com/uc?export=view&id=1qPLN-INCFrvlixPBjKYazi9lTMZuc5h6",
             "https://drive.google.com/uc?export=view&id=1SvrspC_KyxULxHSA8wF2kdukclVsjQge",
-            "https://drive.google.com/uc?export=view&id=1dosCKBnG7sr8qQiNv07uR43x0vvwslkl",
+            "https://drive.google.com/uc?export=view&id=1dosCKBnG7sr8qQiNv07uR43x0vvwslk",
             "https://drive.google.com/uc?export=view&id=1e448UBUDprDp8xf4tQTpYU9AvtZXtIWP",
             "https://drive.google.com/uc?export=view&id=1AFI2z3vWR2r0FR8ulA9Jok-id4MBkKjF",
             "https://drive.google.com/uc?export=view&id=1P-UCHEAb-0Eu9J4RM1pj3riwnFQrrWvX",
@@ -1006,6 +1006,8 @@ elif menu == "Departemen MIKFES":
         display_images_with_data(gambar_urls, data_list)
     DepartemenMIKFES()
 
+<<<<<<< HEAD
+=======
 elif menu == "Departemen Eksternal":
     def DepartemenEksternal():
         gambar_urls = [
@@ -1861,3 +1863,4 @@ elif menu == "Departemen Medkraf":
 
 
 
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1

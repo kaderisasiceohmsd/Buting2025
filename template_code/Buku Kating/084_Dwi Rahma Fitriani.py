@@ -186,7 +186,6 @@ elif menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1XhpT_Dy-nn-az-RIiTwQhRzbBip8syuH", #Kak Anisa
             "https://drive.google.com/uc?export=view&id=1FipXC151dTKIphWOJh2BBeIoyyhJ9n49", #Bang Dharu
             "https://drive.google.com/uc?export=view&id=1hxzhwgRAJQa6O8de-uE1MGJUi82ytRt1", #Kak Feby
-            "https://drive.google.com/uc?export=view&id=1-9Leqk1tpf97E9JaM9ltEJEdZ2cSUKU_", #Bang Givaro
             "https://drive.google.com/uc?export=view&id=1nTJnmXPVwH-0i0XY1Z37hoRvob_S4uuu", #Bang Mirzan
             "https://drive.google.com/uc?export=view&id=1dj5J3AVOCpP8BSZ9CmmQ5ARm1V975ZBY", #Kak Berliana
             "https://drive.google.com/uc?export=view&id=1wqepwu2JF4CleV7fyJlysI95VpAUjsF5", #Kak Juesi
@@ -195,7 +194,7 @@ elif menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1UCMWirIFSETLCxyffDHg_2ehFOI4q4z6", #Kak Monica
             "https://drive.google.com/uc?export=view&id=17j7RLivu-ZFLd3FRUDOirNg-f79OeLR2", #Kak Nashwa
         ]
-        data_list =[
+        data_list = [
             {
                 "nama": "Jeremia Susanto",
                 "nim": "122450022",
@@ -219,14 +218,14 @@ elif menu == "Baleg":
                 "pesan":" Teruslah menjadi pilar yang kuat ya kak!!!"# 1
             },
             {
-                "nama": "Renisha Putri Giani",
-                "nim": "122450079",
-                "umur": "22",
-                "asal":"Teluk",
-                "alamat": "Teluk",
-                "hobbi": "Tidur",
-                "sosmed": "@renishapg",
-                "kesan": "kakak ini kalem banget",  
+                "nama": "Kakak CCc",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
@@ -241,125 +240,26 @@ elif menu == "Baleg":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Anisa Fitriyani",
-                "nim": "122450019",
-                "umur": "19",
-                "asal":"Ubud",
-                "alamat": "Bandar Lampung",
-                "hobbi": "Mencari kesibukan baru",
-                "sosmed": "@ansftynn_",
-                "kesan": "Kakak ini baik dan humbel banget",  
-                "pesan":"semangat terus kuliah dan organisasinya kak !!!"# 1
-            },
-            {
-                "nama": "Dharu Cahyo Aji Sasongko",
-                "nim": "123450023",
+                "nama": "Kakak CCc",
+                "nim": "122450000",
                 "umur": "18",
-                "asal":"Bandar Lampung",
-                "alamat": "Way Halim",
-                "hobbi": "Nonton live putri padang",
-                "sosmed": "@dhruchyo",
-                "kesan": "Kakak ini keren dan pintar banget",  
-                "pesan":"semangat terus bang dharu kuliahnya !!!"# 1
-            },
-            {
-                "nama": "Feby Wulandari",
-                "nim": "123450042",
-                "umur": "20",
                 "asal":"Bekasi",
-                "alamat": "Way Huwi",
-                "hobbi": "Bajak Sawah",
-                "sosmed": "@fby.wlndr",
-                "kesan": "kakak ini cutee bangett",  
-                "pesan":"Kak feby semangat terus buat hari harinyaa!!!"# 1
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Givaro Ananta",
-                "nim": "123450078",
-                "umur": "20",
-                "asal":"Lampung Barat ",
-                "alamat": "Sukabumi",
-                "hobbi": "Dengerin Spotify",
-                "sosmed": "@givavrooo",
-                "kesan": "Abangnya humbel banget",  
-                "pesan": "semangat bang givaro!!!"# 1
-            },
-            {
-                "nama": "Mirzan Yusuf Rabbani",
-                "nim": "1224500118",
-                "umur": "21",
-                "asal":"Jakarta",
-                "alamat": "Korpri",
-                "hobbi": "Ngerawat kucing",
-                "sosmed": "@myrrinn",
-                "kesan": "Abang ini cool banget",  
-                "pesan":"semangat terus ya bangg !!!"# 1
-            },
-            {
-                "nama": "Berliana Enda Putri",
-                "nim": "122450065",
-                "umur": "21",
+                "nama": "Kakak CCc",
+                "nim": "122450000",
+                "umur": "18",
                 "asal":"Bekasi",
-                "alamat": "Belwis",
-                "hobbi": "Nyanyi",
-                "sosmed": "@berlyyanda",
-                "kesan": "Kakak ini baik dan humbel banget",  
-                "pesan":"semangat menjalani hari harinya kak !!!"# 1
-            },
-            {
-                "nama": "Juesi Apridelia Saranggih",
-                "nim": "123450085",
-                "umur": "19",
-                "asal":"Sumatera Utara",
-                "alamat": "Belwis",
-                "hobbi": "Lupa bales chat",
-                "sosmed": "@j_eesie",
-                "kesan": "sumpah kak juesi tuh keren banget",  
-                "pesan":"kak juesi pokoknya terus semangat dan makin mengudara  !!!"# 1
-            },
-            {
-                "nama": "Ridho Benedictus Togi Manik",
-                "nim": "123450060",
-                "umur": "19",
-                "asal":"Medan",
-                "alamat": "GH",
-                "hobbi": "Main Paddle",
-                "sosmed": "@iamridho",
-                "kesan": "Abangya baik banget ",  
-                "pesan":"Semangat terus bang !!!"# 1
-            },
-            {
-                "nama": "Feryadi Yulius ",
-                "nim": "122450087",
-                "umur": "25",
-                "asal":"Bangka Belitung",
-                "alamat": "Tanjung Karang",
-                "hobbi": "Koleksi batch google clood",
-                "sosmed": "@fer_yullius",
-                "kesan": "Abang ini humbel banget",  
-                "pesan":"Semangat menjalani hari harinya bang !!!"# 1
-            },
-            {
-                "nama": "Monica Patricia Tanjung",
-                "nim": "123450073",
-                "umur": "19",
-                "asal":"Sumatera Utara",
-                "alamat": "Belwis",
-                "hobbi": "Main ML",
-                "sosmed": "@monica_tjg",
-                "kesan": "kakak ini kalem dan humbel banget",  
-                "pesan":"semangat menjalani semester 5 nya kakk !!!"# 1
-            },
-            {
-                "nama": "Wan Nashwa Alhasni Yuska",
-                "nim": "123450077",
-                "umur": "19",
-                "asal":"Kota Tarakan",
-                "alamat": "Belwis",
-                "hobbi": "nyapa angin",
-                "sosmed": "@nshaysk",
-                "kesan": "Kakakya murah senyum banget",  
-                "pesan":"kak Nashwa semangat ya semester 5 nyaa !!!"# 1
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@i",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -381,8 +281,8 @@ elif menu == "Senator":
                 "alamat": "Raden Saleh",
                 "hobbi": "Lagu, Nyari, Baca, Game, Rapat",
                 "sosmed": "@bintangtwingkel",
-                "kesan": "Bang Bintang humbel dan asik kalo cerita ",  
-                "pesan":"semangat terus bang !!!"# 1
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -392,8 +292,8 @@ elif menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "denger lagu",
                 "sosmed": "@nadiaanjani",
-                "kesan": "Kakak Nadya Cantik banget", 
-                "pesan":"semangat teus menjalani semester 5 nya kak !!!"# 1
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -403,8 +303,8 @@ elif menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Main",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Kakak Fathin humbel bangett",  
-                "pesan":"semangat terus kak fathin menjalani hari harinya !!!"# 1
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -414,12 +314,14 @@ elif menu == "Senator":
                 "alamat": "Belakang Indomart belwis",
                 "hobbi": "Rebahan",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kakak lia asik banget klo ngobrol",  
-                "pesan": " Kak lia semangat terus yaaa!!!"# 1
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
     senator()
+<<<<<<< HEAD
+=======
 elif menu == "Departemen PSDA":
     def DepartemenPSDA():
         gambar_urls = [
@@ -1309,20 +1211,21 @@ elif menu == "Departemen Eksternal":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenEksternal()
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
 elif menu == "Departemen SSD":
     def DepartemenSSD():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1aY4rkqcTQUKHC5yh0pQLVc1f244uVLHE", #Bang ...
-            "https://drive.google.com/uc?export=view&id=1LDfDHzw62EioXjKtH0k3_fKmwroTa1Xi", #Kak Syalaisha
-            "https://drive.google.com/uc?export=view&id=1QCBmro_I_hGfB3_E8VjW17Wsssrkwwr8", #Bang Rizqi
-            "https://drive.google.com/uc?export=view&id=1ytTWe2Y5HzrTJ6Dviq7mftCyRyvqbXve", #Kak Anadia
-            "https://drive.google.com/uc?export=view&id=1L-sXR3zf_vZBlu0MSCHrc4x5Nm4YIVFd", #Kak Aprilia
-            "https://drive.google.com/uc?export=view&id=1z2MMrFnRuOVqiq5bTv8xz7fGDwccnKqN", #Kak Nabila
-            "https://drive.google.com/uc?export=view&id=1PeFDaXtF5T8r_2K9sRPIr5yOhEQgiYIG", #Kak Dhafin
-            "https://drive.google.com/uc?export=view&id=1_7YntLwi392FRPMqSFs9g58cq7Y-qGUp", #Kak Devi
-            "https://drive.google.com/uc?export=view&id=1VfgJxxUYBuxxB-Qry9krffYz0o76Gsbd", #Bang Engg;i
-            "https://drive.google.com/uc?export=view&id=1pphhQjQkHmjndxqyeU8NMb9fRYpXFz0D", #Kak ...
-            "https://drive.google.com/uc?export=view&id=1pphhQjQkHmjndxqyeU8NMb9fRYpXFz0D", #Kak Nydia
+            "https://drive.google.com/uc?export=view&id=1wA13TEORYp690XiiIE22ZJE2jJRViA6B", #Kak ...
+            "https://drive.google.com/uc?export=view&id=1VRkEBpNciL131w_C_XrFEwnIpmBUKing", #Kak ...
+            "https://drive.google.com/uc?export=view&id=1PdLc2oAVZQDiyOU_LkIbkGaT1XoVgGif", #Kak ...
+            "https://drive.google.com/uc?export=view&id=1aY4rkqcTQUKHC5yh0pQLVc1f244uVLHE", #Bang ...
+            "https://drive.google.com/uc?export=view&id=1wA13TEORYp690XiiIE22ZJE2jJRViA6B", #Kak ...
+            "https://drive.google.com/uc?export=view&id=1VRkEBpNciL131w_C_XrFEwnIpmBUKing", #Kak ...
+            "https://drive.google.com/uc?export=view&id=1PdLc2oAVZQDiyOU_LkIbkGaT1XoVgGif", #Kak ...
+            "https://drive.google.com/uc?export=view&id=1aY4rkqcTQUKHC5yh0pQLVc1f244uVLHE", #Bang ...
+            "https://drive.google.com/uc?export=view&id=1wA13TEORYp690XiiIE22ZJE2jJRViA6B", #Kak ...
+            "https://drive.google.com/uc?export=view&id=1VRkEBpNciL131w_C_XrFEwnIpmBUKing", #Kak ...
         ]
         data_list = [
             {
@@ -1452,3 +1355,7 @@ elif menu == "Departemen SSD":
     
 # Tambahkan menu lainnya sesuai kebutuhan
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
