@@ -1037,11 +1037,11 @@ if menu == "Departemen Eksternal":
     def DepartemenEksternal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=11kaIRA36ni7bMt-oEE_damZqy-z47HJF",
-            "https://drive.google.com/uc?export=view&id=1VeyBJqgFXn_JtqKbin5racwK-2JVmr3f",
-            "https://drive.google.com/uc?export=view&id=1Ei7W7AO5To-qB_QB9ZkIXcbfLpMQotBg",
-            "https://drive.google.com/uc?export=view&id=1nYwhdEZgLQyW6iqRF45NcMEwskYIm7iR",
-            "https://drive.google.com/uc?export=view&id=1nphCVdOyNZwkeCCMqwqj_cJ1DNje3XhH",
-            "https://drive.google.com/uc?export=view&id=1wQoV3GAqi8tQftmGsu8ffRBggdXc1wnM",
+            "https://drive.google.com/uc?export=view&id=1WVw421A4UGIsavR7SEFfnX7st98Pn1Ch",
+            "https://drive.google.com/uc?export=view&id=12jAkagXNfx03qtMjDoy1GIXTyEM68gjW",
+            "https://drive.google.com/uc?export=view&id=19kJordOBFp4F-6WnbztJ1Gh1pn37LyHB",
+            "https://drive.google.com/uc?export=view&id=1_r6QCte-b2WGLT5-DwLPsM0SPIAsVj3d",
+            "https://drive.google.com/uc?export=view&id=1mj0_TxEJiJPC9hRqNyykTsKL_aVD6ozs",
             "https://drive.google.com/uc?export=view&id=1efcewoDtknKkxxOGf4gvgplJeR5PDups",
             "https://drive.google.com/uc?export=view&id=1ItH_h5_cq5fZzeHBOWILhxWMJUCyDo1Z",
             "https://drive.google.com/uc?export=view&id=1fkv5vmXyoLDm--bHt8P3S-TJU-GSnjjn",
