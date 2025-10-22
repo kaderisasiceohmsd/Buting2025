@@ -89,17 +89,17 @@ st.markdown("""
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, #C6A0DC, #AFCBEF, #C6A0DC);
+    background: linear-gradient(to bottom, #1E1C3D, #6B5B95, #A593E0);
     background-size: 200% 200%;
     opacity: 0.9;
-    animation: gradientShift 8s ease-in-out infinite;
+    animation: gradientShift 10s ease-in-out infinite;
     z-index: -1;
 }
 
 @keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% { background-position: 0% 0%; }
+    50% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
 }
 
 [data-testid="stSidebar"] a {
