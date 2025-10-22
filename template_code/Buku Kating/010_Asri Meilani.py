@@ -378,10 +378,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1uPgQhlc3OPrdqhgVpCl9c2DjJvQ7_YbO",
-            "https://drive.google.com/uc?export=view&id=1OvtU9BIOEmMvlAGRQ_6nBJOfgFKm36Hm",
-            "https://drive.google.com/uc?export=view&id=1sExrJgzR5GydJJUZ606NqCEoZOSmsw0p",
-            "https://drive.google.com/uc?export=view&id=16KmFp_nVHHzS4mFfpj2LAj9wQDgc8cvv",
+            "https://drive.google.com/uc?export=view&id=1AsmyrWQMUNUPzjC1HMGef3kM_Shv7zgp",
+            "https://drive.google.com/uc?export=view&id=1FHMGifwa1rmgjVFmPWZbSOuqdt0uiHVr",
+            "https://drive.google.com/uc?export=view&id=1rrP-UzSiHny3jDnB9QVzAT5J9G5OZpPq",
+            "https://drive.google.com/uc?export=view&id=1C-iIcj1TY1Yp6rZlFXjJB5InUGBuTs1r",
         ]
         data_list = [
             {
@@ -392,8 +392,8 @@ if menu == "Senator":
                 "alamat": "Raden Saleh",
                 "hobbi": "Denger lagu, rapat",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Abang kece kura-kura",  
-                "pesan":"semangat terus bangg menggapai mimpinya!"# 1
+                "kesan": "SERUUU BANGET PLS BENER BENER KETAWA TERUSSS, kirain karenaa senat akan sangat serius ternyata seru paraah bang",  
+                "pesan":"semangat terus bang senat! plis terus ngejokes yaa bang"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -437,26 +437,26 @@ if menu == "Senator":
 if menu == "Departemen PSDA":
     def DepartemenPSDA():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=13mcw7lRYGmaXK4-kmva7d-UQ5mofwG3b",
-            "https://drive.google.com/uc?export=view&id=1X1B1mtUkC8NjGjmcRIEOIcSNe0eK3BHM",
-            "https://drive.google.com/uc?export=view&id=1YpIy1-s0gBjrO4gjK7iwZHx4J1ee4AYS",
+            "https://drive.google.com/uc?export=view&id=1meix0qdhphr8-CqPpy5ukeWHf_QDz1-5",
+            "https://drive.google.com/uc?export=view&id=1YIcX3-wmTGOfX97gIHZBeeIEXvgDsKaP",
+            "https://drive.google.com/uc?export=view&id=1rF1IOmfnj41D3LqJyvKR7sTv33fpQbgT",
             "https://drive.google.com/uc?export=view&id=10lGFcD_7ZArRLmHXs-wqLgZC7OvE74mK",
-            "https://drive.google.com/uc?export=view&id=1tYld0pmXXclS4mGFhLmJNJOU-pPLVIMh",
-            "https://drive.google.com/uc?export=view&id=1q9CYlbH-ArD4TDgTp3WoA99e9WzILcUH",
-            "https://drive.google.com/uc?export=view&id=1kzlPXbsW0PYMwDFBwk4vSx1Txy3k-Eq4",
-            "https://drive.google.com/uc?export=view&id=1bR7hc7ggp-jBaWFu8nkZEKN1HUKb1yQh",
-            "https://drive.google.com/uc?export=view&id=1YX-DS0vg4-VNZ8D1ul-EpPm591vL87Si",
-            "https://drive.google.com/uc?export=view&id=1YX-DS0vg4-VNZ8D1ul-EpPm591vL87Si",
-            "https://drive.google.com/uc?export=view&id=1CaL6nedRwn02rY-7khRFbAyYCX19wP-G",
-            "https://drive.google.com/uc?export=view&id=1A-jfWpIygyeFDL1xfjQYmLrfyxXthXl3",
-            "https://drive.google.com/uc?export=view&id=1KUICGBu7VaDsTwrIKFH1kyDsqfof4qUL",
+            "https://drive.google.com/uc?export=view&id=1oJkAG-cifVyngNfgyyJi1tWPiKDVaa4n",
+            "https://drive.google.com/uc?export=view&id=1_jv1Oc8icScA1uyFMJxMZdoA6RzkGzAi",
+            "https://drive.google.com/uc?export=view&id=180w0Ke1tG5zCu5Amj0E3aYN75BbNOe1j",
+            "https://drive.google.com/uc?export=view&id=1EX06Ywf7BRma_s8prPkph5TpfLxKAdxA",
+            "https://drive.google.com/uc?export=view&id=1b_9KA0MO1l4iIfJWAFhA35AqqYz97xsz",
+            "https://drive.google.com/uc?export=view&id=1oIPa42IDBCycxa_UbT0l5Ri62L1Fxs5c",
+            "https://drive.google.com/uc?export=view&id=1uN118D5nBCttM_TgVT5KaH-_Q9zWFoCj",
+            "https://drive.google.com/uc?export=view&id=1dfwRKHAULmAyUPIIgKYBtlbfKrbnJ6cb",
+            "https://drive.google.com/uc?export=view&id=1UGvv6wyh1LRfTUi1qCfhB3C8hL4qr5CK",
             "https://drive.google.com/uc?export=view&id=1YeKip9OJleBO1QxhVZ8bMbY_ZDYsEn-D",
-            "https://drive.google.com/uc?export=view&id=1Y6PjlUUXROG5IFaQpTnWxAkOChRTsIfm",
-            "https://drive.google.com/uc?export=view&id=1ROpWjATZ8tfkS5yhCsIW6OnFa-TfuwDk",
-            "https://drive.google.com/uc?export=view&id=1ROpWjATZ8tfkS5yhCsIW6OnFa-TfuwDk",
-            "https://drive.google.com/uc?export=view&id=1QEIpHxh1VZzaoyIGhbeNhoVQ3Q4WHKUz",
-            "https://drive.google.com/uc?export=view&id=1cYfttaj5nG3oxb40pzdtnpfcdu-3QxjZ",
-            "https://drive.google.com/uc?export=view&id=1rMsYw5MxrBs0A0MhrMj8jCNKAyRvGiV0",
+            "https://drive.google.com/uc?export=view&id=1PHCvLZclt2dnGShnmwpAa-OuQI3ZAUKg",
+            "https://drive.google.com/uc?export=view&id=1WsqKlGINoirS_-9pT0DPdB1kM_-cp3EE",
+            "https://drive.google.com/uc?export=view&id=1JbrOUPPONnSe9MbDmMceTsh3okT-38_N",
+            "https://drive.google.com/uc?export=view&id=13FexYmwsZ44K4zes3Em9NUdlRd_eF4iU",
+            "https://drive.google.com/uc?export=view&id=1wZO6BWrscSV92bSBNw14YrnxYQX4Ts3u",
+            "https://drive.google.com/uc?export=view&id=1vvvRTjNty_eQ8EkA6_kvtWxT8mEUQacC",
             "https://drive.google.com/uc?export=view&id=1osK2cTONOkJlJJHuvl6KabX4czSlBY0_",
             "https://drive.google.com/uc?export=view&id=1__YhRY-EBcSzZJsW1rRs3kqR8sUasf4T",
             "https://drive.google.com/uc?export=view&id=1ucbflmCHixIBjJUWI3uuFLrNCmNr0av-",
@@ -472,7 +472,7 @@ if menu == "Departemen PSDA":
                 "umur": "-",
                 "asal":"-",
                 "alamat": "-",
-                "hobbi": "-",
+                "hobbi": "haiii",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "Abang cool abiez",  
                 "pesan":"semakin cool bang dan semangat terus bang jadi kadep!"# 1
