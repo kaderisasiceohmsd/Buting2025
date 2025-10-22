@@ -170,9 +170,9 @@ elif menu == "About Us":
             {
                 "nama": "Charrlindah",
                 "sebagai": "Anggotaa",
-                "nim": "122450000",
-                "fun_fact": "nyemilin",
-                "motto_hidup": "jalanin dulu aja",
+                "nim": "122450037",
+                "fun_fact": "PHOBIA IKANN!!!",
+                "motto_hidup": "Kebaikan yang kita berikan adalah investasi terbaik.",
             },
             {
                 "nama": "fislam fathurrahman",
