@@ -634,17 +634,6 @@ if menu == "Departemen PSDA":
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
             {
-                "nama": "Ali Aristo Muthahari Parisi",
-                "nim": "123450088",
-                "umur": "20",
-                "asal":"Jabung, Lampung Timur",
-                "alamat": "Gang Nangka 4 Sukarame",
-                "hobbi": "Main game, Kuliner malam jika ada uang",
-                "sosmed": "@ali_parisi3",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
-            },
-            {
                 "nama": "Rosalia Siregar",
                 "nim": "123450036",
                 "umur": "19",
@@ -729,6 +718,17 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Nghina orang Bengkinang",
                 "sosmed": "@ridwan122",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"
+            },
+             {
+                "nama": "Ali Aristo Muthahari Parisi",
+                "nim": "123450088",
+                "umur": "20",
+                "asal":"Jabung, Lampung Timur",
+                "alamat": "Gang Nangka 4 Sukarame",
+                "hobbi": "Main game, Kuliner malam jika ada uang",
+                "sosmed": "@ali_parisi3",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
