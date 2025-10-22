@@ -163,7 +163,7 @@ if menu == "Kesekjenan":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Farhanum Afifah Ardiansyah",_
+                "nama": "Farhanum Afifah Ardiansyah",
                 "nim": "122450056",
                 "umur": "21",
                 "asal":"Padang, Sumatera Barat",
@@ -183,6 +183,7 @@ if menu == "Baleg":
     def Baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1gHyFbqG5ON4e1efIE9euHLJYaaBbHxkX",
+            "https://drive.google.com/uc?export=view&id=1WoF9YcOm5LuMF1nxZ7fTUyCi5zJBEePj",
             "https://drive.google.com/uc?export=view&id=1C3P88A0_c6lQ2tF8PCTXTNGg91Vq7E_h",
             "https://drive.google.com/uc?export=view&id=1mEECA7RFeQMWNGXFXceN-fnoiuSnP-fd",
             "https://drive.google.com/uc?export=view&id=153wfyaRPFJPfPKwW8ulHZ6mUPg0CMZ4O",
@@ -195,7 +196,6 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1k87H0K6ejPRgZsq62D6UQ-ZvOzyPRrNR",
             "https://drive.google.com/uc?export=view&id=1kj4AfkV3KvPqhqwuw-zpXjlT9wWRbBU3",
             "https://drive.google.com/uc?export=view&id=1SR8jx_vkm6IoUPtzR1aHNL1EIpNUusf2",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
