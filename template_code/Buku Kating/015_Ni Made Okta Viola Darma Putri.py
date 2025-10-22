@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=1n-wPnZAjcP8N95xgOKPGpbSlXiRODWqe",
+            "https://drive.google.com/uc?export=view&id=1kvWsqgUI7IvgI1l2AWHMQaVzVfb3OCm6",
+            "https://drive.google.com/uc?export=view&id=198GoNDQ6T3ZXCBj_8yKXB6W4GC01T96z",
+            "https://drive.google.com/uc?export=view&id=1JtlMB5KYSszqZGNabDz2XwFo0LNlMbJt",
+            "https://drive.google.com/uc?export=view&id=1qgDfU0IHa_7cP446oA_en_Bw5LJcx8Zl",
+            "https://drive.google.com/uc?export=view&id=1-UyXG8c6VvhlVP_GrhQGLqjiMjg55gSM",
         ]
         data_list = [
             {
@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Makan Pisang",
                 "sosmed": "@_erendraa",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Baik, Public Speakingnya bagus, Keren",  
+                "pesan": "Semangat TA nya bang semoga lulus tepat waktu "# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jalan Lapas",
                 "hobbi": "Baca buku sequel ",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Keren, Baik, Tegas ",  
+                "pesan": " Semangat bang joo TA nya, semoga lulus tepat waktu dan jangan lupa untuk selalu jaga kesehatan"# 1
             },
                 {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Ayres Kost",
                 "hobbi": "Gangguin Orang",
                 "sosmed": "@celisabethh_",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kak elisabeth orangnya Seru, asik,keren,cantik, humble",  
+                "pesan": "Kakak semangat ya kuliahnya, semoga selalu diberi kelancaran,kemudahan dan keberuntungan dalam segala hal, kakak keren!"# 1
             },
                 {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Tidur",
                 "sosmed": "@puspadrr",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "kakaknya cantik mirip sheila dara, manis, baik, ramah, positive vibes ",  
+                "pesan": "Semangat kakak cantik kuliahnya, sehat selalu ya kaa "# 1
             },
             {
                 "nama": "Eksanty Febriana Sukma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Natar (Raden Intan)",
                 "hobbi": "Nemenin orang dari nol sampai jatuh ke jurang kemiskinan",
                 "sosmed": "@eksantyfebriana",
-                "kesan": " ",  
-                "pesan":" "# 1
+                "kesan": "Tegas, first impression nya kakak keliatan galak hehe, cantik",  
+                "pesan":"Semangat kakak lancar lancar kuliahnya"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifah",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Cantik,ramah, baik",  
+                "pesan": "Semangat kakak kuliahnya, good luck! "# 1
             },
             
         ]
@@ -1879,3 +1879,4 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
