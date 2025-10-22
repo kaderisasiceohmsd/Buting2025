@@ -146,8 +146,8 @@ Dalam sains data, khususnya pada analisis kelompok (clustering) atau pengelompok
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1s2CshvEIz3_fV3QK_TOgpMsJQkcb3rDi"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">COSVAL adalah kelompok 2 dari kaderisasi CEO HMSD ADYATAMA 
-            dengan Mentor yang sangat luar biasa yaitu ka gusti putu ferazka d.</div>""",
+            """<div style="text-align: justify;">COSVAL adalah kelompok 9 dari kaderisasi CEO HMSD ADYATAMA 
+            dengan Mentor yang sangat luar biasa yaitu kak gusti putu ferazka d.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
