@@ -456,11 +456,11 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Nisrina Nur Afifah",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "122450052",
+                "umur": "20",
+                "asal":"Jawa Barat",
+                "alamat": "Korpsu",
+                "hobbi": "jalan-jalan",
                 "sosmed": "@afifahhnsrn",
                 "kesan": "",  
                 "pesan":""# 1
@@ -478,11 +478,11 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Ahmad Rizky",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450050",
+                "umur": "20",
+                "asal":"Tangerang Selatan",
+                "alamat": "Kontrakan GH",
+                "hobbi": "Main bola",
                 "sosmed": "@ahmad.rizky___",
                 "kesan": "",  
                 "pesan":""# 1
@@ -500,10 +500,10 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Daffa Hadyan Navista",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
+                "nim": "123450025",
+                "umur": "21",
+                "asal":"Sumatera Barat",
+                "alamat": "Sebelah kost kak arienta",
                 "hobbi": "",
                 "sosmed": "@daffahdynn_",
                 "kesan": "",  
@@ -511,11 +511,11 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Ginda Fajar Riadi Marpaung",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450103",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Kontrakan GH",
+                "hobbi": "Main game",
                 "sosmed": "@ginda_mrp",
                 "kesan": "",  
                 "pesan":""# 1
@@ -533,11 +533,11 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Nobel Nizam Fathirizki",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450117",
+                "umur": "20",
+                "asal":"Pekanbaru",
+                "alamat": "Wisma Emas Setengah",
+                "hobbi": "ngekader",
                 "sosmed": "@nobelnizam",
                 "kesan": "",  
                 "pesan":""# 1
@@ -1858,4 +1858,5 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
