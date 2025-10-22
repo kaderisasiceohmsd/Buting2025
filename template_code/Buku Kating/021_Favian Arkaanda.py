@@ -332,7 +332,7 @@ if menu == "Baleg":
             },
             {
                 "nama": "Monica Patricia Tanjung",
-                "nim": "-",
+                "nim": "124450073",
                 "umur": "19",
                 "asal": "Sumatera Utara",
                 "alamat": "Belwis",
@@ -1046,8 +1046,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Asrama",
                 "hobbi": "Bank BSI",
                 "sosmed": "@arafiramadhanmaulana",
-                "kesan": "keren banget banggg bisa jadi",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "vibes abang satu ni keren banget aseli, vibes vibes cowo cool abiesss, orangnya lumayan ramah dan humble juga",
+                "pesan": "semangat terus bangg, semoga cita citanya bisa tercapai yaa bangg!!!"
             },
             {
                 "nama": "Yohana Manik",
@@ -1057,8 +1057,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Jl. Hidup",
                 "hobbi": "Belajar",
                 "sosmed": "@yo_anamnk",
-                "kesan": "keren banget banggg bisa jadi",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "kak yohana orangnya asik banget, baik, ramah, dan lucu. Seneng bisa kenal sama kakak satu ini :)",
+                "pesan": "semangat terus kuliahnya kakakk!!!"
             },
             {
                 "nama": "Ratu Keisha Jasmine Deanova",
@@ -1101,8 +1101,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Sukarame",
                 "hobbi": "Main main",
                 "sosmed": "@khoirul_muttoharoh",
-                "kesan": "Seneng banget bisa jadi adek nim kak mutt, udah mah baikk, orangnya juga perhatian dan asikk banget. Ga expect bisa se nim sama kakak satu ini :)",
-                "pesan": "semangat terus yaa kakk, tetap jadi orang baikk, sehat sehat orang baikkk!!!"
+                "kesan": "Seneng banget bisa jadi adek nim kak mutt, udah mah baikk, orangnya juga perhatian dan asikk banget. padahal awalnya aku kira kak mut ni tipikal kating yang agak judes gituuu, tapi taunya baik bangettt, ramah pulaa sering senyum WKWKWKKW. sebenernya pengen nyapa tiap rangkaian, tapi sayangnya gabisa kakkk. makasih ya kakk udh jadi kakak nim yang baikk wekekeke",
+                "pesan": "semangat terus yaa kakk, tetap jadi orang baik yang baik dan ramahhh, sehat sehat orang baikkk!!!"
             },
            {
                 "nama": "Lutfia Aisyah Putri",
@@ -1211,8 +1211,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Sukarame",
                 "hobbi": "Main Badminton",
                 "sosmed": "@alfartziivan",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "bang irvan ni orangnya humble parahh, tiap di sapa juga senyum. punya vibes pemimpin gitu asli, tipikal orang yang lumayan kritis ",
+                "pesan": "semangat terus kuliahnya banggg irvan, semoga semua urusannya diberikan kelancaran yaa bangg!!!"
             },
             {
                 "nama": "Aditya Taufiqurrohman",
@@ -1222,8 +1222,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Belwis",
                 "hobbi": "Open the new map",
                 "sosmed": "@ty_tq90",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "bang aditt, orangnya lucu parah, asik, kocak juga, selalu ketawa kalo liat kelakukan bang adit. Tapi di sisi lain bang adit baik bangett, open minded jugaa. orangnya lumayan oversharing, tapi gapapa justru itu letak asiknya ",
+                "pesan": "tetep jadi orang yang oversharing ya banggg!! sering sering cerita!!, aku orang yang paling excited kalo denger cerita bang adit WKWKWKWKWKWKW"
             },
             {
                 "nama": "Fathya Intami Gusda",
@@ -1233,8 +1233,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Sukarame",
                 "hobbi": "Minta tolong Adit",
                 "sosmed": "@fatthyaa_",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "kak fathyaa ni orangnya baikk, murah senyum juga, kalo kata bang adit panggilannya 'kakak cantik' wekkeke. sering banget bareng bang adit kalo kemana mana, ketemu di gedung f bareng bang adit, ketemu di bkl juga pasti sama bang adit ",
+                "pesan": "semangat terus kuliahnya kakak fathya, eh 'kakak cantik' kata bang adit"
             },
             {
                 "nama": "Khazanati Ilmi",
@@ -1244,8 +1244,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Korpri Raya",
                 "hobbi": "Nonton",
                 "sosmed": "@khazatil_ilmi05",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "kak ilmi ni keknya orangnya penakut gitu yaa katanya, sering denger dari bang adit sama kakak pengmas. tapi kak ilmi ni orangnya baik banget aslii, sering senyum juga, kak ilmi ni salah satu orang yang kalo aku sapa pasti feedback nya excited wekeke, makasi ya kak ",
+                "pesan": "sehat selalu yaaa kak ilmi, semoga kedepannya bisa lebih beraniii heheh, becanda kakk, peacee!!!"
             },
             {
                 "nama": "Melinza Nabila",
@@ -1255,8 +1255,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Kedamaian",
                 "hobbi": "Menonton film",
                 "sosmed": "@melynznb",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "kak melinnn orangnya baikk bangettt, senyumnya yg ramah gitu jugaa, sejauh ini kalo kumpul pengmas sih keliatannya kalemmm, beda sama abang kakak pengmas yang lain",
+                "pesan": "semangat terus yaa kak melin, sehat selalu!!!!!"
             },
             {
                 "nama": "Nayla Shafira Roza",
@@ -1277,9 +1277,9 @@ if menu == "Departemen Eksternal":
                 "alamat": "Gang Nalim",
                 "hobbi": "Baking",
                 "sosmed": "@izzah_tq",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"
-            },
+                "kesan": "kak izzah nii keliatannya yang kayak kalem banget gituu ya orangnyaa, luamyan ramah juga siii tiap di sapa, yang aku suka dari kak izzah ni dia tu bisa banget diajakin diskusi, contohnya tiap kali meet pengmas, ya kak izzah ini yang enak diajak diskusi",
+                "pesan": "sehat selalu kak izahhh, semangat terus yaaa kuliahnyaaa kak izzahhh!!!"
+            }, 
             {
                 "nama": "Qois Olifio",
                 "nim": "123450067",
@@ -1288,8 +1288,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Gang Sakum",
                 "hobbi": "Ngabisin Bensin",
                 "sosmed": "@qoisolifio_",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "auranya cowo cool abiezzz bang qois, rill ini mah, orangnya baik parah keliatan dari gerak geriknya. abang satu ni keknya yang paling jago kalo kita lagi ngumpul main undercover, tapi bang qois ni kalo lagi ngumpul pengmas gitu suka kayak jaga image gasii, apa perasaan aku aja yh",
+                "pesan": "semangat terus banggg dalam menjalani hidupp, bisa lebih lepas lagii berekspresii kalo lagi kumpul pengmas, sehat selalu yaa banggg!!!"
             },
             {
                 "nama": "Tarisya Hidayatul Rahmi",
@@ -1299,8 +1299,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Korpri",
                 "hobbi": "Jelajah desa Lamsel",
                 "sosmed": "@tari_sya",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "kakak pengmassss, eh kak tari maksudnya hehe, orangnya baik bgtttt pliss ramah jugaa, sering ketemu di gedung f di labtek 4 juga. kalo di ajak ngobrol asikk bangett, suka ngumpul juga sama kelompok tensor. orang yang paling excited kalo diajakin main undercover, ya walaupun kalah terus sihh tiap maen wkwkkw ",
+                "pesan": "semangat terus yaa kakak tariii, belajar lagi ya kakk main undercovernyaa hehehehe"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
