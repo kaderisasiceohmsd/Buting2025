@@ -1650,7 +1650,7 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1bbyCphiekh-B9O-JzSskBp5pZOzyx-MT",
             "https://drive.google.com/uc?export=view&id=1nzBENsML-OqDeA5fw2-OVnt-2v83WJaa",
             "https://drive.google.com/uc?export=view&id=1VsvPTE5809Sqp9buaxXKEDAuxLN4IUtE",
-             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=19dJPfazjGsNob8BNOeuF3nocjN7qqRvF",
             "https://drive.google.com/uc?export=view&id=1E2eHn1T97NY0Neb4CblFBPHSbfgXDOag",
             "https://drive.google.com/uc?export=view&id=19Odu2_M8mHow3cQV52ea6JJI71rPzn55",
             "https://drive.google.com/uc?export=view&id=1HGHZ_cv-KEjr87Z_Hqlz3BqmoWJA_1Oe",
@@ -1658,8 +1658,7 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1YFj_SuzCmDLMx9A7Q8AR8S_Xy4TUpir-",
             "https://drive.google.com/uc?export=view&id=1yK_vFWv5ViCGl6KPwpjjCU2VjdPu9ff7",
             "https://drive.google.com/uc?export=view&id=19M4rDly1jH1l9oKv_wkF6ZIq53KevOdp",
-            "https://drive.google.com/uc?export=view&id=1_xRbojpM6a4Jc9Mu9WyrGUZSJ2R9zMop",
-            "https://drive.google.com/uc?export=view&id=1rX165GgXAyJdEOKisObNKt0cCwrY6p3C",
+            
         ]
         data_list = [
             {
