@@ -771,16 +771,4 @@ elif menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
         ]
-<<<<<<< HEAD
-# Tambahkan menu lainnya sesuai kebutuhan
-=======
-        display_images_with_data(gambar_urls, data_list)
-    DepartemenEksternal()
 
-
-
-
-
-
-
->>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
