@@ -1006,8 +1006,6 @@ elif menu == "Departemen MIKFES":
         display_images_with_data(gambar_urls, data_list)
     DepartemenMIKFES()
 
-<<<<<<< HEAD
-=======
 elif menu == "Departemen Eksternal":
     def DepartemenEksternal():
         gambar_urls = [
@@ -1861,6 +1859,3 @@ elif menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
 
-
-
->>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
