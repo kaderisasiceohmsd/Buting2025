@@ -1520,7 +1520,7 @@ if menu == "Departemen SSD":
                 "asal": " ",
                 "alamat": " ",
                 "hobbi": " ",
-                "sosmed": "dananghk_",
+                "sosmed": "@dananghk_",
                 "kesan": "serruu bangg",
                 "pesan": "Semangat terus bangg!"
             },
@@ -1531,7 +1531,7 @@ if menu == "Departemen SSD":
                 "asal": "  ",
                 "alamat": " ",
                 "hobbi": " ",
-                "sosmed": "syalaishaa_31",
+                "sosmed": "@syalaishaa_31",
                 "kesan": "asiikk bangeett.",
                 "pesan": "semangaatt kuliahnya!"
             },
@@ -1542,7 +1542,7 @@ if menu == "Departemen SSD":
                 "asal": " ",
                 "alamat": " ",
                 "hobbi": " ",
-                "sosmed": "den_iki__",
+                "sosmed": "@den_iki__",
                 "kesan": "ramah dan baik bangeett",
                 "pesan": "Sehat selalu ya bangg"
             },
@@ -1553,7 +1553,7 @@ if menu == "Departemen SSD":
                 "asal": "  ",
                 "alamat": "  ",
                 "hobbi": " ",
-                "sosmed": "anadiacrn_",
+                "sosmed": "@anadiacrn_",
                 "kesan": "Kakaknya keren bangeett",
                 "pesan": "Semangat terus kuliahnya kak!"
             },
@@ -1564,7 +1564,7 @@ if menu == "Departemen SSD":
                 "asal": " ",
                 "alamat": " ",
                 "hobbi": " ",
-                "sosmed": "aprhtp_",
+                "sosmed": "@aprhtp_",
                 "kesan": "baiikk banget kak",
                 "pesan": "Semoga semua urusannya dilancarkan kak."
             },
@@ -1575,7 +1575,7 @@ if menu == "Departemen SSD":
                 "asal": "  ",
                 "alamat": " ",
                 "hobbi": " ",
-                "sosmed": "nabila_zazahra",
+                "sosmed": "@nabila_zazahra",
                 "kesan": "seruuuuu",
                 "pesan": "Semangaatt kuliahnyaa kakak!"
             },
@@ -1586,7 +1586,7 @@ if menu == "Departemen SSD":
                 "asal": " ",
                 "alamat": " ",
                 "hobbi": " ",
-                "sosmed": "dhafinrzqa13",
+                "sosmed": "@dhafinrzqa13",
                 "kesan": "lucuu bangg heehe",
                 "pesan": "semangaatt kuliahnya bangg"
             },
@@ -1597,18 +1597,18 @@ if menu == "Departemen SSD":
                 "asal": " ",
                 "alamat": " ",
                 "hobbi": " ",
-                "sosmed": "deviirhyu",
+                "sosmed": "@deviirhyu",
                 "kesan": "Kakaknya baik dan murah senyum.",
                 "pesan": "Semangat terus ya kak!"
             },
             {
-                "nama": "Engeli Rahmadhani",
+                "nama": "Enggli Rahmadhani",
                 "nim": "123450043",
                 "umur": " ",
                 "asal": " ",
                 "alamat": " ",
                 "hobbi": " ",
-                "sosmed": "englirahmdhnii",
+                "sosmed": "@englirahmdhnii",
                 "kesan": "Seru banget kak",
                 "pesan": "Semoga sukses selalu kak!"
             },
@@ -1619,7 +1619,7 @@ if menu == "Departemen SSD":
                 "asal": " ",
                 "alamat": " ",
                 "hobbi": " ",
-                "sosmed": "_inayasani",
+                "sosmed": "@_inayasani",
                 "kesan": "Kakaknya sangat ramah bangeett",
                 "pesan": "Jaga kesehatan yaa kak!"
             },
@@ -1631,7 +1631,7 @@ if menu == "Departemen SSD":
                 "alamat": " ",
                 "hobbi": " ",
                 "sosmed": "nydiaaptr_",
-                "kesan": "seruu kak",
+                "kesan": "@seruu kak",
                 "pesan": "Semangat kuliahnya kak"
             }
         ]
