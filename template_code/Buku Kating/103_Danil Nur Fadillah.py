@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1KkinDhnIjxwUp2ebfu9pv3XiCbQMnt2o",
-            "https://drive.google.com/uc?export=view&id=1ALz0Yspu8vjXwKoou0gvyKH_lP1lKpNq",
-            "https://drive.google.com/uc?export=view&id=1VLAL_jTcmK_2qfi0XxlKaFfwLIindT2d",
-            "https://drive.google.com/uc?export=view&id=1XHHFutE3-tMHny3rNWlqyb2JIJz7YORZ",
-            "https://drive.google.com/uc?export=view&id=1Sj4wxUhXDHqORxJN45MuBQYOrdGKP61t",
-            "https://drive.google.com/uc?export=view&id=1YxE7nwOYMnKBX3NQBZXrJciI7OrKT6po",
+            "https://drive.google.com/uc?export=view&id=1IAy3qnGCj2bOPXRbCX-SUUdpN3Wj8jyj",
+            "https://drive.google.com/uc?export=view&id=1XlRdrJIoMI5kL0BJXfzxyoniNcbGPKSl",
+            "https://drive.google.com/uc?export=view&id=1xTPh3GTwp1YXqtgsrucfy6ZFqXbfKuvd",
+            "https://drive.google.com/uc?export=view&id=1CREv7aqYcSTrejWmXB43bDO82cD1_q13",
+            "https://drive.google.com/uc?export=view&id=13PFKfUyBhzCnD_egEhWv6Laa-119bFIg",
+            "https://drive.google.com/uc?export=view&id=1wALyTfYjDgMJePLkz5No55Ss6zEB45jj",
         ]
         data_list = [
             {
@@ -115,7 +115,7 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Abang nya keren dan berwibawa",  
+                "kesan": "Abang nya humble dan bisa diajak santai",  
                 "pesan":"Semangat terus menjadi Kahim"
             },
             {
@@ -182,20 +182,20 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1AkuZrmz98vbtCjzw7u7wWhb38evfTL72",
-            "https://drive.google.com/uc?export=view&id=1PU9TtzgJj1oyDgZ-lMrxepTtfltS5yaF",
-            "https://drive.google.com/uc?export=view&id=17ck2rvjn1GuAxAUKl-pDWbIDB0Eo5WZc",
-            "https://drive.google.com/uc?export=view&id=1Lr4-WNYxhfX0UkfMcWD4gah40TrFIXPX",
-            "https://drive.google.com/uc?export=view&id=1zDSBtX4IWAIN7MSsEM8L35VYQ2UtWPJw",
-            "https://drive.google.com/uc?export=view&id=1SYE2qi8qF1YmlFSb5M8vkuNj7QpxDoyj",
-            "https://drive.google.com/uc?export=view&id=1SJK-CSVciB5ISFhhDV24KaMR_S_QHt19",
-            "https://drive.google.com/uc?export=view&id=1AnjcoRGuOrvfWWJF99JJdnzvlaz5Za2i",
-            "https://drive.google.com/uc?export=view&id=1sb7QKlNWpiTk--hdaPODAglHk3izMIV1",
-            "https://drive.google.com/uc?export=view&id=1eJOYvDjGTIqk3OOnkQEPiJE4b2K5KzcI",
-            "https://drive.google.com/uc?export=view&id=1FxTkM8Cmtgc4d5t636xAR-3ievKnFZlS",
-            "https://drive.google.com/uc?export=view&id=1SuchXURUGih4qwquoB3sK-NR190qzXpr",
-            "https://drive.google.com/uc?export=view&id=1bRzWIxfrikiKV9FNfZysQsn36wf-4WF5",
-            "https://drive.google.com/uc?export=view&id=13RNDbZFrbw-cVnnDC6v_rD0R1G7svSf1",
+            "https://drive.google.com/uc?export=view&id=18wCLJPrIjGhhwiBLH5k-dLuA84o5-SQM",
+            "https://drive.google.com/uc?export=view&id=1MEVA4xrcg9f6HOSjY-nehMXGkwzD-YJ2",
+            "https://drive.google.com/uc?export=view&id=1hspoYcTT-eU6V4lIUTI7vIneT0feM3Ie",
+            "https://drive.google.com/uc?export=view&id=1vTzvvyGxyQay4UoWYW1cnJW3fhqf8q9m",
+            "https://drive.google.com/uc?export=view&id=1tRltCijdXIJ68yqIOG3crHYUPjiF5GfB",
+            "https://drive.google.com/uc?export=view&id=1XYnsVFvMsyOjFAYMpBb4W4I02u2ZSTT2",
+            "https://drive.google.com/uc?export=view&id=1ODgNutoZJM2RT75s3xYDg6T-nITFhxRE",
+            "https://drive.google.com/uc?export=view&id=1GDsJh43L2BYQXRKcFHEJwkvrteK6GKes",
+            "https://drive.google.com/uc?export=view&id=1BH_3GU7DlhX1HP4iyLEz1Wo0VPW-b9o7",
+            "https://drive.google.com/uc?export=view&id=1k9cAY6TSauKQrIBQjKZStAABez2YdpPM",
+            "https://drive.google.com/uc?export=view&id=1qVY6DfKJnjKYrH3lXr29mtrsuDhGY3Ov",
+            "https://drive.google.com/uc?export=view&id=1ph5BO_9tVHZUpU8008TqSMpDfW4cMckI",
+            "https://drive.google.com/uc?export=view&id=1G-HVY88zLekbsSWsFMhtNiw7DeaXXzWq",
+            "https://drive.google.com/uc?export=view&id=1bqdugfEtGqAxvA6avuAJSFqhsgq0dEUN",
         ]
         data_list = [
             {
@@ -299,7 +299,7 @@ if menu == "Baleg":
             },
             {
                 "nama": "Berliana Enda Putri",
-                "nim": "124450065",
+                "nim": "122450065",
                 "umur": "21",
                 "asal":"Bekasi",
                 "alamat": "Belwis",
