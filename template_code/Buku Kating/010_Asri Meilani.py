@@ -392,8 +392,8 @@ if menu == "Senator":
                 "alamat": "Raden Saleh",
                 "hobbi": "Denger lagu, rapat",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Abang kece kura-kura",  
-                "pesan":"semangat terus bangg menggapai mimpinya!"# 1
+                "kesan": "SERUUU BANGET PLS BENER BENER KETAWA TERUSSS, kirain karenaa senat akan sangat serius ternyata seru paraah bang",  
+                "pesan":"semangat terus bang senat! plis terus ngejokes yaa bang"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -403,7 +403,7 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Denger lagu, maen roblox",
                 "sosmed": "@nadyaanjanani",
-                "kesan": "Kakak ini asik, baik",  
+                "kesan": "kakaknyaa cantik bangettt plisss mulus banget salfok",  
                 "pesan":"semangat terus kuliahnya, dan langgeng terus ya kak ;)"# 1
             },
             {
@@ -472,7 +472,7 @@ if menu == "Departemen PSDA":
                 "umur": "-",
                 "asal":"-",
                 "alamat": "-",
-                "hobbi": "-",
+                "hobbi": "haiii",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "Abang cool abiez",  
                 "pesan":"semakin cool bang dan semangat terus bang jadi kadep!"# 1
