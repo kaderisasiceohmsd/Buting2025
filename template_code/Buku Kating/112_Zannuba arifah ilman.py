@@ -764,10 +764,10 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Randa Adriana Putra",
                 "nim": "122450083",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "22",
+                "asal":"Serang, Banten",
+                "alamat": "Sukarame",
+                "hobbi": "Tidur dan Berkembang ",
                 "sosmed": "@randaadriana_",
                 "kesan": "Kakaknya asik dan seru untuk diajak diskusi.",
                 "pesan":"Semangat terus untuk kuliahnya ya, Kak!"
@@ -775,10 +775,10 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Rut Junita Sari Siburian",
                 "nim": "122450103",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "21",
+                "asal":"Kep. Riau",
+                "alamat": "Gg. Nangka 3",
+                "hobbi": "Membaca",
                 "sosmed": "@Junitaa.0406",
                 "kesan": "baik bangeett kak",
                 "pesan":"Semangaatt kuliahnya kak!"
@@ -786,10 +786,10 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Muhammad Regi Abdi Putra Amanta",
                 "nim": "122450031",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "19",
+                "asal":"Palembang",
+                "alamat": "Jl. Permadani, Sukarame",
+                "hobbi": "Dengerin Musik",
                 "sosmed": "@mregiiii_",
                 "kesan": "kereenn bangg",
                 "pesan":"semangaatt kuliahnya bangg"
@@ -797,10 +797,10 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Aisyah Musfirah",
                 "nim": "123450084",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "21",
+                "asal":"Bengkulu",
+                "alamat": "Jl. Lapas",
+                "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
                 "kesan": "Kakaknya asik dan seru bangeett",
                 "pesan":"Semangat terus kuliahnya ya, Kak!"
