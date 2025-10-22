@@ -75,5 +75,47 @@ if st.session_state.pindah:
     )
 else:
     st.write("Maaf Anda kurang beruntung :(") 
+
+st.markdown("""
+<style>
+[data-testid="stSidebar"] {
+    position: relative;
+    background: #CEC7FD;
+    color: #000000;
+    overflow: hidden;
+}
+
+[data-testid="stSidebar"]::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #A374CC, #CEC7FD, #A374CC);
+    background-size: 200% 200%;
+    opacity: 0.9;
+    animation: gradientShift 8s ease-in-out infinite;
+    z-index: -1;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+[data-testid="stSidebar"] a {
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+[data-testid="stSidebar"] a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 6px rgba(255,255,255,0.8);
+}
+</style>
+""", unsafe_allow_html=True)
+
 pg.run()
 
