@@ -210,7 +210,7 @@ elif menu == "About Us":
                 "sebagai": "Anggotaa",
                 "nim": "12450033",
                 "fun_fact": "",
-                "motto_hidup": "",
+                "motto_hidup": " ",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
