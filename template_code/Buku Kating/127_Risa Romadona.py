@@ -737,28 +737,28 @@ if menu == "Departemen PSDA":
 if menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=13eL36G5jco-I-H5dMPjKdB98WYpCCz4D",
-            "https://drive.google.com/uc?export=view&id=11StX3BJrUD3mQCd1LtKD1aUKLfOJ34Ml",
-            "https://drive.google.com/uc?export=view&id=10JSjYnVfJ0G46TINOuhS1vrB4t3rvwnC",
-            "https://drive.google.com/uc?export=view&id=12DyDQ7NA5YWdPG2T_E4aaFthS9ZO7g3D",
-            "https://drive.google.com/uc?export=view&id=1VA8Gzlh6xn1C__j3enzQixkPNdJlhxAC",
-            "https://drive.google.com/uc?export=view&id=1YRvP2T-b9jI4c0HyW8WM5t_gax0myi5i",
-            "https://drive.google.com/uc?export=view&id=1QHfcGiGKtbDI7mz4jUrUWlq95pwYDzUR",
-            "https://drive.google.com/uc?export=view&id=14LzEl31MTWeANg0vi9E755RiTramQ0Lh",
-            "https://drive.google.com/uc?export=view&id=1WIKTTX91CGrEAwJek-p1U1difRNUzOwR",
-            "https://drive.google.com/uc?export=view&id=1YeRpQYNWktJn4vE03FuEGy3pdZfNJQSP",
-            "https://drive.google.com/uc?export=view&id=1fg6vJu3MVJMu6hYyRmrN1d3cRAJuX6kQ",
-            "https://drive.google.com/uc?export=view&id=1qDVga0uuYAJiqhk7wPzQ0njz58ht3slX",
-            "https://drive.google.com/uc?export=view&id=1cPMbWXN4M2VD5P6LwV6V54O22Ulk2eEG",
-            "https://drive.google.com/uc?export=view&id=1xLp05TPCbQRAmdWmFuvJvwN_4I9FECE1",
-            "https://drive.google.com/uc?export=view&id=1GqV5JB1mwRPyy-lh3Y4xUu4E8CsLiUn8",
-            "https://drive.google.com/uc?export=view&id=1cQOIFD48IP52gTA-drLgbR56vxm993eV",
-            "https://drive.google.com/uc?export=view&id=1DWckI75tB4-KbD0w1OIF_UmRwaxDYOfz",
-            "https://drive.google.com/uc?export=view&id=1zbhHKnYTFR1XN3MOPm7_k7XP6UvVeikT",
-            "https://drive.google.com/uc?export=view&id=1XD8eBHYyQmKhjfD_zMzRslLXCADyrbRr",
-            "https://drive.google.com/uc?export=view&id=1SS0JvTRq3J0mwn-d6HYxsJmuwmnO9DmK",
-            "https://drive.google.com/uc?export=view&id=1ALiStFW-lBRDLXJhL3LOEMB6xD0MWbfD",
-            "https://drive.google.com/uc?export=view&id=1rbs-i-uTKBzQkLWB3zlySVSfJeygp_ZA",
+            "https://drive.google.com/uc?export=view&id=1hp7W6P-mhRCyPjf_4PP-a8YVewi7Pw0p", #1
+            "https://drive.google.com/uc?export=view&id=1PCAS6ZC2erjro7D5FI9uHQRi3alkfjsn", #2
+            "https://drive.google.com/uc?export=view&id=1SpaVzyYrswVVoqwn396qK6QuxY8jROUj", #3
+            "https://drive.google.com/uc?export=view&id=1Kmo2USU_JM7B5vRVuvy5OOgaqhYNCc6m", #4
+            "https://drive.google.com/uc?export=view&id=1wkzty2WrBD5rsbRryNX1-yTS3qLSh6Hv", #5
+            "https://drive.google.com/uc?export=view&id=1gSgBy5H5wojgCvVGeEe6cYT1exjKTZom", #6
+            "https://drive.google.com/uc?export=view&id=11jEmTRXgGVXOg8GFwZEMxuN5uTk3djKy", #7
+            "https://drive.google.com/uc?export=view&id=1JnNlcXYulcTYSf9FtqLENOVJeui-XSXf", #8
+            "https://drive.google.com/uc?export=view&id=1Gv9FnlASAS8fWhEcLpYBrrhKWt_Akc2D", #9
+            "https://drive.google.com/uc?export=view&id=1hAeHzWn5sWXAcOneDYL7l1W7aux1thAx", #10
+            "https://drive.google.com/uc?export=view&id=1_3BlcxzogtAyb2C2fZGPrU6Vm6omOcbK", #11
+            "https://drive.google.com/uc?export=view&id=1bQ0YZvoslBD5PsX_pN6sWsJVjCZWeQai", #12
+            "https://drive.google.com/uc?export=view&id=1VO0S1F8xB-SoMrpSzKB8jkB5bntQtOgx", #13
+            "https://drive.google.com/uc?export=view&id=1eZrWc2Ah3KW4Kk0ngAFJHIA1-Y2tEXgI", #14
+            "https://drive.google.com/uc?export=view&id=1ZheELsGEtdsaM1vVAzTwQTB35byhWVlP", #15
+            "https://drive.google.com/uc?export=view&id=1SuqHiZYUpGO9O3CuYihmISiHBzZA2IGd", #16
+            "https://drive.google.com/uc?export=view&id=1NTrzD-uaueJ-6asMfwBkud3--YFHWqB8", #17
+            "https://drive.google.com/uc?export=view&id=18gHS-lz5fE3iS8p89PEbQZrDW8tpiEXi", #18
+            "https://drive.google.com/uc?export=view&id=1J4GiwejcAkuLPu-xfMPGqyUTYmhYGzch", #19
+            "https://drive.google.com/uc?export=view&id=1uz8jaOxO58OWEl0XCqlPxx_QFVbj8jfY", #20
+            "https://drive.google.com/uc?export=view&id=1ITuryLATXhA4Qp9-lWC_Fgam84in4LWZ", #21
+            "https://drive.google.com/uc?export=view&id=1AJgbe47SayUbuU7g-AIvDp6IAtCcYiz7", #22
         ]
         data_list = [
             {
@@ -828,7 +828,7 @@ if menu == "Departemen MIKFES":
                 "pesan":"Semangat terus untuk kuliahnya ya, Kak!"
             },
             {
-                "nama": "Efi Defiyah",
+                "nama": "Efi Defiyati",
                 "nim": "123450005",
                 "umur": "20",
                 "asal":"Lampung Timur",
