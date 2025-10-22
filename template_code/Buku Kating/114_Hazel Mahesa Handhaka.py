@@ -359,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1mj2OyA1z6VMi-zIy11AI2zPb7tpSUFXd",
+            "https://drive.google.com/uc?export=view&id=1T2SKK4q4nG0AnAV-KLVU9u0Fvw7-V3wS",
+            "https://drive.google.com/uc?export=view&id=1XcMbsQk_6cOIYT5vtCE2azZu6CZLmE0N",
+            "https://drive.google.com/uc?export=view&id=1RtJ-li4_5g1a5fXpfTvinUmA8lngSV5S",
         ]
         data_list = [
             {
@@ -373,8 +373,8 @@ if menu == "Senator":
                 "alamat": "tanya caesar",
                 "hobbi": "Padel",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abang paling gacor, asik dan berpengalaman",  
+                "pesan":"Bissmillah tutor dong bang ehehe"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -384,8 +384,8 @@ if menu == "Senator":
                 "alamat": "Belakang Indomaret belwis",
                 "hobbi": "Maen Roblox",
                 "sosmed": "@nadyaanjani",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakaknya sedikit kalem dan perhatian",  
+                "pesan":"semangat akademik dan non akademiknya kak"# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -395,8 +395,8 @@ if menu == "Senator":
                 "alamat": "Asrama TB1",
                 "hobbi": "like instagram",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak Azizah sopan, berwibawa, sholehah, dan pintar",  
+                "pesan":"semangat dan makin bersinar kak"# 1
             },
             {
                 "nama": "Lia Hana Ichisasmita ",
@@ -406,8 +406,8 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Dengerin Lagu",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak Lia ceria dan selalu bawa energi positif ke sekitar.",  
+                "pesan":"Teruslah jadi pribadi yang menyenangkan dan inspiratif kak"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
