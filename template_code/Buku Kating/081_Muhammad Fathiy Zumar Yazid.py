@@ -1026,9 +1026,9 @@ elif menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1Ko1rHCjz01ZiAufcchR6oSjLnU9HTyZd",
             "https://drive.google.com/uc?export=view&id=1pE153fc58gBzQPnCOFMMoii3FtAdylaD",
             "https://drive.google.com/uc?export=view&id=1wPROd8u_b-SP7aZEqIeu9-hCiT-DpQvu",
-            "https://drive.google.com/uc?export=view&id=1CVJGWvMLYYp_nmCIDiS04xhyWfncyg1Y",
-            "https://drive.google.com/uc?export=view&id=1WekldABpGCTopJgvlWKMliCS5e7zQPs3",
             "https://drive.google.com/uc?export=view&id=1Mz17kk0_7ODQxh6neHLm2Nlz5oshYxQ4",
+            "https://drive.google.com/uc?export=view&id=1WekldABpGCTopJgvlWKMliCS5e7zQPs3",
+            "https://drive.google.com/uc?export=view&id=1CVJGWvMLYYp_nmCIDiS04xhyWfncyg1Y",
             "https://drive.google.com/uc?export=view&id=1uCW6YfM9IKQB5c1yvcrChTgdqPjP6r0Z",
             "https://drive.google.com/uc?export=view&id=14yEGMh4sb6hFOpSZDUx-a8XtfOfNO-_p",
             "https://drive.google.com/uc?export=view&id=1KiJlCMbef3T6O1wSBm2qIZ9_jDMMo_8s",
@@ -1491,3 +1491,144 @@ elif menu == "Departemen Internal":
         ]
         display_images_with_data(gambar_urls, data_list)
     INTERNAL()
+# Tambahkan menu lainnya sesuai kebutuhan
+elif menu == "Departemen SSD":
+    def ssd():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1M8m7cZeBTtWOekmDr9gQm7kRjRBAnFNE",
+            "https://drive.google.com/uc?export=view&id=1M8zOl5dJqa1VRF89FYvlpXsc8IvKXj8w",
+            "https://drive.google.com/uc?export=view&id=1MZPM6k9aLhmdP8kZ84gmfWzYUxdlP56d",
+            "https://drive.google.com/uc?export=view&id=1MJwVB_U8OHxGINWZqKWGvwc0wZ2RAAFj",
+            "https://drive.google.com/uc?export=view&id=1MP5l32xRGdrTDo-4JHvaqsmKujtPATww",
+            "https://drive.google.com/uc?export=view&id=1MJ6-OqbWNsaiSuKnAHjBifbXbShF8hF_",
+            "https://drive.google.com/uc?export=view&id=1MQt3dVhKZE_QxhZH5R2J-YBwJNAMDdzv",
+            "https://drive.google.com/uc?export=view&id=1MJIpFK1cSzjR7QebnQLVxXICVvh9LEYX",
+            "https://drive.google.com/uc?export=view&id=1YjfddCDdQAulUVejbCuapFQQ-PvLxAD5",
+            "https://drive.google.com/uc?export=view&id=1MBZ9SOE9Bq_TLJ1E924ciuD7uV-8qRm3",
+            "https://drive.google.com/uc?export=view&id=1MCvi4yMsRuhq2jagX_dLq8oG3GxNMqge",
+        ]   
+        data_list = [
+            {
+                "nama": "Danang Hilal Kurniawan",
+                "nim": "122450085",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobi": "-",
+                "instagram": "@dananghk_",
+                "kesan": "-",
+                "pesan": "-"
+            },
+            {
+                "nama": "Syalaisha Andina Putriansyah",
+                "nim": "122450021",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobi": "-",
+                "instagram": "@syalaishaa_31",
+                "kesan": "-",
+                "pesan": "-"
+            },
+            {
+                "nama": "Ahmad Rizqi",
+                "nim": "122450138",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobi": "-",
+                "instagram": "@den_iki_",
+                "kesan": "-",
+                "pesan": "-"
+            },
+            {
+                "nama": "Anadia Carana",
+                "nim": "123450019",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobi": "-",
+                "instagram": "@anadiacrn_",
+                "kesan": "-",
+                "pesan": "-"
+            },
+            {
+                "nama": "Aprilia Dewi Hutapea",
+                "nim": "123450040",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobi": "-",
+                "instagram": "@aprhtp_",
+                "kesan": "-",
+                "pesan": "-"
+            },
+            {
+                "nama": "Nabila Zakiyah Zahra",
+                "nim": "122450139",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobi": "-",
+                "instagram": "@nabila_zazahra",
+                "kesan": "-",
+                "pesan": "-"
+            },
+            {
+                "nama": "Dhafin Razaqa Luthfi",
+                "nim": "122450133",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobi": "-",
+                "instagram": "@dhafinrzqa13",
+                "kesan": "-",
+                "pesan": "-"
+            },
+            {
+                "nama": "Devi Rahayu",
+                "nim": "123450010",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobi": "-",
+                "instagram": "@deviirhyu",
+                "kesan": "-",
+                "pesan": "-"
+            },
+            {
+                "nama": "Enggli Rahmadhani",
+                "nim": "123450043",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobi": "-",
+                "instagram": "@englirahmdhanii",
+                "kesan": "-",
+                "pesan": "-"
+            },
+            {
+                "nama": "Hanifah Inaya Sani",
+                "nim": "123450123",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobi": "-",
+                "instagram": "@_inayasari",
+                "kesan": "-",
+                "pesan": "-"
+            },
+            {
+                "nama": "Nydia Manda Putri",
+                "nim": "123450018",
+                "umur": "-",
+                "asal": "-",
+                "alamat": "-",
+                "hobi": "-",
+                "instagram": "@nydiaaptr_",
+                "kesan": "-",
+                "pesan": "-"
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    ssd()
