@@ -1641,7 +1641,7 @@ if menu == "Departemen Medkraf":
     def medkraf():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1lm77jB2vAs2r2sgSprHY-V2P5oeDcz9D",
-            "https://drive.google.com/uc?export=view&id=1vagViR1cOb1yrTkDKdnHajRH130QT23pj",
+            "https://drive.google.com/uc?export=view&id=1vagViR1cOb1yrTkDKdnHajRH130QT23p",
             "https://drive.google.com/uc?export=view&id=1hVkOtXgVR030lVbKDcPhf0pRn4R4r1Lm",
             "https://drive.google.com/uc?export=view&id=1QhoTqcZ1zja_7ku5k2rMBquwd7PnrKq_",
             "https://drive.google.com/uc?export=view&id=1_JLWIv_ZfgCfcOQB4VkoTaKFYKiDhA4r",
