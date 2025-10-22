@@ -100,19 +100,10 @@ if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1b4JhMNu3Zyu6383g5CgOEtPlQj5Bbt7x", #bang rendra
-<<<<<<< HEAD
-            "https://drive.google.com/uc?export=view&id=", # bang johannes
-            "https://drive.google.com/uc?export=view&id=", # kak elisabeth
-            "https://drive.google.com/uc?export=view&id=", # kak syadza
-            "https://drive.google.com/uc?export=view&id=", # kak eksanty
-            "https://drive.google.com/uc?export=view&id=", # kak farahanum
-=======
             "https://drive.google.com/uc?export=view&id=1zQiFPyvJEeA4Q5CO85FvlrClEMwLb4bo", # bang johannes
             "https://drive.google.com/uc?export=view&id=1SJM6A8WNOfWz9aj_W1kCQQPpLbS2-dcv", # kak elisabeth
             "https://drive.google.com/uc?export=view&id=1nD-pcs-BlEjQ7dxWGNAaSoy7adRl9fRn", # kak syadza
             "https://drive.google.com/uc?export=view&id=1Pl3LirI44_xw3fTsrF8qHsqfsFRWkmGF", # kak eksanty
-            "https://drive.google.com/uc?export=view&id=1GU-9yI1NVP1FUEEuNX9Jr6Zzuyz-KXQd", # kak farahanum
->>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
         ]
         data_list = [
             {
@@ -188,7 +179,6 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def Baleg():
          gambar_urls = [
-<<<<<<< HEAD
              "https://drive.google.com/uc?export=view&id= ", #isi sendiri
              "https://drive.google.com/uc?export=view&id= ",
              "https://drive.google.com/uc?export=view&id= ",
@@ -203,7 +193,6 @@ if menu == "Baleg":
              "https://drive.google.com/uc?export=view&id= ",
              "https://drive.google.com/uc?export=view&id= ",
              "https://drive.google.com/uc?export=view&id= ",
-=======
              "https://drive.google.com/uc?export=view&id= ",#bang jeremia
              "https://drive.google.com/uc?export=view&id= ",#kak dhea
              "https://drive.google.com/uc?export=view&id= ",#kak renisha
@@ -218,7 +207,6 @@ if menu == "Baleg":
              "https://drive.google.com/uc?export=view&id= ",#bang feryadi yulius
              "https://drive.google.com/uc?export=view&id= ",#kak monica patricia
              "https://drive.google.com/uc?export=view&id= ",#kak wan nashwa
->>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
          ]
          data_list = [
             {
@@ -625,10 +613,3 @@ if menu == "Departemen Internal":
     display_images_with_data(gambar_urls, data_list)
 Departemen_Internal()
 # Tambahkan menu lainnya sesuai kebutuhan
-
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1

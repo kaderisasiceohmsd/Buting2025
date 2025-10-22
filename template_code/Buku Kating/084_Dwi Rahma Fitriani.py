@@ -320,8 +320,7 @@ elif menu == "Senator":
         ]
         display_images_with_data(gambar_urls, data_list)
     senator()
-<<<<<<< HEAD
-=======
+
 elif menu == "Departemen PSDA":
     def DepartemenPSDA():
         gambar_urls = [
@@ -1211,7 +1210,7 @@ elif menu == "Departemen Eksternal":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenEksternal()
->>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1
+
 elif menu == "Departemen SSD":
     def DepartemenSSD():
         gambar_urls = [
@@ -1354,8 +1353,3 @@ elif menu == "Departemen SSD":
     DepartemenSSD()
     
 # Tambahkan menu lainnya sesuai kebutuhan
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 88fbeb601ece0a0846b4b7f18a69b475709c55e1

@@ -412,7 +412,7 @@ elif menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     Senator()
 
- elif menu == "Departemen PSDA":
+elif menu == "Departemen PSDA":
     def DepartemenPSDA():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1EiUyK9_AvD54iQSKJCxY0oYdhAnQG4jV",
