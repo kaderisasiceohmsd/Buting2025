@@ -797,7 +797,7 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Aisyah Musfirah",
                 "nim": "123450084",
-               "umur": "",
+                "umur": "",
                 "asal":"",
                 "alamat": "",
                 "hobbi": "",
@@ -819,7 +819,7 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Muhammad Aqil Ramadhan",
                 "nim": "123450066",
-               "umur": "",
+                "umur": "",
                 "asal":"",
                 "alamat": "",
                 "hobbi": "",
@@ -895,6 +895,7 @@ if menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
+                "nim":"",
                 "umur": "",
                 "asal":"",
                 "alamat": "",
