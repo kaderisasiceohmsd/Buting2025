@@ -796,10 +796,10 @@ elif menu == "Departemen MIKFES":
             {
                 "nama": "Aisyah Musfirah",
                 "nim": "123450084",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "21",
+                "asal":"Bengkulu",
+                "alamat": "Jl. lapas,Belwis",
+                "hobbi": "maskeran",
                 "sosmed": "@_aishsahi",
                 "kesan": "Kakaknya sederhana tapi berkesan banget",  
                 "pesan":"terus semangat ya kak, jangan pernah berubah!", # 1
@@ -1858,5 +1858,6 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
