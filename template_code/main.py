@@ -5,7 +5,7 @@ import streamlit as st
 st.session_state.pindah = True
 
 Homepage = st.Page("Halaman Utama/halaman_utama.py",
-    title="Nama_Kelompok",
+    title="JACOBI",
     default=True)
 
 Mahasiswa1 = st.Page(
@@ -39,7 +39,7 @@ Mahasiswa6 = st.Page(
     icon=":material/person:",
 )
 Mahasiswa7 = st.Page(
-    "Buku Kating/062_Fadya Izzatul Aini.py",
+    "Buku Kating/062_Fadya Izzatul 'Aini.py",
     title="062 - Fadya Izzatul Aini",
     icon=":material/person:",
 )
