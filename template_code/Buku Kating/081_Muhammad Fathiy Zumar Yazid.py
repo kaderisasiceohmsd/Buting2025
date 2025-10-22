@@ -1329,7 +1329,7 @@ elif menu == "Departemen Internal":
                 "umur": 21,
                 "asal": "Metro",
                 "alamat": "Bandar Lampung",
-                "hobi": "Mengaji",
+                "hobbi": "Mengaji",
                 "instagram": "@ranniku",
                 "kesan": "Kak Rani orangnya lembut dan bijaksana.",
                 "pesan": "Semoga selalu diberi kesehatan dan keberkahan dalam setiap langkah."
@@ -1340,7 +1340,7 @@ elif menu == "Departemen Internal":
                 "umur": 22,
                 "asal": "Sumatera Utara",
                 "alamat": "Sukarame",
-                "hobi": "Memancing",
+                "hobbi": "Memancing",
                 "instagram": "@renta.shn",
                 "kesan": "Kak Renta orangnya tenang dan sopan.",
                 "pesan": "Semoga selalu diberi kesabaran dan rezeki yang lancar."
@@ -1351,7 +1351,7 @@ elif menu == "Departemen Internal":
                 "umur": 21,
                 "asal": "Brebes, Jateng",
                 "alamat": "Airan",
-                "hobi": "Memasak",
+                "hobbi": "Memasak",
                 "instagram": "@salwa.fhn",
                 "kesan": "Kak Salwa lembut dan ramah banget.",
                 "pesan": "Semoga selalu bahagia dan sukses terus ya Kak!"
@@ -1362,7 +1362,7 @@ elif menu == "Departemen Internal":
                 "umur": 21,
                 "asal": "Tanggerang",
                 "alamat": "Belwis",
-                "hobi": "Nyanyi",
+                "hobbi": "Nyanyi",
                 "instagram": "@reaxender",
                 "kesan": "Bang Rendi suaranya keren dan berkarisma.",
                 "pesan": "Semoga terus semangat berkarya dan tetap rendah hati bang!"
@@ -1373,7 +1373,7 @@ elif menu == "Departemen Internal":
                 "umur": 19,
                 "asal": "Bandar Lampung",
                 "alamat": "Bandar Lampung",
-                "hobi": "Olahraga",
+                "hobbi": "Olahraga",
                 "instagram": "@zailanisatria",
                 "kesan": "bang Zai aktif dan seru banget.",
                 "pesan": "Semoga tetap semangat bang!"
@@ -1384,7 +1384,7 @@ elif menu == "Departemen Internal":
                 "umur": 20,
                 "asal": "Sidorejo",
                 "alamat": "Sabah Balau",
-                "hobi": "Nonton Anime",
+                "hobbi": "Nonton Anime",
                 "instagram": "@muhammadnaufalalghani",
                 "kesan": "Bang Naufal asik diajak ngobrol.",
                 "pesan": "Semoga makin sukses dan tetap rendah hati!"
@@ -1395,7 +1395,7 @@ elif menu == "Departemen Internal":
                 "umur": 18,
                 "asal": "Pekan Baru, Riau",
                 "alamat": "Airan",
-                "hobi": "Mancing Ribut",
+                "hobbi": "Mancing Ribut",
                 "instagram": "@haikalsbln_",
                 "kesan": "Bang Haikal seru dan keren banget.",
                 "pesan": "Semoga selalu membawa keceriaan di setiap suasana!"
@@ -1417,7 +1417,7 @@ elif menu == "Departemen Internal":
                 "umur": 20,
                 "asal": "Jawa Barat",
                 "alamat": "Tanjung Senang",
-                "hobi": "Berkebun",
+                "hobbi": "Berkebun",
                 "instagram": "@sarahwrti",
                 "kesan": "Kak Sarah anggun dan ramah.",
                 "pesan": "Semoga selalu bahagia dan sukses di setiap perjalanan!"
@@ -1428,7 +1428,7 @@ elif menu == "Departemen Internal":
                 "umur": 19,
                 "asal": "Bekasi",
                 "alamat": "Pemda",
-                "hobi": "Bermain Musik",
+                "hobbi": "Bermain Musik",
                 "instagram": "@kerenmrtv",
                 "kesan": "Kak Keren sesuai namanya, keren banget!",
                 "pesan": "Semoga terus berprestasi dan menginspirasi banyak orang."
@@ -1439,7 +1439,7 @@ elif menu == "Departemen Internal":
                 "umur": 19,
                 "asal": "Natar",
                 "alamat": "Way Huwi, Pemda",
-                "hobi": "Mengetik",
+                "hobbi": "Mengetik",
                 "instagram": "@zhrptsr",
                 "kesan": "Kak Zahra orangnya lembut dan sopan.",
                 "pesan": "Semoga selalu semangat dan penuh kebahagiaan!"
@@ -1450,7 +1450,7 @@ elif menu == "Departemen Internal":
                 "umur": 20,
                 "asal": "Pekan Baru",
                 "alamat": "Asrama TB4",
-                "hobi": "Main Palinfit",
+                "hobbi": "Main Palinfit",
                 "instagram": "@azzah.raaa_",
                 "kesan": "Kak Azzahra punya aura positif banget.",
                 "pesan": "Semoga selalu ceria dan makin sukses!"
@@ -1461,7 +1461,7 @@ elif menu == "Departemen Internal":
                 "umur": 20,
                 "asal": "Bandung",
                 "alamat": "Kedaton",
-                "hobi": "Menyelam",
+                "hobbi": "Menyelam",
                 "instagram": "@may_dahlia12",
                 "kesan": "Kak May selalu tampil cerah dan ramah.",
                 "pesan": "Semoga terus jadi inspirasi bagi yang lain!"
@@ -1472,7 +1472,7 @@ elif menu == "Departemen Internal":
                 "umur": 20,
                 "asal": "Lampung Barat",
                 "alamat": "Sukarame",
-                "hobi": "Berkhayal",
+                "hobbi": "Berkhayal",
                 "instagram": "iqfinanhalikaa_",
                 "kesan": "Kak Iqfinah imut dan kreatif banget.",
                 "pesan": "Semoga semua impian Kakak bisa terwujud!"
@@ -1483,7 +1483,7 @@ elif menu == "Departemen Internal":
                 "umur": 20,
                 "asal": "Jakarta Selatan",
                 "alamat": "Belakang UIN",
-                "hobi": "Menggoreng Pisang",
+                "hobbi": "Menggoreng Pisang",
                 "instagram": "@hanna_g_sinaga",
                 "kesan": "Kak Hanna lucu dan supel.",
                 "pesan": "Semoga terus membawa suasana ceria dan positif ke sekeliling!"
@@ -1514,7 +1514,7 @@ elif menu == "Departemen SSD":
                 "umur": "-",
                 "asal": "-",
                 "alamat": "-",
-                "hobi": "-",
+                "hobbi": "-",
                 "instagram": "@dananghk_",
                 "kesan": "-",
                 "pesan": "-"
@@ -1525,7 +1525,7 @@ elif menu == "Departemen SSD":
                 "umur": "-",
                 "asal": "-",
                 "alamat": "-",
-                "hobi": "-",
+                "hobbi": "-",
                 "instagram": "@syalaishaa_31",
                 "kesan": "-",
                 "pesan": "-"
@@ -1536,7 +1536,7 @@ elif menu == "Departemen SSD":
                 "umur": "-",
                 "asal": "-",
                 "alamat": "-",
-                "hobi": "-",
+                "hobbi": "-",
                 "instagram": "@den_iki_",
                 "kesan": "-",
                 "pesan": "-"
@@ -1547,7 +1547,7 @@ elif menu == "Departemen SSD":
                 "umur": "-",
                 "asal": "-",
                 "alamat": "-",
-                "hobi": "-",
+                "hobbi": "-",
                 "instagram": "@anadiacrn_",
                 "kesan": "-",
                 "pesan": "-"
@@ -1558,7 +1558,7 @@ elif menu == "Departemen SSD":
                 "umur": "-",
                 "asal": "-",
                 "alamat": "-",
-                "hobi": "-",
+                "hobbi": "-",
                 "instagram": "@aprhtp_",
                 "kesan": "-",
                 "pesan": "-"
@@ -1569,7 +1569,7 @@ elif menu == "Departemen SSD":
                 "umur": "-",
                 "asal": "-",
                 "alamat": "-",
-                "hobi": "-",
+                "hobbi": "-",
                 "instagram": "@nabila_zazahra",
                 "kesan": "-",
                 "pesan": "-"
@@ -1580,7 +1580,7 @@ elif menu == "Departemen SSD":
                 "umur": "-",
                 "asal": "-",
                 "alamat": "-",
-                "hobi": "-",
+                "hobbi": "-",
                 "instagram": "@dhafinrzqa13",
                 "kesan": "-",
                 "pesan": "-"
@@ -1591,7 +1591,7 @@ elif menu == "Departemen SSD":
                 "umur": "-",
                 "asal": "-",
                 "alamat": "-",
-                "hobi": "-",
+                "hobbi": "-",
                 "instagram": "@deviirhyu",
                 "kesan": "-",
                 "pesan": "-"
@@ -1602,7 +1602,7 @@ elif menu == "Departemen SSD":
                 "umur": "-",
                 "asal": "-",
                 "alamat": "-",
-                "hobi": "-",
+                "hobbi": "-",
                 "instagram": "@englirahmdhanii",
                 "kesan": "-",
                 "pesan": "-"
@@ -1613,7 +1613,7 @@ elif menu == "Departemen SSD":
                 "umur": "-",
                 "asal": "-",
                 "alamat": "-",
-                "hobi": "-",
+                "hobbi": "-",
                 "instagram": "@_inayasari",
                 "kesan": "-",
                 "pesan": "-"
@@ -1624,7 +1624,7 @@ elif menu == "Departemen SSD":
                 "umur": "-",
                 "asal": "-",
                 "alamat": "-",
-                "hobi": "-",
+                "hobbi": "-",
                 "instagram": "@nydiaaptr_",
                 "kesan": "-",
                 "pesan": "-"
