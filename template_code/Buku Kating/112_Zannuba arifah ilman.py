@@ -895,7 +895,7 @@ if menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-               "umur": "",
+                "umur": "",
                 "asal":"",
                 "alamat": "",
                 "hobbi": "",
