@@ -359,7 +359,7 @@ elif menu == "Senator":
     def Senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1ipgl-D4MmaYzjAsZDzFgFtkZkCiNyB_r", #Bintang
-            "https://drive.google.com/uc?export=view&id=112v1zHDFmHicsFNUh9y_bi7jtgl2MSbaK", #Nadya
+            "https://drive.google.com/uc?export=view&id=12v1zHDFmHicsFNUh9y_bi7jtgl2MSbaK", #Nadya
             "https://drive.google.com/uc?export=view&id=16Cr1CQ81htbjC8HVouEtTuvXsaTRUyQR", #Azizah
             "https://drive.google.com/uc?export=view&id=1baiixi18AH_KWl-U9H8BScj2R4d7d44K", #Hana
         ]
