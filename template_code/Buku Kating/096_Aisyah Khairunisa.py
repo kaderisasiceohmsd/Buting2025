@@ -163,7 +163,7 @@ if menu == "Kesekjenan":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Farhanum Afifah Ardiansyah",
+                "nama": "Farhanum Afifah Ardiansyah",_
                 "nim": "122450056",
                 "umur": "21",
                 "asal":"Padang, Sumatera Barat",
@@ -182,19 +182,19 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1gHyFbqG5ON4e1efIE9euHLJYaaBbHxkX",
+            "https://drive.google.com/uc?export=view&id=1C3P88A0_c6lQ2tF8PCTXTNGg91Vq7E_h",
+            "https://drive.google.com/uc?export=view&id=1mEECA7RFeQMWNGXFXceN-fnoiuSnP-fd",
+            "https://drive.google.com/uc?export=view&id=153wfyaRPFJPfPKwW8ulHZ6mUPg0CMZ4O",
+            "https://drive.google.com/uc?export=view&id=1fzxIo0OkvsGgLhWEQPb4ASsPtEcag1lM",
+            "https://drive.google.com/uc?export=view&id=1ppbnj2C6D8-GFVjBFH20UL07UEKQpb8h",
+            "https://drive.google.com/uc?export=view&id=1eZOzu_aMTvDYD4gkOCXN4LU6ofi5LPuN",
+            "https://drive.google.com/uc?export=view&id=1478dLYzoqWC-Cfb55WX1VSQexxiIb9cI",
+            "https://drive.google.com/uc?export=view&id=15u6Z-rI0xun3nLOQ1fJGS6RjIEw6qTW1",
+            "https://drive.google.com/uc?export=view&id=1ZUMdMKYBw10E7jx86X8aBj48784gwntw",
+            "https://drive.google.com/uc?export=view&id=1k87H0K6ejPRgZsq62D6UQ-ZvOzyPRrNR",
+            "https://drive.google.com/uc?export=view&id=1kj4AfkV3KvPqhqwuw-zpXjlT9wWRbBU3",
+            "https://drive.google.com/uc?export=view&id=1SR8jx_vkm6IoUPtzR1aHNL1EIpNUusf2",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
