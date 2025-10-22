@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Mutun, Pesawaran",
                 "hobbi": "Ngomenin tiktok cewe cantik",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Kakak keren dan bijak banget",  
+                "pesan":"Semoga semua hal baik terus ngikutin kakak!"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -180,7 +180,7 @@ if menu == "Kesekjenan":
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=15bQyOMnn7BkvLOAtWTZFv-YO0Ly9-aMU",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -204,8 +204,8 @@ elif menu == "Baleg":
                 "alamat": "Bilabong",
                 "hobbi": "nonton orang kayang",
                 "sosmed": "@jeremia_s_",
-                "kesan": "abangnya berwibawa dan bijak dalam bersikap",  
-                "pesan":""# 1
+                "kesan": " ",  
+                "pesan":" "# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -215,7 +215,7 @@ elif menu == "Baleg":
                 "alamat": "Kemiling",
                 "hobbi": "lomba ga makan keerupuk",
                 "sosmed": "@_.dheamelia",
-                "kesan": "Kakaknya punya aura positif banget",  
+                "kesan": "",  
                 "pesan":"Semoga selalu dimudahkan dalam urusannya"# 1
             },
             {
