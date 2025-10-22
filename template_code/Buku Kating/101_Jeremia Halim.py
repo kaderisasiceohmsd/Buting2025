@@ -1444,11 +1444,11 @@ if menu == "Departemen Internal":
             },
             {
                 "nama": "Muhammad Naufal Alghani",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "123450116",
+                "umur": "20 tahun",
+                "asal":"Sidorejo, Sidomulyo, Lampung Selatan",
+                "alamat": "sabahbalau",
+                "hobbi": "nonton anime",
                 "sosmed": "@muhammadnaufalalghani13",
                 "kesan": "Abang kalem",  
                 "pesan":"semangat terus kuliahnya bang naufal!"# 1
@@ -1510,11 +1510,11 @@ if menu == "Departemen Internal":
             },
             {
                 "nama": "Zahra Putri Salsabilla",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "123450026",
+                "umur": "19 Tahun",
+                "asal":"Natar",
+                "alamat": "Pemda way huwi",
+                "hobbi": "main rubik miror",
                 "sosmed": "@zhrptsl",
                 "kesan": "Kakak imut santai",  
                 "pesan":"semangat terus kuliahnya kak!"# 1
