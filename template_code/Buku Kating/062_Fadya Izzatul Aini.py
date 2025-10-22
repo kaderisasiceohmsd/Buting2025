@@ -679,7 +679,7 @@ elif menu == "Departemen PSDA":
                 "umur": "20",
                 "asal":"Medan",
                 "alamat": "Pemda",
-                "hobbi": Merajut"",
+                "hobbi": "Merajut"",
                 "sosmed": "@dla_natzzyaa",
                 "kesan": "Kakaknya lucu banget",  
                 "pesan":"Semangat kuliahnya kak"# 1
@@ -1858,4 +1858,5 @@ elif menu == "Departemen Medkraf":
     DepartemenMedkraf()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
