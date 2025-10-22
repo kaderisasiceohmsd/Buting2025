@@ -106,7 +106,7 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1VJ0tibklHIor5Z6YArL-zoH7giaXbxFB"
         layout(foto_kelompok)
         st.markdown(
             """<div style="text-align: justify;">Jacobi adalah kelompok kaderisasi yang 
