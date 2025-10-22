@@ -474,7 +474,7 @@ if menu == "Departemen PSDA":
                 "alamat": "-",
                 "hobbi": "haiii",
                 "sosmed": "@ferdy_kevin",
-                "kesan": "Abang cool abiez",  
+                "kesan": "keren banget bang ferdy, panutaan",  
                 "pesan":"semakin cool bang dan semangat terus bang jadi kadep!"# 1
             },
             {
