@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=154kH_9W5qc3vr_kF_3rFlj0COJUIjTHz", #Bang Rendra Eka Prayoga
-            "https://drive.google.com/uc?export=view&id=1StMrKjc4OGjHIDbxVR847IK1nS3Tw2xz", #Bang Johannes Krisjon Silitonga
-            "https://drive.google.com/uc?export=view&id=1S4Z-05PzS09Zyv_2uVz3GuNIf0qZlrH4", #Kak Elisabeth Claudia Simanjuntak
-            "https://drive.google.com/uc?export=view&id=1ztnvvgw0bBIjy7knuEEHkcnkgMx6JmCI", #Kak Syadza Puspadari Azhar
-            "https://drive.google.com/uc?export=view&id=1W7ekc_re8sGfuEvcdO8BhqEgAwU7gNgw", #Kak Eksanty F. Sukma Islamiaty
-            "https://drive.google.com/uc?export=view&id=1y5Wpq1OLmQ7TdDoztHprIphROKOxR-rl", #Kak Farahanum Afifah Ardiansyah
+            "https://drive.google.com/uc?export=view&id=154kH_9W5qc3vr_kF_3rFlj0COJUIjTHz", 
+            "https://drive.google.com/uc?export=view&id=1StMrKjc4OGjHIDbxVR847IK1nS3Tw2xz", 
+            "https://drive.google.com/uc?export=view&id=1S4Z-05PzS09Zyv_2uVz3GuNIf0qZlrH4", 
+            "https://drive.google.com/uc?export=view&id=1ztnvvgw0bBIjy7knuEEHkcnkgMx6JmCI", 
+            "https://drive.google.com/uc?export=view&id=1W7ekc_re8sGfuEvcdO8BhqEgAwU7gNgw", 
+            "https://drive.google.com/uc?export=view&id=1y5Wpq1OLmQ7TdDoztHprIphROKOxR-rl", 
         ]
         data_list =[
             {
@@ -183,20 +183,20 @@ if menu == "Kesekjenan":
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1fOf-BYWOpXfY3jZQGHXrppUV1XCalWlf", #bang Jeremia Susanto
-            "https://drive.google.com/uc?export=view&id=1I_e1GGxhsaEaFUZszUguMkyYGGtR8002", #kak Dhea Amelia Putri
-            "https://drive.google.com/uc?export=view&id=1MLSwDB9tYZV6-V-1rJvtXZeYYPHzfSfG", #kak Renisha Putri Giani
-            "https://drive.google.com/uc?export=view&id=1WBolNcjo7yJcyndRNKqN2E2haNQ44fAi", #kak Anisa Fitriyani
-            "https://drive.google.com/uc?export=view&id=1H6-KKqlEXA_pBAI02QPRabyeoVw8sxLX", #bang Dharu Cahyoaji Sasongko
-            "https://drive.google.com/uc?export=view&id=1kdghNEpQX-ArjFPNcix-cz6Szh5b6Xhc", #kak Feby Wulandari
-            "https://drive.google.com/uc?export=view&id=1ibfWd1F2i_a-24xnPASKXGtmKUWwGUhY", #bang Givaro Ananta
-            "https://drive.google.com/uc?export=view&id=1vKyhRC35PpYReIWkqzbZ2acHiX1D5HIJ", #bang Mirzan Yusuf Rabbani
-            "https://drive.google.com/uc?export=view&id=1BgRhaTLQAzdpWRUWovUD8hrhHM3Io70Y", #kak Berliana Enda Putri
-            "https://drive.google.com/uc?export=view&id=1rmqtqC_4QVJ4iqXF9YS50faXupnrhFCY", #kak Juesi Apridelia Saragih
-            "https://drive.google.com/uc?export=view&id=120Wz37NvuAnMAOauHrSYOAV3uPBGTs8t", #bang Ridho Benedictus Togi Manik
-            "https://drive.google.com/uc?export=view&id=12dPPk6HpXxY5McuuWQsRacyfgUplf3YQ", #bang Feryadi Yulius
-            "https://drive.google.com/uc?export=view&id=1-dS7gekMceVzL5PRwIOMh58v9MJz5gwE", #kak Monica Patricia Tanjung
-            "https://drive.google.com/uc?export=view&id=1Av3S02wBxl8fZuG_DOSIhTo81wH-_6Uk", #kak Wan Nashwa Alhasni Yuska
+            "https://drive.google.com/uc?export=view&id=1fOf-BYWOpXfY3jZQGHXrppUV1XCalWlf", 
+            "https://drive.google.com/uc?export=view&id=1I_e1GGxhsaEaFUZszUguMkyYGGtR8002", 
+            "https://drive.google.com/uc?export=view&id=1MLSwDB9tYZV6-V-1rJvtXZeYYPHzfSfG", 
+            "https://drive.google.com/uc?export=view&id=1WBolNcjo7yJcyndRNKqN2E2haNQ44fAi", 
+            "https://drive.google.com/uc?export=view&id=1H6-KKqlEXA_pBAI02QPRabyeoVw8sxLX", 
+            "https://drive.google.com/uc?export=view&id=1kdghNEpQX-ArjFPNcix-cz6Szh5b6Xhc", 
+            "https://drive.google.com/uc?export=view&id=1ibfWd1F2i_a-24xnPASKXGtmKUWwGUhY", 
+            "https://drive.google.com/uc?export=view&id=1vKyhRC35PpYReIWkqzbZ2acHiX1D5HIJ", 
+            "https://drive.google.com/uc?export=view&id=1BgRhaTLQAzdpWRUWovUD8hrhHM3Io70Y", 
+            "https://drive.google.com/uc?export=view&id=1rmqtqC_4QVJ4iqXF9YS50faXupnrhFCY", 
+            "https://drive.google.com/uc?export=view&id=120Wz37NvuAnMAOauHrSYOAV3uPBGTs8t", 
+            "https://drive.google.com/uc?export=view&id=12dPPk6HpXxY5McuuWQsRacyfgUplf3YQ", 
+            "https://drive.google.com/uc?export=view&id=1-dS7gekMceVzL5PRwIOMh58v9MJz5gwE", 
+            "https://drive.google.com/uc?export=view&id=1Av3S02wBxl8fZuG_DOSIhTo81wH-_6Uk", 
         ]
         data_list = [
             {
@@ -359,10 +359,10 @@ elif menu == "Baleg":
 elif menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1FhDVNj7OLOSDCuPU-BnX6PKmP2Lz4uJ0", #Bang Rian Bintang Wijaya
-            "https://drive.google.com/uc?export=view&id=1AoST77ETgf5M6pHAYxKz0CN6ovIomi5t", #kak Nadya Ratu Anjani
-            "https://drive.google.com/uc?export=view&id=1SdYFo9_Nwxdd69I772ZTpvfdMkdRFrdf", #kak Fathinah Nur Azizah
-            "https://drive.google.com/uc?export=view&id=1jaiMtjV4tt0OG6bXLZEeoQr-_4yJcFG8", #kak Lia Hana Ichisasmita
+            "https://drive.google.com/uc?export=view&id=1FhDVNj7OLOSDCuPU-BnX6PKmP2Lz4uJ0", 
+            "https://drive.google.com/uc?export=view&id=1AoST77ETgf5M6pHAYxKz0CN6ovIomi5t", 
+            "https://drive.google.com/uc?export=view&id=1SdYFo9_Nwxdd69I772ZTpvfdMkdRFrdf", 
+            "https://drive.google.com/uc?export=view&id=1jaiMtjV4tt0OG6bXLZEeoQr-_4yJcFG8", 
         ]
         data_list = [
             {
@@ -416,32 +416,32 @@ elif menu == "Senator":
 elif menu == "Departemen PSDA":
     def DepartemenPSDA():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1qIUz3W8okBFAorK3IvVqcbRf1iLV4G-y", #Bang Ferdy Kevin Naibaho
-            "https://drive.google.com/uc?export=view&id=13Lht7BfGKREit-4HjrHtxN22Il6sqbok", #Kak Nisrina Nur Afifah
-            "https://drive.google.com/uc?export=view&id=1wksTmaKXJAAH50nKkvHrN16GApwhc114", #Kak Allya Nurul Islami Pasha
-            "https://drive.google.com/uc?export=view&id=1qwqrM6eqsF3mJaP1NtqtQsSfIToGhMuF", #Bang Ahmad Rizky
-            "https://drive.google.com/uc?export=view&id=1i2VG81B4vL78c0bNAd-GXoJEZuYO1SGM", #Kak Arienta Khusnul Ananda
-            "https://drive.google.com/uc?export=view&id=17gWncFgemlkDFnXIDSSRuhyjmzDeVLII", #Bang Daffa Hadyan Navista
-            "https://drive.google.com/uc?export=view&id=1CVvlJBrpOv4QahQngpMO_0xiVwzS6GpP", #Bang Ginda Fajar Riadi Marpaung
-            "https://drive.google.com/uc?export=view&id=1WELyiRa3PDx_5kyqz2jvBfpzMjAzX11G", #Kak Natasya Amavisca
-            "https://drive.google.com/uc?export=view&id=17wXXzG4ZuEkbdY71gvo6nkd2J2o0DI0j", #Bang Nobel Nizam F
-            "https://drive.google.com/uc?export=view&id=1H6sEjvx-Fr2HKcCoPJcUduZS4RhUi98b", #Bang Nurul Alfajar Gumel
-            "https://drive.google.com/uc?export=view&id=12KgiVCih1l9i1uJoLiVisVq5PnvZrvVy", #Kak Vany Salsabila Putri
-            "https://drive.google.com/uc?export=view&id=12BCYOZ0KKhqsGDgVIgYVwXIlbLPR1XSd", #Bang Ahmad Sahidin Akbar
-            "https://drive.google.com/uc?export=view&id=170HBzNlazOSHSgQhxceI2LH6PzShw7e-", #Bang Ali Aristo Muthahhari Parisi
-            "https://drive.google.com/uc?export=view&id=1NB58mf2edPsQUQFITAqqSUVs2lr78arB", #Kak Gusti Putu Ferazka
-            "https://drive.google.com/uc?export=view&id=1TpdMIbqxi7072PWSIeylW7fr7j-F2WPq", #Kak Kharisma Mustika Sari      
-            "https://drive.google.com/uc?export=view&id=15VZdhn-Zr0O7DsugpTw2A-NMLRER4p7z", #Bang Sahid Maulana
-            "https://drive.google.com/uc?export=view&id=1Ib9G16WOWhOzBcvqLYe2-qmm-C7bgG32", #Bang Daffa Ahmad Naufal
-            "https://drive.google.com/uc?export=view&id=1Nnf_lWM_sGE3sfY9tRH4XpORME1cke-P", #kak Erma Daniar
-            "https://drive.google.com/uc?export=view&id=1pfVI1BQJdTf3C1R_8JJ7oGkILuzviCn3", #Bang Ihsan Maulana Yusuf
-            "https://drive.google.com/uc?export=view&id=1Ok3PSs9HmE1cm3Ab_nBuSrDgs2Y5GhiX", #Bang Kevin Antoni Junior
-            "https://drive.google.com/uc?export=view&id=1aQ3guawPQNw6_TKvsqmgoka55UCTipJK", #Kak Lidia Natasyah Marpaung        
-            "https://drive.google.com/uc?export=view&id=1utgwo-Pwtq5E9_N7EyRz05WDDd7lNzqu", #Bang Muhammad Ridwan
-            "https://drive.google.com/uc?export=view&id=1udchb1OSD8Wx3X9jUobphG0uEzowFmbq", #Bang Benget Sidabutar
-            "https://drive.google.com/uc?export=view&id=1UJnIll1mBRnbTqbwjEY-C099vvga4uAR", #Bang Uliano Wilyam Purba
-            "https://drive.google.com/uc?export=view&id=1S2dUHHuU-YSCv6k2Pw9VDhsy_iMfeNTg", #Kak Rewina Audrya Melva Sari
-            "https://drive.google.com/uc?export=view&id=1Hq5Lxiq9IkVsYN6xuzhQlXLB4DZmAKrM", #Kak Rosalia Siregar
+            "https://drive.google.com/uc?export=view&id=1qIUz3W8okBFAorK3IvVqcbRf1iLV4G-y", 
+            "https://drive.google.com/uc?export=view&id=13Lht7BfGKREit-4HjrHtxN22Il6sqbok", 
+            "https://drive.google.com/uc?export=view&id=1wksTmaKXJAAH50nKkvHrN16GApwhc114", 
+            "https://drive.google.com/uc?export=view&id=1qwqrM6eqsF3mJaP1NtqtQsSfIToGhMuF", 
+            "https://drive.google.com/uc?export=view&id=1i2VG81B4vL78c0bNAd-GXoJEZuYO1SGM", 
+            "https://drive.google.com/uc?export=view&id=17gWncFgemlkDFnXIDSSRuhyjmzDeVLII", 
+            "https://drive.google.com/uc?export=view&id=1CVvlJBrpOv4QahQngpMO_0xiVwzS6GpP", 
+            "https://drive.google.com/uc?export=view&id=1WELyiRa3PDx_5kyqz2jvBfpzMjAzX11G", 
+            "https://drive.google.com/uc?export=view&id=17wXXzG4ZuEkbdY71gvo6nkd2J2o0DI0j", 
+            "https://drive.google.com/uc?export=view&id=1H6sEjvx-Fr2HKcCoPJcUduZS4RhUi98b", 
+            "https://drive.google.com/uc?export=view&id=12KgiVCih1l9i1uJoLiVisVq5PnvZrvVy", 
+            "https://drive.google.com/uc?export=view&id=12BCYOZ0KKhqsGDgVIgYVwXIlbLPR1XSd", 
+            "https://drive.google.com/uc?export=view&id=170HBzNlazOSHSgQhxceI2LH6PzShw7e-", 
+            "https://drive.google.com/uc?export=view&id=1NB58mf2edPsQUQFITAqqSUVs2lr78arB", 
+            "https://drive.google.com/uc?export=view&id=1TpdMIbqxi7072PWSIeylW7fr7j-F2WPq",   
+            "https://drive.google.com/uc?export=view&id=15VZdhn-Zr0O7DsugpTw2A-NMLRER4p7z", 
+            "https://drive.google.com/uc?export=view&id=1Ib9G16WOWhOzBcvqLYe2-qmm-C7bgG32", 
+            "https://drive.google.com/uc?export=view&id=1Nnf_lWM_sGE3sfY9tRH4XpORME1cke-P", 
+            "https://drive.google.com/uc?export=view&id=1pfVI1BQJdTf3C1R_8JJ7oGkILuzviCn3", 
+            "https://drive.google.com/uc?export=view&id=1Ok3PSs9HmE1cm3Ab_nBuSrDgs2Y5GhiX", 
+            "https://drive.google.com/uc?export=view&id=1aQ3guawPQNw6_TKvsqmgoka55UCTipJK",     
+            "https://drive.google.com/uc?export=view&id=1utgwo-Pwtq5E9_N7EyRz05WDDd7lNzqu", 
+            "https://drive.google.com/uc?export=view&id=1udchb1OSD8Wx3X9jUobphG0uEzowFmbq", 
+            "https://drive.google.com/uc?export=view&id=1UJnIll1mBRnbTqbwjEY-C099vvga4uAR", 
+            "https://drive.google.com/uc?export=view&id=1S2dUHHuU-YSCv6k2Pw9VDhsy_iMfeNTg", 
+            "https://drive.google.com/uc?export=view&id=1Hq5Lxiq9IkVsYN6xuzhQlXLB4DZmAKrM", 
         ]
         data_list = [
             {
@@ -736,28 +736,28 @@ elif menu == "Departemen PSDA":
 elif menu == "Departemen MIKFES":
     def DepartemenMIKFES():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1MoE_wwXR5al-Bz3VGTzwJHSuLL8HfDGf", #Bang Randa Andriana Putra
-            "https://drive.google.com/uc?export=view&id=1doyFBIoxIaNYRpFvCRTut2r-O2yHvBdh", #kak Rut Junita Sari Siburian
-            "https://drive.google.com/uc?export=view&id=1LEpyVqOQIYLsKw1TVoPYkz7lYxsM2o28", #Bang Muhammad Regi Abdi Putra Amanta
-            "https://drive.google.com/uc?export=view&id=1lPNDz17mav-2s-iuput59YoD36cxVgLJ", #kak Aisyah Musfirah
-            "https://drive.google.com/uc?export=view&id=1ezVIAdXYd5bCznZjOEbkHaZGZSD0oaYc", #Bang Fadil Prasetyo Alfarizzi
-            "https://drive.google.com/uc?export=view&id=1CJ0aPJis1hp3d7fECcXkARGSDJYCTHFW", #Bang Muhammad Aqil Ramadhan
-            "https://drive.google.com/uc?export=view&id=17hjiK1ouOuWAUCu3uw5MYEbVs6W7dZWf", #Bang Muhammad Naufal Ramadhan
-            "https://drive.google.com/uc?export=view&id=1PT3Y_cGoJ_xFmIvziVgrM0phI_gAUO-N", #Kak Nadia Faraj Alyafaatin Simbolon
-            "https://drive.google.com/uc?export=view&id=1OgiSBXRSScRyCuvic2wYcboR5L-Kzlgm", #Kak Marleta Cornelia Leander
-            "https://drive.google.com/uc?export=view&id=1uYIF0yVG9pjsNooJ7dDggKS4zZ8oG2Fq", #bang Akeyla Fairuz shafi
-            "https://drive.google.com/uc?export=view&id=1qTR1eH-54q12r-irP8Xu0CSIS5LjnKAq", #Kak Anggi Puspita Ningrum
-            "https://drive.google.com/uc?export=view&id=1qUbrY1AFBlani--Bn0kucrccoe1l4-TC", #Kak Efi Defiyati
-            "https://drive.google.com/uc?export=view&id=1-MI9FVczXP6XlYEBvclpw4O_QoDl73lL", #Kak Fabiolla Charissa Putri
-            "https://drive.google.com/uc?export=view&id=1sktJ5tX9_0tLLo4SdI4s3Hr-dKd9ARLY", #Kak Fairuz Ary Syifa
-            "https://drive.google.com/uc?export=view&id=10qwIkHuLV61btVtTcdI06tE8CtuufV8L", #Kak Tanty Widiyastuti
-            "https://drive.google.com/uc?export=view&id=1xnRO-ijZAnlHS2Hq2WrNHWO_KgCMeRB0", #Bang Eggi Satria
-            "https://drive.google.com/uc?export=view&id=13S16_-aExQ02g87pFkoNFIK5NMtwvu89", #Kak Afifah Fauziah
-            "https://drive.google.com/uc?export=view&id=1K3_meeMXK2vrAORYmDVi9ilCmdE5ABqv", #Bang Fabio Banyu Cyto
-            "https://drive.google.com/uc?export=view&id=1QQCCMjZC3iU1BeMByrtiTACqwgR_f1lm", #Bang Giofani Aristyo
-            "https://drive.google.com/uc?export=view&id=1_uVflCplCzI1_0epqSp5T2dJUD42S-Bx", #Kak Rahma Oktavia Albar
-            "https://drive.google.com/uc?export=view&id=1sq5c4EUqT_mLCLFgRDR3Z7IQax3lEbWy", #Kak Rahmah Gustriana Deka
-            "https://drive.google.com/uc?export=view&id=1D18mfYTAR2w08v3zd9_cLo4XR_hXXu5m", #Bang Razin Hafid Hamdi
+            "https://drive.google.com/uc?export=view&id=1MoE_wwXR5al-Bz3VGTzwJHSuLL8HfDGf", 
+            "https://drive.google.com/uc?export=view&id=1doyFBIoxIaNYRpFvCRTut2r-O2yHvBdh", 
+            "https://drive.google.com/uc?export=view&id=1LEpyVqOQIYLsKw1TVoPYkz7lYxsM2o28", 
+            "https://drive.google.com/uc?export=view&id=1lPNDz17mav-2s-iuput59YoD36cxVgLJ", 
+            "https://drive.google.com/uc?export=view&id=1ezVIAdXYd5bCznZjOEbkHaZGZSD0oaYc", 
+            "https://drive.google.com/uc?export=view&id=1CJ0aPJis1hp3d7fECcXkARGSDJYCTHFW", 
+            "https://drive.google.com/uc?export=view&id=17hjiK1ouOuWAUCu3uw5MYEbVs6W7dZWf", 
+            "https://drive.google.com/uc?export=view&id=1PT3Y_cGoJ_xFmIvziVgrM0phI_gAUO-N", 
+            "https://drive.google.com/uc?export=view&id=1OgiSBXRSScRyCuvic2wYcboR5L-Kzlgm", 
+            "https://drive.google.com/uc?export=view&id=1uYIF0yVG9pjsNooJ7dDggKS4zZ8oG2Fq", 
+            "https://drive.google.com/uc?export=view&id=1qTR1eH-54q12r-irP8Xu0CSIS5LjnKAq", 
+            "https://drive.google.com/uc?export=view&id=1qUbrY1AFBlani--Bn0kucrccoe1l4-TC", 
+            "https://drive.google.com/uc?export=view&id=1-MI9FVczXP6XlYEBvclpw4O_QoDl73lL",
+            "https://drive.google.com/uc?export=view&id=1sktJ5tX9_0tLLo4SdI4s3Hr-dKd9ARLY", 
+            "https://drive.google.com/uc?export=view&id=10qwIkHuLV61btVtTcdI06tE8CtuufV8L", 
+            "https://drive.google.com/uc?export=view&id=1xnRO-ijZAnlHS2Hq2WrNHWO_KgCMeRB0", 
+            "https://drive.google.com/uc?export=view&id=13S16_-aExQ02g87pFkoNFIK5NMtwvu89", 
+            "https://drive.google.com/uc?export=view&id=1K3_meeMXK2vrAORYmDVi9ilCmdE5ABqv", 
+            "https://drive.google.com/uc?export=view&id=1QQCCMjZC3iU1BeMByrtiTACqwgR_f1lm", 
+            "https://drive.google.com/uc?export=view&id=1_uVflCplCzI1_0epqSp5T2dJUD42S-Bx", 
+            "https://drive.google.com/uc?export=view&id=1sq5c4EUqT_mLCLFgRDR3Z7IQax3lEbWy", 
+            "https://drive.google.com/uc?export=view&id=1D18mfYTAR2w08v3zd9_cLo4XR_hXXu5m", 
         ]
         data_list = [
             {
@@ -1008,30 +1008,30 @@ elif menu == "Departemen MIKFES":
 elif menu == "Departemen Eksternal":
     def DepartemenEksternal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1dv3HPu15RVFqPYWAh_BnfZWSW4V9cLtm", #Bang Arafi Ramadhan Maulana
-            "https://drive.google.com/uc?export=view&id=1tt7ZQsEgZbLdD1TN2IrIQKKmeMRbOoiV", #Kak Yohana Manik
-            "https://drive.google.com/uc?export=view&id=1Xw3xqX5LZX7UhXI-DNYy08BMjfIsft2z", #Kak Ratu Keisha Jasmine Deanova
-            "https://drive.google.com/uc?export=view&id=1R5vtW-Op6yjfyDROlIBNKNmBVt0tDFdX", #Kak Arini Puteri Elandra
-            "https://drive.google.com/uc?export=view&id=1MMy90BKupObyILsDyVVrgXR3qM-U_Cvc", #Bang Arya Muda Siregar
-            "https://drive.google.com/uc?export=view&id=1_QNbS9XiX8G9tkIFcWsJzxJcCjI8w_H1", #Kak Khoirul Muttoharoh
-            "https://drive.google.com/uc?export=view&id=1QWn0sPm00ajxA7TZ5ZJ4SrzENYRkZLH1", #Kak Lutfia Aisyah Putri
-            "https://drive.google.com/uc?export=view&id=1rEQ2DfyHqKDaNejg7orapgBl03bBSRct", #Kak Nabyla Sharfina
-            "https://drive.google.com/uc?export=view&id=1XF6E0nQC-thfrpLG7daREISya9cxh01L", #Bang Syahrialdi Rachim Akbar
-            "https://drive.google.com/uc?export=view&id=1OMa7XT6YAm_O38qaIHl_Ops9O0jiZc5R", #Kak Dea Mutia Risani
-            "https://drive.google.com/uc?export=view&id=1HpdYPHSgXicaKhUeWMl_QAWpQYQUb4d-", #Kak Cindy Laura Manik
-            "https://drive.google.com/uc?export=view&id=1r4BnVO30MwoHEX24WUbHtx4xr8GLw8JK", #Kak Dea Amanda
-            "https://drive.google.com/uc?export=view&id=17WatBmu-7YXpE5h77pbXcOck3SDJrbpe", #Bang Desman Velius Halawa
-            "https://drive.google.com/uc?export=view&id=1eNKOO53FdaVEKf1cACl9qMFooYBY64F2", #Kak Devyna Sonya Palupi Sanjaya
-            "https://drive.google.com/uc?export=view&id=1p-U9DeiIkq5yqdm_yDaNUxOMoUlbj5kk", #Kak Luthfia Laila Ramadhani
-            "https://drive.google.com/uc?export=view&id=1I76oaBAW4dhOMgszMFdvWbge89dFwbyL", #Bang Irvan Alfaritzi
-            "https://drive.google.com/uc?export=view&id=1tLJFIBvFDJFKQyxZ_gRJn_C5X1FHvsa7", #Bang Aditya Taufiqurrohman 
-            "https://drive.google.com/uc?export=view&id=1653zQLkclgL0xG797Bqs--UKw7VCGE9Y", #Kak Fathya Intami Gusda
-            "https://drive.google.com/uc?export=view&id=1aqrXY2UM9A8NDKXV02ndq29izRqyzV9l", #Kak Khazanatil Ilmi
-            "https://drive.google.com/uc?export=view&id=1lbK7pfgP6y9tSd5zYNyO-NjTQiJN_BUd", #Kak Melinza Nabila
-            "https://drive.google.com/uc?export=view&id=1v95jHmHII1TDhc3fbFWPYmmFYPZIV4L5", #Kak Nayla Shafira Roza
-            "https://drive.google.com/uc?export=view&id=10FcgJ1Cu8HAaPPSp2el-bii5rbC7fUZW", #Kak Nurul Izzah Istiqomah
-            "https://drive.google.com/uc?export=view&id=13hCKcbRoKhzZrqdltFD2pxheH3ZZy0YM", #Bang Qois Olifio
-            "https://drive.google.com/uc?export=view&id=1cI7kxa59RQvt4lXIIKYth82H0izlNn1P", #Kak Tarisya hidayatul rahmi
+            "https://drive.google.com/uc?export=view&id=1dv3HPu15RVFqPYWAh_BnfZWSW4V9cLtm",
+            "https://drive.google.com/uc?export=view&id=1tt7ZQsEgZbLdD1TN2IrIQKKmeMRbOoiV", 
+            "https://drive.google.com/uc?export=view&id=1Xw3xqX5LZX7UhXI-DNYy08BMjfIsft2z", 
+            "https://drive.google.com/uc?export=view&id=1R5vtW-Op6yjfyDROlIBNKNmBVt0tDFdX", 
+            "https://drive.google.com/uc?export=view&id=1MMy90BKupObyILsDyVVrgXR3qM-U_Cvc", 
+            "https://drive.google.com/uc?export=view&id=1_QNbS9XiX8G9tkIFcWsJzxJcCjI8w_H1", 
+            "https://drive.google.com/uc?export=view&id=1QWn0sPm00ajxA7TZ5ZJ4SrzENYRkZLH1", 
+            "https://drive.google.com/uc?export=view&id=1rEQ2DfyHqKDaNejg7orapgBl03bBSRct", 
+            "https://drive.google.com/uc?export=view&id=1XF6E0nQC-thfrpLG7daREISya9cxh01L", 
+            "https://drive.google.com/uc?export=view&id=1OMa7XT6YAm_O38qaIHl_Ops9O0jiZc5R", 
+            "https://drive.google.com/uc?export=view&id=1HpdYPHSgXicaKhUeWMl_QAWpQYQUb4d-", 
+            "https://drive.google.com/uc?export=view&id=1r4BnVO30MwoHEX24WUbHtx4xr8GLw8JK", 
+            "https://drive.google.com/uc?export=view&id=17WatBmu-7YXpE5h77pbXcOck3SDJrbpe", 
+            "https://drive.google.com/uc?export=view&id=1eNKOO53FdaVEKf1cACl9qMFooYBY64F2", 
+            "https://drive.google.com/uc?export=view&id=1p-U9DeiIkq5yqdm_yDaNUxOMoUlbj5kk", 
+            "https://drive.google.com/uc?export=view&id=1I76oaBAW4dhOMgszMFdvWbge89dFwbyL", 
+            "https://drive.google.com/uc?export=view&id=1tLJFIBvFDJFKQyxZ_gRJn_C5X1FHvsa7", 
+            "https://drive.google.com/uc?export=view&id=1653zQLkclgL0xG797Bqs--UKw7VCGE9Y", 
+            "https://drive.google.com/uc?export=view&id=1aqrXY2UM9A8NDKXV02ndq29izRqyzV9l", 
+            "https://drive.google.com/uc?export=view&id=1lbK7pfgP6y9tSd5zYNyO-NjTQiJN_BUd", 
+            "https://drive.google.com/uc?export=view&id=1v95jHmHII1TDhc3fbFWPYmmFYPZIV4L5", 
+            "https://drive.google.com/uc?export=view&id=10FcgJ1Cu8HAaPPSp2el-bii5rbC7fUZW", 
+            "https://drive.google.com/uc?export=view&id=13hCKcbRoKhzZrqdltFD2pxheH3ZZy0YM", 
+            "https://drive.google.com/uc?export=view&id=1cI7kxa59RQvt4lXIIKYth82H0izlNn1P", 
         ]
         data_list = [
             {
@@ -1305,21 +1305,21 @@ elif menu == "Departemen Eksternal":
 if menu == "Departemen Internal":
     def Departemen_Internal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=19n6P6jdwse1v96lqqs9xLWDCQrMaJ5BD", #Kak Rani Puspita sari
-            "https://drive.google.com/uc?export=view&id=1BPcUsQpAszXtCTwOqNT2eSK_-EqUD5iE", #Kak Renta Siahaan
-            "https://drive.google.com/uc?export=view&id=1XQEOM5LlyS3kOIKsprg2RGz74K9jo1Cy", #Kak Salwa Farhanatussaidah
-            "https://drive.google.com/uc?export=view&id=1sER4avmUZDHkzioBR2k8iX4L6ZGOCJnK", #Bang Rendi Alexander Hutagalung
-            "https://drive.google.com/uc?export=view&id=195h-F76jnEHE1dZWPPmUMtZiSnV-Dn6r", #Kak Azzahra Putri Kamilah
-            "https://drive.google.com/uc?export=view&id=1UQ8ST_IfFzO9p0dSftQsOZjaQfyH-L6R", #Bang Haikal Fransisko Simbolon
-            "https://drive.google.com/uc?export=view&id=1Dvy_MKX17ZK6jaUGpIJmBofVjIoBa1oO", #Kak Iqfina Haula Halika
-            "https://drive.google.com/uc?export=view&id=1YWSTeRU7aHdq2e65wUaJwnCFLeuya-qj", #Kak May Talitha Dahlia
-            "https://drive.google.com/uc?export=view&id=1kpe-tUGr9xwXCDb5QDyWYcPEgEZtyP7A", #Bang Muhammad Naufal Alghani
-            "https://drive.google.com/uc?export=view&id=1cGG5WF909vJHeIIZ7kkFJUS5bJy5nypS", #Bang Zailani Satria
-            "https://drive.google.com/uc?export=view&id=1mKqL4iQhx3EBj6kshzwKHImNUHQd_fSp", #Kak Hanna Gresia Sinaga
-            "https://drive.google.com/uc?export=view&id=1wY7gOrGM0gokiTZjhJbAlXHweZN_Kik6", #Kak Keren Marito Lumban Gaol
-            "https://drive.google.com/uc?export=view&id=15v4AzWJCoEKOTld9DxcwFMKijQ2ONi7S", #Bang Muhammad Hanif Dzaky Arifin
-            "https://drive.google.com/uc?export=view&id=1KaNNnqkX0SrDmuIt2UZJpVWkc1q8oyhg", #Kak Sarah Wasti
-            "https://drive.google.com/uc?export=view&id=1sc03EPrIavPCaAmgmzZmVOZ3JLTxN66a", #Kak Zahra Putri Salsabilla
+            "https://drive.google.com/uc?export=view&id=19n6P6jdwse1v96lqqs9xLWDCQrMaJ5BD", 
+            "https://drive.google.com/uc?export=view&id=1BPcUsQpAszXtCTwOqNT2eSK_-EqUD5iE", 
+            "https://drive.google.com/uc?export=view&id=1XQEOM5LlyS3kOIKsprg2RGz74K9jo1Cy", 
+            "https://drive.google.com/uc?export=view&id=1sER4avmUZDHkzioBR2k8iX4L6ZGOCJnK", 
+            "https://drive.google.com/uc?export=view&id=195h-F76jnEHE1dZWPPmUMtZiSnV-Dn6r", 
+            "https://drive.google.com/uc?export=view&id=1UQ8ST_IfFzO9p0dSftQsOZjaQfyH-L6R", 
+            "https://drive.google.com/uc?export=view&id=1Dvy_MKX17ZK6jaUGpIJmBofVjIoBa1oO", 
+            "https://drive.google.com/uc?export=view&id=1YWSTeRU7aHdq2e65wUaJwnCFLeuya-qj", 
+            "https://drive.google.com/uc?export=view&id=1kpe-tUGr9xwXCDb5QDyWYcPEgEZtyP7A", 
+            "https://drive.google.com/uc?export=view&id=1cGG5WF909vJHeIIZ7kkFJUS5bJy5nypS", 
+            "https://drive.google.com/uc?export=view&id=1mKqL4iQhx3EBj6kshzwKHImNUHQd_fSp", 
+            "https://drive.google.com/uc?export=view&id=1wY7gOrGM0gokiTZjhJbAlXHweZN_Kik6", 
+            "https://drive.google.com/uc?export=view&id=15v4AzWJCoEKOTld9DxcwFMKijQ2ONi7S", 
+            "https://drive.google.com/uc?export=view&id=1KaNNnqkX0SrDmuIt2UZJpVWkc1q8oyhg", 
+            "https://drive.google.com/uc?export=view&id=1sc03EPrIavPCaAmgmzZmVOZ3JLTxN66a", 
         ]
         data_list = [
             {
@@ -1494,17 +1494,17 @@ if menu == "Departemen Internal":
 if menu == "Departemen SSD":
     def Departemen_SSD():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1c28aN4C_N_9aZargajCrChf5T3kkLAUT", #Bang Danang Hilal Kurniawan
-            "https://drive.google.com/uc?export=view&id=1YpuQT0WGacnFYzD7QuMpPbhtB5vJWzk7", #Kak Syalaisha Andina Putriansyah
-            "https://drive.google.com/uc?export=view&id=1yYwyWDVXZKhhmI6II3OcT00n191xO7U4", #Bang Ahmad Rizqi
-            "https://drive.google.com/uc?export=view&id=1qssPqDz8bALxVhMm-9JF_o-EsIQhRMKE", #Kak Anadia Carana
-            "https://drive.google.com/uc?export=view&id=1BfQNQrsvgpE0vKgfhSJ1sfe9_63nt2My", #Kak Aprilia Dewi Hutapea
-            "https://drive.google.com/uc?export=view&id=1CHB-7B2Iw9MIUi6z1zMIJmChlkqQgb82", #Kak Nabila Zakiyah Zahra
-            "https://drive.google.com/uc?export=view&id=1NPduj9Hk38oAJ4jZqEicZaDPC5_AYWZ0", #Bang Dhafin Razaqa Luthfi
-            "https://drive.google.com/uc?export=view&id=1Jgg-bztd0qbS50tIG-7IuK_ouOrax0Mj", #Kak Devi Rahayu
-            "https://drive.google.com/uc?export=view&id=1rufCAtAWPw7hYMXiX_7ZT0vQwP5JeQNN", #Kak Enggli Rahmadhani
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Kak Hanifah Inaya Sani
-            "https://drive.google.com/uc?export=view&id=1AHsXG7i16c-mVIXVB4LO2GXBCnuVc3Kq", #Kak Nydia Manda Putri
+            "https://drive.google.com/uc?export=view&id=1c28aN4C_N_9aZargajCrChf5T3kkLAUT", 
+            "https://drive.google.com/uc?export=view&id=1YpuQT0WGacnFYzD7QuMpPbhtB5vJWzk7", 
+            "https://drive.google.com/uc?export=view&id=1yYwyWDVXZKhhmI6II3OcT00n191xO7U4", 
+            "https://drive.google.com/uc?export=view&id=1qssPqDz8bALxVhMm-9JF_o-EsIQhRMKE", 
+            "https://drive.google.com/uc?export=view&id=1BfQNQrsvgpE0vKgfhSJ1sfe9_63nt2My", 
+            "https://drive.google.com/uc?export=view&id=1CHB-7B2Iw9MIUi6z1zMIJmChlkqQgb82", 
+            "https://drive.google.com/uc?export=view&id=1NPduj9Hk38oAJ4jZqEicZaDPC5_AYWZ0", 
+            "https://drive.google.com/uc?export=view&id=1Jgg-bztd0qbS50tIG-7IuK_ouOrax0Mj", 
+            "https://drive.google.com/uc?export=view&id=1rufCAtAWPw7hYMXiX_7ZT0vQwP5JeQNN", 
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", 
+            "https://drive.google.com/uc?export=view&id=1AHsXG7i16c-mVIXVB4LO2GXBCnuVc3Kq", 
         ]
         data_list = [
             {
@@ -1635,24 +1635,24 @@ if menu == "Departemen SSD":
 if menu == "Departemen Medkraf":
     def Departemen_Medkraf():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1RSO8nBnBms5z0f9-ZJ1vayDrv0jRKL6E", #Kak Patricia Leondrea Diajeng Putri
-            "https://drive.google.com/uc?export=view&id=1D3N7eNxHIiRqNr_9JWXy9pPjZXBcZsBD", #Kak Rahma Neliyana
-            "https://drive.google.com/uc?export=view&id=1YFU2rH3mHd08KfMx-N7RQQWQ7hfA1-rB", #Bang Khoirul Anam
-            "https://drive.google.com/uc?export=view&id=1N8Gb62waeSyk79tiXTcNnTOhv54nOVCh", #Bang Labo John Noel Napitupulu
-            "https://drive.google.com/uc?export=view&id=1yeznLoo6K2CGA1v4EweoYypJpGfNwEt_", #Bang Rafi Diva Efangga
-            "https://drive.google.com/uc?export=view&id=100ONpvG6mhntC24eCfzehBUus60oTb2T", #Kak Refa Destiny Pranata
-            "https://drive.google.com/uc?export=view&id=1gq5aDVeOmrbzbudjZdBlGfVtSEWaiaTb", #Kak Try Yani Rizki Nur Rohmah
-            "https://drive.google.com/uc?export=view&id=1AEJ1XnVPFugCUGYq3VOsCRymlNhrDITU", #Kak Aliya Ammara Ananta
-            "https://drive.google.com/uc?export=view&id=1AjoI0KeVPY979dCnM5BCSDY4H_n24UGz", #Kak Donna Maya Puspita
-            "https://drive.google.com/uc?export=view&id=1b3zt-Dh8gKHEDvr8sLoBiAFe9jmjGBp8", #Kak Feby Angelina
-            "https://drive.google.com/uc?export=view&id=1ncDn6Vf9pohInOXNhmUn_-oOM0pTwkQw", #Kak Hafsa Fazila Arradhi
-            "https://drive.google.com/uc?export=view&id=1f8mQheTVoVjBprk64NSe1AmQmXb6eRrm", #Kak Nayla Salsabila Fathianisa
-            "https://drive.google.com/uc?export=view&id=1CAfPOdQZ4p_d5Uiez_ScaQkln4vvSJQO", #Kak Sania Dwi Ayu Lestari
-            "https://drive.google.com/uc?export=view&id=1QWh_hZoaXsS0WZ88fWhTsf821Qz0kf-5", #Bang Akmal Faiz Abdillah
-            "https://drive.google.com/uc?export=view&id=1g8vaPR2juJ3WXlQwd88hdKq1yHwYU8Fy", #Kak Raihana Adelia Putri
-            "https://drive.google.com/uc?export=view&id=1E6Vf3d1ptwBkc8xjFRdc-Vgs9AGTMxnv", #Kak Citra Agustin
-            "https://drive.google.com/uc?export=view&id=1B5DijAV1vWfW2HBhdoL_bX-1aWxoLxYd", #kak Eigi Artamevia
-            "https://drive.google.com/uc?export=view&id=1rSajHs8zZOlrEzkoVQmWni3nXlPSIhFD", #Kak Romauli Oktavia Silaban
+            "https://drive.google.com/uc?export=view&id=1RSO8nBnBms5z0f9-ZJ1vayDrv0jRKL6E", 
+            "https://drive.google.com/uc?export=view&id=1D3N7eNxHIiRqNr_9JWXy9pPjZXBcZsBD", 
+            "https://drive.google.com/uc?export=view&id=1YFU2rH3mHd08KfMx-N7RQQWQ7hfA1-rB", 
+            "https://drive.google.com/uc?export=view&id=1N8Gb62waeSyk79tiXTcNnTOhv54nOVCh", 
+            "https://drive.google.com/uc?export=view&id=1yeznLoo6K2CGA1v4EweoYypJpGfNwEt_", 
+            "https://drive.google.com/uc?export=view&id=100ONpvG6mhntC24eCfzehBUus60oTb2T", 
+            "https://drive.google.com/uc?export=view&id=1gq5aDVeOmrbzbudjZdBlGfVtSEWaiaTb", 
+            "https://drive.google.com/uc?export=view&id=1AEJ1XnVPFugCUGYq3VOsCRymlNhrDITU", 
+            "https://drive.google.com/uc?export=view&id=1AjoI0KeVPY979dCnM5BCSDY4H_n24UGz", 
+            "https://drive.google.com/uc?export=view&id=1b3zt-Dh8gKHEDvr8sLoBiAFe9jmjGBp8", 
+            "https://drive.google.com/uc?export=view&id=1ncDn6Vf9pohInOXNhmUn_-oOM0pTwkQw", 
+            "https://drive.google.com/uc?export=view&id=1f8mQheTVoVjBprk64NSe1AmQmXb6eRrm", 
+            "https://drive.google.com/uc?export=view&id=1CAfPOdQZ4p_d5Uiez_ScaQkln4vvSJQO", 
+            "https://drive.google.com/uc?export=view&id=1QWh_hZoaXsS0WZ88fWhTsf821Qz0kf-5", 
+            "https://drive.google.com/uc?export=view&id=1g8vaPR2juJ3WXlQwd88hdKq1yHwYU8Fy", 
+            "https://drive.google.com/uc?export=view&id=1E6Vf3d1ptwBkc8xjFRdc-Vgs9AGTMxnv",
+            "https://drive.google.com/uc?export=view&id=1B5DijAV1vWfW2HBhdoL_bX-1aWxoLxYd", 
+            "https://drive.google.com/uc?export=view&id=1rSajHs8zZOlrEzkoVQmWni3nXlPSIhFD",
           
         ]
         data_list = [
@@ -1857,3 +1857,4 @@ if menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_Medkraf()
+
