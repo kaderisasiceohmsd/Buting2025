@@ -1653,7 +1653,7 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1ikbWDj_M8KuJAnlKkA-Onh7zC9sPql51",
             "https://drive.google.com/uc?export=view&id=1NkaKY-N_ly0H1bJcZuNiGNy7rDsGdKvL",
             "https://drive.google.com/uc?export=view&id=1Qvwb0LP_wvLqIl5mW7ZvP4cA4W4xwATm",
-            "https://drive.google.com/uc?export=view&id=11dgNH7-lBgxCJ5v8SxAfQNHjXUvK4v82",
+            "https://drive.google.com/uc?export=view&id=11dgNH7-lBgxCJ5v8SxAfQNHjXUvK4v82q",
             "https://drive.google.com/uc?export=view&id=1bc3CbVvjfLcjeB9kOY7K2UCYZhzRYS6T",
         ]
         data_list = [
