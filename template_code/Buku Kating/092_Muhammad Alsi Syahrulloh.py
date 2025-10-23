@@ -7,7 +7,7 @@ from io import BytesIO
 st.markdown("""<style>.centered-title {text-align: center;}</style>""",unsafe_allow_html=True)
 st.markdown("<h1 class='centered-title'>BUKU KATING</h1>", unsafe_allow_html=True)
 
-# bagian sini jangan diubah
+# bagian sini jangan diubahh
 def streamlit_menu():
     selected = option_menu(
         menu_title=None,
