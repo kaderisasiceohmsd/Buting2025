@@ -102,8 +102,13 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">JACOBI.</div>""",
-            unsafe_allow_html=True,
+            "<h1 class='centered-title'>------------</h1>", unsafe_allow_html=True
+        )
+        st.markdown(
+            "<h1 class='centered-title'>JACOBI</h1>", unsafe_allow_html=True
+        )
+        st.markdown(
+            "<h1 class='centered-title'>------------</h1>", unsafe_allow_html=True
         )
         st.write(""" """)
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1VJ0tibklHIor5Z6YArL-zoH7giaXbxFB"
