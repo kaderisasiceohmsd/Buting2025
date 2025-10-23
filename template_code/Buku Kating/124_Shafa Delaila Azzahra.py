@@ -234,7 +234,7 @@ if menu == "Baleg":
                 "alamat": "Kedaton",
                 "hobbi": "Makan lontong sate",
                 "sosmed": "@_.dheamelia",
-                "kesan": "Kak dhea gokil",  
+                "kesan": "Kak dhea asik banget orangnyaa",  
                 "pesan":" Sukses terus kakk!"# 1
             },
             {
