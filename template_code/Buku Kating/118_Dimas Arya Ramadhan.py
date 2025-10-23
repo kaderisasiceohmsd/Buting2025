@@ -153,7 +153,7 @@ if menu == "Kesekjenan":
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
-                "nim": "122450000",
+                "nim": "122450001",
                 "umur": "18",
                 "asal": "Bekasi",
                 "alamat": "Gg.sakum",
