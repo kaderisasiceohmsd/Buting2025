@@ -1500,17 +1500,18 @@ if menu == "Departemen Internal":
 if menu == "Departemen SSD":
     def ssd():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1vF1hA0-btPNP7YOOFpmeyNd4IjlT7hfB",
-            "https://drive.google.com/uc?export=view&id=1n8LEfPPTaKRXx4wDSIO8RuUzFCDgDfPy",
-            "https://drive.google.com/uc?export=view&id=16Ukh6QWA61zZMdDhLJfa-F1N7L6EnOgP",
-            "https://drive.google.com/uc?export=view&id=1MuPVzLa2DdBBRh0KVZ0nXgF_CC-k84Ml",
-            "https://drive.google.com/uc?export=view&id=1euB3vvZKGDLe8akZrlgoIFaGZz_faH70",
-            "https://drive.google.com/uc?export=view&id=1W_u0vM4im4on-GUcI5QQ0Ilv2PcGAyTq",
-            "https://drive.google.com/uc?export=view&id=1Q16q6RzdagMpBRB6D_LhZpvc_dNs1KtH",
-            "https://drive.google.com/uc?export=view&id=1tE-3Bvja0JESWG1WW23mI94xTXw7CX74",
-            "https://drive.google.com/uc?export=view&id=1_ABkFHRUUMjpKVwTvMn1RroFiq8CGLpY",
-            "https://drive.google.com/uc?export=view&id=1XG6zE_fOPJ7XTZEyZcg1Kp-UwVL9scnv",
-            "https://drive.google.com/uc?export=view&id=1vcKGlXpUfDYkoRLhOHaoLDoPLa7eVRMx",
+           "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+         
         ]
         data_list = [
             {
