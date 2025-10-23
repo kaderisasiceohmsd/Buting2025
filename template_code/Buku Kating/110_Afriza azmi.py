@@ -48,7 +48,7 @@ def streamlit_menu():
         },
     )
     return selected
-
+    
 @st.cache_data
 def load_image(url):
     response = requests.get(url)
