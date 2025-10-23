@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1bWBtoGDU4WhTYsugWklLWWDm-aHU1YVv",
-            "https://drive.google.com/uc?export=view&id=1bWBtoGDU4WhTYsugWklLWWDm-aHU1YVv",
-            "https://drive.google.com/uc?export=view&id=1bWBtoGDU4WhTYsugWklLWWDm-aHU1YVv",
-            "https://drive.google.com/uc?export=view&id=1bWBtoGDU4WhTYsugWklLWWDm-aHU1YVv",
-            "https://drive.google.com/uc?export=view&id=1bWBtoGDU4WhTYsugWklLWWDm-aHU1YVv",
-            "https://drive.google.com/uc?export=view&id=1bWBtoGDU4WhTYsugWklLWWDm-aHU1YVv",
+            "https://drive.google.com/file/d/1rhyBIj-JSnlp5gSjNATcwSQZFVE4SztW/view?usp=sharing",
+            "https://drive.google.com/file/d/1xSmY4gzXd-RTFyZq2BVkEzKMYf0uqefz/view?usp=drive_link",
+            "https://drive.google.com/file/d/1C9JwAErAf7O6pqzYJImsPIYlNWXBBtbE/view?usp=drive_link",
+            "https://drive.google.com/file/d/17vEujPlAXKfR2z17VwaAEuQ_Xn4kBbU8/view?usp=drive_link",
+            "https://drive.google.com/file/d/1mokkAuIQlIna_TRCS5KnC7iSBvLrHEx0/view?usp=drive_link",
+            "https://drive.google.com/file/d/1xEfMcNiDD45l1UZg6oagm2pc5ei3t_f5/view?usp=drive_link",
         ]
         data_list = [
             {
@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Beli donat kentang",
                 "sosmed": "@erendraa",
-                "kesan": "keren banget banggg bisa jadi ",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
+                "kesan": "keren banget, bisa mengayomi dan memberi contoh yang baik sebagai pemimpin  ",  
+                "pesan":"semangat kuliahnya, jangan banyak begadang bang!"
             },
             {
                  "nama": "Johannes Krisjon Silitonga",
@@ -126,30 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Baca buku dasar-dasar",
                 "sosmed": "@johannneskrijnnn",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
-            },
-            {
-                "nama": "Eksanty F. Sukma Islamiaty",
-                "nim": "122450001",
-                "umur": "19",
-                "asal":"Rote, NTT",
-                "alamat": "Rajabasa",
-                "hobbi": "Baca buku, suka pramuka",
-                "sosmed": "@eksantyfebriana",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
-            },
-            {
-                "nama": "Farhanum Afifah Ardiansyah",
-                "nim": "122450056",
-                "umur": "21",
-                "asal":"Padang, Sumatera Barat",
-                "alamat": "Sukarame",
-                "hobbi": "Tidur",
-                "sosmed": "@farahanumafifah",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
+                "kesan": "abang nya asik, suka bercanda kalau ketemu jadi membuat suasana ga canggung ",  
+                "pesan":"semoga langgeng ya bang!!"
             },
             {
                "nama": "Elisabeth Claudia Simanjuntak",
@@ -159,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Airest Kost",
                 "hobbi": "Siram shopee",
                 "sosmed": "@celisabeth_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
+                "kesan": "Kakak ini asik, lucu, kalau ketemu kakanya pasti yang kaya ceria bgt gitu",  
+                "pesan":"semangat kuliahnya kakkk, semoga langgeng ya!"
             },
             {
                "nama": "Syadza Puspadari Azhar",
@@ -170,9 +148,32 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
+                "kesan": "kakanya baik, dan juga pengertian waktu wawancara kakanya takut kami sakit",  
+                "pesan":"jaga kesehatan ya kakk, jangan sampe sakit"
             },
+            {
+                "nama": "Eksanty F. Sukma Islamiaty",
+                "nim": "122450001",
+                "umur": "19",
+                "asal":"Rote, NTT",
+                "alamat": "Rajabasa",
+                "hobbi": "Baca buku, suka pramuka",
+                "sosmed": "@eksantyfebriana",
+                "kesan": "Kaka nya asik, asal ketemu di ged f pasti diteriakain sodara ester",  
+                "pesan":"tetap jadi orang yang ceria ya kak"
+            },
+            {
+                "nama": "Farhanum Afifah Ardiansyah",
+                "nim": "122450056",
+                "umur": "21",
+                "asal":"Padang, Sumatera Barat",
+                "alamat": "Sukarame",
+                "hobbi": "Tidur",
+                "sosmed": "@farahanumafifah",
+                "kesan": "Kaka nya cantik banget, kalau senyum matanya ilang jadi imut",  
+                "pesan":"semnagat kuliah ya kak"
+            },
+            
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
@@ -358,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1QD9jR10v3DFnW_2PM-Mue8jRzU0e5Nrq",
-            "https://drive.google.com/uc?export=view&id=1l5YwF5iR_zGV-lMiZ8zwHUYYUcL9duis",
-            "https://drive.google.com/uc?export=view&id=1hoIUj6zGLVZQnH4Ik6W87W4s89fZQzsM",
-            "https://drive.google.com/uc?export=view&id=1O9T7tJ7VVjyWcOKYObaRSP7FKeJFDoFk",
+            "https://drive.google.com/file/d/1caD2ghFiCmmgf-8zwFzttqX34SwFnift/view?usp=drive_link",
+            "https://drive.google.com/file/d/1jlszDhveixiuVEK6-MCOvrQjm5MJjTh4/view?usp=drive_link",
+            "https://drive.google.com/file/d/1bWBtoGDU4WhTYsugWklLWWDm-aHU1YVv/view?usp=drive_link",
+            "https://drive.google.com/file/d/1ZSPLT6X2X-Ux_XgWTdLOTIn2O9txk2Kj/view?usp=drive_link",
         ]
         data_list = [
             {
@@ -372,30 +373,8 @@ if menu == "Senator":
                 "alamat": "-",
                 "hobbi": "Mancing",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "abangnya asik,humble, suka perunggu juga yoai",  
-                "pesan":"tetep humble bang!"# 1
-            },
-            {
-              "nama": "Lia Hana Ichisassmita",
-                "nim": "123450089",
-                "umur": "20",
-                "asal":"Jakarta",
-                "alamat": "Belakang Indomaret Belwis",
-                "hobbi": "Rebahan",
-                "sosmed": "@lia.h_264",
-                "kesan": "Kaknya inspiratif banget, bikin pengen berkembang terus!",  
-                "pesan":"Terima kasih udah jadi role model yang luar biasa kak"  
-            },
-            {
-                "nama": "Fathinah Nur Azizah",
-                "nim": "123450072",
-                "umur": "20",
-                "asal":"Jakarta",
-                "alamat": "Asrama TB 1",
-                "hobbi": "Mendengarkan musik sambil jalan",
-                "sosmed": "@fathinahnazzh",
-                "kesan": "kakaknya asik seru",  
-                "pesan":"Semoga selalu tenang dan sabar hadapi dunia perkuliahan"
+                "kesan": "jokes abangnya lucu, waktu wawancara abangnya buat suasana ga canggung",  
+                "pesan":"tetep lucu ya bang"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -405,9 +384,32 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Mendengarkan Musik",
                 "sosmed": "@nadyaanjani",
-                "kesan": "kakaknya baik, lucu, imup",  
-                "pesan":"tetep humble kak!"
+                "kesan": "kaka nya cantik bgt, vibesnya kaya cewe lemah lembutt gitu",  
+                "pesan":"tetep baik hati ya kak!"
             },
+             {
+                "nama": "Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal":"Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi": "Mendengarkan musik sambil jalan",
+                "sosmed": "@fathinahnazzh",
+                "kesan": "kakanya cantik, keliatannya baik banget dan alim gitu, dan kaya cewe tenang yang ga gampang panik",  
+                "pesan":"tetap jadi orang baik ya kak"
+            },
+            {
+              "nama": "Lia Hana Ichisassmita",
+                "nim": "123450089",
+                "umur": "20",
+                "asal":"Jakarta",
+                "alamat": "Belakang Indomaret Belwis",
+                "hobbi": "Rebahan",
+                "sosmed": "@lia.h_264",
+                "kesan": "vibes kaka nya kaya independent women, keliatan wibawanya gitu",  
+                "pesan":"Tetap jadi cewe yang mandiri ya kak"  
+            },
+            
         ]
         display_images_with_data(gambar_urls, data_list)
     Senator()
