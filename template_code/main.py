@@ -73,8 +73,8 @@ Mahasiswa10 = st.Page(
 )
 
 # Tools Pages
-ANOVAODYSSEYEXPERTEDITION = st.Page("tools/ANOVA ODYSSEY - EXPERT EDITION.py", title="ANOVA ODYSSEY - EXPERT EDITION", icon=":material/search:")
-WeatherForgeClimateSimulationLab = st.Page("tools/WeatherForge Climate Simulation Lab.py", title="WeatherForge Climate Simulation Lab", icon=":material/search:")
+KREASI = st.Page("tools/KREASI.py", title="WeatherForge: Climate Simulation Lab", icon=":material/search:")
+KREASII = st.Page("tools/KREASII.py", title="ANOVA ODYSSEY", icon=":material/search:")
 
 # Navigasi utama
 if st.session_state.pindah:
@@ -93,7 +93,7 @@ if st.session_state.pindah:
                 Mahasiswa9,
                 Mahasiswa10,
             ],
-            "Try Me !!": [ANOVA ODYSSEY EXPERT EDITION, WeatherForge Climate Simulation Lab],
+            "Try Me !!": [KREASI, KREASII],
         }
     )
 else:
