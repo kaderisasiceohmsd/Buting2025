@@ -172,7 +172,7 @@ if menu == "Kesekjenan":
                 "sosmed": "@farahanumafifahh",
                 "kesan": "Kakak nya lucu dan seru abiss",  
                 "pesan":"Sukses selalu kak"
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     Kesekjenan()
@@ -351,7 +351,7 @@ if menu == "Baleg":
                 "sosmed": "@nshaysk",
                 "kesan": "Kakak ini lucuu dan menyenangkan",  
                 "pesan":"Semangaat selaluu kak"
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     Baleg()
@@ -410,7 +410,7 @@ if menu == "Senator":
                 "sosmed": "@lia.h_264",
                 "kesan": "Kakaknya keren dan ternyata kakak nim aku",  
                 "pesan":"Semangat dan sukses terus kuliahnya kakak"
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     Senator()
@@ -1391,7 +1391,7 @@ if menu == "Departemen SSD":
                 "sosmed": "@nydiaaptr_",
                 "kesan": "Kakak baik, lucu dan seru",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
+            }
             
         ]
         display_images_with_data(gambar_urls, data_list)
