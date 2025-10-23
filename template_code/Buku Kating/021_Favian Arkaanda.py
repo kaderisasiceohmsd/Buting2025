@@ -765,7 +765,7 @@ if menu == "Departemen MIKFES":
         data_list = [
             {
                 "nama": "Randa Andriana Putra",
-                "nim": "122440083",
+                "nim": "122450083",
                 "umur": "22",
                 "asal": "Serang, Banten",
                 "alamat": "Sukarame",
@@ -782,8 +782,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Nangka 3",
                 "hobbi": "Membaca Abstrak",
                 "sosmed": "@junitaa_0406",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "dari hobinya udh keliatan kalo kakak ini berpengetahuan luas, punya ambisi yang tinggi juga dalam hidupnya ",
+                "pesan": "Sehat selalu ya kak, semoga semua yang diinginkan bisa tercapai"
             },
             {
                 "nama": "Muhammad Regi Abdi Putra Amanta",
@@ -793,8 +793,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Permadani, Sukarame",
                 "hobbi": "Dengerin Musik",
                 "sosmed": "@mregiiii_",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "orang humble parah bang regi, sering ketemu di gedung f, tiap di sapa senyumnya ikhlas ",
+                "pesan": "Sehat terus ya bang regiii, semoga dipermudah segala urusannya"
             },
             {
                 "nama": "Aisyah Musrifah",
