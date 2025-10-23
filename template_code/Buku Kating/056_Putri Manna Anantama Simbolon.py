@@ -99,9 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1LpGnuNNc-SPFrKwnPeCfnNWteBb4C8D9",
+            "https://drive.google.com/uc?export=view&id=1amR6opUw0EW5e6b0sW1PFdZV66zV1-5j",
+            "https://drive.google.com/uc?export=view&id=1hYzsFWUvxyqgJLQ-Vgch4Nels2BE7la1",
+            "https://drive.google.com/uc?export=view&id=117l4iT9eix410fnWuMs778d3i6Q3yyxX",
+            "https://drive.google.com/uc?export=view&id=1XzvrWHbV6TMsO1tM4sdIqGyN_fEC4q1M",
+            "https://drive.google.com/uc?export=view&id=1A3Fum4PP4atmn_L5DWxH06axtJEkcXJ7",
         ]
         data_list = [
             {
@@ -140,5 +143,183 @@ if menu == "Kesekjenan":
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
+
+if menu == "Baleg":
+    def baleg():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1EOKRluD-0AOz-a6PpsMUoTAjF717YyBS",
+            "https://drive.google.com/uc?export=view&id=1Y0Xytey4toVb-mu3mlqWRfaT4YZZQ2ap",
+            "https://drive.google.com/uc?export=view&id=1-oE-AKSQ2U1kPSmyXiKbZmYpOl8_2C26",
+            "https://drive.google.com/uc?export=view&id=1bpkdyru0QR39NJqBXIP6toqSRneryMIn",
+            "https://drive.google.com/uc?export=view&id=1Wqc0oPulPeJOgMwTYt6W6fPDK_cJ-ceS",
+            "https://drive.google.com/uc?export=view&id=1nuFF0nU8gZKgXJ3PaYpkjEMlkhKrF4iw",
+            "https://drive.google.com/uc?export=view&id=1uIiU_SzWduVLaCpc7-NngxLPGIoJVHAm",
+            "https://drive.google.com/uc?export=view&id=1_dyDuyDBN9aiojvRpHHNsd_zb-EINqQ8",
+            "https://drive.google.com/uc?export=view&id=1mXAh0v82s-Q3by1171IVpPu2_9zrukDD",
+            "https://drive.google.com/uc?export=view&id=14TjSIj0EL7IfwbXT8pWVfWtRH7N_kM1a",
+            "https://drive.google.com/uc?export=view&id=19zxsjb5DPYrs_6i5Afv8VU7rErWBjJJi",
+            "https://drive.google.com/uc?export=view&id=1vRdzWTtPm-yAxF4OR6VeZkogTvrbIWpE",
+            "https://drive.google.com/uc?export=view&id=1sphRxPl6vORae0SOJ-KAbb0b82OciOx_",
+            "https://drive.google.com/uc?export=view&id=1ubFbv2qSFypF9rNiQ7t6g8sKPaqJlYYL",
+        ]
+        data_list = [
+            {
+                "nama": "Jeremia Susanto",
+                "nim": "122450022",
+                "umur": "21",
+                "asal":"Bandar Lampung",
+                "alamat": "Bandar Lampung",
+                "hobbi": "Yapping",
+                "sosmed": "@Jeremia_s_",
+                "kesan": "Kakaknya asik dan ramah.",
+                "pesan":"Sukses selalu untuk kuliahnya ya!"
+            },
+            {
+                "nama": "Dhea Amelia Putri",
+                "nim": "",
+                "umur": "20",
+                "asal":"Chiwidew, Jawa Barat",
+                "alamat": "Pesawaran",
+                "hobbi": "Pawat Piwit",
+                "sosmed": "@_.dheamelia",
+                "kesan": "Senang bisa kenal dengan kakak.",
+                "pesan":"Jangan lupa jaga kesehatan, kak."
+            },
+            {
+                "nama": "Anisa Fitriyani",
+                "nim": "122450019",
+                "umur": "19",
+                "asal":"Lubuk Linggau",
+                "alamat": "Pringsewu",
+                "hobbi": "Hafalin sandi Morse",
+                "sosmed": "@ansftynn_",
+                "kesan": "Orangnya seru dan baik banget.",
+                "pesan":"Semangat terus dan jangan mudah menyerah!"
+            },
+            {
+                "nama": "Mirzan Yusuf Rabbani",
+                "nim": "122450118",
+                "umur": "21",
+                "asal":"Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Tidur",
+                "sosmed": "@myrrinn",
+                "kesan": "Pembawaannya positif dan menyenangkan.",
+                "pesan":"Semoga kita bisa bertemu lagi."
+            },
+            {
+                "nama": "Feryadi Yulius",
+                "nim": "122450087",
+                "umur": "21",
+                "asal":"Bandung",
+                "alamat": "Way kandis",
+                "hobbi": "Baca buku",
+                "sosmed": "@fer_yulius",
+                "kesan": "Sangat berkesan, orangnya humble.",
+                "pesan":"Tetap jadi pribadi yang menginspirasi!"
+            },
+            {
+                "nama": "Renisha Putri Giani",
+                "nim": "122450079",
+                "umur": "22",
+                "asal":"Teluk, Bandar Lampung",
+                "alamat": "Teluk, Bandar Lampung",
+                "hobbi": "Tidur",
+                "sosmed": "@Renishapg",
+                "kesan": "Kakaknya asik dan ramah.",
+                "pesan":"Sukses selalu untuk kuliahnya ya!"
+            },
+            {
+                "nama": "Dharu Cahyoaji Sasongko",
+                "nim": "123450023",
+                "umur": "18",
+                "asal":"Way halim, Bandar Lampung",
+                "alamat": "Way halim, Bandar Lampung",
+                "hobbi": "Nyuci baju",
+                "sosmed": "@dhruchyo",
+                "kesan": "Senang bisa kenal dengan kakak.",
+                "pesan":"Jangan lupa jaga kesehatan, kak."
+            },
+            {
+                "nama": "Feby Wulandari",
+                "nim": "123450042",
+                "umur": "17",
+                "asal":"Bekasi",
+                "alamat": "Way huwi, Bandar Lampung",
+                "hobbi": "Main karambol",
+                "sosmed": "@fby.wlndr",
+                "kesan": "Orangnya seru dan baik banget.",
+                "pesan":"Semangat terus dan jangan mudah menyerah!"
+            },
+            {
+                "nama": "Givaro Ananta",
+                "nim": "123450078",
+                "umur": "20",
+                "asal":"Teluk Betung",
+                "alamat": "Teluk Betung",
+                "hobbi": "Dengerin Spotify",
+                "sosmed": "@givarooo",
+                "kesan": "Pembawaannya positif dan menyenangkan.",
+                "pesan":"Semoga kita bisa bertemu lagi."
+            },
+            {
+                "nama": "Berliana Enda Putri",
+                "nim": "124450065",
+                "umur": "21",
+                "asal":"Bekasi",
+                "alamat": "Belwis",
+                "hobbi": "Nyanyi",
+                "sosmed": "@berlyyanda",
+                "kesan": "Sangat berkesan, orangnya humble.",
+                "pesan":"Tetap jadi pribadi yang menginspirasi!"
+            },
+            {
+                "nama": "Juesi Apridelia Saragih",
+                "nim": "123450085",
+                "umur": "19",
+                "asal":"Sumatera Utara",
+                "alamat": "Way huwi",
+                "hobbi": "Dengerin Lany",
+                "sosmed": "@j_eesie",
+                "kesan": "Kakaknya asik dan ramah.",
+                "pesan":"Sukses selalu untuk kuliahnya ya!"
+            },
+            {
+                "nama": "Ridho Benedictus Togi Manik",
+                "nim": "123450060",
+                "umur": "19",
+                "asal":"Medan",
+                "alamat": "gang sekuntum",
+                "hobbi": "Main pedal",
+                "sosmed": "@iamridhomanik",
+                "kesan": "Senang bisa kenal dengan kakak.",
+                "pesan":"Jangan lupa jaga kesehatan, kak."
+            },
+            {
+                "nama": "Monica Patricia Tanjung",
+                "nim": "123450073",
+                "umur": "19",
+                "asal":"Sibolga",
+                "alamat": "Belwis",
+                "hobbi": "Nonton",
+                "sosmed": "@monica_tjg",
+                "kesan": "Orangnya seru dan baik banget.",
+                "pesan":"Semangat terus dan jangan mudah menyerah!"
+            },
+            {
+                "nama": "Wan Nashwa Alhasni Yuska",
+                "nim": "123450077",
+                "umur": "17",
+                "asal":"Aceh",
+                "alamat": "Belwis",
+                "hobbi": "Tiktokan bareng sahroni",
+                "sosmed": "@nshaysk",
+                "kesan": "Pembawaannya positif dan menyenangkan.",
+                "pesan":"Semoga kita bisa bertemu lagi."
+            }
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    baleg()
+
 
 # Tambahkan menu lainnya sesuai kebutuhan
