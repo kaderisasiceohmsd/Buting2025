@@ -108,7 +108,7 @@ if menu == "Kesekjenan":
         ]
         data_list = [
             {
-                "nama": "Kakak Rendra Eka Prayoga",
+                "nama": "Rendra Eka Prayoga",
                 "nim": "122450112",
                 "umur": "21",
                 "asal": "Bekasi",
@@ -119,7 +119,7 @@ if menu == "Kesekjenan":
                 "pesan": "Semangat bang kuliahnya!!"#1
             },
             {
-                "nama": "Kakak Johannes Krisjon Silitonga",
+                "nama": "Johannes Krisjon Silitonga",
                 "nim": "122450043",
                 "umur": "20",
                 "asal": "Tangerang",
@@ -130,7 +130,7 @@ if menu == "Kesekjenan":
                 "pesan": "Semangat bang kuliahnya!"#2
             },
               {
-                "nama": "Kakak Elisabeth Claudia Simanjuntak",
+                "nama": "Elisabeth Claudia Simanjuntak",
                 "nim": "122450123",
                 "umur": "20",
                 "asal": "Bogor",
@@ -141,7 +141,7 @@ if menu == "Kesekjenan":
                 "pesan": "semangat terus kuliahnya kak!"#3
             },
               {
-                "nama": "Kakak Syadza Puspadari Azhar",
+                "nama": "Syadza Puspadari Azhar",
                 "nim": "122450072",
                 "umur": "21",
                 "asal": "Palembang",
@@ -152,7 +152,7 @@ if menu == "Kesekjenan":
                 "pesan": "semangat terus kuliahnya kakak !"#4
             },
             {
-                "nama": "Kakak Eksanty Febriana Sukma Islamiaty",
+                "nama": "Eksanty Febriana Sukma Islamiaty",
                 "nim": "122450001",
                 "umur": "21",
                 "asal": "Sammosir/Sumatera Utara",
@@ -163,7 +163,7 @@ if menu == "Kesekjenan":
                 "pesan":"semangat terus kuliahnya kakak !"#5
             },
              {
-                "nama": "Kakak Farahanum Afifah Ardiansyah",
+                "nama": "Farahanum Afifah Ardiansyah",
                 "nim": "122450001",
                 "umur": "21",
                 "asal": "Padang",
@@ -416,37 +416,37 @@ if menu == "Senator":
 elif menu == "Departemen PSDA":
     def psda():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1DH8nPs0MD-x1jRlFk2036oi8hRkUdqE7", #1
-            "https://drive.google.com/uc?export=view&id=1fkmsS7a69WuQxeFLb_d1x_rZOzwbC0a6", #2
-            "https://drive.google.com/uc?export=view&id=1c1vfwCoa9wq730WBJ5CfKQpVYku2Rosl", #3
-            "https://drive.google.com/uc?export=view&id=1jeTyVMwSYbgDkUmD9UCp-6gKrTj1PSkV", #4
-            "https://drive.google.com/uc?export=view&id=121W1MXFchI-tcPCcqtHY96Mt8l6PRFuG", #5
-            "https://drive.google.com/uc?export=view&id=1CjD5gLEjvOoJFjV__SHiXytjatYOSH7d", #6
-            "https://drive.google.com/uc?export=view&id=1Jl2AUCP_31pfEvrNifY4-2zhASlT-ah6", #7
-            "https://drive.google.com/uc?export=view&id=1x3WxdD1GXmFvgn5oWb4qSztF3vM3FaK8", #8
-            "https://drive.google.com/uc?export=view&id=1PgdFHlQjZCfR_9X_MbDeaIDTiJpuJqGM", #9
-            "https://drive.google.com/uc?export=view&id=1_aBzLcIoViSHORkqNiGr6IrPm8WOd_ID", #10
-            "https://drive.google.com/uc?export=view&id=1uYUoa7x1DSiuF11Y7GgI0K9s1-QSthYt", #11
-            "https://drive.google.com/uc?export=view&id=1U6870EDV_yYYjMEYLzEKWp7tVJz8QlrI", #12
-            "https://drive.google.com/uc?export=view&id=1IfNGaMcFGPdCAwbG1IXi_Tnbr_SgM7ei", #13
-            "https://drive.google.com/uc?export=view&id=1UNA-xb6A1NqezBbjQec78cs_KpzvvuTv", #14
-            "https://drive.google.com/uc?export=view&id=1i04VC2BHQJFsfAg2O1jzmAsW0VEUSRNr", #15
-            "https://drive.google.com/uc?export=view&id=1fxWj-ZT6WWhGBgYQWsThEIYPVkaTUa1g", #16
-            "https://drive.google.com/uc?export=view&id=18RvX1qTgxI3FuejEYVeg6Q4_VSGHEFVU", #17
-            "https://drive.google.com/uc?export=view&id=1ddVEzUNLYmullEsjrpDGUS0QarbxBEiQ", #18
-            "https://drive.google.com/uc?export=view&id=1xvX7ktK0sMdXCVdXZwHl-E20JY-R5Ruu", #19
-            "https://drive.google.com/uc?export=view&id=1uNn4ZoR4RaMR4xi-13CjZnlC325yCwhY", #20
-            "https://drive.google.com/uc?export=view&id=1wfv_FNKT0MGCotl7xSSh71nWvar7Nmwj", #21
-            "https://drive.google.com/uc?export=view&id=1h4WkI7q6I0nIzAKQpXSEluhQGkpXRq01", #22
-            "https://drive.google.com/uc?export=view&id=1uh24_PArlwOvQIhVZ59f018HWIGvjdIZ", #23
-            "https://drive.google.com/uc?export=view&id=1PeEYrYrFQh1a2dJtG0Jn0wNR0BEIEr88", #24
-            "https://drive.google.com/uc?export=view&id=1zAzY3YqjJ8YcOe785fpaba3fDSbNWNM-", #25
-            "https://drive.google.com/uc?export=view&id=1QeY9ZzIWiMm7R6OgzeNY9xAo-YJvbD7y", #26
+            "https://drive.google.com/uc?export=view&id=1AUeQPPrwd-ecCfwWfJg6LlAcmoTV0iF3", #1
+            "https://drive.google.com/uc?export=view&id=1O4AKtC4TgK6ZfLMG9fH9DSHLzcD3_DJm", #2
+            "https://drive.google.com/uc?export=view&id=1MsJ7ojYqjkJ52KJCP6uyAOjM_Jbch644", #3
+            "https://drive.google.com/uc?export=view&id=1YKGkwLIuCW6-JIzGuBHaS2iWSkE6KaGc", #4
+            "https://drive.google.com/uc?export=view&id=1sxNbfjc7vZTdnRASGHrsMjHceOlfH_E", #5
+            "https://drive.google.com/uc?export=view&id=1a1mV83iOuG9Y0bEic1ncw8gkD0zqJzG", #6
+            "https://drive.google.com/uc?export=view&id=1NqBZmhnLfmPPsQWf2SVDnYQfzfQhUUcU", #7
+            "https://drive.google.com/uc?export=view&id=1prdiQXeKb9J12VBqy-JNaHhXB4HHSLsK", #8
+            "https://drive.google.com/uc?export=view&id=10ruvw6XcqqbWQgWFi4JaImBwOAqVR55Q", #9
+            "https://drive.google.com/uc?export=view&id=1T8Z8fga5QTBOOFwFaVYRn9xDPiNr20f-", #10
+            "https://drive.google.com/uc?export=view&id=1SFedVyoLy8342B_1l5N4THWqv_i97cwV", #11
+            "https://drive.google.com/uc?export=view&id=1s1V_2Rs3C9wD1mx9txSDXvnM53PAoV7y", #12
+            "https://drive.google.com/uc?export=view&id=1OOi_oS2jamBEzm0vjA8StJ8iLgEl2hzj", #13
+            "https://drive.google.com/uc?export=view&id=1Aav54ZQRkJvrsXPxbVJqkpvyW9Xdzbcm", #14
+            "https://drive.google.com/uc?export=view&id=1NBPAWgZ52GqSIa-NL_XZaiAmGTd-CaqG", #15
+            "https://drive.google.com/uc?export=view&id=1y8UuqDFN-yQQ2LGx0V-JSpSguKRgAoWX", #16
+            "https://drive.google.com/uc?export=view&id=1UX7kfod52mCuxz6EYO01rxig46CVnN5p", #17
+            "https://drive.google.com/uc?export=view&id=1p1iH8aCJ7lalsOwBnridDkzUJTJhalqx", #18
+            "https://drive.google.com/uc?export=view&id=1IHO39OH4-Dktyd_T8F5B4k_DaYCabiDu", #19
+            "https://drive.google.com/uc?export=view&id=1oAAsS5Nc6pUl77MDYOPR2LrfGgEoSDZ6", #20
+            "https://drive.google.com/uc?export=view&id=1sBemMCfKJidyUjCDsHZH145B2ciHmbey", #21
+            "https://drive.google.com/uc?export=view&id=16VGT-gHlxCJsMVOYBHe4j_GAvTMeg-Ci", #22
+            "https://drive.google.com/uc?export=view&id=1RXZAZ6O3iEAV6huNmHlHNzdN3nmBVcEn", #23
+            "https://drive.google.com/uc?export=view&id=1Ht4GQO6DAUjV_z6PI1U97pl8NhVMkHzz", #24
+            "https://drive.google.com/uc?export=view&id=1MMTQMAQy5pNva9IHhR1kiUVM_SOiPFuu", #25
+            "https://drive.google.com/uc?export=view&id=1cQ3iLORet5K2OhAGehvdERAEPcjXyLE1", #26
             
         ]
         data_list = [
             {
-                "nama": "Kakak Ferdy Kevin Naibaho",
+                "nama": "Ferdy Kevin Naibaho",
                 "nim": "122450107",
                 "umur": " ",
                 "asal":" ",
@@ -457,7 +457,7 @@ elif menu == "Departemen PSDA":
                 "pesan":"Tetap semangat dan sehat selalu bang"# 1
             },
             {
-                "nama": "Kakak Nisrina Nur Afifah",
+                "nama": "Nisrina Nur Afifah",
                 "nim": "122450052",
                 "umur": " ",
                 "asal":" ",
@@ -468,7 +468,7 @@ elif menu == "Departemen PSDA":
                 "pesan":"Tetap semangat dan sehat selalu kakk"# 2
             },
             {
-                "nama": "Kakak Allya Nurul Islami Pasha",
+                "nama": "Allya Nurul Islami Pasha",
                 "nim": "122450033",
                 "umur": "21",
                 "asal":"Solok",
@@ -479,7 +479,7 @@ elif menu == "Departemen PSDA":
                 "pesan":"Tetap semangat dan sehat selalu kak"# 3
             },
             {
-                "nama": "Kakak Ahmad Rizky",
+                "nama": "Ahmad Rizky",
                 "nim": "123450050",
                 "umur": "20",
                 "asal":"Tangerang",
@@ -490,7 +490,7 @@ elif menu == "Departemen PSDA":
                 "pesan":"Tetap semangat dan sehat selalu bang"# 4
             },
             {
-                "nama": "Kakak Arienta Khusnul Ananda",
+                "nama": "Arienta Khusnul Ananda",
                 "nim": "123450097",
                 "umur": "24",
                 "asal":"Kalianda",
@@ -501,7 +501,7 @@ elif menu == "Departemen PSDA":
                 "pesan":"Tetap semangat dan sehat selalu kak"# 5
             },
             {
-                "nama": "Kakak Daffa Hadyan Navista",
+                "nama": "Daffa Hadyan Navista",
                 "nim": "123450025",
                 "umur": "21",
                 "asal":"Sumatera Barat",
@@ -523,7 +523,7 @@ elif menu == "Departemen PSDA":
                 "pesan":"Tetap semangat dan sehat selalu bang"# 7
             },
             {
-                "nama": "Kakak Natasya Amavisca",
+                "nama": "Natasya Amavisca",
                 "nim": "123450024",
                 "umur": "20",
                 "asal":"Pasar Muara Beliti",
@@ -534,7 +534,7 @@ elif menu == "Departemen PSDA":
                 "pesan":"Tetap semangat dan sehat selalu kak"# 8
             },
             {
-                "nama": "Kakak Nobel Nizam Fathirizki",
+                "nama": "Nobel Nizam Fathirizki",
                 "nim": "123450117",
                 "umur": "20",
                 "asal":"Akamsi",
@@ -545,7 +545,7 @@ elif menu == "Departemen PSDA":
                 "pesan":"Tetap semangat dan sehat selalu bang"# 9
             },
             {
-                "nama": "Kakak Nurul Alfajar Gumel",
+                "nama": "Nurul Alfajar Gumel",
                 "nim": "122450127",
                 "umur": "21",
                 "asal":"Sumatera Barat",
@@ -556,7 +556,7 @@ elif menu == "Departemen PSDA":
                 "pesan":"Tetap semangat dan sehat selalu bang"# 10
             },
             {
-                "nama": "Kakak Vany Salsabila Putri",
+                "nama": "Vany Salsabila Putri",
                 "nim": "123450022",
                 "umur": "20",
                 "asal":"Palembang",
@@ -567,7 +567,7 @@ elif menu == "Departemen PSDA":
                 "pesan":"Tetap semangat dan sehat selalu kak"# 11
             },
             {
-                "nama": "Kakak Ahmad Sahidin Akbar",
+                "nama": "Ahmad Sahidin Akbar",
                 "nim": "122450144",
                 "umur": "21",
                 "asal": "Tulang Bawang",
@@ -579,7 +579,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Ali Aristo Muthahhari Parisi",
+                "nama": "Ali Aristo Muthahhari Parisi",
                 "nim": "123450088",
                 "umur": "20",
                 "asal": "Lampung Timur",
@@ -591,7 +591,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Rosalia Siregar",
+                "nama": "Rosalia Siregar",
                 "nim": "123450036",
                 "umur": "19",
                 "asal": "Medan",
@@ -603,7 +603,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Kharisma Mustika Sari",
+                "nama": "Kharisma Mustika Sari",
                 "nim": "123450034",
                 "umur": "20",
                 "asal": "Way Kanan",
@@ -615,7 +615,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Gusti Putu Ferazka",
+                "nama": "Gusti Putu Ferazka",
                 "nim": "123450046",
                 "umur": "20",
                 "asal": "Bekasi",
@@ -627,7 +627,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Sahid Maulana",
+                "nama": "Sahid Maulana",
                 "nim": "122450109",
                 "umur": "22",
                 "asal": "Depok",
@@ -639,7 +639,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Daffa Ahmad Naufal",
+                "nama": "Daffa Ahmad Naufal",
                 "nim": "122450137",
                 "umur": "21",
                 "asal": "Jakarta",
@@ -651,7 +651,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Ihsan Maulana Yusuf",
+                "nama": "Ihsan Maulana Yusuf",
                 "nim": "123450110",
                 "umur": "20",
                 "asal": "Sumatera Barat",
@@ -663,7 +663,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Rewina Audriya Melva Sari",
+                "nama": "Rewina Audriya Melva Sari",
                 "nim": "123450049",
                 "umur": "20",
                 "asal": "Bandar Lampung",
@@ -675,7 +675,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Benget Sidabutar",
+                "nama": "Benget Sidabutar",
                 "nim": "123450047",
                 "umur": "20",
                 "asal": "Sumatera Utara",
@@ -688,7 +688,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Uliano William Purba",
+                "nama": "Uliano William Purba",
                 "nim": "122450098",
                 "umur": "19",
                 "asal": "Depok",
@@ -700,7 +700,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Kevin Antoni Junior",
+                "nama": "Kevin Antoni Junior",
                 "nim": "123450109",
                 "umur": "20",
                 "asal": "Bandar Lampung",
@@ -712,7 +712,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Erma Daniar Safitri",
+                "nama": "Erma Daniar Safitri",
                 "nim": "123450061",
                 "umur": "20",
                 "asal": "Pringsewu",
@@ -724,7 +724,7 @@ elif menu == "Departemen PSDA":
             },
             
             {
-                "nama": "Kakak Lidia Natasyah Marpaung",
+                "nama": "Lidia Natasyah Marpaung",
                 "nim": "123450015",
                 "umur": "20",
                 "asal": "Medan",
@@ -735,7 +735,7 @@ elif menu == "Departemen PSDA":
                 "pesan": "Tetap semangat dan sehat selalu kak" # 25
             },
             {
-                "nama": "Kakak Muhammad Ridwan",
+                "nama": "Muhammad Ridwan",
                 "nim": "123450091",
                 "umur": "20",
                 "asal": "Lampung Tengah",
@@ -1881,5 +1881,6 @@ elif menu == "Departemen Medkraf":
     
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
