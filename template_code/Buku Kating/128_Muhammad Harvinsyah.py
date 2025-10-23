@@ -181,24 +181,24 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tRq5nrYzLKXRCiCM6IMkC5Y8T7gUA_mU",
-            "https://drive.google.com/uc?export=view&id=1DWSqcDqnnK7am3GBminrTwwmLsE837jc",
-            "https://drive.google.com/uc?export=view&id=1HcC_aE891dbGGzj_u_uamBh4NB4xQ-CG",
-            "https://drive.google.com/uc?export=view&id=1GNPUYZ7vhR9t9C6CPebBKp7s3KUyha4V",
-            "https://drive.google.com/uc?export=view&id=19jiFy9uTyug47-MiCXYt2R2bluKbe_Do",
-            "https://drive.google.com/uc?export=view&id=1rn1hAMEQkFK3qFmZGfKpWpD0fsaYPFZj",
-            "https://drive.google.com/uc?export=view&id=1llNe_8Mo0CIzdR9texEojRAWxIzFZlRv",
-            "https://drive.google.com/uc?export=view&id=1BUZHb_JxWJenu1n-UVSaEI6U9ssdAwVb",
-            "https://drive.google.com/uc?export=view&id=1G0ha-d-k4yrcYxW1ERBfUXZ5AzuK3jWS",
-            "https://drive.google.com/uc?export=view&id=1AO-nuHxCq9Yc2J0q3F38pVpb41S1kZWz",
-            "https://drive.google.com/uc?export=view&id=1VMtXKWCUxUqQW5mbfAJ0r-D1qhjOhqdO",
-            "https://drive.google.com/uc?export=view&id=1u9TbhhjoG8S90hxsrcr5Q3tNEoiDL-YL",
-            "https://drive.google.com/uc?export=view&id=1DI_3QidNr-jlQzNuDV77RRKhGI3QP7QF",
-            "https://drive.google.com/uc?export=view&id=16Ml6dFeXL8VH9mNmybIfkStTjPjoBvDq",
+            "https://drive.google.com/uc?export=view&id=1240QS2xwT9_IEkPWDpL9SkqnpSKvffQ3",
+            "https://drive.google.com/uc?export=view&id=1nP3y8CnXyal9njqPDvEqab-AMy1fhhm0",
+            "https://drive.google.com/uc?export=view&id=1y5VHNpGw3SPQFweGdlAKRHiEHFrxgIyz",
+            "https://drive.google.com/uc?export=view&id=1JGH8Lob0pXf3H81AfStuZhWN_YbkYHtR",
+            "https://drive.google.com/uc?export=view&id=1Rsd-HPya7qUUwbFmvi1quDu2XP_QxAL9",
+            "https://drive.google.com/uc?export=view&id=1KA185zvPquU9_fhWH1OSciWWbMswCuDF",
+            "https://drive.google.com/uc?export=view&id=1630snoSH29Hb7yPBNByTRCW2D3AQe8K7",
+            "https://drive.google.com/uc?export=view&id=1NFnZeP8zLNWZFUQgOoAKXpRAUiOk9YYB",
+            "https://drive.google.com/uc?export=view&id=1S65L_xvJTAml-KiUXPyzFmw5ZCsCXw23",
+            "https://drive.google.com/uc?export=view&id=1J2pWhwDLKVN6mOjwKE_4glX7q7d18q3e",
+            "https://drive.google.com/uc?export=view&id=1WixWFR2R06GfsjoJrF6CqSJ9SVZjOEoA",
+            "https://drive.google.com/uc?export=view&id=1O3pj6742ZXMXUOTRH5dknCAoF_11vk8m",
+            "https://drive.google.com/uc?export=view&id=1q2HA8mJOuRWqj-Bd_R-0GxjsAPqQlgh9",
+            "https://drive.google.com/uc?export=view&id=1eHG87SqNTft5KRvBVi95SjGc_WyZXvpf",
         ]
         data_list = [
             {
-                "nama": "Kakak Jeremia Susanto",
+                "nama": "Jeremia Susanto",
                 "nim": "122450022",
                 "umur": "21",
                 "asal": "Nusa Kambangan",
@@ -209,7 +209,7 @@ if menu == "Baleg":
                 "pesan": "Semangat terus bang walaupun hidup gonjang ganjing"# 1
             },
             {
-                "nama": "Kakak Dhea Amelia Putri",
+                "nama": "Dhea Amelia Putri",
                 "nim": "122450004",
                 "umur": "21",
                 "asal": "Kendari",
@@ -220,7 +220,7 @@ if menu == "Baleg":
                 "pesan": "tetap semangat! "# 1
             },
               {
-                "nama": "Kakak Renisha Putri Giani",
+                "nama": "Renisha Putri Giani",
                 "nim": "122450079",
                 "umur": "22",
                 "asal": "Teluk",
@@ -231,7 +231,7 @@ if menu == "Baleg":
                 "pesan": "sehat selalu ya kak"# 1
             },
               {
-                "nama": "Kakak Anisa Fitriyani",
+                "nama": "Anisa Fitriyani",
                 "nim": "122450019",
                 "umur": "21",
                 "asal": "Bandar Lampung",
@@ -242,7 +242,7 @@ if menu == "Baleg":
                 "pesan": "selalu semangat pokoknyaa "# 1
             },
             {
-                "nama": "Kakak Dharu Cahyoaji Sasongko",
+                "nama": "Dharu Cahyoaji Sasongko",
                 "nim": "123450023",
                 "umur": "18",
                 "asal": "Bandar Lampung",
@@ -253,7 +253,7 @@ if menu == "Baleg":
                 "pesan":"lancar ya bang kuliahnya "# 1
             },
              {
-                "nama": "Kakak Feby Wulandari",
+                "nama": "Feby Wulandari",
                 "nim": "123450042",
                 "umur": "20",
                 "asal": "Bekasi",
@@ -264,7 +264,7 @@ if menu == "Baleg":
                 "pesan": "Semangat kak kuliahnyaa "# 1
             },
               {
-                "nama": "Kakak Givaro Ananta",
+                "nama": "Givaro Ananta",
                 "nim": "123450078",
                 "umur": "20",
                 "asal": "Lampung Barat",
@@ -275,7 +275,7 @@ if menu == "Baleg":
                 "pesan": "semangat ya bang "# 1
             },
               {
-                "nama": "Kakak Mirzan Yusuf Rabbani",
+                "nama": "Mirzan Yusuf Rabbani",
                 "nim": "122450118",
                 "umur": "21",
                 "asal": "Jakarta",
@@ -286,7 +286,7 @@ if menu == "Baleg":
                 "pesan": "Semangatt ya bang kuliahnya "# 1
             },
               {
-                "nama": "Kakak Berliana Enda Putri",
+                "nama": "Berliana Enda Putri",
                 "nim": "122450065",
                 "umur": "21",
                 "asal": "Surabaya",
@@ -297,7 +297,7 @@ if menu == "Baleg":
                 "pesan": "Tetap semangat kuliahnya ya kak "# 1
             },
               {
-                "nama": "Kakak Juesi Apridelia Saragih",
+                "nama": "Juesi Apridelia Saragih",
                 "nim": "123450085",
                 "umur": "19",
                 "asal": "Teluk Kuandama",
@@ -308,7 +308,7 @@ if menu == "Baleg":
                 "pesan": "Semangat kuliahnya kak "# 1
             },
               {
-                "nama": "Kakak Ridho Benedictus Togi Manik",
+                "nama": "Ridho Benedictus Togi Manik",
                 "nim": "123450060",
                 "umur": "19",
                 "asal": "Medan",
@@ -319,7 +319,7 @@ if menu == "Baleg":
                 "pesan": " semangat bang kuliahnya"# 1
             },
               {
-                "nama": "Kakak Feryadi Yulius",
+                "nama": "Feryadi Yulius",
                 "nim": "122450087",
                 "umur": "22",
                 "asal": "Sumatera Selatan",
@@ -330,7 +330,7 @@ if menu == "Baleg":
                 "pesan": "sehat selalu bangg"# 1
             },
               {
-                "nama": "Kakak Monica Patricia Tanjung",
+                "nama": "Monica Patricia Tanjung",
                 "nim": "123450073",
                 "umur": "19",
                 "asal": "Sumatera Utara",
@@ -341,7 +341,7 @@ if menu == "Baleg":
                 "pesan": " Semangat terus ya kak kuliahnya"# 1
             },
               {
-                "nama": "Kakak Wan Nashwa Alhasni Yuska",
+                "nama": "Wan Nashwa Alhasni Yuska",
                 "nim": "123450077",
                 "umur": "19",
                 "asal": "Tanjung Batu",
@@ -420,8 +420,8 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1O4AKtC4TgK6ZfLMG9fH9DSHLzcD3_DJm", #2
             "https://drive.google.com/uc?export=view&id=1MsJ7ojYqjkJ52KJCP6uyAOjM_Jbch644", #3
             "https://drive.google.com/uc?export=view&id=1YKGkwLIuCW6-JIzGuBHaS2iWSkE6KaGc", #4
-            "https://drive.google.com/uc?export=view&id=1sxNbfjc7vZTdnRASGHrsMjHceOlfH_E", #5
-            "https://drive.google.com/uc?export=view&id=1a1mV83iOuG9Y0bEic1ncw8gkD0zqJzG", #6
+            "https://drive.google.com/uc?export=view&id=1sxNbfjc7vZTdnRASGHrsMjHceOlfH_Et", #5
+            "https://drive.google.com/uc?export=view&id=1a1mV83iOuG9Y0bEic1ncw8gkD0zqJzGk", #6
             "https://drive.google.com/uc?export=view&id=1NqBZmhnLfmPPsQWf2SVDnYQfzfQhUUcU", #7
             "https://drive.google.com/uc?export=view&id=1prdiQXeKb9J12VBqy-JNaHhXB4HHSLsK", #8
             "https://drive.google.com/uc?export=view&id=10ruvw6XcqqbWQgWFi4JaImBwOAqVR55Q", #9
@@ -1881,6 +1881,7 @@ elif menu == "Departemen Medkraf":
     
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
