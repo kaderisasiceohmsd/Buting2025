@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@_erendraa",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Public speakingnya bagus, suaranya bagus, ",  
+                "pesan":"Terus menjadi sosok positif dan teladan bagi yang lain ya bang !!!"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,7 +126,7 @@ if menu == "Kesekjenan":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "kesan": "Walaupun abangnya jahil tapi asik banget",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
@@ -1506,34 +1506,34 @@ elif menu == "Departemen SSD":
 elif menu == "Departemen Medkraf":
     def DepartemenMedkraf():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1iKn45RTFt11Bl2QFLlg0nFAY4U-pYIHD", #Patricia Leondrea Diajeng Putri
-            "https://drive.google.com/uc?export=view&id=10mtwIk6sSj0lc2oGB8Fa_i9pVllkIHjP", #Rahma Neliyana
-            "https://drive.google.com/uc?export=view&id=18_g5QMBYDkyEGAtPyWp024i36PlOzT_u", #Khoirul Anam
-            "https://drive.google.com/uc?export=view&id=1UFyl-NndaCmVdrBzcvzlXkDynRWyNKBG", #Labo John Noel Napitupulu
-            "https://drive.google.com/uc?export=view&id=1tt-D2eobfOOmuGswv30J1xRqL2Xoj4AV", #Rafi Diva Efangga
-            "https://drive.google.com/uc?export=view&id=1l_nKIn0Mbqir_gmZFgHRn2Jt_Nmgnjoi", #Refa Destiny Pranata
-            "https://drive.google.com/uc?export=view&id=1DvVN5lDkhyAAMzEvPZEFd03Aoj9VqmFM", #Try Yani Rizki Nur Rohmah
-            "https://drive.google.com/uc?export=view&id=1D3NwgwlfQ7zAU5Ryu1ArtNAcryLJKYnG", #Aliya Ammara Ananta
-            "https://drive.google.com/uc?export=view&id=1IHHDcVeqPvkhhn58GIwY9_QWLz1E_mx5", #Donna Maya Puspita
-            "https://drive.google.com/uc?export=view&id=1WhKtFYYMVra3NkVU1mY0j5Sm3j96mX7k", #Feby Angelina
-            "https://drive.google.com/uc?export=view&id=1ot-SYJn8DAdG8yxjbB4GsRNtv5n6GZ3Z", #Hafsa Fazila Arradhi
-            "https://drive.google.com/uc?export=view&id=1l80o4pctgaAxFffyFiw5KDH0oyH64oev", #Nayla Salsabila Fathianisa
-            "https://drive.google.com/uc?export=view&id=1J6c_Z4hVdCq2oMoXVffCasdUcFHr3Se_", #Sania Dwi Ayu Lestari
-            "https://drive.google.com/uc?export=view&id=1TEMbQwpMW4Cfj4fcPc_MAKq9lm65iiBy", #Akmal Faiz Abdillah
-            "https://drive.google.com/uc?export=view&id=1UDmXlkK6Rr79wkFRF-1SK7Qv1R8gu1ba", #Raihana Adelia Putri
-            "https://drive.google.com/uc?export=view&id=1Zu5Q7yJEmH6u-OK9mevYm-5Xs9cD_DLm", #Citra Agustin
-            "https://drive.google.com/uc?export=view&id=16_TCCyzLo99Xdjp2J8A2n0LlsPaE3JKQ", #Eigi Artamevia
-            "https://drive.google.com/uc?export=view&id=1IQpx7MYOJ0gSAMmXpY23tOZDPxOWdW1q", #Romauli Oktavia Silaban
+            "https://drive.google.com/uc?export=view&id=1yp6JD4XYR30bEqPHA7WuprBp23USieh8", #Patricia Leondrea Diajeng Putri
+            "https://drive.google.com/uc?export=view&id=14HOr2ZXw5c80eIqPOoCxtguG0He65VK7", #Rahma Neliyana
+            "https://drive.google.com/uc?export=view&id=1y6C_EZ3xgnIVsOvpD9p5ZlreiTISoff4", #Khoirul Anam
+            "https://drive.google.com/uc?export=view&id=1XU6skXVG8BWd6DBeQEbZILqp5Efm5LZI", #Labo John Noel Napitupulu
+            "https://drive.google.com/uc?export=view&id=1uPrTRV5uwLLH3vOXR5K71uddobK17Tt1", #Rafi Diva Efangga
+            "https://drive.google.com/uc?export=view&id=1Ye6bB_wpHFMqVqdnlKz5jxJ6WfqHkkkc", #Refa Destiny Pranata
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Try Yani Rizki Nur Rohmah
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Aliya Ammara Ananta
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Donna Maya Puspita
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Feby Angelina
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Hafsa Fazila Arradhi
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Nayla Salsabila Fathianisa
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Sania Dwi Ayu Lestari
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Akmal Faiz Abdillah
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Raihana Adelia Putri
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Citra Agustin
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Eigi Artamevia
+            "https://drive.google.com/uc?export=view&id=1P1Tqz3XtOuc0BlljIlQPj38RPZiRJHw5", #Romauli Oktavia Silaban
         ]
         data_list = [
             {
                 "nama": "Patricia Leondrea Diajeng Putri",
-                "nim": "122450000",
-                "umur": "18",
+                "nim": "122450050",
+                "umur": "21",
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@patriciadiajeng",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1544,7 +1544,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@rahmaneliyana",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1555,7 +1555,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@mananam__",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1566,7 +1566,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@noerruu",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1577,7 +1577,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@rafidivaevangga_",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1588,7 +1588,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@refadp_",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1599,7 +1599,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@tryyanitiaaa",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1610,7 +1610,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@aliyaammara",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1621,7 +1621,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@donnamaya.p",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1632,7 +1632,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@writtenbyangel",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1643,7 +1643,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@hafsa.fazila",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1654,7 +1654,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@naylasalsabilaa._",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1665,7 +1665,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@saniayyllstr",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1676,7 +1676,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@_akmal.faiz",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1687,7 +1687,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@n1tg._",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1698,7 +1698,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@citrastin",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1709,7 +1709,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@eigirtmv",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -1720,7 +1720,7 @@ elif menu == "Departemen Medkraf":
                 "asal":"Bekasi",
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "sosmed": "@roms.slbn",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
