@@ -141,7 +141,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1-8b-WLrqBEMIkPIYROpuPfILcIgii7zG",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
@@ -182,9 +182,9 @@ elif menu == "About Us":
             },
             {
                 "nama": "Favian",
-                "sebagai": "Anggotaa",
+                "sebagai": "Anggotaa paling cool abiezzz",
                 "nim": "122450021",
-                "fun_fact": "ga suka pemerintah tapi mau jadi bagian dari pemerintah",
+                "fun_fact": "Suka berdialog sama diri sendiri",
                 "motto_hidup": "anything that happens to you, tetaplah jadi manusia yang baik",
             },
             {
