@@ -750,32 +750,32 @@ if menu == "Departemen PSDA":
 if menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=", #1
-            "https://drive.google.com/uc?export=view&id=", #2
-            "https://drive.google.com/uc?export=view&id=", #3
-            "https://drive.google.com/uc?export=view&id=", #4
-            "https://drive.google.com/uc?export=view&id=", #5
-            "https://drive.google.com/uc?export=view&id=", #6
-            "https://drive.google.com/uc?export=view&id=", #7
-            "https://drive.google.com/uc?export=view&id=", #8
-            "https://drive.google.com/uc?export=view&id=", #9
-            "https://drive.google.com/uc?export=view&id=", #10
-            "https://drive.google.com/uc?export=view&id=", #11
-            "https://drive.google.com/uc?export=view&id=", #12
-            "https://drive.google.com/uc?export=view&id=", #13
-            "https://drive.google.com/uc?export=view&id=", #14
-            "https://drive.google.com/uc?export=view&id=", #15
-            "https://drive.google.com/uc?export=view&id=", #16
-            "https://drive.google.com/uc?export=view&id=", #17
-            "https://drive.google.com/uc?export=view&id=", #18
-            "https://drive.google.com/uc?export=view&id=", #19
-            "https://drive.google.com/uc?export=view&id=", #20
+            "https://drive.google.com/uc?export=view&id=1h8sSg76KYnJE4B0pOtfGAZLdGClT4NBm", #1
+            "https://drive.google.com/uc?export=view&id=1gyxIZK9IL5JyQwp3WnBJaewxyGkCFa8D", #2
+            "https://drive.google.com/uc?export=view&id=1vLF1tETWgrunOZkKgTfb2rIDIn193zvh", #3
+            "https://drive.google.com/uc?export=view&id=1lpXwk9ivPl3rIa7r26IwXM7o_a6mjoPE", #4
+            "https://drive.google.com/uc?export=view&id=1f-qI4L_jdNNDRPjv_eUGmt_YmsBBF7hg", #5
+            "https://drive.google.com/uc?export=view&id=1QDDzKvgtr8NnubbrZ-znUEfP1cv1Ooyp", #6
+            "https://drive.google.com/uc?export=view&id=1gSYkrxPmG-xs0HAlK-TUoWuOizMnwTVQ", #7
+            "https://drive.google.com/uc?export=view&id=18nq16zUMmQATFCilhjcMrcSAK3nt7j1v", #8
+            "https://drive.google.com/uc?export=view&id=1ik2yqMvpnbbDIJRh2MybsbEcngJr52ra", #9
+            "https://drive.google.com/uc?export=view&id=1ik2yqMvpnbbDIJRh2MybsbEcngJr52ra", #10
+            "https://drive.google.com/uc?export=view&id=1l-hmrK1ELpPOBJUSTB8LWndHv3vJJruj", #11
+            "https://drive.google.com/uc?export=view&id=1x6MtZQL354ffAsxan7AbWApDBdtXviB_", #12
+            "https://drive.google.com/uc?export=view&id=1aIYmw6yFan4sxXNHe3WlUng5HCjsWoIu", #13
+            "https://drive.google.com/uc?export=view&id=1M25TStGPAp4HVGkwpgJBGBTpieoM1BTu", #14
+            "https://drive.google.com/uc?export=view&id=1a5SaY-tMqishLvbrCyh2QDz1yrkZz3yn", #15
+            "https://drive.google.com/uc?export=view&id=1o8nI-h66VmkTlFTMGKLoJUC7R4YhD5UN", #16
+            "https://drive.google.com/uc?export=view&id=19ZqAr4v4bRJ_PMljSgwWj0YeR0gvw9-l", #17
+            "https://drive.google.com/uc?export=view&id=15Zh5X9Hi0aI68Zi95UwP6QnfHedaR9hD", #18
+            "https://drive.google.com/uc?export=view&id=14b6YL1hihi05GM8dv0fvimZ7bMGvuAFP", #19
+            "https://drive.google.com/uc?export=view&id=1nVQ5YkL9yfE8OBZLFUUdR-YOmbixaYVR", #20
             "https://drive.google.com/uc?export=view&id=", #21
-            "https://drive.google.com/uc?export=view&id=", #22
+            "https://drive.google.com/uc?export=view&id=1evKwlESkMjSaeSUODpI8YsHJp95EuAJX", #22
         ] 
         data_list = [
             {
-                "nama": "Randra Andriana Putra",
+                "nama": "Randa Andriana Putra",
                 "nim": "122450083",
                 "umur": "22",
                 "asal":"serang, Banten",
