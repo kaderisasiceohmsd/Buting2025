@@ -178,3 +178,180 @@ if menu == "Kesekjenan":
     kesekjenan()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+elif menu == "Baleg":
+    def Baleg():
+        gambar_urls = [
+           "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+        ]
+        data_list = [
+            {
+                "nama": "Jeremia Susanto",
+                "nim": "122450022",
+                "umur": "21",
+                "asal": "Balam",
+                "alamat": "Tanjung Merawa",
+                "hobbi": "Suka main voli sama Feby",
+                "sosmed": "@jeremia_s_",
+                "kesan": "kaya angkatan 25,awet muda!",
+                "pesan": "Bang temenku ada yang pernah kecinaan sama abang"
+            },
+            {
+                "nama": "Dhea Amelia Putri",
+                "nim": "122450004",
+                "umur": "21",
+                "asal": "Kendari",
+                "alamat": "Bandar Lampung Ujung",
+                "hobbi": "Badmood liatin Jaldi",
+                "sosmed": "@_.dheamelia",
+                "kesan": "jujur aku terintimidasi sama kakak pas awal, nih kakak senyumnya susah banget digapai",
+                "pesan": "kak ajari aku cara jadi serius kak, dikit dikit aku ngejokes pengen belajar serius disituasi yang sesuai."
+            },
+            {
+                "nama": "Renisha Putri Giani",
+                "nim": "122450079",
+                "umur": "22",
+                "asal": "Teluk",
+                "alamat": "Teluk",
+                "hobbi": "Nawarin alat pancing",
+                "sosmed": "@renishapg",
+                "kesan": "Suka banget sama gaya kakak, santai, nyaman tapi keren, apalagi rambutnya mauuuuuu",
+                "pesan": "Kak aku hobi mancing cuma jarang diajak mancing, ayok kak mancing di embung F siapa tau dapat kadal emas!"
+            },
+            {
+                "nama": "Anisa Fitriyani",
+                "nim": "122450019",
+                "umur": "20",
+                "asal": "Wakatobi",
+                "alamat": "Balam",
+                "hobbi": "Main bowling",
+                "sosmed": "@",
+                "kesan": "khas anak balam sekali",
+                "pesan": "bola bowling sama galon le mineral lebih berat yang mana ya kak?"
+            },
+            {
+                "nama": "Dharu Cahyoaji Sasongko",
+                "nim": "123450023",
+                "umur": "18",
+                "asal": "Way Halim, Balam",
+                "alamat": "Way Halim, Balam",
+                "hobbi": "Nyuci baju",
+                "sosmed": "@dhruchyo",
+                "kesan": "bang senyum dong, minus senyum klo lagi ketemu tapi aslinya baik banget fast respon lagi",
+                "pesan": "Bang bagi tips nyuci baju tanpa dikucek tanpa mesin cuci sabun yang bagus dan bersih apaan ya?"
+            },
+            {
+                "nama": "Feby Wulandari",
+                "nim": "123450042",
+                "umur": "20",
+                "asal": "Bekasi",
+                "alamat": "Way Huwi",
+                "hobbi": "Macing keributan",
+                "sosmed": "@feby.wldr",
+                "kesan": "suka kak warna rambutnya, kaya jad cantik, strong , imut jadi satu",
+                "pesan": "imuuut banget kak, tips warnain rambut biar ga jadi blonde setelah 2 minggu kak? "
+            },
+            {
+                "nama": "Givaro Ananta",
+                "nim": "123450078",
+                "umur": "20",
+                "asal": "Lampung Barat",
+                "alamat": "Sukabumi",
+                "hobbi": "Liatin langit",
+                "sosmed": "@givarooo",
+                "kesan": "senyumnya adem bang kaya ac f008 jam 16.00",
+                "pesan": "Bang kkN apa kabar?"
+            },
+            {
+                "nama": "Mirzan Yusuf Rabbani",
+                "nim": "122450118",
+                "umur": "21",
+                "asal": "Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Nyoba makanan terbaru",
+                "sosmed": "@myrrinn",
+                "kesan": "soft spoken ya bang, tenang adem ayem gitu",
+                "pesan": "infokan seblak paling gacor sebalam kak!"
+            },
+            {
+                "nama": "Berliana Enda Putri",
+                "nim": "122450065",
+                "umur": "21",
+                "asal": "Sumbar",
+                "alamat": "Belwis",
+                "hobbi": "Ngumpulin batu unik di pantai",
+                "sosmed": "@berlyyanda",
+                "kesan": "kak, cantiknya kakak tuh sesuatu tawww, kaya yang berani dan berenergi gitu",
+                "pesan": "Kak kedu warna ga sebagus itu tapi enak banget buat main temen sekelas, banyak umang umangnya!"
+            },
+            {
+                "nama": "Juesi Apridelia Saragih",
+                "nim": "123450085",
+                "umur": "18",
+                "asal": "Teluk Pandawa",
+                "alamat": "Belwis",
+                "hobbi": "Galau",
+                "sosmed": "@j_eesie",
+                "kesan": "cubby cubby imoet, imut imut gini duta yg jago public speacking tuh keren banget kak!",
+                "pesan": "dengerin plave kak hehe"
+            },
+            {
+                "nama": "Ridho Benedictus Togi Manik",
+                "nim": "123450060",
+                "umur": "19",
+                "asal": "Melbourne",
+                "alamat": "Gh",
+                "hobbi": "Main padle",
+                "sosmed": "@iamridhomanik",
+                "kesan": "kerenlah gaya abang ini, aura mengayomi dan kebapak-annya kuat sekali bang",
+                "pesan": "makasih bang udh fast respon dan bikin santai ga tegang berinteraksi sama abangnya"
+            },
+            {
+                "nama": "Feryadi Yulius",
+                "nim": "122450087",
+                "umur": "17",
+                "asal": "Tangerang",
+                "alamat": "Belwis",
+                "hobbi": "Dengerin Wawa ngomong",
+                "sosmed": "@fer.yulius",
+                "kesan": "Bang ih kocak banget, jokesnya bapak-bapak banget wkwkwk",
+                "pesan": "bang pendengar yang baik kah?"
+            },
+            {
+                "nama": "Monica Patricia Tanjung",
+                "nim": "123450087",
+                "umur": "19",
+                "asal": "Sumut",
+                "alamat": "Belwis",
+                "hobbi": "Main ML, only Franco",
+                "sosmed": "@monica_tjg",
+                "kesan": "kalem, adem ayem gitu deh kak auranya berpikiran dewasa",
+                "pesan": "kak kalau diisengin trs, bisa ditarik iket aja ga ya orangnya pake franco"
+            },
+            {
+                "nama": "Wa Nashwa Alhasni Yuska",
+                "nim": "123450077",
+                "umur": "19",
+                "asal": "Tanjung Batu",
+                "alamat": "Belwis",
+                "hobbi": "Nyapa angin",
+                "sosmed": "@nshaysk",
+                "kesan": "kak ",
+                "pesan": "Tetap semangaatt kak Nashwa!"
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Baleg()
+
