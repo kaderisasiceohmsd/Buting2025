@@ -163,13 +163,13 @@ elif menu == "About Us":
         )
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1JPwyjAQEXEMOG43G38PGTW067WGkkZMq",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1EPD1nRRm700qOtb5m4rFcEc1ZGfr0CON",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1cmz12RH1e92O6B7yIt7LgPtOkN-y7_qt",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1ntjjSNkS2Q75WdZUqNfOZ7nhY1dtdvxJ",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -181,15 +181,15 @@ elif menu == "About Us":
             {
                 "nama": "jaya saputra tamba",
                 "sebagai": "Pak Lurah",
-                "nim": "122450016",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
-                "motto_hidup": "new semester new me",
+                "nim": "122450094",
+                "fun_fact": "pas kecil pernah nelen uang logam",
+                "motto_hidup": "di hina tak tumbang, di puji ga terbang, di kasih duit makasih bang",
             },
             {
                 "nama": "farhanah hadaya fatin",
                 "sebagai": "Bu Lurah",
-                "nim": "122450000",
-                "fun_fact": "nyemilin es bata",
+                "nim": "122450026",
+                "fun_fact": "pelor",
                 "motto_hidup": "Ya apa ya",
             },
             {
@@ -202,8 +202,8 @@ elif menu == "About Us":
             {
                 "nama": "Audina Fitria",
                 "sebagai": "Anggotaa",
-                "nim": "122450000",
-                "fun_fact": "nyemilin",
+                "nim": "122450038",
+                "fun_fact": "gasuka makanan lembek",
                 "motto_hidup": "jalanin dulu aja",
             },
             {
@@ -216,23 +216,23 @@ elif menu == "About Us":
             {
                 "nama": "Putri Manna Anantama Simbolon",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
+                "nim": "122450056",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
                 "nama": "Lovianorasaragih",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "122450105",
+                "fun_fact": "suka pakai baju bolong",
+                "motto_hidup": "tetaplah bernafas",
             },
             {
                 "nama": "jeremi Marolop",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "122450111",
+                "fun_fact": "suka film lawas",
+                "motto_hidup": "jalanin aja dulu",
             },
             {
                 "nama":"Muhammad Rafka Fatih Al Ghathfaan",
@@ -247,6 +247,20 @@ elif menu == "About Us":
                 "nim": "122450030",
                 "fun_fact": "Bisa surfing",
                 "motto_hidup": "jangan pernah putus asa",
+            },
+            {
+                "nama":"Talitha Justine",
+                "sebagai": "Anggotaa",
+                "nim": "122450076",
+                "fun_fact": "Nama justine karena orang tua suka justine biber",
+                "motto_hidup": "jangan deadline",
+            },
+             {
+                "nama":"Ayu Andriani Parlina Wati",
+                "sebagai": "Anggotaa",
+                "nim": "122450058",
+                "fun_fact": "Suka mengerjakan sesuatu kelipatan 5",
+                "motto_hidup": "tetaplah hidup",
             },
             
             
