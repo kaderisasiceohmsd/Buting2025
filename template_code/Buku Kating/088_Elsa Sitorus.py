@@ -316,8 +316,8 @@ if menu == "Baleg":
                 "alamat": "GH",
                 "hobbi": "Main Padel",
                 "sosmed": "@iamridhomanik",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Abang batak yang keren, bataknya kerasa banget pliss",  
+                "pesan":"Semangat bang, kalau capek inget aja pasti ada yang lebih capek !!!"# 1
             },
             {
                 "nama": "Feryadi Tulus",
@@ -424,7 +424,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1dZLxabpQZsIvVc6ogGobMrPYLNzBQLdX",
             "https://drive.google.com/uc?export=view&id=1F_oakMe7QrQa5uGq2WRaDoajfK_Mp3Nj",
             "https://drive.google.com/uc?export=view&id=1lO9GR8Ir1pHsnX3yAdwWni0ilczhRQiU",
-            "https://drive.google.com/uc?export=view&id1J6Ta6ZTbRY8ysJrbZYc0ibG_yuT2YcrM",
+            "https://drive.google.com/uc?export=view&id=1J6Ta6ZTbRY8ysJrbZYc0ibG_yuT2YcrM",
             "https://drive.google.com/uc?export=view&id=1h-0cUeOmz59d-Utq4Muuke1KmBtJTYVj",
             "https://drive.google.com/uc?export=view&id=11moWb96SqunK7qeVcqboWGCXEnMe6hLv",
             "https://drive.google.com/uc?export=view&id=1i5ffEqoAnvX7iNJxwiioZ4nCyVgw1AFS",
