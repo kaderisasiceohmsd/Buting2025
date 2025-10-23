@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "abang ini sangat ramah dan asik",  
+                "pesan":"semoga sukses selalu abang dalam menjalani kuliahnya !"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "orangnya asik dan seru banget, displin, dan juga tegas",  
+                "pesan":"semoga abang bisa menggapai mimpi abang"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "suka dengan kakak ini karena dia baik dan bersemangat ",  
+                "pesan":"semoga kakak dapat mencapai prestasi yang besar baik dalam akademik maupun non akademik"# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "kalem, cool, dan berwibawa",  
+                "pesan":"semoga kakak sukses terus kak!"# 1
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "orangnya anggun dan berwibawa",  
+                "pesan":"sukses terus kak, semoga bisa cepet dapet gelar S.Si.D"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Gg.sakum",
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "ramah dan humble, tipikal kakak yang asik diajak ngobrol",  
+                "pesan":"semangat berjuang kak, sukses terus ya!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -417,7 +417,7 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1tye5d3yMWsV4qEFWRe9-R2zfvxYJ9mVr", #Allya Nurul Islami Pasha
             "https://drive.google.com/uc?export=view&id=1uOJQ-MtDj2WPapNjAVfs7LnzxTR2lRx0", #Ahmad Rizky
             "https://drive.google.com/uc?export=view&id=1YN02viSNtFK0Ak6nXMrQHzCz1o7aRQBV", #Arienta Khusnul Ananda
-            "https://drive.google.com/uc?export=view&id=17HIXBqbt5mEAhg7Q9DhvfN9f6jDmdACt", #Daffa Hadyan Navista
+            "https://drive.google.com/uc?export=view&id=1I4PpFq9ecWHq7qN0xRpcPCSbeWTMC8MC", #Daffa Hadyan Navista
             "https://drive.google.com/uc?export=view&id=1AzRtpFTqUOzmpCs938PNYzOo3Y-ajuw4", #Ginda Fajar Riadi Marpaung
             "https://drive.google.com/uc?export=view&id=1Y1i6VQ9c2FlZYCYdtXDvsi_S4nIv-GwU", #Natasya Amavisca
             "https://drive.google.com/uc?export=view&id=1EDi0iODuY4Vumhf7fKCkBicqH5RrTtqn", #Nobel Nizam F.
@@ -1004,30 +1004,30 @@ elif menu == "Departemen MIKFES":
 elif menu == "Departemen Eksternal":
     def DepartemenEksternal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1IXN7tFr716pMdX-gQS1lCGe7PZZhK9N6", #Arafi Ramadhan Maulana
-            "https://drive.google.com/uc?export=view&id=1ecsNRjSNeBUBvqJqEuEW8XrmIzoe9LnQ", #Yohana Manik
-            "https://drive.google.com/uc?export=view&id=1Xw3xqX5LZX7UhXI-DNYy08BMjfIsft2z", #Ratu Keisha Jasmine Deanova
-            "https://drive.google.com/uc?export=view&id=1MZESXiVKBWVP3q5CIOKN-4xdtzUZXnQM", #Arini Puteri Elandra
-            "https://drive.google.com/uc?export=view&id=1Upx17KDanyHZsZoHvEo8MhusY1QcEdjl", #Arya Muda Siregar
-            "https://drive.google.com/uc?export=view&id=1OQn4plHr7Ir9oVx7IWPSEl7TJAVk05yw", #Khoirul Muttoharoh
-            "https://drive.google.com/uc?export=view&id=1FlHgx1rfDyd-VXPZLvy15oQeuab-ZeKR", #Lutfia Aisyah Putri
-            "https://drive.google.com/uc?export=view&id=13OZEtXZuLOfNv-SislL5_6InGjVZuTZ-", #Nabyla Sharfina
-            "https://drive.google.com/uc?export=view&id=1Ra8iJABsMqUscuemkU0Ib8MKrkEskukW", #Syahrialdi Rachim Akbar
-            "https://drive.google.com/uc?export=view&id=1ugI8WEmFJ4bkO91L_FcnCEk-k4q-XO0M", #Dea Mutia Risani
-            "https://drive.google.com/uc?export=view&id=1_GbyJxny59lFAdg13G5-pEbA8Ny1WnQs", #Cindy Laura Manik
-            "https://drive.google.com/uc?export=view&id=1ihlowmxLVpQyROs9s_orRrnjy_IlFRC1", #Dea Amanda
-            "https://drive.google.com/uc?export=view&id=1S5pVG2jCxeJTlLBCNBYgFlTzGhDLfLhw", #Desman Velius Halawa
-            "https://drive.google.com/uc?export=view&id=1hHfx-qTbarYioUTVO3_3T2es9SGwAvlO", #Devyna Sonya Palupi Sanjaya
-            "https://drive.google.com/uc?export=view&id=1FlHgx1rfDyd-VXPZLvy15oQeuab-ZeKR", #Luthfia Laila Ramadhani
-            "https://drive.google.com/uc?export=view&id=1oeeyKSEFXks1dFljdV2ya-xrMb6jNmON", #Irvan Alfaritzi
-            "https://drive.google.com/uc?export=view&id=1kkiVkXikHhFbeW0i5jwKyGa6rAEb0hvE", #Aditya Taufiqurrohman
-            "https://drive.google.com/uc?export=view&id=1uHMFbTk40LWkM93248SBC87ykPCbW1ek", #Fathya Intami Gusda
-            "https://drive.google.com/uc?export=view&id=1YwW-2fDN2NPtaiwzrZBfhYhOBilb_WZW", #Khazanatil Ilmi
-            "https://drive.google.com/uc?export=view&id=1Eeug7JUErvNYuaovLK47D_rhVbyxiCZU", #Melinza Nabila
-            "https://drive.google.com/uc?export=view&id=1DFe6BjtujHeSxGfzpB3PjYwO5ndlbdnz", #Nayla Shafira Roza
-            "https://drive.google.com/uc?export=view&id=1tJxFw1LcuLNsMadfe8lp5UP3Qel8uBIG", #Nurul Izzah Istiqomah
-            "https://drive.google.com/uc?export=view&id=15ESCkkj1iYQ2Bh-jAxtOCZx_7o9_MHF1", #Qois Olifio
-            "https://drive.google.com/uc?export=view&id=1-juUK7Zt7q0sqJ523UK6_pzYCadsdtjH", #Tarisya hidayatul rahmi
+            "https://drive.google.com/uc?export=view&id=1w2hv5qTtnA8W-zqw0e8oTJhRmXJjDzMG", #Arafi Ramadhan Maulana
+            "https://drive.google.com/uc?export=view&id=1DSl0Sqkeqr4rsLwmm3BvLl_ASRTnPFBf", #Yohana Manik
+            "https://drive.google.com/uc?export=view&id=12eVtuD7rBjY2jrp17IPspiQXWToAlhiF", #Ratu Keisha Jasmine Deanova
+            "https://drive.google.com/uc?export=view&id=1v72mB69Hjd7tU8v0knAljW_7WeVTgi6J", #Arini Puteri Elandra
+            "https://drive.google.com/uc?export=view&id=1jVBKBnEcp8xxi6ks8DkGjvHCmWuMLGYI", #Arya Muda Siregar
+            "https://drive.google.com/uc?export=view&id=1D1wxSu7gyhJzn-wuoejMnot_TdKT248w", #Khoirul Muttoharoh
+            "https://drive.google.com/uc?export=view&id=1gWX3VIfhUHCOWhWTDU55ve5JQA2aG-rX", #Lutfia Aisyah Putri
+            "https://drive.google.com/uc?export=view&id=1pb6NHRiNwSBqVzWvDJzNg5F7hgI9AI5Y", #Nabyla Sharfina
+            "https://drive.google.com/uc?export=view&id=1wdLZjCRDDpZv4kwGoJQg50ozx93fSJsB", #Syahrialdi Rachim Akbar
+            "https://drive.google.com/uc?export=view&id=1YhI6wpC_ciECRhkrZgpLVGColL2o2OnP", #Dea Mutia Risani
+            "https://drive.google.com/uc?export=view&id=1KQ1jN9LkNFM_x3DS5o8Wupjgkt_2jj8R", #Cindy Laura Manik
+            "https://drive.google.com/uc?export=view&id=1xj71YWgU261RxGP9te6yFWCf4e4nfCVo", #Dea Amanda
+            "https://drive.google.com/uc?export=view&id=1i-NZJ9xtUtXFU4f87k69TOmPc1RMDEeX", #Desman Velius Halawa
+            "https://drive.google.com/uc?export=view&id=10NQs0y9MGKkeTITDf6VqgV3aLuyHQ3rx", #Devyna Sonya Palupi Sanjaya
+            "https://drive.google.com/uc?export=view&id=1Frzo9_dnbW77Caf_mnxs0n9bHF0-4WMc", #Luthfia Laila Ramadhani
+            "https://drive.google.com/uc?export=view&id=1glXKHURH5reJ-0hy16VnORG3GM9oGPUH", #Irvan Alfaritzi
+            "https://drive.google.com/uc?export=view&id=1xhroZguQOFZF4IZYu05EE6NVgFrvuytw", #Aditya Taufiqurrohman
+            "https://drive.google.com/uc?export=view&id=1aAemHK0SLZL0vJplp4byvvJj1tVP2tiH", #Fathya Intami Gusda
+            "https://drive.google.com/uc?export=view&id=1zTCCSXEsCLe1j-SNCkyABtukQjgoCDJR", #Khazanatil Ilmi
+            "https://drive.google.com/uc?export=view&id=1axkjMTS2jbPP6odk0i_ND6iO1UtaVck-", #Melinza Nabila
+            "https://drive.google.com/uc?export=view&id=19QVrAFQD-iVe2mMe1hdEvdMu3JTDc4oH", #Nayla Shafira Roza
+            "https://drive.google.com/uc?export=view&id=1MBOxhcEjOPbaK9aGaAqVGros5kD_d-NF", #Nurul Izzah Istiqomah
+            "https://drive.google.com/uc?export=view&id=16NICprI2L4Sl9zkYxwznamuTDZObygnH", #Qois Olifio
+            "https://drive.google.com/uc?export=view&id=1Hc75fjSCEoXDLrKKopf_FSwlb7Skamym", #Tarisya hidayatul rahmi
         ]
         data_list = [
             {
@@ -1300,21 +1300,21 @@ elif menu == "Departemen Eksternal":
 elif menu == "Departemen Internal":
     def DepartemenInternal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1iek9QWhnMhCHlYmTaBnu9Ngl1ouPKDmj", #Rani Puspita sari
-            "https://drive.google.com/uc?export=view&id=1iy81Bl8diAXLDn50sdd99sRgSWydbgdi", #Renta Siahaan
-            "https://drive.google.com/uc?export=view&id=1igzBIM8Q_C2_6Do8uTNs26pACInib0-W", #Salwa Farhanatussaidah
-            "https://drive.google.com/uc?export=view&id=1iD2zAyTcHvlzV6wdyM_6_oc4v6_3Hhl4", #Azzahra Putri Kamilah
-            "https://drive.google.com/uc?export=view&id=1iskIaRoNHvlNLPWDUD0EARXmGWsK1ipJ", #Haikal Fransisko Simbolon
-            "https://drive.google.com/uc?export=view&id=1iVB4aXQEuegg8k7QGOF7gt3YI4vARCRw", #Iqfina Haula Halika
-            "https://drive.google.com/uc?export=view&id=1iV9l7fi_7OOXKLaceKrsYUSgZFrLhMh6", #May Talitha Dahlia
-            "https://drive.google.com/uc?export=view&id=1iti4XIsXBSLN0IizzkJQS2DW8GfJD2Ag", #Muhammad Naufal Alghani
-            "https://drive.google.com/uc?export=view&id=1ipGoQKyzLbctw7I9Gr7PNJlhcTjnoHlF", #Zailani Satria
-            "https://drive.google.com/uc?export=view&id=1iiK0DjMDGwZSmYMvTroqoosYnrEFiNI7", #Rendi Alexander Hutagalung
-            "https://drive.google.com/uc?export=view&id=1iVMg8mG6bd3djXszgLt52d3DZSzSFUgb", #Hanna Gresia Sinaga
-            "https://drive.google.com/uc?export=view&id=1i_vPZruybZH2d5HvW9w3lOYkDLtbrz3Z", #Keren Marito Lumban Gaol
-            "https://drive.google.com/uc?export=view&id=1ipkT7wWGKEOGyINI5bNlQeIYbkB-wM5q", #Muhammad Hanif Dzaky Arifin
-            "https://drive.google.com/uc?export=view&id=1i_MVF0YMMxChpofTQfiDP19-84Aew3Dh", #Sarah Wasti
-            "https://drive.google.com/uc?export=view&id=1iPlZ5Sqzx0ZzzvJMnDt2P-8lh2aZdo6I", #Zahra Putri Salsabilla
+            "https://drive.google.com/uc?export=view&id=1s7ouybeYWR-FSB2rjtYW7WDNKpgUNXud", #Rani Puspita sari
+            "https://drive.google.com/uc?export=view&id=1NWCYA2x7qM47aHPNJClVLGDT6jIM8x_s", #Renta Siahaan
+            "https://drive.google.com/uc?export=view&id=1NWCYA2x7qM47aHPNJClVLGDT6jIM8x_s", #Salwa Farhanatussaidah
+            "https://drive.google.com/uc?export=view&id=1ShXYobcdGmMTlpTHBnJR7g39H1_zSNVY", #Azzahra Putri Kamilah
+            "https://drive.google.com/uc?export=view&id=1t1T2WYgA7J3eJgHB1xqt1PEbk-cxh8lq", #Haikal Fransisko Simbolon
+            "https://drive.google.com/uc?export=view&id=1HiFWFGj9LKIhsrSjNzHEE9gCUtTiuR_b", #Iqfina Haula Halika
+            "https://drive.google.com/uc?export=view&id=13RjEGZt3ZeFzPAtElVK6_5n08R7X7JN_", #May Talitha Dahlia
+            "https://drive.google.com/uc?export=view&id=1z7jt0ZQQcLob0uEPO_Ed9UKvPtJso-Jv", #Muhammad Naufal Alghani
+            "https://drive.google.com/uc?export=view&id=1SAhn6tVdo97-VPjdEEdX01wIgZum3Djt", #Zailani Satria
+            "https://drive.google.com/uc?export=view&id=1nYvmuJ6BRDNyDQEH2tIYjhj3VOrnLsGP", #Rendi Alexander Hutagalung
+            "https://drive.google.com/uc?export=view&id=1SP7IzcUyODdqB0inH646hc7Pk4RKLro0", #Hanna Gresia Sinaga
+            "https://drive.google.com/uc?export=view&id=1uoYfZTBcdXCFsD1p0CtlonzXN7o2bXtT", #Keren Marito Lumban Gaol
+            "https://drive.google.com/uc?export=view&id=1wMr3ct9z8UlZ0PZpRRTDtwjny5HSyd-n", #Muhammad Hanif Dzaky Arifin
+            "https://drive.google.com/uc?export=view&id=1wB24QPsnHivqH6CQlZ9OZfWOyeL7jYLq", #Sarah Wasti
+            "https://drive.google.com/uc?export=view&id=1gcIhVG3gonSb1AFHf7TU53cjSY8adPme", #Zahra Putri Salsabilla
         ]
         data_list = [
             {
@@ -1488,17 +1488,17 @@ elif menu == "Departemen Internal":
 elif menu == "Departemen SSD":
     def DepartemenSSD():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tOiY67untuvbBaT-sWDJJxUux_b7LOGQ", #Danang Hilal Kurniawan
-            "https://drive.google.com/uc?export=view&id=143sj5_IYOi5dTV4g9qZknVRPH1SrieL1", #Syalaisha Andina Putriansyah
-            "https://drive.google.com/uc?export=view&id=1wIIgwTnRIGqFa_QoPVOpvPvHRcydojAO", #Ahmad Rizqi
-            "https://drive.google.com/uc?export=view&id=1htcRes-QnicPmHV3aJVwdu8pbzmJcWYT", #Anadia Carana
-            "https://drive.google.com/uc?export=view&id=1hNyLT-dnUXwkYcJxnn1fe9QXqDau28bV", #Aprilia Dewi Hutapea
-            "https://drive.google.com/uc?export=view&id=1YuRzhh7DeuTTPO6OxCNwxJOcGcBKrjxj", #Nabila Zakiyah Zahra
-            "https://drive.google.com/uc?export=view&id=16DBeL5W1JfXed-S5OexkiyzVNw1XcdJf", #Dhafin Razaqa Luthfi
-            "https://drive.google.com/uc?export=view&id=1PQ_wktWiFis_t0aWMi_2KeXiLpbTfXkJ", #Devi Rahayu
-            "https://drive.google.com/uc?export=view&id=1i3ljwOtz7ocmpRZkhwU1dU-WXOjvS3B8", #Enggli Rahmadhani
-            "https://drive.google.com/uc?export=view&id=1eGGFccRUsz2bWxXfJgmvum3ujk-R_hj-", #Hanifah Inaya Sani
-            "https://drive.google.com/uc?export=view&id=11g9plMQw3M1fs2fgFh52cV3fHqnaCwcF", #Nydia Manda Putri
+            "https://drive.google.com/uc?export=view&id=1yV__fu-g4S72333ZCLsJ4ZuR1ItPjoKx", #Danang Hilal Kurniawan
+            "https://drive.google.com/uc?export=view&id=1RlokvYONJbrKqRhaS6KyMeGvrMDuZ6NN", #Syalaisha Andina Putriansyah
+            "https://drive.google.com/uc?export=view&id=1fPHuWWzVmNN3rTpbPnn-DWRil9p3CANK", #Ahmad Rizqi
+            "https://drive.google.com/uc?export=view&id=1NBQlC4M4t2v9DKE3IYX4gX6Zrotin3P5", #Anadia Carana
+            "https://drive.google.com/uc?export=view&id=15uQduhhNoyoVhZTSuyreEd-8EoTtOOrH", #Aprilia Dewi Hutapea
+            "https://drive.google.com/uc?export=view&id=1RkP4tdRsZMWeNV0XPVx1NWfPWNUahbCG", #Nabila Zakiyah Zahra
+            "https://drive.google.com/uc?export=view&id=1PypVVHasT_9rZlj-JBGrIuStAXIx0HSR", #Dhafin Razaqa Luthfi
+            "https://drive.google.com/uc?export=view&id=1Y-ZJEJILsScR7nt3yYSUyd1ENwAhDHQs", #Devi Rahayu
+            "https://drive.google.com/uc?export=view&id=1eLHL307Dejox4vKBoSn5RgtOOepq-O12", #Enggli Rahmadhani
+            "https://drive.google.com/uc?export=view&id=1A-6tYJFL1ChTQRJgwzUtGCSvS3cd_6H9", #Hanifah Inaya Sani
+            "https://drive.google.com/uc?export=view&id=1INsZTOta6ddoUd9AtaGfDeXlgal-moz0", #Nydia Manda Putri
         ]
         data_list = [
             {
@@ -1628,24 +1628,24 @@ elif menu == "Departemen SSD":
 elif menu == "Departemen Medkraf":
     def DepartemenMedkraf():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1iKn45RTFt11Bl2QFLlg0nFAY4U-pYIHD", #Patricia Leondrea Diajeng Putri
-            "https://drive.google.com/uc?export=view&id=10mtwIk6sSj0lc2oGB8Fa_i9pVllkIHjP", #Rahma Neliyana
-            "https://drive.google.com/uc?export=view&id=18_g5QMBYDkyEGAtPyWp024i36PlOzT_u", #Khoirul Anam
-            "https://drive.google.com/uc?export=view&id=1UFyl-NndaCmVdrBzcvzlXkDynRWyNKBG", #Labo John Noel Napitupulu
-            "https://drive.google.com/uc?export=view&id=1tt-D2eobfOOmuGswv30J1xRqL2Xoj4AV", #Rafi Diva Efangga
-            "https://drive.google.com/uc?export=view&id=1l_nKIn0Mbqir_gmZFgHRn2Jt_Nmgnjoi", #Refa Destiny Pranata
-            "https://drive.google.com/uc?export=view&id=1DvVN5lDkhyAAMzEvPZEFd03Aoj9VqmFM", #Try Yani Rizki Nur Rohmah
-            "https://drive.google.com/uc?export=view&id=1D3NwgwlfQ7zAU5Ryu1ArtNAcryLJKYnG", #Aliya Ammara Ananta
-            "https://drive.google.com/uc?export=view&id=1IHHDcVeqPvkhhn58GIwY9_QWLz1E_mx5", #Donna Maya Puspita
-            "https://drive.google.com/uc?export=view&id=1WhKtFYYMVra3NkVU1mY0j5Sm3j96mX7k", #Feby Angelina
-            "https://drive.google.com/uc?export=view&id=1ot-SYJn8DAdG8yxjbB4GsRNtv5n6GZ3Z", #Hafsa Fazila Arradhi
-            "https://drive.google.com/uc?export=view&id=1l80o4pctgaAxFffyFiw5KDH0oyH64oev", #Nayla Salsabila Fathianisa
-            "https://drive.google.com/uc?export=view&id=1J6c_Z4hVdCq2oMoXVffCasdUcFHr3Se_", #Sania Dwi Ayu Lestari
-            "https://drive.google.com/uc?export=view&id=1TEMbQwpMW4Cfj4fcPc_MAKq9lm65iiBy", #Akmal Faiz Abdillah
-            "https://drive.google.com/uc?export=view&id=1UDmXlkK6Rr79wkFRF-1SK7Qv1R8gu1ba", #Raihana Adelia Putri
-            "https://drive.google.com/uc?export=view&id=1Zu5Q7yJEmH6u-OK9mevYm-5Xs9cD_DLm", #Citra Agustin
-            "https://drive.google.com/uc?export=view&id=16_TCCyzLo99Xdjp2J8A2n0LlsPaE3JKQ", #Eigi Artamevia
-            "https://drive.google.com/uc?export=view&id=1IQpx7MYOJ0gSAMmXpY23tOZDPxOWdW1q", #Romauli Oktavia Silaban
+            "https://drive.google.com/uc?export=view&id=1ukPczcb3wKjk3zxKv9BNKj2StqX7F3Lf", #Patricia Leondrea Diajeng Putri
+            "https://drive.google.com/uc?export=view&id=1_A5752cNkmRYPCNo9dRInDbtf-4LeytQ", #Rahma Neliyana
+            "https://drive.google.com/uc?export=view&id=1MZgc4gj5jdqUQ3RqQOBescmJhJTLcSSn", #Khoirul Anam
+            "https://drive.google.com/uc?export=view&id=1-7WlgJdETLsut6ZLZLeBXTPtOYZocxpH", #Labo John Noel Napitupulu
+            "https://drive.google.com/uc?export=view&id=1GaBGrq6ZgS7W-a3_7CD6vRyBbNs6LLDs", #Rafi Diva Efangga
+            "https://drive.google.com/uc?export=view&id=1QmN0r7TMI7sLhluAb1rh9rjf-oWkKL0e", #Refa Destiny Pranata
+            "https://drive.google.com/uc?export=view&id=1tGn7M8r--1byDG9g5lJ1hGIP1mh1_E1M", #Try Yani Rizki Nur Rohmah
+            "https://drive.google.com/uc?export=view&id=12hJoupU7N2OPdh98sIcZ8WkEcSuFr1Yz", #Aliya Ammara Ananta
+            "https://drive.google.com/uc?export=view&id=1mgk3xqXHbTy6bUigvO6iw5kuQ1DN0HcV", #Donna Maya Puspita
+            "https://drive.google.com/uc?export=view&id=1mluDp8YThaIxAUJ9EV4U1trqmpMciSc2", #Feby Angelina
+            "https://drive.google.com/uc?export=view&id=1Axbyi7l_EKMnLpxthsyiR1wbr_NeoIQj", #Hafsa Fazila Arradhi
+            "https://drive.google.com/uc?export=view&id=1A2GbfoXcvPPO_MdVd9bulp-Vy29nDeAf", #Nayla Salsabila Fathianisa
+            "https://drive.google.com/uc?export=view&id=1n1MOPhl-SyUx3KvWc6aish5E3Clk4I80", #Sania Dwi Ayu Lestari
+            "https://drive.google.com/uc?export=view&id=1V39dQ2UgiVqteWfPO9l1gzxhKKaAV2qS", #Akmal Faiz Abdillah
+            "https://drive.google.com/uc?export=view&id=1-NxbZc3CGMGMxxSE-RbQ-icOigw9QQjE", #Raihana Adelia Putri
+            "https://drive.google.com/uc?export=view&id=1u8Wnj9zpsiZeG9ml1hyeXAbpXrc3XIiP", #Citra Agustin
+            "https://drive.google.com/uc?export=view&id=1akiW80lztWJHhVV0mf6TvMhMzBW8eAPF", #Eigi Artamevia
+            "https://drive.google.com/uc?export=view&id=1yJqdRG4pTZAaStPQKn9BBr2enmECVSIg", #Romauli Oktavia Silaban
         ]
         data_list = [
             {
