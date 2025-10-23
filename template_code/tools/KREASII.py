@@ -1,70 +1,111 @@
 import streamlit as st
 import random
 
-st.set_page_config(page_title="📊 ANOVA Arena", page_icon="⚔️", layout="centered")
+st.set_page_config(page_title="📊 ANOVA Explorer", page_icon="⚔️", layout="centered")
 
-st.title("⚔️ ANOVA Arena: The Battle of Variance")
+st.title("⚔️ ANOVA Explorer: Battle of Means")
 st.caption("Kreasi 2 | Kelompok 4 ANOVA | HMSD Adyatama ITERA 2025")
 st.markdown("---")
 
-# State
+# Inisialisasi state
 if "score" not in st.session_state:
     st.session_state.score = 0
 if "round" not in st.session_state:
     st.session_state.round = 1
-if "result" not in st.session_state:
-    st.session_state.result = ""
+if "feedback" not in st.session_state:
+    st.session_state.feedback = ""
 
-# Data acak
-group_a = [random.randint(50, 80) for _ in range(5)]
-group_b = [random.randint(40, 90) for _ in range(5)]
-group_c = [random.randint(30, 100) for _ in range(5)]
+# -------------------------------------------------------------
+# Generate data random untuk 3 kelompok
+# -------------------------------------------------------------
+n = 5
+group_A = [random.randint(50, 90) for _ in range(n)]
+group_B = [random.randint(40, 95) for _ in range(n)]
+group_C = [random.randint(30, 100) for _ in range(n)]
+groups = {"A": group_A, "B": group_B, "C": group_C}
 
-groups = {"A": group_a, "B": group_b, "C": group_c}
-
+# Hitung rata-rata tiap kelompok
 means = {k: sum(v)/len(v) for k, v in groups.items()}
-grand_mean = sum(means.values()) / len(means)
+grand_mean = sum(means.values()) / 3
 
-# Hitung "indikasi perbedaan" sederhana (bukan scipy)
-between_var = sum(len(v) * (means[k] - grand_mean)**2 for k, v in groups.items())
-within_var = sum(sum((x - means[k])**2 for x in v) for k, v in groups.items())
+# Hitung variasi antar & dalam kelompok
+ss_between = sum(len(v) * (means[k] - grand_mean)**2 for k, v in groups.items())
+ss_within = sum(sum((x - means[k])**2 for x in v) for k, v in groups.items())
+df_between = 3 - 1
+df_within = 3 * (n - 1)
+ms_between = ss_between / df_between
+ms_within = ss_within / df_within
+f_stat = ms_between / (ms_within + 1e-9)  # biar gak error div 0
 
-score_ratio = between_var / (within_var + 1e-6)  # biar gak error div 0
+# -------------------------------------------------------------
+# Tampilkan tabel data
+# -------------------------------------------------------------
+st.subheader(f"🧪 Ronde {st.session_state.round}")
+st.write("Berikut data hasil percobaan dari tiga kelompok:")
 
-st.subheader(f"🧩 Ronde {st.session_state.round}")
-st.write("Berikut hasil 3 kelompok data eksperimen:")
+st.table({
+    "Kelompok A": group_A,
+    "Kelompok B": group_B,
+    "Kelompok C": group_C
+})
 
-for k in groups:
-    st.write(f"Kelompok {k}: {groups[k]} | Mean = {means[k]:.2f}")
+# Visualisasi mean dalam bentuk bar sederhana
+st.subheader("📊 Visualisasi Rata-rata Kelompok")
+chart_data = [
+    f"A: {means['A']:.2f}",
+    f"B: {means['B']:.2f}",
+    f"C: {means['C']:.2f}"
+]
+bars = " | ".join(chart_data)
+st.markdown(f"""
+<div style='padding:10px; background-color:#f8f9fa; border-radius:10px; text-align:center;'>
+<b>{bars}</b>
+</div>
+""", unsafe_allow_html=True)
 
-st.write(f"📈 Indikasi selisih antar-mean: {abs(max(means.values()) - min(means.values())):.2f}")
+# -------------------------------------------------------------
+# Pemain menebak
+# -------------------------------------------------------------
+st.write("Berdasarkan data di atas, apakah menurutmu terdapat **perbedaan signifikan antar kelompok?**")
 
-choice = st.radio("Menurutmu, apakah terdapat perbedaan signifikan antar kelompok?", ["Ya, signifikan ✅", "Tidak signifikan ❌"])
+choice = st.radio("Pilih jawabanmu:", ["Ya, signifikan ✅", "Tidak signifikan ❌"])
 
 if st.button("Cek Hasil 🎯"):
-    significant = score_ratio > 1.2  # ambang sederhana
+    significant = f_stat > 3.0  # ambang sederhana
     if (choice.startswith("Ya") and significant) or (choice.startswith("Tidak") and not significant):
         st.session_state.score += 10
-        st.session_state.result = f"✅ Tepat! Skor rasio = {score_ratio:.2f} → {'Signifikan' if significant else 'Tidak signifikan'}"
+        st.session_state.feedback = f"✅ Benar! F = {f_stat:.2f} → {'Signifikan' if significant else 'Tidak signifikan'}"
         st.balloons()
     else:
         st.session_state.score -= 5
-        st.session_state.result = f"❌ Kurang tepat! Skor rasio = {score_ratio:.2f} → {'Signifikan' if significant else 'Tidak signifikan'}"
+        st.session_state.feedback = f"❌ Kurang tepat! F = {f_stat:.2f} → {'Signifikan' if significant else 'Tidak signifikan'}"
     st.session_state.round += 1
     st.rerun()
 
-if st.session_state.result:
-    st.info(st.session_state.result)
+if st.session_state.feedback:
+    st.info(st.session_state.feedback)
 
+# -------------------------------------------------------------
+# Skor dan opsi ulang
+# -------------------------------------------------------------
 st.markdown("---")
-st.write(f"🏆 Skor Kamu: **{st.session_state.score}**")
+st.subheader(f"🏆 Skor Kamu: {st.session_state.score}")
 
 if st.button("🔁 Main Lagi"):
     st.session_state.score = 0
     st.session_state.round = 1
-    st.session_state.result = ""
+    st.session_state.feedback = ""
     st.rerun()
 
-st.caption("🎓 Game ini menggambarkan konsep **Analisis Varians (ANOVA)** "
-            "dengan pendekatan intuitif: makin besar perbedaan rata-rata antar kelompok, "
-            "makin tinggi kemungkinan perbedaan signifikan.")
+# -------------------------------------------------------------
+# Penjelasan singkat
+# -------------------------------------------------------------
+st.markdown("---")
+st.caption("""
+🎓 Game ini mensimulasikan **Analisis Varians (ANOVA)** sederhana.
+F-statistic dihitung sebagai rasio *variasi antar kelompok* terhadap *variasi dalam kelompok*.
+
+> F = (SS<sub>antara</sub>/df<sub>antara</sub>) ÷ (SS<sub>dalam</sub>/df<sub>dalam</sub>)
+
+Jika F > 3.0 → diasumsikan perbedaan signifikan.
+""", unsafe_allow_html=True)
