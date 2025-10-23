@@ -734,7 +734,7 @@ if menu == "Departemen PSDA":
                 "sosmed": "@-",
                 "kesan": "-",  
                 "pesan":"T-"# 1
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenPSDA()
@@ -1009,7 +1009,7 @@ if menu == "Departemen MIKFES":
                 "sosmed": "@razyn.hfd",
                 "kesan": "Abang kece & jago futsal",  
                 "pesan":"semangat terus bang!"# 1
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMIKFES()
@@ -1056,7 +1056,7 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@i",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenEksternal()
@@ -1248,7 +1248,7 @@ if menu == "Departemen Internal":
                 "sosmed": "@zhrptsl",
                 "kesan": "Kakak imut santai",  
                 "pesan":"semangat terus kuliahnya kak!"# 1
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenInternal()
@@ -1439,7 +1439,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@i",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
