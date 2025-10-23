@@ -103,8 +103,8 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=1A1OYuEaT6nPdQOio3CRqJdRAIJtssDOr",
             "https://drive.google.com/uc?export=view&id=1ItKBpWYdf5iCK1cRwh5Q2o7gn0Yc8O8C",
             "https://drive.google.com/uc?export=view&id=1AC1x8bstyUDbjIUbe0MR1iKtIf26jget",
-            "https://drive.google.com/uc?export=view&id=1vbAsWXChQy38bTd5-DyfoFCa2p6b2r_b",
             "https://drive.google.com/uc?export=view&id=1Q9RbVufERlvB2IpJYe2LZZUt7kC8S13r",
+            "https://drive.google.com/uc?export=view&id=1vbAsWXChQy38bTd5-DyfoFCa2p6b2r_b",
         ]
         data_list = [
             {
@@ -115,7 +115,7 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Beli donat kentang",
                 "sosmed": "@erendraa",
-                "kesan": "keren banget banggg bisa jadi ",  
+                "kesan": " ",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
