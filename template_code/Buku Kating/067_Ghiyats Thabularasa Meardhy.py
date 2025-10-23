@@ -99,11 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1CGxOjcK_MofRLOIZzrkIddq3wAOK6lKd",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1UWdel2_osyJhmHXajTqsW2wu2qQzRvoU",
+            "https://drive.google.com/uc?export=view&id=1kqurzlqC6Q_QmQ8ek21tDYdx7L-xiI16",
+            "https://drive.google.com/uc?export=view&id=1CSd15o2mxPqu0TrYsgg3ykoksJr3jHih",
+            "https://drive.google.com/uc?export=view&id=18yT19HVveO-OP4MSHtanUVSlyOgJynYL",
+            "https://drive.google.com/uc?export=view&id=1EIFsl_atXK2t6hj-U-BIDKJPwiLpydDl",
+            "https://drive.google.com/uc?export=view&id=1MebTkSJMzpE2eqVAaqyUm4SrY5Oe3vOf",
         ]
         data_list = [
             {
@@ -114,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Beli donat kentang",
                 "sosmed": "@erendraa",
-                "kesan": "keren banget banggg bisa jadi ",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "keren dan humble ",  
+                "pesan":"semangat kuliahnya bang semoga lulus sarjana Sains Data tepat waktu"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -125,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Baca buku dasar-dasar",
                 "sosmed": "@johannneskrijnnn",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "asik banget dan selalu tampil keren",  
+                "pesan":"semangat ya bang mengejar sarjana Sains Data"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -136,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Airest Kost",
                 "hobbi": "Siram shopee",
                 "sosmed": "@celisabeth_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "selalu tampil ceria dan asik",  
+                "pesan":"semoga lancar terus kak kuliahnya"# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -147,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "baik dan kalem",  
+                "pesan":"semangat terus ya kak"# 1
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
@@ -158,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Rajabasa",
                 "hobbi": "Baca buku, suka pramuka",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "asik dan ramah",  
+                "pesan":"semangat menjalani perkuliahannya kak"# 1
             },
             {
                 "nama": "Farhanum Afifah Ardiansyah",
@@ -169,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur",
                 "sosmed": "@farahanumafifah",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "humble dan ramah",  
+                "pesan":"semoga di beri kemudahan dalam segala urusan"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
