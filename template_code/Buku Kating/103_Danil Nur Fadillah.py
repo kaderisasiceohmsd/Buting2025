@@ -182,7 +182,7 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1AXZtPYCVNzNPCq7oRHNuvQUVe5u0MQKU",
+            "https://drive.google.com/uc?id=1AXZtPYCVNzNPCq7oRHNuvQUVe5u0MQKU",
             "https://drive.google.com/uc?export=view&id=1qH10X4mFRADDeDA87RFBYijybudVmP-O",
             "https://drive.google.com/uc?export=view&id=170bYOAgDvJVCDB7kgSO9sjUAyvIh1oLC",
             "https://drive.google.com/uc?export=view&id=1-U_l2FKKCrgsbCkJmRCjIY_U_uC30V_R",
