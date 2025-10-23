@@ -1005,7 +1005,7 @@ elif menu == "Departemen MIKFES":
         display_images_with_data(gambar_urls, data_list)
     mikfes()
     
-elif menu == "Departemen Eksternal":
+if menu == "Departemen Eksternal":
     def eksternal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -1298,6 +1298,6 @@ elif menu == "Departemen Eksternal":
                 "kesan": "Kaknya chill tapi punya vibe pemimpin banget, keren!",
                 "pesan": "Semoga makin sukses dan tetep rendah hati kayak sekarang, kak!"
               },
-        ]
+            ]
         display_images_with_data(gambar_urls, data_list)
     eksternal()
