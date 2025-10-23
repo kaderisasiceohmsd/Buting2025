@@ -291,8 +291,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyanyi",
                 "sosmed": "@berlyyanda",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak berliana baik, keren",  
+                "pesan":"jangan lupa senyum, istirahat dan ketawa yaa kakkk"# 1
             },
             {
                 "nama": "Juesi Apridelia Saragih",
@@ -302,8 +302,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Lupa bales chat",
                 "sosmed": "@j__eesie",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak juesi lucu banget, baikkk, humble polll",  
+                "pesan":"hari ini emang berat, tapi jangan lupa untuk tetep istirahat yang cukup, semangatt kak"# 1
             },
             {
                 "nama": "Ridho Benedictus Togi Manik",
@@ -313,8 +313,8 @@ elif menu == "Baleg":
                 "alamat": "GH",
                 "hobbi": "Main paddle",
                 "sosmed": "@iamridhomanik",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Bang ridho ini kocak juga, asik",  
+                "pesan":"Senyum, semangat dan sukses terus bangggg"# 1
             },
             {
                 "nama": "Feryadi Yulius",
@@ -324,8 +324,8 @@ elif menu == "Baleg":
                 "alamat": "Tanjung Karang",
                 "hobbi": "koleksi batch google cloud",
                 "sosmed": "@fer_yulius",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Bang feriyadi baik, keren, asikkk jugaa",  
+                "pesan":"tetep semangat dan senyum, karena senyum itu sedekah"# 1
             },
             {
                 "nama": "Monica Patricia Tanjung",
@@ -335,8 +335,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Main ML",
                 "sosmed": "@monica_tjg",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak monic baik, lucu",  
+                "pesan":"kak monic jangan lupa bahagiaa yaappsss"# 1
             },
             {
                 "nama": "Wan Nashwa Alhasni Yuska",
@@ -346,8 +346,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyapa Angin",
                 "sosmed": "@nshaysk",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak wawa baikk banget, lucu, agak pemalu yaa hehe",  
+                "pesan":"halooo kakak nim ku, semangat terus yaa, jangan lupa bahagia dan istirahattnya!!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -369,8 +369,8 @@ elif menu == "Senator":
                 "alamat": "Raden Saleh",
                 "hobbi": "Dengerin lagu, nyanyi, game, rapat",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Bang bintang ini jokes nya lucu bangett, terus asik poll",  
+                "pesan":"semoga kedepannya bisa jadi pribadi yang terbaik dari ini ya bang, semangatt!!!!"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -380,8 +380,8 @@ elif menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Dengerin lagu",
                 "sosmed": "@nadyaanjaani",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak nadya baik bangett, lembut juga kalau ngomong",  
+                "pesan":"semangat terus kak apapun masalahnya, jangan lupa untuk cerita dan jangan lupa istirahat yaa!"# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -391,8 +391,8 @@ elif menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Main",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak fathin atau kak ziziah? hehe, kakak baik poll",  
+                "pesan":"semangatt dan jangan lupa untuk makann, dan senyum itu yang pasti"# 1
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -402,8 +402,8 @@ elif menu == "Senator":
                 "alamat": "Belakang Indomaret Belwis",
                 "hobbi": "Rebahan",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak lia humble, baik, dan asik jugaa",  
+                "pesan":"sukses dan semangat terusssss ya kaks, jangan lupa istirahatnyaaa"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -771,4 +771,5 @@ elif menu == "Departemen MIKFES":
                 "pesan":""# 1
             },
         ]
+
 
