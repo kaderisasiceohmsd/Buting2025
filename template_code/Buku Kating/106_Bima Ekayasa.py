@@ -1213,28 +1213,28 @@ if menu == "Departemen SSD":
 if menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #1
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #2
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #3
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #4
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #5
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #6
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #7
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #8
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #9
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #10
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #11
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #12
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #13
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #14
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #15
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #16
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #17
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #18
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #19
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #20
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #21
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #22
+            "https://drive.google.com/uc?export=view&id=1r-wRYeCYWmko3fRndEJASTANy7T_qmgs", #1
+            "https://drive.google.com/uc?export=view&id=1HYrPs64dGWmOpwJSGaHeMpKr-IoYOpj7", #2
+            "https://drive.google.com/uc?export=view&id=1EAPiWB_ODTMxOTQsYQg7GWdi6H2wgSk1", #3
+            "https://drive.google.com/uc?export=view&id=1gO6HIWkqE2CURvLmR51FhsawbMqE10HR", #4
+            "https://drive.google.com/uc?export=view&id=1OHf1XurdzRAU4vBsHJuV6uDxzvx3SySl", #5
+            "https://drive.google.com/uc?export=view&id=1bdaUKpaootNwkyj-SIDz7KFMrg0J14Z3", #6
+            "https://drive.google.com/uc?export=view&id=1Bgx4LnEXEvKQFboVYLPSnSPpxsLEwort", #7
+            "https://drive.google.com/uc?export=view&id=1Pu9QjbhC8diwYiAnyfUn62Ii0uGOOX-g", #8
+            "https://drive.google.com/uc?export=view&id=1I3BuZM-Mgz6VpRFGTLhYGw8JnGPyj8Zk", #9
+            "https://drive.google.com/uc?export=view&id=1NKrBxSICRgNIC0Ociz1di13SlHM43PPr", #10
+            "https://drive.google.com/uc?export=view&id=1fDGuslDchilm58tk0YAmFS2VMxMGIQoJ", #11
+            "https://drive.google.com/uc?export=view&id=1tcHXqQAd0SCqYtO3KLExGs6k7ECML6wM", #12
+            "https://drive.google.com/uc?export=view&id=1QiRCAoTRnMysRxL02iyZGuTvOgyQdIs2", #13
+            "https://drive.google.com/uc?export=view&id=14q-8WtDSb7NFrJ0leBBlhJ76g2Sd3g-S", #14
+            "https://drive.google.com/uc?export=view&id=1HiTjxc5o0ugf1QVdcY6RMONyi7kHMUP3", #15
+            "https://drive.google.com/uc?export=view&id=1S_mRMdRtKmBiwKQXOW2PNglloj8QQjsh", #16
+            "https://drive.google.com/uc?export=view&id=1gerLyDfG7HpfXncVm7UiuwIX92ZlI3C", #17
+            "https://drive.google.com/uc?export=view&id=1cyfL-5zIr4sWqwtmt86S1Qc2l7yAd_Fq", #18
+            "https://drive.google.com/uc?export=view&id=1_4hQ2WBD8bjj28AkWmpZ0H3u_Di4ZtDW", #19
+            "https://drive.google.com/uc?export=view&id=1stUbZd9wuZP7x77o8kaiFRc4VhhuS6bg", #20
+            "https://drive.google.com/uc?export=view&id=1stM4UAvNQ8NeVgVCaguitqQozcvUL8vl", #21
+            "https://drive.google.com/uc?export=view&id=1tZz44NEmJHFqQxkWqQ01219kKDe0jWn8", #22
         ] 
         data_list = [
             {
@@ -1273,11 +1273,11 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Aisyah Musfirah",
                 "nim": "123450084",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@_aishsahi",
+                "umur": "21",
+                "asal": "Bengkulu",
+                "alamat": "Jl. Lapas",
+                "hobbi": "Maskeran",
+                "sosmed": "@_aishahi",
                 "kesan": " ",  
                 "pesan":" "# 4
             },
@@ -1381,7 +1381,7 @@ if menu == "Departemen MIKFES":
                 "pesan":" "# 13
             },
             {
-                "nama": "Fairus Ary Syifa",
+                "nama": "Fairuz Ary Syifa",
                 "nim": "123450044",
                 "umur": "",
                 "asal":"",
@@ -1394,11 +1394,11 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Tanty Widyiastuti",
                 "nim": "123450094",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@i",
+                "umur": "20",
+                "asal":"Lampung Tengah",
+                "alamat": "Asramam TB 4",
+                "hobbi": "Tidur",
+                "sosmed": "@tvnty_",
                 "kesan": "",  
                 "pesan":""# 15
             },
@@ -1434,8 +1434,18 @@ if menu == "Departemen MIKFES":
                 "sosmed": "@biyokcb",
                 "kesan": " ",  
                 "pesan":" "# 18
+            }, 
+            {
+                "nama": "Giofani Aristyo",
+                "nim": "123450065",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "",
+                "hobbi": "Catur",
+                "sosmed": "@",
+                "kesan": " ",  
+                "pesan":" "# 22
             },
-          
             {
                 "nama": "Rahma Oktavia Albar",
                 "nim": "123450003",
@@ -1468,17 +1478,6 @@ if menu == "Departemen MIKFES":
                 "sosmed": "@",
                 "kesan": "",  
                 "pesan":""# 21
-            },
-            {
-                "nama": "Giofani Aristyo",
-                "nim": "123450065",
-                "umur": "20",
-                "asal":"Bandar Lampung",
-                "alamat": "",
-                "hobbi": "Catur",
-                "sosmed": "@",
-                "kesan": " ",  
-                "pesan":" "# 22
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1877,6 +1876,7 @@ if menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
