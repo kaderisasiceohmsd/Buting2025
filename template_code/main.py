@@ -5,7 +5,7 @@ st.session_state.pindah = True
 
 Homepage = st.Page(
     "Halaman Utama/halaman_utama.py",
-    title="Nama_Kelompok",
+    title="POISSON",
     default=True
 )
 
