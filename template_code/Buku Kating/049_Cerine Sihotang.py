@@ -116,12 +116,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def Kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
-            "https://drive.google.com/uc?export=view&id=1GqJ5F_vejQJ196U50ciIIR4NR-xS0RPZ",
+            "https://drive.google.com/uc?export=view&id=1QS9z1NcE0O6HxgEF5Ic1zmM4Y7eP0QRD",
+            "https://drive.google.com/uc?export=view&id=114F5fg0LbUbtdxDuTdCzPXk4SK8vP789P",
             "https://drive.google.com/uc?export=view&id=1Ke724M-V9OyKlZ9m1WhdaHF-3T2Kq45L",
-            "https://drive.google.com/uc?export=view&id=1S06Ws-NpvUEJg-o8ueVkoVMFc99Efuj3",
-            "https://drive.google.com/uc?export=view&id=1vzUs4VrInJe6uzuOLvr7gyKOiqIBLzi9",
-            "https://drive.google.com/uc?export=view&id=1SFUNiVid6K4SBfoKc8Xh73gKBZEubRJi", 
+            "https://drive.google.com/uc?export=view&id=1up5y2j88I-Oa6anZfx5Du20qf-8rqgmJ",
+            "https://drive.google.com/uc?export=view&id=1Dtb5shbeVw-NwgnS70s_B8zLfa85iVgd",
+            "https://drive.google.com/uc?export=view&id=1DHfqTQjW5sLbYldpROxLWPBJUbwaOyRW", 
         ]
         data_list = [
             {
@@ -132,8 +132,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damai",
                 "hobbi": "Nyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Abang ini seru Abiez",  
-                "pesan":"Semangat Bang jadi Kahim!!"# 1
+                "kesan": "Abang ini seru Humoris dan seru",  
+                "pesan":"Tetap jadi panutan ya bang"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -143,8 +143,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL!",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Bang Jo Seru & Ternyata satu daerah asal",  
-                "pesan":"Gassin terus bang !!!"# 1
+                "kesan": "Bang Jo kece abisss",  
+                "pesan":"Sukses terus bang !!!"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -154,8 +154,8 @@ if menu == "Kesekjenan":
                 "alamat": "Ayrest Kost",
                 "hobbi": "Nahan pipis",
                 "sosmed": "@celisabethh_",
-                "kesan": "Kakak ini lucu humoris dan seru",  
-                "pesan":"semoga akunnya gak kena suspend lagi kak"# 1
+                "kesan": "Kakak nya ramah banget kalau ketemu, lucu lagi",  
+                "pesan":"jangan lupakan kami ya kak adik adik kakak yang imup ini"# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -165,8 +165,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Kak Syadza keren",  
-                "pesan":"semoga sukses terus kak"# 1
+                "kesan": "Kak nya humble",  
+                "pesan":"semangat terus ya kak lopyou"# 1
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
@@ -176,8 +176,8 @@ if menu == "Kesekjenan":
                 "alamat": "Asrama TB4",
                 "hobbi": "Nahan eek",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Kakak ini asik dan seru",  
-                "pesan":"sukses teruss kak"# 1
+                "kesan": "Kakak ini asik banget",  
+                "pesan":"jangan lupa makan kak"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -187,8 +187,8 @@ if menu == "Kesekjenan":
                 "alamat": "Korpri",
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifahh",
-                "kesan": "Kakak ini lucu, jutek tapi seru",  
-                "pesan":"semoga suksess terus kak"# 1
+                "kesan": "Kakak ini lucu seperti cewe cool yang di drakor",  
+                "pesan":"jangan lupa senyum ya kak, senyuman kakak imup banget soal nya"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -199,20 +199,20 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1b0UlGa2a6ihJ5SyDX4m8SCFrcvb3jZQV",
-            "https://drive.google.com/uc?export=view&id=1WkJ8kkubfpD25whn6KKX0QClJLjMmbfH",
-            "https://drive.google.com/uc?export=view&id=1D2PEZOEcxC4VC_o-dxPzmuma46J4xPQV",
-            "https://drive.google.com/uc?export=view&id=103fU2BUj9AiDQC8KCi2Pi5DVRA3Q5q53",
-            "https://drive.google.com/uc?export=view&id=1wYeiB0Ebp9fsqZLd3N1vinGqGOL7Cci-",
-            "https://drive.google.com/uc?export=view&id=1cg9F4Ul8BApKcFFjDbCPEDhIkiBc8nFQ",
-            "https://drive.google.com/uc?export=view&id=18en1yAV9WSQHwTvSjU2Ss98U4bGvFMEs",
-            "https://drive.google.com/uc?export=view&id=13aBhNCI8yHspAceES0IRtMFWynOewjJ-",
-            "https://drive.google.com/uc?export=view&id=1yturDQRWX8NG_CoOKW6DgZ1_1nIJrmlP",
-            "https://drive.google.com/uc?export=view&id=1S-OeC7dXOPoeXVhedLwEQjsqyo9T9LHj",
-            "https://drive.google.com/uc?export=view&id=1HeqYOWfpda6eFcilZID4k3uj4exOVxug",
-            "https://drive.google.com/uc?export=view&id=1IP7ts6lzJ-exEIby-G9UMRzyCcCW_1gz",
-            "https://drive.google.com/uc?export=view&id=1Tjx9daRpkfX4IVPO0HwWcJxP-SLB7cR1",
-            "https://drive.google.com/uc?export=view&id=1cz9SK84UUCS9Gjo7oUNQzpwBpS6KEpPQ",
+            "https://drive.google.com/uc?export=view&id=1ihQeX1mcmI3rSnYIxIVXSnW6LAgmlhXH",
+            "https://drive.google.com/uc?export=view&id=1Zbn_ZiQdld0av6OOoVx8e6Y1OVwEZ6sJ",
+            "https://drive.google.com/uc?export=view&id=1W4wy10tzyQuD-iWwWxOFhEUzXaFT4Cfb",
+            "https://drive.google.com/uc?export=view&id=1qi33TkJI6eTBtRWdGyynI_tSQkPnf_Wy",
+            "https://drive.google.com/uc?export=view&id=1pBQyv-BMUSNkWOCDbpMEmgdEKtdNfJbD",
+            "https://drive.google.com/uc?export=view&id=1UBOjxwpT7d_aERu-P55CNfUl1EBPJu6n",
+            "https://drive.google.com/uc?export=view&id=1eyKhEzYMwdXw38wIDeSNUyeNfdzgrYVq",
+            "https://drive.google.com/uc?export=view&id=1JhzVg8NriX4Z0C4YCMNDh7WStohIUgBo",
+            "https://drive.google.com/uc?export=view&id=1LVvS7BBfdQ8FjHWbdtswbXo-Q3HTl1WZ",
+            "https://drive.google.com/uc?export=view&id=1UR-tfZ39RnLXTMLdVYL_jRyx5pijw2CO",
+            "https://drive.google.com/uc?export=view&id=1QiiLBzcpQk_V6jfwDSPOYxYK6mRaSeBs",
+            "https://drive.google.com/uc?export=view&id=1bE-s2pITxuyTb2QR3RGW0ESFblfww0Tt",
+            "https://drive.google.com/uc?export=view&id=1cL1GUOzdHE0hDLfRDunU4omL9_TIR2n-",
+            "https://drive.google.com/uc?export=view&id=1Uzsa6ObZB6fBGxLVazd9B8MogA2jvKuR",
         ]
         data_list = [
             {

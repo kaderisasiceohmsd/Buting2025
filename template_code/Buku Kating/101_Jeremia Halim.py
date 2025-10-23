@@ -479,11 +479,11 @@ if menu == "Departemen PSDA":
             },
             {
                 "nama": "Nisrina Nur Afifah",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "122450052",
+                "umur": "20",
+                "asal":"Jawa Barat",
+                "alamat": "Korpri",
+                "hobbi": "Mikir",
                 "sosmed": "@afifahhnsrn",
                 "kesan": "Kakak seru kece",  
                 "pesan":"semangat teruss kak jadi sekrenya!!!"# 1
@@ -742,15 +742,15 @@ if menu == "Departemen PSDA":
                 "pesan":"Tetap semangat bang!"# 1
             },
             {
-                "nama": "-",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
-                "sosmed": "@-",
-                "kesan": "-",  
-                "pesan":"T-"# 1
+                "nama": "Rewina Audiya Melvasari",
+                "nim": "123450049",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Jl. Ratu dibalau",
+                "hobbi": " Gambar doodle art",
+                "sosmed": "@rewinanaaa",
+                "kesan": "Kakaknya pendiam, baik",
+                "pesan" : "Semangat Terus Kuliahnya Kak & Sehat Selalu Kak!"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -771,7 +771,7 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1KqyFNYC1mwu8BH05j8wYSdepZYy8lTdk",
             "https://drive.google.com/uc?export=view&id=1hEwHP65xi08Lb9cEVoXK85uquFq3xVa2",
             "https://drive.google.com/uc?export=view&id=1whv21tNT__Rz4gm3yxOvqW2pPPrPYmTo",
-            "https://drive.google.com/uc?export=view&id=1ry2Huh5sC-wi5G-oguMZEbkz29BGfTLP",
+            "https://drive.google.com/uc?export=view&id=1Swe7ebDxPlZENlWdHmSMRhGKwZZiD0zn",
             "https://drive.google.com/uc?export=view&id=1tzupAR1edjU_4p0e_fIwwk3QYhoWqSeu",
             "https://drive.google.com/uc?export=view&id=1_R0zUhTf2pEipP3_lcsR9AvV0h1Wb1Tl",
             "https://drive.google.com/uc?export=view&id=1JQViEti6h4jVMzdCP8nr6Xuqj_74k82N",
