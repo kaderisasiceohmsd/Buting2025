@@ -760,17 +760,18 @@ elif menu == "Departemen MIKFES":
         ]
         data_list = [
             {
-                "nama": "Ferdy Kevin Naibaho",
-                "nim": "122450107",
+                "nama": "",
+                "nim": "",
                 "umur": "",
                 "asal":"",
                 "alamat": "",
                 "hobbi": "",
-                "sosmed": "@ferdy_kevin",
+                "sosmed": "",
                 "kesan": "",  
                 "pesan":""# 1
             },
         ]
+
 
 
 
