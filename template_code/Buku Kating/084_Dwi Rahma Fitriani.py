@@ -281,8 +281,8 @@ elif menu == "Senator":
                 "alamat": "Raden Saleh",
                 "hobbi": "Lagu, Nyari, Baca, Game, Rapat",
                 "sosmed": "@bintangtwingkel",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Bang Bintang orangnya asik, kalo ngobrol wawasannya luas banget",  
+                "pesan":"semangat bang bintang menjalani semester 7 nya !!!"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -292,8 +292,8 @@ elif menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "denger lagu",
                 "sosmed": "@nadiaanjani",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak Nadya baik,cantik ramah lagii",  
+                "pesan":"semangat ya kak nadya semoga selalu dikelilingi hal hal baik !!!"# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -303,8 +303,8 @@ elif menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Main",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak fathin paket komplit, baik,canti, pinter,ramahh banget",  
+                "pesan":"semangat kak fathin jadi kasranyaa !!!"# 1
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -314,8 +314,8 @@ elif menu == "Senator":
                 "alamat": "Belakang Indomart belwis",
                 "hobbi": "Rebahan",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak hanaa asik banget kalo ngobrol, baik,cantik ramah juhgaa",  
+                "pesan":"semangat ya kak hana kuliahnyaa !!!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -330,7 +330,7 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=19k8u84AWasQYmtvf95i3_TL1sxO7hlcz", # Bang Ahmad
             "https://drive.google.com/uc?export=view&id=1ijVfPWvXnhVsBEvgulFE49C7yTPPzSso", # Kak Arin
             "https://drive.google.com/uc?export=view&id=1cpjBjHoz5qwEtHC0Sw_ATGutnth49AZQ", # Bang Daffa
-            "https://drive.google.com/uc?export=view&id=1rlvpfWQ39rTbgOIShKzwPVMqOY7psVM9", # Bang Ginda...
+            "https://drive.google.com/uc?export=view&id=1j__twXKRMVbhWU-qZOJVZPr42iwNssql", # Bang Ginda
             "https://drive.google.com/uc?export=view&id=1bKAKUWK65omtD8AONP5HS0QmlKf80emb", # Kak Natasya
             "https://drive.google.com/uc?export=view&id=1iV7L2SaqO6B4a9PpT89HrnxadAp0v2io", # Bang Nobel 
             "https://drive.google.com/uc?export=view&id=1khKRl95oMDaB4ugvf8jNTccEpZ4r1P-U", # Bang Aji
@@ -354,25 +354,25 @@ elif menu == "Departemen PSDA":
         data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",
-                "nim": "",
+                "nim": "122450107",
                 "umur": "",
                 "asal":"",
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@ferdy_kevin",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Bang ferdy kelihatannya cool",  
+                "pesan":" sukses terus baang,semoga dipermudah segala urusannya"# 1
             },
             {
                 "nama": "Nisrina Nur Afifah",
-                "nim": "",
+                "nim": "122450052",
                 "umur": "",
                 "asal":"",
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@afifahhnsrn",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Kak Nisrina manis banget kalo senyum mirip banget sama kk kelas ku SMA",  
+                "pesan":"Semangat ya kak, semoga dilimpahkan kebahagiaan"# 1
             },
             {
                 "nama": "Allya Nurul Islami Pasha",
@@ -382,19 +382,19 @@ elif menu == "Departemen PSDA":
                 "alamat": "Gang Perwira",
                 "hobbi": "Main",
                 "sosmed": "@allyapasha_",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": " Kak Alya kelihatannya tegas, tapi aslinya baik banget",  
+                "pesan":" Semangat ya kak alya menjalani semester 7 nya"# 1
             },
             {
                 "nama": "Ahmad Rizky",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450050",
+                "umur": "20",
+                "asal":"Tanggerang",
+                "alamat": "GH Belwis",
+                "hobbi": "Main Bola",
                 "sosmed": "@ahmad.rizky___",
                 "kesan": "Bang Ahmad murah senyum banget",  
-                "pesan":"Sukses terus bang"# 1
+                "pesan":"Sukses terus ya bang"# 1
             },
             {
                 "nama": "Arienta Khusnul Ananda",
@@ -404,27 +404,27 @@ elif menu == "Departemen PSDA":
                 "alamat": "Kost Orange",
                 "hobbi": "Ngekader",
                 "sosmed": "@arientakhsnl_",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Kak Arin bagus banget makeup dan outfitnya elegan",  
+                "pesan":"sukses terus ya kak Arin, dari pertama ketemu kk di PIK R aku tau kk keren bangett"# 1
             },
             {
                 "nama": "Daffa Hadyan Navista",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450025",
+                "umur": "21",
+                "asal":"Sumatera Barat",
+                "alamat": "Sebelah kost Arienta",
+                "hobbi": "Jailin orang sampe nangis",
                 "sosmed": "@daffahdynn_",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Ginda Fajar Riadi Marpaung",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450103",
+                "umur": "20",
+                "asal":"Batam",
+                "alamat": "Kontrakan GH",
+                "hobbi": "Banyak",
                 "sosmed": "@ginda_mrp",
                 "kesan": "",  
                 "pesan":""# 1
@@ -442,11 +442,11 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Nobel Nizam Fathirizki",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450117",
+                "umur": "20",
+                "asal":"Akamsi",
+                "alamat": "Sebelah kost kak Alya",
+                "hobbi": "Kader",
                 "sosmed": "@nobelnizam",
                 "kesan": "",  
                 "pesan":""# 1
@@ -486,11 +486,11 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Ali Aristo Muthahhari Parisi",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450088",
+                "umur": "20",
+                "asal":"Lampung Timur",
+                "alamat": "Gang nangka 4 Sukarame",
+                "hobbi": "Main Game, Kuliner kalau ada uang",
                 "sosmed": "@ali_parisi3",
                 "kesan": "",  
                 "pesan":""# 1
@@ -646,7 +646,7 @@ elif menu == "Departemen MIKFES":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1LtknA1fvm80lsqwy2KcWpFbryIXHYeJS", # Bang Randa
             "https://drive.google.com/uc?export=view&id=1fDgHxRmDeWx3vG3NxqrU4mC8OnLBBbSU", # kak rut junita
-            "https://drive.google.com/uc?export=view&id=13i7hxQX9MQRPUzZ-dhwLXcqMdOxJoYxj", # bang regi...
+            "https://drive.google.com/uc?export=view&id=1NcWN18nepvode-eZao-nrNrhZribugWy", # bang regi
             "https://drive.google.com/uc?export=view&id=15BqCrk9Vbh_NqocEYiQ7Z9gu0HtDauIX", # kak aisyah
             "https://drive.google.com/uc?export=view&id=1WRKuokfXHY3zkMDVhH3qx95hd1cIb3Gy", # Bang Fadil
             "https://drive.google.com/uc?export=view&id=1-ZTamxEkMYs1xOfX-8VxYDYO_kqkvBU5", # Bang Aqil
@@ -655,7 +655,7 @@ elif menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1pYJeYQaAKpRN4SDdNLbFmKF0DnPWQdnw", # kak Marleta
             "https://drive.google.com/uc?export=view&id=1Ssdmz_sMmtxsti5OfJsJU6iByN50gEMO", # Bang Akeyla
             "https://drive.google.com/uc?export=view&id=10mWxrp1P0vgrcNmgzo2N-lJjHIaNT3M7", # Kak Anggi
-            "https://drive.google.com/uc?export=view&id=1gUG7zKzBIF3njeiezclLMPY39gO3l9I8", # kak efi...
+            "https://drive.google.com/uc?export=view&id=1KqUBip2p4G7d3X1FCz57x7HLqSfeoiz4", # kak efi
             "https://drive.google.com/uc?export=view&id=1uTwW_g7tyKV5JdPBA1Cn-e_JBX28vfRm", # kak fabiolla
             "https://drive.google.com/uc?export=view&id=16m6EB7UrkH2IL02PFirZLxpgljpnLCzq", # kak fairuz
             "https://drive.google.com/uc?export=view&id=1ypVhPbd6wPunic17CGmzqUsWAU0MUb8V", # kak tanty
@@ -663,9 +663,9 @@ elif menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1f4lFXVuI011fYMyRf1nMm0RvYyvAAl-r", # Kak Afifah
             "https://drive.google.com/uc?export=view&id=1TSFWj4saF6uiz2WQz3qY7K33B0egXtYf", # Bang Fabio
             "https://drive.google.com/uc?export=view&id=1c9vrZOpFD1GCU1vrR-52ZzpJCbqz7zIT", # Bang Giovani
-            "https://drive.google.com/uc?export=view&id=1IQ9KrRwlu5kXaNuTtPfOc-6-41QBWHek", # Kak Rahma...
+            "https://drive.google.com/uc?export=view&id=1X6984zwyARp97PZWLGGj0wnhuIRssH5L", # Kak Rahma
             "https://drive.google.com/uc?export=view&id=12BJSQjUPezrnzbF0gFWMwluRw5OK1UE4", # Kak Rahmah
-            "https://drive.google.com/uc?export=view&id=1Y7eax6u2FMp_KLKZvDj9eAwweurxUTYs", # Bang Razin...
+            "https://drive.google.com/uc?export=view&id=16Yz5sNGK9jD7DaHFE2Wcw2JTS_V-ekJ-", # Bang Razin
         ]
         data_list = [
             {
@@ -924,7 +924,7 @@ elif menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1tx0VeC5y6hx7HFi8M_OhOwsRM8sAge9z", #Kak Khoirul
             "https://drive.google.com/uc?export=view&id=1tlupeVvaNgWWF9NZzsLqJxqskaYrxDBc", # Kak Lutfia
             "https://drive.google.com/uc?export=view&id=1yCP_K0jRXozIB-7sJTthAwmljyS86BkJ", # Kak Nabyla
-            "https://drive.google.com/uc?export=view&id=1dvyhEZmAmETF_0dseV_hLliSxDbY_Boy", # Bang Syahrialdi...
+            "https://drive.google.com/uc?export=view&id=1i1FmPc90a5BaVLGJnVxAByUOjhg4fpho", # Bang Syahrialdi
             "https://drive.google.com/uc?export=view&id=1YpCSpX3kJ1cCQTnl-856j5BC3hDGNmg5", # Kak Dea M
             "https://drive.google.com/uc?export=view&id=14KieA_F0lIvP9Ggm48t4dv7JAccOH9Dj", # Kak Cindy
             "https://drive.google.com/uc?export=view&id=1UJdGyWy66TQmW3YXmiZyoXE3GSvVcFAa", # Kak Dea A
@@ -1403,7 +1403,7 @@ elif menu == "Departemen Internal":
 elif menu == "Departemen SSD":
     def DepartemenSSD():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=163LOxuOp1KtaEtMLvF0rOoHv6h9ps9KG", 
+            "https://drive.google.com/uc?export=view&id=17wcXgbNHdXuW9SP4iH7OSSm1dJNS7L1k", 
             "https://drive.google.com/uc?export=view&id=1LDfDHzw62EioXjKtH0k3_fKmwroTa1Xi", 
             "https://drive.google.com/uc?export=view&id=1QCBmro_I_hGfB3_E8VjW17Wsssrkwwr8",  
             "https://drive.google.com/uc?export=view&id=1ytTWe2Y5HzrTJ6Dviq7mftCyRyvqbXve", 
@@ -1766,6 +1766,7 @@ elif menu == "Departemen Medkraf":
     DepartemenMedkraf()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
