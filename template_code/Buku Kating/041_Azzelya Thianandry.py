@@ -766,8 +766,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur dan Berkembang",
                 "sosmed": "@randaandriana_",
-                "kesan": "Kakaknya kalem tapi keren banget pas ngarahin kami",
-                "pesan":"Semoga makin sukses dan tetep jadi panutan ya kak!"
+                "kesan": "Seru banget, walau sempet bingung di awal.",
+                "pesan":Makasih udah sabar banget ngarahin, semoga next-nya makin kompak!""
             },
             {
                 "nama": "Rut Junita Sari Siburian",
@@ -777,8 +777,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Gg. Nangka 3",
                 "hobbi": "Membaca",
                 "sosmed": "@junitaa_0406",
-                "kesan": "Seru banget orangnya, bikin suasana WWC gak pernah sepi",
-                "pesan":"Semoga tetep jadi kak yang asik dan berenergi positif!"
+                "kesan": "Acaranya capek tapi berasa worth it.",
+                "pesan":"Kakak nya keren sih, cuma jangan terlalu serius ya, santai dikit bolehlah"
             },
             {
                 "nama": "Muhammad Regi Abdi Putra Amanta",
@@ -788,8 +788,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Permadani, Sukarame",
                 "hobbi": "Dengerin Musik",
                 "sosmed": "@mregiiii_",
-                "kesan": "Kakaknya sabar dan penjelasannya selalu jelas banget",
-                "pesan": "Semoga ilmunya makin luas dan bermanfaat terus!"
+                "kesan": "Banyak banget hal baru yang aku dapet.",
+                "pesan": "Makasih udah nge-guide dari awal, sukses terus buat kegiatannya!"
             },
             {
                 "nama": "Aisyah Musfirah",
@@ -799,8 +799,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Lapas",
                 "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
-                "kesan": "Keren banget pas ngasih materi, gayanya santai tapi ngena",
-                "pesan": "Semoga karier akademiknya makin lancar kak!"
+                "kesan": "Lucu juga ternyata katingnya.",
+                "pesan": "Jangan lupa istirahat, abis ngurusin kita pasti capek parah."
             },
             {
                 "nama": "Fadil Prasetyo Alfarizzi",
@@ -810,8 +810,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Segala Mider",
                 "hobbi": "Fose",
                 "sosmed": "@fadilalfarizzi",
-                "kesan": "Kocak tapi tetep fokus, bikin suasana jadi rileks.",
-                "pesan": "Semoga tetep ceria dan sukses di jalan yang kak pilih!"
+                "kesan": "Walau kadang tegas, tapi kerasa banget niatnya.",
+                "pesan": "Tetep jadi panutan ya kak, keren banget sih."
             },
             {
                 "nama": "Muhammad Aqil Ramadhan",
@@ -821,8 +821,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Belwis",
                 "hobbi": "Main Basket/Ngerokok",
                 "sosmed": "@muhammadaqil1111",
-                "kesan": "Kalem tapi bisa banget ngatur suasana.",
-                "pesan": "Semoga makin berprestasi dan selalu bahagia kak!"
+                "kesan": "Ramai tapi tetep teratur, salut sih.",
+                "pesan": "Semoga next event bisa lebih santai dan seru lagi."
             },
             {
                 "nama": "Muhammad Naufal Ramadhan",
@@ -832,8 +832,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Tanjung Senang",
                 "hobbi": "Dengerin Musik",
                 "sosmed": "@notfall.s",
-                "kesan": "Ramah banget dan gampang akrab sama siapa aja.",
-                "pesan": "Semoga terus nyebarin semangat positif di mana pun kak berada!."
+                "kesan": "Awalnya kaku, tapi makin lama makin cair.",
+                "pesan": "Makasih udah sabar ngajarin, sukses terus buat kak!"
             },
             {
                 "nama": "Nadia Faraj Alyafaatin Simbolon",
@@ -854,8 +854,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Gg. Nangka 3",
                 "hobbi": "Main Musik",
                 "sosmed": "@marletacornelia",
-                "kesan": "Kakaknya aktif dan pinter banget, bener-bener inspiratif.",
-                "pesan": "Semoga semua hal baik selalu ngikutin langkah kak!"
+                "kesan": "Vibenya nyenengin, ga bikin tegang.",
+                "pesan" : "Jangan berubah ya, kak. Udah pas banget auranya!"
             },
             {
                 "nama": "Akeyla Fairuz Shafi",
