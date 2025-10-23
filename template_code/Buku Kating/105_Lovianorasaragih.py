@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/file/d/1rhyBIj-JSnlp5gSjNATcwSQZFVE4SztW/view?usp=sharing",
-            "https://drive.google.com/file/d/1xSmY4gzXd-RTFyZq2BVkEzKMYf0uqefz/view?usp=drive_link",
-            "https://drive.google.com/file/d/1C9JwAErAf7O6pqzYJImsPIYlNWXBBtbE/view?usp=drive_link",
-            "https://drive.google.com/file/d/17vEujPlAXKfR2z17VwaAEuQ_Xn4kBbU8/view?usp=drive_link",
-            "https://drive.google.com/file/d/1mokkAuIQlIna_TRCS5KnC7iSBvLrHEx0/view?usp=drive_link",
-            "https://drive.google.com/file/d/1xEfMcNiDD45l1UZg6oagm2pc5ei3t_f5/view?usp=drive_link",
+            "1rhyBIj-JSnlp5gSjNATcwSQZFVE4SztW",
+            "1xSmY4gzXd-RTFyZq2BVkEzKMYf0uqefz",
+            "1C9JwAErAf7O6pqzYJImsPIYlNWXBBtbE",
+            "17vEujPlAXKfR2z17VwaAEuQ_Xn4kBbU8",
+            "1mokkAuIQlIna_TRCS5KnC7iSBvLrHEx0",
+            "1xEfMcNiDD45l1UZg6oagm2pc5ei3t_f5",
         ]
         data_list = [
             {
@@ -359,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/file/d/1caD2ghFiCmmgf-8zwFzttqX34SwFnift/view?usp=drive_link",
-            "https://drive.google.com/file/d/1jlszDhveixiuVEK6-MCOvrQjm5MJjTh4/view?usp=drive_link",
-            "https://drive.google.com/file/d/1bWBtoGDU4WhTYsugWklLWWDm-aHU1YVv/view?usp=drive_link",
-            "https://drive.google.com/file/d/1ZSPLT6X2X-Ux_XgWTdLOTIn2O9txk2Kj/view?usp=drive_link",
+            "1caD2ghFiCmmgf-8zwFzttqX34SwFnift",
+            "1jlszDhveixiuVEK6-MCOvrQjm5MJjTh4",
+            "1bWBtoGDU4WhTYsugWklLWWDm-aHU1YVv",
+            "1ZSPLT6X2X-Ux_XgWTdLOTIn2O9txk2Kj",
         ]
         data_list = [
             {
