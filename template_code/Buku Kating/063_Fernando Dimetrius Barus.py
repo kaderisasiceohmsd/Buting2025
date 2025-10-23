@@ -732,7 +732,7 @@ if menu == "Departemen PSDA":
         display_images_with_data(gambar_urls, data_list)
     psda()
 
-if menu == "Departemen MIKFES":
+elif menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -1003,7 +1003,7 @@ if menu == "Departemen MIKFES":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    MIKFES()
+    mikfes()
             
             
             
