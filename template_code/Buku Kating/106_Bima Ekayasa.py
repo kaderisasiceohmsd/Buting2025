@@ -796,7 +796,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1AXXHqn67HOmwqeasLuGwF8-oclcIti_7", #19
             "https://drive.google.com/uc?export=view&id=1oT_BIHVJPn0d_Tb7UOjl7l8DLaB43XZj", #20
             "https://drive.google.com/uc?export=view&id=1iv8dOeTrLBo1T25c0Vtjq6OvhjNLOb08", #21
-            "https://drive.google.com/uc?export=view&id=1WzJdNiFprDI5IlHqmQHnYU5UYacd71Uc", #22
+            "https://drive.google.com/uc?export=view&id=1wtMvQD6OGMdPV84oEizF-OoOtqTeNRpp", #22
             "https://drive.google.com/uc?export=view&id=1_7kXkNnVqe6tmbofNRNcY6cRg0keDjIi", #23
             "https://drive.google.com/uc?export=view&id=1DErY-9OKWDsAhLIuwIb-fqTUKhiK7Exz", #24
         ]
@@ -1876,6 +1876,7 @@ if menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
