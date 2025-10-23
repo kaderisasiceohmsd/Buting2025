@@ -1032,8 +1032,8 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-                    ]
-         data_list = [
+        ]
+        data_list = [
             {
                 "nama": "Arafi Ramadhan Maulana",
                 "nim": "122450002",
@@ -1044,8 +1044,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@arafiramadhanmaulana",
                 "kesan": "Gayanya chill tapi keren, kayaknya semua hal bisa di-handle dengan tenang.",
                 "pesan": "Semoga makin sukses dan tetep santai dalam segala situasi, kak!"
-              },
-              {
+            },
+          {
                 "nama": "Yohana Manik",
                 "nim": "122450126",
                 "umur": "20",
@@ -1055,8 +1055,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@yo_anamnk",
                 "kesan": "Kakaknya ceria banget, selalu bawa suasana jadi hidup.",
                 "pesan": "Semoga semangatnya gak pernah padam dan terus nyebarin energi positif ke mana pun kak pergi!"
-              },
-              {
+            },
+          {
                 "nama": "Ratu Keisha Jasmine Deanova",
                 "nim": "122450106",
                 "umur": "21",
@@ -1066,8 +1066,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@jasminednva, follow @cerebral.id_",
                 "kesan": "Kakaknya elegan tapi friendly banget, gampang bikin orang nyaman.",
                 "pesan": "Semoga makin banyak hal baik yang datang dan kariernya lancar terus!"
-              },
-              {
+            },
+          {
                 "nama": "Arini Puteri Elandra",
                 "nim": "123450069",
                 "umur": "20",
@@ -1077,8 +1077,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@elandraa_",
                 "kesan": "Kakaknya vibes-nya positif banget, selalu nyemangatin tanpa banyak ngomong.",
                 "pesan": "Semoga kakak selalu bahagia dan terus dikelilingi orang baik!"
-              },
-              {
+            },
+          {
                 "nama": "Arya Muda Siregar",
                 "nim": "123450063",
                 "umur": "21",
@@ -1088,8 +1088,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@aryamudasiregar",
                 "kesan": "Lucu banget, selalu punya cara buat bikin suasana cair.",
                 "pesan": "Semoga tetap jadi sumber ketawa dan kebahagiaan di mana pun kak berada!"
-              },
-              {
+            },
+          {
                 "nama": "Khoirul Muttoharoh",
                 "nim": "123450021",
                 "umur": "20",
@@ -1099,8 +1099,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@khoirulmuttoharoh",
                 "kesan": "Kalem tapi strong, kelihatan banget kalo kak Lala tuh punya aura pemimpin.",
                 "pesan": "Semoga makin berani dan sukses di setiap langkahnya!"
-              },
-              {
+           },
+          {
                 "nama": "Lutfia Aisyah Putri",
                 "nim": "123450074",
                 "umur": "17",
@@ -1110,8 +1110,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@lutfiaisyh",
                 "kesan": "Cool banget, tapi kalau udah ngomong langsung bikin suasana cair.",
                 "pesan": "Semoga makin sukses dan tetep jadi sosok yang bisa diandalkan!"
-              },
-              {
+            },
+          {
                 "nama": "Nabyla Sharfina",
                 "nim": "123450008",
                 "umur": "19",
@@ -1121,8 +1121,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@bylaash",
                 "kesan": "Kakaknya ramah banget, selalu bikin nyaman tiap kali ngobrol.",
                 "pesan": "Semoga semua hal baik terus ngikutin kakak ke mana pun pergi!"
-              },
-              {
+             },
+          {
                 "nama": "Syahrialdi Rachim Akbar",
                 "nim": "123450093",
                 "umur": "20",
@@ -1133,7 +1133,7 @@ if menu == "Departemen Eksternal":
                 "kesan": "Santai tapi fokus, kerjaannya selalu beres tanpa drama.",
                 "pesan": "Semoga semua impian kak bisa terwujud satu per satu, semangat terus!"
               },
-              {
+          {
                 "nama": "Dea Mutia Risani",
                 "nim": "122450099",
                 "umur": "21",
@@ -1143,8 +1143,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@deaa.rsn",
                 "kesan": "Kakaknya aktif banget dan selalu punya ide keren.",
                 "pesan": "Semoga makin banyak kesempatan buat kakak nunjukin potensi terbaiknya!"
-              },
-              {
+            },
+          {
                 "nama": "Cindy Laura Manik",
                 "nim": "123450112",
                 "umur": "20",
@@ -1155,7 +1155,7 @@ if menu == "Departemen Eksternal":
                 "kesan": "Kakaknya tenang tapi lucunya kadang muncul tiba-tiba",
                 "pesan": "Semoga sukses terus dan tetep jadi kak yang easy-going banget!"
               },
-              {
+          {
                 "nama": "Dea Amanda",
                 "nim": "123450006",
                 "umur": "21",
@@ -1165,8 +1165,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@deaamnd3_",
                 "kesan": "Gokil banget, kayaknya gak ada momen yang gak seru kalo ada kakak.",
                 "pesan": "Semoga terus jadi sosok yang nyebarin good vibes ke semua orang!"
-              },
-              {
+             },
+          {
                 "nama": "Desman Velius Halawa",
                 "nim": "123450114",
                 "umur": "21",
@@ -1176,8 +1176,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@dsmannhal_",
                 "kesan": "Main musik bareng bang kita kapan kapan",
                 "pesan": "Kakaknya lembut banget, auranya menenangkan."
-              },
-              {
+             },
+          {
                 "nama": "Devyna Sonya Palupi Sanjaya",
                 "nim": "123450007",
                 "umur": "20",
@@ -1187,8 +1187,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@devynasonyaa",
                 "kesan": "Keliatan serius tapi ternyata asik banget pas udah kenal.",
                 "pesan": "Semoga sukses terus dan tetep jadi kak yang bijak tapi santai!"
-              },
-              {
+               },
+          {
                 "nama": "Luthfia Laila Ramadhani",
                 "nim": "123450004",
                 "umur": "19",
@@ -1198,8 +1198,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@Luthfiaarmdhni",
                 "kesan": "Ceria, humble, dan gampang akrab sama siapa aja.",
                 "pesan": "Semoga semua yang kak impikan pelan-pelan jadi kenyataan!"
-              },
-              {
+            },
+          {
                 "nama": "Irvan Alfaritzi",
                 "nim": "122450093",
                 "umur": "21",
@@ -1210,7 +1210,7 @@ if menu == "Departemen Eksternal":
                 "kesan": "Kakaknya pinter banget tapi gak pernah sombong.",
                 "pesan": "Semoga makin sukses dan tetep rendah hati kayak sekarang, kak!"
               },
-              {
+          {
                 "nama": "Aditya Taufiqurrohman",
                 "nim": "123450032",
                 "umur": "21",
@@ -1220,8 +1220,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@Ty_Tq90",
                 "kesan": "Kakaknya kalem banget, tapi kalo udah ngomong langsung bikin suasana adem.",
                 "pesan": "Semoga selalu dikelilingi hal-hal baik dan orang-orang suportif!"
-              },
-              {
+               },
+          {
                 "nama": "Fathya Intami Gusda",
                 "nim": "123450095",
                 "umur": "19",
@@ -1232,7 +1232,7 @@ if menu == "Departemen Eksternal":
                 "kesan": "Punya ide-ide random tapi keren banget, selalu ngasih warna baru.",
                 "pesan": "Semoga kreativitasnya gak pernah habis dan makin sukses di tiap jalan!"
               },
-              {
+          {
                 "nama": "Nayla Shafira Roza",
                 "nim": "123450017",
                 "umur": "20",
@@ -1243,7 +1243,7 @@ if menu == "Departemen Eksternal":
                 "kesan": "Kakaknya ceria dan gampang banget deket sama siapa aja.",
                 "pesan": "Semoga hari-hari kak selalu penuh tawa dan kebahagiaan!"
               },
-              {
+          {
                 "nama": "Melinza Nabila",
                 "nim": "123450122",
                 "umur": "20",
@@ -1254,7 +1254,7 @@ if menu == "Departemen Eksternal":
                 "kesan": "Santai tapi tangguh, selalu keliatan bisa handle apa aja.",
                 "pesan": "Semoga makin sukses dan terus jadi inspirasi buat banyak orang!"
               },
-              {
+          {
                 "nama": "Khazanatil Ilmi",
                 "nim": "123450053",
                 "umur": "20",
@@ -1265,7 +1265,7 @@ if menu == "Departemen Eksternal":
                 "kesan": "Kakaknya punya aura positif yang bikin nyaman.",
                 "pesan": "Semoga terus bahagia dan makin percaya diri ngejar mimpi-mimpi kak!"
               },
-              {
+          {
                 "nama": "Nurul Izzah Istiqomah",
                 "nim": "123450054",
                 "umur": "20",
@@ -1276,7 +1276,7 @@ if menu == "Departemen Eksternal":
                 "kesan": "Kakaknya supel banget, gampang akrab sama siapa aja.",
                 "pesan": "Semoga selalu semangat dan makin banyak hal keren yang kak capai!"
               },
-              {
+          {
                 "nama": "Qois Olifio",
                 "nim": "123450067",
                 "umur": "21",
@@ -1286,8 +1286,8 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@qoisolifio_",
                 "kesan": "Bang Qois orangnya terlihat aga jaga image, paling jago kalo main undercover, baik juga orangnya, seru banaget orangnya dan suka jalan-jalan!",
                 "pesan": "Tetap semangat bang, jangan lupa jaga kesehatann!"
-              },
-              {
+             },
+          {
                 "nama": "Tarisya Hidayatul Rahmi",
                 "nim": "123450052",
                 "umur": "21",
@@ -1297,7 +1297,7 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@tari_sya23",
                 "kesan": "Kaknya chill tapi punya vibe pemimpin banget, keren!",
                 "pesan": "Semoga makin sukses dan tetep rendah hati kayak sekarang, kak!"
-              },
-            ]
+             },
+        ]
         display_images_with_data(gambar_urls, data_list)
     eksternal()
