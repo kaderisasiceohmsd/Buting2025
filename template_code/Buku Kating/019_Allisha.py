@@ -191,7 +191,7 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=185nWv2B1WycMFCVvefNbNPnQdWp37bl7",
             "https://drive.google.com/uc?export=view&id=127P1KwLR6PYTOLeHzzMxxIOQZbcq9SCx",
             "https://drive.google.com/uc?export=view&id=1EOxP22TRboeq5hArgzCrPJK4CW-cna6k",
-            "https://drive.google.com/uc?export=view&id=1c0ppVVMPGbrWNxcX4tVFyjNC7sNHzxSn/",
+            "https://drive.google.com/uc?export=view&id=1c0ppVVMPGbrWNxcX4tVFyjNC7sNHzxSn",
             "https://drive.google.com/uc?export=view&id=1fVMR-NVo8heX8MBVqlLkAeOZKOnI4FgR",
             "https://drive.google.com/uc?export=view&id=1uwca5-sDKzL9Gqe8G06P0CG-LXja7uo-",
             "https://drive.google.com/uc?export=view&id=1AosB_Elfwts5R3Mh7X32NnYKcW9Vnp1q",
