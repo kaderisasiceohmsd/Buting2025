@@ -358,10 +358,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1QD9jR10v3DFnW_2PM-Mue8jRzU0e5Nrq",
-            "https://drive.google.com/uc?export=view&id=1l5YwF5iR_zGV-lMiZ8zwHUYYUcL9duis",
-            "https://drive.google.com/uc?export=view&id=1hoIUj6zGLVZQnH4Ik6W87W4s89fZQzsM",
-            "https://drive.google.com/uc?export=view&id=1O9T7tJ7VVjyWcOKYObaRSP7FKeJFDoFk",
+            "https://drive.google.com/uc?export=view&id=1yJJyZBwjxNxdsP3cGq78W88FcKGE0US6",
+            "https://drive.google.com/uc?export=view&id=1Pr8a_9-w2mQYD-H9ln8x_Ch9N7CCbb8U",
+            "https://drive.google.com/uc?export=view&id=1W3wNh8Qh3csCXP8uRlAFTQ_9Fu3Q6Nkm",
+            "https://drive.google.com/uc?export=view&id=1Zfk_FGga8Hu3gC_ApX_4xg21JbLE7O5N",
         ]
         data_list = [
             {
@@ -369,22 +369,22 @@ if menu == "Senator":
                 "nim": "122450094",
                 "umur": "20",
                 "asal":"Palembang",
-                "alamat": "-",
+                "alamat": "Raden Saleh",
                 "hobbi": "Mancing",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "abangnya asik,humble, suka perunggu juga yoai",  
-                "pesan":"tetep humble bang!"# 1
+                "kesan": "abangnya asik,humble, suka perunggu lagi",  
+                "pesan":"tetep humble bang!"
             },
             {
               "nama": "Lia Hana Ichisassmita",
                 "nim": "123450089",
-                "umur": "20",
+                "umur": "21",
                 "asal":"Jakarta",
                 "alamat": "Belakang Indomaret Belwis",
-                "hobbi": "Rebahan",
+                "hobbi": "Main",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kaknya inspiratif banget, bikin pengen berkembang terus!",  
-                "pesan":"Terima kasih udah jadi role model yang luar biasa kak"  
+                "kesan": "Kakaknya ramah sekali",  
+                "pesan":"Semangat terus kak dalam perkuliahannya kak"  
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -395,7 +395,7 @@ if menu == "Senator":
                 "hobbi": "Mendengarkan musik sambil jalan",
                 "sosmed": "@fathinahnazzh",
                 "kesan": "kakaknya asik seru",  
-                "pesan":"Semoga selalu tenang dan sabar hadapi dunia perkuliahan"
+                "pesan":"Semangat terus kak, share-kan playlist kpop kak"
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -405,8 +405,8 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Mendengarkan Musik",
                 "sosmed": "@nadyaanjani",
-                "kesan": "kakaknya baik, lucu, imup",  
-                "pesan":"tetep humble kak!"
+                "kesan": "Kakaknya seru diajak berbincang",  
+                "pesan": "Jaga kesehatan ya kak, jangan lupa makan"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
