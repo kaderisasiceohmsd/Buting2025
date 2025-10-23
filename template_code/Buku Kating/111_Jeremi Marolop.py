@@ -415,7 +415,7 @@ if menu == "Senator":
 if menu == "Departemen PSDA":
     def Departemen_PSDA():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1xHETeZbJyROjRfRcYJ-vkEQgmBuw2Wvl",
+            "https://drive.google.com/uc?export=view&id=1AHLutqOkjKVyRypW_bSf-xOyVgk0peEA/",
             "https://drive.google.com/uc?export=view&id=1nigrSnemGkycgRW-cMqVpKv0sTVt-C1R",
             "https://drive.google.com/uc?export=view&id=1nW404Rap1R7VqdpHkUhK_H-B0a7AL58J",
             "https://drive.google.com/uc?export=view&id=1-DLC7gATxEBnKH6v22nbu8U4SD5Vt7VZ",
@@ -454,16 +454,16 @@ if menu == "Departemen PSDA":
                 "kesan": "Terima kasih banyak atas ilmunya, Kak.",
                 "pesan": "Sukses selalu ya, Kak!"
             },
-            {
-                "nama": "Daffa Ahmad Noval",
-                "nim": "122450137",
-                "umur": "21",
-                "asal": "Jakarta",
-                "alamat": "Korpri",
-                "hobbi": "Cari masalah anak 23",
-                "sosmed": "@ahmadnoval_11",
+            {   "nama": "Nisrina Nur Afifah",
+                "nim": "122450122",
+                "umur": "20",
+                "asal": "Bekasi",
+                "alamat": "korpri sukarame",
+                "hobbi": "jajan",
+                "sosmed": "@afifahhnsrn",
                 "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
                 "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
+               
             },
             {
                 "nama": "Allya Nurul Islami Pasha",
@@ -488,13 +488,13 @@ if menu == "Departemen PSDA":
                 "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
             },
             {
-                "nama": "Nisrina Nur Afifah",
-                "nim": "122450122",
-                "umur": "20",
-                "asal": "Bekasi",
-                "alamat": "korpri sukarame",
-                "hobbi": "jajan",
-                "sosmed": "@afifahhnsrn",
+                "nama": "Daffa Ahmad Noval",
+                "nim": "122450137",
+                "umur": "21",
+                "asal": "Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Cari masalah anak 23",
+                "sosmed": "@ahmadnoval_11",
                 "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
                 "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
             },
