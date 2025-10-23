@@ -347,7 +347,7 @@ if menu == "Baleg":
                 "asal":"Tanjung Batu",
                 "alamat": "Belwis",
                 "hobbi": "Nyapa angin",
-                "sosmed": "@",
+                "sosmed": "@nshaysk",
                 "kesan": "keliatan baik, asik, dan seru abiess orangnya",  
                 "pesan":"semoga makin sukses kedepannya kak"# 1
             },
