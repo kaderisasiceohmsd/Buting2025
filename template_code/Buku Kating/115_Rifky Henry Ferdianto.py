@@ -359,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=1sI19IKU-rqTLh6zx8HhUPB0DBpIFRePr",
+            "https://drive.google.com/uc?export=view&id=11bi2dbfC31wYoaQY4y1OGrtjHl0NuNNt",
+            "https://drive.google.com/uc?export=view&id=1n2Brbge63t-kgfyQpDVLACZM83Et4Ogh",
+            "https://drive.google.com/uc?export=view&id=1hIktfWN7u1z1rWaxOHBU-axdPgFzE2i9",
         ]
         data_list = [
             {
@@ -770,7 +770,7 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=15Zh5X9Hi0aI68Zi95UwP6QnfHedaR9hD", #18
             "https://drive.google.com/uc?export=view&id=14b6YL1hihi05GM8dv0fvimZ7bMGvuAFP", #19
             "https://drive.google.com/uc?export=view&id=1nVQ5YkL9yfE8OBZLFUUdR-YOmbixaYVR", #20
-            "https://drive.google.com/uc?export=view&id=", #21
+            "https://drive.google.com/uc?export=view&id=1_t6bsJVF1yOL_7ByVfHcC0DUjTWAJgCs", #21
             "https://drive.google.com/uc?export=view&id=1evKwlESkMjSaeSUODpI8YsHJp95EuAJX", #22
         ] 
         data_list = [
@@ -1326,7 +1326,7 @@ if menu == "Departemen Internal":
             "https://drive.google.com/uc?export=view&id=1Su7Ip1y5istQY5CxxYQSakxJ3_niANTl", #3
             "https://drive.google.com/uc?export=view&id=1b2qmvDQehY6tC5ro3mLXUx5-COVDUxsG", #4
             "https://drive.google.com/uc?export=view&id=16A99-avAX8lotrrh6XjsOZLmDP0RkoGM", #5
-            "https://drive.google.com/uc?export=view&id=1ZIr-ns0hbYxpXC7n", #6
+            "https://drive.google.com/uc?export=view&id=1ZIr-ns0hbYxpXC7noJlsN44QJ2ewW5f3", #6
             "https://drive.google.com/uc?export=view&id=1LbHU6zB_iw7bPVI3IMyRism0xONWNQJM", #7
             "https://drive.google.com/uc?export=view&id=13DhBwONB40QqRjsPy2gijhZasUfnRScs", #8
             "https://drive.google.com/uc?export=view&id=1_U-zd2iy8xoH9l3_34QL7MDGA3SOB8zy", #9
