@@ -44,7 +44,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "#3FBAD8"},
+            "nav-link-selected": {"background-color": "#FF6F00"},
         },
     )
     return selected
@@ -182,24 +182,24 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def Baleg():
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=19OFfw-MrCdSA0PmcygXBhLojQBCV5Kat",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1znnWOVL0Mc_0-o0tV7eX8tCxzDpi3c1f",
+            "https://drive.google.com/uc?export=view&id=1snuxlRu6IX1zX10zOgrQNRSzwaqcUcyC",
+            "https://drive.google.com/uc?export=view&id=1KT95G6iC1MJBQgt1COaUr8On7PFFaYBD",
+            "https://drive.google.com/uc?export=view&id=1_Uzidz9yUkSeItRPheD_LnpKgSB0QQRI",
+            "https://drive.google.com/uc?export=view&id=1Pm5pW0RsQsR12386Fw4iHSQ4XCn2tUlb",
+            "https://drive.google.com/uc?export=view&id=1Ak2yJTDp1cVmKoy-IwDNazVVrnuFu3MW",
+            "https://drive.google.com/uc?export=view&id=1twCCnbf7A2kEt179EskvodJ0TuoN1wvW",
+            "https://drive.google.com/uc?export=view&id=1QnGOqcfo0dkadkLkDiYFaYvgszcXq2Ln",
+            "https://drive.google.com/uc?export=view&id=1jLAoyR0z7rvC5PoyseGKBhd7YUERfJ89",
+            "https://drive.google.com/uc?export=view&id=1DnG3fWzrWa8SXLB5IbwVR2D45GQ-iclv",
+            "https://drive.google.com/uc?export=view&id=1kdpj8lUHmYVEelcZV-x_rWttBuQmx61K",
+            "https://drive.google.com/uc?export=view&id=1lKGjglB0tYJGyGShfIwpID0cWukfMhxY",
         ]
         data_list = [
             {
-                "nama": "Jeremia Susanto",
+                "nama": "Jeremia Susanto", 
                 "nim": "122340022",
                 "umur": "21",
                 "asal":"Nusa Kambangan",
@@ -207,7 +207,7 @@ if menu == "Baleg":
                 "hobbi": "Melarikan diri",
                 "sosmed": "@jeremia_s_",
                 "kesan": "keren banget banggg bisa jadi ",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"semangat terus kuliahnya kakak !!!"
             },
             {
                 "nama": "Dhea Amelia Putri",
