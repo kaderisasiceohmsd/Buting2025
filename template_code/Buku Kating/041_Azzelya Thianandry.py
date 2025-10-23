@@ -767,7 +767,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Tidur dan Berkembang",
                 "sosmed": "@randaandriana_",
                 "kesan": "Seru banget, walau sempet bingung di awal.",
-                "pesan":Makasih udah sabar banget ngarahin, semoga next-nya makin kompak!""
+                "pesan": "Makasih udah sabar banget ngarahin, semoga next-nya makin kompak!"
             },
             {
                 "nama": "Rut Junita Sari Siburian",
@@ -865,8 +865,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Pramuka",
                 "hobbi": "Dengerin Musik",
                 "sosmed": "@keyashafi_",
-                "kesan": "Sabar banget ngadepin kami yang ribet, salut parah..",
-                "pesan": "Semoga makin banyak hal keren yang bisa kak capai!"
+                "kesan": "Kakak selalu punya cara kerja yang rapi dan terarah.",
+                "pesan": "Semoga tetap konsisten dan bisa terus ngasih contoh dalam hal profesionalitas."
             },
             {
                 "nama": "Anggi Puspita Ningrum",
@@ -876,8 +876,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Bumi Sari, Natar, Lampung Selatan",
                 "hobbi": "Menari, Dengerin Musik, Ngedance",
                 "sosmed": "@anggi_yllow2318",
-                "kesan": "Gokil tapi peka, selalu bikin suasana enak",
-                "pesan": "Semoga tetep seru dan gak pernah berubah jadi kak yang ngebosenin!"
+                "kesan": "Kakak cepat tanggap banget setiap kali ada hal mendesak.",
+                "pesan": "Terima kasih udah jadi orang yang selalu siap bantu tanpa banyak omong."
             },
             {
                 "nama": "Efi Defiyati",
@@ -887,8 +887,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Raden Saleh, Airan Raya",
                 "hobbi": "Membaca",
                 "sosmed": "@eeffiidefi",
-                "kesan": "Kakaknya lembut dan perhatian, bikin nyaman banget.",
-                "pesan": "Semoga makin sukses dan terus jadi penyemangat!"
+                "kesan": "Kakak punya cara berpikir yang realistis tapi tetap bijak.",
+                "pesan": "Semoga pandangan Kakak bisa terus bantu arah tim ke hal-hal yang baik."
             },
             {
                 "nama": "Fabiolla Charissa Putri",
@@ -909,8 +909,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur",
                 "sosmed": "@_fairuzary",
-                "kesan": "Tegas tapi baik banget, selalu kasih contoh yang bagus.",
-                "pesan": "Semoga terus jadi sosok yang bijak dan disegani!"
+                "kesan": "Kakak kerja dengan tenang tapi hasilnya selalu maksimal.",
+                "pesan": "Semoga tetap bisa menjaga keseimbangan antara santai dan produktif."
             },
             {
                 "nama": "Tanty Widiyastuti",
@@ -931,8 +931,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur",
                 "sosmed": "-",
-                "kesan": "gampang nyatu sama semua orang.",
-                "pesan": "Semoga kebahagiaan selalu nyertai kakak di mana pun!"
+                "kesan": "Kakak disiplin banget, tiap kali ada jadwal pasti on time.",
+                "pesan": "Semoga keteladanan itu bisa nular ke semua anggota."
             },
             {
                 "nama": "Afifah Fauziah",
@@ -942,8 +942,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Hasan VI, Airan",
                 "hobbi": "Isengin orang/ngobrol random",
                 "sosmed": "@fifah.zy",
-                "kesan": "Kakaknya ceria dan menyenangkan.",
-                "pesan": "Semoga Kak selalu membawa keceriaan di mana pun berada."
+                "kesan": "Kakak selalu punya ide yang matang dan bisa diterapkan.",
+                "pesan": "Semoga terus berani bereksperimen dan berbagi pandangan baru."
             },
             {
                 "nama": "Fabio Banyu Cyto",
@@ -953,8 +953,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Teratai No.27, Kedaton",
                 "hobbi": "Jalan-jalan, main game",
                 "sosmed": "@biyokcb",
-                "kesan": "Abangnya kalem tapi punya aura positif yang kuat banget.",
-                "pesan": "Semoga apa pun yang kak lakuin selalu lancar dan membawa kebaikan!"
+                "kesan": "Kakak sabar banget kalau lagi koordinasi sama banyak orang.",
+                "pesan": "Terima kasih udah ngasih contoh buat tetap tenang di tengah padatnya acara."
             },
             {
                 "nama": "Giofani Aristyo",
@@ -964,8 +964,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Pemda",
                 "hobbi": "Catur",
                 "sosmed": "@giofaniars_",
-                "kesan": "Abangnya tenang dan berwawasan luas.",
-                "pesan": "Semoga Abang terus berprestasi dan sukses selalu."
+                "kesan": "Kakak punya kepekaan tinggi terhadap situasi dan orang di sekitar.",
+                "pesan": "Semoga tetap jadi sosok yang peduli tanpa harus banyak bicara"
             },
             {
                 "nama": "Rahma Oktavia Albar",
@@ -975,8 +975,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Main Catur",
                 "sosmed": "@_rhmaoktvia",
-                "kesan": "Kakaknya terkesan cool tapi sebenernya seru banget",
-                "pesan": "Semoga makin sukses dan tetep jadi pribadi yang asik kayak sekarang!"
+                "kesan": "Kakak punya gaya komunikasi yang tegas tapi tetap sopan.",
+                "pesan": "Semoga terus bisa jadi contoh buat nyampaikan pendapat dengan bijak."
             },
             {
                 "nama": "Rahmah Gustriana Deka",
@@ -986,8 +986,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Airan",
                 "hobbi": "Ngerepotin Tanty",
                 "sosmed": "@gustriana.d_",
-                "kesan": "Kakaknya santai tapi selalu on point, gak pernah ribet.",
-                "pesan": "Semoga semua hal yang kak impikan bisa tercapai satu-satu!"
+                "kesan": "Kakak telaten banget ngurus hal-hal kecil yang sering dilupain orang.",
+                "pesan": "Semoga terus bisa jaga ketelitian itu, Kak, karena berharga banget."
             },
             {
                 "nama": "Razin Hafid Hamdi",
@@ -997,8 +997,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Belwis",
                 "hobbi": "Futsal",
                 "sosmed": "@razyn.hfd",
-                "kesan": "Abangnya chill tapi vibes-nya berwibawa banget, respect!",
-                "pesan": "Semoga Abang selalu diberi kesehatan dan kesuksesan."
+                "kesan": "Kakak selalu sigap kalau ada masalah dan nggak pernah panik.",
+                "pesan": "Semoga tetap jadi sosok yang bisa diandalkan di situasi apa pun."
             },
         ]
         display_images_with_data(gambar_urls, data_list)
