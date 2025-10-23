@@ -1229,7 +1229,7 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=14q-8WtDSb7NFrJ0leBBlhJ76g2Sd3g-S", #14
             "https://drive.google.com/uc?export=view&id=1HiTjxc5o0ugf1QVdcY6RMONyi7kHMUP3", #15
             "https://drive.google.com/uc?export=view&id=1S_mRMdRtKmBiwKQXOW2PNglloj8QQjsh", #16
-            "https://drive.google.com/uc?export=view&id=1gerLyDfG7HpfXncVm7UiuwIX92ZlI3C", #17
+            "https://drive.google.com/uc?export=view&id=1gerLyDfG7HpfXncVm7UiuwIX92ZlI3Cr", #17
             "https://drive.google.com/uc?export=view&id=1cyfL-5zIr4sWqwtmt86S1Qc2l7yAd_Fq", #18
             "https://drive.google.com/uc?export=view&id=1_4hQ2WBD8bjj28AkWmpZ0H3u_Di4ZtDW", #19
             "https://drive.google.com/uc?export=view&id=1stUbZd9wuZP7x77o8kaiFRc4VhhuS6bg", #20
@@ -1876,6 +1876,7 @@ if menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
