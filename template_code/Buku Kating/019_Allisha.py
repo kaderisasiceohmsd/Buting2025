@@ -187,7 +187,7 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1jeah5D1eDLWaZGb1p2G2oh2_HX7OEBXi",
             "https://drive.google.com/uc?export=view&id=1HWRnOz2FV3GKxh1FIhfml8cgPu7WlKYY",
             "https://drive.google.com/uc?export=view&id=1zCa6ZT-vd9FsCczT84pN7vLoL2R1vMGt",
-            "https://drive.google.com/uc?export=view&id=1zCa6ZT-vd9FsCczT84pN7vLoL2R1vMGt",
+            "https://drive.google.com/uc?export=view&id=1--eyys0At5kw1oGh-Y5JcovDSAO8A8tE",
             "https://drive.google.com/uc?export=view&id=185nWv2B1WycMFCVvefNbNPnQdWp37bl7",
             "https://drive.google.com/uc?export=view&id=127P1KwLR6PYTOLeHzzMxxIOQZbcq9SCx",
             "https://drive.google.com/uc?export=view&id=1EOxP22TRboeq5hArgzCrPJK4CW-cna6k",
@@ -220,7 +220,7 @@ if menu == "Baleg":
                 "kesan": "Ramah, hangat, dan mudah akrab dengan siapa saja.",
                 "pesan":"Semoga kakak sselalu dikelilingi kebahagiaan dan hal-hal baik!"
             },
-                {
+            {
                 "nama": "Renisha Putri Giani",
                 "nim": "122450079",
                 "umur": "22",
