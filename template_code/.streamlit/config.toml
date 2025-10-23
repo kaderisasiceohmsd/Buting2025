@@ -1,5 +1,18 @@
-[theme]
-primaryColor="#A1C2BD"
-backgroundColor="#456882"
-secondaryBackgroundColor="#A1C2BD"
-textColor="#000000"
+import streamlit as st
+
+# Tambahkan CSS gradien ke background
+st.markdown("""
+    <style>
+    [data-testid="stAppViewContainer"] {
+        background: linear-gradient(135deg, #A1C2BD, #456882);
+    }
+    [data-testid="stHeader"] {
+        background: rgba(0,0,0,0);
+    }
+    [data-testid="stSidebar"] {
+        background: linear-gradient(180deg, #456882, #A1C2BD);
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
