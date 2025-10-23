@@ -1014,8 +1014,8 @@ if menu == "Departemen MIKFES":
 if menu == "Departemen Eksternal":
     def Departemen_Eksternal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1AyC31MRy2jt3tkr6cVXJtdiDQFODO2Nq",
-            "https://drive.google.com/uc?export=view&id=1eBnE497YhfJOE1BNKoq6sKKCCtlQyP6s",
+            "https://drive.google.com/uc?export=view&id=1IuWG-tTjhJOtn3nv72t6Ug1PaWEox8kM",
+            "https://drive.google.com/uc?export=view&id=1wnNFBdj5KdklWnLV6FPpnkQJjeu2Mfb3",
             "https://drive.google.com/uc?export=view&id=18B_eMJOrvakJ0WNEV7QVcvXRWNFOpqN-",
             "https://drive.google.com/uc?export=view&id=1UhxIAmRQKSmCh89Wj4jcp2uXUWak8q9w",
             "https://drive.google.com/uc?export=view&id=1YSANLs3mlctMeHs0Rxe7X22LbICrhApq",
