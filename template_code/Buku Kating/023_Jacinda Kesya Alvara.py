@@ -183,12 +183,12 @@ elif menu == "Baleg":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=12k2hpTc_sTU5sPV-38LvSBHCI9IU6geI",
             "https://drive.google.com/uc?export=view&id=15B6p1oSF9SVrlEFHAEcTe_ne4INmfOru",
+            "https://drive.google.com/uc?export=view&id=1YstaiXEUATVtZfqKNzyWv5Nn4dhNBqBu",
             "https://drive.google.com/uc?export=view&id=1PNte5ChCn1Hss0ByfjhyvQfK5TAhbRWZ",
-            "https://drive.google.com/uc?export=view&id=1y43-sBetd5yI4amnewOsOI6ScCDnZvlx",
             "https://drive.google.com/uc?export=view&id=1L6xazy2bpf8DfaSJHNolYPLIL49TXkNj",
             "https://drive.google.com/uc?export=view&id=1A8LxpRGncON9kryrQJgDQBS_9UmrHFz8",
             "https://drive.google.com/uc?export=view&id=16L66za0Yo5n86-ahN63Rb5nBfY4yc0ot",
-            "https://drive.google.com/uc?export=view&id=11HZz4W_ktEYHuZlmwC18JcZF3lG5AGsnw",
+            "https://drive.google.com/uc?export=view&id=1HZz4W_ktEYHuZlmwC18JcZF3lG5AGsnw",
             "https://drive.google.com/uc?export=view&id=1TrZhbBQbuVClysjLyXv-ilCycZ0CF4Ct",
             "https://drive.google.com/uc?export=view&id=17gWKZAsS3fFt6WRUoOla7X4T3ZyWwtIi",
             "https://drive.google.com/uc?export=view&id=13iTG0OVueyFm7Uo6emgM_uN85DGDQC5V",
@@ -1006,5 +1006,6 @@ elif menu == "Departemen MIKFES":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMIKFES()
+
 
 
