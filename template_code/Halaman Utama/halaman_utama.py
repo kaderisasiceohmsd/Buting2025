@@ -28,56 +28,44 @@ def display_images_with_data(gambar_urls, data_list):
             st.image(img, use_container_width=True)
 
         if i < len(data_list):
-            st.write(f"Nama: {data_list[i]['nama']}")
-            st.write(f"Sebagai: {data_list[i]['sebagai']}")
-            st.write(f"NIM: {data_list[i]['nim']}")
-            st.write(f"Fun Fact: {data_list[i]['fun_fact']}")
-            st.write(f"Motto Hidup: {data_list[i]['motto_hidup']}")
-
-st.markdown(
-    """
-    <style>
-    /* Background utama: biru pastel → krem keemasan */
-    .stApp {
-        background: linear-gradient(180deg, #C9E4FF 0%, #FBE7C6 100%);
-        background-attachment: fixed;
-        color: #1B1B1B;
-    }
-
-    /* Sidebar: gradasi lembut */
-    section[data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #E3F2FF 0%, #FFF5E1 100%);
-        color: #1B1B1B;
-    }
-
-    /* Teks umum */
-    h1, p, li, span, div {
-        color: #1B1B1B !important;
-    }
-
-    /* Hover sidebar */
-    [data-testid="stSidebar"] a:hover {
-        background-color: rgba(255, 255, 255, 0.3);
-        border-radius: 8px;
-        color: #000 !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+            st.markdown(
+                f"""
+                <div style="background: linear-gradient(90deg, #EDFAFD, #AED9DA, #3DDAD7);
+                            padding: 10px; border-radius: 15px; text-align: center; color: #002B5B;">
+                    <p><b>Nama:</b> {data_list[i]['nama']}</p>
+                    <p><b>Sebagai:</b> {data_list[i]['sebagai']}</p>
+                    <p><b>NIM:</b> {data_list[i]['nim']}</p>
+                    <p><b>Fun Fact:</b> {data_list[i]['fun_fact']}</p>
+                    <p><b>Motto Hidup:</b> {data_list[i]['motto_hidup']}</p>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
 
 
 # JANGAN DIUBAH
 st.markdown(
     """
+    <style>
+        .stApp {
+            background: linear-gradient(
+                to bottom,
+                #EDFAFD,
+                #AED9DA,
+                #3DDAD7,
+                #2A93D5,
+                #135589
+            );
+        }
+    </style>
+
     <div style='text-align: center;'>
-        <h1 style='font-size: 5.5em;'>WEBSITE KATING</h1>
-        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2025</p>
+        <h1 style='font-size: 5.5em; color:#002B5B;'>WEBSITE KATING</h1>
+        <p style='font-size: 2em; color:#073B4C;'>CEO HMSD Adyatama ITERA 2025</p>
     </div>
     """,
     unsafe_allow_html=True,
 )
-
 
 url = "https://drive.google.com/uc?export=view&id=12cQ4T8NkVvVPVNX6zBQC4sviFcc4cDWx"
 url1 = "https://drive.google.com/uc?export=view&id=12RBvQdMiqqqph-Q1QqLb0zvvIPnBjCYb"
@@ -101,33 +89,31 @@ def streamlit_menu():
     selected = option_menu(
         menu_title=None,
         options=["Home", "About Us"],
-        icons=["house-door", "hand-index"],
+        icons=["house-door", "info-circle"],
         default_index=0,
         orientation="horizontal",
         styles={
             "container": {
                 "padding": "0!important",
-                "background": "linear-gradient(to right, #B7D9FF, #FFE6B7)",  
+                "background": "linear-gradient(to right, #3DDAD7, #2A93D5, #135589)",
                 "border-radius": "8px",
                 "box-shadow": "0px 2px 8px rgba(0,0,0,0.15)",
             },
-            "icon": {"color": "black", "font-size": "19px"},
+            "icon": {"color": "white", "font-size": "19px"},
             "nav-link": {
                 "font-size": "15px",
-                "text-align": "left",
+                "text-align": "center",
                 "margin": "0px",
-                "color": "black",
-                "--hover-color": "#FFF2DA", 
+                "color": "white",
+                "--hover-color": "#AED9DA",
             },
             "nav-link-selected": {
-                "background-color": "#9DC9F1",  
+                "background-color": "#135589",
                 "color": "white",
             },
         },
     )
     return selected
-
-
 
 menu = streamlit_menu()
 
