@@ -1125,6 +1125,7 @@ if menu == "Departemen Eksternal":
         display_images_with_data(gambar_urls, data_list)
     Departemen_Eksternal()
 
+
 if menu == "Departemen Internal":
     def Departemen_Internal():
         gambar_urls = [
@@ -1144,6 +1145,7 @@ if menu == "Departemen Internal":
             "https://drive.google.com/uc?export=view&id=1hYznI1fD680TCqsa3eCE29lRTuiZR5ys", #14
             "https://drive.google.com/uc?export=view&id=1co5-5luViaUiz1OKxIlnWDWWrEjRrYDL", #15
         ]
+        
         data_list = [
             {
                 "nama": "Kakak Rani Puspita Sari",
@@ -1313,6 +1315,7 @@ if menu == "Departemen Internal":
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_Internal()
+
 
 if menu == "Departemen Medkraf":
     def medkraf():
