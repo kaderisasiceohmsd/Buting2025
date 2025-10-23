@@ -1336,21 +1336,21 @@ if menu == "Departemen Eksternal":
 if menu == "Departemen Internal":
     def DepartemenInternal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1FONMIbMzeNcSCHv1r9N0iF8Y35PWdkh6",
-            "https://drive.google.com/uc?export=view&id=1t7gjzzksY848oU2v8yGMbM2XrF_nvpB2",
-            "https://drive.google.com/uc?export=view&id=1NdVLtPCjNdQICQ31FtWMTF5okTwBiUtA",
-            "https://drive.google.com/uc?export=view&id=1oEuB3YasOGzQUegjnsjrr-3e3FTkptSy",
-            "https://drive.google.com/uc?export=view&id=16UrGfbiU7nEEjnBXDGyIAiSSBi9jnARq",
-            "https://drive.google.com/uc?export=view&id=1aBhyaGx_iMsuI0hd06d7bjUFTqr9jnhL",
-            "https://drive.google.com/uc?export=view&id=1IWiOnG5Q1sWtT8zl1l459wMKDbVlx9Zf",
-            "https://drive.google.com/uc?export=view&id=1GKQCasxzSq6VsVlMVzMRVycFzGO61f6h",
-            "https://drive.google.com/uc?export=view&id=1N-K8vPA3P-RBUlgvY-ke0fQAYg_xGwqK",
-            "https://drive.google.com/uc?export=view&id=17jAIW0zBd8qyUaiQEEH8AqW-vs7ipBma",
-            "https://drive.google.com/uc?export=view&id=1_Bj5gULpQmjHQQ-nkwuQup8k8xMBAezH",
-            "https://drive.google.com/uc?export=view&id=1Tg_rAkN1MXZjon_bFqJnco1g8NeUYbAV",
-            "https://drive.google.com/uc?export=view&id=17FsISJ1V7GV9Id4ZTie3I95bTC7L0eyv",
-            "https://drive.google.com/uc?export=view&id=1jaUqG7MzQRxh2GxUtPasbML3ROKu3mac",
-            "https://drive.google.com/uc?export=view&id=1lLNt7p44-PlDf1BNA8w8ShO7GItvR30F",
+            "https://drive.google.com/uc?export=view&id=1D6Ck19oquRptIPz2oAkD6hkDVy9EqgQ9",
+            "https://drive.google.com/uc?export=view&id=1M8p9OZDTkxmNBkFRW0DUTgDxzQVj1kWR",
+            "https://drive.google.com/uc?export=view&id=1qbQSqOXvvW7b3vCU2xsC9c28ESk-t0OY",
+            "https://drive.google.com/uc?export=view&id=1Lctvpgm4rma6tAGDYY81L9hB2mj14hAy",
+            "https://drive.google.com/uc?export=view&id=1sljTpQgYgYNRwFK4kcBaBZ9thypf3GTn",
+            "https://drive.google.com/uc?export=view&id=1HRx5qFiUWZvobsHnwcBtr69lnxfBktfs",
+            "https://drive.google.com/uc?export=view&id=1qwR0j1WS_S3KXIyKLJ-qVRvkG6hO7QEa",
+            "https://drive.google.com/uc?export=view&id=1uWtPFrmozvdnJSIixM8ZMVJLgfdwnCyd",
+            "https://drive.google.com/uc?export=view&id=1pge98eRSrTHbID1cwq1TMbtR4P5TI5lj",
+            "https://drive.google.com/uc?export=view&id=1ZC0b75lVhe-HTTtso3a972D8cOXqD5bE",
+            "https://drive.google.com/uc?export=view&id=1R_3TOD6Lbmibz4PtOncaqFNLvoi6t3YX",
+            "https://drive.google.com/uc?export=view&id=1RaaSXHzUjo663o9yY4iV2pfCcr-Pz8Kx",
+            "https://drive.google.com/uc?export=view&id=1SjnfFQSydlBQkj3Trvbp-AZQs_o4LVwP",
+            "https://drive.google.com/uc?export=view&id=1A3owsrQQlGA37Zpv3wvv2tpKCHf9LZgI",
+            "https://drive.google.com/uc?export=view&id=1D1qmQS2GZqqp4N5NayKczVgXE3SF9MyE",
         
         ]
         data_list = [
@@ -1362,8 +1362,8 @@ if menu == "Departemen Internal":
                 "alamat": "Rajabasa",
                 "hobbi": "Mengaji",
                 "sosmed": "@rannipu",
-                "kesan": "Kakak ini seruu",  
-                "pesan":"semangat terus jadi kadepnya kak!"# 1
+                "kesan": "kakaknya baik bangettt",  
+                "pesan":"sehat selalu kak kadep!!!"# 1
             },
             {
                 "nama": "Renta Siahaan",
@@ -1373,8 +1373,8 @@ if menu == "Departemen Internal":
                 "alamat": "Pangerang Senopati Gerbang Barat",
                 "hobbi": "Mancing",
                 "sosmed": "@renta.shn",
-                "kesan": "Kakak ini lucu keren",  
-                "pesan":"semangat terus kaaakkk!!!"# 1
+                "kesan": "kakaknya lucu bangettt",  
+                "pesan":"sehat sehat terus ya kak"# 1
             },
             {
                 "nama": "Salwa Farhanatussaidah",
@@ -1384,8 +1384,8 @@ if menu == "Departemen Internal":
                 "alamat": "Airan",
                 "hobbi": "Memanah",
                 "sosmed": "@sal_fhn",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "kakaknya masyaallah sekali",  
+                "pesan":"semoga istiqomah terus ya kak hehe"# 1
             },
             {
                 "nama": "Rendi Alexander Hutagalung",
@@ -1395,8 +1395,8 @@ if menu == "Departemen Internal":
                 "alamat": "Airan",
                 "hobbi": "Menyanyi",
                 "sosmed": "@rexanderr",
-                "kesan": "Abang ini kalem dan keren",  
-                "pesan":"semangat terus kuliahnya bang !!!"# 1
+                "kesan": "abangnya kalem banget, cool juga",  
+                "pesan":"sehat selalu bang"# 1
             },
             {
                 "nama": "Azzahra Putri Kamilah",
@@ -1406,8 +1406,8 @@ if menu == "Departemen Internal":
                 "alamat": "Asrama TB4",
                 "hobbi": "Masak",
                 "sosmed": "@azza.raaa_",
-                "kesan": "Kakak ini asik, lucu",  
-                "pesan":"semangat terus kuliahnya kakak!!!"# 1
+                "kesan": "kakaknya cantik, asik juga",  
+                "pesan":"sukses terus ya kak"# 1
             },
             {
                 "nama": "Haikal Fransisko Simbolon",
@@ -1417,8 +1417,8 @@ if menu == "Departemen Internal":
                 "alamat": "Kotabaru",
                 "hobbi": "Balapan",
                 "sosmed": "@haikalsbln_",
-                "kesan": "Abang chill, asik",  
-                "pesan":"keep gacor bang!!!"# 1
+                "kesan": "abangnya sangar, tapi aslinya baik banget",  
+                "pesan":"sehat selalu banggg"# 1
             },
             {
                 "nama": "Iqfina Haula Halika",
@@ -1428,8 +1428,8 @@ if menu == "Departemen Internal":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Baking",
                 "sosmed": "@iqfinahalikaa_",
-                "kesan": "Kakak ini asik",  
-                "pesan":"semangat terus kuliahnya kakak!!!"# 1
+                "kesan": "kakaknya gemoyyy",  
+                "pesan":"semangat kuliahnya ya kak"# 1
             },
             {
                 "nama": "May Talitha Dahlia",
@@ -1439,8 +1439,8 @@ if menu == "Departemen Internal":
                 "alamat": "Urip",
                 "hobbi": "Berkuda",
                 "sosmed": "@may_dahlia12",
-                "kesan": "Kakak ini lucu dan keren",  
-                "pesan":"semangat terus kuliahnya kakak!!!"# 1
+                "kesan": "kakaknya baikkk",  
+                "pesan":"sukses terus kak"# 1
             },
             {
                 "nama": "Muhammad Naufal Alghani",
@@ -1450,8 +1450,8 @@ if menu == "Departemen Internal":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@muhammadnaufalalghani13",
-                "kesan": "Abang kalem",  
-                "pesan":"semangat terus kuliahnya bang naufal!"# 1
+                "kesan": "abangnya gemoyyy",  
+                "pesan":"semangat kuliahnya banggg"# 1
             },
             {
                 "nama": "Zailani Satria",
@@ -1461,8 +1461,8 @@ if menu == "Departemen Internal":
                 "alamat": "Rajabasa",
                 "hobbi": "Olahraga",
                 "sosmed": "@zailanisatriaaa",
-                "kesan": "Abang santai dan kece",  
-                "pesan":"semangat terus kuliahnya bangg!"# 1
+                "kesan": "abangnya kalem banget",  
+                "pesan":"semangat banggg"# 1
             },
             {
                 "nama": "Hanna Gresia Sinaga",
@@ -1472,8 +1472,8 @@ if menu == "Departemen Internal":
                 "alamat": "Pemda",
                 "hobbi": "Melihat Cicak",
                 "sosmed": "@hanna_g_sinaga",
-                "kesan": "kakak seru lucu humoris asik",  
-                "pesan":"tetap selalu positif kak, sukses kuliahnya!"# 1
+                "kesan": "kakaknya asikkkk bangettttt",  
+                "pesan":"sehat selalu ya kakkk"# 1
             },
             {
                 "nama": "Keren Marito Lumban Gaol",
@@ -1483,8 +1483,8 @@ if menu == "Departemen Internal":
                 "alamat": "Pemda",
                 "hobbi": "Musik",
                 "sosmed": "@kerennmrtl",
-                "kesan": "kakak seruuu",  
-                "pesan":"semangat terus kuliahnya kak keren!"# 1
+                "kesan": "kakaknya cantikkk",  
+                "pesan":"semangat kuliahnya kak"# 1
             },
             {
                 "nama": "Muhammad Hanif Dzaky Arifin",
@@ -1494,8 +1494,8 @@ if menu == "Departemen Internal":
                 "alamat": "Way Kandis",
                 "hobbi": "Futsal",
                 "sosmed": "@hnfdzky_",
-                "kesan": "Abang kerenn jago futsal",  
-                "pesan":"semangat terus kuliahnya bangg!"# 1
+                "kesan": "abangnya asikk",  
+                "pesan":"semangat terus bang!"# 1
             },
             {
                 "nama": "Sarah Wasti",
@@ -1505,19 +1505,19 @@ if menu == "Departemen Internal":
                 "alamat": "Tanjung Senang",
                 "hobbi": "Main Musik",
                 "sosmed": "@sarahwsti",
-                "kesan": "kakak lucu seru",  
-                "pesan":"semangat terus kuliahnya kakk!"# 1
+                "kesan": "kakaknya seuuu",  
+                "pesan":"semangat terus kakkk!"# 1
             },
             {
                 "nama": "Zahra Putri Salsabilla",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "123450026",
+                "umur": "19",
+                "asal":"Natar",
+                "alamat": "Pemda Way Huwi",
+                "hobbi": "Main rubik mirror",
                 "sosmed": "@zhrptsl",
-                "kesan": "Kakak imut santai",  
-                "pesan":"semangat terus kuliahnya kak!"# 1
+                "kesan": "kakanya lucu banget, gemes",  
+                "pesan":"semangat kakkk"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
