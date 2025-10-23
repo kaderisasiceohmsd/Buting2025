@@ -400,7 +400,7 @@ elif menu == "Departemen Medkraf":
                 "hobbi": "Nge-gym",
                 "sosmed": "@rahmaneliyana",
                 "kesan": "Kakaknya murah senyum dan ramah",  
-                "pesan": "Selalu jadi orang yang positif ya kak  "# 1
+                "pesan": "Selalu jadi orang yang memiliki vibes positif ya kak"# 1
             },
               {
                 "nama": "Kakak Khoirul Anam",
@@ -410,8 +410,8 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Pesawaran",
                 "hobbi": "Volly, billyard",
                 "sosmed": "@mananam__",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "Kayaknya abangnya tipe yang perfeksionis deh kalau lagi dokum",  
+                "pesan": "Semangat terus di perjalanan semster akhirnya bang"# 1
               },
               {
                 "nama": "Kakak Labo John Noel Napitupulu",
@@ -421,8 +421,8 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Way Huwi",
                 "hobbi": "Motoran",
                 "sosmed": "@noerruuu",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "stylish parah, kayak orang amerika, semua outfit yang dipake kece",  
+                "pesan": "Makasih sudah dokumentasi waktu paskah sains data bang"# 1
             },
               {
                 "nama": "Kakak Ravi Diva Efangga",
@@ -432,8 +432,8 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Airan Raya",
                 "hobbi": "Olahraga",
                 "sosmed": "@rafidivaefangga_",
-                "kesan": "",  
-                "pesan": ""# 1
+                "kesan": "kakaknya murah senyum tapi keliatannya tegas",  
+                "pesan": "tetap jadi orang yang murah senyum ya kak"# 1
             },
               {
                 "nama": "Kakak Refa Destiny Pranata",
@@ -1878,6 +1878,7 @@ elif menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
