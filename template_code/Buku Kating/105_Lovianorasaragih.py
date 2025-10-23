@@ -99,13 +99,14 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1rhyBIj-JSnlp5gSjNATcwSQZFVE4SztW",
-            "1xSmY4gzXd-RTFyZq2BVkEzKMYf0uqefz",
-            "1C9JwAErAf7O6pqzYJImsPIYlNWXBBtbE",
-            "17vEujPlAXKfR2z17VwaAEuQ_Xn4kBbU8",
-            "1mokkAuIQlIna_TRCS5KnC7iSBvLrHEx0",
-            "1xEfMcNiDD45l1UZg6oagm2pc5ei3t_f5",
+            "https://drive.google.com/uc?export=view&id=1zAkM23H5kVekeKL23w6Y4LGi76iUATsJ",
+            "https://drive.google.com/uc?export=view&id=1REO3KetrOesih-KFx0gHV3Fvy8qarycS",
+            "https://drive.google.com/uc?export=view&id=1qqKqFKLrBTW5Ff6Zd4yxkkBf5RQRUxii",
+            "https://drive.google.com/uc?export=view&id=1Hpi0cULFGLLAF3SmgGyfs3SU9CrZUBLo",
+            "https://drive.google.com/uc?export=view&id=1I-Dn_5S2z1NkMF1uCMozzjxLpeEpPTOh",
+            "https://drive.google.com/uc?export=view&id=1e7C4DGuldMiTWRaChd9INe2GTOuD7De_",
         ]
+
         data_list = [
             {
                 "nama": "Rendra Eka Prayoga",
