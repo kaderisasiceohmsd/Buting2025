@@ -1282,7 +1282,7 @@ if menu == "Departemen Internal":
                 "nim": "123450064",
                 "umur": "20",
                 "asal":"Padang, Sumbar",
-                "alamat": "Way Kandid",
+                "alamat": "Way Kandis",
                 "hobbi": "Futsal",
                 "sosmed": "@hnfdzky_",
                 "kesan": "Kakak Hanif jiwa introvertnya menguar banget, sama seperti saya ",  
