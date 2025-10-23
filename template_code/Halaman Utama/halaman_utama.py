@@ -102,19 +102,14 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;"></div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1Gny0GZHIDORK7yGyweU7M3jce0m_WHY_"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Kelompok 3 Markov.</div>""",
+            """<div style="text-align: justify;">Kami adalah Kelompok 03 - Markov, salah satu kelompok kaderisasi HMSD adyatama 2025 yang beranggotakan 12 orang. Markov berasal dari nama ilmuwan matematikawan rusia yang bernama Andrey Markov, yaitu matematika dan probabilitas yang artinya dalam kelompok ini setiap langkah ke depan bergantung pada kondisi saat ini, bukan pada masa lalu. Markov sebagai identitas kelompok kami dengan harapan dapat belajar, berkembang, dan berproses selama rangkaian kaderisasi ini.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -138,86 +133,58 @@ elif menu == "About Us":
         ]
         data_list = [
             {
-                "nama": "Hazel Mahesa Handhaka",
+                "nama": "x",
                 "sebagai": "Pak Lurah",
-                "nim": "124450114",
-                "fun_fact": "ngga suka makanan berkuah",
-                "motto_hidup": "Allah tidak membebani suatu kaum melebihi batasannya",
+                "nim": "122450016",
+                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
+                "motto_hidup": "new semester new me",
             },
             {
-                "nama": "Sekar Dini Widya Putri",
+                "nama": "x",
                 "sebagai": "Bu Lurah",
-                "nim": "124450082",
-                "fun_fact": "suka banget mengoleksi stiker gemas",
-                "motto_hidup": "Hidup bebas selanggi tidak melanggar",
+                "nim": "122450000",
+                "fun_fact": "nyemilin es bata",
+                "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "Dafa Elpriza",
+                "nama": "x",
                 "sebagai": "Anggota",
-                "nim": "124450131",
-                "fun_fact": "Ga suka ikan selain ikan lele",
-                "motto_hidup": "Hidup yang tidak dipertaruhkan tidak akan dimenangkan",
+                "nim": "122450083",
+                "fun_fact": "nyemilin es bata",
+                "motto_hidup": "mantap",
             },
             {
-                "nama": "Salavi Naharani",
+                "nama": "x",
                 "sebagai": "Anggotaa",
-                "nim": "124450090",
-                "fun_fact": "Ga suka makan",
-                "motto_hidup": "Kehidupan adalah perjalanan, nikmati setiap prosesnya",
+                "nim": "122450000",
+                "fun_fact": "nyemilin",
+                "motto_hidup": "jalanin dulu aja",
             },
             {
-                "nama": "Melva Shaprina Febrianti",
+                "nama": "x",
                 "sebagai": "Anggotaa",
-                "nim": "122450087",
-                "fun_fact": "tidur harus make kain ibu",
-                "motto_hidup": "Jangan pernah berhenti bermimpi",
-            },
-            {
-                "nama": "Bunga Clarisa Seva",
-                "sebagai": "Anggotaa",
-                "nim": "124450097",
-                "fun_fact": "Suka buka kulkas padahal gaadaudah tau isinya itu itu aja isinya",
-                "motto_hidup": "Tetaplah menjadi ang ang ang",
-            },
-            {
-                "nama": "Gatfan Nadif Ali",
-                "sebagai": "Anggotaa",
-                "nim": "124450001",
-                "fun_fact": "Bisa multitasking kalo lagi santai",
-                "motto_hidup": "it is what it is",
-            },
-            {
-                "nama": "Bryan Paskah telaumbanua",
-                "sebagai": "Anggotaa",
-                "nim": "124450003",
+                "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "Allisha",
+                "nama": "x",
                 "sebagai": "Anggotaa",
-                "nim": "124450019",
+                "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "Afdal Rahmad Setiawan",
+                "nama": "x",
                 "sebagai": "Anggotaa",
-                "nim": "124450003",
+                "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "Vannisha Ramadhani",
+                "nama": "x",
                 "sebagai": "Anggotaa",
-                "nim": "124450003",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
-            },
-            {
-                "nama": "Adinda Deswita Maharani",
-                "sebagai": "Anggotaa",
-                "nim": "124450003",
+                "nim": "122450110",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },

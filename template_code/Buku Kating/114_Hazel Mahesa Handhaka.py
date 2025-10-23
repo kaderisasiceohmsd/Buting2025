@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1fASM-gBWRUjZ4LkjWiOQJQuaSvl9bJQa",
+            "https://drive.google.com/uc?export=view&id=1UDB8R36p-PSiZQVTD-rHDY-v2g2CW6US",
+            "https://drive.google.com/uc?export=view&id=15bZRVCSH8agbILdMszMfXCnQWIVzQHZI",
+            "https://drive.google.com/uc?export=view&id=137VlB5H7eIpZSKuRJ_l16Aoq3kWhJ2OH",
+            "https://drive.google.com/uc?export=view&id=1LM5RYVrKy2Jxg7J1fTtWV0WnUMpOoJzO",
+            "https://drive.google.com/uc?export=view&id=1CmDOfhFo8x1tsWmQ5rJnqlvfsDl8LcTK",
         ]
         data_list = [
             {
@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Sangat berwibawa dan keren",  
-                "pesan":"Semangat terus bang menjalani hidup sebagai ketua"# 1
+                "kesan": "Keren sifat haus pengalaman dan ilmunya bang",  
+                "pesan":"Tetap amanah dalam memajukan HMSD bang"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Keren banget karna ngajarin ilmu data sains",  
-                "pesan":"Semoga kehidupan kuliahnya berjalan mulus"# 1
+                "kesan": "Abangnya asik tapi tegas, keren bang",  
+                "pesan":"Semoga terus menjadi pribadi yang lebih baik ya bang, keren cerita perubahan kepribadian abang"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Korpri",
                 "hobbi": "Cutekahim",
                 "sosmed": "@farahanumafifah",
-                "kesan": "Bisa ada diposisi ini aja udah keren banget",  
-                "pesan":"Semoga ga banyak masalah menghampiri"# 1
+                "kesan": "kakaknya lucu walau tetap formal",  
+                "pesan":"Semoga kuliahnya lancar ya kak"# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Udah hobi membaca, punya posisi penting pula",  
-                "pesan":"Semoga lancar-lancar saja kehidupannya"# 1
+                "kesan": "kakaknya lucu, periang",  
+                "pesan":"Semakin semangat belajarnya kak"# 1
             },
             {
                 "nama": "Eksanty Febriana Sugma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Asrama TB 4",
                 "hobbi": "Nahan Eeq",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Walau hobbynya ngawur, tapi bisa berada di posisi penting haha",  
-                "pesan":"Semoga tidak ada masalah yang menghampiri"# 1
+                "kesan": "Kakaknya selalu ceria tapi masih berwibawa",  
+                "pesan":"Semoga kuliahnya lancar kak"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Agrest Kost",
                 "hobbi": "Nahan Pipis",
                 "sosmed": "@celisabethh_",
-                "kesan": "Hobbynya ngawur, tapi megang posisi penting",  
-                "pesan":"Semoga lancar kehidupan kuliahnya"# 1
+                "kesan": "Lucu kak",  
+                "pesan":"Semoga ceria selalu"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)

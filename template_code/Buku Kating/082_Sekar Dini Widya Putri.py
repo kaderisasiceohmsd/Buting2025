@@ -447,7 +447,7 @@ if menu == "Departemen PSDA":
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "",
-                "umur": "",
+                "umur": "21",
                 "asal": "",
                 "alamat": "",
                 "hobbi": "",
