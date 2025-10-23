@@ -894,7 +894,7 @@ if menu == "Departemen Eksternal":
                 "nama": "Kakak Devyna Sonya Palupi Sanjaya",
                 "nim": "123450007",
                 "umur": "20",
-                "asal":"Duo P(Palembang & Pringsewu)",
+                "asal":""asal": "Duo P (Palembang & Pringsewu)",
                 "alamat": "like crowded",
                 "hobbi": "Scroll template jj & ngasprak",
                 "sosmed": "@devynasonyaa",
@@ -1521,7 +1521,7 @@ if menu == "Departemen Medkraf":
                 "alamat": "Sabah Balau Residence",
                 "hobbi": "Melukis",
                 "sosmed": "@eigitvm",
-                "kesan": "Kakak manis dan ceria banget! Sangat "cewe bumi" looks banget hehehe",  
+                "kesan": "Kakak manis dan ceria banget! Sangat 'cewe bumi' looks banget hehehe",  
                 "pesan": "Semoga sehat selalu ya kakak, apapun itu diberikan kemudahan oleh Tuhan"# 1
             },
               {
