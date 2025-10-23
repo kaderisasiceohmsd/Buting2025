@@ -109,13 +109,13 @@ if menu == "Kesekjenan":
         data_list = [
             {
                 "nama": "Rendra Eka Prayoga",
-                "nim": "122450000",
-                "umur": "18",
+                "nim": "122450122",
+                "umur": "21",
                 "asal": "Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",
+                "alamat": "Pulau Damar",
+                "hobbi": "Menyanyi",
+                "sosmed": "@_erendraa",
+                "kesan": "Kakak ini asik juga ramah dengan dia",
                 "pesan": "semangat terus kuliahnya kakak !!!",
             },
             {
