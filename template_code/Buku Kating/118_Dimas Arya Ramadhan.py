@@ -164,7 +164,7 @@ if menu == "Kesekjenan":
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
-                "nim": "122450000",
+                "nim": "122450056",
                 "umur": "18",
                 "asal": "Bekasi",
                 "alamat": "Gg.sakum",
@@ -180,10 +180,10 @@ if menu == "Kesekjenan":
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1VV-UMjrLh6Mf8ZddtIN5etmWHa6pQ9Qf",
-            "https://drive.google.com/uc?export=view&id=1LV3--Cx04GdfMLbI3uKFvsgjnQOEyE1I",
+            "https://drive.google.com/uc?export=view&id=1RiSPHKEpEh2ZbJXiv-Horc0xPUWyKHyc",
+            "https://drive.google.com/uc?export=view&id=1Kb_uZtko2y0AEuQEPFhsMGpIetX8tPrZ",
             "https://drive.google.com/uc?export=view&id=1pDQnGwnZ5kOEg-eJO5qsmXTTXN-gJboh",
-            "https://drive.google.com/uc?export=view&id=1y7-pA5gAcW4iqdJDLs0lRFAp-ZHA_S4D",
+            "https://drive.google.com/uc?export=view&id=1Yxk88Ed1D6c41zsw4hUZggdWXU5vRTWL",
             "https://drive.google.com/uc?export=view&id=1IL7aXgCeFnPodip01b-6Pgkn8FbuVqUI",
             "https://drive.google.com/uc?export=view&id=1qSyu-jCfFI-o1TAqeKEwUPnuUyXdT2HH",
             "https://drive.google.com/uc?export=view&id=1eMZWzh3GHByVVHko57VGSCoe5uikZ5ED",
