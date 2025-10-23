@@ -100,11 +100,11 @@ if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1R37s_dBPULKh-0ft8ddx0_uUexcOapA_",
-            "https://drive.google.com/uc?export=view&id=13IRm7cHxfSlG_Juj8n8ipUgAQ1t9jk9f",
+            "https://drive.google.com/uc?export=view&id=1tarI5ai3B8LYu2JcejzlzQLgnwmaPbYo",
             "https://drive.google.com/uc?export=view&id=1iKVg4jURomRaACebFQcw9GM9b_cxuAva",
             "https://drive.google.com/uc?export=view&id=1w93ATzpvcge0Fhqf76AegcEfFWOLIIAO",
             "https://drive.google.com/uc?export=view&id=11dN7zmgY1MteXQfCSSCuD4cJe0qoImuS",
-            "https://drive.google.com/uc?export=view&id=1tarI5ai3B8LYu2JcejzlzQLgnwmaPbYo",
+            "https://drive.google.com/uc?export=view&id=13IRm7cHxfSlG_Juj8n8ipUgAQ1t9jk9f",
         ]
         data_list = [
             {
@@ -130,15 +130,15 @@ if menu == "Kesekjenan":
                 "pesan":"semoga sarjana secepatnya bang"# 1
             },
             {
-                "nama": "Farahanum Afifah Ardiansyah",
-                "nim": "122450056",
-                "umur": "21",
-                "asal":"Kota Padang",
-                "alamat": "Korpri",
-                "hobbi": "Cutekahim",
-                "sosmed": "@farahanumafifah",
-                "kesan": "kakak paling keren",  
-                "pesan":"sarjana secepatnya kak"# 1
+                "nama": "Elisabeth Claudia Simanjuntak",
+                "nim": "122450123",
+                "umur": "23",
+                "asal":"Baduy Dalem",
+                "alamat": "Agrest Kost",
+                "hobbi": "Nahan Pipis",
+                "sosmed": "@celisabethh_",
+                "kesan": "udah keren kece lagi",  
+                "pesan":"Semoga lulus cepat dan lancar terus kak"# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -163,15 +163,16 @@ if menu == "Kesekjenan":
                 "pesan":"lulus secepatnya dan lancar terus sampai sarjana kak"# 1
             },
             {
-                "nama": "Elisabeth Claudia Simanjuntak",
-                "nim": "122450123",
-                "umur": "23",
-                "asal":"Baduy Dalem",
-                "alamat": "Agrest Kost",
-                "hobbi": "Nahan Pipis",
-                "sosmed": "@celisabethh_",
-                "kesan": "udah keren kece lagi",  
-                "pesan":"Semoga lulus cepat dan lancar terus kak"# 1
+                "nama": "Farahanum Afifah Ardiansyah",
+                "nim": "122450056",
+                "umur": "21",
+                "asal":"Kota Padang",
+                "alamat": "Korpri",
+                "hobbi": "Cutekahim",
+                "sosmed": "@farahanumafifah",
+                "kesan": "kakak paling keren",  
+                "pesan":"sarjana secepatnya kak"# 1
+
             },
         ]
         display_images_with_data(gambar_urls, data_list)
