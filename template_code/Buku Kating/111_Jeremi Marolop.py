@@ -101,10 +101,10 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=17edwoyummfCXAZDwjjkLAp_3qZP_mlAM",
             "https://drive.google.com/uc?export=view&id=1N6wTdKDTN7ZzuEfUVhQxTg5eNZlgQxVl",
-            "https://drive.google.com/uc?export=view&id=1jjfKzH4z0HLuGcvLSeOQYqoJI2kTOuqr",
-            "https://drive.google.com/uc?export=view&id=1JOxI0AGFNpXYoXFs5DDiiJlCb7M3crd0",
             "https://drive.google.com/uc?export=view&id=1qZ91ESydnPhMg_jmjNQ7tEo7Ct-IZCdB",
             "https://drive.google.com/uc?export=view&id=1VuOpx1q2MGvfRCaSaEDBRFanweZRnWcL",
+            "https://drive.google.com/uc?export=view&id=1jjfKzH4z0HLuGcvLSeOQYqoJI2kTOuqr",
+            "https://drive.google.com/uc?export=view&id=1JOxI0AGFNpXYoXFs5DDiiJlCb7M3crd0",
         ]
         data_list = [
             {
@@ -113,7 +113,7 @@ if menu == "Kesekjenan":
                 "umur": "21",
                 "asal":"Bekasi",
                 "alamat": "Pulau Damar",
-                "hobbi": "Beli donat kentang",
+                "hobbi": " Ikut lomba burung murai",
                 "sosmed": "@erendraa",
                 "kesan": "keren banget banggg bisa jadi ",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
@@ -123,30 +123,30 @@ if menu == "Kesekjenan":
                 "nim": "122450043",
                 "umur": "20",
                 "asal":"Tangerang",
-                "alamat": "Jl. Lapas Raya",
-                "hobbi": "Baca buku dasar-dasar",
+                "alamat": "Jalan Lapas",
+                "hobbi": "Baca buku SQL",
                 "sosmed": "@johannneskrijnnn",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
+                "kesan": "Abang ini asik saya suka belajar dari dia",  
+                "pesan":"semangat terus kuliahnya bang, semoga cepat lulus !!!"
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
                 "nim": "122450001",
                 "umur": "19",
-                "asal":"Rote, NTT",
-                "alamat": "Rajabasa",
-                "hobbi": "Baca buku, suka pramuka",
+                "asal":"Kelagian kecil, Pahawang",
+                "alamat": "Pesawaran",
+                "hobbi": "Ngambilin lanyard",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
+                "kesan": "Kakak ini suka bercanda",  
+                "pesan":"sehat selalu kak, semangat kuliahnya !!!"
             },
             {
                 "nama": "Farhanum Afifah Ardiansyah",
                 "nim": "122450056",
                 "umur": "21",
                 "asal":"Padang, Sumatera Barat",
-                "alamat": "Sukarame",
-                "hobbi": "Tidur",
+                "alamat": "Gya Kost",
+                "hobbi": "Cute",
                 "sosmed": "@farahanumafifah",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
@@ -281,8 +281,8 @@ if menu == "Baleg":
                 "alamat": "Teluk, Bandar Lampung",
                 "hobbi": "Tidur",
                 "sosmed": "@Renishapg",
-                "kesan": "Kakaknya asik dan ramah.",
-                "pesan":"Sukses selalu untuk kuliahnya ya!"
+                "kesan": "Kakaknya asik dan suka bercanda.",
+                "pesan":"Sukses selalu untuk kuliahnya kak, cepat lulus juga kak!"
             },
             {
                 "nama": "Anisa Fitriyani",
@@ -297,13 +297,13 @@ if menu == "Baleg":
             },
             {
                 "nama": "Dhea Amelia Putri",
-                "nim": "",
+                "nim": "122450004",
                 "umur": "20",
                 "asal":"Chiwidew, Jawa Barat",
-                "alamat": "Pesawaran",
-                "hobbi": "Pawat Piwit",
+                "alamat": "Bandar Lampung Ujung",
+                "hobbi": "kalo badmood liat zaldi",
                 "sosmed": "@_.dheamelia",
-                "kesan": "Senang bisa kenal dengan kakak.",
+                "kesan": "Kakaknya Positive vibes banget.",
                 "pesan":"Jangan lupa jaga kesehatan, kak."
             },
             {
