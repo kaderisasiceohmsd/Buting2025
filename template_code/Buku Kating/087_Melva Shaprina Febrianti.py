@@ -184,16 +184,16 @@ if menu == "Baleg":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1jEDJaa1uggUYvBj4wAx-MTzS4LS9y6P6",
             "https://drive.google.com/uc?export=view&id=1aXETUUlTiOM6FYGeq3FTFlpmWHwbqUK6",
-            "https://drive.google.com/uc?export=view&id=1ahTlaU6W2rcLHdzQu03NHlHIQ_1qKrpW",
-            "https://drive.google.com/uc?export=view&id=1GUYOSxuCex2Dy2rDOBhm2D1PPx_v2E4F",
-            "https://drive.google.com/uc?export=view&id=181mTMTVb4uxruA_PiTwznqTx4eus7d1U",
             "https://drive.google.com/uc?export=view&id=1Dkk79dmIRatflepDhduSqT3X3d2sMOiW",
+            "https://drive.google.com/uc?export=view&id=1ahTlaU6W2rcLHdzQu03NHlHIQ_1qKrpW",
             "https://drive.google.com/uc?export=view&id=1CdNMFsBOHbyhur98DkKSsp-oyACW5bP1",
             "https://drive.google.com/uc?export=view&id=1spNAnhZaUXPQbk9NzveegWxyqmxxpZ4N",
             "https://drive.google.com/uc?export=view&id=1tHS-ThgSahiNk2JtyegPR_WIJVYtndMc",
+            "https://drive.google.com/uc?export=view&id=1GUYOSxuCex2Dy2rDOBhm2D1PPx_v2E4F",
             "https://drive.google.com/uc?export=view&id=1kNIMdiz7nqss4CMm7AEA7fdyIeiCuCo_",
             "https://drive.google.com/uc?export=view&id=1fLqXFjjVart-WYEBNW4IF3y_oDThU4SW",
             "https://drive.google.com/uc?export=view&id=1NHF_1Zp_iuaBJPMNIuFzlX8-420LQ6hw",
+            "https://drive.google.com/uc?export=view&id=181mTMTVb4uxruA_PiTwznqTx4eus7d1U",
             "https://drive.google.com/uc?export=view&id=1GhpN6nTfXitRJPhOHJPyFi0kABbNl3vG",
             "https://drive.google.com/uc?export=view&id=1171UaG0a0wcMQ3lL6scLi0AWN8OdSVuF",
         ]
@@ -221,39 +221,6 @@ if menu == "Baleg":
                 "pesan":"Doain adik tingkatnya biar bisa kayak Kakak."
             },
             {
-                "nama": "Anisa Fitriyani",
-                "nim": "122450019",
-                "umur": "19",
-                "asal":"Lubuk Linggau",
-                "alamat": "Pringsewu",
-                "hobbi": "Hafalin sandi Morse",
-                "sosmed": "@ansftynn_",
-                "kesan": "Punya aura tenang yang bikin nyaman.",
-                "pesan":"Tetap semangat walau tugas numpuk."
-            },
-            {
-                "nama": "Mirzan Yusuf Rabbani",
-                "nim": "122450118",
-                "umur": "21",
-                "asal":"Jakarta",
-                "alamat": "Korpri",
-                "hobbi": "Tidur",
-                "sosmed": "@myrrinn",
-                "kesan": "Inspiratif banget cara berpikirnya.",
-                "pesan":"Teruslah menginspirasi dengan kebaikanmu."
-            },
-            {
-                "nama": "Feryadi Yulius",
-                "nim": "122450087",
-                "umur": "21",
-                "asal":"Bandung",
-                "alamat": "Way kandis",
-                "hobbi": "Baca buku",
-                "sosmed": "@fer_yulius",
-                "kesan": "Kakaknya asik, nggak kaku.",
-                "pesan":"Jangan berubah, tetap jadi kakak yang keren."
-            },
-            {
                 "nama": "Renisha Putri Giani",
                 "nim": "122450079",
                 "umur": "22",
@@ -263,6 +230,17 @@ if menu == "Baleg":
                 "sosmed": "@Renishapg",
                 "kesan": "Kakaknya asik dan ramah.",
                 "pesan":"Sukses selalu untuk kuliahnya ya!"
+            },
+            {
+                "nama": "Anisa Fitriyani",
+                "nim": "122450019",
+                "umur": "19",
+                "asal":"Lubuk Linggau",
+                "alamat": "Pringsewu",
+                "hobbi": "Hafalin sandi Morse",
+                "sosmed": "@ansftynn_",
+                "kesan": "Punya aura tenang yang bikin nyaman.",
+                "pesan":"Tetap semangat walau tugas numpuk."
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
@@ -298,6 +276,17 @@ if menu == "Baleg":
                 "pesan":"Jangan lupa bahagia juga ya Bang."
             },
             {
+                "nama": "Mirzan Yusuf Rabbani",
+                "nim": "122450118",
+                "umur": "21",
+                "asal":"Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Tidur",
+                "sosmed": "@myrrinn",
+                "kesan": "Inspiratif banget cara berpikirnya.",
+                "pesan":"Teruslah menginspirasi dengan kebaikanmu."
+            },
+            {
                 "nama": "Berliana Enda Putri",
                 "nim": "124450065",
                 "umur": "21",
@@ -329,6 +318,17 @@ if menu == "Baleg":
                 "sosmed": "@iamridhomanik",
                 "kesan": "Tegas tapi tetap baik.",
                 "pesan":"Jaga kesehatan, jangan terlalu sibuk."
+            },
+            {
+                "nama": "Feryadi Yulius",
+                "nim": "122450087",
+                "umur": "21",
+                "asal":"Bandung",
+                "alamat": "Way kandis",
+                "hobbi": "Baca buku",
+                "sosmed": "@fer_yulius",
+                "kesan": "Kakaknya asik, nggak kaku.",
+                "pesan":"Jangan berubah, tetap jadi kakak yang keren."
             },
             {
                 "nama": "Monica Patricia Tanjung",
