@@ -141,4 +141,61 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
+
+if menu == "Senator":
+    def senator():
+        gambar_urls = [
+            "https://drive.google.com/file/d/1caD2ghFiCmmgf-8zwFzttqX34SwFnift",
+            "https://drive.google.com/file/d/1jlszDhveixiuVEK6-MCOvrQjm5MJjTh4",
+            "https://drive.google.com/file/d/1bWBtoGDU4WhTYsugWklLWWDm-aHU1YVv",
+            "https://drive.google.com/file/d/1ZSPLT6X2X-Ux_XgWTdLOTIn2O9txk2Kj",
+        ]
+        data_list = [
+            {
+                "nama": "Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal":"Palembang",
+                "alamat": "",
+                "hobbi": "Mancing",
+                "sosmed": "@",
+                "kesan": "bang bintang orang nya humoris, sewaktu wawancara kami banyak ketawa karena lelucon dari beliau, beliau orang nya tegas dan bisa membedakan mana waktunya bercanda dan mana waktunya serius",  
+                "pesan":"semangat terus kuliahnya bang, kuliah dibawa santai aja jangan pusing pusing"# 1
+            },
+            {
+                "nama": "Nadya Ratu Anjani",
+                "nim": "123450045",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Denger Lagu",
+                "sosmed": "@i",
+                "kesan": "Kakak nya cantik banget, kalau senyum lucu matanya ga keliatan, terus orang nya lembut bgt gitu sama ramah juga dan mudah tersenyum, vibesnya kaya cewe humble dan baik hati",  
+                "pesan":"tetap ramah kaya sekarang ya kak, jangan lupa jaga kesehatan, jangan telat makan!!"# 1
+            },
+            {
+                "nama": "Fatina Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal":"Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi": "dengerin musik sambil jalan",
+                "sosmed": "@i",
+                "kesan": "kaka nya cantik banget apalagi kalau senyum, imut gitu terus vibesnya kaya cewe muslimah bgt",  
+                "pesan":"tetap jadi tipe orang yang baik dan ramah ya kak!!"# 1
+            },
+            {
+                "nama": "Lia Hana Icihai Sasmita",
+                "nim": "123450089",
+                "umur": "20",
+                "asal":"Jarta",
+                "alamat": "Belakang indomaret Belwis",
+                "hobbi": "Main",
+                "sosmed": "@i",
+                "kesan": "kaka nya lucu bgt kalau senyum matanya ga keliatan jadi keliatan imut gitu, terus kalau kami ngomong kakaknya yang bener bener merhatiin bgt gitu, jadi terharu ",  
+                "pesan":"semangat kuliah nya ya kak, jangan lupa istirahat, jangan terlalu dipaksain kalau udah cape istirahat aja"# 1
+            }, 
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Senator()
 # Tambahkan menu lainnya sesuai kebutuhan
