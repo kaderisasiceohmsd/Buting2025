@@ -479,11 +479,11 @@ if menu == "Departemen PSDA":
             },
             {
                 "nama": "Nisrina Nur Afifah",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "122450052",
+                "umur": "20",
+                "asal":"Jawa Barat",
+                "alamat": "Korpri",
+                "hobbi": "Mikir",
                 "sosmed": "@afifahhnsrn",
                 "kesan": "Kakak seru kece",  
                 "pesan":"semangat teruss kak jadi sekrenya!!!"# 1
