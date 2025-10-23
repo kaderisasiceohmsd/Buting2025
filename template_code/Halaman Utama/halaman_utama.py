@@ -147,7 +147,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1AaZewHnz5nRQDBg34iW5dAdx6KsP3M9Y",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1VZrLhMN3G2OMwIJdJZZzrsIZR3qREWow",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
