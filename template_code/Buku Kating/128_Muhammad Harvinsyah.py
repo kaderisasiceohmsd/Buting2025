@@ -181,7 +181,7 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1240QS2xwT9_IEkPWDpL9SkqnpSKvffQ3",
+            "https://drive.google.com/uc?export=view&id=1UpXMqB4R73yhB3IDthG_wq9QGl-db7dR",
             "https://drive.google.com/uc?export=view&id=1nP3y8CnXyal9njqPDvEqab-AMy1fhhm0",
             "https://drive.google.com/uc?export=view&id=1y5VHNpGw3SPQFweGdlAKRHiEHFrxgIyz",
             "https://drive.google.com/uc?export=view&id=1JGH8Lob0pXf3H81AfStuZhWN_YbkYHtR",
@@ -1027,34 +1027,34 @@ if menu == "Departemen MIKFES":
 if menu == "Departemen Eksternal":
     def Departemen_Eksternal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=17dZm1lmheVPR7qu8bENo7_Mvg1SyAXuC", #1
-            "https://drive.google.com/uc?export=view&id=1XJo9lsjsdYWk-nThgztsaCzfyskgsdGK", #2
-            "https://drive.google.com/uc?export=view&id=1sR9YB39shc6Hng1CRVGXS-SXSaogDgy4", #3
-            "https://drive.google.com/uc?export=view&id=1tv1y_EkuuDMLPxqtqRVDmg_WdjIPBZ7q", #4
-            "https://drive.google.com/uc?export=view&id=1JccZw4pVM48sJ12jWj6X9NPd-gy00IpR", #5
-            "https://drive.google.com/uc?export=view&id=1VUS7NUO_fUB6vYR5wrueRQmxuGVXcLeQ", #6
-            "https://drive.google.com/uc?export=view&id=1uJM1V8WAm5X8h3upKtZkXrjCpBoCP1LX", #7
-            "https://drive.google.com/uc?export=view&id=1LF-QufxpdJe4nFAsz-qatD8fNOmmCGWq", #8
-            "https://drive.google.com/uc?export=view&id=1Ta5eLddPtR3JdReiCnEKMHClM8aRM9N0", #9
-            "https://drive.google.com/uc?export=view&id=1pWIsm4J0n3-agFa7RFe4p0ZOT442_ano", #10
-            "https://drive.google.com/uc?export=view&id=1KLcmpthBovmIHjk6emlUY8-YBb05VqnW", #11
-            "https://drive.google.com/uc?export=view&id=1GA4lDtrhNQ8iGvAxKtnxAeQkcyLT36bE", #12
-            "https://drive.google.com/uc?export=view&id=1VyjPVyfgR5settmVdlW5mjB56MspfkUG", #13
-            "https://drive.google.com/uc?export=view&id=1Eqbo6VZcw2FsD1i0zQgKBYxIQWG0aUce", #14
-            "https://drive.google.com/uc?export=view&id=1ZOjZD80kiyQurdScfD7G_K-ZXXldvahS", #15
-            "https://drive.google.com/uc?export=view&id=19jXqag8reVp3EocS1lzHu4-AcY5eJBBr", #16
-            "https://drive.google.com/uc?export=view&id=13YTmty7BmNhNiZARUeSY-SujX4w1EvNi", #17
-            "https://drive.google.com/uc?export=view&id=1olLpOB1gXfzjNTqKNDwcwSiGFJQpm44J", #18
-            "https://drive.google.com/uc?export=view&id=1sHE3b8qz9o6_gHX-Kp00zAZVT5xMEFJZ", #19
-            "https://drive.google.com/uc?export=view&id=1_vywJ4bXC7euhWRVFZ9UPAP9Yeb7Qgb5", #20
-            "https://drive.google.com/uc?export=view&id=1GU57S1iUf6ZLT-2xJsvjZSv5oVUuMlxv", #21
-            "https://drive.google.com/uc?export=view&id=1T_ilFq15moTpAPEPq2v847-1QHUryrkw", #22
-            "https://drive.google.com/uc?export=view&id=1ipsnJiAbITNUcE6jl0tMlC4cMlB6Nt7P", #23
-            "https://drive.google.com/uc?export=view&id=1S0oF-r9ZLOBIojhDza4SkbD6hxp_D_-k", #24
+            "https://drive.google.com/uc?export=view&id=1lsg9oq93cG7URgiz4E0eapa5fBdiOA36", #1
+            "https://drive.google.com/uc?export=view&id=1nRUd9ckAYyT1jTbh00SyEFpmyI_pse4C", #2
+            "https://drive.google.com/uc?export=view&id=1X3sJ0L14kj2-rrbXXH9Frz73aldup3s-", #3
+            "https://drive.google.com/uc?export=view&id=1NXOOMTewMendO6tECis1EoY1aIs3h2e8", #4
+            "https://drive.google.com/uc?export=view&id=1dONXzAfJdgfgZqamhPBma-Nvj-wbls0L", #5
+            "https://drive.google.com/uc?export=view&id=1uqdRTW5aBKPL3eXZiLz1guh9W9Bl-Vh8", #6
+            "https://drive.google.com/uc?export=view&id=1gG-8qwUq-DbM0w_WTqV5ViITHuEQafp8", #7
+            "https://drive.google.com/uc?export=view&id=1ORM0oJE98ODg3QKZVooBp28I5_7SKU3S", #8
+            "https://drive.google.com/uc?export=view&id=1iemB8DsnLOSaIUyUZ1Yt0DjyVtFmj0Ap", #9
+            "https://drive.google.com/uc?export=view&id=1nbjg9NGEKGLZ2LkO-zuxu4CqB2C0Wsm7", #10
+            "https://drive.google.com/uc?export=view&id=1t7DWR75p07dN7rt8OjKowgEgIih0okIh", #11
+            "https://drive.google.com/uc?export=view&id=10zJXv5Y-wiHc3XdcFG5Jrly2RMW9OTW2", #12
+            "https://drive.google.com/uc?export=view&id=1o-ZPFN8gtWykH2cY-e4-AlYWsi3cuCp_", #13
+            "https://drive.google.com/uc?export=view&id=1nIjbHENbeWFKHGI5kStUKMJUQygZqCXB", #14
+            "https://drive.google.com/uc?export=view&id=1TltHSQ-lyN7zNwygnU8lENHSLNfWRGUG", #15
+            "https://drive.google.com/uc?export=view&id=1qXv55TeEEhgdF1P3NxTUGjkFeOp6MfBX", #16
+            "https://drive.google.com/uc?export=view&id=1pqGCTPhL0jh_LdzhvQ8lpAFvupSendT_", #17
+            "https://drive.google.com/uc?export=view&id=1xtmTMMix8g4t31EpTO-0Byi2s5PtgoVW", #18
+            "https://drive.google.com/uc?export=view&id=1myeHRfduf-ENzN25-BDyj4ymgGX7jN_X", #19
+            "https://drive.google.com/uc?export=view&id=1FLvhvwgpMN2cwC8AZIKXplLg6fXsbP8m", #20
+            "https://drive.google.com/uc?export=view&id=1-5Oj0_bMOsF0Q1QujjXHkJqRM8GKAHbi", #21
+            "https://drive.google.com/uc?export=view&id=13yf2CUbtsrki3MUQdAn4pAm8qS3ZZ6nj", #22
+            "https://drive.google.com/uc?export=view&id=1-GSTj3jCBug2Br1ZBYOyDOUkFNnVnswC", #23
+            "https://drive.google.com/uc?export=view&id=1eFQERYkxsvk_4eUGe7hoDbCTKZhtBHSI", #24
         ]
         data_list = [
             {
-                "nama": "Kakak Arafi Putra Maulan",
+                "nama": "Arafi Putra Maulan",
                 "nim": "122450002",
                 "umur": "20",
                 "asal":"Spanyol",
@@ -1065,7 +1065,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 1
             },
             {
-                "nama": "Kakak Yohana Manik",
+                "nama": "Yohana Manik",
                 "nim": "122450126",
                 "umur": "20",
                 "asal":"Usul",
@@ -1076,7 +1076,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak"# 2
             },
             {
-                "nama": "Kakak Dea Mutia Risani",
+                "nama": "Dea Mutia Risani",
                 "nim": "122450099",
                 "umur": "21",
                 "asal":"Sumatera Barat",
@@ -1087,7 +1087,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 3
             },
             {
-                "nama": "Kakak Devyna Sonya Palupi Sanjaya",
+                "nama": "Devyna Sonya Palupi Sanjaya",
                 "nim": "123450007",
                 "umur": "20",
                 "asal":"Duo P(Palembang & Pringsewu)",
@@ -1098,7 +1098,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 4
             },
             {
-                "nama": "Kakak Luthfia Laila Ramadhani",
+                "nama": "Luthfia Laila Ramadhani",
                 "nim": "123450004",
                 "umur": "19 ",
                 "asal":"Tambun",
@@ -1109,7 +1109,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 5
             },
             {
-                "nama": "Kakak Cindy Laura Manik",
+                "nama": "Cindy Laura Manik",
                 "nim": "123450112",
                 "umur": "20",
                 "asal":"Sumatera Utara ",
@@ -1120,7 +1120,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 6
             },
             {
-                "nama": "Kakak Desman Velius Halawa",
+                "nama": "Desman Velius Halawa",
                 "nim": "123450114",
                 "umur": "21 ",
                 "asal":"Nias",
@@ -1131,7 +1131,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 7
             },
             {
-                "nama": "Kakak Dea Amanda",
+                "nama": "Dea Amanda",
                 "nim": "123450006",
                 "umur": "21",
                 "asal":"Sumatera Barat",
@@ -1142,7 +1142,7 @@ if menu == "Departemen Eksternal":
                 "pesan":" Tetap semangat dan sehat selalu kak"# 8
             },
             {
-                "nama": "Kakak Irvan Alfaritzi",
+                "nama": "Irvan Alfaritzi",
                 "nim": "122450093",
                 "umur": "21",
                 "asal":"Sumatera Barat",
@@ -1153,7 +1153,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 9
             },
             {
-                "nama": "Kakak Fathya Intami Gusda",
+                "nama": "Fathya Intami Gusda",
                 "nim": "123450095",
                 "umur": "19",
                 "asal":"Tangerang Selatan",
@@ -1164,7 +1164,7 @@ if menu == "Departemen Eksternal":
                 "pesan":" Tetap semangat dan sehat selalu kak"# 10
             },
             {
-                "nama": "Kakak khazanatil ilmi",
+                "nama": "khazanatil ilmi",
                 "nim": "123450053",
                 "umur": "20",
                 "asal":"padang",
@@ -1175,7 +1175,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 11
             },
             {
-                "nama": "Kakak Nurul Izzah Istiqomah",
+                "nama": "Nurul Izzah Istiqomah",
                 "nim": "123450054",
                 "umur": "20 ",
                 "asal":"Batam",
@@ -1186,7 +1186,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 12
             },
             {
-                "nama": "Kakak Qois Olifio",
+                "nama": "Qois Olifio",
                 "nim": "123450067",
                 "umur": "21",
                 "asal":"Batam, Kepri",
@@ -1197,7 +1197,7 @@ if menu == "Departemen Eksternal":
                 "pesan":" Tetap semangat dan sehat selalu kak"# 13
             },
             {
-                "nama": "Kakak Melinza Nabila",
+                "nama": "Melinza Nabila",
                 "nim": "123450122",
                 "umur": "20 ",
                 "asal":"Bandar Lampung",
@@ -1208,7 +1208,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 14
             },
             {
-                "nama": "Kakak Nayla Shafira Roza",
+                "nama": "Nayla Shafira Roza",
                 "nim": "123450017",
                 "umur": "20",
                 "asal":"Bandar Lampung",
@@ -1219,7 +1219,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 15
             },
             {
-                "nama": "Kakak Aditya Taufiqurrohman",
+                "nama": "Aditya Taufiqurrohman",
                 "nim": "123450032",
                 "umur": "21",
                 "asal":"Sukabumi",
@@ -1230,7 +1230,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 16
             },
             {
-                "nama": "Kakak Tarisya Hidayatul Rahmi",
+                "nama": "Tarisya Hidayatul Rahmi",
                 "nim": "123450052",
                 "umur": "21",
                 "asal":"Sumatera Barat",
@@ -1241,7 +1241,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 17
             },
             {
-                "nama": "Kakak Ratu Keisha Jasmine Deanova",
+                "nama": "Ratu Keisha Jasmine Deanova",
                 "nim": "122450106",
                 "umur": "21",
                 "asal":"Bogor",
@@ -1252,7 +1252,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 18
             },
             {
-                "nama": "Kakak Khoirul Muttoharoh",
+                "nama": "Khoirul Muttoharoh",
                 "nim": "123450021",
                 "umur": "20",
                 "asal":"Lampung Barat",
@@ -1263,7 +1263,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak"# 19
             },
             {
-                "nama": "Kakak Arya Muda Siregar",
+                "nama": "Arya Muda Siregar",
                 "nim": "123450063",
                 "umur": "21",
                 "asal":"Bandar Lampung",
@@ -1274,7 +1274,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 20
             },
             {
-                "nama": "Kakak Arini Puteri Elandra",
+                "nama": "Arini Puteri Elandra",
                 "nim": "123450069",
                 "umur": "20 ",
                 "asal":"Lampung",
@@ -1285,7 +1285,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 21
             },
             {
-                "nama": "Kakak Syahrialdi Rachim Akbar",
+                "nama": "Syahrialdi Rachim Akbar",
                 "nim": "123450093",
                 "umur": "20",
                 "asal":"lampung",
@@ -1296,7 +1296,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 22
             },
             {
-                "nama": "Kakak Lutfia Aisyah Putri",
+                "nama": "Lutfia Aisyah Putri",
                 "nim": "123450074",
                 "umur": "17",
                 "asal":"Swiss",
@@ -1307,7 +1307,7 @@ if menu == "Departemen Eksternal":
                 "pesan":"Tetap semangat dan sehat selalu kak "# 23
             },
             {
-                "nama": "Kakak Nabyla Sharfina",
+                "nama": "Nabyla Sharfina",
                 "nim": "123450008",
                 "umur": "19",
                 "asal":"Bengkulu",
@@ -1881,6 +1881,7 @@ elif menu == "Departemen Medkraf":
     
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
