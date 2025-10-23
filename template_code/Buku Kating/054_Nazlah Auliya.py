@@ -423,9 +423,10 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1LAbU_Rwynbp_SSvPw46S2YTKo2ufV_r7",
             "https://drive.google.com/uc?export=view&id=1NYE_ps40EfbUVbvJVDvTWVFWbedp-RxD",
             "https://drive.google.com/uc?export=view&id=1jEkYVUywaz6FEU-3ID2rPvxOl0l5s-Yq",
-            "https://drive.google.com/uc?export=view&id=1zl7hTlblxRoRtXFUbYBtH_Ho8QVBzmrS",
-            "https://drive.google.com/uc?export=view&id=1LUPT5KBiZjhajSMCwEhna3Q5wyRuYK2u",
             "https://drive.google.com/uc?export=view&id=1acjzZgLgvxGUWjd58Ch0XfeUIVL6rTP_",
+            "https://drive.google.com/uc?export=view&id=1zl7hTlblxRoRtXFUbYBtH_Ho8QVBzmrS",
+            "https://drive.google.com/uc?export=view&id=1UmpRy8VXxZbv_GMuQWzXp48SOMPz_dP-",
+            "https://drive.google.com/uc?export=view&id=1LUPT5KBiZjhajSMCwEhna3Q5wyRuYK2u",
             "https://drive.google.com/uc?export=view&id=1QHSbc_MCvShrEI3JQP-TPubhKy2HRTEh",
             "https://drive.google.com/uc?export=view&id=1uMHUujTc-vmXq0w0dZzsvhUtS-Zooisa",
             "https://drive.google.com/uc?export=view&id=1hvfKW_TAr8lzUUBYp7iari570Qf3Hb2u",
@@ -444,6 +445,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1qtfy2cPVahlEnTeCBsNDKqepuvoImI6h",
             "https://drive.google.com/uc?export=view&id=1UlCtTEb829AEaDwAHyyzvZCgelpl0Q34",
         ]
+        ]
         data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",
@@ -453,8 +455,8 @@ if menu == "Departemen PSDA":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@ferdy_kevin",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "keren banget bang, humble banget",
+                "pesan": "jangan lupa istirahat ya bang"
             },
             {
                 "nama": "Nisrina Nur Afifah",
@@ -464,8 +466,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Korpsu",
                 "hobbi": "Nangis dan Ketawa",
                 "sosmed": "@afifahhnsrn",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "kakanya baik banget, ramah sekali, wangi banget kakk",
+                "pesan": "semangat kak, jangan lupa jaga kesehatan"
             },
             {
                 "nama": "Allya Nurul Islami Pasha",
@@ -475,8 +477,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main",
                 "sosmed": "@allyapasha_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "wanginya khas banget kak, ramah sekali",
+                "pesan": "tetap jadi sosok yang inspiratif dan menyenangkan ya kak"
             },
             {
                 "nama": "Ahmad Rizky",
@@ -486,8 +488,8 @@ if menu == "Departemen PSDA":
                 "alamat": "GH",
                 "hobbi": "Ngekader",
                 "sosmed": "@ahmad.rizky__",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "keren banget, pinter banget, respect full pokoknya",
+                "pesan": "semoga dapat jalan terbaik buat masa depan yang diimpikan"
             },
             {
                 "nama": "Arienta Khusnul Ananda",
@@ -497,8 +499,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Cari Kesibukan",
                 "sosmed": "@arientakhsnl_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "sangat menginspirasi sekali kak, walaupun jarang senyum tapi senyumnya manis banget",
+                "pesan": "terus jadi pribadi yang menginspirasi kak, jangan lupa makan kak"
             },
             {
                 "nama": "Daffa Hadyan Navista",
@@ -508,8 +510,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Jailin Miyor",
                 "sosmed": "@daffahdynn_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "tiap disapa selalu senyum,abangnya keren bangett",
+                "pesan": "kurangin begadangnya bang, selalu jaga kesehatan"
             },
             {
                 "nama": "Ginda Fajar Riadi Marpaung",
