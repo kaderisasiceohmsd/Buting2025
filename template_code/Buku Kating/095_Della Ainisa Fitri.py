@@ -44,7 +44,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "#3FBAD8"},
+            "nav-link-selected": {"background-color": "#FF6F00"},
         },
     )
     return selected
@@ -99,7 +99,7 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1CGxOjcK_MofRLOIZzrkIddq3wAOK6lKd",
+            "https://drive.google.com/uc?export=view&id=1KZqmS5_iqDR-jXxT1QgkJfi6-f-tIRii",
             "https://drive.google.com/uc?export=view&id=1jh-2ujhRnN1NdFH_7MySYe_xBBGF58bR",
             "https://drive.google.com/uc?export=view&id=1OJfX7tQuFeTIzHpjST1srJ_gIg7iyAMn",
             "https://drive.google.com/uc?export=view&id=1pCBjX-o90YLmGhTdxexp7_unIqf_zMAC",
@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Beli donat kentang",
                 "sosmed": "@erendraa",
-                "kesan": "walaupun sangar tapi baik hati ",  
-                "pesan":"Kakak sudah jadi panutan yang luar biasa buat kami."# 1
+                "kesan": "keliatan sangar tapi aslinya baik ",  
+                "pesan":"tetap berusaha jadi yang terbaik dari versi diri abang"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Baca buku dasar-dasar",
                 "sosmed": "@johannneskrijnnn",
-                "kesan": "Teladan, bijak, dan menyenangkan",  
-                "pesan":"Terima kasih atas bimbingan dan dukungannya selama ini."# 1
+                "kesan": "keren,keliatanya galak tapi ngga kok dan suka membantu",  
+                "pesan":"tetap jadilah orang baik dan menebarkan kebaikan !!!"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Airest Kost",
                 "hobbi": "Siram shopee",
                 "sosmed": "@celisabeth_",
-                "kesan": "Penuh semangat dan perhatian",  
-                "pesan":"Semangat dan kebaikan kakak sangat menginspirasi."# 1
+                "kesan": "seru abis dan lucu kalo ngomong",  
+                "pesan":"tetap jadi pribadi yang ceria "# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Sosok inspiratif dan rendah hati",  
-                "pesan":"ukses terus untuk langkah ke depannya."# 1
+                "kesan": "kalem dan tutur katanya lembut",  
+                "pesan":"selalu tebarkan aura positifmu kakk  !!!"# 1
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Rajabasa",
                 "hobbi": "Baca buku, suka pramuka",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Selalu ramah dan bantu adik",  
-                "pesan":"Jangan lupa kami adik-adikmu ya!"# 1
+                "kesan": "asik dan lucu orangnya seru ",  
+                "pesan":"selalu tebarkan senyuman manismu kakk"# 1
             },
             {
                 "nama": "Farhanum Afifah Ardiansyah",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur",
                 "sosmed": "@farahanumafifah",
-                "kesan": "Kakak terbaik sepanjang masa",  
-                "pesan":"Semoga semua cita-cita kakak tercapai."# 1
+                "kesan": "super positive vibes ",  
+                "pesan":"melangkah maju dan semoga mimpimu tercapai"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
