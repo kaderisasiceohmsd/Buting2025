@@ -742,15 +742,15 @@ if menu == "Departemen PSDA":
                 "pesan":"Tetap semangat bang!"# 1
             },
             {
-                "nama": "-",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
-                "sosmed": "@-",
-                "kesan": "-",  
-                "pesan":"T-"# 1
+                "nama": "Rewina Audiya Melvasari",
+                "nim": "123450049",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Jl. Ratu dibalau",
+                "hobbi": " Gambar doodle art",
+                "sosmed": "@rewinanaaa",
+                "kesan": "Kakaknya pendiam, baik",
+                "pesan" : "Semangat Terus Kuliahnya Kak & Sehat Selalu Kak!"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
