@@ -4,6 +4,31 @@ import requests
 from PIL import Image, ImageOps
 from io import BytesIO
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: linear-gradient(180deg, #B5C7F7 0%, #D2B7F3 100%);
+        background-attachment: fixed;
+    }
+
+    h1, p {
+        color: #1B1B1B;
+    }
+
+    h1 {
+        text-shadow: 1px 2px 4px rgba(0,0,0,0.15);
+        animation: fadeIn 1.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # JANGAN DIUBAH
 @st.cache_data
