@@ -181,7 +181,7 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=1mXaJBAexbd0vX-q5K0YerH8t3SBYn6Sc/view?usp=sharing",
             "https://drive.google.com/uc?export=view&id=",
             "https://drive.google.com/uc?export=view&id=",
             "https://drive.google.com/uc?export=view&id=",
@@ -205,8 +205,8 @@ if menu == "Baleg":
                 "alamat": "Lapas , Belwis",
                 "hobbi": "Melarikan Diri",
                 "sosmed": "@jeremia_s_ ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Ganteng, kece, keren dan kabaleg lagiii...",  
+                "pesan": "Sukses terus, semoga ketemu lagi di waktu yang lebih santai."# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -216,8 +216,8 @@ if menu == "Baleg":
                 "alamat": "Metro",
                 "hobbi": "Bertutur kata baik dan sopan",
                 "sosmed": "@_.dheamelia ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak baik, cantik dan murah senyum",  
+                "pesan": "Semangat lagi, karena aku cuma bisa ngasih semangat."# 1
             },
               {
                 "nama": "Renisha Putri Giani",
@@ -227,8 +227,8 @@ if menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "Jualan Pancing",
                 "sosmed": "@renishapg",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak keren dan tangguh jadi pengurus.",  
+                "pesan": "Sukses terus dan jangan lupa istirahat!"# 1
             },
               {
                 "nama": "Anisa Fitriyani",
@@ -238,8 +238,8 @@ if menu == "Baleg":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Mencari kesibukan",
                 "sosmed": "@ansftynn_",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak inspiratif dan selalu bisa diandalkan",  
+                "pesan": "Semoga terus semangat di jalan organisasi!"# 1
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
@@ -249,8 +249,8 @@ if menu == "Baleg":
                 "alamat": "Way Halim",
                 "hobbi": "Nonton AGZ",
                 "sosmed": "@dhruchyo",
-                "kesan": " ",  
-                "pesan":"  "# 1
+                "kesan": "Kakak rajin dan penuh dedikasi.",  
+                "pesan": "Teruslah menginspirasi generasi selanjutnya!"# 1
             },
              {
                 "nama": "Feby Wulandari",
@@ -260,8 +260,8 @@ if menu == "Baleg":
                 "alamat": "Way Huwi",
                 "hobbi": "Nguleg Cabai",
                 "sosmed": "@fby.wlndr",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak seru tapi tetap profesional.",  
+                "pesan": "Semoga sukses terus di dunia organisasi dan karier!"# 1
             },
               {
                 "nama": "Givaro Ananta",
@@ -271,8 +271,8 @@ if menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Nemenin ridho main pedel",
                 "sosmed": "@givarooo",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak asik banget diajak diskusi.",  
+                "pesan": "Semoga terus jadi pemimpin hebat di mana pun berada!"# 1
             },
               {
                 "nama": "Mirzan Yusuf Rabbani",
@@ -282,8 +282,8 @@ if menu == "Baleg":
                 "alamat": "Korpri",
                 "hobbi": "Istirahat",
                 "sosmed": "@myrrinn",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak tenang tapi selalu bisa ngatur keadaan.",  
+                "pesan": "Sukses selalu dan jangan lupa senyum!"# 1
             },
               {
                 "nama": "Berliana Enda Putri",
@@ -293,8 +293,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Ngukir Sabun",
                 "sosmed": "@berlyyanda",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak selalu totalitas di setiap kegiatan.",  
+                "pesan": "Semoga energi hebatnya nggak pernah padam!"# 1
             },
               {
                 "nama": "Juesi Apridelia Saragih",
@@ -304,8 +304,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Mendengarkan wave to earth",
                 "sosmed": "@j__eesie",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak lucu tapi tetap tanggung jawab.",  
+                "pesan": "Semoga makin bersinar di masa depan"# 1
             },
               {
                 "nama": "Ridho Benedictus Togi Manik",
@@ -315,8 +315,8 @@ if menu == "Baleg":
                 "alamat": "GH",
                 "hobbi": "Main Pedel",
                 "sosmed": "@iamridhomanik ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Abang selalu sigap dan tanggung jawab.",  
+                "pesan": "Semoga semangat organisasinya nggak pernah luntur!"# 1
             },
               {
                 "nama": "Feryadi Yulius",
@@ -326,8 +326,8 @@ if menu == "Baleg":
                 "alamat": "Kobang",
                 "hobbi": "Ngeliatin warna baju orang",
                 "sosmed": "@fer_yulius",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak ramah dan nggak pernah jaim.",  
+                "pesan": "Semoga terus bisa menyeimbangkan kerja dan senyum!"# 1
             },
               {
                 "nama": "Monica Patricia Tanjung",
@@ -337,8 +337,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Makan gula merah",
                 "sosmed": "@monica_tjg ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak inspiratif banget buat kami yang baru belajar organisasi.",  
+                "pesan": "Terus kembangkan kreativitasnya, kak!"# 1
             },
               {
                 "nama": "Wan Nashwa Alhasni Yuska",
@@ -348,8 +348,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyapa Angin",
                 "sosmed": "@nshaysk ",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak keren dan punya tanggung jawab besar.",  
+                "pesan": "Semoga karier dan organisasinya makin gemilang!"# 1
             },
             
         ]
@@ -1876,5 +1876,6 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
