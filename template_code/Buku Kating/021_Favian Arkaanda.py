@@ -454,8 +454,8 @@ if menu == "Departemen PSDA":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@ferdy_kevin",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "vibesnys cowo cool, tapi tetep keliatan humble orangnya",
+                "pesan": "Semangat terus ya banggg, jangan lupa istirahat yaa!!!"
             },
             {
                 "nama": "Nisrina Nur Afifah",
@@ -465,8 +465,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Korpsu",
                 "hobbi": "Nangis dan Ketawa",
                 "sosmed": "@afifahhnsrn",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "kakaknya baikk banget, ramah jugaaa, humble pula, orangnya juga keliatan cinta kebersihan yaa",
+                "pesan": "sehat selalu ya kakkk,semoga selalu diberikan kelancarannn!!!"
             },
             {
                 "nama": "Allya Nurul Islami Pasha",
@@ -476,8 +476,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main",
                 "sosmed": "@allyapasha_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "kakak orangnya baikkk bangett, humble juga. dari cara ngomongnya keliatan pinter banget, seneng banget bisa diskusi bareng kakak",
+                "pesan": "semangat terus ya kakakkk, semoga hidupnya selalu diberikan kelancarannn!!!, makasii kakk"
             },
             {
                 "nama": "Ahmad Rizky",
@@ -487,8 +487,8 @@ if menu == "Departemen PSDA":
                 "alamat": "GH",
                 "hobbi": "Ngekader",
                 "sosmed": "@ahmad.rizky__",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "orang pinter, kritis, keren, punya pemikiran yang terbuka, sangat amat asik diajak diskusi. bener bener menginspirasi bangett, panutan dah pokoknya",
+                "pesan": "semoga bisa terus menginspirasi banyak orang, semoga ilmunya bisa bermanfaat bagi banyak orang sebagaimana bang ahmad pernah bilang bahwa esensi hidup abang adalah bisa bermanfaat dan bisa berbuat kebaikan kepada banyak orang"
             },
             {
                 "nama": "Arienta Khusnul Ananda",
@@ -498,8 +498,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Cari Kesibukan",
                 "sosmed": "@arientakhsnl_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "orangnya baik bngett, humble juga, walaupun kadang agak galak keliatannya hehe",
+                "pesan": "sehat selalu ya kakkk, semoga sukses selalu dalam menjalani hidup!!!"
             },
             {
                 "nama": "Daffa Hadyan Navista",
@@ -509,8 +509,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Jailin Miyor",
                 "sosmed": "@daffahdynn_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "orangnya lucu banget bang dapa, humble jugaa, tiap di sapa selalu tersenyum lebar, tapi orangnya suka ngesarkas hehe",
+                "pesan": "semangat terus bang dapaaa, semoga sukses selalu dalam menjalani hidup!!!"
             },
             {
                 "nama": "Ginda Fajar Riadi Marpaung",
@@ -520,8 +520,8 @@ if menu == "Departemen PSDA":
                 "alamat": "GH",
                 "hobbi": "Banyak",
                 "sosmed": "@ginda_mrp",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "orangnya perhatian bangett, baik juga, best dah pokoknyaa",
+                "pesan": "semangat terus bang fajar, tetap jadi orang baik yaa!!!"
             },
             {
                 "nama": "Natasya Amavisca",
@@ -531,7 +531,7 @@ if menu == "Departemen PSDA":
                 "alamat": "Panjang",
                 "hobbi": "Belajar",
                 "sosmed": "@natasyaamavisca",
-                "kesan": "-",
+                "kesan": "kak natasya orangnya lucuuu bangett, dari vibesnya keliatan banget orang baik, humble pula",
                 "pesan": "-"
             },
             {
@@ -542,8 +542,8 @@ if menu == "Departemen PSDA":
                 "alamat": "GH",
                 "hobbi": "Main PS",
                 "sosmed": "@nobelnizam",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "orang keren, jago ngoding juga, cara ngomongnya asik bangett, ga pernah bosen tiap dengerin bang nobel cerita",
+                "pesan": "semangat terus ya bang nobel, kapan kapan boleh ajarin aku ngoding biar jago kek abang"
             },
             {
                 "nama": "Nurul Alfajar Gumel",
@@ -553,8 +553,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Si8gma Fam",
                 "hobbi": "Mancing Keributan",
                 "sosmed": "@ji_gumel17",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "bang aji vibesnya orang baik, sering banget ngingetin buat solat, humble juga orangnya",
+                "pesan": "semangat terus bang aji, tetaplah menginspirasi banyak orang!!!"
             },
             {
                 "nama": "Vany Salsabila Putri",
@@ -564,8 +564,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Kosan Elite Airan",
                 "hobbi": "Jalan-jalan Cari Cowok",
                 "sosmed": "@vany.salsabilaa",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "kak vany orangnya baikk, vibesnya juga selalu positif, luamyan perhatian juga tiap rangkaian",
+                "pesan": "sehat selalu yaaa kak vanny, semangat terus orang baikkk!!!"
             },
             {
                 "nama": "Ahmad Sahidin Akbar",
