@@ -741,28 +741,28 @@ if menu == "Departemen PSDA":
 if menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=13eL36G5jco-I-H5dMPjKdB98WYpCCz4D",
-            "https://drive.google.com/uc?export=view&id=11StX3BJrUD3mQCd1LtKD1aUKLfOJ34Ml",
-            "https://drive.google.com/uc?export=view&id=10JSjYnVfJ0G46TINOuhS1vrB4t3rvwnC",
-            "https://drive.google.com/uc?export=view&id=12DyDQ7NA5YWdPG2T_E4aaFthS9ZO7g3D",
-            "https://drive.google.com/uc?export=view&id=1VA8Gzlh6xn1C__j3enzQixkPNdJlhxAC",
-            "https://drive.google.com/uc?export=view&id=1YRvP2T-b9jI4c0HyW8WM5t_gax0myi5i",
-            "https://drive.google.com/uc?export=view&id=1QHfcGiGKtbDI7mz4jUrUWlq95pwYDzUR",
-            "https://drive.google.com/uc?export=view&id=14LzEl31MTWeANg0vi9E755RiTramQ0Lh",
-            "https://drive.google.com/uc?export=view&id=1WIKTTX91CGrEAwJek-p1U1difRNUzOwR",
-            "https://drive.google.com/uc?export=view&id=1YeRpQYNWktJn4vE03FuEGy3pdZfNJQSP",
-            "https://drive.google.com/uc?export=view&id=1fg6vJu3MVJMu6hYyRmrN1d3cRAJuX6kQ",
-            "https://drive.google.com/uc?export=view&id=1qDVga0uuYAJiqhk7wPzQ0njz58ht3slX",
-            "https://drive.google.com/uc?export=view&id=1cPMbWXN4M2VD5P6LwV6V54O22Ulk2eEG",
-            "https://drive.google.com/uc?export=view&id=1xLp05TPCbQRAmdWmFuvJvwN_4I9FECE1",
-            "https://drive.google.com/uc?export=view&id=1GqV5JB1mwRPyy-lh3Y4xUu4E8CsLiUn8",
-            "https://drive.google.com/uc?export=view&id=1cQOIFD48IP52gTA-drLgbR56vxm993eV",
-            "https://drive.google.com/uc?export=view&id=1DWckI75tB4-KbD0w1OIF_UmRwaxDYOfz",
-            "https://drive.google.com/uc?export=view&id=1zbhHKnYTFR1XN3MOPm7_k7XP6UvVeikT",
-            "https://drive.google.com/uc?export=view&id=1XD8eBHYyQmKhjfD_zMzRslLXCADyrbRr",
-            "https://drive.google.com/uc?export=view&id=1SS0JvTRq3J0mwn-d6HYxsJmuwmnO9DmK",
-            "https://drive.google.com/uc?export=view&id=1ALiStFW-lBRDLXJhL3LOEMB6xD0MWbfD",
-            "https://drive.google.com/uc?export=view&id=1rbs-i-uTKBzQkLWB3zlySVSfJeygp_ZA",
+            "https://drive.google.com/uc?export=view&id=1l-GveFmGKXRwoQdFrt9ZpVYxUONguNoe",
+            "https://drive.google.com/uc?export=view&id=1lU0yQxTF_OoXYe87pFYMphfMz8t-LymW",
+            "https://drive.google.com/uc?export=view&id=1ttaWBZYIrtyUVhVqes2tTXfjAheJUwGH",
+            "https://drive.google.com/uc?export=view&id=1OWNJIR0itoTYFxDdZaBetf6JsVBM7_Vh",
+            "https://drive.google.com/uc?export=view&id=1aXGpqKiRoHsNBHBH53HhISjCUhTZicJg",
+            "https://drive.google.com/uc?export=view&id=1pJU-h5vPTYFkf1-gqzu0TEjh_DoYsFPA",
+            "https://drive.google.com/uc?export=view&id=1G7DjhjoVF9XFNK-5U5panUov5txEYCqu",
+            "https://drive.google.com/uc?export=view&id=1vWae3Xik08zE3VvmyAqTrmmmhjQ_BbCC",
+            "https://drive.google.com/uc?export=view&id=1d0ntcda_H0lzGimQkxBnA3Xz3oOKhtgD",
+            "https://drive.google.com/uc?export=view&id=1M6xwgf4qx_1p1RRNpyrlFqkshMqXr_1J",
+            "https://drive.google.com/uc?export=view&id=1L2XnwrFYBqqfv_Ye6JJQpXSuzqQm3pQW",
+            "https://drive.google.com/uc?export=view&id=1QoYyETg2wmsFIX8bTPMmG5G-wH-gIMM7",
+            "https://drive.google.com/uc?export=view&id=1rSe1qdfdFc_yycsP-qg814uvJguBrGDL",
+            "https://drive.google.com/uc?export=view&id=1LP5u035p49h7hoy26BUk8sIDMOUKy3KO",
+            "https://drive.google.com/uc?export=view&id=1QNO7DyB-bYHVVCw4Yr1FRz2JHPxbCgta",
+            "https://drive.google.com/uc?export=view&id=1Jb6z1kyeAbdV__C_3SK55oC16ugq731y",
+            "https://drive.google.com/uc?export=view&id=182828DVYJOlSq_WzFPedqA6OjcCCTy-0",
+            "https://drive.google.com/uc?export=view&id=1XvkDe3FgcG89sNkfpcPcAqLq0efZsPbS",
+            "https://drive.google.com/uc?export=view&id=1uOxeyMgknjAkH10mOv5OOJHXLvTVNhII",
+            "https://drive.google.com/uc?export=view&id=1whCsn43Xdd6jxQoVcPX_nWYvFOGq1isg",
+            "https://drive.google.com/uc?export=view&id=tx4BAi9x7dIer0S1Ue0D8XpYKDfe-x4x",
+            "https://drive.google.com/uc?export=view&id=1cRPSK77IzICtWw1-TQKN33DWFqaPVBQT",
         ]
         data_list = [
             {
@@ -786,6 +786,17 @@ if menu == "Departemen MIKFES":
                 "sosmed": "@Junitaa.0406",
                 "kesan": "Senang bisa kenal dengan kakak, orangnya ramah.",
                 "pesan":"Sukses selalu untuk kakak ke depannya!"
+            }, 
+            {
+                "nama": "Muhammad Regi Abdi Putra Amanta",
+                "nim": "122450031",
+                "umur": "19",
+                "asal":"Palembang",
+                "alamat": "Sukarame",
+                "hobbi": "dengerin musik",
+                "sosmed": "@mregiiii_",
+                "kesan": "Kakak sangat baik dan sabar dalam membimbing.",
+                "pesan":"Jangan lupa jaga kesehatan di tengah kesibukannya ya, Kak."
             },
             {
                 "nama": "Marleta Cornelia Leander",
@@ -797,6 +808,17 @@ if menu == "Departemen MIKFES":
                 "sosmed": "@marletacornelia",
                 "kesan": "Kakak sangat baik dan sabar dalam membimbing.",
                 "pesan":"Jangan lupa jaga kesehatan di tengah kesibukannya ya, Kak."
+            },
+             {
+                "nama": "Eggi Satria",
+                "nim": "122450032",
+                "umur": "21",
+                "asal":"Sukarame",
+                "alamat": "Sukabumi",
+                "hobbi": "Tidur",
+                "sosmed": "@_egistr",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"
             },
             {
                 "nama": "Akeyla Fairuz Shafi",
@@ -841,17 +863,6 @@ if menu == "Departemen MIKFES":
                 "sosmed": "@eeffiidefi",
                 "kesan": "Senang bisa kenal dengan kakak, orangnya ramah.",
                 "pesan":"Sukses selalu untuk kakak ke depannya!"
-            },
-            {
-                "nama": "Muhammad Regi Abdi Putra Amanta",
-                "nim": "122450031",
-                "umur": "19",
-                "asal":"Palembang",
-                "alamat": "Sukarame",
-                "hobbi": "dengerin musik",
-                "sosmed": "@mregiiii_",
-                "kesan": "Kakak sangat baik dan sabar dalam membimbing.",
-                "pesan":"Jangan lupa jaga kesehatan di tengah kesibukannya ya, Kak."
             },
             {
                 "nama": "Fadil Prasetyo Alfarizzi",
@@ -993,17 +1004,6 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur",
                 "sosmed": "@_fairuzary",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
-            },
-            {
-                "nama": "Eggi Satria",
-                "nim": "122450032",
-                "umur": "21",
-                "asal":"Sukarame",
-                "alamat": "Sukabumi",
-                "hobbi": "Tidur",
-                "sosmed": "@_egistr",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
