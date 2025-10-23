@@ -736,28 +736,31 @@ elif menu == "Departemen PSDA":
 elif menu == "Departemen MIKFES":
     def MIKFES():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1jAVdlfmm12DIFckvs4PokQkecWAw9qSp", #bang randa
-            "https://drive.google.com/uc?export=view&id=1RAHwvpecJJspPZjgn4msSXv1_T47EU8e", #kak rut
-            "https://drive.google.com/uc?export=view&id=18Td4iK394lvYXbbo-WK6n6cksYImJrdF", #bang regi
-            "https://drive.google.com/uc?export=view&id=1syspzcHOhE8Ww678RFbSc76TVz1FZz0Z", #kak aisyah
-            "https://drive.google.com/uc?export=view&id=1YmjEM--EKbR2KnX7q3b5m7nB7TNE0qbl", #bang fadil
-            "https://drive.google.com/uc?export=view&id=17GYo5epfFmzKkEJ2DRcePvvM2Cr8Yi2g", #kak aqil
-            "https://drive.google.com/uc?export=view&id=1YrEOIZPDBQ8PDM8A3Gf_Q-2PEej2Ytrp", #bang naufal
-            "https://drive.google.com/uc?export=view&id=1JfX9ll-no69RUf8Biw66R14jqg7piQG6", #bang nadia
-            "https://drive.google.com/uc?export=view&id=1BeB_N11GIjW7J1Yvi4yFy0QqhMnDIxHC", #kak marleta
-            "https://drive.google.com/uc?export=view&id=1tG9aqFxCH0s0d7m4UNsCNN295R30Zf-w", #kak keya
-            "https://drive.google.com/uc?export=view&id=1voLDkdBfm5yM9kFK6WE2dx_xg9eSdZ9m", #bang anggi
-            "https://drive.google.com/uc?export=view&id=11Jln63Y8oM60PdsqVZ8GyLNaBCWr7UyI", #kak efi
-            "https://drive.google.com/uc?export=view&id=1KbtEvusWJDqZVFNyFCwGVixpZI2a07G-", #kak fabiola
-            "https://drive.google.com/uc?export=view&id=1VeDxo-1ET3dWUZwoLi1wOmvoBhWMx39G", #kak fairuz
-            "https://drive.google.com/uc?export=view&id=1vL73e11IGP6EzyE8gWqKpFlr0Xq3NgEW", #kak Tanty
-            "https://drive.google.com/uc?export=view&id=16U0GBErS6m0KxgZ3lB7R5d08y_4fO03a", #kak eggi
-            "https://drive.google.com/uc?export=view&id=1Z0YiiX5WsasuGoTvoxpIqDWVlqPeAC1Q", #bang afifah
-            "https://drive.google.com/uc?export=view&id=1diIA_arm1_09eYjP93dsfbMZBaJ_iS8V", #kak fabio
-            "https://drive.google.com/uc?export=view&id=1rKPM6Mze4OiYXnX0T8XpesfxLZivD-zw", #bang gio
-            "https://drive.google.com/uc?export=view&id=1V0VCBXz4eBtaIxxea8dAem_c-garoVgT", #kak rahma oktavia
-            "https://drive.google.com/uc?export=view&id=1IvnPq4QpQIsR2ZGnoDr5OeuT7Of9VD0W", #kak rahma gustriana
-            "https://drive.google.com/uc?export=view&id=1SS5wU-ZM4apUbwBthJn0-ZpW4C--_mcQ", #razin
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang frdy
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak nisrina
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak allya
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang ahmad rizky
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak arienta
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang daffa hadyan
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang fajar
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak natasya
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang nobel
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang aji
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak vany
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang sahidin
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang aristo
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang gusti
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak kharisma
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak rosalia
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang sahid
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang daffa ahmad
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak erma
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang ihsan
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang kevin
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak lidia
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang ridwan
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang ulliano
+           
         ]
         data_list = [
             {
