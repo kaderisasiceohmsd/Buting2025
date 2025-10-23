@@ -1311,21 +1311,21 @@ if menu == "Departemen Eksternal":
 if menu == "Departemen Internal":
     def internal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1YKxIP6HYJUfI4Y1AfSqV9x8-5lCnMadD",
-            "https://drive.google.com/uc?export=view&id=1Mg66Jvio_q7fLpKqL5pKx_y5gru2JMd8",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=10QF2odGRIcE4nTjzj8bLz8a5w0hkBGQL",
-            "https://drive.google.com/uc?export=view&id=1imq3BR-YWiX3VZT_xtPf2XNfF1njFPxH",
-            "https://drive.google.com/uc?export=view&id=1dBrEU9DMKGVj8xVRft3Y8I9GOQpEChtc",
-            "https://drive.google.com/uc?export=view&id=1eT7TKE4IhW5mTn7bxQoyqbp0mdmKiAnG",
-            "https://drive.google.com/uc?export=view&id=198Xlz_2vMEI8jVnYAmUzkevUI1Nb7dv2",
-            "https://drive.google.com/uc?export=view&id=1ZLMNFtOt_QTtxvNTlyqRbdLDag2ThmKS",
-            "https://drive.google.com/uc?export=view&id=1YdCI4Vik8Qulb65LCPXfj9X1te27KcqA",
-            "https://drive.google.com/uc?export=view&id=1rOkobwIEKjEoaMHA5YAjpKw1cQJ7vk6B",
-            "https://drive.google.com/uc?export=view&id=1OWLN8qj3TU5-GsEvRMzUhcitI6kSFG1O",
-            "https://drive.google.com/uc?export=view&id=1kaYwlILOkrW-WU_03yZsCKFUno2ckNNo",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1hObBf1_jq7E6oyIkVBg2x0ukHrNr8h7H",
+            "https://drive.google.com/uc?export=view&id=1q-4RZE-n8GkqKEFkMy4R-mjFve-8RVT5",
+            "https://drive.google.com/uc?export=view&id=1O8F34RJXMgRp7hpZdRF_eNBhaBvTb6i_",
+            "https://drive.google.com/uc?export=view&id=1XH2asmitL6HVW5ZIIwDIm4dZ5hqkg7hB",
+            "https://drive.google.com/uc?export=view&id=1O9C62Nbcf6cujeylnPaPwc0OVoy7clRn",
+            "https://drive.google.com/uc?export=view&id=1vDWjtXfXPUCAkwmcXy0Rg6i5gGxoAsCI",
+            "https://drive.google.com/uc?export=view&id=1w-DxdB1rqvIkpLawdYT7vTTlnhAhQWFu",
+            "https://drive.google.com/uc?export=view&id=1cXiRwG2ZkdAEQAkP6rAJIeJVaJs0S4HI",
+            "https://drive.google.com/uc?export=view&id=1pLMo13WjZ5yUs3ro10NV0-Kfqww-M3WN",
+            "https://drive.google.com/uc?export=view&id=1zxbS2P8YvSDtQnSvB6rjhL8GyNLqOs0k",
+            "https://drive.google.com/uc?export=view&id=1RNSMUKR0EodwVBj5Dw6v-CUJAAJY-u5P",
+            "https://drive.google.com/uc?export=view&id=1UxXbvH3pO0p4_ir6W2SbecNZr1u8pWef",
+            "https://drive.google.com/uc?export=view&id=1kTCcm54Ychb8D4ItzjzKrcxICBh0n9ID",
+            "https://drive.google.com/uc?export=view&id=1wIZ4hxzI7B6JnHLIXKrTugcPrXe07XiB",
+            "https://drive.google.com/uc?export=view&id=1wIZ4hxzI7B6JnHLIXKrTugcPrXe07XiB",
         ]
         data_list = [
             {
@@ -1362,7 +1362,7 @@ if menu == "Departemen Internal":
                 "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal kita, Kak!"
             },
             {
-                "nama": "Rendi Alexander Hutagalu",
+                "nama": "Rendi Alexander Hutagalung",
                 "nim": "122450057",
                 "umur": "21",
                 "asal":"Tangerang",
@@ -1472,9 +1472,9 @@ if menu == "Departemen Internal":
                 "pesan":"Semoga kakak selalu bisa menjadi perekat bagi kami semua. Semangat terus!"
             },
             {
-                "nama": "-",
-                "nim": "122450030",
-                "umur": "21",
+                "nama": "Muhammad Naufal Alghani",
+                "nim": "",
+                "umur": "",
                 "asal":"Surabaya",
                 "alamat": "Rajabasa",
                 "hobbi": "Mengaji",
@@ -1483,9 +1483,9 @@ if menu == "Departemen Internal":
                 "pesan":"Teruslah jaga kehangatan dan kekeluargaan di himpunan kita, Kak."
             },
             {
-                "nama": "-",
-                "nim": "122450070",
-                "umur": "22",
+                "nama": "Zahra Putri Salsabilla",
+                "nim": "",
+                "umur": "",
                 "asal":"Sumatera Utara",
                 "alamat": "Gerbang Barat",
                 "hobbi": "Memancing",
@@ -1641,14 +1641,14 @@ if menu == "Departemen SSD":
 if menu == "Departemen Medkraf":
     def medkraf():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1_0Pxisc6fVvCkj0ktwrYurk6ECCJYSmQ",
-            "https://drive.google.com/uc?export=view&id=1WGUHHq0648gE6sBt9Hi6SWO_2ldp0kUj",
-            "https://drive.google.com/uc?export=view&id=1oI57iCL_d0uUE0tmydKpTMUQDT9f63N2",
-            "https://drive.google.com/uc?export=view&id=1fzY0zXaP2ZmFHz5NZL5IDmMn14hOLTzm",
-            "https://drive.google.com/uc?export=view&id=1V5dO9wOCwrqrh3xF-wZcJCpzYw5FSknY",
+            "https://drive.google.com/uc?export=view&id=1dEf0KjrWBahyx8Bt_LWrkH_IOx6oTeKD",
+            "https://drive.google.com/uc?export=view&id=1-7ZWO-5iJfHU7TNwXpUHSLkjcssCI5RI",
+            "https://drive.google.com/uc?export=view&id=1ctH0JXSoBtTz3qIEVm0zrK67GbehB-1u",
+            "https://drive.google.com/uc?export=view&id=1TXWE0ZyTH9kWxDIOaPaAGI687PAstH4C",
+            "https://drive.google.com/uc?export=view&id=1D0OrPBlPHOHJuyXnO2r_AptW-SEUUVBZ",
             "https://drive.google.com/uc?export=view&id=12VRV3zqmYAVxjduwq5xHNjGLCq4EIlmP",
-            "https://drive.google.com/uc?export=view&id=1vQQGPNGGr0dZYrwabYq4KrK8CvTxHp5w",
-            "https://drive.google.com/uc?export=view&id=1z-xgFbsxx0IF893y_12LK3dzH5D4ed4p",
+            "https://drive.google.com/uc?export=view&id=1-vvwL89iYf7Sjc1h4G7Wze2tLuSrS3T4",
+            "https://drive.google.com/uc?export=view&id=1wAMg0Vk7j2J0g_0bzC93ceTSuegyc5Hd",
             "https://drive.google.com/uc?export=view&id=1byVFlNbIep0Nql9YtxIajrwFDfO-U1Y3",
             "https://drive.google.com/uc?export=view&id=1LS6g7S-8s3tHCIc4a9jBMqngfoQ3EsA_",
             "https://drive.google.com/uc?export=view&id=1eIDRnfGAYSr65WmQCaoXNSjcbqJFIBT5",
@@ -1684,6 +1684,17 @@ if menu == "Departemen Medkraf":
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
             {
+                "nama": "Khoirul Anam",
+                "nim": "122450039",
+                "umur": "22",
+                "asal":"Pesawaran",
+                "alamat": "Pesawaran",
+                "hobbi": "Billiard dan volly",
+                "sosmed": "@mananam_",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"
+            },
+            {
                 "nama": "Try Yani Rizki Nur Rohmah",
                 "nim": "122450020",
                 "umur": "20",
@@ -1691,6 +1702,17 @@ if menu == "Departemen Medkraf":
                 "alamat": "Korpri",
                 "hobbi": "Belajar",
                 "sosmed": "@tryyaniciaaa",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"
+            },
+                        {
+                "nama": "Akmal Faiz Abdilah ",
+                "nim": "122450114",
+                "umur": "21",
+                "asal":"Bandar Lampung",
+                "alamat": "Griya Sukarame",
+                "hobbi": "Main Hp",
+                "sosmed": "@i",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
@@ -1816,17 +1838,6 @@ if menu == "Departemen Medkraf":
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
             {
-                "nama": "Akmal Faiz Abdilah ",
-                "nim": "122450114",
-                "umur": "21",
-                "asal":"Bandar Lampung",
-                "alamat": "Griya Sukarame",
-                "hobbi": "Main Hp",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
-            },
-            {
                 "nama": "Dona Maya Puspita",
                 "nim": "123450028",
                 "umur": "20",
@@ -1848,17 +1859,7 @@ if menu == "Departemen Medkraf":
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
-            {
-                "nama": "Khoirul Anam",
-                "nim": "122450039",
-                "umur": "22",
-                "asal":"Pesawaran",
-                "alamat": "Pesawaran",
-                "hobbi": "Billiard dan volly",
-                "sosmed": "@mananam_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
-            },
+            
         ]
         display_images_with_data(gambar_urls, data_list)
     medkraf()
