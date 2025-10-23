@@ -127,7 +127,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "Abangnya asik dan punya Integritas yang tinggi",  
-                "pesan":"Semangat nyusun TA nya bang Jo!!!"
+                "pesan":"Semangat nyusun TA nya bang Jo !!!"
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
