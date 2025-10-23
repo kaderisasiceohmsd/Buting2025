@@ -1,97 +1,70 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-from scipy import stats
-import matplotlib.pyplot as plt
 import random
 
-st.set_page_config(page_title="StatQuest – The ANOVA Battle", page_icon="⚔️")
+st.set_page_config(page_title="📊 ANOVA Arena", page_icon="⚔️", layout="centered")
 
-st.title("⚔️ StatQuest: The ANOVA Battle")
-st.caption("Kreasi Kelompok 4 ANOVA | HMSD Adyatama ITERA 2025")
+st.title("⚔️ ANOVA Arena: The Battle of Variance")
+st.caption("Kreasi 2 | Kelompok 4 ANOVA | HMSD Adyatama ITERA 2025")
 st.markdown("---")
 
-# ===========================================================
-# INISIALISASI SKOR & LEVEL
-# ===========================================================
+# State
 if "score" not in st.session_state:
     st.session_state.score = 0
 if "round" not in st.session_state:
     st.session_state.round = 1
+if "result" not in st.session_state:
+    st.session_state.result = ""
 
-st.sidebar.title("📊 Statistik Pemain")
-st.sidebar.write(f"**Level:** {st.session_state.round}")
-st.sidebar.write(f"**Skor:** {st.session_state.score}")
+# Data acak
+group_a = [random.randint(50, 80) for _ in range(5)]
+group_b = [random.randint(40, 90) for _ in range(5)]
+group_c = [random.randint(30, 100) for _ in range(5)]
 
-# ===========================================================
-# BUAT DATA ACAK UNTUK SETIAP RONDE
-# ===========================================================
-n = 10
-mean1 = random.uniform(40, 60)
-mean2 = mean1 + random.uniform(-10, 10)
-mean3 = mean1 + random.uniform(-10, 10)
-std = random.uniform(3, 10)
+groups = {"A": group_a, "B": group_b, "C": group_c}
 
-group_a = np.random.normal(mean1, std, n)
-group_b = np.random.normal(mean2, std, n)
-group_c = np.random.normal(mean3, std, n)
+means = {k: sum(v)/len(v) for k, v in groups.items()}
+grand_mean = sum(means.values()) / len(means)
 
-# UJI ANOVA
-F, p = stats.f_oneway(group_a, group_b, group_c)
+# Hitung "indikasi perbedaan" sederhana (bukan scipy)
+between_var = sum(len(v) * (means[k] - grand_mean)**2 for k, v in groups.items())
+within_var = sum(sum((x - means[k])**2 for x in v) for k, v in groups.items())
 
-# ===========================================================
-# TAMPILKAN DATA
-# ===========================================================
-st.subheader(f"🧪 Ronde {st.session_state.round}")
-st.write("Berikut hasil pengamatan dari tiga kelompok eksperimen:")
+score_ratio = between_var / (within_var + 1e-6)  # biar gak error div 0
 
-df = pd.DataFrame({
-    "Kelompok A": group_a,
-    "Kelompok B": group_b,
-    "Kelompok C": group_c
-})
-st.dataframe(df.round(2))
+st.subheader(f"🧩 Ronde {st.session_state.round}")
+st.write("Berikut hasil 3 kelompok data eksperimen:")
 
-fig, ax = plt.subplots()
-ax.boxplot([group_a, group_b, group_c], labels=["A", "B", "C"])
-ax.set_title("Visualisasi Data Tiga Kelompok")
-ax.set_ylabel("Nilai")
-st.pyplot(fig)
+for k in groups:
+    st.write(f"Kelompok {k}: {groups[k]} | Mean = {means[k]:.2f}")
 
-# ===========================================================
-# TEBAKAN PEMAIN
-# ===========================================================
-st.subheader("🎯 Tantanganmu:")
-st.write("Apakah menurutmu ada **perbedaan signifikan antar kelompok**?")
+st.write(f"📈 Indikasi selisih antar-mean: {abs(max(means.values()) - min(means.values())):.2f}")
 
-col1, col2 = st.columns(2)
-with col1:
-    tebak_signifikan = st.button("Ya, signifikan ✅")
-with col2:
-    tebak_tidak = st.button("Tidak signifikan ❌")
+choice = st.radio("Menurutmu, apakah terdapat perbedaan signifikan antar kelompok?", ["Ya, signifikan ✅", "Tidak signifikan ❌"])
 
-# ===========================================================
-# CEK HASIL TEBAKAN
-# ===========================================================
-if tebak_signifikan or tebak_tidak:
-    benar = (p < 0.05)
-    if tebak_signifikan and benar:
+if st.button("Cek Hasil 🎯"):
+    significant = score_ratio > 1.2  # ambang sederhana
+    if (choice.startswith("Ya") and significant) or (choice.startswith("Tidak") and not significant):
         st.session_state.score += 10
-        st.success(f"🔥 Tepat sekali! p-value = {p:.4f} < 0.05 → Ada perbedaan signifikan.")
-    elif tebak_tidak and not benar:
-        st.session_state.score += 10
-        st.success(f"🔥 Betul! p-value = {p:.4f} ≥ 0.05 → Tidak ada perbedaan signifikan.")
+        st.session_state.result = f"✅ Tepat! Skor rasio = {score_ratio:.2f} → {'Signifikan' if significant else 'Tidak signifikan'}"
+        st.balloons()
     else:
         st.session_state.score -= 5
-        st.error(f"😅 Salah! p-value = {p:.4f}. Coba lebih jeli di ronde berikutnya.")
-    
+        st.session_state.result = f"❌ Kurang tepat! Skor rasio = {score_ratio:.2f} → {'Signifikan' if significant else 'Tidak signifikan'}"
     st.session_state.round += 1
-    st.balloons()
-    st.button("Lanjut ke Ronde Berikutnya 🔁", on_click=lambda: st.rerun())
+    st.rerun()
 
-# ===========================================================
-# INFO TAMBAHAN
-# ===========================================================
+if st.session_state.result:
+    st.info(st.session_state.result)
+
 st.markdown("---")
-st.caption("🎓 Game ini membantu memahami konsep ANOVA dengan cara seru. "
-            "Coba mainkan beberapa ronde dan lihat bagaimana distribusi memengaruhi p-value!")
+st.write(f"🏆 Skor Kamu: **{st.session_state.score}**")
+
+if st.button("🔁 Main Lagi"):
+    st.session_state.score = 0
+    st.session_state.round = 1
+    st.session_state.result = ""
+    st.rerun()
+
+st.caption("🎓 Game ini menggambarkan konsep **Analisis Varians (ANOVA)** "
+            "dengan pendekatan intuitif: makin besar perbedaan rata-rata antar kelompok, "
+            "makin tinggi kemungkinan perbedaan signifikan.")
