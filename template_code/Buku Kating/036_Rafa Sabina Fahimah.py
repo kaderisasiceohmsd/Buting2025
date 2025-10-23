@@ -352,5 +352,60 @@ elif menu == "Baleg":
         ]
         display_images_with_data(gambar_urls, data_list)
     baleg()
-
+elif menu == "Senator":
+    def Senator():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+        ]   
+        data_list = [
+            {
+                "nama": "Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal": "Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Belajar",
+                "sosmed": "@bintangtwinkle",
+                "kesan": " ",
+                "pesan": " "
+            },
+            {
+                "nama": "Nadya Ratu Anjani",
+                "nim": "123450083",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Denger lagu",
+                "sosmed": "@nadyaanjani",
+                "kesan": " ",
+                "pesan": " "
+            },
+            {
+                "nama": "Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi": "Bengong",
+                "sosmed": "@fathinahnazzh",
+                "kesan": " ",
+                "pesan": " "
+            },
+            {
+                "nama": "Lia Hana Ichisasmita",
+                "nim": "123450089",
+                "umur": "21",
+                "asal": "Jakarta",
+                "alamat": "Belakang Indomaret Belwis",
+                "hobbi": "Tidur",
+                "sosmed": "@lia.h_264",
+                "kesan": " ",
+                "pesan": ""
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Senator()
 # Tambahkan menu lainnya sesuai kebutuhan
