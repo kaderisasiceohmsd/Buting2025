@@ -1027,7 +1027,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1XQ_iPZAh2n4GoloMx4Za6vP7Axcq_Fc3",
             "https://drive.google.com/uc?export=view&id=1TbuWtcHkt3CJ-kRGlIay4R47hk0nwEOf",
             "https://drive.google.com/uc?export=view&id=1aSTdBkte9OQoDcmUrwpc96E7viyM7hct",
-            "https://drive.google.com/uc?export=view&id=1peMkzzUQqspnrTQD0RSnP-17Itw_4w2M",
+            "https://drive.google.com/uc?export=view&id=17eh3wiH1K6rwyTjTlRR0ZFL2KLp-FMwi",
             "https://drive.google.com/uc?export=view&id=1l0AhZnLZSEXNhSZe9SMbB6cohuheqJgc",
             "https://drive.google.com/uc?export=view&id=1TrcKkXQQw2e5YJkt_KWtOVaU2WMo4bxl",
             "https://drive.google.com/uc?export=view&id=1DMt2szutMAYDSVbKHiLyNryUf0jYFGOp",
@@ -1369,6 +1369,61 @@ if menu == "Departemen Internal":
                 "pesan":"Keep Going"# 1
             },
             {
+                "nama": "Haikal Fransisqo Simbolon",
+                "nim": "123450106",
+                "umur": "19",
+                "asal":"Bekasi",
+                "alamat": "Kota Baru",
+                "hobbi": "Balapan",
+                "sosmed": "@haikalsbln_",
+                "kesan": "Hobinya anak semester akhir",  
+                "pesan":"Lakukan yang terbaik"# 1
+            },
+            {
+                "nama": "Iqfina Haula Halika",
+                "nim": "123450076",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Bandar Lampung",
+                "hobbi": "Baking",
+                "sosmed": "@iqfinahalikaa_",
+                "kesan": "Keren banget hobinya",  
+                "pesan":"Keep Going"# 1
+            },
+            {
+                "nama": "May Talitha Dahlia",
+                "nim": "123450009",
+                "umur": "20",
+                "asal":"Bandung",
+                "alamat": "Urip",
+                "hobbi": "Berkuda",
+                "sosmed": "@may_dahlia12",
+                "kesan": "Hobinya anak semester akhir",  
+                "pesan":"Lakukan yang terbaik"# 1
+            },    
+            {
+                "nama": "Muhammad Naufal Alghani",
+                "nim": "122450070",
+                "umur": "22",
+                "asal":"Sumatera Utara",
+                "alamat": "Gerbang Barat",
+                "hobbi": "Memancing",
+                "sosmed": "@renta.shn",
+                "kesan": "Hobinya anak semester akhir",  
+                "pesan":"Lakukan yang terbaik"# 1
+            },
+            {
+                "nama": "Zailani Satria",
+                "nim": "123450111",
+                "umur": "19",
+                "asal":"Bandar Lampung",
+                "alamat": "Rajabasa",
+                "hobbi": "Olahraga",
+                "sosmed": "@zailanisatria",
+                "kesan": "Keren banget hobinya",  
+                "pesan":"Keep Going"# 1
+            },
+            {
                 "nama": "Rendi Alexander Hutagalu",
                 "nim": "122450057",
                 "umur": "21",
@@ -1390,50 +1445,10 @@ if menu == "Departemen Internal":
                 "kesan": "Hobinya anak semester akhir",  
                 "pesan":"Lakukan yang terbaik"# 1
             },
-            {
-                "nama": "Iqfina Haula Halika",
-                "nim": "123450076",
-                "umur": "20",
-                "asal":"Bandar Lampung",
-                "alamat": "Bandar Lampung",
-                "hobbi": "Baking",
-                "sosmed": "@iqfinahalikaa_",
-                "kesan": "Keren banget hobinya",  
-                "pesan":"Keep Going"# 1
-            },
-            {
-                "nama": "Haikal Fransisqo Simbolon",
-                "nim": "123450106",
-                "umur": "19",
-                "asal":"Bekasi",
-                "alamat": "Kota Baru",
-                "hobbi": "Balapan",
-                "sosmed": "@haikalsbln_",
-                "kesan": "Hobinya anak semester akhir",  
-                "pesan":"Lakukan yang terbaik"# 1
-            },
-            {
-                "nama": "Zailani Satria",
-                "nim": "123450111",
-                "umur": "19",
-                "asal":"Bandar Lampung",
-                "alamat": "Rajabasa",
-                "hobbi": "Olahraga",
-                "sosmed": "@zailanisatria",
-                "kesan": "Keren banget hobinya",  
-                "pesan":"Keep Going"# 1
-            },
-            {
-                "nama": "May Talitha Dahlia",
-                "nim": "123450009",
-                "umur": "20",
-                "asal":"Bandung",
-                "alamat": "Urip",
-                "hobbi": "Berkuda",
-                "sosmed": "@may_dahlia12",
-                "kesan": "Hobinya anak semester akhir",  
-                "pesan":"Lakukan yang terbaik"# 1
-            },          
+            
+            
+            
+                  
             {
                 "nama": "Sarah Wasti",
                 "nim": "123450057",
