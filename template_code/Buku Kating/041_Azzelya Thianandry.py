@@ -371,8 +371,8 @@ elif menu == "Senator":
                 "alamat": "Belwis",
                 "hobbi": "Belajar",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Mantap bang penjelasannya keren abis lucu juga",
-                "pesan": "Istirahat bang penting itu"
+                "kesan": "Kakak selalu punya pandangan yang luas dan bijak banget.",
+                "pesan": "Semoga terus bisa jadi panutan dan inspirasi buat kami semua."
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -382,8 +382,8 @@ elif menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Denger lagu",
                 "sosmed": "@nadyaanjani",
-                "kesan": "Kakaknya tenang tapi keren banget pas ngarahin kita",
-                "pesan": "Semoga makin sukses dan tetep rendah hati ya kak!"
+                "kesan": "Ramah dan gampang diajak ngobrol, jadi nggak sungkan kalau butuh bantuan.",
+                "pesan": "Terima kasih udah selalu terbuka dan supportif ke adik-adik."
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -393,8 +393,8 @@ elif menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Bengong",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Seru banget diajak ngobrol, selalu nyebarin vibes positif",
-                "pesan": "Semoga tetep semangat dan gak pernah kehilangan tawa kak!"
+                "kesan": "Tegas tapi tetap bisa bikin suasana nyaman, keren banget.",
+                "pesan": "Semoga terus bisa jaga keseimbangan antara tegas dan hangat itu, Kak."
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -404,8 +404,8 @@ elif menu == "Senator":
                 "alamat": "Belakang Indomaret Belwis",
                 "hobbi": "Tidur",
                 "sosmed": "@lia.h_264",
-                "kesan": "Asik banget pas bareng kak, selalu bisa cairin suasana",
-                "pesan": "Semoga karier dan kuliahnya lancar terus kak!"
+                "kesan": "Kakak tenang banget, bikin suasana kerja jadi adem.",
+                "pesan": "Terus pertahankan ketenangan itu, soalnya ngaruh banget ke suasana tim."
             },
         ]
         display_images_with_data(gambar_urls, data_list)
