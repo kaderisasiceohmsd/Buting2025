@@ -193,7 +193,7 @@ elif menu == "About Us":
                 "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "Muhamad Syafiqul Falakh",
+                "nama": "Muhammad Syafiqul Falakh",
                 "sebagai": "Anggota",
                 "nim": "124450099",
                 "fun_fact": "suka dikira orang lampung padahal orang jawa",
@@ -228,12 +228,29 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "   jeremi Marolop",
+                "nama": "jeremi Marolop",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
+            {
+                "nama":"Muhammad Rafka Fatih Al Ghathfaan",
+                "sebagai": "Anggotaa",
+                "nim": "122450089",
+                "fun_fact": "tidak suka durian",
+                "motto_hidup": "stay waras",
+            },
+            {
+                "nama":"Michrom Muhammad Kallam",
+                "sebagai": "Anggotaa",
+                "nim": "122450030",
+                "fun_fact": "Bisa surfing",
+                "motto_hidup": "jangan pernah putus asa",
+            },
+            
+            
+            
         ]
         display_images_with_data(gambar_urls, data_list)
 
