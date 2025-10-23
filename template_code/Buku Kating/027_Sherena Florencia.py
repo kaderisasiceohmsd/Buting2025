@@ -438,10 +438,10 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1fYX34rW3vwT1cenS6uZTBegoEEIKJxP_",
             "https://drive.google.com/uc?export=view&id=1uNY7Cr20WvDgTat2h_RPKgxcdDMqXZUw",
             "https://drive.google.com/uc?export=view&id=1ovD8p40T0U7x6qz_LOgTPMQuTPsqU8ar",
-            "https://drive.google.com/uc?export=view&id=1x0YxcB_owX9qLBUnGFq0I76W2wNMF8vc",
+            "https://drive.google.com/uc?export=view&id=1ZefdkGdVNG413wvVLqSp8-b_juVOSOxq",
             "https://drive.google.com/uc?export=view&id=17HAOzsgvtWOFIZGpxdmuIEyvpIYfL_4-",
             "https://drive.google.com/uc?export=view&id=1_XLXl9AHm_LrTo-bVdp4SzFQ2E6dPEFP",
-            "https://drive.google.com/uc?export=view&id1ZefdkGdVNG413wvVLqSp8-b_juVOSOxq",
+            "https://drive.google.com/uc?export=view&id=1x0YxcB_owX9qLBUnGFq0I76W2wNMF8vc",
 
         ]
         data_list = [
@@ -574,8 +574,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "Sukarame",
                 "hobbi": "Main Voli",
                 "sosmed": "@Syahidzz_",
-                "kesan": " ",
-                "pesan": " " # 12
+                "kesan": "Kakak nya baik banget, keren",
+                "pesan": "Semangat terus ya kak kuliahnya" # 12
             },
             
             {
@@ -586,34 +586,9 @@ elif menu == "Departemen PSDA":
                 "alamat": "Gang Nangka 4 Sukarame",
                 "hobbi": "Main game, kuliner kalau ada uang",
                 "sosmed": "@ali_parisi3",
-                "kesan": " ",
-                "pesan": " " # 13
+                "kesan": "Kakak nya lucu imut dan baik lagi",
+                "pesan": "Semangat terus ya kak, dijaga kesehatannya" # 13
             },
-            
-            {
-                "nama": "Rosalia Siregar",
-                "nim": "123450036",
-                "umur": "19",
-                "asal": "Medan",
-                "alamat": "Belwis",
-                "hobbi": "Main Roblox",
-                "sosmed": "@rosaliasiregar",
-                "kesan": " ",
-                "pesan": " " # 14
-            },
-            
-            {
-                "nama": "Kharisma Mustika Sari",
-                "nim": "123450034",
-                "umur": "20",
-                "asal": "Way Kanan",
-                "alamat": "Untung",
-                "hobbi": "Scroll Tiktok",
-                "sosmed": "@rismaa.mustika_",
-                "kesan": " ",
-                "pesan": " " # 15
-            },
-            
             {
                 "nama": "Gusti Putu Ferazka",
                 "nim": "123450046",
@@ -622,8 +597,30 @@ elif menu == "Departemen PSDA":
                 "alamat": "Way Dadi",
                 "hobbi": "Tidur",
                 "sosmed": "@ferazkaa",
-                "kesan": " ",
-                "pesan": " " # 16
+                "kesan": "Kakaknya cantik banget, manis, lucu",
+                "pesan": "Tetap semangat ya kakak cantik" # 16
+            },
+             {
+                "nama": "Kharisma Mustika Sari",
+                "nim": "123450034",
+                "umur": "20",
+                "asal": "Way Kanan",
+                "alamat": "Untung",
+                "hobbi": "Scroll Tiktok",
+                "sosmed": "@rismaa.mustika_",
+                "kesan": "Kakaknya cantik, terus keliatan lagi sibuk, tapi ternyata baik banget",
+                "pesan": "Semangat ya kak, kesehatannya juga harus di prioritasin" # 15
+            },
+            {
+                "nama": "Rosalia Siregar",
+                "nim": "123450036",
+                "umur": "19",
+                "asal": "Medan",
+                "alamat": "Belwis",
+                "hobbi": "Main Roblox",
+                "sosmed": "@rosaliasiregar",
+                "kesan": "Kakaknya lucu banget, baik juga, seneng deh di puji imut sama kakaknya, padahal kakaknya lebih imut",
+                "pesan": "Semangat terus ya kakak cantik" # 14
             },
             
             {
@@ -634,8 +631,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "Jl. Airan Raya",
                 "hobbi": "Main Game",
                 "sosmed": "@sahid_maul19",
-                "kesan": " ",
-                "pesan": " " # 17
+                "kesan": "Kakaknya baik banget dan ramah",
+                "pesan": "Semangat terus ya kak" # 17
             },
             
             {
@@ -646,8 +643,19 @@ elif menu == "Departemen PSDA":
                 "alamat": "Korpri",
                 "hobbi": "Cari masalah anak 23",
                 "sosmed": "@ahmadnaufal_11",
-                "kesan": " ",
-                "pesan": " " # 18
+                "kesan": "Kakaknya ramah banget sih",
+                "pesan": "Semoga selalu diberikan kemudahan ya kak " # 18
+            },
+             {
+                "nama": "Erma Daniar Safitri",
+                "nim": "123450061",
+                "umur": "20",
+                "asal": "Pringsewu",
+                "alamat": "Jl. Lapas Raya No 50",
+                "hobbi": "Dance",
+                "sosmed": "@d_aniar",
+                "kesan": "Kakaknya keren banget udah menjuarai lomba tari",
+                "pesan": " " # 24
             },
             
             {
@@ -661,7 +669,17 @@ elif menu == "Departemen PSDA":
                 "kesan": " ",
                 "pesan": " " # 19
             },
-            
+             {
+                "nama": "Kevin Antoni Junior",
+                "nim": "123450109",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Panjang",
+                "hobbi": "Main Basket",
+                "sosmed": "@kevinaj_",
+                "kesan": " ",
+                "pesan": " " # 23
+            },
             {
                 "nama": "Rewina Audriya Melva Sari",
                 "nim": "123450049",
@@ -697,31 +715,7 @@ elif menu == "Departemen PSDA":
                 "kesan": " ",
                 "pesan": " " # 22
             },
-            
-            {
-                "nama": "Kevin Antoni Junior",
-                "nim": "123450109",
-                "umur": "20",
-                "asal": "Bandar Lampung",
-                "alamat": "Panjang",
-                "hobbi": "Main Basket",
-                "sosmed": "@kevinaj_",
-                "kesan": " ",
-                "pesan": " " # 23
-            },
-            
-            {
-                "nama": "Erma Daniar Safitri",
-                "nim": "123450061",
-                "umur": "20",
-                "asal": "Pringsewu",
-                "alamat": "Jl. Lapas Raya No 50",
-                "hobbi": "Dance",
-                "sosmed": "@d_aniar",
-                "kesan": " ",
-                "pesan": " " # 24
-            },
-            
+
             {
                 "nama": "Lidia Natasyah Marpaung",
                 "nim": "123450015",
