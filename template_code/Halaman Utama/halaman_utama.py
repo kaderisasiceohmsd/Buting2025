@@ -41,7 +41,7 @@ st.markdown(
     """
     <div style='text-align: center;'>
         <h1 style='font-size: 5.5em;'>WEBSITE KATING</h1>
-        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2024</p>
+        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2025</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -74,18 +74,28 @@ def streamlit_menu():
         default_index=0,
         orientation="horizontal",
         styles={
-            "container": {"padding": "0!important", "background-color": "#CBDCEB"},
+            "container": {
+                "padding": "0!important",
+                "background": "linear-gradient(to right, #B5C7F7, #D2B7F3)",  
+                "border-radius": "8px",
+                "box-shadow": "0px 2px 8px rgba(0,0,0,0.15)",
+            },
             "icon": {"color": "black", "font-size": "19px"},
             "nav-link": {
                 "font-size": "15px",
                 "text-align": "left",
                 "margin": "0px",
-                "--hover-color": "#eee",
+                "color": "black",
+                "--hover-color": "#E9D8FD", 
             },
-            "nav-link-selected": {"background-color": "#154D71"},
+            "nav-link-selected": {
+                "background-color": "#9D8DF1",  
+                "color": "white",
+            },
         },
     )
     return selected
+
 
 
 menu = streamlit_menu()
@@ -98,35 +108,23 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+            "<h1 class='centered-title'>𝐃𝐄𝐒𝐊𝐑𝐈𝐏𝐒𝐈 𝐊𝐄𝐋𝐎𝐌𝐏𝐎𝐊</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: center;"> 𝐖𝐄 𝐀𝐑𝐄 𝐏𝐎𝐈𝐒𝐒𝐎𝐍</div>""",
+            """<div style="text-align: center;">𝑾𝑬 𝑨𝑹𝑬 𝑷𝑶𝑰𝑺𝑺𝑶𝑵</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1j2whG_RXnlMioXeOqXbXWct4OK6qqFxS"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Kami adalah Poisson, tiga belas jiwa dari Datasena, Sains Data ITERA 2024.
-Di antara angka dan peluang, kami berdiri dengan semangat untuk memahami makna di balik ketidakpastian.
-Terinspirasi dari Distribusi Poisson, kami belajar bahwa bahkan peristiwa acak pun menyimpan pola,
-dan di balik kebetulan, selalu ada keteraturan yang menunggu untuk ditemukan.
-
-Seperti rumus yang hidup di antara deretan bilangan, kami percaya bahwa setiap data punya cerita,
-setiap anomali punya makna, dan setiap anggota kami adalah satu titik dalam grafik besar kehidupan —
-unik, berdiri sendiri, namun indah saat disatukan.
-
-Kami tumbuh bersama sebagai satu kesatuan, saling melengkapi di setiap proses,
-menjadi jejaring kebersamaan yang menguatkan langkah kami menuju masa depan.
-Bersama Datasena 2024, kami bukan hanya sekumpulan individu yang mencintai data,
-tapi keluarga yang belajar, tertawa, dan berproses dalam irama yang sama.
-
-Dari kekacauan, kami membaca keindahan;
-dari acak, kami menulis makna;
-dari data, kami mencipta arah.
-Kami adalah Poisson — harmoni dari ketidakpastian, pola dari kebetulan,
-dan kisah yang tumbuh dari rasa ingin tahu tanpa batas.</div>""",
+            """<div style="text-align: justify;">Kami adalah Poisson
+Tiga belas jiwa dari Datasena, Sains Data ITERA 2024. Di antara angka dan peluang, kami belajar membaca makna di balik acak, menemukan pola dalam kebetulan, dan keteraturan dalam ketidakpastian.
+Bima sang Pak Lurah dan Aqila sang Bu Lurah, menuntun langkah kami dengan bijak dan hangat. Edsel, Manuel, dan Bimo menata logika dalam setiap data, sementara Saskia, Faiza, dan Daffa, membawa warna dan tawa di setiap proses. Najmi, Harvin, Sherena, Dani, dan Abigael menjaga harmoni, menyatukan kami dalam satu ritme yang seimbang.
+Di sisi kami, ada Kak Sonya, sang Mentor, cahaya lembut yang membimbing, mengajarkan bahwa setiap angka punya cerita, dan setiap kesalahan adalah bagian dari pembelajaran.
+Kami tumbuh sebagai satu, menjadi jejaring kebersamaan yang menguatkan langkah menuju masa depan.
+Kami adalah Poisson — harmoni dari ketidakpastian, pola dari kebetulan, dan kisah yang tumbuh dari rasa ingin tahu tanpa batas.
+</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
