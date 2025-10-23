@@ -239,7 +239,7 @@ if menu == "Baleg":
                 "alamat": "Korpri",
                 "hobbi": "Tidur",
                 "sosmed": "@myrrinn",
-                "kesan": "Abangnya baik, kalem juga.",
+                "kesan": "Abangnya baik, pendiem, kalem juga.",
                 "pesan":"Semoga kita bisa bertemu lagi."
             },
             {
