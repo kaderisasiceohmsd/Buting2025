@@ -418,18 +418,18 @@ if menu == "Departemen PSDA":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1Fb4BPbRj30lbadr-Bm9-Y5_8Ein2qH1H",
             "https://drive.google.com/uc?export=view&id=1NdHfcgyW2Tf96WtLsdXn6aYYuJ5ay9OW",
+            "https://drive.google.com/uc?export=view&id=1NxZjB-GpVP1oypnOtGYNt5ZjVB8xWoF_",
+            "https://drive.google.com/uc?export=view&id=1XnrBrcfGXwNwKY9ZqKc2WLgYYEzO5CN4",
+            "https://drive.google.com/uc?export=view&id=16rWPseGT4LVHBC62BYqw1YbdxLjAzba6",
             "https://drive.google.com/uc?export=view&id=1VGllhdDLEm7h8y8FqszkpaVX3TrfXgXM",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=16rWPseGT4LVHBC62BYqw1YbdxLjAzba6",
             "https://drive.google.com/uc?export=view&id=13j5vtus0PzVc5ag1_-_nhHFzJMOqq5ER",
             "https://drive.google.com/uc?export=view&id=17639Avi768OWFW7vRGN1M3NdCjg_2Ana",
-            "https://drive.google.com/uc?export=view&id=1XnrBrcfGXwNwKY9ZqKc2WLgYYEzO5CN4",
             "https://drive.google.com/uc?export=view&id=1C4ohVrEJKy8XSroU2mHQwUzOMhmrMNVg",
             "https://drive.google.com/uc?export=view&id=1YR2SjkVdf_VoS-hlRWs5cWUJRuolD2Bx",
             "https://drive.google.com/uc?export=view&id=1sRLhaCSLpJW_-R5EIXq8CxTK8TjKUyv6",
             "https://drive.google.com/uc?export=view&id=1xds3fYKuMhPS42G875hs8XyfMt3b-KKa",
             "https://drive.google.com/uc?export=view&id=1x1D8tto1LKwK-xT_mpBFHFvk8sCoMmUD",
-            "https://drive.google.com/uc?export=view&id=1NxZjB-GpVP1oypnOtGYNt5ZjVB8xWoF_",
             "https://drive.google.com/uc?export=view&id=1y-EGexmZgigIDGnGo0U2MZ2r0kfilQ34",
             "https://drive.google.com/uc?export=view&id=1P_wyybHZXzUwLNX_2PaeBSkMuViWZiK2",
             "https://drive.google.com/uc?export=view&id=1yO0uH4Op_VgOGkcPreb2EX5qmZagy1BC",
@@ -467,6 +467,39 @@ if menu == "Departemen PSDA":
                 "pesan": "Semoga kami bisa meneladani semangat kakak."
             },
             {
+                "nama": "Allya Nurul Islami Pasha",
+                "nim": "122450033",
+                "umur": "21",
+                "asal": "Sumatera Barat",
+                "alamat": "Gang Perwira Belwis",
+                "hobbi": "Main",
+                "sosmed": "@allyapasha_",
+                "kesan": "Sikapnya tegas dan disiplin, menjadi panutan bagi kami.",
+                "pesan": "Terima kasih atas ilmunya, semoga kakak sehat selalu."
+            },
+            {
+                "nama": "Ahmad Sahidin Akbar",
+                "nim": "122450044",
+                "umur": "21",
+                "asal":"Tulang Bawang",
+                "alamat": "Sukarame",
+                "hobbi": "Voli",
+                "sosmed": "@shahid22_",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
+                "nama": "Daffa Ahmad Noval",
+                "nim": "122450137",
+                "umur": "21",
+                "asal":"Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Cari masalah anak 23",
+                "sosmed": "@ahmadnoval_11",
+                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+            },
+            {
                 "nama": "Rewina Audriya Melva Sari",
                 "nim": "123450049",
                 "umur": "20",
@@ -489,17 +522,6 @@ if menu == "Departemen PSDA":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Daffa Ahmad Noval",
-                "nim": "122450137",
-                "umur": "21",
-                "asal":"Jakarta",
-                "alamat": "Korpri",
-                "hobbi": "Cari masalah anak 23",
-                "sosmed": "@ahmadnoval_11",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
-            {
                 "nama": "Benget Sidabutar",
                 "nim": "123450047",
                 "umur": "20",
@@ -518,17 +540,6 @@ if menu == "Departemen PSDA":
                 "alamat": "Jl. Raden Saleh",
                 "hobbi": "Main piano, ngoding, menanam anggrek, berantem",
                 "sosmed": "@ullianowlm",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
-            {
-                "nama": "Ahmad Sahidin Akbar",
-                "nim": "122450044",
-                "umur": "21",
-                "asal":"Tulang Bawang",
-                "alamat": "Sukarame",
-                "hobbi": "Voli",
-                "sosmed": "@shahid22_",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
@@ -586,17 +597,6 @@ if menu == "Departemen PSDA":
                 "sosmed": "@sahid_maul19",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
-            {
-                "nama": "Allya Nurul Islami Pasha",
-                "nim": "122450033",
-                "umur": "21",
-                "asal": "Sumatera Barat",
-                "alamat": "Gang Perwira Belwis",
-                "hobbi": "Main",
-                "sosmed": "@allyapasha_",
-                "kesan": "Sikapnya tegas dan disiplin, menjadi panutan bagi kami.",
-                "pesan": "Terima kasih atas ilmunya, semoga kakak sehat selalu."
             },
             {
                 "nama": "Ahmad Rizky",
