@@ -355,3 +355,59 @@ elif menu == "Baleg":
         ]
         display_images_with_data(gambar_urls, data_list)
     Baleg()
+elif menu == "Senator":
+    def Senator():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", 
+        ]   
+        data_list = [
+            {
+                "nama": "Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal": "Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Belajar",
+                "sosmed": "@bintangtwinkle",
+                "kesan": "Bang Bintang rajin banget dan selalu semangat belajar!",
+                "pesan": "Semangat belajarnya Bang!"
+            },
+            {
+                "nama": "Nadya Ratu Anjani",
+                "nim": "123450083",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Denger lagu",
+                "sosmed": "@nadyaanjani",
+                "kesan": "Kak Nadya santai banget dan punya selera musik yang bagus!",
+                "pesan": "Semoga hari-hari kakak selalu penuh lagu yang menenangkan ya kak!"
+            },
+            {
+                "nama": "Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal": "Jakarta",
+                "alamat": "Asrama TB 1",
+                "hobbi": "Bengong",
+                "sosmed": "@fathinahnazzh",
+                "kesan": "Kak Fathinah suka bengong tapi tetep lucu banget!",
+                "pesan": "Tetap santai tapi jangan kebanyakan bengong ya kak hehe!"
+            },
+            {
+                "nama": "Lia Hana Ichisasmita",
+                "nim": "123450089",
+                "umur": "21",
+                "asal": "Jakarta",
+                "alamat": "Belakang Indomaret Belwis",
+                "hobbi": "Tidur",
+                "sosmed": "@lia.h_264",
+                "kesan": "Kak Lia chill banget dan suka tidur di waktu yang pas!",
+                "pesan": "Semangat terus kuliahnya kak Lia, tapi jangan kebanyakan tidur ya!"
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Senator()
