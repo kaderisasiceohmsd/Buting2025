@@ -170,7 +170,7 @@ if menu == "Kesekjenan":
                 "alamat": "Agrest Kost",
                 "hobbi": "Nahan Pipis",
                 "sosmed": "@celisabethh_",
-                "kesan": "Kakakny usil tapi asik dan juga baik",  
+                "kesan": "Kakaknya usil tapi asik dan juga baik",  
                 "pesan":"Jangan dibiasain nahan kencing kak, nanti takut jadi penyakit"
             },
         ]
@@ -182,20 +182,20 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=18wCLJPrIjGhhwiBLH5k-dLuA84o5-SQM",
-            "https://drive.google.com/uc?export=view&id=1MEVA4xrcg9f6HOSjY-nehMXGkwzD-YJ2",
-            "https://drive.google.com/uc?export=view&id=1hspoYcTT-eU6V4lIUTI7vIneT0feM3Ie",
-            "https://drive.google.com/uc?export=view&id=1vTzvvyGxyQay4UoWYW1cnJW3fhqf8q9m",
-            "https://drive.google.com/uc?export=view&id=1tRltCijdXIJ68yqIOG3crHYUPjiF5GfB",
-            "https://drive.google.com/uc?export=view&id=1XYnsVFvMsyOjFAYMpBb4W4I02u2ZSTT2",
-            "https://drive.google.com/uc?export=view&id=1ODgNutoZJM2RT75s3xYDg6T-nITFhxRE",
-            "https://drive.google.com/uc?export=view&id=1GDsJh43L2BYQXRKcFHEJwkvrteK6GKes",
-            "https://drive.google.com/uc?export=view&id=1BH_3GU7DlhX1HP4iyLEz1Wo0VPW-b9o7",
-            "https://drive.google.com/uc?export=view&id=1k9cAY6TSauKQrIBQjKZStAABez2YdpPM",
-            "https://drive.google.com/uc?export=view&id=1qVY6DfKJnjKYrH3lXr29mtrsuDhGY3Ov",
-            "https://drive.google.com/uc?export=view&id=1ph5BO_9tVHZUpU8008TqSMpDfW4cMckI",
-            "https://drive.google.com/uc?export=view&id=1G-HVY88zLekbsSWsFMhtNiw7DeaXXzWq",
-            "https://drive.google.com/uc?export=view&id=1bqdugfEtGqAxvA6avuAJSFqhsgq0dEUN",
+            "https://drive.google.com/uc?export=view&id=1AXZtPYCVNzNPCq7oRHNuvQUVe5u0MQKU",
+            "https://drive.google.com/uc?export=view&id=1qH10X4mFRADDeDA87RFBYijybudVmP-O",
+            "https://drive.google.com/uc?export=view&id=170bYOAgDvJVCDB7kgSO9sjUAyvIh1oLC",
+            "https://drive.google.com/uc?export=view&id=1-U_l2FKKCrgsbCkJmRCjIY_U_uC30V_R",
+            "https://drive.google.com/uc?export=view&id=17rYqsl8TTJpBB-Mxm69hBgAyDMvaZr1e",
+            "https://drive.google.com/uc?export=view&id=1ofMU6fDWZRwGTDl7UAtPdxRMx3QwD3An",
+            "https://drive.google.com/uc?export=view&id=1g-hoasieehq-HU1_aMqighWnf1VPLFUK",
+            "https://drive.google.com/uc?export=view&id=1rCUuClN0xTfRIEvsuQwHq9EpsxLcnspY",
+            "https://drive.google.com/uc?export=view&id=1l7pUuJC0KqhHqE3giuveZs0aicf8Bzoa",
+            "https://drive.google.com/uc?export=view&id=1djpKSbZcO6gKB9T26udsHQVZuXn91eVO",
+            "https://drive.google.com/uc?export=view&id=1FIGvOJsytrIOhuIqw8AFkZeiTbL4OfiD",
+            "https://drive.google.com/uc?export=view&id=1EXLbfQD38L5LyY-WLFKQkTl38Xg-Om99",
+            "https://drive.google.com/uc?export=view&id=1baO9c9myYKVjNeAQH26SotcbGvZvlEvS",
+            "https://drive.google.com/uc?export=view&id=1-YdleKC5eoJixQii8mxacc6Q6vV29Q3-",
         ]
         data_list = [
             {
@@ -211,7 +211,7 @@ if menu == "Baleg":
             },
             {
                 "nama": "Dhea Amelia Putri",
-                "nim": "",
+                "nim": "122450004",
                 "umur": "20",
                 "asal":"Chiwidew, Jawa Barat",
                 "alamat": "Pesawaran",
@@ -359,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1y7TMv9EU_sgikP8jMEn3jkJ9K06UGe8b",
-            "https://drive.google.com/uc?export=view&id=1KBZJHwFCyT17qj9ugM9NBgH2eR9mQmP8",
-            "https://drive.google.com/uc?export=view&id=1R-KDDkMFWE776PIl-fS96zze_3hidt8T",
-            "https://drive.google.com/uc?export=view&id=16neaeqe4A6TjQjr_9PthCjCKRDpZe3IZ",
+            "https://drive.google.com/uc?export=view&id=1xPUf2rlBq5FUiBqSvLmDQX_dxXqD6y3r",
+            "https://drive.google.com/uc?export=view&id=1aXoT6_6l4-WrQJapjarKbaYoo1g7q1SU",
+            "https://drive.google.com/uc?export=view&id=135E5_x-Ob-CyP-0MBNc1pFH91HoPWFMn",
+            "https://drive.google.com/uc?export=view&id=1B1mygp05l9sQLSAWPZmvPxwm2hZUNRhA",
         ]
         data_list = [
             {
@@ -373,8 +373,8 @@ if menu == "Senator":
                 "alamat": "tanya caesar",
                 "hobbi": "Padel",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
+                "kesan": "Keliatannya galak, dan sombong. Tapi aslinya asik kalo diajak ngobrol",  
+                "pesan":"semangat terus dalam menyampaiikan aspirasinya bang !!!"
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -384,8 +384,8 @@ if menu == "Senator":
                 "alamat": "Belakang Indomaret belwis",
                 "hobbi": "Maen Roblox",
                 "sosmed": "@nadyaanjani",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
+                "kesan": "Kakaknya muragh senyum dan ramah",  
+                "pesan":"semangat terus kuliahnya kak !!!"
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -395,8 +395,8 @@ if menu == "Senator":
                 "alamat": "Asrama TB1",
                 "hobbi": "like instagram",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"
+                "kesan": "Kakaknya baik, ramah, dan juga murah senyum",  
+                "pesan":"selalu rendah hati dan murah senyum ke semua orang kak !!!"
             },
             {
                 "nama": "Lia Hana Ichisasmita ",
@@ -406,7 +406,7 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Dengerin Lagu",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "kesan": "Kakaknya baik dan selalu positif vibes",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
         ]
