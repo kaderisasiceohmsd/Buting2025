@@ -101,10 +101,10 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1FEDXhyeJ4ivPhJRZ7yygAWJ3HdhpYUH1",
             "https://drive.google.com/uc?export=view&id=1Ge16oTzJKfc1Hk-uM7VeNz9oCyGJF885",
-            "https://drive.google.com/uc?export=view&id=1j-lA_Kr7neMfAjM2DNCqrgCZFs2kkSKH",
+            "https://drive.google.com/uc?export=view&id=1qPYpCJGRO_pjg0HWU6iKM4tCAitB9S0v",
             "https://drive.google.com/uc?export=view&id=1HVpuV9vdDTqhZWQYYe2S9zu1yRSgaSUC",
             "https://drive.google.com/uc?export=view&id=15TM8eIRM0---HBnc-vLZfI_qj1SxC57s",
-            "https://drive.google.com/uc?export=view&id=1qPYpCJGRO_pjg0HWU6iKM4tCAitB9S0v",
+            "https://drive.google.com/uc?export=view&id=1j-lA_Kr7neMfAjM2DNCqrgCZFs2kkSKH",
         ]
         data_list = [
             {
@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Sangat berwibawa dan keren",  
-                "pesan":"Semangat terus bang menjalani hidup sebagai ketua"# 1
+                "kesan": "Keren dan berwibawa banget, sangat mengayomi",  
+                "pesan":"Semangat terus Bang menjadi ketua, semoga sukses nantinya"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,21 +126,21 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Keren banget karna ngajarin ilmu data sains",  
+                "kesan": "Pemikirannya keren banget, sangat berwibawa",  
                 "pesan":"Semoga kehidupan kuliahnya berjalan mulus"# 1
             },
-            {
-                "nama": "Farahanum Afifah Ardiansyah",
-                "nim": "122450056",
-                "umur": "21",
-                "asal":"Kota Padang",
-                "alamat": "Korpri",
-                "hobbi": "Cutekahim",
-                "sosmed": "@farahanumafifah",
-                "kesan": "Bisa ada diposisi ini aja udah keren banget",  
-                "pesan":"Semoga ga banyak masalah menghampiri"# 1
+             {
+                "nama": "Elisabeth Claudia Simanjuntak",
+                "nim": "122450123",
+                "umur": "23",
+                "asal":"Baduy Dalem",
+                "alamat": "Agrest Kost",
+                "hobbi": "Nahan Pipis",
+                "sosmed": "@celisabethh_",
+                "kesan": "Moodbooster parah, lucu banget kakaknya bikin ketawa",  
+                "pesan":"Semoga hari-harinya selalu penuh hal baik"# 1
             },
-            {
+             {
                 "nama": "Syadza Puspadari Azhar",
                 "nim": "122450072",
                 "umur": "21",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Udah hobi membaca, punya posisi penting pula",  
-                "pesan":"Semoga lancar-lancar saja kehidupannya"# 1
+                "kesan": "Kakak positive vibes banget",  
+                "pesan":"Semoga makin banyak hal baik yang diraih ke depannya"# 1
             },
             {
                 "nama": "Eksanty Febriana Sugma Islamiaty",
@@ -159,20 +159,20 @@ if menu == "Kesekjenan":
                 "alamat": "Asrama TB 4",
                 "hobbi": "Nahan Eeq",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Walau hobbynya ngawur, tapi bisa berada di posisi penting haha",  
-                "pesan":"Semoga tidak ada masalah yang menghampiri"# 1
+                "kesan": "Dari hobinya aja udah keliatan kakak lucu banget, moodbooster",  
+                "pesan":"Semoga perkuliahannya berjalan lancar tanpa hambatan"# 1
             },
             {
-                "nama": "Elisabeth Claudia Simanjuntak",
-                "nim": "122450123",
-                "umur": "23",
-                "asal":"Baduy Dalem",
-                "alamat": "Agrest Kost",
-                "hobbi": "Nahan Pipis",
-                "sosmed": "@celisabethh_",
-                "kesan": "Hobbynya ngawur, tapi megang posisi penting",  
-                "pesan":"Semoga lancar kehidupan kuliahnya"# 1
-            },
+                "nama": "Farahanum Afifah Ardiansyah",
+                "nim": "122450056",
+                "umur": "21",
+                "asal":"Kota Padang",
+                "alamat": "Korpri",
+                "hobbi": "Cutekahim",
+                "sosmed": "@farahanumafifah",
+                "kesan": "Kakaknya baik dan ramah banget, murah senyum",  
+                "pesan":"Semoga semua target kak cepet tercapai!"# 1
+            },  
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
@@ -182,15 +182,15 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1BTm9ln1ZUbxnfnaPafbwzUBWACyngmGK",
+            "https://drive.google.com/uc?export=view&id=1gLG4jTu1CL5gIMsSBMnMx29Wad5wL0va",
+            "https://drive.google.com/uc?export=view&id=1E8bF8oSTJ1GTsX9HPU8lEiqhKuKbVw06",
+            "https://drive.google.com/uc?export=view&id=1UlTyS90gDLTF56Th1eIUwbVicutNCIr9",
+            "https://drive.google.com/uc?export=view&id=11A8KoGTWlUGNouFP5FQWRUWObh6tn8vN",
+            "https://drive.google.com/uc?export=view&id=1qnam_NFeqg491NkJYfGfsu1fzhuRXYHg",
+            "https://drive.google.com/uc?export=view&id=1OhXR1nuCojD1FtYefPf7rzvsx7oKrC44",
+            "https://drive.google.com/uc?export=view&id=145AFsG1UI08zWuA1BgqS_r_XGV0XLTZk",
+            "https://drive.google.com/uc?export=view&id=1_TNgBApRxTHMHpEk2mHf0ucaoMqjucwU",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -221,39 +221,6 @@ if menu == "Baleg":
                 "pesan":"Jangan lupa jaga kesehatan, kak."
             },
             {
-                "nama": "Anisa Fitriyani",
-                "nim": "122450019",
-                "umur": "19",
-                "asal":"Lubuk Linggau",
-                "alamat": "Pringsewu",
-                "hobbi": "Hafalin sandi Morse",
-                "sosmed": "@ansftynn_",
-                "kesan": "Orangnya seru dan baik banget.",
-                "pesan":"Semangat terus dan jangan mudah menyerah!"
-            },
-            {
-                "nama": "Mirzan Yusuf Rabbani",
-                "nim": "122450118",
-                "umur": "21",
-                "asal":"Jakarta",
-                "alamat": "Korpri",
-                "hobbi": "Tidur",
-                "sosmed": "@myrrinn",
-                "kesan": "Pembawaannya positif dan menyenangkan.",
-                "pesan":"Semoga kita bisa bertemu lagi."
-            },
-            {
-                "nama": "Feryadi Yulius",
-                "nim": "122450087",
-                "umur": "21",
-                "asal":"Bandung",
-                "alamat": "Way kandis",
-                "hobbi": "Baca buku",
-                "sosmed": "@fer_yulius",
-                "kesan": "Sangat berkesan, orangnya humble.",
-                "pesan":"Tetap jadi pribadi yang menginspirasi!"
-            },
-            {
                 "nama": "Renisha Putri Giani",
                 "nim": "122450079",
                 "umur": "22",
@@ -263,6 +230,17 @@ if menu == "Baleg":
                 "sosmed": "@Renishapg",
                 "kesan": "Kakaknya asik dan ramah.",
                 "pesan":"Sukses selalu untuk kuliahnya ya!"
+            },
+            {
+                "nama": "Anisa Fitriyani",
+                "nim": "122450019",
+                "umur": "19",
+                "asal":"Lubuk Linggau",
+                "alamat": "Pringsewu",
+                "hobbi": "Hafalin sandi Morse",
+                "sosmed": "@ansftynn_",
+                "kesan": "Orangnya seru dan baik banget.",
+                "pesan":"Semangat terus dan jangan mudah menyerah!"
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
@@ -286,7 +264,7 @@ if menu == "Baleg":
                 "kesan": "Orangnya seru dan baik banget.",
                 "pesan":"Semangat terus dan jangan mudah menyerah!"
             },
-            {
+             {
                 "nama": "Givaro Ananta",
                 "nim": "123450078",
                 "umur": "20",
@@ -294,6 +272,17 @@ if menu == "Baleg":
                 "alamat": "Teluk Betung",
                 "hobbi": "Dengerin Spotify",
                 "sosmed": "@givarooo",
+                "kesan": "Pembawaannya positif dan menyenangkan.",
+                "pesan":"Semoga kita bisa bertemu lagi."
+            },
+            {
+                "nama": "Mirzan Yusuf Rabbani",
+                "nim": "122450118",
+                "umur": "21",
+                "asal":"Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Tidur",
+                "sosmed": "@myrrinn",
                 "kesan": "Pembawaannya positif dan menyenangkan.",
                 "pesan":"Semoga kita bisa bertemu lagi."
             },
@@ -319,7 +308,7 @@ if menu == "Baleg":
                 "kesan": "Kakaknya asik dan ramah.",
                 "pesan":"Sukses selalu untuk kuliahnya ya!"
             },
-            {
+             {
                 "nama": "Ridho Benedictus Togi Manik",
                 "nim": "123450060",
                 "umur": "19",
@@ -329,6 +318,17 @@ if menu == "Baleg":
                 "sosmed": "@iamridhomanik",
                 "kesan": "Senang bisa kenal dengan kakak.",
                 "pesan":"Jangan lupa jaga kesehatan, kak."
+            },
+            {
+                "nama": "Feryadi Yulius",
+                "nim": "122450087",
+                "umur": "21",
+                "asal":"Bandung",
+                "alamat": "Way kandis",
+                "hobbi": "Baca buku",
+                "sosmed": "@fer_yulius",
+                "kesan": "Sangat berkesan, orangnya humble.",
+                "pesan":"Tetap jadi pribadi yang menginspirasi!"
             },
             {
                 "nama": "Monica Patricia Tanjung",
