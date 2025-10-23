@@ -1093,8 +1093,8 @@ if menu == "Departemen SSD":
                 "alamat": "Belakang PB Swalayan",
                 "hobbi": "Jogging",
                 "sosmed": "@dananghk_ ",
-                "kesan": "Kakaknya manis, lucu ",  
-                "pesan": " Semoga dilancarkan semuanya dan dipermudah urusannya"# 1
+                "kesan": "keren abangnya, semua bisa dicapai, multi talent, jago ngoomong juga",  
+                "pesan": " Semangatt bang kuliahnya, semoga pkm abang menang terus, dan tercapai semuanyaa"# 1
             },
             {
                 "nama": "Syalaisha Andina Putriansyah",
@@ -1104,8 +1104,8 @@ if menu == "Departemen SSD":
                 "alamat": "Suka Rame",
                 "hobbi": "Baca Novel",
                 "sosmed": "@syalaishaa_31 ",
-                "kesan": "Kakak nya baik, seru ",  
-                "pesan": "Sehat selalu kak, dilancakan semuanya "# 2
+                "kesan": "kakaknya keren baik, lucu juga",  
+                "pesan": "semangatt kak kuliahnya, semoga di lanacarkan urusanny"# 2
             },
               {
                 "nama": "Ahmad Rizqi",
@@ -1115,9 +1115,9 @@ if menu == "Departemen SSD":
                 "alamat": "Airan",
                 "hobbi": "Pergi ke cafe tengah malam",
                 "sosmed": "@den_iki__",
-                "kesan": "Kakaknya keren dan asik ",  
-                "pesan": "Semoga dilancarkan urusannya kak "# 3
-            },
+                "kesan": "kece abangnya, asik juga abangnya, ganteng juga bang ga ketinggalan",  
+                "pesan": "semangat terus bang kuliahnya, semoga di lacarkan, btw ada stock california ga bang? hehe"# 3
+              },
               {
                 "nama": "Anadia Carana",
                 "nim": "123450019",
@@ -1126,9 +1126,9 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "Jogging",
                 "sosmed": "@anadiacrn_",
-                "kesan": "kakaknya keren ",  
-                "pesan": "Semoga urusannya diperlancar "# 4
-                   },
+                "kesan": "kakaknya ramah banget, murah senyum juga",  
+                "pesan": "semangat kak kuliahnya, semoga di perlancar kuliahnya"# 4
+              },
               {
                 "nama": "Aprilia Dewi Hutapea",
                 "nim": "123450040",
@@ -1137,19 +1137,19 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "Nonton di Facebook",
                 "sosmed": "@aprhtp_ ",
-                "kesan": " ",  
-                "pesan": " "# 5
+                "kesan": "kakaknya lucu, ramah, baik bangett",  
+                "pesan": "semoga diperlancar segala urusan perkuliahannya"# 5
             },
             {
                 "nama": "Nabila Zakiyah Zahra",
                 "nim": "123450023",
-                "umur": ".",
-                "asal": ".",
-                "alamat": ".",
-                "hobbi": ".",
-                "sosmed": ".",
-                "kesan": "Kakaknya keren banget ",  
-                "pesan":"Semoga diperlancar semuanya  "# 6
+                "umur": "",
+                "asal": "",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "lucu kakaknya, murah senyum juga",  
+                "pesan":"semangatt ya kak kuliahnya, semoga di perlancar"# 6
             },
              {
                 "nama": "Dhafin Razaqa Luthfi",
@@ -1159,10 +1159,10 @@ if menu == "Departemen SSD":
                 "alamat": "Sukarame",
                 "hobbi": "Belajar",
                 "sosmed": "@dhafinrzqa13",
-                "kesan": "Kakaknya cantik dan lucu ",  
-                "pesan": "Semangat kak, diperlancar semuanya "# 7
+                "kesan": "kece, pendiem, suka menyendiri",  
+                "pesan": "semangatt bang kuliahnya, semoga di lancarkan"# 7
             },
-              {
+              {    
                 "nama": "Devi Rahayu",
                 "nim": "123450010",
                 "umur": "20",
@@ -1170,8 +1170,8 @@ if menu == "Departemen SSD":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Nonton Drakor",
                 "sosmed": "@deviirhyu",
-                "kesan": "Kakaknya keren banget ",  
-                "pesan": "Semoga dilancarkan semuanya kak "# 8
+                "kesan": "lucu kakanya, murah senyum",  
+                "pesan": "semangatt kuliahnya kak, semoga di perlancar segala urusanya"# 8
             },
               {
                 "nama": "Enggli Rahmadhani",
@@ -1181,8 +1181,8 @@ if menu == "Departemen SSD":
                 "alamat": "Gang Pawira 2",
                 "hobbi": "Main Mobile Legend",
                 "sosmed": "@engliramdhnii",
-                "kesan": " ",  
-                "pesan": " "# 9
+                "kesan": "cantik baanget kakaknya, lucu juga",  
+                "pesan": "semangatt kak kuliahnya, semoga di perlancar segala urasannya"# 9
             },
               {
                 "nama": "Hanifah Inaya Sani",
@@ -1192,8 +1192,8 @@ if menu == "Departemen SSD":
                 "alamat": "Korpri",
                 "hobbi": "Memasak",
                 "sosmed": "@_inayasani",
-                "kesan": " ",  
-                "pesan": " "# 10
+                "kesan": "lucu kakaknya, murah senyum",  
+                "pesan": "semangat kuliahnya kak, semoga diperlancar segala urusannya"# 10
             },
               {
                 "nama": "Nydia Manda Putri",
@@ -1203,8 +1203,8 @@ if menu == "Departemen SSD":
                 "alamat": "Tanjung Karang Timur",
                 "hobbi": "Main",
                 "sosmed": "@nydiaaptr_",
-                "kesan": " ",  
-                "pesan": " "# 11
+                "kesan": "cantik kakaknya, lucu juga kalo senyum",  
+                "pesan": "semangatt kak semoga di perlancar urusan kuliahhnya"# 11
             },     
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1500,8 +1500,8 @@ if menu == "Senator":
                 "alamat": "Pulau Damar",
                 "hobbi": "Tidur",
                 "sosmed": "@bintangtwinkle",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "tegas, penjelasannya keren dapat di pahami, kerem juga bang bintang",  
+                "pesan": "semangat bang mengkaji segala permasalahan itera, semoga di perlancar urusannya"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -1511,8 +1511,8 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Mendengar Lagu ",
                 "sosmed": "@nadyaanjaani",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "lucu, cantik banget kakaknyaa, adem diliatnya",  
+                "pesan": "semangat kak kuliahnya, semoga di perlancar kuliahnya"# 1
             },
               {
                 "nama": "Fathinah Nur Azizah",
@@ -1522,8 +1522,8 @@ if menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Melamun",
                 "sosmed": "@fathinahnazzh",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "religius, positif banget diliatnya",  
+                "pesan": "semangatt kak kuliahnya, btw kakaknya jago OBE, semangatt trus kak"# 1
             },
               {
                 "nama": "Lia Hana Ichisasmita",
@@ -1533,8 +1533,8 @@ if menu == "Senator":
                 "alamat": "Indomaret Belwis",
                 "hobbi": "Main Roblox",
                 "sosmed": "@lia.h_264",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "lucu kakaknya, pendiam",  
+                "pesan": "semangat kak  kuliahnya, semoga diperlancar kuliahnya"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1876,6 +1876,7 @@ if menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
