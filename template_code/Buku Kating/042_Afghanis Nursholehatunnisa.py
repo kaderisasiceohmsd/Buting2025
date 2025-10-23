@@ -993,7 +993,7 @@ elif menu == "Departemen Eksternal":
                 "alamat": "Jalan Lapas Raya",
                 "hobbi": "jalan jalan",
                 "sosmed": "@bylaash",
-                "kesan": "Kakak ini baik hati, ramah, cerdas dan murah senyum"
+                "kesan": "Kakak ini baik hati, ramah, cerdas dan murah senyum",
                 "pesan":"kakak cantik dan positive vibes banget !!!"# 1
             },
             {
