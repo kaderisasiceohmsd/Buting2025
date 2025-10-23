@@ -177,7 +177,7 @@ if menu == "Kesekjenan":
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
-elif menu == "Baleg":
+if menu == "Baleg":
     def Baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -354,7 +354,6 @@ elif menu == "Baleg":
         display_images_with_data(gambar_urls, data_list)
     Baleg()
     # Tambahkan menu lainnya sesuai kebutuhan
- # Tambahkan menu lainnya sesuai kebutuhan
 if menu == "Departemen PSDA":
     def psda():
         gambar_urls = [
@@ -674,8 +673,7 @@ if menu == "Departemen PSDA":
         ]
         display_images_with_data(gambar_urls, data_list)
     psda()
-
-elif menu == "Departemen MIKFES":
+if menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
