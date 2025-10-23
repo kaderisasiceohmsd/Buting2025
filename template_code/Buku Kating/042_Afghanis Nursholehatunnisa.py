@@ -720,7 +720,7 @@ elif menu == "Departemen MIKFES":
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@nadiaafrj",
                 "kesan": "Kakak ini positive vibes dan kalem",  
-                "pesan":terus sebarkan energi positif ya kak !!!"# 1
+                "pesan": "terus sebarkan energi positif ya kak !!!"# 1
             },
             {
                 "nama": "Marleta Cornelia Leander",
