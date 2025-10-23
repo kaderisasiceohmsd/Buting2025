@@ -177,3 +177,180 @@ if menu == "Kesekjenan":
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
+elif menu == "Baleg":
+    def Baleg():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+        ]
+        data_list = [
+            {
+                "nama": "Jeremia Susanto",
+                "nim": "122450022",
+                "umur": "21",
+                "asal": "Balam",
+                "alamat": "Tanjung Merawa",
+                "hobbi": "Suka main voli sama Feby",
+                "sosmed": "@jeremia_s_",
+                "kesan": "Lucu abangnya tapi tegas",
+                "pesan": "semangat bang kuliahnya semoga urusannya lancar"
+            },
+            {
+                "nama": "Dhea Amelia Putri",
+                "nim": "122450004",
+                "umur": "21",
+                "asal": "Kendari",
+                "alamat": "Bandar Lampung Ujung",
+                "hobbi": "Badmood liatin Jaldi",
+                "sosmed": "@_.dheamelia",
+                "kesan": "Kaknya keren, penjelasannya selalu jelas",
+                "pesan": "Semoga cepat lulus dan makin sukses!"
+            },
+            {
+                "nama": "Renisha Putri Giani",
+                "nim": "122450079",
+                "umur": "22",
+                "asal": "Teluk",
+                "alamat": "Teluk",
+                "hobbi": "Nawarin alat pancing",
+                "sosmed": "@renishapg",
+                "kesan": "Seru dan asik diajak ngobrol",
+                "pesan": "Sukses terus kak, jangan lupa main bareng"
+            },
+            {
+                "nama": "Anisa Fitriyani",
+                "nim": "122450019",
+                "umur": "20",
+                "asal": "Wakatobi",
+                "alamat": "Balam",
+                "hobbi": "Main bowling",
+                "sosmed": "@",
+                "kesan": "Baik dan lucu, gak pernah marah",
+                "pesan": "Sukses selalu kak di setiap langkahnya!"
+            },
+            {
+                "nama": "Dharu Cahyoaji Sasongko",
+                "nim": "123450023",
+                "umur": "18",
+                "asal": "Way Halim, Balam",
+                "alamat": "Way Halim, Balam",
+                "hobbi": "Nyuci baju",
+                "sosmed": "@dhruchyo",
+                "kesan": "Santai tapi serius di momen tertentu keren",
+                "pesan": "Sehat selalu dan semoga kariernya lancar kak!"
+            },
+            {
+                "nama": "Feby Wulandari",
+                "nim": "123450042",
+                "umur": "20",
+                "asal": "Bekasi",
+                "alamat": "Way Huwi",
+                "hobbi": "Macing keributan",
+                "sosmed": "@feby.wldr",
+                "kesan": "selalu bisa nyemangatin semua orang",
+                "pesan": "tetap jadi pribadi seru kayak sekarang!"
+            },
+            {
+                "nama": "Givaro Ananta",
+                "nim": "123450078",
+                "umur": "20",
+                "asal": "Lampung Barat",
+                "alamat": "Sukabumi",
+                "hobbi": "Liatin langit",
+                "sosmed": "@givarooo",
+                "kesan": "Kakaknya asik banget, selalu bikin suasana WWC jadi rame tapi tetap kondusif.",
+                "pesan": "Semoga nanti bisa terus ngembangin diri dan tetep jadi kakak yang seru dan inspiratif buat adik-adik!"
+            },
+            {
+                "nama": "Mirzan Yusuf Rabbani",
+                "nim": "122450118",
+                "umur": "21",
+                "asal": "Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Nyoba makanan terbaru",
+                "sosmed": "@myrrinn",
+                "kesan": "Kakaknya lembut, sabar, dan gak pernah marah meski kita kadang ribet sendiri.",
+                "pesan": "Semoga terus dikelilingi orang-orang baik dan bisa terus berbagi hal positif ke banyak orang"
+            },
+            {
+                "nama": "Berliana Enda Putri",
+                "nim": "122450065",
+                "umur": "21",
+                "asal": "Sumbar",
+                "alamat": "Belwis",
+                "hobbi": "Ngumpulin batu unik di pantai",
+                "sosmed": "@berlyyanda",
+                "kesan": "Kakaknya selalu nyebarin energi positif, jadi suasana latihan gak pernah boring.",
+                "pesan": "Semoga selalu bahagia dan tetap jadi sosok yang ceria dan bikin semangat!"
+            },
+            {
+                "nama": "Juesi Apridelia Saragih",
+                "nim": "123450085",
+                "umur": "18",
+                "asal": "Teluk Pandawa",
+                "alamat": "Belwis",
+                "hobbi": "Galau",
+                "sosmed": "@j_eesie",
+                "kesan": "keren banget pas ngarahin kita, gayanya santai tapi tegas",
+                "pesan": "Semoga ke depannya makin banyak acara yang bisa kak handle, dan tetep jadi mood maker tim!"
+            },
+            {
+                "nama": "Ridho Benedictus Togi Manik",
+                "nim": "123450060",
+                "umur": "19",
+                "asal": "Melbourne",
+                "alamat": "Gh",
+                "hobbi": "Main padle",
+                "sosmed": "@iamridhomanik",
+                "kesan": "Lucu banget orangnya, selalu bisa bikin semua ketawa walau lagi capek.",
+                "pesan": "Semoga humornya gak pernah hilang dan terus bisa nyemangatin orang di sekitar kak!"
+            },
+            {
+                "nama": "Feryadi Yulius",
+                "nim": "122450087",
+                "umur": "17",
+                "asal": "Tangerang",
+                "alamat": "Belwis",
+                "hobbi": "Dengerin Wawa ngomong",
+                "sosmed": "@fer.yulius",
+                "kesan": "Santai banget tapi selalu bisa diandelin di setiap situasi.",
+                "pesan": "Semoga langkahnya selalu dimudahkan dan makin banyak hal baik yang datang ke kakak!"
+            },
+            {
+                "nama": "Monica Patricia Tanjung",
+                "nim": "123450087",
+                "umur": "19",
+                "asal": "Sumut",
+                "alamat": "Belwis",
+                "hobbi": "Main ML, only Franco",
+                "sosmed": "@monica_tjg",
+                "kesan": "Kocak banget tapi tetep fokus kalau udah kerja, seru banget bareng",
+                "pesan": "Semoga terus jadi pribadi yang nyenengin dan makin banyak hal keren yang kak capai!"
+            },
+            {
+                "nama": "Wa Nashwa Alhasni Yuska",
+                "nim": "123450077",
+                "umur": "19",
+                "asal": "Tanjung Batu",
+                "alamat": "Belwis",
+                "hobbi": "Nyapa angin",
+                "sosmed": "@nshaysk",
+                "kesan": "Kakaknya lembut, perhatian, dan selalu nyemangatin kita tanpa bosan.",
+                "pesan": "Semoga selalu bahagia, dikelilingi orang baik, dan cepat lulus dengan hasil terbaik!"
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Baleg()
+    # Tambahkan menu lainnya sesuai kebutuhan
