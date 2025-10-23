@@ -87,7 +87,7 @@ def display_images_with_data(gambar_urls, data_list):
             st.write(f"Umur: {data_list[i]['umur']}")
             st.write(f"Asal: {data_list[i]['asal']}")
             st.write(f"Alamat: {data_list[i]['alamat']}")
-            st.write(f"Hobi: {data_list[i]['hobbi']}")
+            st.write(f"Hobbi: {data_list[i]['hobbi']}")
             st.write(f"Sosial Media: {data_list[i]['sosmed']}")
             st.write(f"Kesan: {data_list[i]['kesan']}")
             st.write(f"Pesan: {data_list[i]['pesan']}")
@@ -149,7 +149,7 @@ if menu == "Kesekjenan":
                 "hobi": "Membaca",
                 "sosmed": "@puspadrr",
                 "kesan": "Adem banget kakk, berasa lagi di tempat rindang kalau liat kakak",  
-                "pesan":"Semangat jalanin hari-harinya kakl!"# 1
+                "pesan":"Semangat jalanin hari-harinya kak!"# 1
             },
             {
                 "nama": "Eksanty F Sugma Islamiaty",
@@ -263,7 +263,7 @@ if menu == "Baleg":
                 "kesan": "Kalem banget.. mana mirip sama dipa kakak ini",  
                 "pesan":"Mending mancing ikan sama saya aja kak"# 1
             },
-             {
+            {
                 "nama": "Dharu Cahyoaji Sasongko",
                 "nim": "123450023",
                 "umur": "18",
@@ -274,7 +274,7 @@ if menu == "Baleg":
                 "kesan": "Loh kok... bang kapan jualan lagi bang",  
                 "pesan":"hayoyo, semangat yang bang lulus bntar lagi"# 1
             },
-             {
+            {
                 "nama": "Mirzan Yusuf Rabbani",
                 "nim": "122450118",
                 "umur": "21",
@@ -285,7 +285,7 @@ if menu == "Baleg":
                 "kesan": "Abang ini keren bgt, auranya dapet banget",  
                 "pesan":"Semangat ngerjain TA-nya bang!"# 1
             },
-             {
+            {
                 "nama": "Juesi Apridelia Saragih",
                 "nim": "123450085",
                 "umur": "20",
@@ -296,7 +296,7 @@ if menu == "Baleg":
                 "kesan": "Kakaknya baik, ramah, enak diajak ngobrol juga",  
                 "pesan":"Sehat-sehat kak, jangan lupa istirahat"# 1
             },
-             {
+            {
                 "nama": "Berliana Enda Putri",
                 "nim": "122450065",
                 "umur": "21",
@@ -318,7 +318,7 @@ if menu == "Baleg":
                 "kesan": "Abang ini gacor banget anjai, pengen kek dia",  
                 "pesan": "Tetep jadi gacor ya bang"# 1
             },
-             {
+            {
                 "nama": "Wan Nashwa Alhasni Yuska",
                 "nim": "123450077",
                 "umur": "19",
@@ -328,7 +328,8 @@ if menu == "Baleg":
                 "sosmed": "@nshaysk",
                 "kesan": "Kakak baik banget asli, seru jg kita ngobrol",  
                 "pesan":"Ayok kita ngobrol lagi kak"# 1
-             {
+            },
+            {
                 "nama": "Monica Patricia Tanjung",
                 "nim": "123450073",
                 "umur": "19",
@@ -1867,4 +1868,3 @@ if menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     Departemen_Medkraf()
 # Tambahkan menu lainnya sesuai kebutuhan
-
