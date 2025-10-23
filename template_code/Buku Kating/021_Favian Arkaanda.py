@@ -532,7 +532,7 @@ if menu == "Departemen PSDA":
                 "hobbi": "Belajar",
                 "sosmed": "@natasyaamavisca",
                 "kesan": "kak natasya orangnya lucuuu bangett, dari vibesnya keliatan banget orang baik, humble pula",
-                "pesan": "-"
+                "pesan": "tetep jadi orang yang humble ya kakkk, everyone loves humble person!!!"
             },
             {
                 "nama": "Nobel Nizam F",
@@ -575,8 +575,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Sukarame",
                 "hobbi": "Badminton",
                 "sosmed": "@sahidzz_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "kompeten dalam menjalankan tugasnya sebagai kadiv, sempet ngobrol sama bang sahid saat wawancara, cara ngomongnya mudah di mengerti dan logis. oiya orangnya juga kocak",
+                "pesan": "semoga kedepannya bisa lebih baik lagi, dan menginspirasi banyak orang ya bangg!!!"
             },
             {
                 "nama": "Ali Aristo Muthahhari Parisi",
@@ -586,8 +586,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Gang Nangka 4 Sukarame",
                 "hobbi": "Main game, kuliner malam jika ada uang",
                 "sosmed": "@ali_parisi3",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "kalem dan baik banget, ramah juga saat di sapa",
+                "pesan": "semangat terus yaa bang ali, semoga sukses selalu dalam menjalani hidup!!!"
             },
             {
                 "nama": "Gusti Putu Ferazka",
@@ -597,8 +597,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Way Dadi",
                 "hobbi": "Tidur Aja",
                 "sosmed": "@ferazkaa",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "kakak satu ini kalo di sapa ga pernah ngecewainnn, senyumnya tulus banget tiap di sapa hehe, jadi seneng banget kalo nyapa kakak tiap ketemu",
+                "pesan": "sehat selalu yaaa kakak baikk, jangan pernah berubahhh!!!"
             },
             {
                 "nama": "Kharisma Mustika Sari",
@@ -608,8 +608,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Untung",
                 "hobbi": "Scroll Tiktok",
                 "sosmed": "@rismaa.mustika_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak kharisma kakel aku di SMA, orangnya lucuu bangett kalo lagi di sapa dan di ajak ngobrol hehe, tiap di sapa responnya ga pernah ngecewainn",
+                "pesan": "semoga selalu diberi kelancaran ya kakk, oiya tetep jadi orang lucu yaa hehe!!!"
             },
             {
                 "nama": "Rosalia Siregar",
@@ -619,8 +619,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Maen Roblox",
                 "sosmed": "@rosaliasiregar_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "kocak dan baik banget orangnya, ngobrol sama kakak ini berasa lagi ngobrol sama kakak sendiri hehe",
+                "pesan": "semangat terus ya kakkk, jangan pernah berubahhh!!"
             },
             {
                 "nama": "Sahid Maulana",
@@ -630,8 +630,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Jl. Airan Raya",
                 "hobbi": "Maen Game",
                 "sosmed": "@sahid_maulana",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "sempet ngobrolin akademik sama bang sahid pas wawancara, dan saat itu aku beneran terisnpirasi banget sama obrolan bang sahid tentang step by step belajar ngodingg, makasii ya bangg",
+                "pesan": "sehat selaluuu abang yang menginspirasi aku buat belajar ngoding hehe"
             },
             {
                 "nama": "Daffa Ahmad Naufal",
@@ -641,8 +641,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Korpri",
                 "hobbi": "Ngomelin panitia sainfest",
                 "sosmed": "@ahmadnaufal_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "orangnya punya vibes yang serius tapi baik gituu, cara ngomongnya pas wawancara kayak abang kandung lagi nasehati adik kandungnya hehe",
+                "pesan": "semangat terus ya banggg, jangan pernah berubahhh!!!"
             },
             {
                 "nama": "Ulliano William Purba",
@@ -652,8 +652,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Jl. Raden Saleh",
                 "hobbi": "Maen piano, ngoding, menanam anggrek, berantem",
                 "sosmed": "@ullianowlm",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "orangnya tegas banget, cara ngomongnya beneran kayak akademisi, dari pemikirannya lumayan kritis",
+                "pesan": "sehat selalu ya bangg semoga ilmunya bisa bermanfaat bagi banyak orang!!!"
             },
             {
                 "nama": "Erma Daniar Safitri",
@@ -663,8 +663,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Jl. Lapas Raya No.55",
                 "hobbi": "Koleksi Pita Pink",
                 "sosmed": "@d__aniar",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "senyum kakaknya tulus banget, kerasa banget positif vibesnya",
+                "pesan": "sehat selalu ya kakkk, tetep jadi orang yang positif vibes yaaa!!!"
             },
             {
                 "nama": "Ihsan Maulana Yusuf",
@@ -674,8 +674,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis, Pemda",
                 "hobbi": "Pemasok Tugas",
                 "sosmed": "@ihsan.myusuf",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Abang satu ni kocak bet asli WKWKWWKWKKW, ada aja kelakuannyaa, lucunya beneran natural ga dibuat buat. tapi disisi lain bang ihsan ini juga orangnya baik dan humble banget",
+                "pesan": "Tetep jadi orang yang kocak ya banggg, agar bisa menghibur banyak orang!!!"
             },
             {
                 "nama": "Kevin Antoni Junior",
@@ -685,8 +685,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Duduk",
                 "sosmed": "@kevinaj_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "awalnya kirain abang ini galak gitu dari vibesnya, cuma ternyata pas wawancara orangnya humble bangett, asik juga pas di ajak ngobrol",
+                "pesan": "semangat terus ya bang kevinnn, semoga segala cita citanya bisa tercapai!!!"
             },
             {
                 "nama": "Lidia Natasyah Marpaung",
@@ -696,8 +696,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Pemda",
                 "hobbi": "Merajut",
                 "sosmed": "@dla_natsyyaa",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "kalem banget orangnyaa, dari vibesnya sih emg udh keliatan kalo kak lidya tipikal orang yang kalem dan baik",
+                "pesan": "sehat selalu ya kakkk, tetap jadi orang yang kalem dan baikkk!!!"
             },
             {
                 "nama": "Muhammad Ridwan",
@@ -707,8 +707,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Nghina orang Bengkinang",
                 "sosmed": "@ridwan122",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Abang satu ini juga ga kalah kocak sama banng ihsan wkwkwkw, ada aja kelakuannya. tapi disisi lain orangnya humble banget di bang ridwan ni",
+                "pesan": "Semangat terus banggg, tetep jadi orang kocak yakk agar dunia bisa ikut terhibur wkwkwk!!!"
             },
             {
                 "nama": "Benget Sidabutar",
@@ -718,8 +718,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main bola",
                 "sosmed": "@sidabutar.26",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "sejauh ini kating paling kocak yang pernah aku temui WKWKWKWKWK, dimana aja bisa bikin ketawa, bang benget ni diem aja bisa bikin ketawa asli dah, best dh pokoknya bang benget",
+                "pesan": "sehat sehat orang kocakkk, jangan pernah berubah yaa bang bengettt!!!"
             },
             {
                 "nama": "Rewina Audriya Melva Sari",
@@ -729,8 +729,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Way Kandis",
                 "hobbi": "dengerin musik",
                 "sosmed": "@rewinanaaa",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "kakak ini vibesnya kalem dan baik gitu yaa, tipikal yang ga neko neko",
+                "pesan": "Semangat terus ya kakkk"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -765,14 +765,14 @@ if menu == "Departemen MIKFES":
         data_list = [
             {
                 "nama": "Randa Andriana Putra",
-                "nim": "123440083",
+                "nim": "122440083",
                 "umur": "22",
                 "asal": "Serang, Banten",
                 "alamat": "Sukarame",
                 "hobbi": "Tidur dan Berkembang",
                 "sosmed": "@randaandriana_",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "kesan": "vibes orang pinter banget ini mah, ril no fek fek,",
+                "pesan": "sehat selalu ya bangg, semoga bisa menjadi inspirasi banyak orangg"
             },
             {
                 "nama": "Rut Junita Sari Siburian",
