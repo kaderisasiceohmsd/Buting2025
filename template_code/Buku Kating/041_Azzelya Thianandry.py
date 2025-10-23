@@ -215,8 +215,8 @@ elif menu == "Baleg":
                 "alamat": "Bandar Lampung Ujung",
                 "hobbi": "Badmood liatin Jaldi",
                 "sosmed": "@_.dheamelia",
-                "kesan": "Kaknya keren, penjelasannya selalu jelas",
-                "pesan": "Semoga cepat lulus dan makin sukses!"
+                "kesan": "Seru banget selalu out of the box.",
+                "pesan": "Tetap jadi orang yang berani ngomong dan ngasih ide, tapi jangan lupa dengerin juga ya"
             },
             {
                 "nama": "Renisha Putri Giani",
@@ -226,8 +226,8 @@ elif menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "Nawarin alat pancing",
                 "sosmed": "@renishapg",
-                "kesan": "Seru dan asik diajak ngobrol",
-                "pesan": "Sukses terus kak, jangan lupa main bareng"
+                "kesan": "Bikin suasana jadi rame terus, nggak pernah ngebosenin.",
+                "pesan": "Tapi kadang fokusnya ilang, tolong dibenerin dikit aja"
             },
             {
                 "nama": "Anisa Fitriyani",
@@ -237,8 +237,8 @@ elif menu == "Baleg":
                 "alamat": "Balam",
                 "hobbi": "Main bowling",
                 "sosmed": "@",
-                "kesan": "Baik dan lucu, gak pernah marah",
-                "pesan": "Sukses selalu kak di setiap langkahnya!"
+                "kesan": "Selalu tenang di tengah kekacauan, salut banget.",
+                "pesan": "Kadang pendiem banget"
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
@@ -248,8 +248,8 @@ elif menu == "Baleg":
                 "alamat": "Way Halim, Balam",
                 "hobbi": "Nyuci baju",
                 "sosmed": "@dhruchyo",
-                "kesan": "Santai tapi serius di momen tertentu keren",
-                "pesan": "Sehat selalu dan semoga kariernya lancar kak!"
+                "kesan": "Teliti dan rapi, semua kerjaanmu keliatan niat banget.",
+                "pesan": "Jangan terlalu perfeksionis, yang penting jalan dulu."
             },
             {
                 "nama": "Feby Wulandari",
@@ -259,8 +259,8 @@ elif menu == "Baleg":
                 "alamat": "Way Huwi",
                 "hobbi": "Macing keributan",
                 "sosmed": "@feby.wldr",
-                "kesan": "selalu bisa nyemangatin semua orang",
-                "pesan": "tetap jadi pribadi seru kayak sekarang!"
+                "kesan": "Penuh semangat dan selalu nyebarin energi positif.",
+                "pesan": "Terus jadi sosok yang bikin suasana kerja jadi menyenangkan."
             },
             {
                 "nama": "Givaro Ananta",
@@ -270,8 +270,8 @@ elif menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Liatin langit",
                 "sosmed": "@givarooo",
-                "kesan": "Kakaknya asik banget, selalu bikin suasana WWC jadi rame tapi tetap kondusif.",
-                "pesan": "Semoga nanti bisa terus ngembangin diri dan tetep jadi kakak yang seru dan inspiratif buat adik-adik!"
+                "kesan": "Punya cara komunikasi yang enak dan mudah dimengerti.",
+                "pesan": "Terima kasih udah jadi panutan dalam hal tanggung jawab, semoga terus menginspirasi."
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
@@ -281,8 +281,8 @@ elif menu == "Baleg":
                 "alamat": "Korpri",
                 "hobbi": "Nyoba makanan terbaru",
                 "sosmed": "@myrrinn",
-                "kesan": "Kakaknya lembut, sabar, dan gak pernah marah meski kita kadang ribet sendiri.",
-                "pesan": "Semoga terus dikelilingi orang-orang baik dan bisa terus berbagi hal positif ke banyak orang"
+                "kesan": "Suasananya selalu hidup kalau ada Kak nggak pernah ngebosenin.",
+                "pesan": "Terus jaga semangat dan energi positifnya ya, Kak."
             },
             {
                 "nama": "Berliana Enda Putri",
@@ -303,8 +303,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Galau",
                 "sosmed": "@j_eesie",
-                "kesan": "keren banget pas ngarahin kita, gayanya santai tapi tegas",
-                "pesan": "Semoga ke depannya makin banyak acara yang bisa kak handle, dan tetep jadi mood maker tim!"
+                "kesan": "Kakak orangnya terbuka dan enak diajak ngobrol.",
+                "pesan": "Semoga tetap jadi sosok yang bisa ngarahin dengan cara yang santai tapi berkesan."
             },
             {
                 "nama": "Ridho Benedictus Togi Manik",
@@ -314,7 +314,7 @@ elif menu == "Baleg":
                 "alamat": "Gh",
                 "hobbi": "Main padle",
                 "sosmed": "@iamridhomanik",
-                "kesan": "Lucu banget orangnya, selalu bisa bikin semua ketawa walau lagi capek.",
+                "kesan": "Suasana selalu hidup kalau ada Kakak, bikin kerja bareng jadi seru.",
                 "pesan": "Semoga humornya gak pernah hilang dan terus bisa nyemangatin orang di sekitar kak!"
             },
             {
@@ -325,8 +325,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Dengerin Wawa ngomong",
                 "sosmed": "@fer.yulius",
-                "kesan": "Santai banget tapi selalu bisa diandelin di setiap situasi.",
-                "pesan": "Semoga langkahnya selalu dimudahkan dan makin banyak hal baik yang datang ke kakak!"
+                "kesan": "Bijak banget kalau kasih masukan, selalu menenangkan.",
+                "pesan": "Terima kasih udah sering kasih pandangan yang membuka pikiran."
             },
             {
                 "nama": "Monica Patricia Tanjung",
@@ -336,8 +336,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Main ML, only Franco",
                 "sosmed": "@monica_tjg",
-                "kesan": "Kocak banget tapi tetep fokus kalau udah kerja, seru banget bareng",
-                "pesan": "Semoga terus jadi pribadi yang nyenengin dan makin banyak hal keren yang kak capai!"
+                "kesan": "Disiplin dan konsisten, jadi teladan banget buat yang lain.",
+                "pesan": "Semoga tetap bisa jadi contoh dalam hal komitmen dan tanggung jawab."
             },
             {
                 "nama": "Wa Nashwa Alhasni Yuska",
@@ -347,8 +347,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyapa angin",
                 "sosmed": "@nshaysk",
-                "kesan": "Kakaknya lembut, perhatian, dan selalu nyemangatin kita tanpa bosan.",
-                "pesan": "Semoga selalu bahagia, dikelilingi orang baik, dan cepat lulus dengan hasil terbaik!"
+                "kesan": "Selalu ceria dan bikin suasana jadi lebih ringan.",
+                "pesan": "Semoga semangat cerianya tetap terjaga terus, Kak."
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -371,8 +371,8 @@ elif menu == "Senator":
                 "alamat": "Belwis",
                 "hobbi": "Belajar",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Mantap bang penjelasannya keren abis lucu juga",
-                "pesan": "Istirahat bang penting itu"
+                "kesan": "Kakak selalu punya pandangan yang luas dan bijak banget.",
+                "pesan": "Semoga terus bisa jadi panutan dan inspirasi buat kami semua."
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -382,8 +382,8 @@ elif menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Denger lagu",
                 "sosmed": "@nadyaanjani",
-                "kesan": "Kakaknya tenang tapi keren banget pas ngarahin kita",
-                "pesan": "Semoga makin sukses dan tetep rendah hati ya kak!"
+                "kesan": "Ramah dan gampang diajak ngobrol, jadi nggak sungkan kalau butuh bantuan.",
+                "pesan": "Terima kasih udah selalu terbuka dan supportif ke adik-adik."
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -393,8 +393,8 @@ elif menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Bengong",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Seru banget diajak ngobrol, selalu nyebarin vibes positif",
-                "pesan": "Semoga tetep semangat dan gak pernah kehilangan tawa kak!"
+                "kesan": "Tegas tapi tetap bisa bikin suasana nyaman, keren banget.",
+                "pesan": "Semoga terus bisa jaga keseimbangan antara tegas dan hangat itu, Kak."
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -404,8 +404,8 @@ elif menu == "Senator":
                 "alamat": "Belakang Indomaret Belwis",
                 "hobbi": "Tidur",
                 "sosmed": "@lia.h_264",
-                "kesan": "Asik banget pas bareng kak, selalu bisa cairin suasana",
-                "pesan": "Semoga karier dan kuliahnya lancar terus kak!"
+                "kesan": "Kakak tenang banget, bikin suasana kerja jadi adem.",
+                "pesan": "Terus pertahankan ketenangan itu, soalnya ngaruh banget ke suasana tim."
             },
         ]
         display_images_with_data(gambar_urls, data_list)
