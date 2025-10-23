@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "beli donat kentang",
                 "sosmed": "@_erendraa",
-                "kesan": "abangnya inspiratif dan berjiwa pemimpin",  
-                "pesan":"Sukses terus, semoga selalu jadi panutan!"# 1
+                "kesan": "abangnya inspiratif bangett dan berjiwa pemimpin",  
+                "pesan":"Sukses terus bang , semoga selalu jadi panutan!"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,7 +126,7 @@ if menu == "Kesekjenan":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Baca buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "abang keren dan bijak banget",  
+                "kesan": "abangnya keren dan bijak",  
                 "pesan":"Semoga makin sukses dan bahagia selalu!"# 1
             },
             {
@@ -137,7 +137,7 @@ if menu == "Kesekjenan":
                 "alamat": "Airest Kost",
                 "hobbi": "Makan kuaci",
                 "sosmed": "@celisabethh",
-                "kesan": "Baik, humble, dan easy going banget",  
+                "kesan": "kakak seruuu, ceriaa banget orangnyaa",  
                 "pesan":"Semoga semua hal baik terus ngikutin kakak!"# 1
             },
             {
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Ramah dan selalu ngasih vibes positif",  
-                "pesan":"Semoga ke depan makin banyak hal baik yang datang!"# 1
+                "kesan": "Kak Puspa orangnya kalem banget, bawa vibes positif gituu kak dan bikin suasana jadi tenang",  
+                "pesan":"Semoga ke depan makin banyak hal baik yang datang ya kak!"# 1
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Mutun, Pesawaran",
                 "hobbi": "Ngomenin tiktok cewe cantik",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Kakak keren dan bijak banget",  
-                "pesan":"Semoga semua hal baik terus ngikutin kakak!"# 1
+                "kesan": "Kak Eksanty orangnya seru dan punya aura percaya diri yang keren banget",  
+                "pesan":"Semoga Kak Eksanty selalu bahagia dan sukses terus ke depannya, jangan pernah kehilangan semangat dan vibe positifnya ya kak!"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Gya Kost Korpri",
                 "hobbi": "Cute Jenderal",
                 "sosmed": "@farahanumafifah",
-                "kesan": "Kakaknya terlihat bersemangat dan positif",  
-                "pesan":"Semoga terus sukses dan menginspirasi!"# 1
+                "kesan": "Kak Farahanum keliatan ceria dan bersemangat banget, gampang bikin suasana jadi rame dan positif",  
+                "pesan":"Semoga kakaknya selalu dikasih kelancaran di setiap langkah, terus jadi pribadi yang nyenengin kayak sekarang!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -204,8 +204,8 @@ elif menu == "Baleg":
                 "alamat": "Bilabong",
                 "hobbi": "nonton orang kayang",
                 "sosmed": "@jeremia_s_",
-                "kesan": "abangnya berwibawa dan bijak dalam bersikap",  
-                "pesan":"Semoga makin sukses dan terus berkembang!"# 1
+                "kesan": "Abang Jeremia keren banget, keliatan tegas dan bijak waktu ngobrol",  
+                "pesan":"Semoga makin sukses ya bang, terus jadi sosok yang inspiratif!"# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -215,8 +215,8 @@ elif menu == "Baleg":
                 "alamat": "Kemiling",
                 "hobbi": "lomba ga makan keerupuk",
                 "sosmed": "@_.dheamelia",
-                "kesan": "Kakaknya punya aura positif banget",  
-                "pesan":"Semoga selalu dimudahkan dalam urusannya"# 1
+                "kesan": "Kak Dhea orangnya ramah dan punya aura positif yang menular banget",  
+                "pesan":"Semoga selalu bahagia dan semua hal baik datang ke kak Dhea!"# 1
             },
             {
                 "nama": "Renisha Putri Giani",
@@ -226,8 +226,8 @@ elif menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "tidur",
                 "sosmed": "@renishapg",
-                "kesan": "Kakaknya humble dan sopan.",  
-                "pesan":"Semoga selalu dilancarkan kegiatannya"# 1
+                "kesan": "Kak Renisha orangnya lembut dan sopan, tapi juga seru kalau diajak ngobrol",  
+                "pesan":"Semoga kakaknya selalu lancar kuliah dan makin sukses terus ya!"# 1
             },
             {
                 "nama": "Anisa Fitriyani",
@@ -237,8 +237,8 @@ elif menu == "Baleg":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak Anisa semangatnya keren banget, orangnya juga asik dan gampang akrab",  
+                "pesan":"Terus semangat ya kak, semoga cita-citanya tercapai!"# 1
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
@@ -248,8 +248,8 @@ elif menu == "Baleg":
                 "alamat": "Way Halim",
                 "hobbi": "Nonton live putri padang",
                 "sosmed": "@dhruchyo",
-                "kesan": "abangnya cool dan berwibawa.",  
-                "pesan":"Semoga makin sukses,bang!"# 1
+                "kesan": "Abang Dharu santai tapi punya aura tangguh gitu, enak diajak ngobrol juga",  
+                "pesan":"Semoga selalu diberi jalan terbaik dan makin berprestasi bang!"# 1
             },
             {
                 "nama": "Feby Wulandari",
@@ -259,8 +259,8 @@ elif menu == "Baleg":
                 "alamat": "Way Huwi",
                 "hobbi": "Bajak sawah",
                 "sosmed": "@fby.wlndr",
-                "kesan": "Kakaknya humble",  
-                "pesan":"Semoga selalu dilancarkan kegiatannya!"# 1
+                "kesan": "Kak Feby vibes-nya positif banget, orangnya juga lucu dan gampang nyambung",  
+                "pesan":"Semoga rezekinya lancar dan selalu dikelilingi hal-hal baik ya kak!"# 1
             },
             {
                 "nama": "Givaro Ananta",
@@ -270,8 +270,8 @@ elif menu == "Baleg":
                 "alamat": "Sukabumi,Lampung",
                 "hobbi": "dengerin spotify",
                 "sosmed": "@givarooo",
-                "kesan": "abangnya santai tapi tetap berwibawa",  
-                "pesan":"semoga makin berkembang ke depannya"# 1
+                "kesan": "Abang Givaro asik banget, gayanya chill tapi tetap berwibawa",  
+                "pesan":"Semoga makin sukses dan bisa terus ngelakuin hal-hal keren!"# 1
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
@@ -281,9 +281,8 @@ elif menu == "Baleg":
                 "alamat": "Korpri",
                 "hobbi": "ngerawat kucing",
                 "sosmed": "@myrrinn",
-                "kesan": "abangnya punya pembawaan yang tenang.",  
-                "pesan":"Semoga selalu diberi kemudahan dan kebahagiaan"# 1
-            },
+                "kesan": "Abangnya kalem banget, pembawaannya tenang tapi tetep friendly",  
+                "pesan":"Semoga selalu diberi kemudahan dan kebahagiaan dalam setiap langkah!
             {
                 "nama": "Berliana Enda Putri",
                 "nim": "122450065",
@@ -292,8 +291,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "nyanyi",
                 "sosmed": "@berlyyanda",
-                "kesan": "Kakaknya punya semangat positif yang keren",  
-                "pesan":"Semoga selalu semangat dan penuh keberkahan"# 1
+                "kesan": "Kak Berliana punya semangat yang nular, selalu ceria dan ramah banget",  
+                "pesan":"Semoga terus bahagia dan makin banyak hal baik yang datang ya kak!"# 1
             },
             {
                 "nama": "Juesi Apridelia Saragih",
@@ -303,8 +302,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Lupa bales chat",
                 "sosmed": "@j__eesie",
-                "kesan": "Kakaknya tenang dan menyenangkan",  
-                "pesan":"Semoga terus berkembang dan berprestasi"# 1
+                "kesan": "Kak Juesi nyenengin banget, gayanya santai tapi sopan",  
+                "pesan":"Semoga makin banyak kesempatan bagus yang datang buat kak Juesi!"# 1
             },
             {
                 "nama": "Ridho Benedictus Togi Manik",
@@ -314,8 +313,8 @@ elif menu == "Baleg":
                 "alamat": "GH",
                 "hobbi": "Mainn paddle",
                 "sosmed": "@iamridhomanik",
-                "kesan": "abangnya punya semangat positif yang keren",  
-                "pesan":"Semoga selalu semangat dan penuh keberkahan"# 1
+                "kesan": "Abang Ridho enerjik dan keliatan semangat banget, seru diajak ngobrol",  
+                "pesan":"Semoga karier dan kuliahnya makin lancar terus ya bang!"# 1
             },
             {
                 "nama": "Feryadi Yulius",
@@ -325,8 +324,8 @@ elif menu == "Baleg":
                 "alamat": "Tanjung Karang",
                 "hobbi": "koleksi batch google cloud",
                 "sosmed": "@fer_yulius",
-                "kesan": "abangnya terlihat tegas dan berkomitmen",  
-                "pesan":"Semoga selalu bahagia dan sukses ke depannya"# 1
+                "kesan": "Abang Feryadi berwibawa banget, keliatan bijak dan tegas",  
+                "pesan":"Semoga semua urusannya dimudahkan dan selalu sukses ke depannya!"# 1
             },
             {
                 "nama": "Monica Patricia Tanjung",
@@ -336,8 +335,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "nonton",
                 "sosmed": "@monica_tjg",
-                "kesan": "Kakaknya punya semangat positif yang keren",  
-                "pesan":"semangat terus kuliahnya kakak!"# 1
+                "kesan": "Kak Monica ceria banget, enak diajak ngobrol dan humble juga",  
+                "pesan":"Semoga kuliahnya lancar dan makin semangat terus ya kak!"# 1
             },
             {
                 "nama": "Wan Nashwa Alhasni Yuska",
@@ -347,8 +346,8 @@ elif menu == "Baleg":
                 "alamat": "Kota Farakan",
                 "hobbi": "nyapa angin",
                 "sosmed": "@nshaysk",
-                "kesan": "Kakaknya tenang dan menyenangkan",  
-                "pesan":"Semoga terus berkembang dan berprestasi"# 1
+                "kesan": "Kak Nashwa punya pembawaan yang adem, enak banget dilihat dan diajak ngobrol",  
+                "pesan":"Semoga makin sukses dan selalu dikelilingi orang-orang baik!"# 1
             },
             
         ]
@@ -372,8 +371,8 @@ elif menu == "Senator":
                 "alamat": "Jalan Raden Saleh",
                 "hobbi": "Dengar lagu, nyanyi, rapat",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Abangnya asik banget, gak ngebosenin", # 1 
-                "pesan":"Semoga semakin keren kedepannya bang"# 1
+                "kesan": "Bang Bintang asik banget, gampang bikin suasana jadi rame dan seru", # 1 
+                "pesan":"Semoga makin keren dan sukses di semua hal yang dikerjain ya bang!"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -383,8 +382,8 @@ elif menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Denger lagu",
                 "sosmed": "@nadyaanjaani",
-                "kesan": "kakaknya gemesin banget, vibes-nya tuh enak!", # 1 
-                "pesan":"Sukses terus kedepannya kak"# 1
+                "kesan": "Kak Nadya vibes-nya lembut tapi tetep ceria, enak banget diajak ngobrol", # 1 
+                "pesan":"Semoga semua yang dicita-citain bisa tercapai dan selalu bahagia ya kak!"# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -394,8 +393,8 @@ elif menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Main ice skating",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "kakak vibes-nya chill banget, bikin nyaman!!",  
-                "pesan":"sukses, selalu dilancarin dalam segala hal kak!"# 1
+                "kesan": "Kak Fathinah punya aura calm tapi tetep fun, gayanya santai banget!"",  
+                "pesan":"Semoga selalu dilancarin urusannya dan makin sukses tiap harinya!"# 1
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -405,8 +404,8 @@ elif menu == "Senator":
                 "alamat": "Belakang Indomart Belwis",
                 "hobbi": "Rebahan",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kakaknya keliatan kalem tapi anggun banget!",  
-                "pesan":"Semangat kuliahnya kak"# 1
+                "kesan": "Kak Lia kalem tapi berkarisma, kelihatan dewasa dan elegan banget",  
+                "pesan":"Semoga kuliahnya lancar terus dan makin banyak hal baik yang datang!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -440,7 +439,7 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1R484m_LB5BEhrbHJ3jRF554X-ydWDOhl",
             "https://drive.google.com/uc?export=view&id=1pdN6FLYu2E9IKnkG6bAe2kOLEJsPEgcD",
             "https://drive.google.com/uc?export=view&id=16V8xSfCBtH6pc5JjCBIvm_if7bRkqdLd",
-            "https://drive.google.com/uc?export=view&id=1GmrypZqAKoL2GmhWG2hIjEWihAbOuFs",
+            "https://drive.google.com/uc?export=view&id=1GmrypZqAKoL2GmhWG2hIjEWihAbOuFs7",
         ]
         data_list = [
             {
@@ -632,100 +631,100 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Daffa Ahmad Naufal",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nim": "122450137",
+                "umur": "21",
+                "asal":"Jakarta",
+                "alamat": "Jl. Korpri Raya",
+                "hobbi": "nontonin anak tari latihan",
+                "sosmed": "@ahmadnaufal_11",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Erma Daniar Safitri",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nim": "123450061",
+                "umur": "20",
+                "asal":"Pringsewu",
+                "alamat": "Jl. Lapas raya No. 55",
+                "hobbi": "ngoleksi pita pink",
+                "sosmed": "@d__aniar",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Ihsan Maulana Yusuf",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nim": "123450110",
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "Belwis",
+                "hobbi": "Joki strava",
+                "sosmed": "@ihsan.myusus",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Kevin Antoni Junior",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nim": "123450109",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "PanjanG selatan",
+                "hobbi": "terjun payung",
+                "sosmed": "@kevinaj__",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Lidia Natasyah Marpaung",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nim": "123450015",
+                "umur": "20",
+                "asal":"Medan",
+                "alamat": "Pemda",
+                "hobbi": "merajut",
+                "sosmed": "@dla_natzzyaa",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Muhammad Ridwan",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nim": "123450091",
+                "umur": "20",
+                "asal":"Lampung tengah",
+                "alamat": "Belwis",
+                "hobbi": "nonton anak tari perform",
+                "sosmed": "@m.ridwan_22",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
-                "nama": "liano",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": " Uliano Wilyam Purba",
+                "nim": "122450098",
+                "umur": "19",
+                "asal":"Depok",
+                "alamat": "jl. Raden Saleh",
+                "hobbi": "ngerjain soal matematika",
+                "sosmed": "@liano.wlm",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
-                "nama": "",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": " Benget Sidabutar",
+                "nim": "123450047",
+                "umur": "20",
+                "asal":"Sumatera utara",
+                "alamat": "Belwiss",
+                "hobbi": "main bola",
+                "sosmed": "@sidabutar.26",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
-                "nama": "",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Rewina Audrya Melva Sari",
+                "nim": "123450049",
+                "umur": "20",
+                "asal":"Lampung",
+                "alamat": "Jl. Ratu, Bandar Lampung",
+                "hobbi": "nonton anime",
+                "sosmed": "@rewinanaa",
                 "kesan": "",  
                 "pesan":""# 1
             },
@@ -736,7 +735,7 @@ elif menu == "Departemen PSDA":
 elif menu == "Departemen MIKFES":
     def DepartemenMIKFES():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=115AlIoKzVznuqaJ8Shm8AI_p6evDZn5rQ",
+            "https://drive.google.com/uc?export=view&id=15AlIoKzVznuqaJ8Shm8AI_p6evDZn5rQ",
             "https://drive.google.com/uc?export=view&id=1-MULAtSuT3jRv2wVNJLtsaMq5qp_StbH",
             "https://drive.google.com/uc?export=view&id=1_PwpTm5_4wiCqTPJIcRdwZ1qg6S9aNPW",
             "https://drive.google.com/uc?export=view&id=156PGcVZvIHtk6zBRTtqIDfhqi6bIaCff",
@@ -748,7 +747,7 @@ elif menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1aFc5LcVHb-VOyWQZkr7aXQCIpGJ3PRU3",
             "https://drive.google.com/uc?export=view&id=1qPLN-INCFrvlixPBjKYazi9lTMZuc5h6",
             "https://drive.google.com/uc?export=view&id=1SvrspC_KyxULxHSA8wF2kdukclVsjQge",
-            "https://drive.google.com/uc?export=view&id=1dosCKBnG7sr8qQiNv07uR43x0vvwslk",
+            "https://drive.google.com/uc?export=view&id=1dosCKBnG7sr8qQiNv07uR43x0vvwslkl",
             "https://drive.google.com/uc?export=view&id=1e448UBUDprDp8xf4tQTpYU9AvtZXtIWP",
             "https://drive.google.com/uc?export=view&id=1AFI2z3vWR2r0FR8ulA9Jok-id4MBkKjF",
             "https://drive.google.com/uc?export=view&id=1P-UCHEAb-0Eu9J4RM1pj3riwnFQrrWvX",
@@ -1858,4 +1857,5 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
