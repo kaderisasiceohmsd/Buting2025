@@ -427,7 +427,7 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1Ousbfbd-_x6Sp0TUEIGy5Sj36Mb9ngrq", #Ali Aristo Muthahhari Parisi
             "https://drive.google.com/uc?export=view&id=1AyonuvwXzPXBHFs5D2jC2lKnfs8Trwak", #Gusti Putu Ferazka
             "https://drive.google.com/uc?export=view&id=1StCWadfL4rGiFMGCnvwbaiP5MHgnGaWE", #Kharisma Mustika Sari
-            "https://drive.google.com/uc?export=view&id=10qUh-cDAfsexR8JHMfInarZZbqCSzDkY", #Rosalia Siregar (belum ada foto)
+            "https://drive.google.com/uc?export=view&id=1yps0Ok2V78lip9zhe31JJKokPe_qfQer", #Rosalia Siregar (belum ada foto)
             "https://drive.google.com/uc?export=view&id=1naHP0ciju1Ip0_aKp2wRt2I9mvSeirFn", #sahid maulana
             "https://drive.google.com/uc?export=view&id=17HIXBqbt5mEAhg7Q9DhvfN9f6jDmdACt", #Daffa Ahmad Naufal
             "https://drive.google.com/uc?export=view&id=1x73_g8xgoMOPzG3JWMxdc6OstZXXPmUw", #Erma Daniar Safitri
