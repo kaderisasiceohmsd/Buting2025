@@ -192,8 +192,8 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1GqHtei9Wegd0qTq4doDmx6aFSBusIdlS",
             "https://drive.google.com/uc?export=view&id=1RDczTNsGUPOMWrN3JUySnkR4N0p6u6mu",
             "https://drive.google.com/uc?export=view&id=1C-Op4jLP2uqipK9-9pW-soYTGt3Vc4eh",
-            "https://drive.google.com/uc?export=view&id=Wa-aDXIezYvGQCQXFz3C_HiOtv3MADvL",
-            "https://drive.google.com/uc?export=view&id=1Izd3xQnCO5WW4l4QTVL2pwuR5S2j5Ywh",
+            "https://drive.google.com/uc?export=view&id=1Wa-aDXIezYvGQCQXFz3C_HiOtv3MADvL",
+            "https://drive.google.com/uc?export=view&id=1oV-kufHZajvxGb2paS7P_IQwC7EZnptp",
         ]
         data_list = [
             {
