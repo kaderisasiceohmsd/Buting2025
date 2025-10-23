@@ -623,7 +623,7 @@ if menu == "Departemen PSDA":
                 "nama": "Sahid Maulana",
                 "nim": "122450109",
                 "umur": "22",
-                "asal":Depok, Jawa Barat"",
+                "asal":"Depok, Jawa Barat",
                 "alamat": "Airan Raya",
                 "hobbi": "Main Video Game",
                 "sosmed": "@sahid_maul19",
