@@ -201,7 +201,7 @@ elif menu == "Baleg":
                 "umur": "21",
                 "asal":"Bandar Lampung",
                 "alamat": "Lapas , Belwis",
-                "hobbi": "Zumba di pln setiap jumat pagi,
+                "hobbi": "Zumba di pln setiap jumat pagi",
                 "sosmed": "@jeremia_s_",
                 "kesan": "Public speakingnya bagus banget, perhatian, dan bijak",  
                 "pesan":"semoga apa yang dicita-citakan terwujud ya bang, sukses selalu yaa!!!"# 1
