@@ -30,8 +30,9 @@ def display_images_with_data(gambar_urls, data_list):
         if i < len(data_list):
             st.markdown(
                 f"""
-                <div style="background: linear-gradient(90deg, #EDFAFD, #AED9DA, #3DDAD7);
-                            padding: 10px; border-radius: 15px; text-align: center; color: #002B5B;">
+                <div style="background: linear-gradient(135deg, #EDFAFD, #AED9DA, #3DDAD7);
+                            padding: 10px; border-radius: 15px; text-align: center; color: #002B5B;
+                            box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
                     <p><b>Nama:</b> {data_list[i]['nama']}</p>
                     <p><b>Sebagai:</b> {data_list[i]['sebagai']}</p>
                     <p><b>NIM:</b> {data_list[i]['nim']}</p>
@@ -48,15 +49,34 @@ st.markdown(
     """
     <style>
         .stApp {
-            background: linear-gradient(
-                to bottom,
-                #EDFAFD,
-                #AED9DA,
-                #3DDAD7,
-                #2A93D5,
-                #135589
-            );
+            background: linear-gradient(to bottom, #EDFAFD, #AED9DA, #3DDAD7, #2A93D5, #135589);
+            background-attachment: fixed;
         }
+
+        [data-testid="stSidebar"] {
+            background: linear-gradient(to bottom, #EDFAFD, #3DDAD7, #2A93D5);
+            color: #002B5B;
+        }
+
+        [data-testid="stSidebar"] * {
+            color: #002B5B !important;
+            font-weight: 500;
+        }
+
+        h1, h2, h3, p {
+            color: #002B5B !important;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        .stApp {
+            transition: background 0.8s ease-in-out;
+        }
+
     </style>
 
     <div style='text-align: center;'>
@@ -66,7 +86,6 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
 url = "https://drive.google.com/uc?export=view&id=12cQ4T8NkVvVPVNX6zBQC4sviFcc4cDWx"
 url1 = "https://drive.google.com/uc?export=view&id=12RBvQdMiqqqph-Q1QqLb0zvvIPnBjCYb"
 
