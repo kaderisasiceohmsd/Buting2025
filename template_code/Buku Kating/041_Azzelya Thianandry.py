@@ -1328,8 +1328,8 @@ if menu == "Departemen Internal":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Mengaji",
                 "sosmed": "@ranniku",
-                "kesan": "Kakaknya tenang tapi berwibawa banget, selalu keliatan siap di setiap situasi.",
-                "pesan": "Semoga makin sukses dan tetep jadi sosok yang bisa diandelin di mana pun!"
+                "kesan": "Kakak punya cara jalan yang tenang tapi percaya diri, kelihatan banget karakternya.",
+                "pesan": ": Semoga langkah Kakak ke depan selalu mantap dan nggak goyah."
             },
             {
                 "nama": "Renta Siahaan",
@@ -1339,8 +1339,8 @@ if menu == "Departemen Internal":
                 "alamat": "Sukarame",
                 "hobbi": "Memancing",
                 "sosmed": "@renta.shn",
-                "kesan": "Kak Renta orangnya tenang dan sopan.",
-                "pesan": "Semoga semangatnya gak pernah hilang dan makin banyak hal baik yang datang!."
+                "kesan": "Kakak punya ekspresi yang susah ditebak tapi justru itu yang bikin menarik.",
+                "pesan": "Semoga selalu ada hal-hal seru di balik ekspresi datar Kakak itu."
             },
             {
                 "nama": "Salwa Farhanatussaidah",
@@ -1350,8 +1350,8 @@ if menu == "Departemen Internal":
                 "alamat": "Airan",
                 "hobbi": "Memasak",
                 "sosmed": "@salwa.fhn",
-                "kesan": "Kakaknya lembut tapi tegas, keliatan banget rasa tanggung jawabnya.",
-                "pesan": "Semoga semua impian kak tercapai dan selalu bahagia di setiap langkah!"
+                "kesan": "Kakak punya gaya ngomong yang halus tapi punya bobot.",
+                "pesan": "Semoga selalu bisa nyampein hal penting dengan cara yang tetap tenang."
             },
             {
                 "nama": "Azzahra Putri Kamilah",
@@ -1361,8 +1361,8 @@ if menu == "Departemen Internal":
                 "alamat": "Asrama TB4",
                 "hobbi": "Main Palinfit",
                 "sosmed": "@azzah.raaa_",
-                "kesan": "Kakaknya humoris banget, bikin suasana rapat jadi seru terus.",
-                "pesan": "Semoga tetep jadi sumber tawa dan inspirasi buat semuanya, kak!"
+                "kesan": "Kakak kelihatan tegas, tapi masih punya sisi lembut yang kerasa banget.",
+                "pesan": "Semoga dua sisi itu tetap seimbang, Kak, karena itu yang bikin khas."
             },
             {
                 "nama": "Haikal Fransiskus Simbolon",
@@ -1372,8 +1372,8 @@ if menu == "Departemen Internal":
                 "alamat": "Airan",
                 "hobbi": "Mancing Ribut",
                 "sosmed": "@haikalsbln_",
-                "kesan": "Kakaknya kalem tapi kalau ngomong selalu ngena.",
-                "pesan": "Semoga makin sukses dan tetep rendah hati kayak sekarang!"
+                "kesan": "Kakak selalu kelihatan siap di situasi apa pun, kayak nggak gampang goyah.",
+                "pesan": "Semoga keyakinan itu tetap jadi pegangan Kakak terus ke depan."
             },
             {
                 "nama": "Iqfinah Haula Halika",
@@ -1383,8 +1383,8 @@ if menu == "Departemen Internal":
                 "alamat": "Sukarame",
                 "hobbi": "Berkhayal",
                 "sosmed": "iqfinanhalikaa_",
-                "kesan": "Kakaknya berenergi banget, semangatnya bikin orang lain kebawa positif.",
-                "pesan": "Semoga semangatnya gak pernah luntur dan makin banyak pencapaian kak dapet!"
+                "kesan": "Kakak punya gaya santai yang natural, nggak dibuat-buat.",
+                "pesan": "Tetap jadi orang yang senyaman itu ya, Kak, dunia butuh yang tulus."
             },
             {
                 "nama": "May Thalita Dehlia",
@@ -1394,8 +1394,8 @@ if menu == "Departemen Internal":
                 "alamat": "Kedaton",
                 "hobbi": "Menyelam",
                 "sosmed": "@may_dahlia12",
-                "kesan": "Kakaknya chill tapi selalu tahu kapan harus serius.",
-                "pesan": "Semoga makin banyak hal baik yang datang dan tetep jadi kak yang asik!"
+                "kesan": "Kakak nggak banyak ngomong, tapi kehadirannya tetap kerasa.",
+                "pesan": "Semoga tetap bisa nunjukin pengaruh besar tanpa harus banyak bicara."
             },
             {
                 "nama": "M. Naufal Algahni",
@@ -1405,8 +1405,8 @@ if menu == "Departemen Internal":
                 "alamat": "Sabah Balau",
                 "hobbi": "Nonton Anime",
                 "sosmed": "@muhammadnaufalalghani",
-                "kesan": "Kakaknya perhatian dan selalu nyebarin aura positif.",
-                "pesan": "Semoga kak selalu dikelilingi kebahagiaan dan orang-orang baik!"
+                "kesan": "Kakak punya pembawaan yang rapi tapi tetap santai.",
+                "pesan": "Semoga hidup Kakak terus seimbang antara serius dan santai."
             },
             {
                 "nama": "Zailani Satria",
@@ -1416,8 +1416,8 @@ if menu == "Departemen Internal":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Olahraga",
                 "sosmed": "@zailanisatria",
-                "kesan": "Kakaknya asik banget, suka bercanda tapi tetap fokus kalau udah kerja.",
-                "pesan": "Semoga sukses selalu dan tetap jadi pribadi yang nyenengin!"
+                "kesan": "Kakak punya pandangan yang luas, tapi nggak pernah sombong.",
+                "pesan": "Semoga tetap rendah hati meskipun tahu banyak hal."
             },
             {
                 "nama": "Rendi Alexander Hutagalung",
@@ -1427,8 +1427,8 @@ if menu == "Departemen Internal":
                 "alamat": "Belwis",
                 "hobbi": "Nyanyi",
                 "sosmed": "@reaxender",
-                "kesan": "Kakaknya kalem tapi berani, keren banget ngeliat caranya ngomong.",
-                "pesan": "Semoga makin percaya diri dan terus bersinar ke depannya!"
+                "kesan": "Kakak punya cara sendiri buat ngadepin sesuatu, dan itu unik.",
+                "pesan": "Terus pertahankan cara khas itu ya, Kak, karena itu yang bikin beda."
             },
             {
                 "nama": "Hanna Grecia Sinaga",
@@ -1438,8 +1438,8 @@ if menu == "Departemen Internal":
                 "alamat": "Belakang UIN",
                 "hobbi": "Menggoreng Pisang",
                 "sosmed": "@hanna_g_sinaga",
-                "kesan": "Kakaknya punya vibe positif, selalu bawa suasana adem.",
-                "pesan": "Semoga karier dan kuliahnya lancar terus ya kak!"
+                "kesan": "Kakak punya vibe yang adem tapi tetap berani ngomong kalau perlu.",
+                "pesan": "Semoga Kakak selalu bisa jaga keseimbangan antara tenang dan tegas."
             },
             {
                 "nama": "Keren Marito Lumban Gaol",
@@ -1449,8 +1449,8 @@ if menu == "Departemen Internal":
                 "alamat": "Pemda",
                 "hobbi": "Bermain Musik",
                 "sosmed": "@kerenmrtv",
-                "kesan": "Kakaknya manis banget, gampang bikin orang nyaman.",
-                "pesan": "Semoga selalu bahagia dan makin banyak hal keren yang dicapai!"
+                "kesan": "Kakak punya cara tertawa yang khas banget, gampang keinget.",
+                "pesan": "Semoga banyak hal lucu dan ringan yang terus bikin Kakak ketawa kayak gitu."
             },
             {
                 "nama": "Muhammad Hanif Zaki",
@@ -1460,8 +1460,8 @@ if menu == "Departemen Internal":
                 "alamat": "Perumnas, Way Kandis",
                 "hobi": "Futsal",
                 "sosmed": "@hnfdzky_",
-                "kesan": "Santai tapi niat, keren banget kalo udah turun langsung.",
-                "pesan": "Semoga makin sukses dan tetep jadi pribadi yang solid!"
+                "kesan": "Kakak punya kesan misterius tapi tetap bikin penasaran.",
+                "pesan": "Semoga di balik misterinya, Kakak selalu nemuin hal-hal baik buat diri sendiri."
             },
             {
                 "nama": "Sarah Warti",
@@ -1482,8 +1482,8 @@ if menu == "Departemen Internal":
                 "alamat": "Way Huwi, Pemda",
                 "hobbi": "Mengetik",
                 "sosmed": "@zhrptsr",
-                "kesan": "Kakaknya chill banget tapi tetep ngasih kesan berwibawa.",
-                "pesan": "Semoga terus jadi kak yang keren dan makin sukses di mana pun berada!"
+                "kesan": "Kakak punya gaya jalan dan cara ngomong yang kalem tapi berwibawa.",
+                "pesan": "Semoga Kakak selalu dikelilingi hal-hal yang seimbang kayak diri Kakak sendiri."
             },
         ]
         display_images_with_data(gambar_urls, data_list)
