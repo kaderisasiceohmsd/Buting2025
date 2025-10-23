@@ -1304,7 +1304,199 @@ elif menu == "Departemen Eksternal":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
+        
     DepartemenEksternal()
+    
+elif menu == "Departemen Internal":
+    def DepartemenInternal():
+         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1c1lctZTXVxK0zSpfYK8G2hVuMtnvQDni",
+            "https://drive.google.com/uc?export=view&id=1FRl-LPSrOEoDhTig5OtovMa8MTHrf8l9",
+            "https://drive.google.com/uc?export=view&id=1FRl-LPSrOEoDhTig5OtovMa8MTHrf8l9",
+            "https://drive.google.com/uc?export=view&id=1ElO0KnA-42LTCBmwRUVewUG7_qee5yxP",
+            "https://drive.google.com/uc?export=view&id=11Zph3HiqArQqyXBKHc1Y4tGP_LndMNIK",
+            "https://drive.google.com/uc?export=view&id=1im4_erzyM7y7iJhif15k0tKfeZOobnTT",
+            "https://drive.google.com/uc?export=view&id=1lkRig0DpQXC1mZjZcsC4WZNdTlV9LLul",
+            "https://drive.google.com/uc?export=view&id=1rvd0MHJj0gWal0ilEZDEDSeMDWprkdwI",
+            "https://drive.google.com/uc?export=view&id=1S5nkkFJlOHOw8S5HOx6qEGJNQQL4WCei",
+            "https://drive.google.com/uc?export=view&id=1iuEiGCHiwQtb92Jik45LQ7vp4tNs4RPP",
+            "https://drive.google.com/uc?export=view&id=1hvML1b3Y7PyYQozq2mz1qZg0HtnfcJpX",
+            "https://drive.google.com/uc?export=view&id=113VQpVqYVOwHgfqMoeI2KZb1imzCXJLt",
+            "https://drive.google.com/uc?export=view&id=1mhXeQLSNpSxJqOOIosLirDz1j-xg0_SP",
+            "https://drive.google.com/uc?export=view&id=1NCZ9NcMuQfsu3J3LPOB8DrJLE831Fp4W",
+            "https://drive.google.com/uc?export=view&id=1CCHVBBkAe-MX7JzDi32vRjJxfizhVNR3",
+         ]
+         data_list = [
+            {
+                "nama": "Rani Puspita Sari",
+                "nim": "12245030",
+                "umur": "21",
+                "asal":"Metro",
+                "alamat": "Bandar Lampung",
+                "hobbi": "Mengaji",
+                "sosmed": "@rannipu",
+                "kesan": "Kak Rani modis banget, gayanya kece",  
+                "pesan":"Semoga kak Rani selalu sehat dan makin bersinar ke depannya"# 1
+            },
+            {
+                "nama": "Renta Siahaan",
+                "nim": "122450070",
+                "umur": "22",
+                "asal":"Sumut",
+                "alamat": "Sukarame",
+                "hobbi": "Memancing",
+                "sosmed": "@renta.shn",
+                "kesan": "tenang banget, tapi tetap seru diajak ngobrol",  
+                "pesan":"Tetap semangat kuliahnya kak, sukses terus ya!"# 1
+            },
+            {
+                "nama": "Salwa Farhanatusaiidah",
+                "nim": "12245055",
+                "umur": "21",
+                "asal":"Jawa Tengah",
+                "alamat": "Airan Raya",
+                "hobbi": "Memasak",
+                "sosmed": "@salwa_fhn",
+                "kesan": "Kak Salwa lembut banget orangnya, enak banget diajak cerita",  
+                "pesan":"Semoga kak Salwa makin sukses dan selalu diberi kesehatan"# 1
+            },
+            {
+                "nama": "Azzahra Putri Kamilah",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@azza.raaa_",
+                "kesan": "baik banget, gampang akrab juga sama orang baru",  
+                "pesan":"Tetap semangat kuliahnya kak, sukses terus ya!"# 1
+            },
+            {
+                "nama": "Haikal fransisko Simbolon",
+                "nim": "122450106",
+                "umur": "18",
+                "asal":"Tulang Bawang",
+                "alamat": "Sukabumi",
+                "hobbi": "Membersihkan rumah",
+                "sosmed": "@haikalsbln_",
+                "kesan": "Abang Haikal ternyata asik, awalnya keliatan serius",  
+                "pesan":"Semangat terus kuliahnya Bang Haikal!"# 1
+            },
+            {
+                "nama": "Iqfina Haula Halika",
+                "nim": "122450076",
+                "umur": "21",
+                "asal":"Lampung Barat",
+                "alamat": "Sukarame",
+                "hobbi": "Scroll Tiktok",
+                "sosmed": "@iqfinahalikaa_",
+                "kesan": "Kak Iqfina cantik dan punya vibe yang lembut banget",  
+                "pesan":"Semoga Kak Iqfina selalu bahagia dan lancar kuliahnya"# 1
+            },
+            {
+                "nama": "May Talitha Dahlia",
+                "nim": "122450009",
+                "umur": "20",
+                "asal":"Surabaya",
+                "alamat": "Teluk",
+                "hobbi": "Travelling",
+                "sosmed": "@may_dahlia12",
+                "kesan": "Kak May keren banget dan keliatan percaya diri",  
+                "pesan":"sehat terus dan makin sukses ya kak"# 1
+            },
+            {
+                "nama": "Muhammad Naufal Afghani",
+                "nim": "122450116",
+                "umur": "20",
+                "asal":"Sidorejo,Sidomulyo,Kalianda",
+                "alamat": "Sabah Balau",
+                "hobbi": "Nonton Anime",
+                "sosmed": "@Muhammadnaufalafghani73",
+                "kesan": "Abangnya kalem banget, tapi seru kalo udah ngobrol",  
+                "pesan":"Semangat terus kuliahnya Bang Naufal!"# 1
+            },
+            {
+                "nama": "Zailani Satria",
+                "nim": "122450111",
+                "umur": "19",
+                "asal":"Bandar Lampung",
+                "alamat": "Rajabasa",
+                "hobbi": "Olahraga",
+                "sosmed": "@zailanisatria",
+                "kesan": "Abangnya asik dan punya aura positif banget",  
+                "pesan":"Semoga Bang Zailani makin semangat dan terus sukses!"# 1
+            },
+            {
+                "nama": "Rendi Alezander Hutagalung",
+                "nim": "122450057",
+                "umur": "21",
+                "asal":"Tangerang",
+                "alamat": "Belwis",
+                "hobbi": "Melukis",
+                "sosmed": "@lexanderr",
+                "kesan": "Abang Rendi kalem banget, asik diajak ngobrol juga",  
+                "pesan":"Semoga Bang Rendi selalu dilancarkan semua urusannya"# 1
+            },
+            {
+                "nama": "Hanna Gresia Sinaga",
+                "nim": "122450000",
+                "umur": "18",
+                "asal":"Bekasi",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@hanna_g_sinaga",
+                "kesan": "Kak Hanna ceria banget dan gampang bikin suasana rame",  
+                "pesan":"Kak Hanna ceria banget dan gampang bikin suasana rame"# 1
+            },
+            {
+                "nama": "Keren Marito Lumban Gaol",
+                "nim": "122450020",
+                "umur": "19",
+                "asal":"Bekasi",
+                "alamat": "Pemda",
+                "hobbi": "Bermain alat musik",
+                "sosmed": "@kerenmrtv",
+                "kesan": "Kak Keren beneran keren, gayanya simple tapi manis",  
+                "pesan":"Semoga Kak Keren selalu percaya diri dan sukses terus!"# 1
+            },
+            {
+                "nama": "Muhammad Hanif Dzaky Arifin",
+                "nim": "122450064",
+                "umur": "20",
+                "asal":"Padang",
+                "alamat": "Way Kandis",
+                "hobbi": "Futsal",
+                "sosmed": "@hifzky",
+                "kesan": "Abang Hanif santai banget orangnya, gampang diajak ngobrol",  
+                "pesan":"Semoga Bang Hanif makin sukses dan tetap rendah hati!"# 1
+            },
+            {
+                "nama": "Sarah wasti",
+                "nim": "122450057",
+                "umur": "20",
+                "asal":"Bekasi",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Bermain alat musik",
+                "sosmed": "@sarahwsti",
+                "kesan": "Kak Sarah lembut dan pembawaannya tenang banget",  
+                "pesan":"Semoga Kak Sarah selalu dikasih kebahagiaan dan kesuksesan"# 1
+            },
+            {
+                "nama": "Zahra Putri Salsabilla",
+                "nim": "122450096",
+                "umur": "19",
+                "asal":"Natar",
+                "alamat": "Pemda, Way Huwi",
+                "hobbi": "Main Rubik mirror 3x3",
+                "sosmed": "@zhrptrsl",
+                "kesan": "Kak Zahra manis banget dan keliatan friendly",  
+                "pesan":"Semoga Kak Zahra terus semangat dan sukses selalu!"# 1
+            },
+        ]
+         display_images_with_data(gambar_urls, data_list)
+        
+    DepartemenInternal()
+
 
 
 
