@@ -438,7 +438,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1kX5EXevBs7mwM5w06OyV0K-WD2S-7kdV",
             "https://drive.google.com/uc?export=view&id=1CbgzZwzYLptDwkja2ASCsgdbJVD2huM2",
             "https://drive.google.com/uc?export=view&id=1Kd_gkSXD0lL1gMe36hUylIujbsu3Docr",
-            "https://drive.google.com/uc?export=view&id=1YLbcAQpnyJdk9ftsnWgc72f4GBVKtoF9/",
+            "https://drive.google.com/uc?export=view&id=1YLbcAQpnyJdk9ftsnWgc72f4GBVKtoF9",
             "https://drive.google.com/uc?export=view&id=1jD7Fxjv-d677_NaJZxm-nhk1-mPaiKtM",
             "https://drive.google.com/uc?export=view&id=1TsrAtLcp7iqWn4B-w0Rqr7k7_lXtlGK9",
             "https://drive.google.com/uc?export=view&id=1fFwA9md-wSeh2raRhD9rSADyJncDmu2L",
@@ -1499,18 +1499,18 @@ if menu == "Departemen Internal":
 if menu == "Departemen SSD":
     def Departemen_SSD():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1hxueXOzDIYgpMAq6WHLuWIQmp8Wb1bG0",
+            "https://drive.google.com/uc?export=view&id=175EYkXWKENAOSqyNOmy0ZEg5laDdJTs0",
+            "https://drive.google.com/uc?export=view&id=1hwZ7TczGVyOCK08XcavkpxwE_jpIKAHf",
+            "https://drive.google.com/uc?export=view&id=1syfzP0kAjEPE1l-mRaUpUhOQccKMrV1c",
+            "https://drive.google.com/uc?export=view&id=1pu6Ryyr1bfOBMzQG-azzQMLkhi5hMbgl",
+            "https://drive.google.com/uc?export=view&id=1CbxVBd5CllzwnHzTExdC00lmN-uq9NME",
+            "https://drive.google.com/uc?export=view&id=1DM9wTLpISuhOwPwyeuntGhLcvSu1DbIf",
+            "https://drive.google.com/uc?export=view&id=1zOqAY8Yn3DxIzmDU_umYcgG9z3UUkSnW",
+            "https://drive.google.com/uc?export=view&id=1waNp1Kee4QnatC7yHitViSPgpI5-35b2",
+            "https://drive.google.com/uc?export=view&id=1_sDDaxFgvNuTYbTSm3BQv7Ph3OMlsHea",
+            "https://drive.google.com/uc?export=view&id=1q4fwOTNOm13aNs7N9aAMrulQRK3pQhhr",
+           
         ]
         data_list = [
             {
@@ -1521,8 +1521,8 @@ if menu == "Departemen SSD":
                 "alamat": "Belakang PB",
                 "hobbi": "jogging",
                 "sosmed": "@dananghk_",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 1
+                "kesan": "Orangnya tangguh dan penuh semangat, selalu total dalam menjalankan tanggung jawab di SSD. ",
+                "pesan": "Terus semangat dan jangan pernah bosan berproses, semoga semua usahamu berbuah hasil terbaik.!"   # 1
             },
             {
                 "nama": "Syalaisha Andina Putriansyah",
@@ -1532,8 +1532,8 @@ if menu == "Departemen SSD":
                 "alamat": "Sukarame",
                 "hobbi": "Baca novel",
                 "sosmed": "@syalaishaa_31",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 2
+                "kesan": "Ramah, sabar, dan selalu menenangkan saat suasana sedang tegang. ",
+                "pesan": "Terima kasih udah jadi sosok yang menyejukkan, semoga ke depannya makin sukses dan bahagia."   # 2
             },
             {
                 "nama": "Ahmad Rizqi",
@@ -1543,8 +1543,8 @@ if menu == "Departemen SSD":
                 "alamat": "Airan",
                 "hobbi": "beli parfum",
                 "sosmed": "@den_iki__",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 3
+                "kesan": "Disiplin dan bertanggung jawab, selalu jadi contoh baik dalam hal kedisiplinan. ",
+                "pesan": "Pertahankan sikap positif itu ya, semoga sukses selalu menyertai setiap langkahmu."   # 3
             },
             {
                 "nama": "Anadia Carana",
@@ -1554,8 +1554,8 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "jogging",
                 "sosmed": "@anadiacrn__",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 4
+                "kesan": "ktif dan berani menyuarakan pendapat, bikin suasana rapat jadi hidup ",
+                "pesan": "Semoga terus jadi pribadi yang berani, cerdas, dan percaya diri dalam setiap langkah."   # 4
             },
             {
                 "nama": "Aprilia Dewi Hutapea",
@@ -1565,8 +1565,8 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "nonton dramashort di fb",
                 "sosmed": "@aphrtjp__",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 5
+                "kesan": "Ceria dan mudah bergaul, selalu bisa bikin suasana jadi lebih menyenangkan",
+                "pesan": "Tetap jadi pribadi yang membawa kebahagiaan buat sekitar, semoga makin sukses!"   # 5
             },
             {
                 "nama": "Nabila Zakiyah Zahra",
@@ -1576,8 +1576,8 @@ if menu == "Departemen SSD":
                 "alamat": "Way Halim",
                 "hobbi": "jogging",
                 "sosmed": "@nabila_zazahra",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 6
+                "kesan": "Tenang tapi tegas, mampu menjaga keseimbangan dalam kerja tim.",
+                "pesan": "Teruslah jadi sosok yang kuat dan bijak, semoga semua cita-cita tercapai."   # 6
             },
             {
                 "nama": "Dhafim Razaqa Luthfi",
@@ -1587,8 +1587,8 @@ if menu == "Departemen SSD":
                 "alamat": "Sukarame",
                 "hobbi": "Belajar",
                 "sosmed": "@dhafinrzqa13",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 7
+                "kesan": "Rajin dan teliti, selalu memastikan semua hal berjalan sesuai rencana.",
+                "pesan": "Semoga setiap kerja kerasmu membawa hasil manis di masa depan."   # 7
             },
             {
                 "nama": "Devi Rahayu",
@@ -1598,8 +1598,8 @@ if menu == "Departemen SSD":
                 "alamat": "Way Kandis",
                 "hobbi": "nonton drakor",
                 "sosmed": "@deviirhyu",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 8
+                "kesan": "Penuh ide kreatif dan punya semangat tinggi buat terus maju. ",
+                "pesan": "jangan berhenti berinovasi ya, semoga makin sukses dan terus menginspirasi"   # 8
             },
              {
                 "nama": "Enggli Rahmadhani",
@@ -1609,8 +1609,8 @@ if menu == "Departemen SSD":
                 "alamat": "gg.perwira 2",
                 "hobbi": "menonton alur cerita film",
                 "sosmed": "@engirahmdhnii",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 9
+                "kesan": "Sopan, rendah hati, dan menghargai semua orang tanpa pandang siapa pun. ",
+                "pesan": "Tetap pertahankan kepribadian baikmu itu, karena itu yang bikin kamu disukai banyak orang."   # 9
             },
             {
                 "nama": "Hanifah Inaya Sani",
@@ -1620,8 +1620,8 @@ if menu == "Departemen SSD":
                 "alamat": "Korpri",
                 "hobbi": "Masak",
                 "sosmed": "@_inayasani",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 10
+                "kesan": "Tanggung jawab dan bisa diandalkan, selalu siap bantu teman lain tanpa diminta. ",
+                "pesan": "Terima kasih atas ketulusannya, semoga langkahmu selalu diberkahi."   # 10
             },
             {
                 "nama": "Nydia Manda Putri",
@@ -1631,8 +1631,8 @@ if menu == "Departemen SSD":
                 "alamat": "Tanjung Karang",
                 "hobbi": "Main",
                 "sosmed": "@nydiaputr_",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 11
+                "kesan": "Bijak dan dewasa, selalu memberi arahan dengan cara yang menenangkan ",
+                "pesan": "Teruslah jadi pribadi yang menginspirasi, semoga kesuksesan selalu menyertai setiap jalanmu"   # 11
             },
         ]
         display_images_with_data(gambar_urls, data_list)
