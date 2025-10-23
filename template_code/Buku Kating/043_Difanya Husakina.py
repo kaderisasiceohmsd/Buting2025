@@ -1302,7 +1302,7 @@ if menu == "Departemen Eksternal":
                 "hobbi": "Baking",
                 "sosmed": "@izzah_tq",
                 "kesan": "Kak Nurul kerenn, cantik baik!",  
-                "pesan":"Bahagia terus ya kak, semoga sukses!"# 1
+                "pesan":"Bahagia terus ya kak, semoga sukses kakakk!"# 1
             },
             {
                 "nama": "Qois Olifio",
