@@ -416,12 +416,12 @@ if menu == "Departemen PSDA":
     def Departemen_PSDA():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1zphPIDt6_40edT6QEi90FZsBa_Vsr3Sy",
-            "https://drive.google.com/uc?export=view&id=1nigrSnemGkycgRW-cMqVpKv0sTVt-C1R",
-            "https://drive.google.com/uc?export=view&id=1nW404Rap1R7VqdpHkUhK_H-B0a7AL58J",
-            "https://drive.google.com/uc?export=view&id=1-DLC7gATxEBnKH6v22nbu8U4SD5Vt7VZ",
-            "https://drive.google.com/uc?export=view&id=1uqO2G6iCo_PKHxB-u4F8e_2KgEFZHW5c",
-            "https://drive.google.com/uc?export=view&id=1xUHzfrc9ogOSi94_vosJC-ErOzRSbHCC",
-            "https://drive.google.com/uc?export=view&id=1032Elnz7rCNHqCN1qvcviB2On_UnDOIZ",
+            "https://drive.google.com/uc?export=view&id=1OyTkM9e4Lr6GOL50j1WZd9B2FBaY5XZ1",
+            "https://drive.google.com/uc?export=view&id=1_qS33XzLWFdQpuKsCFYEhnRE6Xx6txKw",
+            "https://drive.google.com/uc?export=view&id=1qrfNzMfcBTa0EXQElhexq5UMX4NujM3u",
+            "https://drive.google.com/uc?export=view&id=1-P3DQKx4X1uHNtzvTF3KrpjS8n3AD-1Q",
+            "https://drive.google.com/uc?export=view&id=1vnF9g2XtzQcshVhZJtRpRgPCzqzE7bkJ",
+            "https://drive.google.com/uc?export=view&id=1olRVG9xCUAD03Qea2MwACUnuycq_YeFv",
             "https://drive.google.com/uc?export=view&id=19Lu5ud6b82jiXW5dfBH6bRBZ9iDJF0Z4",
             "https://drive.google.com/uc?export=view&id=1cJUqVJSSMZAR6rwS1hdSearUZ2uYxDkl",
             "https://drive.google.com/uc?export=view&id=1gHhdvZTgM2qxe7BxTxEI6zc-DjtvK1oX",
@@ -469,11 +469,11 @@ if menu == "Departemen PSDA":
                 "nama": "Allya Nurul Islami Pasha",
                 "nim": "122450033",
                 "umur": "21",
-                "asal": "Sumatera Barat",
-                "alamat": "Gang Perwira Belwis",
-                "hobbi": "Main",
+                "asal": "Tulang Bawang Barat",
+                "alamat": "Belwis",
+                "hobbi": "Main apapun",
                 "sosmed": "@allyapasha_",
-                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
+                "kesan": "Kakaknya asik dan juga pengertian. Terima kasih, Kak.",
                 "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
             },
             {
@@ -482,10 +482,10 @@ if menu == "Departemen PSDA":
                 "umur": "21",
                 "asal": "Tulang Bawang",
                 "alamat": "Sukarame",
-                "hobbi": "Voli",
-                "sosmed": "@shahid22_",
-                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
-                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
+                "hobbi": "Lari",
+                "sosmed": "@sahid22_",
+                "kesan": "Abangnya keren sekali.",
+                "pesan": "Semangat terus kedepannya bang."
             },
             {
                 "nama": "Daffa Ahmad Noval",
@@ -493,21 +493,21 @@ if menu == "Departemen PSDA":
                 "umur": "21",
                 "asal": "Jakarta",
                 "alamat": "Korpri",
-                "hobbi": "Cari masalah anak 23",
-                "sosmed": "@ahmadnoval_11",
-                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
-                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
+                "hobbi": "Rebahan",
+                "sosmed": "@ahmadnaufal_11",
+                "kesan": "Abangnya kalem banget.",
+                "pesan": "Sehat selalu ya bang, jangan keseringan rebahan bang."
             },
             {
                 "nama": "Daffa Hadyan Navista",
                 "nim": "123450025",
                 "umur": "21",
-                "asal": "Toraja",
-                "alamat": "Airan",
-                "hobbi": "Jahilin Miyor",
+                "asal": "Sumatera Barat",
+                "alamat": "Sebelah kost kak arienta",
+                "hobbi": "Jahilin Putri",
                 "sosmed": "@daffahdynn_",
-                "kesan": "Kakaknya asik dan baik banget. Terima kasih, Kak.",
-                "pesan": "Sehat selalu dan lancar terus urusannya, Kak."
+                "kesan": "Abang ini seru dan kocak.",
+                "pesan": "Semangat terus bang, jangan lupa istirahat."
             },
             {
                 "nama": "Benget Sidabutar",
@@ -517,8 +517,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Futsal",
                 "sosmed": "@sidabutar.26",
-                "kesan": "Senang bisa dibimbing sama Kakak. Keren!",
-                "pesan": "Semoga studinya lancar dan sukses terus ya, Kak."
+                "kesan": "Abang ini asik dan juga humoris",
+                "pesan": "Sukses terus untuk lomba futsalnya bang."
             },
             {
                 "nama": "Muhammad Ridwan",
