@@ -1122,7 +1122,7 @@ if menu == "Departemen Eksternal":
                 "hobbi": "Jalan - Jalan",
                 "sosmed": "@bylaash",
                 "kesan": "Kak Nabyla, santai dan asik, dan seru diajak ngobrol.", 
-                "pesan":"Tetap semangat ya kak, semoga kuliahnya lancar dan menyenangkan.""# 1
+                "pesan":"Tetap semangat ya kak, semoga kuliahnya lancar dan menyenangkan."# 1
             },
             {
                 "nama": "Syahrialdi Rachim Akbar ",
