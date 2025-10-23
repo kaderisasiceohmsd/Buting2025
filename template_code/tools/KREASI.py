@@ -456,4 +456,3 @@ with st.expander("🏅 Riwayat & Leaderboard (Sesi Ini)"):
 # ----------------------------- FOOTER -----------------------------
 st.markdown("<div class='hr'></div>", unsafe_allow_html=True)
 st.caption("Model simulasi edukatif (bukan data real). Elegan biru–emas, animasi hujan & lightning, grafik HTML/CSS. • © 2025 Kelompok ANOVA HMSD Adyatama.")
-
