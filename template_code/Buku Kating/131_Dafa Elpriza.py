@@ -115,7 +115,7 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Sangat berwibawa dan keren",  
+                "kesan": "Keren dan kece banget",  
                 "pesan":"Semangat terus bang menjalani hidup sebagai ketua"# 1
             },
             {
@@ -759,6 +759,7 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1C7Kv_59YYs2I5GeX1Y12jEJEo50VI1D_",
             "https://drive.google.com/uc?export=view&id=19ZCvTvbbvgJxwpCBsxtid4FhcAXhpteZ",
             "https://drive.google.com/uc?export=view&id=1qJeSon477Gl9IosG8lkpzyl0MbE0i7x0",
+
         ]
         data_list = [
             {
@@ -1306,7 +1307,7 @@ if menu == "Departemen Eksternal":
 if menu == "Departemen Internal":
     def internal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1wNba2tBk1Z4zDUL3VM2AeivdFxySjpuh",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
