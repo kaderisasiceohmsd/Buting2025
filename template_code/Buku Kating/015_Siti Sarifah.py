@@ -358,3 +358,60 @@ if menu == "Baleg":
         ]
         display_images_with_data(gambar_urls, data_list)
     baleg()
+
+if menu == "Senator":
+    def senator():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1l_833Al4qQRIr5o054CZJE-3QEZ8bhIk",
+            "https://drive.google.com/uc?export=view&id=1NEGvOVpUos8MtleRyYRGHWOp2YfUUFP3",
+            "https://drive.google.com/uc?export=view&id=1yIRNf7IyvztQ71H7sCHcuiVcCvBDkR4K",
+            "https://drive.google.com/uc?export=view&id=1PTWaNH5trAaPx2GeesJDkfVnxv_XZa7H",
+        ]
+        data_list = [
+            {
+                "nama": "Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal":"Palembang",
+                "alamat": "tanya caesar",
+                "hobbi": "Padel",
+                "sosmed": "@bintangtwinkle",
+                "kesan": "Abang nya asik, pembawaannya santai jadi ga tegang",  
+                "pesan":"semangat terus kuliahnya bang, semoga suka AU 1920 hehe"
+            },
+            {
+                "nama": "Nadya Ratu Anjani",
+                "nim": "123450089",
+                "umur": "20",
+                "asal":"Jakarta",
+                "alamat": "Belakang Indomaret belwis",
+                "hobbi": "Maen Roblox",
+                "sosmed": "@nadyaanjani",
+                "kesan": "Kakak ini cantik dan ramah bangett",  
+                "pesan":"semangat terus kuliahnya kakak !!!"
+            },
+            {
+                "nama": "Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal":"Jakarta",
+                "alamat": "Asrama TB1",
+                "hobbi": "like instagram",
+                "sosmed": "@fathinahnazzh",
+                "kesan": "Kakak ini asik dan ramah banget",  
+                "pesan":"semangat terus kuliahnya kakak !!!"
+            },
+            {
+                "nama": "Lia Hana Ichisasmita ",
+                "nim": "123450083",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Dengerin Lagu",
+                "sosmed": "@lia.h_264",
+                "kesan": "Kakak ini asik dan ramah bangett",  
+                "pesan":"semangat terus kuliahnya kakak !!!"
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    senator()
