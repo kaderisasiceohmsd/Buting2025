@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1zp6VWy9DeIQkWwoUUymhrx7b3V8S70tx-",#1 bang rendra
-            "https://drive.google.com/uc?export=view&id=1BdgfSiaj2_DZuhcXL4wKUd4GrbDZHZut",#2 bang jo
-            "https://drive.google.com/uc?export=view&id=1XCtwVUPJ7NpccoSI0r92j8ThSreQy3DB",#3kak elisabeth
-            "https://drive.google.com/uc?export=view&id=1zd9w3nbXeeFwlLuoWxcVGpOM7l2aBY_a",#4 kak eksanty
-            "https://drive.google.com/uc?export=view&id=1v-BGfYwYJa02Am8BxeDTlonkbdcOHRTf",#5 kak farahanum
-            "https://drive.google.com/uc?export=view&id=1jqt4j07foAe6H-odGXWaNkUxzr7sCBGz",#6 kak puspa
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
@@ -179,20 +179,20 @@ if menu == "Kesekjenan":
 elif menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1ab5P1st2pklMcOuDW7VyypDDiToc_knW",#1 BANG JEREMIA
-            "https://drive.google.com/uc?export=view&id=1PmH_uOdlbihptrJh_IUugA0TfF0JvwWZ",#2 KAK DHEA
-            "https://drive.google.com/uc?export=view&id=1C0--aFzi5vC6vuM0KL6L5C4T2BPMpMu_",#3 KAK RENISHA
-            "https://drive.google.com/uc?export=view&id=1PT-HPU5KgsFWV2bcRZqs14gM3wmoaMu3",#4 KAK ANISA
-            "https://drive.google.com/uc?export=view&id=1jML6EWaQ1OB1pUIra5uC2vEhRnRyqNiE",#5 BANG DHARU
-            "https://drive.google.com/uc?export=view&id=1xyI_Koadz_T_1nhJ4BWE60kMVKlYfmFy",#6 KAK FEBY
-            "https://drive.google.com/uc?export=view&id=1YSDM2epbhN9sA-7bUVZ-etPmE_epK74V",#7 BANG GIVARO
-            "https://drive.google.com/uc?export=view&id=1AiDjz9uIqAWyiaDuJUG2XAmbeKeBpMjF",#8 BANG MIRZAN
-            "https://drive.google.com/uc?export=view&id=1dC_DB81-L0QXkqI1logUeiE1N2bohlK3",#9 KAK BERLIANA
-            "https://drive.google.com/uc?export=view&id=1HmFQd72gL24IwZOHZBIq4lXf_GpNhThr",#10 KAK JUE
-            "https://drive.google.com/uc?export=view&id=13PeJL91C0xqWnwnrT9vTptQZ2ZFFB8V_",#11 BANG RIDHO
-            "https://drive.google.com/uc?export=view&id=1Jw4iTRv-duIlXm3lhBDMjZx2e9Hpoipg",#12 BANG FERDI
-            "https://drive.google.com/uc?export=view&id=1t_MccxfK3bwBDVodMBkZk_iP_ZoXOu1M",#13 KAK MONICA
-            "https://drive.google.com/uc?export=view&id=19WklJSpfVZc1-Pe6GTnuOU6Q-jInpGEv",#14 KAK WAWA
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
@@ -205,6 +205,7 @@ elif menu == "Baleg":
                 "sosmed": "@jeremia_s_",
                 "kesan": "Aabangnya humoris banget suka becanda terus",  
                 "pesan":"Mau liat sidang bangg"# 1
+            
             },
             {
                 "nama": "Dhea Amelia Putri",
