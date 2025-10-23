@@ -1337,7 +1337,7 @@ if menu == "Departemen Internal":
     def DepartemenInternal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1n5ZpBpsf2ooqNbiL5nPn37Dyd04Fx-Ar",
-            "https://drive.google.com/uc?export=view&id=1bRZ06lbBu0lE3QmnEEv792iW47uq7IcJ",
+            "https://drive.google.com/uc?export=view&id=1Z7eNAZ1ug6vHAMw_PHATgTxDZk86fn4b",
             "https://drive.google.com/uc?export=view&id=1Kyirsk2dD9Q7iOPudHPYj3ANKgdceNI0",
             "https://drive.google.com/uc?export=view&id=1OoUSqPpJulORYr1aA1DOZsZWpkstopPV",
             "https://drive.google.com/uc?export=view&id=1cenFq_VLADu2pmbGs4rL6Wtomm4uE7FF",
