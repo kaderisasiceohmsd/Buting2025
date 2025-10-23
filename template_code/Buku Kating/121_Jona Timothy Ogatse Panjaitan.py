@@ -1039,7 +1039,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1w_Nf8k90iM-qvBDSOVf9AOIlq7oe1Bz6",
             "https://drive.google.com/uc?export=view&id=18H0_f50diRiEXWRU-7Z9CXIKlaNTEW7i",
             "https://drive.google.com/uc?export=view&id=12mDto_nA5pnz4G4KIx9gRG-nopt5GiSV",
-            "https://drive.google.com/uc?export=view&id=1E0by_E6KJdQTNo0X9mtDGdGozmHchh",
+            "https://drive.google.com/uc?export=view&id=1E0by_E6KJdQTNo0X9mtDGdGozmHchhwK",
             "https://drive.google.com/uc?export=view&id=1fLN_Uwa2Wj0hR2bXiyt3Sjmc3Oa9Ph5f",
             "https://drive.google.com/uc?export=view&id=1riUdmGLbuR4QHZiq4KBVbUj5-jYV_Eu3",
             "https://drive.google.com/uc?export=view&id=1VpF-1Yj_wenjOFcB1H0WZup5TBxkyULK",
