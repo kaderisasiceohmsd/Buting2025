@@ -775,30 +775,30 @@ if menu == "Departemen Internal":
 if menu == "Departemen Eksternal":
     def eksternal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1KFBiogLRQdKG638ZS2-DJlIEUN3DISro", #1
-            "https://drive.google.com/uc?export=view&id=10vljcLHDfccr18xJil6EL3gD1P-04Ys-", #2
-            "https://drive.google.com/uc?export=view&id=1LdTNnUiADJc11dr0d1TCxjDTOFO5kyEK", #3
-            "https://drive.google.com/uc?export=view&id=1iv8dOeTrLBo1T25c0Vtjq6OvhjNLOb08", #4
-            "https://drive.google.com/uc?export=view&id=1oT_BIHVJPn0d_Tb7UOjl7l8DLaB43XZj", #5
-            "https://drive.google.com/uc?export=view&id=1AXXHqn67HOmwqeasLuGwF8-oclcIti_7", #6
-            "https://drive.google.com/uc?export=view&id=1_7kXkNnVqe6tmbofNRNcY6cRg0keDjIi", #7
-            "https://drive.google.com/uc?export=view&id=1DErY-9OKWDsAhLIuwIb-fqTUKhiK7Exz", #8
-            "https://drive.google.com/uc?export=view&id=1WzJdNiFprDI5IlHqmQHnYU5UYacd71Uc", #9
-            "https://drive.google.com/uc?export=view&id=10QHOshTCAgpWLLoqE6Nl7bs95ZDZ8eT4", #10
-            "https://drive.google.com/uc?export=view&id=1-y0bbFuZRJ-SPVcCVlh5BjvyFGdf20W6", #11
-            "https://drive.google.com/uc?export=view&id=1b-tTegJztzLA5h9-3g_Oo0Zln-IhG4Iu", #12
-            "https://drive.google.com/uc?export=view&id=1d5C9rtW1J-GCivfpMGgF6PVRAh4wenuy", #13
-            "https://drive.google.com/uc?export=view&id=1Yp0fykA_dqkaw1KU2j7E6IAoE8g-gpqR", #14
-            "https://drive.google.com/uc?export=view&id=1otiH3dFJcinEEhnv-neVwDxt0aQDCBe8", #15
-            "https://drive.google.com/uc?export=view&id=1ZJayztozYXozcxfIKVOT4rKznnnXUotv", #16
-            "https://drive.google.com/uc?export=view&id=12hueBSGhDKTc35DlgRr9SfHC_HKGxQiw", #17
-            "https://drive.google.com/uc?export=view&id=1HY0GkJFc5y-57tRchMjF-P7nSlK9KQ87", #18
-            "https://drive.google.com/uc?export=view&id=1fzKq1y1o6Zz9nXQB4nR1bQO84MCV_iUl", #19
-            "https://drive.google.com/uc?export=view&id=1MkHOsvzpgI8vC2r1MDsNKQscRsWJozU-", #20
-            "https://drive.google.com/uc?export=view&id=168g8lzcDNh7hoJlOGUYMkfiiG1DxzMx4", #21
-            "https://drive.google.com/uc?export=view&id=17PUcthsOFG4OF3KpMPX7pRGbhks6qWTy", #22
-            "https://drive.google.com/uc?export=view&id=1BH9rXKEvYNGGQut5KndWtDAD_cgAlNrH", #23
-            "https://drive.google.com/uc?export=view&id=1BH9rXKEvYNGGQut5KndWtDAD_cgAlNrH", #24
+            "https://drive.google.com/uc?export=view&id=1MDFfCGuV6m6H-sBYTxasaAYm0TNmRvd3", #1
+            "https://drive.google.com/uc?export=view&id=1s-mkxNW3sNe9RtIwpncwRT4asAGn3_cd", #2
+            "https://drive.google.com/uc?export=view&id=10QHOshTCAgpWLLoqE6Nl7bs95ZDZ8eT4", #3
+            "https://drive.google.com/uc?export=view&id=1Yp0fykA_dqkaw1KU2j7E6IAoE8g-gpqR", #4
+            "https://drive.google.com/uc?export=view&id=1otiH3dFJcinEEhnv-neVwDxt0aQDCBe8", #5
+            "https://drive.google.com/uc?export=view&id=1-y0bbFuZRJ-SPVcCVlh5BjvyFGdf20W6", #6
+            "https://drive.google.com/uc?export=view&id=1d5C9rtW1J-GCivfpMGgF6PVRAh4wenuy", #7
+            "https://drive.google.com/uc?export=view&id=1b-tTegJztzLA5h9-3g_Oo0Zln-IhG4Iu", #8
+            "https://drive.google.com/uc?export=view&id=1x7FwEyaPoinW6sw1wgQrsyicAunVNvTt", #9
+            "https://drive.google.com/uc?export=view&id=1HY0GkJFc5y-57tRchMjF-P7nSlK9KQ87", #10
+            "https://drive.google.com/uc?export=view&id=1fzKq1y1o6Zz9nXQB4nR1bQO84MCV_iUl", #11
+            "https://drive.google.com/uc?export=view&id=1y-0Q35uQIOgq9NdRsx149zAzk4cw7Skh", #12
+            "https://drive.google.com/uc?export=view&id=1BH9rXKEvYNGGQut5KndWtDAD_cgAlNrH", #13
+            "https://drive.google.com/uc?export=view&id=1BH9rXKEvYNGGQut5KndWtDAD_cgAlNrH", #14
+            "https://drive.google.com/uc?export=view&id=1gthyOLUmjcSPoUJ02Knd9PNxtGaCUPmP", #15
+            "https://drive.google.com/uc?export=view&id=12hueBSGhDKTc35DlgRr9SfHC_HKGxQiw", #16
+            "https://drive.google.com/uc?export=view&id=17PUcthsOFG4OF3KpMPX7pRGbhks6qWTy", #17
+            "https://drive.google.com/uc?export=view&id=146QNgcfaW8zBWST3dxsTJrn8yRl7IP35", #18
+            "https://drive.google.com/uc?export=view&id=1AXXHqn67HOmwqeasLuGwF8-oclcIti_7", #19
+            "https://drive.google.com/uc?export=view&id=1oT_BIHVJPn0d_Tb7UOjl7l8DLaB43XZj", #20
+            "https://drive.google.com/uc?export=view&id=1iv8dOeTrLBo1T25c0Vtjq6OvhjNLOb08", #21
+            "https://drive.google.com/uc?export=view&id=1WzJdNiFprDI5IlHqmQHnYU5UYacd71Uc", #22
+            "https://drive.google.com/uc?export=view&id=1_7kXkNnVqe6tmbofNRNcY6cRg0keDjIi", #23
+            "https://drive.google.com/uc?export=view&id=1DErY-9OKWDsAhLIuwIb-fqTUKhiK7Exz", #24
         ]
         data_list = [
             {
@@ -1876,6 +1876,7 @@ if menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
