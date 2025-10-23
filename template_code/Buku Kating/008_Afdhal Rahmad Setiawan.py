@@ -185,16 +185,16 @@ if menu == "Baleg":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1w8dGpYovtOqTBO6pOVE8GiAxaaNFWXP0",
             "https://drive.google.com/uc?export=view&id=1StEkSjP44w_lWNAAVja5BTliF6fIMIzE",
-            "https://drive.google.com/uc?export=view&id=17qXZAZuofv4yfdhxyrqIVFYwTfQEmFJB",
-            "https://drive.google.com/uc?export=view&id=1GtWwZuoQJ0PTHe_GsHNJUUR_hZqEGdEG",
-            "https://drive.google.com/uc?export=view&id=1SSIUGgQ_RTDD3u2M8PqgF-Sy4AdnQHN8",
             "https://drive.google.com/uc?export=view&id=19RMmC16fSiDJHs0fn0hT3mZbUUeTlmk8",
+            "https://drive.google.com/uc?export=view&id=17qXZAZuofv4yfdhxyrqIVFYwTfQEmFJB",
             "https://drive.google.com/uc?export=view&id=1teQuY7Kl8QymoWQP3LzL3lTPa2ORXNKR",
             "https://drive.google.com/uc?export=view&id=1lj43e6zC_Ig5gx1IYx3LzrUAEiY3TtnH",
             "https://drive.google.com/uc?export=view&id=1qyAaTGvI8guTupASfZtePyybyU2mDimb",
+            "https://drive.google.com/uc?export=view&id=1GtWwZuoQJ0PTHe_GsHNJUUR_hZqEGdEG",
             "https://drive.google.com/uc?export=view&id=175nFnPD_eL26vV1a8Mqsgr7d0e0xg5-T",
             "https://drive.google.com/uc?export=view&id=1sLQ87k4weNZK0y90xcQCfAjCSVrLbFbo",
             "https://drive.google.com/uc?export=view&id=1hpmF_0K1zMa5tfF9zXlPk4owATD-DrY5",
+            "https://drive.google.com/uc?export=view&id=1SSIUGgQ_RTDD3u2M8PqgF-Sy4AdnQHN8",
             "https://drive.google.com/uc?export=view&id=1OUWpViJfqnk2PdHqt76121u-4tz3Mm2D",
             "https://drive.google.com/uc?export=view&id=10H0TH_Wn9JOlDclNJDfBATcm2TWdM_wK",
         ]
@@ -222,6 +222,17 @@ if menu == "Baleg":
                 "pesan":"lancar terus kuliahnya kak"
             },
             {
+               "nama": "Renisha Putri Giani",
+                "nim": "122450079",
+                "umur": "22",
+                "asal":"Teluk, Bandar Lampung",
+                "alamat": "Teluk, Bandar Lampung",
+                "hobbi": "Tidur",
+                "sosmed": "@Renishapg",
+                "kesan": "kakak yang asik dan ramah",
+                "pesan":"lancar terus kuliahnya kak"
+            },
+            {
                 "nama": "Anisa Fitriyani",
                 "nim": "122450019",
                 "umur": "19",
@@ -231,39 +242,6 @@ if menu == "Baleg":
                 "sosmed": "@ansftynn_",
                 "kesan": "asik dan keren",
                 "pesan":"semangat terus kuliahnya kak"
-            },
-            {
-                "nama": "Mirzan Yusuf Rabbani",
-                "nim": "122450118",
-                "umur": "21",
-                "asal":"Jakarta",
-                "alamat": "Korpri",
-                "hobbi": "Tidur",
-                "sosmed": "@myrrinn",
-                "kesan": "abang paling kalem dan dingin",
-                "pesan":"lancar terus kuliahnya bang"
-            },
-            {
-                "nama": "Feryadi Yulius",
-                "nim": "122450087",
-                "umur": "21",
-                "asal":"Bandung",
-                "alamat": "Way kandis",
-                "hobbi": "Baca buku",
-                "sosmed": "@fer_yulius",
-                "kesan": "keren dan tenang",
-                "pesan":"cepat lulus nya bang"
-            },
-            {
-                "nama": "Renisha Putri Giani",
-                "nim": "122450079",
-                "umur": "22",
-                "asal":"Teluk, Bandar Lampung",
-                "alamat": "Teluk, Bandar Lampung",
-                "hobbi": "Tidur",
-                "sosmed": "@Renishapg",
-                "kesan": "kakak yang asik dan ramah",
-                "pesan":"lancar terus kuliahnya kak"
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
@@ -277,7 +255,7 @@ if menu == "Baleg":
                 "pesan":"sukses terus jadi mapres nya bang"
             },
             {
-                "nama": "Feby Wulandari",
+               "nama": "Feby Wulandari",
                 "nim": "123450042",
                 "umur": "17",
                 "asal":"Bekasi",
@@ -299,6 +277,17 @@ if menu == "Baleg":
                 "pesan":"lancar terus kuliahnya bang"
             },
             {
+               "nama": "Mirzan Yusuf Rabbani",
+                "nim": "122450118",
+                "umur": "21",
+                "asal":"Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Tidur",
+                "sosmed": "@myrrinn",
+                "kesan": "abang paling kalem dan dingin",
+                "pesan":"lancar terus kuliahnya bang"
+            },
+            {
                 "nama": "Berliana Enda Putri",
                 "nim": "124450065",
                 "umur": "21",
@@ -310,7 +299,7 @@ if menu == "Baleg":
                 "pesan":"tetap semangat kuliahnya kak"
             },
             {
-                "nama": "Juesi Apridelia Saragih",
+               "nama": "Juesi Apridelia Saragih",
                 "nim": "123450085",
                 "umur": "19",
                 "asal":"Sumatera Utara",
@@ -321,7 +310,7 @@ if menu == "Baleg":
                 "pesan":"semangat terus sampai sarjana kak"
             },
             {
-                "nama": "Ridho Benedictus Togi Manik",
+               "nama": "Ridho Benedictus Togi Manik",
                 "nim": "123450060",
                 "umur": "19",
                 "asal":"Medan",
@@ -330,6 +319,17 @@ if menu == "Baleg":
                 "sosmed": "@iamridhomanik",
                 "kesan": "abang yang paling asik dan keren",
                 "pesan":"lancar terus karir nya bang"
+            },
+            {
+                "nama": "Feryadi Yulius",
+                "nim": "122450087",
+                "umur": "21",
+                "asal":"Bandung",
+                "alamat": "Way kandis",
+                "hobbi": "Baca buku",
+                "sosmed": "@fer_yulius",
+                "kesan": "keren dan tenang",
+                "pesan":"cepat lulus nya bang"
             },
             {
                 "nama": "Monica Patricia Tanjung",
