@@ -1,6 +1,6 @@
 # =========================
 # ANOVA ODYSSEY – EXPERT EDITION (no external deps)
-# Theme: Elegant ANOVA (light-blue + gold)
+# Theme: ANOVA (light-blue + gold)
 # Animations: progress bar, balloons, soft transitions
 # Logic: Full one-way ANOVA (manual), F-critical lookup (alpha=0.05)
 # Visuals: HTML/CSS 'charts' (means & variances), data table, lab-style report
@@ -598,3 +598,4 @@ st.caption(
     "Catatan: Tabel F-kritikal disediakan untuk α=0.05 dan df terbatas dengan interpolasi sederhana; "
     "untuk α=0.10 dan 0.01 digunakan skala pendekatan. Cukup akurat untuk tujuan edukasi & gameplay."
 )
+
