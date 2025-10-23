@@ -1,16 +1,21 @@
 import streamlit as st
 
-# Tambahkan CSS gradien ke background
+# CSS untuk membuat background gradient
 st.markdown("""
     <style>
+    /* Background utama */
     [data-testid="stAppViewContainer"] {
         background: linear-gradient(135deg, #A1C2BD, #456882);
     }
-    [data-testid="stHeader"] {
-        background: rgba(0,0,0,0);
-    }
+
+    /* Sidebar */
     [data-testid="stSidebar"] {
         background: linear-gradient(180deg, #456882, #A1C2BD);
+    }
+
+    /* Header transparan agar menyatu */
+    [data-testid="stHeader"] {
+        background: rgba(0,0,0,0);
     }
     </style>
     """,
