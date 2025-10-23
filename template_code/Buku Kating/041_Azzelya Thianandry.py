@@ -1512,8 +1512,8 @@ if menu == "Departemen SSD":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@dananghk_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kakak punya pembawaan yang kalem tapi matanya selalu fokus.",
+                "pesan": "Semoga ketenangan itu terus jadi kekuatan Kakak ke mana pun pergi."
             },
             {
                 "nama": "Syalaisha Andina Putriansyah",
@@ -1523,8 +1523,8 @@ if menu == "Departemen SSD":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@syalaishaa_31",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kakak punya tawa yang khas banget, gampang bikin orang ikut senyum.",
+                "pesan": "Semoga hidup Kakak selalu punya alasan buat ketawa kayak gitu lagi."
             },
             {
                 "nama": "Ahmad Rizqi",
@@ -1534,8 +1534,8 @@ if menu == "Departemen SSD":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@den_iki_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kakak kelihatan santai, tapi dari caranya ngomong keliatan banyak mikir dulu.",
+                "pesan": "Semoga cara hati-hati itu terus bantu Kakak milih hal-hal baik."
             },
             {
                 "nama": "Anadia Carana",
@@ -1545,8 +1545,8 @@ if menu == "Departemen SSD":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@anadiacrn_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kakak punya gaya yang simpel tapi selalu keliatan pas di tiap suasana.",
+                "pesan": "Semoga kesederhanaan itu terus jadi ciri khas Kakak."
             },
             {
                 "nama": "Aprilia Dewi Hutapea",
@@ -1556,8 +1556,8 @@ if menu == "Departemen SSD":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@aprhtp_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kakak pendiam tapi ekspresinya kadang nyelip lucu tanpa sengaja.",
+                "pesan": "Semoga sisi spontan itu nggak ilang, Kak, justru itu yang bikin hidup ringan."
             },
             {
                 "nama": "Nabila Zakiyah Zahra",
@@ -1567,8 +1567,8 @@ if menu == "Departemen SSD":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@nabila_zazahra",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kakak punya tatapan yang dalam, kayak selalu ada hal yang dipikirin.",
+                "pesan": "Semoga semua hal yang Kakak pikirin pelan-pelan jadi hal yang baik."
             },
             {
                 "nama": "Dhafin Razaqa Luthfi",
@@ -1578,19 +1578,19 @@ if menu == "Departemen SSD":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@dhafinrzqa13",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kakak punya vibe tenang tapi kuat, kayak nggak gampang keganggu.",
+                "pesan": "Semoga keteguhan itu tetap ada bahkan di hari-hari yang berat."
             },
             {
                 "nama": "Devi Rahayu",
                 "nim": "123450010",
                 "umur": "-",
                 "asal": "-",
-                "alamat": "-",
+                "alamat": "",
                 "hobbi": "-",
                 "sosmed": "@deviirhyu",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kakak punya gaya ngomong yang lembut tapi tetap tegas.",
+                "pesan": "Semoga keseimbangan itu terus kebawa di tiap langkah Kakak."
             },
             {
                 "nama": "Enggli Rahmadhani",
@@ -1600,8 +1600,8 @@ if menu == "Departemen SSD":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@englirahmdhanii",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kakak punya cara senyum yang tulus banget, kerasa dari jauh.",
+                "pesan": "Semoga Kakak selalu dikelilingi hal-hal yang bikin senyum itu tetap muncul."
             },
             {
                 "nama": "Hanifah Inaya Sani",
@@ -1611,8 +1611,8 @@ if menu == "Departemen SSD":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@_inayasari",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kakak terlihat kalem, tapi kadang celetukannya nyeleneh dan bikin ketawa.",
+                "pesan": "Jangan ilangin sisi lucu itu ya, Kak, pas banget buat nyantai."
             },
             {
                 "nama": "Nydia Manda Putri",
@@ -1622,8 +1622,8 @@ if menu == "Departemen SSD":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@nydiaaptr_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kakak punya gaya jalan yang ringan, kayak nggak pernah diburu waktu.",
+                "pesan": "Semoga langkah Kakak selalu ringan juga di jalan yang Kakak pilih."
              },
         ]
         display_images_with_data(gambar_urls, data_list)
