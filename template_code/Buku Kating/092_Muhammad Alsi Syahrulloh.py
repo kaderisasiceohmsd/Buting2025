@@ -181,20 +181,20 @@ if menu == "Kesekjenan":
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1iDl4JLIP3XjfS8Sy9uSBLnHHsTQ9YdPm",
+            "https://drive.google.com/uc?export=view&id=178FuYOTx-INMe_TxClkQWB66szatuWJB",
+            "https://drive.google.com/uc?export=view&id=13vQ2zF-uXuXsVwyW-4g3AXG9TgFM8tcC",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1YzLGRDTe1oIGzh98DTgddflSvTJQp69Z",
+            "https://drive.google.com/uc?export=view&id=11VxCJ04eN1w6R9WM8QRBHGXOx39XB8Sy",
+            "https://drive.google.com/uc?export=view&id=1qJsfTKMyswbhancS5N0wJjzJKUuG2Knm",
+            "https://drive.google.com/uc?export=view&id=1XiqbhEt76FGMa9BD8-lElS5BNw9Qe8pj",
+            "https://drive.google.com/uc?export=view&id=11mz6oZEOlV-JDcRNtfbMKcHJtiZtaVx7",
+            "https://drive.google.com/uc?export=view&id=1mX22eYo55tcsCJSb7MBngyGiK_Hfgpn4",
+            "https://drive.google.com/uc?export=view&id=1cqn8es4SWHIAoaV4TkX-bWBxVuFBjW58",
+            "https://drive.google.com/uc?export=view&id=1D9z5SgIGDPfHoVgXMb7aaA7a-5r5QWmE",
+            "https://drive.google.com/uc?export=view&id=1YfzzgwyF0UL5H4H-410P4A3qDkRZHAyN",
         ]
         data_list = [
             {
@@ -456,36 +456,36 @@ if menu == "Departemen PSDA":
             },
            {
                 "nama": "Nisrina Nur Afifah",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
+                "nim": "122450033",
+                "umur": "20",
+                "asal":"jawa barat",
+                "alamat": "korpri",
+                "hobbi": "mikir",
+                "sosmed": "@afifahhnsrn",
                 "kesan": "",  
                 "pesan":""# 1
             },
              {
                 "nama": "Allya Nurul Islami Pasha",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
+                "nim": "122450033",
+                "umur": "21",
+                "asal":"Tulang Bawang Barat",
+                "alamat": "belwis",
+                "hobbi": "ngekader 24",
+                "sosmed": "Allyapasha_",
                 "kesan": "",  
-                "pesan":""# 1
+                "pesan":""
             },
               {
                 "nama": "Ahmad Rizky",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
+                "nim": "123450027",
+                "umur": "20",
+                "asal":"Tangsel",
+                "alamat": "Belwis",
+                "hobbi": "Main bola",
+                "sosmed": "Main bola",
                 "kesan": "",  
-                "pesan":""# 1
+                "pesan":""
             },
            {
                 "nama": "Arienta Khusnul Ananda",
@@ -496,7 +496,7 @@ if menu == "Departemen PSDA":
                 "hobbi": "",
                 "sosmed": "",
                 "kesan": "",  
-                "pesan":""# 1
+                "pesan":""
             },
             {
                 "nama": "Daffa Hadyan Navista",
