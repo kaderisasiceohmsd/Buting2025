@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Sangat berwibawa dan keren",  
-                "pesan":"Semangat terus bang menjalani hidup sebagai ketua"# 1
+                "kesan": "Keren dan Berwibawa",  
+                "pesan":"Sukses terus ya bang, tetap jadi panutan!"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Keren banget karna ngajarin ilmu data sains",  
-                "pesan":"Semoga kehidupan kuliahnya berjalan mulus"# 1
+                "kesan": "Selalu ramah dan gampang diajak ngobrol",  
+                "pesan":"Semoga makin sukses dan terus menginspirasi"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Korpri",
                 "hobbi": "Cutekahim",
                 "sosmed": "@farahanumafifah",
-                "kesan": "Bisa ada diposisi ini aja udah keren banget",  
-                "pesan":"Semoga ga banyak masalah menghampiri"# 1
+                "kesan": "Lembut, Ramah, dan selalu bikin suasana nyaman.",  
+                "pesan":"Sukses terus ya kak, semoga makin bersinar di setiap langkah!"# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Udah hobi membaca, punya posisi penting pula",  
-                "pesan":"Semoga lancar-lancar saja kehidupannya"# 1
+                "kesan": "Anggun, ramah, dan selalu murah senyum",  
+                "pesan":"Semoga kakak makin bersinar di setiap langkahnya."# 1
             },
             {
                 "nama": "Eksanty Febriana Sugma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Asrama TB 4",
                 "hobbi": "Nahan Eeq",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Walau hobbynya ngawur, tapi bisa berada di posisi penting haha",  
-                "pesan":"Semoga tidak ada masalah yang menghampiri"# 1
+                "kesan": "Asik, orangnya ceria dan gampang akrab sama siapa aja.",  
+                "pesan":"Semoga semangatnya ga akan pernah padam dan sukses selalu."# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Agrest Kost",
                 "hobbi": "Nahan Pipis",
                 "sosmed": "@celisabethh_",
-                "kesan": "Hobbynya ngawur, tapi megang posisi penting",  
-                "pesan":"Semoga lancar kehidupan kuliahnya"# 1
+                "kesan": "Lucu, rame dan kocak abis",  
+                "pesan":"Jangan pernah berubah ya kak, dunia butuh orang se-random kakak"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
