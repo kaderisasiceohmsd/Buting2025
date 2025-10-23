@@ -282,7 +282,7 @@ elif menu == "Baleg":
                 "hobbi": "ngerawat kucing",
                 "sosmed": "@myrrinn",
                 "kesan": "Abangnya kalem banget, pembawaannya tenang tapi tetep friendly",  
-                "pesan":"Semoga selalu diberi kemudahan dan kebahagiaan dalam setiap langkah!
+                "pesan":"Semoga selalu diberi kemudahan dan kebahagiaan dalam setiap langkah!"# 1
             {
                 "nama": "Berliana Enda Putri",
                 "nim": "122450065",
@@ -1857,5 +1857,6 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
