@@ -496,7 +496,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Kost Orange",
                 "hobbi": "Ngekader",
                 "sosmed": "@arientakhsnl_",
-                "kesan": "",  
+                "kesan": "kak arin cantikk lucuu, ",  
                 "pesan":""# 1
             },
             {
@@ -1377,7 +1377,7 @@ elif menu == "Departemen Internal":
                 "alamat": "Sukabumi",
                 "hobbi": "Membersihkan rumah",
                 "sosmed": "@haikalsbln_",
-                "kesan": "Abang Haikal ternyata asik banget, awalnya keliatan serius",  
+                "kesan": "Abang Haikal ternyata asik, awalnya keliatan serius",  
                 "pesan":"Semangat terus kuliahnya Bang Haikal!"# 1
             },
             {
@@ -1666,7 +1666,7 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Jatimulyo",
                 "hobbi": "Sleep call",
                 "sosmed": "@patriciadiajeng",
-                "kesan": "Kakaknya cantik, kalem, dan cara bicaranya enak banget didengar",  
+                "kesan": "Kakaknya cantik, asikk seruu, dan cara bicaranya enak banget didengar",  
                 "pesan":"Semangat terus ya kak! Tetap jadi pribadi yang lembut tapi kuat"# 1
             },
             {
@@ -1688,7 +1688,7 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Pesawaran",
                 "hobbi": "Billiard dan voli",
                 "sosmed": "@mananam__",
-                "kesan": "Abangnya seru banget, gayanya santai tapi nyenengin kalau ngobrol",  
+                "kesan": "Abangnya seru, gayanya santai tapi nyenengin kalau ngobrol",  
                 "pesan":"Tetap semangat bang, semoga makin banyak hal keren yang bisa dicapai!"# 1
             },
             {
@@ -1859,6 +1859,7 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
 
