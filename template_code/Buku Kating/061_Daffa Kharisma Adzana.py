@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Makan Pisang",
                 "sosmed": "@_erendraa",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Ketua himpunan dengan bawaan yang tenang, ramah dan baik hati.",  
+                "pesan": "Semangat TA, semoga lahir kahim atau pemimpin-pemimpin yang rendah hati seperti abang dan lebih baik lagi kedepannya"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jalan Lapas",
                 "hobbi": "Baca buku sequel ",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Urak-urakan seperti ga niat kuliah tapi ternyata keren dan jago banget jiwa kepemimpinannya.",  
+                "pesan": "Semangat bang, terus jadi orang brutal tapi tetap dalam kebenaran"# 1
             },
               {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Ayres Kost",
                 "hobbi": "Gangguin Orang",
                 "sosmed": "@celisabethh_",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak cantik yang ramah dan lucu karena selalu nyapa duluan",  
+                "pesan": "Semoga TA nya lancar dan semua cita-cita keinginannya tercapai!"# 1
             },
               {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Tidur",
                 "sosmed": "@puspadrr",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak yang baik dan murah senyum",  
+                "pesan": "Semoga kulianya lancar."# 1
             },
             {
                 "nama": "Eksanty Febriana Sukma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Natar (Raden Intan)",
                 "hobbi": "Nemenin orang dari nol sampai jatuh ke jurang kemiskinan",
                 "sosmed": "@eksantyfebriana",
-                "kesan": " ",  
-                "pesan":" "# 1
+                "kesan": "Kakak cantik,ramah, dan lucu dengan vibes yang bahagia tapi rada takut sedikit karena agak sus.",  
+                "pesan":"Semangat kak, tetep lucu dan tebar kebahagiaan di orang sekitar."# 1
             },
              {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifah",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak lucu yang vibesnya duit banget.",  
+                "pesan": "Semangat kuliah, bentar lagi wisuda dikit lagi kok"# 1
             },
             
         ]
@@ -1876,4 +1876,5 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
