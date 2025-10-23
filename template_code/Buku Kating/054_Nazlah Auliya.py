@@ -445,7 +445,6 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1qtfy2cPVahlEnTeCBsNDKqepuvoImI6h",
             "https://drive.google.com/uc?export=view&id=1UlCtTEb829AEaDwAHyyzvZCgelpl0Q34",
         ]
-        ]
         data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",

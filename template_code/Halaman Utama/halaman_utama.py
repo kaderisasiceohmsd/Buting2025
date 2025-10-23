@@ -206,11 +206,11 @@ elif menu == "About Us":
                 "motto_hidup": "Man Jadda Wa Jadda",
             },
             {
-                "nama": "Nazlah",
+                "nama": "Nazlah Auliya",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450054",
+                "fun_fact": "susah hapalin nama orang baru",
+                "motto_hidup": "yang penting bisa makan",
             },
             {
                 "nama": "Razan",
