@@ -1315,7 +1315,7 @@ if menu == "Departemen Internal":
             "https://drive.google.com/uc?export=view&id=1q-4RZE-n8GkqKEFkMy4R-mjFve-8RVT5",
             "https://drive.google.com/uc?export=view&id=1O8F34RJXMgRp7hpZdRF_eNBhaBvTb6i_",
             "https://drive.google.com/uc?export=view&id=1XH2asmitL6HVW5ZIIwDIm4dZ5hqkg7hB",
-            "https://drive.google.com/uc?export=view&id=1O9C62Nbcf6cujeylnPaPwc0OVoy7clRn",
+            "https://drive.google.com/uc?export=view&id=1xZC5U1JhPGhiZJPGBEm44-bbefRIch9L",
             "https://drive.google.com/uc?export=view&id=1vDWjtXfXPUCAkwmcXy0Rg6i5gGxoAsCI",
             "https://drive.google.com/uc?export=view&id=1w-DxdB1rqvIkpLawdYT7vTTlnhAhQWFu",
             "https://drive.google.com/uc?export=view&id=1cXiRwG2ZkdAEQAkP6rAJIeJVaJs0S4HI",
@@ -1450,7 +1450,7 @@ if menu == "Departemen Internal":
                 "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal kita, Kak!"
             },
             {
-                "nama": "Keren Marito Lumba Gaol",
+                "nama": "Keren Marito Lumban Gaol",
                 "nim": "123450020",
                 "umur": "19",
                 "asal":"Bekasi",
@@ -1473,8 +1473,8 @@ if menu == "Departemen Internal":
             },
             {
                 "nama": "Muhammad Naufal Alghani",
-                "nim": "",
-                "umur": "",
+                "nim": "blm",
+                "umur": "blm",
                 "asal":"Surabaya",
                 "alamat": "Rajabasa",
                 "hobbi": "Mengaji",
@@ -1484,8 +1484,8 @@ if menu == "Departemen Internal":
             },
             {
                 "nama": "Zahra Putri Salsabilla",
-                "nim": "",
-                "umur": "",
+                "nim": "brp",
+                "umur": "gatau",
                 "asal":"Sumatera Utara",
                 "alamat": "Gerbang Barat",
                 "hobbi": "Memancing",
