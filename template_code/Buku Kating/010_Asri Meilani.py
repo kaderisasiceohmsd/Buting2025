@@ -793,7 +793,7 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur, berkembang",
                 "sosmed": "@randaadriana_",
-                "kesan": "Abang santai, seru, asik",  
+                "kesan": "Abang santai, ik",  
                 "pesan":"keep chill dan nonton windah bang!"# 1
             },
             {
