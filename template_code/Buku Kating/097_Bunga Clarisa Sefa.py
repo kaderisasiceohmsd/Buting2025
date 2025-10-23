@@ -1016,7 +1016,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1_OMUPZFWSr1-IOl8YotCaLUzojd-X57b",
             "https://drive.google.com/uc?export=view&id=1h5jFluM1G-VwBMGWaPeMwKJ_m9plm2Cc",
             "https://drive.google.com/uc?export=view&id=1uOoW6gZNUX37Yt0q3QFEjKD3Ut5PBgF4",
-            "https://drive.google.com/uc?export=view&id=1N57ZUWwsr9Jy2supGksgHaJ6i6FTnSge",
+            "https://drive.google.com/uc?export=view&id=1s3n_2g_Qj6pTQTFWOtyKPvPHcI2CQb8S",
             "https://drive.google.com/uc?export=view&id=11eldzSrcM-L7ApiGWNljVG7DQfJvlKFU",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=14DbQwYxYNRj8bhaBIsLkAhtaTWxDPqxd",
@@ -1025,15 +1025,15 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1V_AvOjVUyone_SElL5AGjp5Y_qjGdBa7",
             "https://drive.google.com/uc?export=view&id=1WjV-bg1Zc2gebPCKIxrKoy8WLmEXmnHb",
             "https://drive.google.com/uc?export=view&id=1XQ_iPZAh2n4GoloMx4Za6vP7Axcq_Fc3",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1TbuWtcHkt3CJ-kRGlIay4R47hk0nwEOf",
+            "https://drive.google.com/uc?export=view&id=1aSTdBkte9OQoDcmUrwpc96E7viyM7hct",
+            "https://drive.google.com/uc?export=view&id=1peMkzzUQqspnrTQD0RSnP-17Itw_4w2M",
+            "https://drive.google.com/uc?export=view&id=1l0AhZnLZSEXNhSZe9SMbB6cohuheqJgc",
+            "https://drive.google.com/uc?export=view&id=1TrcKkXQQw2e5YJkt_KWtOVaU2WMo4bxl",
+            "https://drive.google.com/uc?export=view&id=1DMt2szutMAYDSVbKHiLyNryUf0jYFGOp",
+            "https://drive.google.com/uc?export=view&id=1w48tbcP8OK744l1c7DMDKRPioqFs_Ly9",
+            "https://drive.google.com/uc?export=view&id=1etkDp0XoOiK2Xb2zGl9FNJr1pPfXJ0a1",
+            "https://drive.google.com/uc?export=view&id=1CXYPaS8BzwaOaYoMQvGfhVpM80clT1kF",
         ]
         data_list = [
             {
@@ -1358,6 +1358,17 @@ if menu == "Departemen Internal":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
+                "nama": "Azzahra Putri Kamila",
+                "nim": "123450013",
+                "umur": "20",
+                "asal":"Pekanbaru",
+                "alamat": "Asrama TB4",
+                "hobbi": "Memasak",
+                "sosmed": "@azza.rrr_",
+                "kesan": "Keren banget hobinya",  
+                "pesan":"Keep Going"# 1
+            },
+            {
                 "nama": "Rendi Alexander Hutagalu",
                 "nim": "122450057",
                 "umur": "21",
@@ -1422,18 +1433,7 @@ if menu == "Departemen Internal":
                 "sosmed": "@may_dahlia12",
                 "kesan": "Hobinya anak semester akhir",  
                 "pesan":"Lakukan yang terbaik"# 1
-            },
-            {
-                "nama": "Azzahra Putri Kamila",
-                "nim": "123450013",
-                "umur": "20",
-                "asal":"Pekanbaru",
-                "alamat": "Asrama TB4",
-                "hobbi": "Memasak",
-                "sosmed": "@azza.rrr_",
-                "kesan": "Keren banget hobinya",  
-                "pesan":"Keep Going"# 1
-            },
+            },          
             {
                 "nama": "Sarah Wasti",
                 "nim": "123450057",
@@ -1474,7 +1474,7 @@ if menu == "Departemen Internal":
                 "asal":"Surabaya",
                 "alamat": "Rajabasa",
                 "hobbi": "Mengaji",
-                "sosmed": "@rannipu",
+                 "sosmed": "@rannipu",
                 "kesan": "Keren banget hobinya",  
                 "pesan":"Keep Going"# 1
             },
