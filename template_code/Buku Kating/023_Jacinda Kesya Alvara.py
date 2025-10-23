@@ -431,7 +431,7 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1cfE-OekmsOg4Gko_gmwOh2jt2HfTUqfx",
             "https://drive.google.com/uc?export=view&id=1tEimluKjofO8CRbndWU22Y4WhmFL9g1N",
             "https://drive.google.com/uc?export=view&id=1qMZzqftEXnTxfMCrwaEnxsMd_VfXRGmh",
-            "https://drive.google.com/uc?export=view&id=1O6l2NOmQBio49mz66mQydeBJfPT1mp2i",
+            "https://drive.google.com/uc?export=view&id=1V8Mq59C8cIfgqF9f8U7En81tLoxZrJWq",
             "https://drive.google.com/uc?export=view&id=1v6l44o8yTIxeOnjW3DEmyw75cRGfU32n",
             "https://drive.google.com/uc?export=view&id=1CWwu-9f534KIgfTqMd8-mZ7SMmGa7KiN",
             "https://drive.google.com/uc?export=view&id=1b8IEx6jKnqd8tMLrj8bvCX2Tobml-w_h",
@@ -469,20 +469,20 @@ elif menu == "Departemen PSDA":
                 "nama": "Allya Nurul Islami Pasha",
                 "nim": "122450033",
                 "umur": "21",
-                "asal":"Sumatera Barat",
-                "alamat": "Gang Perwira",
-                "hobbi": "Main",
+                "asal":"Tulang Bawang Barat",
+                "alamat": "Belwis",
+                "hobbi": "Ngekader 24",
                 "sosmed": "@allyapasha_",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
                 "nama": "Ahmad Rizky",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450027",
+                "umur": "20",
+                "asal":"Tangerang Selatan",
+                "alamat": "Belwis",
+                "hobbi": "Main Bola",
                 "sosmed": "@ahmad.rizky___",
                 "kesan": "",  
                 "pesan":""# 1
@@ -500,10 +500,10 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Daffa Hadyan Navista",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
+                "nim": "123450025",
+                "umur": "21",
+                "asal":"Sumatera Barat",
+                "alamat": "Sebelah kost kak Arienta",
                 "hobbi": "",
                 "sosmed": "@daffahdynn_",
                 "kesan": "",  
@@ -511,11 +511,11 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Ginda Fajar Riadi Marpaung",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450103",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Kontrakan GH",
+                "hobbi": "Main Game",
                 "sosmed": "@ginda_mrp",
                 "kesan": "",  
                 "pesan":""# 1
@@ -533,11 +533,11 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Nobel Nizam Fathirizki",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450117",
+                "umur": "20",
+                "asal":"Pekanbaru",
+                "alamat": "Wisma Emas Setengah",
+                "hobbi": "Ngekader",
                 "sosmed": "@nobelnizam",
                 "kesan": "",  
                 "pesan":""# 1
@@ -577,11 +577,11 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Ali Aristo Muthahhari Parisi",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "123450088",
+                "umur": "20",
+                "asal":"Jabung,Lampung Timur",
+                "alamat": "Nangka 4",
+                "hobbi": "Main Game, Kulineran",
                 "sosmed": "@ali_parisi3",
                 "kesan": "",  
                 "pesan":""# 1
@@ -1006,4 +1006,5 @@ elif menu == "Departemen MIKFES":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMIKFES()
+
 
