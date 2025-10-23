@@ -416,7 +416,7 @@ if menu == "Senator":
 if menu == "Departemen PSDA":
     def Departemen_PSDA():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1whSOCnnS6mHpFvghRIQ08mbIpDgmMjZX",
+            "https://drive.google.com/uc?export=view&id=1tRY_15e4Vl3ssL7kAYV839exHejD1mti",
             "https://drive.google.com/uc?export=view&id=1Ie3FolUOHaYMzJkmUKHyqsD8_BhxzHln",
             "https://drive.google.com/uc?export=view&id=1E4vbVfyfC6mywYm_ZEZOpAFAKbB1GLyt",
             "https://drive.google.com/uc?export=view&id=1J03zTy7QQHYi14MNPCLCmBmySMHFtV7_",
