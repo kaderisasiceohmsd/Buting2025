@@ -182,7 +182,7 @@ if menu == "Baleg":
     def Baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1oL-zeRzcLMGZXpcNJZtI7Da9mSTzx2Tk",
-            "https://drive.google.com/uc?export=view&id=1JLMhIgpD8bHacJQ65_ZoVDQLkj0fDMHD",
+            "https://drive.google.com/uc?export=view&id=1oL-zeRzcLMGZXpcNJZtI7Da9mSTzx2Tk",
             "https://drive.google.com/uc?export=view&id=1myTjFvqb3dlpP5WfhLNa2x-YpbRxYo-v",
             "https://drive.google.com/uc?export=view&id=1fkq0mXJQL861iMIKAiunBmptBCtJAbdI",
             "https://drive.google.com/uc?export=view&id=1OBNBCPmD17HFISSOA3HBuWsQjyqMVK1_",
