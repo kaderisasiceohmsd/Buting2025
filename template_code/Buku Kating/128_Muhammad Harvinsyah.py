@@ -1325,25 +1325,25 @@ if menu == "Departemen Eksternal":
 if menu == "Departemen Internal":
     def Departemen_Internal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1U2XOCMrHzM_oHAo3W1yiJgHFR1DSQb7r", #1
-            "https://drive.google.com/uc?export=view&id=14xci1IA8G8yUeEov8fkPiZqyZCaJ-MN5", #2
-            "https://drive.google.com/uc?export=view&id=1BTYjO5rqSyaKzS3kkMxG_XeNENaqWl9K", #3
-            "https://drive.google.com/uc?export=view&id=1DCSvLlj91_r8OH2LqG1ltG5ouFJjLg5Y", #4
-            "https://drive.google.com/uc?export=view&id=1Qcj9W4YngFJbDlagZ7Pwfpzrbss0Aduc", #5
-            "https://drive.google.com/uc?export=view&id=1dntkvR__fyx5ZW1qByk87-GsHe7q2h_d", #6
-            "https://drive.google.com/uc?export=view&id=1ZN6Ie-72xU5FrfRoS4J3i81-fWkVUcmv", #7
-            "https://drive.google.com/uc?export=view&id=1TmwiGzT_KSIADF3ZUsTLHpKBxDPJsFIH", #8
-            "https://drive.google.com/uc?export=view&id=1rwVc8hC_CfEjSgZURv7LJpxKVwz-Gt_i", #9
-            "https://drive.google.com/uc?export=view&id=1JD9C_MGS_sgn_zOHRx-9VodguI-hoxLq", #10
-            "https://drive.google.com/uc?export=view&id=1I0GfRQuwQqQFSBheSY_lia8nKvfPQe7C", #11
-            "https://drive.google.com/uc?export=view&id=1xS1aE7c90mID2IWQ1PtPaGO6wpwL4YpW", #12
-            "https://drive.google.com/uc?export=view&id=1XGUJRiyh9n21BUjt9CjdRvkBNBMXDwBQ", #13
-            "https://drive.google.com/uc?export=view&id=1-y6ZfmJT8d65EjPRBSnwYS6crrv3qCtm", #14
-            "https://drive.google.com/uc?export=view&id=1Utx5HK-IJGND4amPkqcM553kccGgaQO8", #15
+            "https://drive.google.com/uc?export=view&id=1pg88XTUInlapehdM0YfoIXv8WcND4xgg", #1
+            "https://drive.google.com/uc?export=view&id=1nBbAmeLYP0yttdcylAxtxE0n0c4JB3xX", #2
+            "https://drive.google.com/uc?export=view&id=1N3v0H_5Sb4zpb5B_WGteDnrJ8y91lVPd", #3
+            "https://drive.google.com/uc?export=view&id=", #4
+            "https://drive.google.com/uc?export=view&id=1JsFQ2_mlFSLYYS1Yje3z9qbmgYfXrKJ1", #5
+            "https://drive.google.com/uc?export=view&id=", #6
+            "https://drive.google.com/uc?export=view&id=", #7
+            "https://drive.google.com/uc?export=view&id=1bY-ufR8Qqh3NCYhufbH4ATF3dYy1CXNm", #8
+            "https://drive.google.com/uc?export=view&id=10XtkajddZM4feiouPRjt0oj2GLHpSgjL", #9
+            "https://drive.google.com/uc?export=view&id=1ZnXEcA3GbGUy5Fx9wmz5aVVrrlmh7BDq", #10
+            "https://drive.google.com/uc?export=view&id=1E2g3A-cXMF8yU-cJkj7klcSQKMZ7irrq", #11
+            "https://drive.google.com/uc?export=view&id=", #12
+            "https://drive.google.com/uc?export=view&id=1g2CwtcjkiOn3PLrliJfna3V73x6Oop-Z", #13
+            "https://drive.google.com/uc?export=view&id=1LUGtqQUev86hheF3NRgceqnKUK4Emkti", #14
+            "https://drive.google.com/uc?export=view&id=", #15
         ]
         data_list = [
             {
-                "nama": "Kakak Rani Puspita Sari",
+                "nama": "Rani Puspita Sari",
                 "nim": "122450030",
                 "umur": "21",
                 "asal":"Metro",
@@ -1354,7 +1354,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap semangat dan sehat kak"# 1
             },
             {
-                "nama": "Kakak Renta Siahaan",
+                "nama": "Renta Siahaan",
                 "nim": "122450070",
                 "umur": "22",
                 "asal":"Sumatera Utara",
@@ -1365,7 +1365,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap semangat dan sehat kak "# 2
             },
             {
-                "nama": "Kakak Salwa Farhanatussaidah",
+                "nama": "Salwa Farhanatussaidah",
                 "nim": "122450055",
                 "umur": "21",
                 "asal":"Jawa Tengah",
@@ -1376,7 +1376,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap Semangat dan sehat kak "# 3
             },
             {
-                "nama": "Kakak Azzahra Putri Kamilah",
+                "nama": "Azzahra Putri Kamilah",
                 "nim": "123450013",
                 "umur": "20",
                 "asal":"Pekanbaru",
@@ -1387,7 +1387,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap Semangat dan sehat kak"# 4
             },
             {
-                "nama": "Kakak Haikal Fransisko Simbolon",
+                "nama": "Haikal Fransisko Simbolon",
                 "nim": "123450106",
                 "umur": "22",
                 "asal":"Medan sananya dikit",
@@ -1398,7 +1398,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap semangat dan sehat bang "# 5
             },
             {
-                "nama": "Kakak Iqfina Haula Halika",
+                "nama": "Iqfina Haula Halika",
                 "nim": "123450076",
                 "umur": "19",
                 "asal":"Bandar Lampung",
@@ -1409,7 +1409,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap Semangat dan sehat kak"# 6
             },
             {
-                "nama": "Kakak May Talitha Dahlia",
+                "nama": "May Talitha Dahlia",
                 "nim": "123450009",
                 "umur": "20",
                 "asal":"Jambi",
@@ -1420,7 +1420,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap Semangat dan sehat kak "# 7
             },
             {
-                "nama": "Kakak Muhammad Naufal Al Ghani",
+                "nama": "Muhammad Naufal Al Ghani",
                 "nim": "123450116",
                 "umur": "20",
                 "asal":"Sidorejo, Sidomulyo, Kalianda",
@@ -1431,7 +1431,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap semangat dan sehat bang"# 8
             },
             {
-                "nama": "Kakak Zailani Satria",
+                "nama": "Zailani Satria",
                 "nim": "123450111",
                 "umur": "19",
                 "asal":"Bandar Lampung",
@@ -1442,7 +1442,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap semangat dan sehat bang "# 9
             },
             {
-                "nama": "Kakak Rendi Alexander Hutagalung",
+                "nama": "Rendi Alexander Hutagalung",
                 "nim": "122450057",
                 "umur": "21",
                 "asal":"Tangerang",
@@ -1453,7 +1453,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap semangat dan sehat bang"# 10
             },
             {
-                "nama": "Kakak Hanna Gresia Sinaga",
+                "nama": "Hanna Gresia Sinaga",
                 "nim": "123450038",
                 "umur": "20",
                 "asal":"Cikarang",
@@ -1464,7 +1464,7 @@ if menu == "Departemen Internal":
                 "pesan":" Tetap semangat dan sehat kak"# 11
             },
             {
-                "nama": "Kakak Keren Marito Lumban Gaol",
+                "nama": "Keren Marito Lumban Gaol",
                 "nim": "123450020",
                 "umur": "19",
                 "asal":"Bekasi",
@@ -1475,7 +1475,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap semangat dan sehat kak"# 12
             },
             {
-                "nama": "Kakak Muhammad Hanif Dzaky Arifin",
+                "nama": "Muhammad Hanif Dzaky Arifin",
                 "nim": "123450064",
                 "umur": "20",
                 "asal":"Padang, Sumbar",
@@ -1486,7 +1486,7 @@ if menu == "Departemen Internal":
                 "pesan":" Tetap semangat dan sehat kak"# 13
             },
             {
-                "nama": "Kakak Sarah Wasti",
+                "nama": "Sarah Wasti",
                 "nim": "123450057",
                 "umur": "20",
                 "asal":"Bekasi",
@@ -1497,7 +1497,7 @@ if menu == "Departemen Internal":
                 "pesan":"Tetap semangat dan sehat kak "# 14
             },
             {
-                "nama": "Kakak Zahra Putri Salsabila",
+                "nama": "Zahra Putri Salsabila",
                 "nim": "123450026",
                 "umur": "19",
                 "asal":"Natar",
@@ -1881,6 +1881,7 @@ elif menu == "Departemen Medkraf":
     
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
