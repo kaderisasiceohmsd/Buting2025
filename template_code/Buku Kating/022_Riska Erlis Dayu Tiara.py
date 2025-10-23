@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "beli donat kentang",
                 "sosmed": "@_erendraa",
-                "kesan": "abangnya inspiratif bangett dan berjiwa pemimpin",  
-                "pesan":"Sukses terus bang , semoga selalu jadi panutan!"# 1
+                "kesan": "Abang orangnya berwibawa, inspiratif, dan punya jiwa kepemimpinan yang kuat. Selalu bisa jadi contoh yang baik buat kami semua",  
+                "pesan":"Sukses terus bang, semoga selalu jadi panutan!"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Baca buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "abangnya keren dan bijak",  
-                "pesan":"Semoga makin sukses dan bahagia selalu!"# 1
+                "kesan": "Abangnya keren banget, pembawaannya tenang dan bijak. Setiap omongannya selalu ada makna dan bikin kita mikir positif",  
+                "pesan":"Semoga makin sukses dan bahagia selalu bang!"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -446,14 +446,14 @@ elif menu == "Departemen PSDA":
         data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",
-                "nim": "",
+                "nim": "122450107",
                 "umur": "",
                 "asal":"",
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@ferdy_kevin",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Bang Ferdy tegas, berwibawa, dan inspiratif banget",  
+                "pesan":"Semoga selalu diberi kelancaran dalam setiap langkah, terus jadi inspirasi, dan tetap jadi abang keren"# 1
             },
             {
                 "nama": "Nisrina Nur Afifah",
@@ -463,8 +463,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "Korpsu",
                 "hobbi": "jalan-jalan",
                 "sosmed": "@afifahhnsrn",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Kak Afifah cantik, berwibawa, dan selalu terlihat elegan",  
+                "pesan":"Semoga Kak Afifah makin sukses dan tetap jadi panutan yang memotivasi"# 1
             },
             {
                 "nama": "Allya Nurul Islami Pasha",
@@ -474,8 +474,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "Gang Perwira",
                 "hobbi": "Main",
                 "sosmed": "@allyapasha_",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Kakak peduli dan perhatian banget sama orang-orang di sekitarnya",  
+                "pesan":"Semoga kakak makin sukses, tetap rendah hati, dan terus nyebarin kebaikan ke banyak orang!"# 1
             },
             {
                 "nama": "Ahmad Rizky",
@@ -485,8 +485,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "Kontrakan GH",
                 "hobbi": "Main bola",
                 "sosmed": "@ahmad.rizky___",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Bang Ahmad orangnya pintar dan pemikirannya terbuka banget, selalu bisa ngasih sudut pandang baru yang menarik",  
+                "pesan":"Semoga Bang Ahmad terus sukses, makin banyak menginspirasi, dan tetap jadi sosok yang bijak dalam setiap hal"# 1
             },
             {
                 "nama": "Arienta Khusnul Ananda",
@@ -1312,12 +1312,12 @@ elif menu == "Departemen Internal":
             "https://drive.google.com/uc?export=view&id=13uIIblaIlqHu_d9XzmNKXXGV05DBSBc8",
             "https://drive.google.com/uc?export=view&id=13KrT_tnunf7uBC8-v3-Z70FIxQ7iqQfm",
             "https://drive.google.com/uc?export=view&id=13YnMGdlBs1D8DnBsYHusG6ty0e-7q8OZ",
-            "https://drive.google.com/uc?export=view&id=13ZouYB2byGmbIUIlsjuBKOFujXTg1IWk",
             "https://drive.google.com/uc?export=view&id=13gGwlUpG69f0fa4EU6U817sbyLqCu4-I",
             "https://drive.google.com/uc?export=view&id=13nCPa7feMdYn5vxBwtsX0sGT6-xPFSk6",
             "https://drive.google.com/uc?export=view&id=13fkH5ssFPi7NENpl1Duh0O3Ka3Slqiz6",
             "https://drive.google.com/uc?export=view&id=13dYk3_7d2V0tcAoXgW5F9L90LSTCUtE8",
             "https://drive.google.com/uc?export=view&id=13OhV6KvCQw8glPA8bNBHif1APGrLb4I5",
+            "https://drive.google.com/uc?export=view&id=13ZouYB2byGmbIUIlsjuBKOFujXTg1IWk",
             "https://drive.google.com/uc?export=view&id=13nTzFi3_fBsanUUyd9fuMl-6y9kS9Hvo",
             "https://drive.google.com/uc?export=view&id=13XUTiICr_BnJFMroOC0rTSSPARvtqX-Z",
             "https://drive.google.com/uc?export=view&id=13Sh8P7Pvxdrikftg1FQNwjok2PnXjrsD",
@@ -1368,17 +1368,6 @@ elif menu == "Departemen Internal":
                 "sosmed": "@azza.raaa_",
                 "kesan": "baik banget, gampang akrab juga sama orang baru",  
                 "pesan":"Tetap semangat kuliahnya kak, sukses terus ya!"# 1
-            },
-              {
-                "nama": "Rendi Alezander Hutagalung",
-                "nim": "122450057",
-                "umur": "21",
-                "asal":"Tangerang",
-                "alamat": "Belwis",
-                "hobbi": "Melukis",
-                "sosmed": "@lexanderr",
-                "kesan": "Abang Rendi kalem banget, asik diajak ngobrol juga",  
-                "pesan":"Semoga Bang Rendi selalu dilancarkan semua urusannya"# 1
             },
             {
                 "nama": "Haikal fransisko Simbolon",
@@ -1434,6 +1423,17 @@ elif menu == "Departemen Internal":
                 "sosmed": "@zailanisatria",
                 "kesan": "Abangnya asik dan punya aura positif banget",  
                 "pesan":"Semoga Bang Zailani makin semangat dan terus sukses!"# 1
+            },
+            {
+                "nama": "Rendi Alezander Hutagalung",
+                "nim": "122450057",
+                "umur": "21",
+                "asal":"Tangerang",
+                "alamat": "Belwis",
+                "hobbi": "Melukis",
+                "sosmed": "@lexanderr",
+                "kesan": "Abang Rendi kalem banget, asik diajak ngobrol juga",  
+                "pesan":"Semoga Bang Rendi selalu dilancarkan semua urusannya"# 1
             },
             {
                 "nama": "Hanna Gresia Sinaga",
@@ -1859,6 +1859,7 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
 
