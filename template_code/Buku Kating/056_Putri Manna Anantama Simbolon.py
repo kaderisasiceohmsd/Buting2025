@@ -354,5 +354,61 @@ if menu == "Baleg":
         display_images_with_data(gambar_urls, data_list)
     baleg()
 
+if menu == "Senator":
+    def Senator():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=13cRdQXc7az_Hklv8sloxG23TGhPjtsF8",
+            "https://drive.google.com/uc?export=view&id=1tEq1iZn_nSyRvEXZ5RRT6fE4lEeob4Y8",
+            "https://drive.google.com/uc?export=view&id=1SSlolB5UZF3JhMaOv2UvdTU6VYBUkpJ5",
+            "https://drive.google.com/uc?export=view&id=1Db2truAw8sq7dNXNl4jiA0EsafpV4DqM",
+        ]
+        data_list = [
+            {
+                "nama": "Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "20",
+                "asal":"Palembang",
+                "alamat": "Raden Saleh",
+                "hobbi": "Denger lagu, rapat",
+                "sosmed": "@bintangtwinkle",
+                "kesan": "Abang kece kura-kura",  
+                "pesan":"semangat terus bangg menggapai mimpinya!"# 1
+            },
+            {
+                "nama": "Nadya Ratu Anjani",
+                "nim": "123450083",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Denger lagu, maen roblox",
+                "sosmed": "@nadyaanjanani",
+                "kesan": "Kakak ini asik, baik",  
+                "pesan":"semangat terus kuliahnya, dan langgeng terus ya kak ;)"# 1
+            },
+            {
+                "nama": "Fathinah Nur Azizah",
+                "nim": "123450072",
+                "umur": "20",
+                "asal":"Jakarta",
+                "alamat": "Asrama TB1",
+                "hobbi": "Ice Skating",
+                "sosmed": "@fathinahazzh",
+                "kesan": "Kakak ini baik, seru",  
+                "pesan":"keep positive kak!"# 1
+            },
+            {
+                "nama": "Lia Hana Ichisasmita",
+                "nim": "123450089",
+                "umur": "21",
+                "asal":"Jakarta",
+                "alamat": "Belakang indomaret belwis",
+                "hobbi": "Rebahan",
+                "sosmed": "@lia.h_264",
+                "kesan": "kakaknya kerenn",  
+                "pesan":"semangat terus kuliahnya kakak!"# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    Senator()
 
 # Tambahkan menu lainnya sesuai kebutuhan
