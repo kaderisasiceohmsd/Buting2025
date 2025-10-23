@@ -359,14 +359,14 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1exuxWC_8LvnhAi5WAO76USZQOw8QZfgc",
-            "https://drive.google.com/uc?export=view&id=1x9CsemxKxusQpKg6Ql-ZijjrVp4IOmua",
-             "https://drive.google.com/uc?export=view&id=18gpqxnjeV58e68UFyN2jP4XDoR4ywvNF",
-             "https://drive.google.com/uc?export=view&id=1af4c9uylYuC3GQSSZfeisFYtJl2Mj2Q_",
+            "https://drive.google.com/uc?export=view&id=19hTYoH8jyLdOx0BbNSogtuwDqximC80P",
+            "https://drive.google.com/uc?export=view&id=1kPIGJAjyGUPj4LdghnBtXutxwfLWLRHw",
+             "https://drive.google.com/uc?export=view&id=1iz2r4mnk2kEKT4B-dD6Uk2bHU81yKIx8",
+             "https://drive.google.com/uc?export=view&id=1r3vT3ZZI_xigraJTaohvTiz-kIkVAkHs",
         ]
         data_list = [
             {
-                "nama": "Kakak Rian Bintang Wijaya",
+                "nama": "Rian Bintang Wijaya",
                 "nim": "122450094",
                 "umur": "20",
                 "asal": "Palembang",
@@ -377,7 +377,7 @@ if menu == "Senator":
                 "pesan": "Lancar ya bang kuliahnya, dan sehat selalu"# 1
             },
             {
-                "nama": "Kakak Nadya Ratu Anjani",
+                "nama": "Nadya Ratu Anjani",
                 "nim": "123450043",
                 "umur": "20",
                 "asal": "Bandar Lampung",
@@ -388,7 +388,7 @@ if menu == "Senator":
                 "pesan": "semangat kuliahnya kak!"# 1
             },
               {
-                "nama": "Kakak Fathinah Nur Azizah",
+                "nama": "Fathinah Nur Azizah",
                 "nim": "123450072",
                 "umur": "20",
                 "asal": "Jakarta",
@@ -399,7 +399,7 @@ if menu == "Senator":
                 "pesan": "Semangat terus kak!"# 1
             },
               {
-                "nama": "Kakak Lia Hana Ichisasmita",
+                "nama": "Lia Hana Ichisasmita",
                 "nim": "123450089",
                 "umur": "20",
                 "asal": "Jakarta",
@@ -1881,6 +1881,7 @@ elif menu == "Departemen Medkraf":
     
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
