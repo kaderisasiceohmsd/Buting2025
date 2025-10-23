@@ -761,28 +761,28 @@ if menu == "Departemen PSDA":
 if menu == "Departemen MIKFES":
     def DepartemenMIKFES():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1g1vGRymJLJwAK1id7sDzZdSl22VqBUAc",
-            "https://drive.google.com/uc?export=view&id=1cEbtwbTYNTsvKO2Kwie4ixA6wjsq1qJ1",
-            "https://drive.google.com/uc?export=view&id=1y2LfLTqBQ5vFKarGyRwjfUJDq5a_k_lo",
-            "https://drive.google.com/uc?export=view&id=1sTAnehD1i1gUets3TW9DlvUbCxkEdcD-",
-            "https://drive.google.com/uc?export=view&id=1IWPIvzxd7Fl6l3OGOBWHFHLtCZjqKStu",
-            "https://drive.google.com/uc?export=view&id=1-l6m815qJaawjoik6z7X8DP6L9NrwAYj",
-            "https://drive.google.com/uc?export=view&id=1G6WXxoDwMvfaKmV-nq3T-AwLIxGNAgnX",
-            "https://drive.google.com/uc?export=view&id=1KqyFNYC1mwu8BH05j8wYSdepZYy8lTdk",
-            "https://drive.google.com/uc?export=view&id=1hEwHP65xi08Lb9cEVoXK85uquFq3xVa2",
-            "https://drive.google.com/uc?export=view&id=1whv21tNT__Rz4gm3yxOvqW2pPPrPYmTo",
-            "https://drive.google.com/uc?export=view&id=1ry2Huh5sC-wi5G-oguMZEbkz29BGfTLP",
-            "https://drive.google.com/uc?export=view&id=1tzupAR1edjU_4p0e_fIwwk3QYhoWqSeu",
-            "https://drive.google.com/uc?export=view&id=1_R0zUhTf2pEipP3_lcsR9AvV0h1Wb1Tl",
-            "https://drive.google.com/uc?export=view&id=1JQViEti6h4jVMzdCP8nr6Xuqj_74k82N",
-            "https://drive.google.com/uc?export=view&id=1t8iHi9iqZPnJnlRVL5roPI0-EmYkLxFo",
-            "https://drive.google.com/uc?export=view&id=1uqAGzw6IUrv-lbbfwL0-Sf08bf6WfSPJ",
-            "https://drive.google.com/uc?export=view&id=1q9ZNhezSS7iYCo84CWpY4uykB1b1bpTS",
-            "https://drive.google.com/uc?export=view&id=13Zltf2lq7oy3ec6KiNk1DVKRm6YAJbH8",
-            "https://drive.google.com/uc?export=view&id=1swP64XIrvDZceDlU13gB6obR_icF0xcz",
-            "https://drive.google.com/uc?export=view&id=1I5dFM9J8O2BavqbOnE8eLzrdFhdI4YXn",
-            "https://drive.google.com/uc?export=view&id=1HoeAL3IvrpNu9HBzRC64GeRN66BAyN8T",
-            "https://drive.google.com/uc?export=view&id=1_fx2KSaLpQjeBspPlTEv7DC3UrvR18WJ",
+            "https://drive.google.com/uc?export=view&id=1Sg8zZHAbLd6Ggy6v6IF2ad6CPaY6LQUG",
+            "https://drive.google.com/uc?export=view&id=1-zpEKhohatjdZSQgGaTglTxEao3Xoj_R",
+            "https://drive.google.com/uc?export=view&id=1HHVHuBhloMY-6yn3Qt-M-F9EUJVTNiIu",
+            "https://drive.google.com/uc?export=view&id=1clCCv8OCfhb02NNDxam00xG7KC5jD-6J",
+            "https://drive.google.com/uc?export=view&id=1BqLbJfUW7MeazZz7-I962eU7ZA4z2v9K",
+            "https://drive.google.com/uc?export=view&id=1NXBwL7-wzpXAdz0286faexzlqOxAfdHP",
+            "https://drive.google.com/uc?export=view&id=1-T4_NfJGtBmORJCePHsKL2xusoZmM_mO",
+            "https://drive.google.com/uc?export=view&id=1snMpxcH72Z070rKGIxzdjBg1Sf3NhJek",
+            "https://drive.google.com/uc?export=view&id=1n5Hc31EQ9s7L4IQksOATU6xUfELVl59J",
+            "https://drive.google.com/uc?export=view&id=1DairkmtjcFzvjEc0AVcy0rUkzOgS2j5q",
+            "https://drive.google.com/uc?export=view&id=1TPxk46qCTOXxNb6tZD5Jey3_OkfZgaNk",
+            "https://drive.google.com/uc?export=view&id=1LTgJ18xbFRoUCwL63H47CcMKWYZGoMSx",
+            "https://drive.google.com/uc?export=view&id=1Pd5d3wBK-fqpinIDvQW4rBA5FwNd675D",
+            "https://drive.google.com/uc?export=view&id=1WRo-NK6mrovsQ67TPedNJxqjCPY4ZWtW",
+            "https://drive.google.com/uc?export=view&id=19mWUenHriTeMcFxBw7fmi_EnlTBwlW5y",
+            "https://drive.google.com/uc?export=view&id=1UrycvDYv2iKKxhFgrR3SRnkgyWvMVCQu",
+            "https://drive.google.com/uc?export=view&id=1x80y4M4IR_DIz7RXc0ZqSj9X1ZYDXAwx",
+            "https://drive.google.com/uc?export=view&id=1UuaVTGREN85JjyC-lA1TL8S3UanXelFm",
+            "https://drive.google.com/uc?export=view&id=1x80y4M4IR_DIz7RXc0ZqSj9X1ZYDXAwx",
+            "https://drive.google.com/uc?export=view&id=1ZXJgB_11bVif4jG0OrKwPj48LYEbplO4",
+            "https://drive.google.com/uc?export=view&id=1cjSS682rL4rK8fwd36qDHATpE83j4ohy",
+            "https://drive.google.com/uc?export=view&id=1pBKei407chG_U4UZ49bdI36MRy3XjOS6",
         ]
         data_list = [
             {
@@ -793,8 +793,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur, berkembang",
                 "sosmed": "@randaadriana_",
-                "kesan": "Abang santai, seru, asik",  
-                "pesan":"keep chill dan nonton windah bang!"# 1
+                "kesan": "abangnya baik banget",  
+                "pesan":"semangat terus bang!"# 1
             },
             {
                 "nama": "Rut Junita Sari Siburian",
@@ -804,8 +804,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. nangka 3",
                 "hobbi": "Membaca abstrak jurnal/paper/artikel dan gangguin Randa",
                 "sosmed": "@Junitaa.0406",
-                "kesan": "Kakak ini baik dan seru",  
-                "pesan":"semakin keren kak!!"# 1
+                "kesan": "kakanya gemoyyy",  
+                "pesan":"semangat ya kak kuliahnyaa!"# 1
             },
             {
                 "nama": "Muhammad Regi Abdi Putra Amanta",
@@ -815,7 +815,7 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "dengerin musik",
                 "sosmed": "@mregiiii_",
-                "kesan": "Abang regi keren, berwibawa",  
+                "kesan": "abangnya keren banget",  
                 "pesan":"semangat terus kuliahnya bang!"# 1
             },
             {
@@ -826,8 +826,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Lapas Belwis",
                 "hobbi": "Maskeran",
                 "sosmed": "@_aishashi",
-                "kesan": "Kakak ini seru dan baik",  
-                "pesan":"semangat terus kuliahnya kakak!"# 1
+                "kesan": "kakanya asik",  
+                "pesan":"semangat terus kuliahnya kak"# 1
             },
             {
                 "nama": "Fadil Prasetyo Alfarizzi",
@@ -837,8 +837,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Segair midea",
                 "hobbi": "Fore",
                 "sosmed": "@fadilafarizzii",
-                "kesan": "Abang keren role model",  
-                "pesan":"semangat terus bang!"# 1
+                "kesan": "keren banget bang",  
+                "pesan":"semoga pinternya nular ya bang"# 1
             },
             {
                 "nama": "Muhammad Aqil Ramadhan",
@@ -848,8 +848,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "GH, Belwis",
                 "hobbi": "Main Basket",
                 "sosmed": "@muhammadqil1111",
-                "kesan": "Abang GACORR",  
-                "pesan":"semangat terus ngebasketnya bang!!!"# 1
+                "kesan": "abangnya ramah bangettt",  
+                "pesan":"semangat terus  bang!"# 1
             },
             {
                 "nama": "Muhammad Naufal Ramadhan",
@@ -859,8 +859,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Denger musik, nonton",
                 "sosmed": "@notfall.s",
-                "kesan": "Abang santai, seru",  
-                "pesan":"semangat terus bang!!!"# 1
+                "kesan": "abangnya santuy",  
+                "pesan":"sukses terus bang"# 1
             },
             {
                 "nama": "Nadia Faraj Alyafaatin Simbolon",
@@ -870,8 +870,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Manggis 1",
                 "hobbi": "Nonton film",
                 "sosmed": "@nadiaafrj",
-                "kesan": "Kakak ini kalem dan keren",  
-                "pesan":"semakin keren kak!"# 1
+                "kesan": "kakaknya lucuu",  
+                "pesan":"semangat kak!"# 1
             },
             {
                 "nama": "Marleta Cornelia Leander",
@@ -881,8 +881,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Nangka 3",
                 "hobbi": "Main Bass, Piano, Semualah",
                 "sosmed": "@marletacornelia",
-                "kesan": "Kakak ini asik, multitalent",  
-                "pesan":"semangat terus kuliahnya kakak!!"# 1
+                "kesan": "kakaknya cantik",  
+                "pesan":"semangat kuliahnya kak!"# 1
             },
             {
                 "nama": "Akeyla Fairuz Shafi",
@@ -892,8 +892,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Pramuka",
                 "hobbi": "Dengerin musik",
                 "sosmed": "@keylashafi_",
-                "kesan": "Abang chill keren",  
-                "pesan":"Tetap santai terus ya bang!"# 1
+                "kesan": "abangnya santuy",  
+                "pesan":"semangat terus bang"# 1
             },
             {
                 "nama": "Anggi Puspita Ningrum",
@@ -903,8 +903,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Bumi Sari, Natar",
                 "hobbi": "Denger musik, dance, Ngedrakor",
                 "sosmed": "@anggi_yllow2318",
-                "kesan": "Kakak ini asik seru dan suka drakor",  
-                "pesan":"semangat terus ngedrakornya kak!"# 1
+                "kesan": "kakaknya seruuuu",  
+                "pesan":"semangat maraton drakornya kak hehe"# 1
             },
             {
                 "nama": "Efi Defiyati",
@@ -914,8 +914,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Raden Saleh",
                 "hobbi": "Jalan-jalan",
                 "sosmed": "@eeffiidefi",
-                "kesan": "Kakak ini seru pokoknya",  
-                "pesan":"semangat terus kuliahnya kakak!"# 1
+                "kesan": "kakaknya manisss",  
+                "pesan":"sukses terus kak!"# 1
             },
             {
                 "nama": "Fabiolla Charissa Putri",
@@ -925,8 +925,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@pebby_olla525",
-                "kesan": "Kakak kalem, baik",  
-                "pesan":"semangat teruss kak!"# 1
+                "kesan": "kakanya ramah banget",  
+                "pesan":"sukses terus ya kak"# 1
             },
             {
                 "nama": "Fairuz Ary Syifa",
@@ -936,8 +936,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur",
                 "sosmed": "@_fairuzary",
-                "kesan": "kakak yang baik, santai",  
-                "pesan":"semangat terus kuliah & tidurnya kak!"# 1
+                "kesan": "kakaknya baik sekaliii",  
+                "pesan":"semangat menjalani harinya kak"# 1
             },
             {
                 "nama": "Tanty Widyastuti",
@@ -947,8 +947,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Asrama TB 4",
                 "hobbi": "Tidur",
                 "sosmed": "@tvnty_",
-                "kesan": "Kakak ini keren jago mc dll",  
-                "pesan":"semangat terus kuliahnya kakak!!"# 1
+                "kesan": "salut sama skill mc nya kak",  
+                "pesan":"semoga aku bisa PD juga kaya kakak hehehe"# 1
             },
             {
                 "nama": "Eggi Satria",
@@ -958,8 +958,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukabumi",
                 "hobbi": "Tidur",
                 "sosmed": "@_egistr",
-                "kesan": "Abang keren abiez, sepuh coding",  
-                "pesan":"semangat terus nge project & kuliahnya bang!"# 1
+                "kesan": "abangnya baik banget, ramah",  
+                "pesan":"sukses terus ya bang!"# 1
             },
             {
                 "nama": "Afifah Fauziah",
@@ -969,8 +969,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Hasan IV, Airan",
                 "hobbi": "Isengin orang, dan random chat bareng gpt",
                 "sosmed": "@fifah.zy",
-                "kesan": "Kakak ini asik, seru, baik",  
-                "pesan":"semangat terus kuliahnya kak afifah!!"# 1
+                "kesan": "Kakaknya baik banget",  
+                "pesan":"semangat kuliahnya kak"# 1
             },
              {
                 "nama": "Fabio Banyu Cyto",
@@ -980,8 +980,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Kedaton",
                 "hobbi": "Jalan-jalan, main game",
                 "sosmed": "@i",
-                "kesan": "Abang kece abis, gokil dah pokoknya",  
-                "pesan":"semangat terus bang & keep cool & humoris!"# 1
+                "kesan": "abangnya seru banget",  
+                "pesan":"semangat terus bang!"# 1
             },
              {
                 "nama": "Giofani Aristyo",
@@ -991,8 +991,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Pemda",
                 "hobbi": "Catur & main geometry dash",
                 "sosmed": "@giofaniars_",
-                "kesan": "Abang pinter, kalem, seru, game enthusiast",  
-                "pesan":"semangat terus kuliahnya & kapan-kapan mabar bang!"# 1
+                "kesan": "abangnya kalem banget",  
+                "pesan":"sukses selalu bang!"# 1
             },
              {
                 "nama": "Rahma Oktavia Albar",
@@ -1002,8 +1002,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Main Catur",
                 "sosmed": "@rhmaoktvia",
-                "kesan": "Kakak lucu, keren pokoknya",  
-                "pesan":"semangat terus kuliahnya kakak!"# 1
+                "kesan": "kakaknya baik banget",  
+                "pesan":"sukses selalu ya kak!"# 1
             },
              {
                 "nama": "Rahmah Gustriana Deka",
@@ -1013,8 +1013,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Airan 1",
                 "hobbi": "Main ke embung",
                 "sosmed": "@gustriana.d_",
-                "kesan": "Kakak ini asik, baik, dan seru",  
-                "pesan":"semangat terus kak kuliah dan main ke embungnya!"# 1
+                "kesan": "kakaknya baik banget",  
+                "pesan":"sukses terus ya kak!"# 1
             },
             {
                 "nama": "Razin Hafid Hamdi",
@@ -1024,8 +1024,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Belwis",
                 "hobbi": "Futsal",
                 "sosmed": "@razyn.hfd",
-                "kesan": "Abang kece & jago futsal",  
-                "pesan":"semangat terus bang!"# 1
+                "kesan": "abangnya cool",  
+                "pesan":"sukses terus bang!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
