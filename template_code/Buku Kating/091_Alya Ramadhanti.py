@@ -44,7 +44,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "#3FBAD8"},
+            "nav-link-selected": {"background-color": "#FF6F00"},
         },
     )
     return selected
@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1XGGUANE41RLo58N6TTrmcdAd81Bk4EWq",
-            "https://drive.google.com/uc?export=view&id=1pUyZ9nLOtp93xTjQS-dlfbsWEKfvhbiH",
-            "https://drive.google.com/uc?export=view&id=1Ul-IszwbVFQ_Uo4nYleXGq7lycZUgamB",
-            "https://drive.google.com/uc?export=view&id=1eLnPkftEOI7oT5_7-dZiuY6dU29rEIiw",
-            "https://drive.google.com/uc?export=view&id=1gV6zxc-d5FbwdS_CVgsmZ3jguA6TysKl",
-            "https://drive.google.com/uc?export=view&id=1IO9q0r2MMooBwn1js04O4VLd_015r31Z",
+            "https://drive.google.com/uc?export=view&id=18YoNwweOfqz20s4gYUpHxSuCq8Dw-H9o",
+            "https://drive.google.com/uc?export=view&id=1w_xUFLAwvrgH4mMnvk6RSLdSaqkGUfiI",
+            "https://drive.google.com/uc?export=view&id=1c__78nzIlcv5o01-a-DqBfpVIkBl-DJ-",
+            "https://drive.google.com/uc?export=view&id=1RYh2EU69y1gKYAVP7cDynlB6KQ4ShyZr",
+            "https://drive.google.com/uc?export=view&id=1w0SmJMxnk8jG1HcRrWM0bekc8tVAzWys",
+            "https://drive.google.com/uc?export=view&id=1W0iZ_fRryYquLAhpUFxdJ3z0xnVV5Eh1",
         ]
         data_list = [
             {
