@@ -140,7 +140,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1dM1sfaWa59jFaga9H3FAWNka24gW8Mpd", #fadya
             "https://drive.google.com/uc?export=view&id=10s6guDARSCsYFUL9N3xKSxqgBArp_S6q", #indah
             "https://drive.google.com/uc?export=view&id=1qI4MFay1-fhuszwZQwlPxYsv2BY-ybne", #caca
-            "https://drive.google.com/uc?export=view&id=1Cl0u_FOfQlMiPuROPViGGepppIommkko", #anggun
+            "https://drive.google.com/uc?export=view&id=10xQGG_ogzQoXzLcKoSY-7_HYUXVFU4dw", #anggun
             "https://drive.google.com/uc?export=view&id=1wwBHyFgyIi0idBbpFwosCgw5TXvv2glv", #raisya
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #jaya
             "https://drive.google.com/uc?export=view&id=1zRxCjXKm2A5NMX6a7herSlfxoILMWnQ6", #riska
