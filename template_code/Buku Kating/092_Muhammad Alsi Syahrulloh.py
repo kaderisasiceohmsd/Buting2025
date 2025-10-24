@@ -440,7 +440,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1RP3cDableBg2cSqM4oRgNV2keikffXzl",
             "https://drive.google.com/uc?export=view&id=1hgKmLAAzfXlztHAralDZNUitF4KIl1Go",
             "https://drive.google.com/uc?export=view&id=1-i8Owp2tMVTg4bQBnoJVHEi6pBsoKIh0",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1yNn9f5Bm-3M-ZdT3EzxwF7yYJDpS_f3h",
         ]
         data_list = [
             {
