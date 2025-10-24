@@ -1102,7 +1102,7 @@ if menu == "Departemen Eksternal":
                 "kesan": "Gak pernah serius tapi hasilnya bagus",
                 "pesan": "Kamu tuh bukti “yang penting niat” !!!"
             },
-           {
+            {
                 "nama": "Lutfia Aisyah Putri",
                 "nim": "123450074",
                 "umur": "17",
