@@ -143,7 +143,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1-8b-WLrqBEMIkPIYROpuPfILcIgii7zG", #Favian
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Felisya
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Ghiyat
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Lutfi
+            "https://drive.google.com/uc?export=view&id=100--E5h6yvVh5uCpsSsj1lqKcfXjRQhX", #Lutfi
             "https://drive.google.com/uc?export=view&id=1fAiTcaBB9h3SNpR1Dt0QZmxuHgcxLEKS", #Nazlah
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Razan
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Rozak

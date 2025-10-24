@@ -328,7 +328,7 @@ if menu == "Baleg":
                 "hobbi": "Ngeliatin warna baju orang",
                 "sosmed": "@fer_yulius",
                 "kesan": "Suka nyeletuk random tapi selalu pas waktunya",  
-                "pesan":"sRendah hati banget, tapi jangan terlalu merendah"# 1
+                "pesan":"Rendah hati banget, tapi jangan terlalu merendah"# 1
             },
             {
                 "nama": "Monica Patricia Tanjung",
@@ -349,7 +349,7 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyapa angin",
                 "sosmed": "@nshaysk",
-                "kesan": ": Paling sering jadi korban roast-an, tapi ketawa paling kenceng",  
+                "kesan": " Paling sering jadi korban roast-an, tapi ketawa paling kenceng",  
                 "pesan":"Jiwa besar kamu tuh inspiratif banget"# 1
             },
         ]
@@ -407,7 +407,7 @@ if menu == "Senator":
                 "hobbi": "Dengerin lagu",
                 "sosmed": "@lia.h_264",
                 "kesan": "Kalau udah serius, auranya beda banget",  
-                "pesan":"Respect buat sisi seriusmu yang jarang keluar"# 1
+                "pesan":"Respect buat sisi serius kakak yang jarang keluar"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -607,7 +607,7 @@ if menu == "Departemen PSDA":
                 "hobbi": "Scroll Tiktok",
                 "sosmed": "@rismaa.mustika_",
                 "kesan": "Gak pernah jaim",
-                "pesan": "Autentik banget kamu"
+                "pesan": "Autentik banget kakak"
             },
             {
                 "nama": "Rosalia Siregar",
@@ -792,7 +792,7 @@ if menu == "Departemen MIKFES":
                 "hobbi": "Dengerin Musik",
                 "sosmed": "@mregiiii_",
                 "kesan": "Sering salah dengar ",
-                "pesan": "Tapi responmu selalu keren"
+                "pesan": "Tapi respon kakak selalu keren"
             },
             {
                 "nama": "Aisyah Musrifah",
@@ -1045,7 +1045,7 @@ if menu == "Departemen Eksternal":
                 "hobbi": "Bank BSI",
                 "sosmed": "@arafiramadhanmaulana",
                 "kesan": "Tiap ngomong selalu ada aja lucunya",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "pesan": "semangat terus kuliahnya kakak"
             },
             {
                 "nama": "Yohana Manik",
@@ -1067,7 +1067,7 @@ if menu == "Departemen Eksternal":
                 "hobbi": "Nyetrika baju",
                 "sosmed": "@jasminednva",
                 "kesan": "Kalau bercanda kelewatan tapi niatnya baik",
-                "pesan": "semangat terus kuliahnya kakak !!!"
+                "pesan": "semangat terus kuliahnya kakak"
             },
             {
                 "nama": "Arini Puteri Elandra",
@@ -1089,7 +1089,7 @@ if menu == "Departemen Eksternal":
                 "hobbi": "Ngelamun",
                 "sosmed": "@aryamudasiregar",
                 "kesan": "Gayanya santai, tapi kerjaannya niat",
-                "pesan": "sBalance banget hidupmu"
+                "pesan": "Balance banget hidupnya"
             },
             {
                 "nama": "Khoirul Muttoharoh",
@@ -1100,7 +1100,7 @@ if menu == "Departemen Eksternal":
                 "hobbi": "Main main",
                 "sosmed": "@khoirul_muttoharoh",
                 "kesan": "Gak pernah serius tapi hasilnya bagus",
-                "pesan": "Kamu tuh bukti “yang penting niat” !!!"
+                "pesan": "Kamu tuh bukti yang penting niat"
             },
             {
                 "nama": "Lutfia Aisyah Putri",
@@ -1388,7 +1388,7 @@ if menu == "Departemen Internal":
                 "hobbi": "Balapan",
                 "sosmed": "@haikalsbln",
                 "kesan": "Gak banyak ngomong tapi kehadirannya berasa ",  
-                "pesan": "sSilent but powerful" # 6
+                "pesan": "Silent but powerful" # 6
             },
             {
                 "nama": "Iqfina Haula Halika",
@@ -1666,7 +1666,7 @@ if menu == "Departemen Medkraf":
                 "hobbi": "sleep call",
                 "sosmed": "@patriciadiajeng",
                 "kesan": "Kalau nongkrong pasti jadi admin cerita",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 1
+                "pesan": "semangat terus kuliahnya kakak"   # 1
             },
             {
                 "nama": "Rahma Neliyana",
@@ -1688,7 +1688,7 @@ if menu == "Departemen Medkraf":
                 "hobbi": "billiard dan volly",
                 "sosmed": "@mananam__",
                 "kesan": "Sering telat, tapi tetep ditunggu",
-                "pesan": "semangat terus kuliahnya bang !!!"   # 3
+                "pesan": "semangat terus kuliahnya bang"   # 3
             },
             {
                 "nama": "Labo John Noel Napitupulu",
@@ -1699,7 +1699,7 @@ if menu == "Departemen Medkraf":
                 "hobbi": "Motoran",
                 "sosmed": "@noerruu",
                 "kesan": "Kadang kaku tapi niatnya baik",
-                "pesan": "semangat terus kuliahnya bang !!!"   # 4
+                "pesan": "semangat terus kuliahnya bang"   # 4
             },
             {
                 "nama": "Rafi Diva Efangga",
@@ -1710,7 +1710,7 @@ if menu == "Departemen Medkraf":
                 "hobbi": "Olahraga",
                 "sosmed": "@rafidivaengga_",
                 "kesan": "Santai banget, kayak gak punya beban",
-                "pesan": "semangat terus kuliahnya bang !!!"   # 5
+                "pesan": "semangat terus kuliahnya bang"   # 5
             },
             {
                 "nama": "Refa Destiny Pranata",
@@ -1721,7 +1721,7 @@ if menu == "Departemen Medkraf":
                 "hobbi": "Ngoleksi gelang",
                 "sosmed": "@refadp_",
                 "kesan": "Orangnya ceria banget, kayak gak pernah capek ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 6
+                "pesan": "semangat terus kuliahnya kakak"   # 6
             },
             {
                 "nama": "Try Yani Rizki Nur Rohmah",
@@ -1732,7 +1732,7 @@ if menu == "Departemen Medkraf":
                 "hobbi": "Belajar",
                 "sosmed": "@tryyanitiaaa",
                 "kesan": "Tiap ngomong selalu ada aja lucunya ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 7
+                "pesan": "semangat terus kuliahnya kakak"   # 7
             },
             {
                 "nama": "Aliya Ammara Ananta",
