@@ -1657,6 +1657,8 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1mIvTZXGe67bfZ_RgzWCC2zTfCCYM1ZHI",
             "https://drive.google.com/uc?export=view&id=1teoKjnaH5BWAZAvwX6VeKdRfbqa-_WTp",
             "https://drive.google.com/uc?export=view&id=1b6LW-ukMHgPTNCimjI3tBeWdvBpydJIM",
+            "https://drive.google.com/uc?export=view&id=1iJ-e2j53-ikVWPQA2vBeKeTk_b5IMEId",
+            "https://drive.google.com/uc?export=view&id=1_a_gShJ3nqTiZxYHbXD4GyufUXTV_OXy",
         ]
         data_list = [
             {
@@ -1834,6 +1836,28 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@citrastin",
                 "kesan": "-",
                 "pesan": "-"
+            },
+            {
+                "nama": "Eigi Artamevia",
+                "nim": "123450011",
+                "umur": "20",
+                "asal": "Krui",
+                "alamat": "Sabah Balau Residence",
+                "hobbi": "Melukis",
+                "sosmed": "@eigirtmv",
+                "kesan": "baiikk bangeett kakaknya, ramah bangett, dan sama kaya kak Citra hobinya keren",
+                "pesan": "semangaatt kuliahnya kak dan jangan lupa jaga kesehatann!"
+            },
+            {
+                "nama": "Romauli Oktavia Silaban",
+                "nim": "123450014",
+                "umur": "19",
+                "asal": "Sumatera utara",
+                "alamat": "Kelengkeng 2, Pemda",
+                "hobbi": "Dance",
+                "sosmed": "@roms.slbn",
+                "kesan": "baiikk bangeett kak, asik juga, ramah bangett, designnya bagus banget dan jago ngedance",
+                "pesan": "sukses terus kedepannya kak dan semoga designnya makin keren keren!"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
