@@ -1806,8 +1806,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Griya Sukarame",
                 "hobbi": "Main hp",
                 "sosmed": "@i",
-                "kesan": "baiikk bangeett abangnya dan ramah juga",
-                "pesan": "semangaatt bang kuliahnya, jangan sering sering main hp bang nanti sakit matanya!"
+                "kesan": "Serius tapi tetap asik diajak ngobrol, bikin suasana kerja nggak tegang.",
+                "pesan": "Semoga tetap rendah hati dan terus jadi contoh yang baik"
             },
              {
                 "nama": "Raihana Adelia Putri",
@@ -1817,8 +1817,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Airan raya 1",
                 "hobbi": "membaca, menulis, memasak",
                 "sosmed": "@nltg._",
-                "kesan": "baiikk bangeett kakaknya, ramah juga dan hobinya banyak bangett keren bangett kak",
-                "pesan": "semangaatt kuliahnya kak!"
+                "kesan": "Selalu tenang ngadepin hal-hal ribet, keren banget.",
+                "pesan": "Semoga ke depannya makin lancar di semua urusan."
             },
             {
                 "nama": "Citra Agustin",
@@ -1828,8 +1828,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Natar, Lampung Selatan",
                 "hobbi": "Melukis",
                 "sosmed": "@citrastin",
-                "kesan": "baiikk bangeett kak, ramah juga, hobinya keren banget dan asik banget orangnya",
-                "pesan": "semangaatt kuliahnya kak dan bahagia selalu!"
+                "kesan": "Cara nyampein pendapatnya enak, jadi gampang diterima.",
+                "pesan": "Terus pertahanin cara komunikasinya yang sopan tapi tegas."
             },
             {
                 "nama": "Eigi Artamevia",
@@ -1839,8 +1839,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Sabah Balau Residence",
                 "hobbi": "Melukis",
                 "sosmed": "@eigirtmv",
-                "kesan": "baiikk bangeett kakaknya, ramah bangett, dan sama kaya kak Citra hobinya keren",
-                "pesan": "semangaatt kuliahnya kak dan jangan lupa jaga kesehatann!"
+                "kesan": "Ramah banget, bikin suasana kelompok terasa enak.",
+                "pesan": "Semoga tetap sepositif itu di kegiatan lain."
             },
             {
                 "nama": "Romauli Oktavia Silaban",
@@ -1850,8 +1850,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Kelengkeng 2, Pemda",
                 "hobbi": "Dance",
                 "sosmed": "@roms.slbn",
-                "kesan": "baiikk bangeett kak, asik juga, ramah bangett, designnya bagus banget dan jago ngedance",
-                "pesan": "sukses terus kedepannya kak dan semoga designnya makin keren keren!"
+                "kesan": "Tegas tapi nggak nyebelin, pas banget buat mimpin tim.",
+                "pesan": "Semoga makin berkembang di dunia organisasi dan kerja."
             },
         ]
         display_images_with_data(gambar_urls, data_list)
