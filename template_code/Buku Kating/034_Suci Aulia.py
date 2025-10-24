@@ -449,11 +449,11 @@ if menu == "Departemen PSDA":
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": " 122450107",
-                "umur": "",
-                "asal":"",
-                "alamat":"",
-                "hobbi": "",
-                "sosmed": "",
+                "umur": "21",
+                "asal":"Medan",
+                "alamat":"Tanjung Senang",
+                "hobbi": "Futsal",
+                "sosmed": "@ferdy_kevin",
                 "kesan": "Tegas, keren",  
                 "pesan":"semangat terus bang"# 1
             },
