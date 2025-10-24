@@ -200,8 +200,8 @@ elif menu == "About Us":
                 "nama": "Bryan Paskah telaumbanua",
                 "sebagai": "Anggotaa",
                 "nim": "124450003",
-                "fun_fact": "suka ngerendam kaki dengan air es kalau panik",
-                "motto_hidup": "Yang penting masih hidup",
+                "fun_fact": "Suka ngerendam kaki",
+                "motto_hidup": "Lakukan yang terbaik, dan tetap rendah hati",
             },
             {
                 "nama": "Allisha",

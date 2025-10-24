@@ -99,12 +99,12 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1MrNTWao4Uxhf7wS4nkFGZTHKWVNvvPaF",
+            "https://drive.google.com/uc?export=view&id=1VJm9pVEyo7x_G5JGyxmIzX94nw3JumEn",
+            "https://drive.google.com/uc?export=view&id=1dn5cblDalk2d2b1A7hyd7Ro1udbfXebq",
+            "https://drive.google.com/uc?export=view&id=1byWicHMO0ndtLr5BXyy9-uNkNPNm1dqE",
+            "https://drive.google.com/uc?export=view&id=1uYt-_sjMuJHW4rscEUSlW3nrCFB2rzBh",
+            "https://drive.google.com/uc?export=view&id=1NhlajjFxHzFoVxxMsXHGD2yXE3ogupMa",
         ]
         data_list = [
             {
@@ -182,20 +182,20 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1agwmAsMO-JoSWFoS-HPuZU2IWTE7Q8pB",
+            "https://drive.google.com/uc?export=view&id=1C5lFB8yD6wJEpLMUZlXxZM2VICmpY8-7",
+            "https://drive.google.com/uc?export=view&id=1JiKLxWjBMhRlPyYMZ1vhfFsEcPd6gkj2",
+            "https://drive.google.com/uc?export=view&id=1xTOZQH4A4qa6Q3FBF0R5glNiiymgVhgw",
+            "https://drive.google.com/uc?export=view&id=14HMaTfDYFHwK1Y_SXODx4yw2MqViU0f4",
+            "https://drive.google.com/uc?export=view&id=1CqX_ljDOnhZop3DQucjylJE6tB-4TlnS",
+            "https://drive.google.com/uc?export=view&id=1VxRcShPvvALLgzelhW3sKPA3C4tZ2LG3",
+            "https://drive.google.com/uc?export=view&id=1KJdpjR-hEhxQbKqL5RJegJaVEZIHGFjT",
+            "https://drive.google.com/uc?export=view&id=1YvkkmH-4uKPoU3UKRMDBgyP3uB70a6iw",
+            "https://drive.google.com/uc?export=view&id=1M3nWesOEKoXVbWLkjeIPkKoh4zmaTXAl",
+            "https://drive.google.com/uc?export=view&id=1JssPmZWrFk8EpgzHyibIpN2kz_kpHpoE",
+            "https://drive.google.com/uc?export=view&id=1k-LvEMcCmdHsXoaadvX77HauPrWgUyqi",
+            "https://drive.google.com/uc?export=view&id=16X6Cxfr3Bi094vF0HeUreNPBE0mBTgNX",
+            "https://drive.google.com/uc?export=view&id=1WqJbbSO9BXtNR8inJMpB8IQWwXZg_qJo",
         ]
         data_list = [
             {
@@ -359,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1xnDghDEv8cnbPz_BcJpFrfLbTe5n1G3_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1zTNHPrbfxXmvYvnIUbzLpCjy7s1f6mBn",
+            "https://drive.google.com/uc?export=view&id=11y5HdM8iQXkOyZBqfrMLxnSmeEEYPk7D",
         ]
         data_list = [
             {
