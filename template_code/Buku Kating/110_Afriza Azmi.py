@@ -639,7 +639,7 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Maen Roblox",
                 "sosmed": "@rosaliasiregar_",
-                "kesan": "lucu kakak ini, baik banget kalo diliat dari mukanya,  
+                "kesan": "lucu kakak ini, baik banget kalo diliat dari mukanya",  
                 "pesan":"ajakin aku kak kalo lagi main roblox"# 1
             },
             {
