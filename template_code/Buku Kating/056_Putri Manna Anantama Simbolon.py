@@ -734,7 +734,7 @@ if menu == "Departemen PSDA":
     Departemen_PSDA()
 
 if menu == "Departemen MIKFES":
-    def DepartemenMIKFES():
+    def Departemen_MIKFES():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1Lyhh5xqRAzwuw2KZUEysQWLZlrSvsHBb",
             "https://drive.google.com/uc?export=view&id=1F16Zt7LrLLhS-wF95uPt_u7UsAsPVyxx",
@@ -1004,7 +1004,7 @@ if menu == "Departemen MIKFES":
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
         ]
-    display_images_with_data(gambar_urls, data_list)
-    DepartemenMIKFES()
+        display_images_with_data(gambar_urls, data_list)
+    Departemen_MIKFES()
 
 # Tambahkan menu lainnya sesuai kebutuhan
