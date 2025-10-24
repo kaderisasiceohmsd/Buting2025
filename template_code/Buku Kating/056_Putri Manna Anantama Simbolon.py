@@ -1004,7 +1004,7 @@ if menu == "Departemen MIKFES":
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
         ]
-         display_images_with_data(gambar_urls, data_list)
+    display_images_with_data(gambar_urls, data_list)
     DepartemenMIKFES()
 
 # Tambahkan menu lainnya sesuai kebutuhan
