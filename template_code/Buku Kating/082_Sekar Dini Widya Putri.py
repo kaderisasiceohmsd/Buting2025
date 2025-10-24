@@ -898,9 +898,9 @@ if menu == "Departemen MIKFES":
                 "nim": "123450024",
                 "umur": "20",
                 "asal":"Bandar Lampung",
-                "alamat": "JL. Gajah Mada, Tanjungkarang",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "alamat": "Gg.sakum",
+                "hobbi": "Mainn Bola, Nyanyi",
+                "sosmed": "@pebby_olla525",
                 "kesan": "Kakak cantik, dan baik banget.",  
                 "pesan":"Semangat terus ya kak kuliahnya."# 1
             },
