@@ -373,8 +373,8 @@ elif menu == "Senator":
                 "alamat": "Belwis",
                 "hobbi": "Belajar",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang Bintang orangnya rajin, cerdas, dan tekun banget. Hobinya belajar nunjukin kalau dia serius dalam mengejar ilmu dan selalu ingin berkembang. Di balik keseriusannya, dia juga rendah hati dan gampang diajak ngobrol, bikin orang sekitar nyaman.",
+                "pesan": "erus pertahankan semangat belajarmu, Bang Bintang! Semoga semua usaha dan kerja kerasmu membuahkan hasil yang membanggakan. Jangan lupa juga tetap jaga keseimbangan antara belajar dan istirahat biar selalu fresh"
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -384,8 +384,8 @@ elif menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Denger lagu",
                 "sosmed": "@nadyaanjani",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak Nadya orangnya ceria, ramah, dan selalu bisa bikin suasana jadi hidup. Hobinya dengerin lagu bikin dia terlihat santai dan mudah akrab sama siapa aja. Aura positifnya bikin orang di sekitarnya nyaman dan semangat.",
+                "pesan": "Tetap pertahankan keceriaan dan energi positifmu, Kak Nadya!"
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -395,8 +395,8 @@ elif menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Bengong",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak Fathinah orangnya sabar, tenang, dan perhatian. Hobinya bengong nggak mengurangi kesan profesionalnya—malah bikin dia terlihat reflektif dan bijaksana. Sebagai pengajar kelas tutorial ALE, dia sabar dalam membimbing dan selalu siap membantu teman-temannya memahami materi dengan jelas.",
+                "pesan": "Terus jadi kakak yang sabar dan menginspirasi ya, Kak Fathinah! Semoga semua usaha dan dedikasimu dalam mengajar membuahkan hasil yang membanggakan"
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -406,8 +406,8 @@ elif menu == "Senator":
                 "alamat": "Belakang Indomaret Belwis",
                 "hobbi": "Tidur",
                 "sosmed": "@lia.h_264",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "KakLia orangnya santai dan gampang akrab sama siapa saja.",
+                "pesan": "Tetap jadi pribadi yang santai tapi menyenangkan ya,kak Lia! Semoga selalu sehat, bahagia, dan tetap semangat menghadapi hari-hari"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
