@@ -133,7 +133,7 @@ elif menu == "About Us":
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tEVXxONkKHSRX3-NGqVILi0bC1Rwdz8t",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -157,8 +157,8 @@ elif menu == "About Us":
                 "nama": "Queenta Thifaal Nabila",
                 "sebagai": "Bu Lurah",
                 "nim": "124450059",
-                "fun_fact": "ga suka kucing",
-                "motto_hidup": "makan geprek tiap hari enak",
+                "fun_fact": "Bisa main game seharian nonstop",
+                "motto_hidup": "Sesungguhnya bersama kesulitan ada kemudahan",
             },
             {
                 "nama": "Wielman Itolo Halawa",
