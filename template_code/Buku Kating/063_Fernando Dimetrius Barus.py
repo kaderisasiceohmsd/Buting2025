@@ -1729,8 +1729,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Korpri",
                 "hobbi": "Belajar",
                 "sosmed": "@tryyaniciaaa",
-                "kesan": "seruu bangeet kak dan ramah juga, suka banget belajar",
-                "pesan": "Tetap semangat kak kuliahnya, dan sukses selalu!"
+                "kesan": "Kakak mampu bekerja dengan efisien dan tetap tenang dalam situasi sibuk.",
+                "pesan": "Semoga selalu diberikan kelancaran di kegiatan berikutnya."
             },
             {
                 "nama": "Aliya Ammara Ananta",
@@ -1740,8 +1740,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "jl.pangeran senopati raya",
                 "hobbi": "Main gitar",
                 "sosmed": "@aliyaamara",
-                "kesan": "kereenn kakaknya, seru juga dan ramah banget",
-                "pesan": "Semangat kuliahnya kak dan jangan lupa istirahat kak!"
+                "kesan": "Kakak aktif berkontribusi dan tidak segan membantu rekan lainnya.",
+                "pesan": "Terima kasih atas kerjasama dan dedikasinya selama WWC dan Medkraf."
             },
             {
                 "nama": "Dona Maya Puspita",
@@ -1762,8 +1762,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Kemiling",
                 "hobbi": "Scroll pinterest",
                 "sosmed": "@writtenbyangel",
-                "kesan": "baiikk bangeett kakaknya, ramah banget juga dan asik bangettt",
-                "pesan": "semangaatt kuliahnya kak dan jangan lupa istirahat kakkk!"
+                "kesan": "Kakak sangat detail dalam memperhatikan hasil kerja tim.",
+                "pesan": "Semoga semangat dan ketelitiannya bisa terus dijaga ke depannya."
             },
             {
                 "nama": "Hafsa Fazila Arradhi",
@@ -1773,8 +1773,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Labuan ratu",
                 "hobbi": "Memasak",
                 "sosmed": "@hafsa.fazila",
-                "kesan": "Kakaknya baik banget suka bantuin kalau kesusahan ngerjain praktikum alpro",
-                "pesan": "Sukses untuk ke depannya, kak dan selalu berbuat baik!"
+                "kesan": "Kakak memiliki kemampuan komunikasi yang baik, membuat koordinasi berjalan lancar.",
+                "pesan": "Semoga terus menjadi penghubung yang solid di setiap kegiatan."
             },
              {
                 "nama": "Nayla Salsabila Fathianisa",
@@ -1784,8 +1784,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "jl.Lapas, kec.Jati Agung",
                 "hobbi": "mendengarkan musik",
                 "sosmed": "@naylasalsabilaa",
-                "kesan": "baiikk bangeett kakaknya dan seru juga",
-                "pesan": "semangaatt kuliahnya kak dan selalu bahagiaa!"
+                "kesan": "Kakak menunjukkan sikap profesional namun tetap ramah terhadap junior.",
+                "pesan": "Terima kasih sudah menciptakan suasana kerja yang nyaman."
             },
              {
                 "nama": "Sania Dwi Ayu Lestari",
@@ -1795,8 +1795,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Airan",
                 "hobbi": "Main roblox",
                 "sosmed": "@saniayyllstr",
-                "kesan": "baiikk kakaknya, sering muncul di ig HMSD Adyatama dan seru",
-                "pesan": "semangaatt kuliahnya kak dan bahagia selalu kak!"
+                "kesan": "Kakak mampu mengatur waktu dengan baik di tengah padatnya kegiatan.",
+                "pesan": "Semoga terus diberikan kelancaran dalam setiap tanggung jawab yang diemban."
             },
             {
                 "nama": "Akmal Faiz Abdilah",
