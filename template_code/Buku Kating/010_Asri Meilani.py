@@ -392,8 +392,8 @@ if menu == "Senator":
                 "alamat": "Raden Saleh",
                 "hobbi": "Denger lagu, rapat",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "SERUUU BANGET PLS BENER BENER KETAWA TERUSSS, kirain karenaa senat akan sangat serius ternyata seru paraah bang",  
-                "pesan":"semangat terus bang senat! plis terus ngejokes yaa bang"# 1
+                "kesan": "Abang hsfstkece kura-kura",  
+                "pesan":"semangat terus bangg menggapai mimpinya!"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -919,7 +919,7 @@ if menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-                "nim": "-",
+                "nim": "haii",
                 "umur": "-",
                 "asal":"-",
                 "alamat": "-",
