@@ -713,11 +713,11 @@ if menu == "Departemen SSD":
             {
                 "nama": "Kakak Nabila Zakiyah Zahra",
                 "nim": "123450023",
-                "umur": ".",
-                "asal": ".",
-                "alamat": ".",
-                "hobbi": ".",
-                "sosmed": ".",
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Way Halim",
+                "hobbi": "Jogging",
+                "sosmed": "@nabila_zazahra",
                 "kesan": "Kakaknya keren banget ",  
                 "pesan":"Semoga diperlancar semuanya  "# 6
             },
@@ -783,28 +783,28 @@ if menu == "Departemen SSD":
 if menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1PB-j-7YIS2-WOqsxdMtHmi8UeMURQb0B", #1
-            "https://drive.google.com/uc?export=view&id=1PUH5gE0YCL-3SLXcMhcD0OnXFbr28ndI", #2
-            "https://drive.google.com/uc?export=view&id=1m08l3tzf4VX0p6I-6mGjAjUxIItVYdal", #3
-            "https://drive.google.com/uc?export=view&id=1Wyb_xQxF7H4iIhq3YRg6d7AOBTR_nkgZ", #4
-            "https://drive.google.com/uc?export=view&id=1ugVjpvyKVq-bATSG4ez-oU4Rj9D9gym2", #5
-            "https://drive.google.com/uc?export=view&id=1daEgE79LCRKX2dNW46b9zkFgEp89DSP6", #6
-            "https://drive.google.com/uc?export=view&id=1slK6HSI7aCMIsP2-Q8wL9HTIvJk0Pdjn", #7
-            "https://drive.google.com/uc?export=view&id=1OGwX5tCbgsUSHwra8vmvlq9jnBykb9_Z", #8
-            "https://drive.google.com/uc?export=view&id=1eFhJ2oSV9PTD3FSC5SNLmsEN_c0PadmO", #9
-            "https://drive.google.com/uc?export=view&id=1ne5fwGesl7zSRMlaontM2H07Ik1T98aD", #10
-            "https://drive.google.com/uc?export=view&id=1BLcOKJyy1VZkTMJ3uwkVW0XDmio7xo-r", #11
-            "https://drive.google.com/uc?export=view&id=1k9r5Fl2W2bgVhOKVajoiH6olO6sP_Dar", #12
-            "https://drive.google.com/uc?export=view&id=1ATGa_CXHduMvTdPYqf1DT7W5196NLzrF", #13
-            "https://drive.google.com/uc?export=view&id=1TPJY3gJW5b2GtdgsXXvHi7_HUVAgc97g", #14
-            "https://drive.google.com/uc?export=view&id=1v8oiQj-mmNHC2h1ngd8Wkd9mWW2f2OED", #15
-            "https://drive.google.com/uc?export=view&id=1uPG4hEOhwAT-pN06lLgE3f_C4Q35Dips", #16
-            "https://drive.google.com/uc?export=view&id=1UQu1LjjbAOd2VYPG4mYmSJ7au7r4dtRL", #17
-            "https://drive.google.com/uc?export=view&id=1WdmPXDO3LxlZG15BcjuK-V1kaJTX2EJ9", #18
-            "https://drive.google.com/uc?export=view&id=1U1-AFcOk-T0tpChelkVmzPFoY-kmBmAk", #19
-            "https://drive.google.com/uc?export=view&id=1ul6zC5kpCz7I9NUQEHcfNHUkZSzwtCaI", #20
-            "https://drive.google.com/uc?export=view&id=1VAmsfXC5oqa991brymuJS4tTVoIxpTrn", #21
-            "https://drive.google.com/uc?export=view&id=1fcT6eu2cXQD1MAhwEpiv9cBit3bMY3MW", #22
+            "https://drive.google.com/uc?export=view&id=1ME5jA0he-vo7cQY6pWKLUut8e7uNuFmX", #1
+            "https://drive.google.com/uc?export=view&id=1Qh2RTRSS3Zqvz6xQx_RWeHCCAIGDJmFH", #2
+            "https://drive.google.com/uc?export=view&id=14OiFvgjmYeotRPDjitvTU0UjN9MJTkwp", #3
+            "https://drive.google.com/uc?export=view&id=1N8UxzsE6vI-dgvXklol3LCkS_inCU2dp", #4
+            "https://drive.google.com/uc?export=view&id=1mIcHJUT-gYBsWOpJ5kJS_mQBaZcBq0Ob", #5
+            "https://drive.google.com/uc?export=view&id=14gQGH8TK20dUwx0SYgnYqFEFUFnoRK9h", #6
+            "https://drive.google.com/uc?export=view&id=19XATiuR9DLNj6zgixjgRg8qh_fGfph-z", #7
+            "https://drive.google.com/uc?export=view&id=1eopJ637r9TkGBLD-3MOOFhU_GVpTA_Ov", #8
+            "https://drive.google.com/uc?export=view&id=17SgooVdkH5vod2B5cgHaZnS7_iZ2oM-n", #9
+            "https://drive.google.com/uc?export=view&id=1lBP8RGW_LLtS3dTuX_em4-t78LYCD1IQ", #10
+            "https://drive.google.com/uc?export=view&id=1S7InnJ910V6sa01F4vK4ghIZ9d745cTp", #11
+            "https://drive.google.com/uc?export=view&id=10oYpQhahIrC49cMs1uiFNTSGbXS9oMXh", #12
+            "https://drive.google.com/uc?export=view&id=1acoS_rHgOKYr4SKHhj4W9WETAg2QOjrc", #13
+            "https://drive.google.com/uc?export=view&id=1lBP8RGW_LLtS3dTuX_em4-t78LYCD1IQ", #14
+            "https://drive.google.com/uc?export=view&id=1dR728MJfxBwOP0c4v0yOVANvROT36vIL", #15
+            "https://drive.google.com/uc?export=view&id=1gauqs2ifDhDdQvaQey23phCQjMq0QcI0", #16
+            "https://drive.google.com/uc?export=view&id=1zWtnGVGYp0Q9eD0p8BVZ0Xj89YqDepBO", #17
+            "https://drive.google.com/uc?export=view&id=1IHftC-5pteVfcT7qBrozOOXsJvpDyyyu", #18
+            "https://drive.google.com/uc?export=view&id=1XHOHPHLQ9FfiI4kQCwxKPPt1TQMw3uez", #19
+            "https://drive.google.com/uc?export=view&id=1sxsWt9h2jhjkFNUCrm-0iLiXglr5qxew", #20
+            "https://drive.google.com/uc?export=view&id=1KC5-Co8dNZH61kJ8_s4ALuDTpYx5rebJ", #21
+            "https://drive.google.com/uc?export=view&id=1_8jPIj5qjaaScrra5XAClulmEZMqDiBW", #22
         ] 
         data_list = [
             {
@@ -841,18 +841,18 @@ if menu == "Departemen MIKFES":
                 "pesan":"makasih ya kakk"# 3
             },
             {
-                "nama": "Kakak Aisyah Musfirah",
+                "nama": "Aisyah Musfirah",
                 "nim": "123450084",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "21",
+                "asal":"Bengkulu",
+                "alamat": "Jl. Lapas, Belwis",
+                "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
-                "kesan": " ",  
-                "pesan":" "# 4
+                "kesan": "masyaallah banget kaa, udah cantik pinter lagi",  
+                "pesan":"tetep istiqomah yaa kak aisyah!"# 4
             },
             {
-                "nama": "Kakak Fadil Prasetyo Alfarizzi",
+                "nama": "Fadil Prasetyo Alfarizzi",
                 "nim": "123450048",
                 "umur": "20",
                 "asal":"Bandar Lampung",
@@ -863,7 +863,7 @@ if menu == "Departemen MIKFES":
                 "pesan":"semangat selalu bang fadil!"# 5
             },
             {
-                "nama": "Kakak Muhammad Aqil Ramadhan",
+                "nama": "Muhammad Aqil Ramadhan",
                 "nim": "123450066",
                 "umur": "20",
                 "asal":"Kampar, Riau",
@@ -874,7 +874,7 @@ if menu == "Departemen MIKFES":
                 "pesan":"semangatt semester 5 nya bang!!"# 6
             },
             {
-                "nama": "Kakak Muhammad Naufal Ramadhan",
+                "nama": "Muhammad Naufal Ramadhan",
                 "nim": "123450113",
                 "umur": "20",
                 "asal":"Bandar Lampung",
@@ -885,7 +885,7 @@ if menu == "Departemen MIKFES":
                 "pesan":"semoga selalu  diberikan kemudahan dalam setiap urusan bang!"# 7
             },
             {
-                "nama": "Kakak Nadia Faraj Alyafaatin Simbolon",
+                "nama": "Nadia Faraj Alyafaatin Simbolon",
                 "nim": "123450092",
                 "umur": "21",
                 "asal":"Kalianda",
@@ -896,7 +896,7 @@ if menu == "Departemen MIKFES":
                 "pesan":"semoga selalu dikelilingi oleh orang-orang tulus ya kak!"# 8
             },
             {
-                "nama": "Kakak Marleta Cornelia Leander",
+                "nama": "Marleta Cornelia Leander",
                 "nim": "122450092",
                 "umur": "21",
                 "asal":"Depok",
@@ -907,7 +907,7 @@ if menu == "Departemen MIKFES":
                 "pesan":" semoga selalu diberikan kemudahan dalam setiap urusan ka!" # 9
             },
             {
-                "nama": "Kakak Akeyla Fairuz Shafi",
+                "nama": "Akeyla Fairuz Shafi",
                 "nim": "123450119",
                 "umur": "20",
                 "asal":"Bandar Lampung",
@@ -918,7 +918,7 @@ if menu == "Departemen MIKFES":
                 "pesan":"jangan lupa jaga kesehatan ya bang!"# 10
             },
             {
-                "nama": "Kakak Anggi Puspita Ningrum",
+                "nama": "Anggi Puspita Ningrum",
                 "nim": "123450012",
                 "umur": "20",
                 "asal":"Lampung Selatan",
@@ -929,7 +929,7 @@ if menu == "Departemen MIKFES":
                 "pesan":"sehat-sehat terus ya kaa!!"# 11
             },
             {
-                "nama": "Kakak Efi Defiyati",
+                "nama": "Efi Defiyati",
                 "nim": "123450005",
                 "umur": "20",
                 "asal":"Lampung Timur",
@@ -940,115 +940,115 @@ if menu == "Departemen MIKFES":
                 "pesan":"semoga selalu diberikan kemudahan dalam setiap urusan ya ka!"# 12
             },
             {
-                "nama": "Kakak Fabiolla Charissa Putri",
+                "nama": "Fabiolla Charissa Putri",
                 "nim": "123450035",
                 "umur": "20",
                 "asal":"Pesawaran",
                 "alamat": "Pesawaran",
                 "hobbi": "Main Piano dan bernyanyi",
                 "sosmed": "@hey.olla",
-                "kesan": " ",  
-                "pesan":" "# 13
+                "kesan": "kakaknya baikk dan ramah walaupun aku banyak mau pas minta foto:(",  
+                "pesan":"sehat-sehat terus kaa! terus jadi kating yang ramah ya ka!"# 13
             },
             {
                 "nama": "Kakak Fairuz Ary Syifa",
                 "nim": "123450044",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 14
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "Sukarame",
+                "hobbi": "Tidur",
+                "sosmed": "@_fairuzary",
+                "kesan": "kakaknya cantik, kaya effortless untuk cantikk,, suka banget postur mukanya!",  
+                "pesan":"semangattt kadiv pusdatnya duta!^^"# 14
             },
             {
-                "nama": "Kakak Tanty Widyiastuti",
+                "nama": "Tanty Widyiastuti",
                 "nim": "123450094",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@i",
-                "kesan": "",  
-                "pesan":""# 15
+                "umur": "20",
+                "asal":"Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Main Game dan Makan",
+                "sosmed": "@tvnty_",
+                "kesan": "kak tanty yang punya vibes -kakak pertama-",  
+                "pesan":"semangat selaluu kak tantyy, next kita senam apa lagi yah?"# 15
             },
             {
-                "nama": "Kakak Eggi Satria",
+                "nama": "Eggi Satria",
                 "nim": "122450032",
                 "umur": "21",
                 "asal":"Sukabumi",
                 "alamat": "Jl. Permadi",
                 "hobbi": "Bernafas",
                 "sosmed": "@_egistr",
-                "kesan": " ",  
-                "pesan":" "# 16
+                "kesan": "abangnya lucu dan aktraktif",  
+                "pesan":"semoga sehat selalu dan disertai keberuntungan ya bang!"# 16
             },
             { 
-                "nama": "Kakak Afifah Fauziah",
+                "nama": "Afifah Fauziah",
                 "nim": "123450002",
                 "umur": "20",
                 "asal":"Bekasi",
                 "alamat": "Padang, Sumbar",
                 "hobbi": "Isengin orang dan ngobrol random with gpt",
                 "sosmed": "@fifah.zy",
-                "kesan": " ",  
-                "pesan":" "# 17
+                "kesan": "kakaknya kalau lagi diem jutek banget, tapi kalau dah senyum manisnya keluar hehe",  
+                "pesan":"semangatt terus kaa di kepanitiannya!"# 17
             },
             {
-                "nama": "Kakak Fabio Banyu Cyto",
+                "nama": "Fabio Banyu Cyto",
                 "nim": "123450104",
                 "umur": "20",
                 "asal":"Bandar Lampung",
                 "alamat": "Jalan Teratai No 27A, Kedaton",
                 "hobbi": "Jadi PJ Kelas bu Febri",
                 "sosmed": "@biyokcb",
-                "kesan": " ",  
-                "pesan":" "# 18
+                "kesan": "abang ini lucu nya lucu banget, jokesnya nyambung, terus ya lucu aja intinya",  
+                "pesan":"jangan berantem terus sama kak sonya ya bang!"# 18
             },
           
             {
-                "nama": "Kakak Rahma Oktavia Albar",
+                "nama": "Rahma Oktavia Albar",
                 "nim": "123450003",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 19
+                "umur": "19",
+                "asal":"Bengkulu Selatan",
+                "alamat": "Jl.Lapas Raya",
+                "hobbi": "Main Catur",
+                "sosmed": "@_rhmaoktvia",
+                "kesan": "kakanya stel kalem dan pemaluu",  
+                "pesan":"jangan lupa sayangi terus mata kakak ya kaa!^^"# 19
             },
             {
-                "nama": "Kakak Rahmah Gustriana Deka",
+                "nama": "Rahmah Gustriana Deka",
                 "nim": "123450102",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 20
+                "umur": "20",
+                "asal":"Lampung Timur",
+                "alamat": "Airan",
+                "hobbi": "Ngerepotin Tanty",
+                "sosmed": "@gustriana.d_",
+                "kesan": "kakanya pendiem bangett, aku jadi sungkan ka..",  
+                "pesan":"semangat terus kaa cantik!"# 20
             },
             {
-                "nama": "Kakak Razin Hafid Hamdi",
+                "nama": "Razin Hafid Hamdi",
                 "nim": "123450096",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 21
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "Belwis",
+                "hobbi": "Futsal",
+                "sosmed": "@razyn.hfd",
+                "kesan": "abangnya suka banget ketawa-ketiwi, aktraktif?",  
+                "pesan":"semangat bang, semoga bisa jadi data engineer"# 21
             },
             {
-                "nama": "Kakak Giofani Aristyo",
+                "nama": "Giofani Aristyo",
                 "nim": "123450065",
                 "umur": "20",
                 "asal":"Bandar Lampung",
-                "alamat": "",
+                "alamat": "Pemda",
                 "hobbi": "Catur",
-                "sosmed": "@",
-                "kesan": " ",  
-                "pesan":" "# 22
+                "sosmed": "@giovaniars_",
+                "kesan": "abangnya keren banget, walaupun begitu tetep rendah hati!",  
+                "pesan":"semoga bisa survive di semester 5 ini ya bang, semangat!!"# 22
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1057,30 +1057,30 @@ if menu == "Departemen MIKFES":
 if menu == "Departemen Eksternal":
     def Departemen_Eksternal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1BeRYMjpwl4eiOr59e-ov4WPd8ILghCKa", #1
-            "https://drive.google.com/uc?export=view&id=1tAuqQC6ft44kfpq71zkUx0-T36ywJZlq", #2
-            "https://drive.google.com/uc?export=view&id=15FHZo8avRJgZWAbpcwBUSKXQKnk0mYsJ", #3
-            "https://drive.google.com/uc?export=view&id=172itJspGRLfKhBC9BCsF77JWxCIiL0KZ", #4
-            "https://drive.google.com/uc?export=view&id=13b8ayYT9uZgpBOqsbFUWseectk_8MxTZ", #5
-            "https://drive.google.com/uc?export=view&id=17rO4nJfSrjyhocg4Mhx9FMLDqGhkbh0H", #6
-            "https://drive.google.com/uc?export=view&id=1u0a8mpzxEMyJiy_gZVmnPdPrSe7vYZzR", #7
-            "https://drive.google.com/uc?export=view&id=1k3Np7WpUhT_aCSRX2BtXbdyy6K-8AqiL", #8
-            "https://drive.google.com/uc?export=view&id=1w--HSxS7-1MEizN-w51BGzeajp0gyLuW", #9
-            "https://drive.google.com/uc?export=view&id=1bOLWjj4FpzYalP9LuREQ2FQyq2ju_Zk4", #10
-            "https://drive.google.com/uc?export=view&id=1_E2Gu74N5tJs32HnktB8585-NlZkjtdY", #11
-            "https://drive.google.com/uc?export=view&id=18tBeUGOJCysaPsiSoHBE5jzK892uKzS6", #12
-            "https://drive.google.com/uc?export=view&id=1CdaLPozKnJVgOnQpjQLn8891gF_YXuTI", #13
-            "https://drive.google.com/uc?export=view&id=18ewMQn_4f3I1p3tMa7IjA56vhPMWY51L", #14
-            "https://drive.google.com/uc?export=view&id=1WYVY7pOEjaMw-6wjQS8AtbQ_PPD3xlHs", #15
-            "https://drive.google.com/uc?export=view&id=1vByI0aH-6Y8C_2XZRWGljwhymJlpfJzU", #16
-            "https://drive.google.com/uc?export=view&id=1bPRfk6TYRo6K2DGu5WG8dU4Zcq7QnJym", #17
-            "https://drive.google.com/uc?export=view&id=18DT43Cvsm1AqfK6fiGwUPnrWFttFcHGD", #18
-            "https://drive.google.com/uc?export=view&id=1zEZiEa4HrzRjzeSS_VfE7m-sz3JXPdIC", #19
-            "https://drive.google.com/uc?export=view&id=1aDOGb-u-dI9Hmqc9XgQJEjTwNCnUrVPI", #20
-            "https://drive.google.com/uc?export=view&id=10QPUnD70wp7z4RzhZzK3fAc57vsfT_Hx", #21
-            "https://drive.google.com/uc?export=view&id=1AiMoBflHE7M9fWUTlofPIX1HMR9exRaL", #22
-            "https://drive.google.com/uc?export=view&id=1ROL2N0m13GyG06H7xdt6Ddk2RvSLf7Qi", #23
-            "https://drive.google.com/uc?export=view&id=1yCS6N0EMDWjfSJnu7g_rmFaAjptNpe1z", #24
+            "https://drive.google.com/uc?export=view&id=1nACW6LSJlwBUy56BqWIa0fvOzIhSPaq0", #1
+            "https://drive.google.com/uc?export=view&id=1_fW93tU9dOYuq_DuKg1msHukc0Fh_pK8", #2
+            "https://drive.google.com/uc?export=view&id=17g3LL6YgY3eB8r1bxe4_7Z1qOOy-sAD2", #3
+            "https://drive.google.com/uc?export=view&id=1o0vU9jXpJ-IHb1CsEf2nYo9rr5Or5-Ad", #4
+            "https://drive.google.com/uc?export=view&id=1cDpiskznj1rtZnd6JGHWizrDGk2aUCvw", #5
+            "https://drive.google.com/uc?export=view&id=1Z0gzLSZrKXZUM4Mmp0nJsTx7irN9z-FZ", #6
+            "https://drive.google.com/uc?export=view&id=171HmKUZ-PIzFiA-F4qq0ePjP6iE2TP8a", #7
+            "https://drive.google.com/uc?export=view&id=1UcPn5-dx7HWnDT5w-ZVvkQcOb6I00Y3V", #8
+            "https://drive.google.com/uc?export=view&id=1v6hncXKRsI7zFyXhJmI0w-XYTE9lRTlr", #9
+            "https://drive.google.com/uc?export=view&id=1TcBSwto36kmR-xf-dtzLzBdQg4uowIGP", #10
+            "https://drive.google.com/uc?export=view&id=11W4GI0rgaQ78ff0gnuQVfpDy1EVW3tfZq", #11
+            "https://drive.google.com/uc?export=view&id=14cn0ph-FxHhSbkVjZ7r4x-AMZe4XPO_7", #12
+            "https://drive.google.com/uc?export=view&id=1O1GWoEHAh2yP9RHCg0eUrJV0itkukY_X", #13
+            "https://drive.google.com/uc?export=view&id=1qbPzBebQRb4HjUOvSKJU5gBTV1DqPU1K", #14
+            "https://drive.google.com/uc?export=view&id=1eVuqCeraHcQV681nOK2YJM_vgTlYI2sO", #15
+            "https://drive.google.com/uc?export=view&id=1dMfNxiapBFCinRifl4yGeor0doP-FIGH", #16
+            "https://drive.google.com/uc?export=view&id=1u9ktVjFbJXu61r7Zmn_oKSD8GaEmM0sJ", #17
+            "https://drive.google.com/uc?export=view&id=1c4Z9Xn4kIQCRK0xyTmvZtZLIMd7hByNH", #18
+            "https://drive.google.com/uc?export=view&id=173HLe0VXbK0lPyvJi2VFVTtGe04oasO1", #19
+            "https://drive.google.com/uc?export=view&id=1VwafeFwDlf0tzCkOwICLLV5HQOPkxIRf", #20
+            "https://drive.google.com/uc?export=view&id=132KoMKHn-Hb5WIWavEsuQ_PzZYBsTrpL", #21
+            "https://drive.google.com/uc?export=view&id=13iGaiJAfPhzND5jljmzOKH1g7A07Dnwq", #22
+            "https://drive.google.com/uc?export=view&id=17Eb_j0bvGIX6xjrAfJ6Ly_4djm--42MU", #23
+            "https://drive.google.com/uc?export=view&id=1bKqyBBkHyyGnF3Jo2crzViIUch_gKyaP", #24
         ]
         data_list = [
             {
