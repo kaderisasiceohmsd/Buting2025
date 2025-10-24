@@ -417,45 +417,45 @@ elif menu == "Senator":
 elif menu == "Departemen PSDA":
     def DepartemenPSDA():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tGCaZUPWU32UDtIx3zGizhTsnshDfgJ9",#kevin
-            "https://drive.google.com/uc?export=view&id=1zy3rgTLgtesEt8DUIszFB_x20O5aEw5K",#afifah
-            "https://drive.google.com/uc?export=view&id=1TAILv3fh-2YuLJ_14hEkP-w0B7qQOF_v",#allya
-            "https://drive.google.com/uc?export=view&id=1YN_z85Yx_B_5WppqDfhQCHIEGXMf-HxP",#ahmad
-            "https://drive.google.com/uc?export=view&id=1CVlRzSOkeJNXuNj5v5JoTd6ht45t0Unw",#arienta
-            "https://drive.google.com/uc?export=view&id=19VD7XsKDooCB3gqCPCpD7GkEWsjbbl0U",#daffa
-            "https://drive.google.com/uc?export=view&id=1UGeq5tgsmg8bAj_2TH5EZdTl-4hLLBqB",#fajar
-            "https://drive.google.com/uc?export=view&id=1I9cNrtLvr1zz47ilQ5wYP3AjMgV95Uwf",#natasya
-            "https://drive.google.com/uc?export=view&id=1IB_Zz-YqFeifNrwXei_g9DMj9aVfoOGV",#nobel
-            "https://drive.google.com/uc?export=view&id=1SYnAxiNCZBSu7DTNL3crKhbzQCmS_HHN",#aji
-            "https://drive.google.com/uc?export=view&id=161-pl-joz978Mh04pf2NjV-Vs4huCYSC",#vany
-            "https://drive.google.com/uc?export=view&id=1XD63eBdCD6GKAVMVjtJ6HmM1m5Xb2HAv",#sahid
-            "https://drive.google.com/uc?export=view&id=1D-C3fjvKZIDH4IcExVsckGVjvPSdwwOB",#ali
-            "https://drive.google.com/uc?export=view&id=1THlLwzKp2VOvu1nt0Fne0_VBxxkLC29t",#razka
-            "https://drive.google.com/uc?export=view&id=1itW8BuBOJZDG3CBys9PGLQVT70JvFcC2",#kharisma
-            "https://drive.google.com/uc?export=view&id=1LAnwrf4C49pGomZnZ5Uwara5ISBD4u3L",#rosalia
-            "https://drive.google.com/uc?export=view&id=1GpovWlyDqH9Ka2bDPzetK5gYubiVrNAs",#maul
-            "https://drive.google.com/uc?export=view&id=1bV4GANNo34CYfI0LEHfoLVya6jLDpwq-",#daffahmad
-            "https://drive.google.com/uc?export=view&id=1aQa_d9pa01GDAqAKOgjcFMs4QV25lZnL",#daniar
-            "https://drive.google.com/uc?export=view&id=1CjsU8eUYv8mjPCI996u5rnuFAFnmLcW_",#ihsan
-            "https://drive.google.com/uc?export=view&id=1hgUw4iZ27YU7L9KsUE5qcJxc_ibG3x7S",#kevin
-            "https://drive.google.com/uc?export=view&id=1nRflVxu6TRlCEaODJXOO7snS9iGbi9oL",#lidia
-            "https://drive.google.com/uc?export=view&id=1tiKabMb4oN4RTLBGseq5FSdnr48aGGzk",#ridwan
-            "https://drive.google.com/uc?export=view&id=1FbeUjzjbUHamo9ITO5QVYE8Kg8eUWY4X",#liano
-            "https://drive.google.com/uc?export=view&id=1qxGzu-6aPPVdnh5Lt00E_Hx82AV1-dKe",#benget
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",#rewina
+            "https://drive.google.com/uc?export=view&id=1tGCaZUPWU32UDtIx3zGizhTsnshDfgJ9",  # kevin
+            "https://drive.google.com/uc?export=view&id=1zy3rgTLgtesEt8DUIszFB_x20O5aEw5K",  # afifah
+            "https://drive.google.com/uc?export=view&id=1TAILv3fh-2YuLJ_14hEkP-w0B7qQOF_v",  # allya
+            "https://drive.google.com/uc?export=view&id=1YN_z85Yx_B_5WppqDfhQCHIEGXMf-HxP",  # ahmad
+            "https://drive.google.com/uc?export=view&id=1CVlRzSOkeJNXuNj5v5JoTd6ht45t0Unw",  # arienta
+            "https://drive.google.com/uc?export=view&id=19VD7XsKDooCB3gqCPCpD7GkEWsjbbl0U",  # daffa
+            "https://drive.google.com/uc?export=view&id=1UGeq5tgsmg8bAj_2TH5EZdTl-4hLLBqB",  # fajar
+            "https://drive.google.com/uc?export=view&id=1I9cNrtLvr1zz47ilQ5wYP3AjMgV95Uwf",  # natasya
+            "https://drive.google.com/uc?export=view&id=1IB_Zz-YqFeifNrwXei_g9DMj9aVfoOGV",  # nobel
+            "https://drive.google.com/uc?export=view&id=1SYnAxiNCZBSu7DTNL3crKhbzQCmS_HHN",  # aji
+            "https://drive.google.com/uc?export=view&id=161-pl-joz978Mh04pf2NjV-Vs4huCYSC",  # vany
+            "https://drive.google.com/uc?export=view&id=1XD63eBdCD6GKAVMVjtJ6HmM1m5Xb2HAv",  # sahid
+            "https://drive.google.com/uc?export=view&id=1D-C3fjvKZIDH4IcExVsckGVjvPSdwwOB",  # ali
+            "https://drive.google.com/uc?export=view&id=1THlLwzKp2VOvu1nt0Fne0_VBxxkLC29t",  # razka
+            "https://drive.google.com/uc?export=view&id=1itW8BuBOJZDG3CBys9PGLQVT70JvFcC2",  # kharisma
+            "https://drive.google.com/uc?export=view&id=1LAnwrf4C49pGomZnZ5Uwara5ISBD4u3L",  # rosalia
+            "https://drive.google.com/uc?export=view&id=1GpovWlyDqH9Ka2bDPzetK5gYubiVrNAs",  # maul
+            "https://drive.google.com/uc?export=view&id=1bV4GANNo34CYfI0LEHfoLVya6jLDpwq-",  # daffahmad
+            "https://drive.google.com/uc?export=view&id=1aQa_d9pa01GDAqAKOgjcFMs4QV25lZnL",  # daniar
+            "https://drive.google.com/uc?export=view&id=1CjsU8eUYv8mjPCI996u5rnuFAFnmLcW_",  # ihsan
+            "https://drive.google.com/uc?export=view&id=1hgUw4iZ27YU7L9KsUE5qcJxc_ibG3x7S",  # kevin
+            "https://drive.google.com/uc?export=view&id=1nRflVxu6TRlCEaODJXOO7snS9iGbi9oL",  # lidia
+            "https://drive.google.com/uc?export=view&id=1tiKabMb4oN4RTLBGseq5FSdnr48aGGzk",  # ridwan
+            "https://drive.google.com/uc?export=view&id=1FbeUjzjbUHamo9ITO5QVYE8Kg8eUWY4X",  # liano
+            "https://drive.google.com/uc?export=view&id=1qxGzu-6aPPVdnh5Lt00E_Hx82AV1-dKe",  # benget
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",  # rewina
         ]
-         data_list = [
+        data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "",
                 "umur": "",
-                "asal":"",
+                "asal": "",
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@ferdy_kevin",
-                "kesan": "",  
-                "pesan":""# 1
-            },
+                "kesan": "",
+                "pesan": "", 
+            }, 
             {
                 "nama": "Nisrina Nur Afifah",
                 "nim": "",
@@ -732,8 +732,9 @@ elif menu == "Departemen PSDA":
                 "pesan":"---"# 1
             },
             
-        ]
-       display_images_with_data(gambar_urls, data_list)
+       ]
+        display_images_with_data(gambar_urls, data_list)
+
     DepartemenPSDA()
 
 elif menu == "Departemen MIKFES":
@@ -767,12 +768,12 @@ elif menu == "Departemen MIKFES":
                 "nama": "Randa Andriana Putra",
                 "nim": "1222450083",
                 "umur": "22",
-                "asal":"Serang,Baten",
+                "asal": "Serang, Banten",  # 🔧 typo kecil "Baten" → "Banten"
                 "alamat": "Sukarame",
                 "hobbi": "Tidur dan berenang",
                 "sosmed": "@randaandriana_",
-                "kesan": "",  
-                "pesan":"", # 1
+                "kesan": "",
+                "pesan": "",
             },
             {
                 "nama": "Rut Junita Sari Siburian",
@@ -1007,7 +1008,7 @@ elif menu == "Departemen MIKFES":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    DepartemenMIKFES()
 
+    DepartemenMIKFES()
 
 # Tambahkan menu lainnya sesuai kebutuhan
