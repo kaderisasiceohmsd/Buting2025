@@ -1690,7 +1690,7 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1sYwknyX57ZlfTxeoieciIMTJdATcjYZ5",
             "https://drive.google.com/uc?export=view&id=1yiAfz4rCJ1JplbaQDYq6BtWOP3aZopEg",
             "https://drive.google.com/uc?export=view&id=1GyZFEqrhlzf2y7pWZoOdU48CSV7ttFEv",
-PU
+
         ]
         data_list = [
             {
@@ -1891,7 +1891,7 @@ PU
                 "kesan": "KAKAK VD TERKEREN & SLAY & KACIW & DABESTT BANGET DEH POKOKNYA!",  
                 "pesan":"SUKSES TERUS KAK, MAKIN JAGO DESIGNNYA, SEMANGAT TERUS KULIAHNYA KAK!"# 1
             },
-
+            
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
