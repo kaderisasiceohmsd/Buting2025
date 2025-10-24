@@ -205,8 +205,8 @@ elif menu == "Baleg":
                 "alamat": "Tanjung Merawa",
                 "hobbi": "Suka main voli sama Feby",
                 "sosmed": "@jeremia_s_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang jeremia keren banget, ajarin ads bangg",
+                "pesan": "Sehat sehat terus ya bang, btw abang abis cukur jadi muda banget bang"
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -216,8 +216,8 @@ elif menu == "Baleg":
                 "alamat": "Bandar Lampung Ujung",
                 "hobbi": "Badmood liatin Jaldi",
                 "sosmed": "@_.dheamelia",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak dhea pinter banget nihh, asisten praktikum ads ku jugaa",
+                "pesan": "Kak dhea, infokan cara jadi asisten praktikum dong kakk "
             },
             {
                 "nama": "Renisha Putri Giani",
@@ -227,8 +227,8 @@ elif menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "Nawarin alat pancing",
                 "sosmed": "@renishapg",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak renisha cakep dan baik juga nih",
+                "pesan": "Kak, diteluk pantainya bagus gak kakk, ngalahin kalianda gaa, hehee"
             },
             {
                 "nama": "Anisa Fitriyani",
@@ -238,8 +238,8 @@ elif menu == "Baleg":
                 "alamat": "Balam",
                 "hobbi": "Main bowling",
                 "sosmed": "@",
-                "kesan": "Kak Anisa asik banget!",
-                "pesan": "Semangat terus kuliahnya kak Anisa, sukses selalu!"
+                "kesan": "Kak Anisa cantik dan kalem banget",
+                "pesan": "Kak main dimana kak bowlingnya, ajarin dong kakk"
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
@@ -249,8 +249,8 @@ elif menu == "Baleg":
                 "alamat": "Way Halim, Balam",
                 "hobbi": "Nyuci baju",
                 "sosmed": "@dhruchyo",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang dharu ganteng dan pinter nihh, asisten tutor lmd RA",
+                "pesan": "BANG??? gimana cara punya hobi nyuci baju... soalnya baju saya dirumah gapernah di cuci bang"
             },
             {
                 "nama": "Feby Wulandari",
@@ -260,8 +260,8 @@ elif menu == "Baleg":
                 "alamat": "Way Huwi",
                 "hobbi": "Macing keributan",
                 "sosmed": "@feby.wldr",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak feby lucu banget dan imup banget",
+                "pesan": "Kak, di bekasi panas gaa?? apa masih panasan ITERA dengan 1 matahari di kepala??"
             },
             {
                 "nama": "Givaro Ananta",
@@ -271,8 +271,8 @@ elif menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Liatin langit",
                 "sosmed": "@givarooo",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang givaro keren dan berwibawa bet bangg",
+                "pesan": "Saya juga suka liatin langit bangg, apalagi langit senja, terus kalo malem liat bulan ama bintang"
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
@@ -282,8 +282,8 @@ elif menu == "Baleg":
                 "alamat": "Korpri",
                 "hobbi": "Nyoba makanan terbaru",
                 "sosmed": "@myrrinn",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang mirzan jakarta banget nih memang",
+                "pesan": "Bang, infoin makanan yang terenak bangg!!"
             },
             {
                 "nama": "Berliana Enda Putri",
@@ -293,8 +293,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Ngumpulin batu unik di pantai",
                 "sosmed": "@berlyyanda",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak berliana keren banget kak, auranya positif banget",
+                "pesan": "Ngumpulin batu unik dipantai itu yang gimana kakkk, kayaknya unik banget tuhh"
             },
             {
                 "nama": "Juesi Apridelia Saragih",
@@ -304,8 +304,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Galau",
                 "sosmed": "@j_eesie",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak juesi cakep, seru dan inspiratif banget kak",
+                "pesan": "Kak??? Jangan galau galau kakk (padahal saya juga sering galau)"
             },
             {
                 "nama": "Ridho Benedictus Togi Manik",
@@ -315,8 +315,8 @@ elif menu == "Baleg":
                 "alamat": "Gh",
                 "hobbi": "Main padle",
                 "sosmed": "@iamridhomanik",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang ridho mahal kali hobbynya bang",
+                "pesan": "Btw itu main paddle dimana bang? adakah di sekitaran bandar lampung?"
             },
             {
                 "nama": "Feryadi Yulius",
@@ -326,8 +326,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Dengerin Wawa ngomong",
                 "sosmed": "@fer.yulius",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "First impression ke bang feryadi nih kayaknya suka usil ya bang",
+                "pesan": "Bang kak wawa biasnya ngomongin apa tuh bang kalo boleh tau??"
             },
             {
                 "nama": "Monica Patricia Tanjung",
@@ -337,8 +337,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Main ML, only Franco",
                 "sosmed": "@monica_tjg",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak monica cakep dan seru nihh kalo diliat liat",
+                "pesan": "Infokan mabar kakk, tapi saya masih Epic dan saya suka pake Nana"
             },
             {
                 "nama": "Wa Nashwa Alhasni Yuska",
@@ -348,8 +348,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyapa angin",
                 "sosmed": "@nshaysk",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Ka wawa baik bangett, terus cakep  jugaa",
+                "pesan": "Pernah dijawab ga kak sama angin??? serem juga tuh kalo ada jawaban dari anginn"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -372,8 +372,8 @@ elif menu == "Senator":
                 "alamat": "Belwis",
                 "hobbi": "Belajar",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang bintang keren banget nih kalo ngejelasin sesuatu jadi cepet nyambung",
+                "pesan": "Bang gimana cara biar dapet ide singkatan singkatan yang unik bang, singkatan dari abang nih unik unik tapi berisi bang"
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -383,8 +383,8 @@ elif menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Denger lagu",
                 "sosmed": "@nadyaanjani",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak nadya cakep, positive vibes, soft spoken",
+                "pesan": "Kak nadya saya tebak kakak suka denger lagu bernadya karena ber-*nadya*"
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -394,8 +394,8 @@ elif menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Bengong",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak azizah pinter banget, kalo ngejelasin pas dikelas tutor langsung paham dahh",
+                "pesan": "Gimana biar pinter ALE gitu kakk, btw makasi kak karena tutor dari kakak juga nilai ALE saya memuaskann"
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -405,8 +405,8 @@ elif menu == "Senator":
                 "alamat": "Belakang Indomaret Belwis",
                 "hobbi": "Tidur",
                 "sosmed": "@lia.h_264",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak lia hana kalem banget nih kalo diliat liat orangnya",
+                "pesan": "Kak, hobi saya juga juga tidur kakk tapi harus nonton ASMR"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1027,7 +1027,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=14vzbRYQV5wI9kWkEpqeAgSKVAgUQPExa",
             "https://drive.google.com/uc?export=view&id=1PfGEOnkKGC9lzW57Bjcvfs5pnxMiyYTY",
             "https://drive.google.com/uc?export=view&id=1bR1RyzWXxVD0KMH7mGCamNUl-dCbDW1K",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1HmiOHjf5WNQze1W84je5QrxH45if5DLN",
             "https://drive.google.com/uc?export=view&id=1FwA2BkYI8Rv-O2KUcS8fRSuuBjG-CsjH",
             "https://drive.google.com/uc?export=view&id=1BG-YP2nTpN5JsUoUm7K75CTBoCoZFWHb",
             "https://drive.google.com/uc?export=view&id=1XS7FPc4q7KF7FtVbWfrh2qJzi_urNv3i",
