@@ -303,11 +303,16 @@ def confetti_right():
 # F-DISTRIBUTION RENDER (dual: main + zoom) – auto-scale anti kepotong
 # ----------------------------------------------------------------------
 def render_f_dual(df1:int, df2:int, Fh:float, Fc:float, alpha:float):
-    # smart max-x: kalau Fh jauh di atas Fc, scale ke Fh*1.1; else sekitar Fc*1.6
-    xmax = Fh*1.1 if Fh > Fc*3 else Fc*1.6
+   # Auto-scale lebih aman agar grafik tidak kepotong
+    if Fh > Fc * 4:
+    xmax = Fh * 1.05        # kalau F sangat besar, zoom-out lebih jauh
+    elif Fh > Fc * 2:
+    xmax = Fh * 1.2
+    else:
+    xmax = Fc * 1.8
     xmin = 0.0
-    # jaga agar kanvas proporsional terhadap jumlah kelompok
-    xmax = max(xmax, 10 + 1.2*df1)
+    xmax = max(xmax, 10 + 1.5 * df1)  # buffer tambahan agar label kanan aman
+
 
     # sampling kurva
     N = 560
