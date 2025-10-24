@@ -171,7 +171,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifah",
                 "kesan": "kakaknya humble banget, bisa serius tapi bisa asik juga ",  
-                "pesan": " "# 1
+                "pesan": "semangat kuliahnya kakk "# 1
             },
             
         ]
@@ -987,7 +987,7 @@ if menu == "Departemen MIKFES":
             {
                 "nama": " Rahmah Gustriana Deka",
                 "nim": "123450102",
-                "umur": "",
+                "umur": "20",
                 "asal":"Lampung Timur",
                 "alamat": "Airan",
                 "hobbi": "ngerepotin Tanty",
