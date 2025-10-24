@@ -166,16 +166,16 @@ elif menu == "About Us":
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1JPwyjAQEXEMOG43G38PGTW067WGkkZMq",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1a_5UL_gv7Tj-8ww-HcQ8ZNqz8PU5qA1b",
             "https://drive.google.com/uc?export=view&id=1EPD1nRRm700qOtb5m4rFcEc1ZGfr0CON",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1cmz12RH1e92O6B7yIt7LgPtOkN-y7_qt",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1ntjjSNkS2Q75WdZUqNfOZ7nhY1dtdvxJ",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=152kn1VwtsFDWOYUgr-05fNxn765UlmWk",
+            "https://drive.google.com/uc?export=view&id=1nteU7mBaF4WuyacPn4zAZcnqqvu2Da-2",
+            "https://drive.google.com/uc?export=view&id=1vFsJMR4gP8JYcfxO9XeU2xUUJDSRHyXW",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
            
         ]
