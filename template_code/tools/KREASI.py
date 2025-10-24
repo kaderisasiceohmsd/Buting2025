@@ -1,42 +1,60 @@
 import streamlit as st
-import matplotlib.pyplot as plt
 
-# Judul aplikasi
-st.title("🧮 Kalkulator Bayes Interaktif")
-st.write("Aplikasi sederhana untuk menghitung probabilitas posterior menggunakan Teorema Bayes.")
-
-# Input dari user
-st.sidebar.header("Masukkan Nilai Probabilitas (0–1)")
-prior = st.sidebar.slider("P(H) - Probabilitas awal hipotesis", 0.0, 1.0, 0.01, 0.01)
-likelihood = st.sidebar.slider("P(E|H) - Probabilitas bukti jika hipotesis benar", 0.0, 1.0, 0.99, 0.01)
-false_positive = st.sidebar.slider("P(E|¬H) - Probabilitas bukti jika hipotesis salah", 0.0, 1.0, 0.05, 0.01)
-
-# Fungsi perhitungan Bayes
+# -----------------------------
+# 🧠 Fungsi Perhitungan Bayes
+# -----------------------------
 def bayes_calculator(prior, likelihood, false_positive):
     numerator = likelihood * prior
     denominator = numerator + false_positive * (1 - prior)
     if denominator == 0:
-        return 0
+        return 0.0
     return numerator / denominator
 
-posterior = bayes_calculator(prior, likelihood, false_positive)
 
-# Tampilkan hasil
-st.subheader("📊 Hasil Perhitungan")
-st.write(f"**P(H|E)** = `{posterior:.4f}`")
-st.write(f"Artinya: Ada **{posterior*100:.2f}%** kemungkinan hipotesis benar setelah bukti diperoleh.")
+# -----------------------------
+# 🎨 UI Streamlit
+# -----------------------------
+st.set_page_config(page_title="Kalkulator Bayes", page_icon="🧮", layout="centered")
 
-# Visualisasi
-fig, ax = plt.subplots()
-ax.bar(["Prior (P(H))", "Posterior (P(H|E))"], [prior, posterior], color=["#4C72B0", "#55A868"])
-ax.set_ylim(0, 1)
-ax.set_ylabel("Probabilitas")
-ax.set_title("Perbandingan Prior dan Posterior")
-st.pyplot(fig)
+st.title("🧮 Kalkulator Bayes")
+st.write("Hitung probabilitas **posterior** dengan menggunakan **Teorema Bayes** secara sederhana.")
 
-# Catatan
+# Input dari user
+st.header("Masukkan Nilai Probabilitas (0–1)")
+prior = st.number_input("P(H) → Probabilitas awal hipotesis", min_value=0.0, max_value=1.0, value=0.01, step=0.01)
+likelihood = st.number_input("P(E|H) → Probabilitas bukti jika hipotesis benar", min_value=0.0, max_value=1.0, value=0.9, step=0.01)
+false_positive = st.number_input("P(E|¬H) → Probabilitas bukti jika hipotesis salah", min_value=0.0, max_value=1.0, value=0.05, step=0.01)
+
+if st.button("Hitung Posterior"):
+    posterior = bayes_calculator(prior, likelihood, false_positive)
+    delta = posterior - prior
+
+    st.subheader("📊 Hasil Perhitungan")
+    st.metric(label="P(H|E) → Probabilitas Posterior", value=f"{posterior:.4f}", delta=f"{delta:+.4f}")
+    st.write(f"Artinya: Ada **{posterior*100:.2f}%** kemungkinan hipotesis benar setelah bukti diperoleh.")
+
+    # Tampilan sederhana tabel hasil
+    st.subheader("📋 Ringkasan Nilai")
+    st.table([
+        {"Keterangan": "P(H)", "Nilai": f"{prior:.4f}"},
+        {"Keterangan": "P(E|H)", "Nilai": f"{likelihood:.4f}"},
+        {"Keterangan": "P(E|¬H)", "Nilai": f"{false_positive:.4f}"},
+        {"Keterangan": "P(H|E)", "Nilai": f"{posterior:.4f}"}
+    ])
+
+# Penjelasan tambahan
+st.divider()
 st.info("""
-💡 **Catatan:**
-- Jika prior sangat kecil (kejadian langka), hasil tes positif belum tentu berarti benar.
-- Jika likelihood tinggi dan false positive kecil, probabilitas posterior akan meningkat signifikan.
+### 💡 Catatan:
+- **P(H)** → Probabilitas awal (prior) suatu hipotesis.
+- **P(E|H)** → Probabilitas bukti jika hipotesis benar.
+- **P(E|¬H)** → Probabilitas bukti jika hipotesis salah.
+- **P(H|E)** → Probabilitas hipotesis setelah melihat bukti (*posterior*).
+
+**Contoh kasus:**  
+Misalkan penyakit langka memiliki probabilitas awal 1% (P(H)=0.01).  
+Tes memiliki akurasi 90% (P(E|H)=0.9), dan false positive 5% (P(E|¬H)=0.05).  
+Maka hasil tes positif tidak berarti pasien pasti sakit — probabilitas sebenarnya sekitar 15–16%.
 """)
+
+st.caption("Dibuat dengan ❤️ menggunakan Streamlit — tanpa pustaka tambahan.")
