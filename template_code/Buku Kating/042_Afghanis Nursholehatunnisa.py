@@ -443,23 +443,23 @@ elif menu == "Departemen PSDA":
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "122450107",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "Abang ini tegas, ",  
+                "umur": "21",
+                "asal":"Medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal",
+                "sosmed": "@ferdy_kevin",
+                "kesan": "Abang ini tegas, keren,  ",  
                 "pesan":"semangat dan sukses selalu ya bang !!!"# 1
             },
             {
                 "nama": "Nisrina Nur Afifah",
                 "nim": "122450052",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
+                "umur": "20",
+                "asal":"Bekasi",
+                "alamat": "Korpri Sukarame",
+                "hobbi": "Jajan",
+                "sosmed": "@afifahhhsrn",
+                "kesan": "positive vibes, manis",  
                 "pesan":"Semangat dan bahagia selalu kak!!!"# 1
             },
             {
@@ -470,7 +470,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Healing",
                 "sosmed": "@allyapsha_",
-                "kesan": "",  
+                "kesan": "tegas,",  
                 "pesan":"semoga segala urusan kakak dipermudah ya.. semangat terus kak"# 3
             },
             {
@@ -481,7 +481,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "GH Belwis",
                 "hobbi": "Main bola",
                 "sosmed": "@ahmad.rizky___",
-                "kesan": "keren, ",  
+                "kesan": "keren, multitalent, public speakingnya bagus",  
                 "pesan":"semoga segala urusan abang dipermudah ya! goodluck "# 4
             },
             {
@@ -492,7 +492,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Deket kost dapa",
                 "hobbi": "Nyari Keributan",
                 "sosmed": "@arientakhsnl_",
-                "kesan": " ramah",  
+                "kesan": "keren, ramah, tegas",  
                 "pesan":"semangat menjalani harinya kak, jaga kesehatan ya"# 5
             },
             {
@@ -503,7 +503,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Sebelah kost Arienta",
                 "hobbi": "Jailin orang sampe nangis",
                 "sosmed": "@daffahdynn_",
-                "kesan": "tegas, ramah ",  
+                "kesan": "tegas, perhatian, ramah ",  
                 "pesan":" "# 6
             },
             {
@@ -514,7 +514,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Kontrakan GH",
                 "hobbi": "Banyak",
                 "sosmed": "@ginda_mrp",
-                "kesan": "abangnya baik banget, perhatian ",  
+                "kesan": "abangnya baik banget, perhatian, humble",  
                 "pesan":" "# 7
             },
             {
@@ -525,8 +525,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "Kost Putri Gerbang Barat ",
                 "hobbi": "Belajar",
                 "sosmed": "@natasyaamavisca",
-                "kesan": " ",  
-                "pesan":" "# 8
+                "kesan": "keren, anggun, ramah, cantik",  
+                "pesan":" kakaknya cantik bgt"# 8
             },
             {
                 "nama": "Nobel Nizam Fathirizki",
@@ -536,8 +536,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "Sebelah kost kak Allya",
                 "hobbi": "Kader",
                 "sosmed": "@nobelnizam",
-                "kesan": "tegas,  ",  
-                "pesan":" "# 9
+                "kesan": "tegas, jago ngoding  ",  
+                "pesan":" sukses dan semangat terus bang"# 9
             },
             {
                 "nama": "Nurul Alfajar Gumel",
@@ -547,8 +547,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "Sukarame",
                 "hobbi": "Marah",
                 "sosmed": "@ji_gumel17",
-                "kesan": " ",  
-                "pesan":" "# 10
+                "kesan": "positive vibes, ramah, tegas ",  
+                "pesan":"sehat dan sukses selalu bang "# 10
             },
             {
                 "nama": "Vany Salsabila Putri",
@@ -558,8 +558,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Marah-marah",
                 "sosmed": "@vany.salsabilaa",
-                "kesan": " ",  
-                "pesan":" "# 11
+                "kesan": "perhatian, ramah, tegas ",  
+                "pesan":"semangat dan lancar terus kak"# 11
             },
             {
                 "nama": "Ahmad Sahidin Akbar",
@@ -581,7 +581,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Gang Nangka 4 Sukarame",
                 "hobbi": "Main game, kuliner kalau ada uang",
                 "sosmed": "@ali_parisi3",
-                "kesan": " ",
+                "kesan": " kalem",
                 "pesan": " " # 13
             },
 
@@ -593,7 +593,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Way Dadi",
                 "hobbi": "Tidur",
                 "sosmed": "@ferazkaa",
-                "kesan": " ",
+                "kesan": "asik banget, ramah",
                 "pesan": " " # 16
             },
 
@@ -605,7 +605,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Untung",
                 "hobbi": "Scroll Tiktok",
                 "sosmed": "@rismaa.mustika_",
-                "kesan": " ",
+                "kesan": "perhatian, asik, ramah",
                 "pesan": " " # 15
             },
             
@@ -617,7 +617,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main Roblox",
                 "sosmed": "@rosaliasiregar",
-                "kesan": " ",
+                "kesan": "perhatian, baik ",
                 "pesan": " " # 14
             },
             
@@ -656,18 +656,6 @@ elif menu == "Departemen PSDA":
                 "kesan": " ",
                 "pesan": " " # 24
             }, 
-            
-            {
-                "nama": "Erma Daniar Safitri",
-                "nim": "123450061",
-                "umur": "20",
-                "asal": "Pringsewu",
-                "alamat": "Jl. Lapas Raya No 50",
-                "hobbi": "Dance",
-                "sosmed": "@d_aniar",
-                "kesan": " ",
-                "pesan": " " # 24
-            },
 
             {
                 "nama": "Ihsan Maulana Yusuf",
@@ -1665,7 +1653,7 @@ elif menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1J_3JDHxu7vw6BHOsAzvaRkZB_-0wuxCG", #Feby Angelina
             "https://drive.google.com/uc?export=view&id=16YWtxVfvVLn18sC3S6VY8g4J2VzS8JRN", #Hafsa Fazila Arradhi
             "https://drive.google.com/uc?export=view&id=1RDo7W-XfV9Z-RYuwbdLxBrQxzwDWbzLJ", #Nayla Salsabila Fathianisa
-            "https://drive.google.com/uc?export=view&id=", #Sania Dwi Ayu Lestari
+            "https://drive.google.com/uc?export=view&id=1vBiW0JUYps98A0SECJTrUABrC2vysVZ2", #Sania Dwi Ayu Lestari
             "https://drive.google.com/uc?export=view&id=1GvwChImQWXh2nLsgU3xGbtOzgLw9pe6U", #Akmal Faiz Abdillah
             "https://drive.google.com/uc?export=view&id=1qukdzG96nt6Xqkl3CqVfJjOOqiH4gpJ-", #Raihana Adelia Putri
             "https://drive.google.com/uc?export=view&id=1dxDUMdlZj5nub0mW-Gg2LE2PgKpD4BY3", #Citra Agustin
