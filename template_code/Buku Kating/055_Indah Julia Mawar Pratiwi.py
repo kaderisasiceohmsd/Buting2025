@@ -585,7 +585,7 @@ if menu == "Departemen PSDA":
                 "hobbi": "Tidur",
                 "sosmed": "@feraztaaa",
                 "kesan": "Kakaknya enerjik dan punya semangat tinggi banget",  
-                "pesan":"eruslah jadi sosok yang nyebarin semangat buat sekitar ya, Kak!"
+                "pesan":"Teruslah jadi sosok yang nyebarin semangat buat sekitar ya, Kak!"
             },
             {
                 "nama": "Sahid Maulana",
@@ -903,7 +903,7 @@ if menu == "Departemen MIKFES":
                 "hobbi": "Jalan jalan, main game",
                 "sosmed": "@biokcb",
                 "kesan": "Abang Fabio easy going dan gampang bikin suasana jadi santai.",
-                "pesan": "Tetap semangat bang! Jangan lupa main gamenya jangan kebanyakan
+                "pesan": "Tetap semangat bang! Jangan lupa main gamenya jangan kebanyakan"
             },
             {
                 "nama": "Rahma Oktavia Albar",
@@ -1255,7 +1255,7 @@ if menu == "Departemen Eksternal":
                 "hobbi": "jelajahi desa lamsel",
                 "sosmed": "@tari_sya23",
                 "kesan": "Kak Tarisya sopan, rendah hati, dan menyenangkan untuk diajak bekerja sama.",
-                "pesan": "Semoga segala cita-cita dan impian Kakak bisa tercapai dengan lancar[';"
+                "pesan": "Semoga segala cita-cita dan impian Kakak bisa tercapai dengan lancar"
             },
             {
                 "nama": "Arini Puteri Elandra",
@@ -1517,7 +1517,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Belakang PB",
                 "hobbi": "jogging",
-                "sosmed": "dananghk_",
+                "sosmed": "@dananghk_",
                 "kesan": "Abang Danang orangnya ramah, terbuka, dan selalu menciptakan suasana nyaman di sekitar",
                 "pesan": "Teruslah menjadi pribadi yang penuh semangat dan tulus dalam setiap hal yang dikerjakan, Bang"
             },
@@ -1528,7 +1528,7 @@ if menu == "Departemen SSD":
                 "asal": "Tanggerang",
                 "alamat": "Sukarame",
                 "hobbi": "Baca novel",
-                "sosmed": "syalaishaa_31",
+                "sosmed": "@syalaishaa_31",
                 "kesan": "Kak Syalaisha punya kepribadian lembut dan sopan, membuat setiap pertemuan terasa menyenangkan",
                 "pesan": "Semoga Kak Syalaisha selalu diberi kelancaran dalam kuliah dan terus menjadi inspirasi bagi banyak orang"
             },
@@ -1539,7 +1539,7 @@ if menu == "Departemen SSD":
                 "asal": "Padang",
                 "alamat": "Airan",
                 "hobbi": "beli parfum",
-                "sosmed": "den_iki__",
+                "sosmed": "@den_iki__",
                 "kesan": "Abang Rizqi sosok yang tenang dan menyenangkan, mudah diajak bicara dan selalu positif",
                 "pesan": "Semoga Abang terus diberi semangat untuk berkembang dan mencapai semua cita-cita"
             },
@@ -1550,7 +1550,7 @@ if menu == "Departemen SSD":
                 "asal": "Palembang",
                 "alamat": "Lampung Selatan",
                 "hobbi": "jogging",
-                "sosmed": "anadiacrn_",
+                "sosmed": "@anadiacrn_",
                 "kesan": "Kak Anadia selalu tampil percaya diri dan membawa energi positif di setiap kesempatan",
                 "pesan": "Teruslah bersemangat mengejar impian, Kak. Jangan berhenti jadi sumber inspirasi bagi sekitar"
             },
@@ -1561,7 +1561,7 @@ if menu == "Departemen SSD":
                 "asal": "Lampung Selatan",
                 "alamat": "Lampung Selatan",
                 "hobbi": "nonton dramashort di fb",
-                "sosmed": "aprhtp_",
+                "sosmed": "@aprhtp_",
                 "kesan": "Kak Aprilia pribadi yang ceria dan rendah hati, selalu menyambut orang dengan senyum hangat",
                 "pesan": "Semoga setiap langkah Kakak dipenuhi kebahagiaan dan keberhasilan"
             },
@@ -1572,7 +1572,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Way Halim",
                 "hobbi": "jogging",
-                "sosmed": "nabila_zazahra",
+                "sosmed": "@nabila_zazahra",
                 "kesan": "Kak Nabila sosok yang perhatian dan tanggap terhadap orang lain, membuatnya mudah disukai banyak orang",
                 "pesan": "Teruslah jadi pribadi yang membawa ketenangan dan semangat untuk orang-orang di sekitar, Kak"
             },
@@ -1583,7 +1583,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Sukarame",
                 "hobbi": "Belajar",
-                "sosmed": "dhafinrzqa13",
+                "sosmed": "@dhafinrzqa13",
                 "kesan": "Bang Dhafin cerdas dan selalu terbuka untuk berbagi ilmu, membuat suasana belajar jadi menyenangkan",
                 "pesan": "Semoga Abang terus semangat dan sukses dalam perjalanan akademik maupun kehidupan pribadi"
             },
@@ -1594,7 +1594,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Way Kandis",
                 "hobbi": "nonton drakor",
-                "sosmed": "deviirhyu",
+                "sosmed": "@deviirhyu",
                 "kesan": "Kak Devi orangnya lembut dan sopan, tapi tetap aktif dan bersemangat dalam berorganisasi",
                 "pesan": "Semoga Kak Devi terus bahagia dan diberi kemudahan dalam segala urusan"
             },
@@ -1605,7 +1605,7 @@ if menu == "Departemen SSD":
                 "asal": "Sumatera Barat",
                 "alamat": "gg.perwira 2",
                 "hobbi": "menonton alur cerita film",
-                "sosmed": "englirahmdhnii",
+                "sosmed": "@englirahmdhnii",
                 "kesan": "Kak Engeli sosok yang humoris dan mudah akrab, membuat suasana jadi lebih hidup",
                 "pesan": "Semoga Kakak selalu dikelilingi orang-orang baik dan diberi jalan yang terbaik untuk masa depan"
             },
@@ -1616,7 +1616,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Korpri",
                 "hobbi": "Masak",
-                "sosmed": "_inayasani",
+                "sosmed": "@_inayasani",
                 "kesan": "Kak Hanifah memiliki pembawaan tenang dan selalu menebarkan aura positif ke sekitarnya",
                 "pesan": "Teruslah menjadi sosok yang menenangkan dan menginspirasi, Kak"
             },
@@ -1627,7 +1627,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Tanjung Karang",
                 "hobbi": "Main",
-                "sosmed": "nydiaaptr_",
+                "sosmed": "@nydiaaptr_",
                 "kesan": "Kak Nydia adalah pribadi yang ceria, komunikatif, dan penuh semangat",
                 "pesan": "Semoga Kakak selalu sukses dan tetap menjadi pribadi yang menyenangkan untuk semua orang"
             },
@@ -1676,7 +1676,7 @@ if menu == "Departemen Medkraf":
                 "asal":"Lampung",
                 "alamat": "Korpri, Sukarame",
                 "hobbi": "Gym, Masak",
-                "sosmed": "@i",
+                "sosmed": "@rahmanellyana",
                 "kesan": "Kak Rahma sosok yang dewasa dan penuh tanggung jawab, selalu memberi contoh yang baik",  
                 "pesan":"Semoga segala usaha dan kerja keras Kak Rahma selalu berbuah manis"
             },
@@ -1698,7 +1698,7 @@ if menu == "Departemen Medkraf":
                 "asal":"Bandar Lampung",
                 "alamat": "Griya Sukarame",
                 "hobbi": "Main Hp",
-                "sosmed": "@i",
+                "sosmed": "@_akmal.faiz",
                 "kesan": "Abang Akmal orangnya tenang tapi punya selera humor yang bikin suasana cair",  
                 "pesan":"Semoga Abang terus berkembang dan menjadi sosok yang semakin hebat ke depannya"
             },
@@ -1832,7 +1832,7 @@ if menu == "Departemen Medkraf":
                 "hobbi": "Dengerin musik",
                 "sosmed": "@naylasalsabilaa",
                 "kesan": "Kak Nayla kalem tapi berwawasan luas, selalu punya cara pandang yang bijak",  
-                "pesan":""
+                "pesan":"Semangat terus kak kuliahnya, semoga sehat selalu"
             },
             {
                 "nama": "Dona Maya Puspita",
