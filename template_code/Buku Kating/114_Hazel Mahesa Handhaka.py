@@ -1264,7 +1264,7 @@ if menu == "Departemen Eksternal":
                 "alamat": "Kedamaian",
                 "hobbi": "Me Time",
                 "sosmed": "@n.shafiraz",
-                "kesan": "anggun, sopan, dan punya aura yang menenangkan,  
+                "kesan": "anggun, sopan, dan punya aura yang menenangkan",  
                 "pesan":"Tetap jadi pribadi yang lembut tapi kuat ya kak"# 1
             },
             {
