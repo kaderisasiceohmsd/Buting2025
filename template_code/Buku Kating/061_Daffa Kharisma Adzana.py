@@ -181,20 +181,20 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=1x28lGeEmbmYS8jSK8qkIOPjWFNCKSnDi",
+            "https://drive.google.com/uc?export=view&id=1_54BNsYqpphxWtvRGTbT0FfER49Uafvc",
+            "https://drive.google.com/uc?export=view&id=1g_A6kPVEMIUdggWN9Dnhx9gqv9CMeLsc",
+            "https://drive.google.com/uc?export=view&id=1yAWKFiXE_YEg5FGGQefFXJiH3V7bIJCQ",
+            "https://drive.google.com/uc?export=view&id=1z0Hn6StsmE83wVQOE6LpK2O97EB638YM",
+            "https://drive.google.com/uc?export=view&id=1tXJRd5xZ-9_Hx1JQ4_6Ld-mN53RnjGp6",
+            "https://drive.google.com/uc?export=view&id=1TMapyVNyY8xAFf5D076Lwln-aGtOoq0m",
+            "https://drive.google.com/uc?export=view&id=1Cw4OmKb1HMbfA15w58xFY687R5et85uB",
+            "https://drive.google.com/uc?export=view&id=1fwktKPxhRHN6TxbgghqfKsbauytHzFB9",
+            "https://drive.google.com/uc?export=view&id=12hOWoYRr7o2qfM_gjw5K74IbydsWeDo_",
+            "https://drive.google.com/uc?export=view&id=1mYhXS6vmfhdRvpz59ttx2vJVqr8YpAcW",
+            "https://drive.google.com/uc?export=view&id=1AaY6w0sW6rDYKCj_8tA95-lZB5Q4_Ojs",
+            "https://drive.google.com/uc?export=view&id=1rYQOb6OyYec5CacVDM3SoqBNgY5E2LNH",
+            "https://drive.google.com/uc?export=view&id=1zYcCDembc80j2tCNGJx2TbUtPbgwe10l",
         ]
         data_list = [
             {
@@ -1876,6 +1876,7 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
