@@ -108,7 +108,7 @@ if menu == "Kesekjenan":
         ]
         data_list = [
             {
-                "nama": "Rendra Eka Prayoga",
+               "nama": "Rendra Eka Prayoga",
                 "nim": "122450112",
                 "umur": "21",
                 "asal":"Bekasi",
@@ -116,7 +116,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
                 "kesan": "Bang rendra aura nya berwibawa sekalii",  
-                "pesan":"Semangat terus bang Rendraa, semoga diberi kesehatan selalu dan semoga TA nya lancarr  !!!"# 1
+                "pesan":"Semangat terus bang Rendraa, semoga diberi kesehatan selalu dan semoga TA nya lancarr, btw suka nyanyi genre apa tuh bangg??!!!"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -127,7 +127,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Baca buku SQL",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "Bang Johannes seru dan asik bet bangg",  
-                "pesan":"Semangat terus bang Jo semoga sehat sehat selalu bang !!!"# 1
+                "pesan":"Semangat terus bang Jo semoga sehat sehat selalu bang, keren bener bang suka baca buku SQL !!!"# 1
             },
             {
                 "nama": "Elisabeth Claudia",
@@ -138,7 +138,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Nyemil",
                 "sosmed": "@celisabethh_",
                  "kesan": "Kak elisabeth keren banget kakk dan seru",  
-                "pesan":"Semangat terus ya kak Elisabeth, semoga diberi kelancaran segala urusan"# 1
+                "pesan":"Semangat terus ya kak Elisabeth, semoga diberi kelancaran segala urusan, btw rekomen cemilan yang low budget tapi lama abisnya selain kuaci dong kakk"# 1
             },
              {
                 "nama": "Syadza Puspadari Azhar",
@@ -149,7 +149,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
                 "kesan": "Kak Syadza cool banget !!",
-                "pesan": "Semangat ya kak Syadza,semoga sehat selaluu dan semoga lancar selalu dalam segala urusannya !"
+                "pesan": "Semangat ya kak Syadza,semoga sehat selaluu dan semoga lancar selalu dalam segala urusannya, kak syadza suka baca apa kak? buku novel kah> komik kah? atau buku SQL sama kayak bang jo kak?"
             },
             {
                 "nama": "Eksanty Febriana Sugma Islamiati",
@@ -171,7 +171,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Domino, Qtek kahim",
                 "sosmed": "@farahanumafifahh",
                 "kesan": "Kak Farahanum positive vibes banget!",
-                "pesan": "Semangat terus ya kak, semoga lancar segala urusannya dan diberikan kesehatan selalu !"
+                "pesan": "Semangat terus ya kak, semoga lancar segala urusannya dan diberikan kesehatan selalu, ajarin domino dong kak hehw !"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
