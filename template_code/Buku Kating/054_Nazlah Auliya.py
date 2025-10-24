@@ -448,13 +448,13 @@ if menu == "Departemen PSDA":
         data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",
-                "nim": "",
-                "umur": "",
-                "asal": "",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "122450107",
+                "umur": "21",
+                "asal": "Medan",
+                "alamat": "Tanjung Senag",
+                "hobbi": "Futsal",
                 "sosmed": "@ferdy_kevin",
-                "kesan": "keren banget bang, berwibawa pokoknya",
+                "kesan": "pembawaan nya serius terus dan berwibawa pokoknya",
                 "pesan": "jangan lupa istirahat ya bang"
             },
             {
