@@ -919,11 +919,11 @@ if menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-                "nim": "haii",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "123450035",
+                "umur": "20",
+                "asal":"Pesawaran, Lampung",
+                "alamat": "Pesawaran, Lampung",
+                "hobbi": "Main piano & Nyanyi",
                 "sosmed": "@pebby_olla525",
                 "kesan": "kaa baikk bangeeet ramah poll",  
                 "pesan":"semangat teruss kaaa, semangat yaa nugasnya kaa"# 1
@@ -1510,7 +1510,7 @@ if menu == "Departemen Internal":
             },
             {
                 "nama": "Zahra Putri Salsabilla",
-                "nim": "-",
+                "nim": "123450026",
                 "umur": "19",
                 "asal":"Natat",
                 "alamat": "Pemda, Way Huwi",
