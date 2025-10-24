@@ -13,10 +13,10 @@ def typewriter(text, delay=0.03):
 
 # 🔗 Link Google Drive (format langsung)
 drive_links = [
-    "https://drive.google.com/uc?export=view&id=1j2whG_RXnlMioXeOqXbXWct4OK6qqFxS",
-    "https://drive.google.com/uc?export=view&id=1WlsJOtW86QjnczgRXm46oaB3PX6Hmqco",
-    "https://drive.google.com/uc?export=view&id=1n3GrMCFWvW-ttkUR5jQwq_7EYOug9I4R",
-    "https://drive.google.com/uc?export=view&id=188Atf3QnwaerlDPhBT9ykzttyv4yqIAv"
+    "https://drive.google.com/uc?export=view&id=1x1kGE_QZx5CLf4g4ipKRHpOAAQ3G0r41",
+    "https://drive.google.com/uc?export=view&id=1LOfFVz5NrYq6KIon4MTg-qIFrqtHwchp",
+    "https://drive.google.com/uc?export=view&id=1NnPtHtj6bS-I6NIMDargefd9H8H798FT",
+    "https://drive.google.com/uc?export=view&id=1mt7H7_1LEW18Eldt2H0zZAZz39nAKGvn"
 ]
 
 poisson_images = drive_links  # ✅ langsung pakai ini saja
@@ -86,3 +86,4 @@ if all(st.session_state.matched):
 st.write(f"🧮 Percobaan: {st.session_state.attempts}")
 
 # 🔁 Tombol reset
+
