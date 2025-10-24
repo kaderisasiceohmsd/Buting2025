@@ -505,7 +505,7 @@ elif menu == "Departemen PSDA":
                 "umur": "21",
                 "asal":"Sumatera Barat",
                 "alamat": "Sebelah kost kak arienta",
-                "hobbi": "",
+                "hobbi": "jailin miyor",
                 "sosmed": "@daffahdynn_",
                 "kesan": "Bang Daffa orangnya asikk, apalagi waktu suporteran rame, semangat, dan bikin suasana makin seruu!",  
                 "pesan":"Tetap jadi pribadi yang penuh semangat dan nyebarin energi positif terus ya bang!"# 1
@@ -1859,6 +1859,7 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
 
