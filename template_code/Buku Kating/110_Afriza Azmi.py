@@ -1550,7 +1550,7 @@ if menu == "Departemen SSD":
                 "hobbi": "Bisnis Startup, Jogging",
                 "sosmed": "@dananghk_",
                 "kesan": "kocak banget abang satu ini",  
-                "pesan":"semangat terus bang, kocak terus pokoknyaaa"# 1
+                "pesan":"semangat terus bang, kocak terus pokoknyaaaaaaa"# 1
             },
             {
                 "nama": "Syalaisha Andina Putriansyah",
@@ -1561,7 +1561,7 @@ if menu == "Departemen SSD":
                 "hobbi": "Baca Novel",
                 "sosmed": "@syalaishaa_31",
                 "kesan": "Kakak ini asik",  
-                "pesan":"jaga kesehatanya"# 1
+                "pesan":"jaga kesehatanyaaaa"# 1
             },
             {
                 "nama": "Ahmad Rizqi",
@@ -1572,7 +1572,7 @@ if menu == "Departemen SSD":
                 "hobbi": "beli parfum, foto-foto pemandangan",
                 "sosmed": "@den_iki__",
                 "kesan": "Abang cool kece abiez photogenic",  
-                "pesan":"minta parfum bang"# 1
+                "pesan":"minta parfum bangg"# 1
             },
              {
                 "nama": "Anadia Carana",
