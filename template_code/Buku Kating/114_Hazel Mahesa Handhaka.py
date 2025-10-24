@@ -360,9 +360,9 @@ if menu == "Senator":
     def senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1mj2OyA1z6VMi-zIy11AI2zPb7tpSUFXd",
-            "https://drive.google.com/uc?export=view&id=1T2SKK4q4nG0AnAV-KLVU9u0Fvw7-V3wS",
-            "https://drive.google.com/uc?export=view&id=1XcMbsQk_6cOIYT5vtCE2azZu6CZLmE0N",
-            "https://drive.google.com/uc?export=view&id=1RtJ-li4_5g1a5fXpfTvinUmA8lngSV5S",
+            "https://drive.google.com/uc?export=view&id=1L3A5pC8oa8YganWbPXzUxn_EZH3dA-PD",
+            "https://drive.google.com/uc?export=view&id=1qH0_2xHKZLccLP3Mm-nqT1ghLL3eNyE7",
+            "https://drive.google.com/uc?export=view&id=1KZo2gkpBA3hJlBanD6oPFLN1P6Ydnq9C",
         ]
         data_list = [
             {
@@ -1358,35 +1358,13 @@ if menu == "Departemen Internal":
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
-                "nama": "Rendi Alexander Hutagalu",
-                "nim": "122450057",
-                "umur": "21",
-                "asal":"Tangerang",
-                "alamat": "Airan",
-                "hobbi": "Menyanyi",
-                "sosmed": "@rexanderr",
-                "kesan": "Keren banget hobinya",  
-                "pesan":"Keep Going"# 1
-            },
-            {
-                "nama": "Hanna Grecia Sinaga",
-                "nim": "123450038",
-                "umur": "21",
-                "asal":"Jakarta Selatan",
-                "alamat": "Pemda",
-                "hobbi": "Melihat cicak",
-                "sosmed": "@hanna_g_sinaga",
-                "kesan": "Hobinya anak semester akhir",  
-                "pesan":"Lakukan yang terbaik"# 1
-            },
-            {
-                "nama": "Iqfina Haula Halika",
-                "nim": "123450076",
+                "nama": "Azzahra Putri Kamila",
+                "nim": "123450013",
                 "umur": "20",
-                "asal":"Bandar Lampung",
-                "alamat": "Bandar Lampung",
-                "hobbi": "Baking",
-                "sosmed": "@iqfinahalikaa_",
+                "asal":"Pekanbaru",
+                "alamat": "Asrama TB4",
+                "hobbi": "Memasak",
+                "sosmed": "@azza.rrr_",
                 "kesan": "Keren banget hobinya",  
                 "pesan":"Keep Going"# 1
             },
@@ -1402,13 +1380,24 @@ if menu == "Departemen Internal":
                 "pesan":"Lakukan yang terbaik"# 1
             },
             {
-                "nama": "Zailani Satria",
-                "nim": "123450111",
-                "umur": "19",
+                "nama": "Rendi Alexander Hutagalu",
+                "nim": "122450057",
+                "umur": "21",
+                "asal":"Tangerang",
+                "alamat": "Airan",
+                "hobbi": "Menyanyi",
+                "sosmed": "@rexanderr",
+                "kesan": "Keren banget hobinya",  
+                "pesan":"Keep Going"# 1
+            },
+            {
+                "nama": "Iqfina Haula Halika",
+                "nim": "123450076",
+                "umur": "20",
                 "asal":"Bandar Lampung",
-                "alamat": "Rajabasa",
-                "hobbi": "Olahraga",
-                "sosmed": "@zailanisatria",
+                "alamat": "Bandar Lampung",
+                "hobbi": "Baking",
+                "sosmed": "@iqfinahalikaa_",
                 "kesan": "Keren banget hobinya",  
                 "pesan":"Keep Going"# 1
             },
@@ -1424,24 +1413,24 @@ if menu == "Departemen Internal":
                 "pesan":"Lakukan yang terbaik"# 1
             },
             {
-                "nama": "Azzahra Putri Kamila",
-                "nim": "123450013",
-                "umur": "20",
-                "asal":"Pekanbaru",
-                "alamat": "Asrama TB4",
-                "hobbi": "Memasak",
-                "sosmed": "@azza.rrr_",
+                "nama": "Zailani Satria",
+                "nim": "123450111",
+                "umur": "19",
+                "asal":"Bandar Lampung",
+                "alamat": "Rajabasa",
+                "hobbi": "Olahraga",
+                "sosmed": "@zailanisatria",
                 "kesan": "Keren banget hobinya",  
                 "pesan":"Keep Going"# 1
             },
             {
-                "nama": "Sarah Wasti",
-                "nim": "123450057",
-                "umur": "20",
-                "asal":"Kota Bekasi",
-                "alamat": "Tanjung Senang",
-                "hobbi": "Bermain alat musik",
-                "sosmed": "@sarahwsti",
+                "nama": "Hanna Grecia Sinaga",
+                "nim": "123450038",
+                "umur": "21",
+                "asal":"Jakarta Selatan",
+                "alamat": "Pemda",
+                "hobbi": "Melihat cicak",
+                "sosmed": "@hanna_g_sinaga",
                 "kesan": "Hobinya anak semester akhir",  
                 "pesan":"Lakukan yang terbaik"# 1
             },
@@ -1464,6 +1453,17 @@ if menu == "Departemen Internal":
                 "alamat": "Prumnas Way Kandis",
                 "hobbi": "Futsal",
                 "sosmed": "@hndzky_",
+                "kesan": "Hobinya anak semester akhir",  
+                "pesan":"Lakukan yang terbaik"# 1
+            },
+            {
+                "nama": "Sarah Wasti",
+                "nim": "123450057",
+                "umur": "20",
+                "asal":"Kota Bekasi",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Bermain alat musik",
+                "sosmed": "@sarahwsti",
                 "kesan": "Hobinya anak semester akhir",  
                 "pesan":"Lakukan yang terbaik"# 1
             },
