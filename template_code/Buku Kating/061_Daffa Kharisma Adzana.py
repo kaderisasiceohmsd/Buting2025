@@ -1523,7 +1523,7 @@ if menu == "Departemen SSD":
             "https://cdn-icons-png.flaticon.com/512/847/847969.png", #10
             "https://cdn-icons-png.flaticon.com/512/847/847969.png", #11
         ]
-       data_list = [
+        data_list = [
             {
                 "nama": "Danang Hilal Kurniawan",
                 "nim": "122450085",
@@ -1876,6 +1876,7 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
