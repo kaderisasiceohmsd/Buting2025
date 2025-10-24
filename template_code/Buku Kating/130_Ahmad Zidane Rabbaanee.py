@@ -772,18 +772,18 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1cG3lKoY5qHeLd3Z0p9ZyCLlblXIPzmv1",
             "https://drive.google.com/uc?export=view&id=1BLLGdXpcTEu21q5diKnXk09vuvH3bcSv",
             "https://drive.google.com/uc?export=view&id=17lHu6Doowl4EMH6ywNqvOY9QZbL0chmC",
+            "https://drive.google.com/uc?export=view&id=1yj_3fJY0cY3z_nt1D2qayLiUhFOGaqya",
             "https://drive.google.com/uc?export=view&id=16rHaRqkffF_bM-q8qzg-9IZEkpcGBWNB",
             "https://drive.google.com/uc?export=view&id=1lqlD13ZHorzoRF0IpsWXyu6_BnH9ZyW7",
             "https://drive.google.com/uc?export=view&id=1_z6q1BYmgzo9n5ykUYB1i9VIlrgethP2",
             "https://drive.google.com/uc?export=view&id=1HhYLsaUBBhuYRJFUVMX64oUKsnS6wn52",
             "https://drive.google.com/uc?export=view&id=1l_X4BoxTWQwAkO8KknsgzDcJl5IMID_r",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1p7h711R5jnx0ExhmjAhsgFqRQHeew6wD",
             "https://drive.google.com/uc?export=view&id=1k0vQ1Me7uBAxIMkUw2YYqkmOClbLdGQ-",
             "https://drive.google.com/uc?export=view&id=1Nuymn9YAPNpyOThDN0CjDuOzO-JZHQyz",
             "https://drive.google.com/uc?export=view&id=1XzyCX0l3SUOCO1cM77uQOXJSdBRYgnWN",
             "https://drive.google.com/uc?export=view&id=1fP2aLNPY1Ec9AWuSlQGhI3xJxghqAym4",
-            "https://drive.google.com/uc?export=view&id=1HoeAL3IvrpNu9HBzRC64GeRN66BAyN8T",
-            "https://drive.google.com/uc?export=view&id=1_fx2KSaLpQjeBspPlTEv7DC3UrvR18WJ",
         ]
         data_list = [
             {
