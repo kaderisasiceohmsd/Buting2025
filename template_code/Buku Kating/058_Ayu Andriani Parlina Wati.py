@@ -105,6 +105,8 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=1_KYoQ0KCkLxP4h7gADb7UR8Nfv0CIRNQ",
             "https://drive.google.com/uc?export=view&id=1FZfkAPeJ3GTwg37vWrO5T0Vr_3BPb07q",
             "https://drive.google.com/uc?export=view&id=1uPbnjJiGl5InLCTQF_5jEOPQy_gAS1ww",
+            
+
         ]
         data_list = [
             {
@@ -176,6 +178,7 @@ if menu == "Kesekjenan":
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
+
 
 
 if menu == "Baleg":
