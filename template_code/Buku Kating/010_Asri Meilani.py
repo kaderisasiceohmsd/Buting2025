@@ -623,10 +623,10 @@ if menu == "Departemen PSDA":
             {
                 "nama": "Kharisma Mustika Sari",
                 "nim": "123450034",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "umur": "20",
+                "asal":"Way Kanan",
+                "alamat": "Untung",
+                "hobbi": "Scroll tiktok",
                 "sosmed": "@rismaa.mustika_",
                 "kesan": "kakaa baik bangett aku udah mikir kayannya kakanya serem deh, ehh pas wwc ternyataa baik banget dan se soft spoken ituu",  
                 "pesan":"jangan lupaa makan yaa kaa jaga kesehatan dan semangat terus kuliahnyaa"# 1
@@ -742,15 +742,15 @@ if menu == "Departemen PSDA":
                 "pesan":"semangat teruss bang, semoga sukses selaluuuu!"# 1
             },
             {
-                "nama": "-",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
-                "sosmed": "@-",
-                "kesan": "-",  
-                "pesan":"T-"# 1
+                "nama": "Rewina Audriya Melva Sari",
+                "nim": "123450049",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Way Kandis",
+                "hobbi": "Liat Shoppe tapi ga beli",
+                "sosmed": "@rewinanaaa",
+                "kesan": "baik bnngett kakanyaa dan lumayan pendiem",  
+                "pesan":"semangatt terus kakaa kuliahnyaa"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
