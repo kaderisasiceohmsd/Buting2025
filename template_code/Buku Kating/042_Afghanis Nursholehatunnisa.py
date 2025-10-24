@@ -713,7 +713,7 @@ elif menu == "Departemen PSDA":
                 "sosmed": "@ridwan122",
                 "kesan": "abagnya baik, rama ",
                 "pesan": " " # 26
-            }
+            },
 
             {
                 "nama": "Benget Sidabutar",
@@ -1599,7 +1599,7 @@ elif menu == "Departemen SSD":
                 "alamat": "Sukarame",
                 "hobbi": "Belajar",
                 "sosmed": "@dhafinrzqa13",
-                "kesan": "abang ini kalem dan pendiem,  
+                "kesan": "abang ini kalem dan pendiem",
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
@@ -1621,7 +1621,7 @@ elif menu == "Departemen SSD":
                 "alamat": "Gg. perwira 2",
                 "hobbi": "Menonton alur cerita film",
                 "sosmed": "@englirahmdhnii",
-                "kesan": "semoga lancar selalu urusannya kak,  
+                "kesan": "semoga lancar selalu urusannya kak",
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
