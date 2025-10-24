@@ -454,7 +454,7 @@ if menu == "Departemen PSDA":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@ferdy_kevin",
-                "kesan": "-",
+                "kesan": "",
                 "pesan": "-"
             },
             {
