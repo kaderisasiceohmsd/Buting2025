@@ -509,7 +509,7 @@ if menu == "Departemen PSDA":
                 "hobbi": "Jailin Miyor",
                 "sosmed": "@daffahdynn_",
                 "kesan": "Bang Daffa ini muka nya serem tapi kalo udah kenal bang Daffa itu baik banget dan lucu juga walau terkadang asal bunyi",
-                "pesan": ""#6
+                "pesan": "Semangat ya Bang kuliahnya dan sehat terus, semoga tercapai target nya"#6
             },
             {
                 "nama": "Ginda Fajar Riadi Marpaung",
@@ -519,8 +519,8 @@ if menu == "Departemen PSDA":
                 "alamat": "GH",
                 "hobbi": "Banyak",
                 "sosmed": "@ginda_mrp",
-                "kesan": "-",
-                "pesan": "-"#7
+                "kesan": "Bang Fajar ini keliatan nya kayak , tapi kalo di luar jam serius bang fajar ini baik",
+                "pesan": ""#7
             },
             {
                 "nama": "Natasya Amavisca",
