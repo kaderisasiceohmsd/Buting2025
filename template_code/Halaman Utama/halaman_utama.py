@@ -147,7 +147,9 @@ Dalam sains data, khususnya pada analisis kelompok (clustering) atau pengelompok
         layout(foto_kelompok)
         st.markdown(
             """<div style="text-align: justify;">COSVAL adalah kelompok 9 dari kaderisasi CEO HMSD ADYATAMA 
-            dengan Mentor yang sangat luar biasa yaitu kak gusti putu ferazka d.</div>""",
+            dengan Mentor yang sangat luar biasa yaitu ka gusti putu ferazka d..Disini kami belajar banyak tentang kepemimpinan dan kolaborasi dalam tim.
+            serta timbul kreativitas dan inovasi dalam setiap proyek yang kami kerjakan. menjadikan kami semakin dekat dan juga semakin mengenal satu sama lain.
+            Cosval merupakan keluarga di CEO HMSD ADYATAMA ini.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
