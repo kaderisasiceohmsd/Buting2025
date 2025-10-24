@@ -384,7 +384,7 @@ elif menu == "Senator":
                 "hobbi": "Denger lagu",
                 "sosmed": "@nadiaanjani",
                 "kesan": "Kakak cantik dan baik banget, anggun gtu diliatnya",  
-                "pesan":"semangat kak kuliahnya, semangat menggapai mimpi-mimpi kakak# 1
+                "pesan":"semangat kak kuliahnya, semangat menggapai mimpi-mimpi kakak"# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -1863,6 +1863,7 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
 
