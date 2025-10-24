@@ -740,8 +740,8 @@ if menu == "Departemen SSD":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Nonton Drakor",
                 "sosmed": "@deviirhyu",
-                "kesan": "Kakaknya keren banget ",  
-                "pesan": "Semoga dilancarkan semuanya kak "# 8
+                "kesan": "Kakaknya murah senyum dan ramah banget ",  
+                "pesan": "Semanagat terus menjalanin kehidupan sehari harinya kak "# 8
             },
               {
                 "nama": "Kakak Enggli Rahmadhani",
@@ -751,8 +751,8 @@ if menu == "Departemen SSD":
                 "alamat": "Gang Pawira 2",
                 "hobbi": "Main Mobile Legend",
                 "sosmed": "@engliramdhnii",
-                "kesan": " ",  
-                "pesan": " "# 9
+                "kesan": "Kakaknya kalau senyum manis banget",  
+                "pesan": "Ayo kapan kapan mabar ML kak aku main juga"# 9
             },
               {
                 "nama": "Kakak Hanifah Inaya Sani",
@@ -762,8 +762,8 @@ if menu == "Departemen SSD":
                 "alamat": "Korpri",
                 "hobbi": "Memasak",
                 "sosmed": "@_inayasani",
-                "kesan": " ",  
-                "pesan": " "# 10
+                "kesan": "Kakaknya positif vibes banget",  
+                "pesan": "Terus jadi orang yang vibes positif ya kak "# 10
             },
               {
                 "nama": "Kakak Nydia Manda Putri",
@@ -773,8 +773,8 @@ if menu == "Departemen SSD":
                 "alamat": "Tanjung Karang Timur",
                 "hobbi": "Main",
                 "sosmed": "@nydiaaptr_",
-                "kesan": " ",  
-                "pesan": " "# 11
+                "kesan": "Kakaknya kalau ngomong lembut banget dan selalu senyum ",  
+                "pesan": "Terus jadi orang yang memiliki vibes positif ya kak"# 11
             },     
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -815,8 +815,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur dan berkembang",
                 "sosmed": "@randaandriana_",
-                "kesan": " ",  
-                "pesan":" "# 1
+                "kesan": "Abangnya murah senyum, asik, aura mikfes nya kuat banget ",  
+                "pesan":"Semoga abangnya cepat luluss"# 1
             },
             {
                 "nama": "Kakak Rut Junita Sari Siburian",
@@ -826,8 +826,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jalan Nangka 3",
                 "hobbi": "Membaca Buku",
                 "sosmed": "@junitaa_0406",
-                "kesan": " ",  
-                "pesan":" "# 2
+                "kesan": "Masih ga nyangka kakaknya dari Kepri juga",  
+                "pesan":"Semangat terus ya kak sampai lulus "# 2
             },
             {
                 "nama": "Kakak Muhammad Regi Abdi Putra Ananta",
@@ -837,8 +837,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jalan Permadi, Sukarame",
                 "hobbi": "Mendengar Musik",
                 "sosmed": "@mregiiii_",
-                "kesan": " ",  
-                "pesan":" "# 3
+                "kesan": "Abangnya ramah banget dan murah senyum ",  
+                "pesan":"Semoga cepat lulus dan mendapatkan nilai yang terbaik bang "# 3
             },
             {
                 "nama": "Kakak Aisyah Musfirah",
@@ -848,8 +848,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@_aishsahi",
-                "kesan": " ",  
-                "pesan":" "# 4
+                "kesan": "kakaknya aura vibes positif banget kalem juga ",  
+                "pesan":"Jangan lupa makan dan minum kak, semangat terus"# 4
             },
             {
                 "nama": "Kakak Fadil Prasetyo Alfarizzi",
@@ -859,8 +859,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Segar Miden",
                 "hobbi": "Fore",
                 "sosmed": "@fadilalfarizzii",
-                "kesan": " ",  
-                "pesan":" "# 5
+                "kesan": "Abangnya asik dan ga kaku ",  
+                "pesan":"Semoga makin banyak prestasi prestasi yang menghampiri ya bang "# 5
             },
             {
                 "nama": "Kakak Muhammad Aqil Ramadhan",
@@ -870,8 +870,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "GH Belwis",
                 "hobbi": "Ngerokok",
                 "sosmed": "@muhammadaqil1111",
-                "kesan": " ",  
-                "pesan":" "# 6
+                "kesan": "Abangnya kalau senyum manis banget, tipe tipe softboy ",  
+                "pesan":"Tetap jadi orang yang memiliki vibes positif ya bang "# 6
             },
             {
                 "nama": "Kakak Muhammad Naufal Ramadhan",
@@ -881,8 +881,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Tanjung Senang",
                 "hobbi": "Mendengarkan musik",
                 "sosmed": "@_notfall.s",
-                "kesan": " ",  
-                "pesan":" "# 7
+                "kesan": "Jarang liat sih tapi abangnya kayaknya asik banget deh kalau udah dekat ",  
+                "pesan":"Semangat terus bang menjalani kehidupan di perkuliahan "# 7
             },
             {
                 "nama": "Kakak Nadia Faraj Alyafaatin Simbolon",
@@ -892,8 +892,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Manggis 1",
                 "hobbi": "Menonton Film",
                 "sosmed": "@nadiaafrj",
-                "kesan": " ",  
-                "pesan":" "# 8
+                "kesan": "Kakaknya kelaitannya lemah lembut dan murah senyum ",  
+                "pesan":"Terus jadi orang yang memilki vibes positi ya kak "# 8
             },
             {
                 "nama": "Kakak Marleta Cornelia Leander",
@@ -903,8 +903,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Nangka 3",
                 "hobbi": "Main Musik",
                 "sosmed": "@marletacornelia",
-                "kesan": " ",  
-                "pesan":"  " # 9
+                "kesan": "Kakaknya cantik dan kalau senyum manis banget ",  
+                "pesan":"Semoga kakaknya lulus tepat waktu dan mendapatkan nilai terbaik " # 9
             },
             {
                 "nama": "Kakak Akeyla Fairuz Shafi",
@@ -1878,6 +1878,7 @@ elif menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
