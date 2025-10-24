@@ -444,11 +444,11 @@ if menu == "Departemen PSDA" :
         data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "122450107",
+                "umur": "21",
+                "asal": "Medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "Selalu tampil tenang dan bijak dalam setiap situasi.",  
                 "pesan":"Semoga terus jadi panutan yang inspiratif,  semangat bang"
@@ -1401,7 +1401,7 @@ if menu == "Departemen Internal":
             },
             {
                 "nama": "Muhmmad Naufal Al Ghani",
-                "nim": "1234500116",
+                "nim": "123450116",
                 "umur": "20",
                 "asal":"Sidorejo",
                 "alamat": "Sabah Balau",
