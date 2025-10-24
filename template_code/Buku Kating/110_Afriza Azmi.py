@@ -1550,7 +1550,7 @@ if menu == "Departemen SSD":
                 "hobbi": "Bisnis Startup, Jogging",
                 "sosmed": "@dananghk_",
                 "kesan": "kocak banget abang satu ini",  
-                "pesan":"semangat terus bang, kocak terus pokoknya"# 1
+                "pesan":"semangat terus bang, kocak terus pokoknyaaa"# 1
             },
             {
                 "nama": "Syalaisha Andina Putriansyah",
