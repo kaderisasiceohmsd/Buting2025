@@ -116,8 +116,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Beli donat kentang",
                 "sosmed": "@endraa",
-                "kesan": "-----",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Bang Rendra panutan banget,brwibawa,ramah, dan yang bikin kagum bgt itu pengendalian emosinya okey banget, salut bisa tetep keliatan tenang walaupun keadaan nya keos, inspiratif bgt pokoknya ",  
+                "pesan":"semangat terus kuliahnya bang, tetap jadi orang baik dan terus menginspirasi"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -127,8 +127,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Baca buku sql",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Bang Jo identik banget sama tangan yang disaku celana, bijak dan tegas juga",  
+                "pesan":"semangat kuliahnya bang, sukses selalu"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -138,7 +138,7 @@ if menu == "Kesekjenan":
                 "alamat": "Ayres Kost",
                 "hobbi": "Makan kuaci",
                 "sosmed": "@celisabethh_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
+                "kesan": "Kakak asik banget orang nya, suka tiba-tiba ngejoks random gtu lucuu",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
             {
@@ -149,8 +149,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Belwis",
                 "sosmed": "@puspadrr",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakak kalem banget, pembawaan nya adem banget deh",  
+                "pesan":"semangat kak kuliahnya, tetep jdi orang baik dan membawa aura positif untuk orang-orang di sekitar kakak"# 1
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
@@ -160,8 +160,8 @@ if menu == "Kesekjenan":
                 "alamat": "Mutun, Pesawaran",
                 "hobbi": "Ngomenin tiktok cewe cantik",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakak walaupun dari luar terlihat galak tapi aslinya baik dan ramah, kakak juga atif kegiatan",  
+                "pesan":"semangat kuliahnya ya kak, jangan lelah untuk terus berkembang"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -171,8 +171,8 @@ if menu == "Kesekjenan":
                 "alamat": "Gya kost korpri",
                 "hobbi": "Cute Sekjen",
                 "sosmed": "@farahanumafifahh",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak hanum orang nya ceria dan humble juga, bisa buat seasana jdi seru",  
+                "pesan":"semangat kuliahnya kak, jangan lupa senyum dan menebar kebaikan untuk orang orang di sekitar"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -372,8 +372,8 @@ elif menu == "Senator":
                 "alamat": "Raden Saleh",
                 "hobbi": "dengerin lagu, nyanyi, baca, main game, rapat",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "-----",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Bang bintang baik banget dan mengayomi kami dengan baik, bijak orangnya, dan seru pastinya",  
+                "pesan":"semangat bang kuliahnya, sekses selalu dan semakin bersinar kedepannya"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -383,8 +383,8 @@ elif menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Denger lagu",
                 "sosmed": "@nadiaanjani",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakak cantik dan baik banget, anggun gtu diliatnya",  
+                "pesan":"semangat terus kuliah# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -1863,6 +1863,7 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
 
