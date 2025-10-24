@@ -1,7 +1,6 @@
 import streamlit as st
 import random
 import time
-import re
 
 # 🧠 Efek teks typewriter
 def typewriter(text, delay=0.03):
@@ -12,22 +11,17 @@ def typewriter(text, delay=0.03):
         placeholder.markdown(f"<h4 style='text-align:center;'>{full_text}</h4>", unsafe_allow_html=True)
         time.sleep(delay)
 
-# 🔗 Link Google Drive (view)
+# 🔗 Link Google Drive (format langsung)
 drive_links = [
-    "https://drive.google.com/file/d/1j2whG_RXnlMioXeOqXbXWct4OK6qqFxS/view",
-    "https://drive.google.com/file/d/1WlsJOtW86QjnczgRXm46oaB3PX6Hmqco/view",
-    "https://drive.google.com/file/d/1n3GrMCFWvW-ttkUR5jQwq_7EYOug9I4R/view",
-    "https://drive.google.com/file/d/188Atf3QnwaerlDPhBT9ykzttyv4yqIAv/view"
+    "https://drive.google.com/uc?export=view&id=1j2whG_RXnlMioXeOqXbXWct4OK6qqFxS",
+    "https://drive.google.com/uc?export=view&id=1WlsJOtW86QjnczgRXm46oaB3PX6Hmqco",
+    "https://drive.google.com/uc?export=view&id=1n3GrMCFWvW-ttkUR5jQwq_7EYOug9I4R",
+    "https://drive.google.com/uc?export=view&id=188Atf3QnwaerlDPhBT9ykzttyv4yqIAv"
 ]
 
-# 🧩 Ekstrak ID dari link Drive dan ubah ke direct link
-def get_drive_id(url):
-    match = re.search(r"/d/([a-zA-Z0-9_-]+)", url)
-    return match.group(1) if match else None
+poisson_images = drive_links  # ✅ langsung pakai ini saja
 
-poisson_images = [f"https://drive.google.com/uc?export=view&id={get_drive_id(url)}" for url in drive_links]
-
-# 🃏 Inisialisasi kartu di session_state
+# 🃏 Inisialisasi kartu
 if "cards" not in st.session_state:
     cards = poisson_images * 4  # total 16 kartu (4 gambar × 4)
     random.shuffle(cards)
@@ -47,12 +41,12 @@ if "game_over" not in st.session_state:
 if "attempts" not in st.session_state:
     st.session_state.attempts = 0
 
-# 🎴 Tampilan judul
+# 🎴 Judul
 st.markdown("<h2 style='text-align:center;'>🎴 Sobat Poisson Memory Game 🐠</h2>", unsafe_allow_html=True)
 typewriter("Ayo bantu Poisson menemukan pasangannya yang hilang 💖", 0.03)
 st.write("---")
 
-# 📸 Tampilan kartu (4 kolom)
+# 📸 Tampilan kartu
 cols = st.columns(4)
 for i, card in enumerate(cards):
     col = cols[i % 4]
@@ -79,7 +73,7 @@ if len(st.session_state.selected) == 2:
         st.session_state.flipped[first] = False
         st.session_state.flipped[second] = False
     st.session_state.selected = []
-    st.rerun()  # ✅ sudah diperbarui
+    st.rerun()
 
 # 🌟 Cek kemenangan
 if all(st.session_state.matched):
@@ -91,12 +85,4 @@ if all(st.session_state.matched):
 
 st.write(f"🧮 Percobaan: {st.session_state.attempts}")
 
-# 🔁 Tombol reset game
-if st.button("🔁 Main Lagi"):
-    random.shuffle(st.session_state.cards)
-    st.session_state.flipped = [False] * len(st.session_state.cards)
-    st.session_state.selected = []
-    st.session_state.matched = [False] * len(st.session_state.cards)
-    st.session_state.game_over = False
-    st.session_state.attempts = 0
-    st.rerun()  # ✅ ganti dari st.experimental_rerun
+# 🔁 Tombol reset
