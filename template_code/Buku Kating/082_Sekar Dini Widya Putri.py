@@ -101,10 +101,10 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=16BXsmgmUL3SWlYN6GoMRcsXeQ-5JEoUG",
             "https://drive.google.com/uc?export=view&id=1i-MXWX6FJdn7htyVkHLcQ79sonEvTsaT",
-            "https://drive.google.com/uc?export=view&id=18svFEml2LVNSYjd3MXrq6vKHBoYL3ruZ",
+            "https://drive.google.com/uc?export=view&id=1lnQ4Zx6Nx0otNgpkgtHzg3cLbdqXaGp3",
             "https://drive.google.com/uc?export=view&id=1APcqv5gQOz09mw76oD4WaGTMGs3pUimy",
             "https://drive.google.com/uc?export=view&id=1twVtDefEslYYD-91HWlZsWEpHl0xT31c",
-            "https://drive.google.com/uc?export=view&id=1lnQ4Zx6Nx0otNgpkgtHzg3cLbdqXaGp3",
+            "https://drive.google.com/uc?export=view&id=18svFEml2LVNSYjd3MXrq6vKHBoYL3ruZ",
         ]
         data_list = [
             {
