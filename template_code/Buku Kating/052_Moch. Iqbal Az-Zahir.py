@@ -102,8 +102,7 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=1raJs9jl9lRH_uXDa-zvEahnIpVGmYQfD",
             "https://drive.google.com/uc?export=view&id=1nsw4dSdxhoYLYBHqLCCl7-itIb2UCwM9",
             "https://drive.google.com/uc?export=view&id=1Xpj686MS9YMA4h2Zh2hLYHP5MvdUeZaz",
-
-"https://drive.google.com/uc?export=view&id=1v61dGBOHfg7uBKsGAliC-kOOLr2VckDz",
+            "https://drive.google.com/uc?export=view&id=1v61dGBOHfg7uBKsGAliC-kOOLr2VckDz",
             "https://drive.google.com/uc?export=view&id=1nSAbDLAvG3VYM8zadbrAVf_3NgQmaumR",
             "https://drive.google.com/uc?export=view&id=1COdHLghT9LQ1lcv_nT5zix_zuSdaDzkb",
         ]
@@ -116,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau damar",
                 "hobbi": "Bikin lagu",
                 "sosmed": "@_rendraa",
-                "kesan": "Keren abisss",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Waktu baru liat bang rendra, keliatan berwibawa",  
+                "pesan": "Semoga sehat selalu ya bang, Semangat kuliahnya.." # 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -127,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Bang jo asik, keren",  
+                "pesan": "Semangat mengejar gelar S.Si.D nya Bang Jo.."# 1
             },
             {
                 "nama": "Kakak CCc",
@@ -177,32 +176,23 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
-if menu == "Baleg":
+elif menu == "Baleg":
     def baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1UCrPkKll25KftLtrxDqGrhPQd8fUY84r",
             "https://drive.google.com/uc?export=view&id=1dNocmy7U8KZOmPAwzCc-ffs23EVnTCGG",
             "https://drive.google.com/uc?export=view&id=1vfgXyD8Fahp893KefZnGV63X94lJnaQM",
-
-"https://drive.google.com/uc?export=view&id=1UDclbvlMenx5HNhZM0KT-rgbgGB1NWsg",
+            "https://drive.google.com/uc?export=view&id=1UDclbvlMenx5HNhZM0KT-rgbgGB1NWsg",
             "https://drive.google.com/uc?export=view&id=1zUwjHlPJ3H2JOPolWaNWIEFS4eWI0HbT",
             "https://drive.google.com/uc?export=view&id=1LJwMswvXWXzDf8Jly1Zua6HURSWTRUBH",
-
-"https://drive.google.com/uc?export=view&id=1Md0W4i0x-lqe3Iw72vNSYrrq92yjaauK",
-
-"https://drive.google.com/uc?export=view&id=1JrXmw0S7h0sykzH2YWvUteshArgZoLUq",
-
-"https://drive.google.com/uc?export=view&id=1mBg7JCOLyHb8f_Oeo2GGBwlEM6HlXwiQ",
-
-"https://drive.google.com/uc?export=view&id=1QTGYhv8pq1j-jv1lR16Get6fhzeXTaNj",
-
-"https://drive.google.com/uc?export=view&id=1QQlNngVVbOm04USYFABOP64w3aTUDheN",
-
-"https://drive.google.com/uc?export=view&id=1VU3C2syGZivNabwQvYudPed3-Y7zkjLk",
-
-"https://drive.google.com/uc?export=view&id=1MqYbBVPSEcxJ1l1r9RUhQUhsf9kuYxAA",
-
-"https://drive.google.com/uc?export=view&id=1ft_nCaZhdOdPKae1bygxCza62jNJ76dr",
+            "https://drive.google.com/uc?export=view&id=1Md0W4i0x-lqe3Iw72vNSYrrq92yjaauK",
+            "https://drive.google.com/uc?export=view&id=1JrXmw0S7h0sykzH2YWvUteshArgZoLUq",
+            "https://drive.google.com/uc?export=view&id=1mBg7JCOLyHb8f_Oeo2GGBwlEM6HlXwiQ",
+            "https://drive.google.com/uc?export=view&id=1QTGYhv8pq1j-jv1lR16Get6fhzeXTaNj",
+            "https://drive.google.com/uc?export=view&id=1QQlNngVVbOm04USYFABOP64w3aTUDheN",
+            "https://drive.google.com/uc?export=view&id=1VU3C2syGZivNabwQvYudPed3-Y7zkjLk",
+            "https://drive.google.com/uc?export=view&id=1MqYbBVPSEcxJ1l1r9RUhQUhsf9kuYxAA",
+            "https://drive.google.com/uc?export=view&id=1ft_nCaZhdOdPKae1bygxCza62jNJ76dr",
         ]
                 data_list = [
             {
@@ -369,8 +359,7 @@ if menu == "Senator":
             "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
             "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
             "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
-
-"https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
+            "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
          
         ]
         data_list = [
