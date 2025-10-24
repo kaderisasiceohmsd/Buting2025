@@ -736,14 +736,14 @@ if menu == "Departemen PSDA":
 if menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1n9K0yKNuKjUOdqrDXWlAQqJHDpoIIiSu",
+            "https://drive.google.com/uc?export=view&id=1Ro7GeJhFwVmp7211qgNa8qvrAPrUtriK",
+            "https://drive.google.com/uc?export=view&id=1HylddKvqVZ7x6b7m9gY2dChulOTryN3b",
+            "https://drive.google.com/uc?export=view&id=19uNGuuYThf1q0mW5nZWAQJ6zPScI-kwM",
+            "https://drive.google.com/uc?export=view&id=1TKGt2pOQnjZYrkO6YDj1J-yxCVqley5w",
+            "https://drive.google.com/uc?export=view&id=1U9dAsOgeETzhDJAXRfSNQfBuGtq_Vazw",
+            "https://drive.google.com/uc?export=view&id=1U9dAsOgeETzhDJAXRfSNQfBuGtq_Vazw",
+            "https://drive.google.com/uc?export=view&id=1ogWjCxHvwitnXxW8_N1iPBUqw1scYK2J",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
