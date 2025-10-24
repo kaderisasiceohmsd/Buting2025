@@ -17,17 +17,17 @@ st.markdown(
         /* ======= Sidebar gradasi ======= */
         [data-testid="stSidebar"] {
             background: linear-gradient(to bottom, #ABE7B2, #CBF3BB, #ECF4E8);
-            color: #D7C6BB;
+            color: #171515;
         }
 
         [data-testid="stSidebar"] * {
-            color: #D7C6BB !important;
+            color: #171515 !important;
             font-weight: 500;
         }
 
         /* ======= Judul dan teks ======= */
         h1, h2, h3, p {
-            color: #D7C6BB !important;
+            color: #171515 !important;
         }
 
         h1 {
