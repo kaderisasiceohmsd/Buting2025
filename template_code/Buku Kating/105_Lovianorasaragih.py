@@ -742,6 +742,7 @@ if menu == "Departemen MIKFES":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1bolK1Phd9OkupfU8FQtaRVd2lNlInbao",
             "https://drive.google.com/uc?export=view&id=12MOZ8TAE98NAIZzfuD2IRA4xq_U1x0f2",
+            "https://drive.google.com/uc?export=view&id=1bolK1Phd9OkupfU8FQtaRVd2lNlInbao",
             "https://drive.google.com/uc?export=view&id=1MtJGsOKNA5zGc4R3U4ANYP4S2-zoT7Vh",
             "https://drive.google.com/uc?export=view&id=1FeMLLn5m4zw3MIUnwR-3o8D5hQOq2NF1",
             "https://drive.google.com/uc?export=view&id=1CMszQqTAY1houpnauElq71kxU480ZKxL",
