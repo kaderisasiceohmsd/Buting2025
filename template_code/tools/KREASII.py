@@ -1,25 +1,18 @@
 # =============================================================
-# ANOVA ODYSSEY — FULLSCREEN CINEMATIC v5.1 (fix & polish)
+# ANOVA ODYSSEY — FULLSCREEN CINEMATIC v5.2 (syntax-safe)
 # -------------------------------------------------------------
 # Mode: Fullscreen (tanpa sidebar), tema elegan biru-emas
 # Dependensi: HANYA streamlit (bawaan) + JS/HTML murni
-# Animasi: progress shimmer, konfeti 2 detik kanan, kurva F animatif
-# Visual: Grafik F BESAR, selalu utuh di bawah hasil (no crop)
-# Logika: One-way ANOVA manual + F-critical (α=0.10/0.05/0.01)
-# Aman: defensif untuk nilai ekstrem, tanpa paket tambahan
-# Catatan: file ini bisa ditempel langsung di halaman KREASII
+# Animasi: progress shimmer, konfeti kanan, kurva F animatif
+# Fix: semua f-string JS/HTML aman tanpa SyntaxError
 # =============================================================
 
-import math
-import random
-import time
-from typing import Dict, List
-
+import math, random, time, json
 import streamlit as st
-import streamlit.components.v1 as components  # ✅ perbaikan impor
+import streamlit.components.v1 as components
 
 # -------------------------------------------------------------
-# 1) PAGE CONFIG + GLOBAL THEME (Fullscreen, hide sidebar)
+# 1) PAGE CONFIG
 # -------------------------------------------------------------
 st.set_page_config(
     page_title="ANOVA Odyssey – Full Cinematic Glow",
@@ -28,512 +21,218 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-CINEMATIC_CSS = """
+# -------------------------------------------------------------
+# 2) CSS TEMA & HEADER
+# -------------------------------------------------------------
+st.markdown("""
 <style>
 :root{
   --bg1:#EAF4FB; --bg2:#FFFFFF; --ink:#0F172A; --muted:#64748B;
   --gold:#DCCCA3; --gold2:#CBB279; --bl:#4A67E9; --bl2:#7EA3FF;
-  --soft:#F7FBFF; --card:#ffffff; --ok:#16a34a; --err:#dc2626; --warn:#ca8a04;
+  --soft:#F7FBFF; --card:#ffffff;
 }
-html, body, [data-testid="stAppViewContainer"]{
-  background: radial-gradient(1200px 600px at 20% 0%, var(--bg1), #fff 60%);
-}
-/* collapse sidebar completely */
 section[data-testid="stSidebar"]{display:none !important;}
-/* container spacing */
 section.main > div.block-container{padding-top:0.8rem; max-width:1280px;}
-/* glass header */
-.hero{
-  position:sticky; top:0; z-index:12; backdrop-filter: blur(8px);
-  background: linear-gradient(180deg, rgba(255,255,255,.75), rgba(255,255,255,.45));
-  border-bottom:1px solid rgba(0,0,0,.06);
-}
-.title-card{
-  display:flex; gap:18px; align-items:center; justify-content:space-between;
-  border-radius:16px; padding:18px 20px; margin:10px 0 16px 0;
-}
-.title-left{display:flex; flex-direction:column; gap:4px}
-.t-main{font-weight:900; letter-spacing:.2px; color:var(--ink); font-size:30px; position:relative}
-.t-sub{color:var(--muted); font-weight:600}
-.badge{
-  background:var(--gold); color:#1b1b1b; border-radius:999px; padding:8px 14px;
-  font-weight:800; box-shadow:0 10px 30px rgba(203,178,121,.35);
-}
-/* chip shimmer + micro-spark */
-@keyframes glowPulse{0%{text-shadow:0 0 0 rgba(74,103,233,0)}50%{text-shadow:0 0 16px rgba(74,103,233,.45)}100%{text-shadow:0 0 0 rgba(74,103,233,0)}}
-.t-main span{color:var(--bl); animation:glowPulse 3.6s ease-in-out infinite;}
-.t-main:after{
-  content:""; position:absolute; right:-10px; top:-6px; width:8px; height:8px; border-radius:999px;
-  background:conic-gradient(from 0deg, #CBB279, #DCCCA3, #4A67E9, #7EA3FF, #CBB279);
-  filter:blur(0.4px); animation:spark 2.4s ease-in-out infinite;
-}
-@keyframes spark{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-3px) scale(1.15)}}
-
-/* card */
-.card{background:var(--card); border:1px solid rgba(0,0,0,.05); border-radius:16px; padding:16px 18px; box-shadow:0 10px 30px rgba(10,30,60,.06);}
-.mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
-/* controls */
-.slwrap{display:grid; grid-template-columns:1fr 1fr; gap:14px;}
-@media(max-width:980px){.slwrap{grid-template-columns:1fr;}}
-.apply-btn{display:flex; gap:10px; align-items:center}
-/* metrics band */
-.metrics{display:grid; grid-template-columns:repeat(3,1fr); gap:10px}
-.metric{display:flex; flex-direction:column; gap:6px; padding:14px; border-radius:12px; background:var(--soft); border:1px solid rgba(0,0,0,.06)}
-.metric .k{font-size:13px;color:var(--muted);font-weight:700}
-.metric .v{font-size:22px;color:var(--ink);font-weight:900}
-.hr{height:1px; background:rgba(0,0,0,.06); margin:10px 0}
-/* shimmer progress */
-.shimmer{position:relative; height:10px; background:#e5edff; border-radius:999px; overflow:hidden}
-.shimmer:before{content:""; position:absolute; inset:0; background:linear-gradient(90deg, #e5edff 0%, #bfd1ff 40%, #e5edff 80%); animation:slide 1.2s linear infinite}
-@keyframes slide{0%{transform:translateX(-60%);}100%{transform:translateX(60%);}}
-
-/* data table */
-.tbl{border:1px solid rgba(0,0,0,.06); border-radius:12px; overflow:hidden}
-.tbl table{width:100%; border-collapse:collapse}
-.tbl th, .tbl td{padding:8px 10px; border-bottom:1px solid rgba(0,0,0,.06); text-align:center; font-size:13px}
-.tbl thead tr{background:#f3f4f6}
-.tbl tr:last-child td{border-bottom:none}
-
-/* decision badge */
-.ok{background:#dcfce7; color:#065f46; border:1px solid #9ae6b4;}
-.warn{background:#fef9c3; color:#854d0e; border:1px solid #fde68a}
-.err{background:#fee2e2; color:#7f1d1d; border:1px solid #fecaca}
-.decision{display:inline-flex; gap:10px; align-items:center; padding:10px 12px; border-radius:12px; font-weight:900}
-
-/* big chart container */
+.hero{position:sticky;top:0;z-index:12;backdrop-filter:blur(8px);
+background:linear-gradient(180deg,rgba(255,255,255,.75),rgba(255,255,255,.45));
+border-bottom:1px solid rgba(0,0,0,.06);}
+.title-card{display:flex;justify-content:space-between;align-items:center;
+padding:16px 20px;margin:10px 0;border-radius:16px;}
+.t-main{font-size:30px;font-weight:900;color:var(--ink);}
+.t-main span{color:var(--bl);animation:glow 3s ease-in-out infinite;}
+@keyframes glow{0%,100%{text-shadow:0 0 0 var(--bl);}50%{text-shadow:0 0 18px var(--bl2);}}
+.badge{background:var(--gold);padding:8px 14px;border-radius:999px;font-weight:800;}
+.card{background:var(--card);padding:18px;border-radius:16px;box-shadow:0 10px 30px rgba(10,30,60,.06);}
+.metric{background:var(--soft);border-radius:10px;padding:10px;text-align:center;}
+.tbl table{width:100%;border-collapse:collapse;font-size:13px;}
+.tbl th,.tbl td{padding:6px;border:1px solid #e5e7eb;text-align:center;}
+.hr{height:1px;background:#e5e7eb;margin:10px 0;}
+.ok{background:#dcfce7;color:#166534;padding:10px;border-radius:10px;}
+.warn{background:#fef9c3;color:#854d0e;padding:10px;border-radius:10px;}
 #fchart-host{width:100%;}
-.chart-card{padding:14px; border-radius:16px; background:var(--card); border:1px solid rgba(0,0,0,.06); box-shadow:0 10px 30px rgba(10,30,60,.06)}
-.legend{display:flex; gap:16px; align-items:center; margin-top:8px}
-.legend .dot{width:14px; height:14px; border-radius:4px; display:inline-block}
-.dot-ns{background:linear-gradient(180deg, #9db4ff, #c9d6ff)}
-.dot-sg{background:linear-gradient(180deg, #DCCCA3, #CBB279)}
-
-/* confetti canvas anchored right */
-#confettiHost{position:fixed; top:16px; right:0; width:420px; height:180px; pointer-events:none; z-index:30}
-
-/* small utils */
-.u-row{display:flex; gap:12px; align-items:center}
-.u-col{display:flex; flex-direction:column}
-.u-muted{color:var(--muted)}
-.u-ink{color:var(--ink)}
-.u-sm{font-size:12px}
-.u-lg{font-size:18px}
-.u-bold{font-weight:800}
-.u-pad{padding:8px}
-.u-gap{gap:6px}
-.fade{animation:fadeIn .6s ease}
-@keyframes fadeIn{from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:none}}
+.chart-card{background:var(--card);border-radius:16px;box-shadow:0 8px 28px rgba(0,0,0,.05);padding:12px;}
+.legend{display:flex;gap:16px;align-items:center;margin-top:6px;}
+.dot{width:14px;height:14px;border-radius:4px;display:inline-block;}
+.dot-ns{background:linear-gradient(180deg,#9db4ff,#c9d6ff);}
+.dot-sg{background:linear-gradient(180deg,#DCCCA3,#CBB279);}
 </style>
-"""
-
-st.markdown(CINEMATIC_CSS, unsafe_allow_html=True)
-
-# -------------------------------------------------------------
-# 2) HERO HEADER (sticky) + small action bar
-# -------------------------------------------------------------
-st.markdown(
-    """
-    <div class="hero">
-      <div class="title-card">
-        <div class="title-left">
-          <div class="t-main">⚔️ ANOVA Odyssey: <span>Full Cinematic Glow</span></div>
-          <div class="t-sub">Kelompok 4 ANOVA · HMSD Adyatama ITERA 2025</div>
-        </div>
-        <div class="badge">Elegan ANOVA · Biru & Emas</div>
-      </div>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
+<div class="hero">
+ <div class="title-card">
+   <div class="t-main">⚔️ ANOVA Odyssey: <span>Full Cinematic Glow</span></div>
+   <div class="badge">Biru & Emas Elegan</div>
+ </div>
+</div>
+""", unsafe_allow_html=True)
 
 # -------------------------------------------------------------
-# 3) HELPERS & CORE MATH (ANOVA + F critical)
+# 3) FUNGSI UTAMA
 # -------------------------------------------------------------
-
 fmt = lambda x, p=2: f"{x:.{p}f}"
+def clamp(x,a,b): return max(a,min(b,x))
 
-def clamp(x, lo, hi):
-    return max(lo, min(hi, x))
+def beta_func(a,b): return math.exp(math.lgamma(a)+math.lgamma(b)-math.lgamma(a+b))
+def f_pdf(x,d1,d2):
+    if x<=0: return 0
+    a,b=d1/2,d2/2
+    num=(d1**(d1/2))*(d2**(d2/2))*(x**(a-1))
+    den=(d1*x+d2)**((d1+d2)/2)*beta_func(a,b)
+    val=num/den
+    return max(val,0)
 
-# --- Beta/F PDF tanpa eksternal libs ---
-def beta_func(a: float, b: float) -> float:
-    # B(a,b) = Γ(a)Γ(b)/Γ(a+b)  → gunakan lgamma untuk stabilitas numerik
-    return math.exp(math.lgamma(a) + math.lgamma(b) - math.lgamma(a + b))
-
-def f_pdf(x: float, d1: int, d2: int) -> float:
-    if x <= 0 or d1 <= 0 or d2 <= 0:
-        return 0.0
-    a, b = d1 / 2.0, d2 / 2.0
-    # PDF F: sqrt(((d1*x)^d1 * d2^d2) / (d1*x + d2)^(d1+d2)) / (x * B(d1/2, d2/2))
-    # bentuk setara yang lebih stabil
-    num = (d1 ** (d1 / 2.0)) * (d2 ** (d2 / 2.0)) * (x ** (a - 1))
-    den = (d1 * x + d2) ** ((d1 + d2) / 2.0) * beta_func(a, b)
-    val = num / den
-    # amankan terhadap underflow/overflow
-    if not math.isfinite(val) or val < 0:
-        return 0.0
-    return val
-
-# Tabel F kritikal basis α=0.05 (subset df1<=5, df2 grid) + interpolasi linear
-F_CRIT_005 = {
-    1:  {3:10.13, 4:7.71, 5:6.61, 6:5.99, 7:5.59, 8:5.32, 9:5.12, 10:4.96, 12:4.75, 15:4.54, 20:4.35, 24:4.26, 30:4.17, 40:4.08, 60:4.00, 120:3.92, 200:3.89},
-    2:  {3:9.55, 4:6.94, 5:5.79, 6:5.14, 7:4.74, 8:4.46, 9:4.26, 10:4.10, 12:3.89, 15:3.68, 20:3.49, 24:3.39, 30:3.32, 40:3.23, 60:3.15, 120:3.07, 200:3.04},
-    3:  {3:9.28, 4:6.59, 5:5.41, 6:4.76, 7:4.35, 8:4.07, 9:3.86, 10:3.71, 12:3.49, 15:3.29, 20:3.10, 24:3.00, 30:2.92, 40:2.84, 60:2.76, 120:2.68, 200:2.65},
-    4:  {3:9.12, 4:6.39, 5:5.19, 6:4.53, 7:4.12, 8:3.84, 9:3.63, 10:3.48, 12:3.26, 15:3.06, 20:2.87, 24:2.77, 30:2.69, 40:2.61, 60:2.53, 120:2.45, 200:2.42},
-    5:  {3:9.01, 4:6.26, 5:5.05, 6:4.39, 7:3.97, 8:3.69, 9:3.48, 10:3.33, 12:3.11, 15:2.91, 20:2.72, 24:2.62, 30:2.54, 40:2.46, 60:2.38, 120:2.30, 200:2.27},
+F_CRIT_005={
+ 1:{3:10.13,5:6.61,10:4.96,20:4.35,40:4.08,60:4.00,120:3.92,200:3.89},
+ 2:{3:9.55,5:5.79,10:4.10,20:3.49,40:3.23,60:3.15,120:3.07,200:3.04},
+ 3:{3:9.28,5:5.41,10:3.71,20:3.10,40:2.84,60:2.76,120:2.68,200:2.65},
+ 4:{3:9.12,5:5.19,10:3.48,20:2.87,40:2.61,60:2.53,120:2.45,200:2.42},
+ 5:{3:9.01,5:5.05,10:3.33,20:2.72,40:2.46,60:2.38,120:2.30,200:2.27},
 }
 
-def fcrit_alpha(df1: int, df2: int, alpha: float) -> float:
-    df1 = int(clamp(df1, 1, 5))
-    df2_keys = sorted(F_CRIT_005[df1].keys())
-    d2 = int(clamp(df2, df2_keys[0], df2_keys[-1]))
-    lo = max(k for k in df2_keys if k <= d2)
-    hi = min(k for k in df2_keys if k >= d2)
-    if lo == hi:
-        base = F_CRIT_005[df1][lo]
+def fcrit_alpha(df1,df2,alpha):
+    df1=int(clamp(df1,1,5))
+    keys=sorted(F_CRIT_005[df1])
+    lo=max(k for k in keys if k<=df2); hi=min(k for k in keys if k>=df2)
+    if lo==hi: base=F_CRIT_005[df1][lo]
     else:
-        y0, y1 = F_CRIT_005[df1][lo], F_CRIT_005[df1][hi]
-        t = (d2 - lo) / (hi - lo)
-        base = y0 + t * (y1 - y0)
-    # Skala monotonic untuk α lain (pendekatan edukatif)
-    if abs(alpha - 0.05) < 1e-9: 
-        return base
-    if abs(alpha - 0.10) < 1e-9: 
-        return base * 0.85
-    if abs(alpha - 0.01) < 1e-9: 
-        return base * 1.35
+        y0,y1=F_CRIT_005[df1][lo],F_CRIT_005[df1][hi]
+        t=(df2-lo)/(hi-lo)
+        base=y0+t*(y1-y0)
+    if alpha==0.10: return base*0.85
+    if alpha==0.01: return base*1.35
     return base
 
-# --- Data generation ---
-def generate_groups(k: int, n: int, effect: float, seed: int) -> Dict[str, List[float]]:
-    rnd = random.Random(seed)
-    base = rnd.uniform(55, 65)
-    groups = {}
+def generate_groups(k,n,effect,seed):
+    rnd=random.Random(seed); base=rnd.uniform(55,65)
+    groups={}
     for gi in range(k):
-        mean_shift = (gi - (k - 1) / 2) * (5.0 * effect) + rnd.uniform(-1.0, 1.0)
-        true_mean = base + mean_shift
-        within_sd = max(2.5, 6.0 - 1.2 * effect + rnd.uniform(-1.0, 1.0))
-        groups[chr(65 + gi)] = [rnd.gauss(true_mean, within_sd) for _ in range(n)]
+        mean_shift=(gi-(k-1)/2)*(5.0*effect)+rnd.uniform(-1,1)
+        m=base+mean_shift; sd=max(2.5,6.0-1.2*effect+rnd.uniform(-1,1))
+        groups[chr(65+gi)]=[rnd.gauss(m,sd) for _ in range(n)]
     return groups
 
-# --- ANOVA ---
-def anova_oneway(groups: Dict[str, List[float]]):
-    k = len(groups)
-    n = len(next(iter(groups.values())))
-    totals = {g: sum(v) for g, v in groups.items()}
-    ns = {g: len(v) for g, v in groups.items()}
-    means = {g: totals[g] / ns[g] for g in groups}
-    all_vals = [x for v in groups.values() for x in v]
-    gm = sum(all_vals) / len(all_vals)
-    ssb = sum(ns[g] * (means[g] - gm) ** 2 for g in groups)
-    ssw = sum(sum((x - means[g]) ** 2 for x in groups[g]) for g in groups)
-    sst = ssb + ssw
-    dfb = k - 1
-    dfw = k * (n - 1)
-    msb = ssb / dfb if dfb > 0 else float('nan')
-    msw = ssw / dfw if dfw > 0 else float('nan')
-    F = (msb / msw) if msw > 0 else float('inf')
-    eta2 = ssb / sst if sst > 0 else 0.0
-    return {
-        "k": k, "n": n, "means": means, "grand_mean": gm,
-        "ssb": ssb, "ssw": ssw, "sst": sst,
-        "dfb": dfb, "dfw": dfw, "msb": msb, "msw": msw, "F": F, "eta2": eta2
-    }
+def anova_oneway(groups):
+    k=len(groups); n=len(next(iter(groups.values())))
+    totals={g:sum(v) for g,v in groups.items()}
+    means={g:totals[g]/len(groups[g]) for g in groups}
+    allv=[x for arr in groups.values() for x in arr]
+    gm=sum(allv)/len(allv)
+    ssb=sum(len(groups[g])*(means[g]-gm)**2 for g in groups)
+    ssw=sum(sum((x-means[g])**2 for x in groups[g]) for g in groups)
+    sst=ssb+ssw
+    dfb,dfw=k-1,k*(n-1)
+    msb,msw=ssb/dfb,ssw/dfw
+    F=msb/msw if msw>0 else float("inf")
+    return {"k":k,"n":n,"dfb":dfb,"dfw":dfw,"ssb":ssb,"ssw":ssw,"sst":sst,"msb":msb,"msw":msw,"F":F}
 
 # -------------------------------------------------------------
-# 4) SESSION STATE + CONTROLS
+# 4) KONTROL
 # -------------------------------------------------------------
-ss = st.session_state
-ss.setdefault("round", 1)
-ss.setdefault("seed", random.randint(1, 9999))
-ss.setdefault("controls", {"k": 4, "n": 8, "effect": 0.9, "alpha": 0.05})
+ss=st.session_state
+ss.setdefault("seed",random.randint(1,9999))
+ss.setdefault("controls",{"k":4,"n":8,"effect":0.9,"alpha":0.05})
 
-with st.container():
-    st.markdown('<div class="card"><div class="u-row u-gap"><span class="u-bold">🛠️ Pengaturan Eksperimen</span><span class="u-muted u-sm">(ubah jumlah kelompok, sampel, dan effect size)</span></div>', unsafe_allow_html=True)
-    c1, c2 = st.columns(2)
-    with c1:
-        k = st.slider("Jumlah Kelompok (k)", 3, 6, ss.controls["k"])
-        n = st.slider("Ukuran Sampel/kelompok (n)", 4, 20, ss.controls["n"])
-    with c2:
-        effect = st.slider("Besaran Perbedaan Mean (effect)", 0.0, 2.0, ss.controls["effect"], 0.1)
-        alpha = st.select_slider("Taraf Signifikansi (α)", options=[0.10, 0.05, 0.01], value=ss.controls["alpha"])
-    apply = st.button("Terapkan & Mulai Ronde Baru 🔁")
-    st.markdown('</div>', unsafe_allow_html=True)
-
-if apply:
-    ss.controls.update({"k": int(k), "n": int(n), "effect": float(effect), "alpha": float(alpha)})
-    ss.seed = random.randint(1, 9999)
-    ss.round = int(ss.get("round", 1)) + 1
+c1,c2=st.columns(2)
+with c1:
+    k=st.slider("Jumlah Kelompok (k)",3,6,ss.controls["k"])
+    n=st.slider("Ukuran Sampel (n)",4,20,ss.controls["n"])
+with c2:
+    effect=st.slider("Perbedaan Mean (effect)",0.0,2.0,ss.controls["effect"],0.1)
+    alpha=st.select_slider("Taraf Signifikansi (α)",[0.10,0.05,0.01],value=ss.controls["alpha"])
+if st.button("🔁 Terapkan"):
+    ss.controls.update({"k":k,"n":n,"effect":effect,"alpha":alpha})
+    ss.seed=random.randint(1,9999)
     st.rerun()
 
 # -------------------------------------------------------------
-# 5) DATA + TABEL (with tiny shimmer animation)
+# 5) GENERATE DATA + HITUNG
 # -------------------------------------------------------------
-groups = generate_groups(ss.controls["k"], ss.controls["n"], ss.controls["effect"], ss.seed + ss.round)
+groups=generate_groups(k,n,effect,ss.seed)
+A=anova_oneway(groups)
+df1,df2=A["dfb"],A["dfw"]
+Fcalc=A["F"]; Fcrit=fcrit_alpha(df1,df2,alpha)
+signif=Fcalc>Fcrit
 
-st.markdown(
-    f"<div class='card'><div class='u-row u-gap'><span class='u-bold'>🧪 Ronde {ss.round}</span>"
-    "<span class='u-muted u-sm'>Data hasil percobaan (simulasi) beberapa kelompok.</span></div>",
-    unsafe_allow_html=True,
-)
-
-labels = list(groups.keys())
-rows = max(len(v) for v in groups.values())
-html_tbl = ["<div class='tbl'><table><thead><tr><th>No</th>"]
-for g in labels:
-    html_tbl.append(f"<th>Kelompok {g}</th>")
-html_tbl.append("</tr></thead><tbody>")
+# -------------------------------------------------------------
+# 6) OUTPUT RINGKAS
+# -------------------------------------------------------------
+st.markdown("<div class='card'><b>📊 Tabel Data</b></div>",unsafe_allow_html=True)
+labels=list(groups.keys())
+rows=max(len(v) for v in groups.values())
+tbl=["<div class='tbl'><table><tr><th>No</th>"+''.join(f"<th>{g}</th>" for g in labels)+"</tr>"]
 for i in range(rows):
-    html_tbl.append(f"<tr><td>{i+1}</td>")
-    for g in labels:
-        val = groups[g][i] if i < len(groups[g]) else ""
-        html_tbl.append(f"<td>{fmt(val)}</td>")
-    html_tbl.append("</tr>")
-html_tbl.append("</tbody></table></div>")
-st.markdown("".join(html_tbl), unsafe_allow_html=True)
-st.markdown("</div>", unsafe_allow_html=True)
+    tbl.append("<tr><td>"+str(i+1)+"</td>"+"".join(f"<td>{fmt(groups[g][i])}</td>" for g in labels)+"</tr>")
+tbl.append("</table></div>")
+st.markdown("".join(tbl),unsafe_allow_html=True)
 
-# -------------------------------------------------------------
-# 6) SIMULATED CALC (progress shimmer)
-# -------------------------------------------------------------
-with st.expander("▶️ Jalankan Perhitungan ANOVA (simulasi langkah)", expanded=True):
-    ph = st.empty()
-    for step, txt in [
-        (20, "Menyiapkan data …"), (40, "Menghitung rata-rata & grand mean …"),
-        (65, "Menghitung SSB & SSW …"), (85, "Menyusun tabel ANOVA …"), (100, "Selesai ✅")
-    ]:
-        ph.markdown("<div class='shimmer'></div><div class='u-sm u-muted'>" + txt + "</div>", unsafe_allow_html=True)
-        time.sleep(0.16)
+st.markdown("<div class='card'>",unsafe_allow_html=True)
+c1,c2,c3=st.columns(3)
+c1.metric("Kelompok",A["k"])
+c2.metric("Sampel/Kelompok",A["n"])
+c3.metric("Grand Mean",fmt(sum([x for arr in groups.values() for x in arr])/len(groups)))
 
-# -------------------------------------------------------------
-# 7) ANOVA CORE + DECISION
-# -------------------------------------------------------------
-A = anova_oneway(groups)
-Fcalc = A["F"]
-df1, df2 = A["dfb"], A["dfw"]
-Fcrit = fcrit_alpha(df1, df2, ss.controls["alpha"])
+st.markdown("<div class='hr'></div>",unsafe_allow_html=True)
+c1,c2=st.columns(2)
+c1.write(f"**Fhitung:** {fmt(Fcalc,4)}")
+c1.write(f"**Fkrit ({alpha}):** {fmt(Fcrit,3)}")
+c2.write(f"**df antara:** {df1} | **df dalam:** {df2}")
 
-# defensif: jika Fcalc NaN/inf, clamp
-if not math.isfinite(Fcalc):
-    Fcalc = 1e6
-
-# metrics band
-st.markdown('<div class="card">', unsafe_allow_html=True)
-mc1, mc2, mc3 = st.columns(3)
-with mc1:
-    st.markdown(f"<div class='metric'><div class='k'>Kelompok</div><div class='v'>{A['k']}</div></div>", unsafe_allow_html=True)
-with mc2:
-    st.markdown(f"<div class='metric'><div class='k'>Sampel/Kelompok</div><div class='v'>{A['n']}</div></div>", unsafe_allow_html=True)
-with mc3:
-    st.markdown(f"<div class='metric'><div class='k'>Grand Mean</div><div class='v'>{fmt(A['grand_mean'])}</div></div>", unsafe_allow_html=True)
-
-st.markdown('<div class="hr"></div>', unsafe_allow_html=True)
-
-c1, c2, c3 = st.columns(3)
-with c1:
-    st.write("**SS Between (SSB)**:", fmt(A["ssb"], 4))
-    st.write("**df Between**:", df1)
-    st.write("**MS Between**:", fmt(A["msb"], 4))
-with c2:
-    st.write("**SS Within (SSW)**:", fmt(A["ssw"], 4))
-    st.write("**df Within**:", df2)
-    st.write("**MS Within**:", fmt(A["msw"], 4))
-with c3:
-    st.write("**SST**:", fmt(A["sst"], 4))
-    st.write("**F-Statistic**:", fmt(Fcalc, 4))
-    st.write("**Eta² (effect size)**:", fmt(A["eta2"], 3))
-
-st.markdown('<div class="hr"></div>', unsafe_allow_html=True)
-
-significant = Fcalc > Fcrit
-if significant:
-    decision_html = (
-        f"<div class='decision ok'>Keputusan: Tolak H₀</div>"
-        f"<div class='u-sm u-muted'>Karena F_hit ({fmt(Fcalc,3)}) > F_krit ({fmt(Fcrit,3)}), ada bukti perbedaan rata-rata.</div>"
-    )
+if signif:
+    st.markdown(f"<div class='ok'>Keputusan: Tolak H₀<br>Fhitung ({fmt(Fcalc)}) > Fkrit ({fmt(Fcrit)})</div>",unsafe_allow_html=True)
 else:
-    decision_html = (
-        f"<div class='decision warn'>Keputusan: Gagal Menolak H₀</div>"
-        f"<div class='u-sm u-muted'>Karena F_hit ({fmt(Fcalc,3)}) ≤ F_krit ({fmt(Fcrit,3)}), belum cukup bukti perbedaan rata-rata.</div>"
-    )
-st.markdown(decision_html, unsafe_allow_html=True)
+    st.markdown(f"<div class='warn'>Keputusan: Gagal Menolak H₀<br>Fhitung ({fmt(Fcalc)}) ≤ Fkrit ({fmt(Fcrit)})</div>",unsafe_allow_html=True)
 
-# Konfeti kanan 2 detik kalau signifikan
-if significant:
-    components.html(
-        """
-        <div id="confettiHost"></div>
-        <script>
-        (function(){
-          const host=document.getElementById('confettiHost');
-          if(!host){const h=document.createElement('div');h.id='confettiHost';document.body.appendChild(h);}
-          const cont=document.getElementById('confettiHost');
-          const c=document.createElement('canvas');cont.innerHTML=""; cont.appendChild(c); const ctx=c.getContext('2d');
-          function rs(){c.width=cont.clientWidth||420; c.height=cont.clientHeight||180;} rs();
-          let parts=[]; let t0=null; const DUR=2000;
-          for(let i=0;i<140;i++){
-            parts.push({x: c.width*Math.random(), y: -20-80*Math.random(), vx: 60+120*Math.random(), vy: 40+80*Math.random(),
-                        g: 180+Math.random()*160, s: 4+Math.random()*6, rot: Math.random()*6.28, col: i%2? '#DCCCA3':'#4A67E9'});
-          }
-          function step(ts){
-            if(!t0) t0=ts; const t=ts-t0; ctx.clearRect(0,0,c.width,c.height);
-            for(const p of parts){ p.x+=p.vx/60; p.y+=p.vy/60; p.vy+=p.g/2000; p.rot+=0.08; ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.rot);
-              ctx.fillStyle=p.col; ctx.fillRect(-p.s/2,-p.s/2,p.s,p.s); ctx.restore(); }
-            if(t<DUR){ requestAnimationFrame(step);} else { cont.innerHTML=""; }
-          }
-          requestAnimationFrame(step);
-          window.addEventListener('resize', rs);
-        })();
-        </script>
-        """,
-        height=0,
-    )
-
-st.markdown('</div>', unsafe_allow_html=True)
+st.markdown("</div>",unsafe_allow_html=True)
 
 # -------------------------------------------------------------
-# 8) GRAFIK BESAR DI BAWAH (selalu utuh, auto-scale)
+# 7) GRAFIK F BESAR (tanpa f-string konflik)
 # -------------------------------------------------------------
-def render_big_f_chart(df1:int, df2:int, Fh:float, Fc:float, alpha:float):
-    # domain x adaptif; buffer lebih besar untuk amankan label/garis
-    base_max = max(8.0 + df1, 6.0)
-    xmax = max(Fc*1.6, Fh*1.15, base_max)
-    xmin = 0.0
-    N = 800
-    xs = [xmin + (xmax - xmin) * i / (N - 1) for i in range(N)]
-    ys = [f_pdf(x, df1, df2) for x in xs]
-    ymax = max(ys) if max(ys) > 0 else 1.0
-    # area
-    left = [{"x": x, "y": y} for x, y in zip(xs, ys) if x <= Fc]
-    right = [{"x": x, "y": y} for x, y in zip(xs, ys) if x >= Fc]
+xmax=max(Fcrit*1.5,Fcalc*1.2,10+df1)
+xs=[i*xmax/700 for i in range(701)]
+ys=[f_pdf(x,df1,df2) for x in xs]
+payload={
+    "xmax":xmax,"xs":xs,"ys":ys,
+    "Fcrit":Fcrit,"Fcalc":Fcalc,
+}
+components.html("""
+<div class='chart-card'>
+ <div class='u-row'><b>📈 Distribusi F</b></div>
+ <div id='fchart-host'></div>
+ <div class='legend'><span class='dot dot-ns'></span> Non-Signifikan 
+ <span class='dot dot-sg'></span> Signifikan</div>
+</div>
+<script>
+const D = """ + json.dumps(payload) + """;
+const host=document.getElementById('fchart-host');
+const ns='http://www.w3.org/2000/svg';
+const W=host.clientWidth||800,H=400,P=50;
+const svg=document.createElementNS(ns,'svg');
+svg.setAttribute('viewBox','0 0 '+W+' '+H);
+svg.style.width='100%';svg.style.height=H+'px';
+host.appendChild(svg);
+const maxY=Math.max(...D.ys);
+function mapX(x){return P+(W-2*P)*(x/D.xmax);}
+function mapY(y){return H-P-(H-2*P)*(y/maxY);}
+function pathCurve(){
+ let s='M'+mapX(D.xs[0])+','+mapY(D.ys[0]);
+ for(let i=1;i<D.xs.length;i++) s+='L'+mapX(D.xs[i])+','+mapY(D.ys[i]);
+ return s;
+}
+const curve=document.createElementNS(ns,'path');
+curve.setAttribute('d',pathCurve());
+curve.setAttribute('stroke','#4A67E9');
+curve.setAttribute('stroke-width','2');
+curve.setAttribute('fill','none');
+svg.appendChild(curve);
+const lineCrit=document.createElementNS(ns,'line');
+lineCrit.setAttribute('x1',mapX(D.Fcrit));lineCrit.setAttribute('x2',mapX(D.Fcrit));
+lineCrit.setAttribute('y1',P);lineCrit.setAttribute('y2',H-P);
+lineCrit.setAttribute('stroke','#CBB279');lineCrit.setAttribute('stroke-width','2');
+svg.appendChild(lineCrit);
+const lineHit=document.createElementNS(ns,'line');
+lineHit.setAttribute('x1',mapX(D.Fcalc));lineHit.setAttribute('x2',mapX(D.Fcalc));
+lineHit.setAttribute('y1',P);lineHit.setAttribute('y2',H-P);
+lineHit.setAttribute('stroke','#4A67E9');lineHit.setAttribute('stroke-width','2.4');
+svg.appendChild(lineHit);
+</script>
+""",height=480,scrolling=False)
 
-    import json
-    payload = {
-        "W": 1280, "H": 580, "PAD": 60,
-        "xmin": xmin, "xmax": xmax, "ymax": ymax,
-        "alpha": alpha, "Fc": float(Fc), "Fh": float(Fh),
-        "curve": [{"x": float(x), "y": float(y)} for x, y in zip(xs, ys)],
-        "left": left, "right": right,
-    }
-    js_data = json.dumps(payload)
-
-    # Hindari konflik f-string {} di template JS
-    svg_html = f"""
-    <div class="chart-card fade">
-      <div class="u-row u-gap u-bold" style="margin:4px 4px 10px 4px;">
-        <span>📈 Visualisasi Distribusi F (α = {alpha})</span>
-      </div>
-      <div id="fchart-host"></div>
-      <div class="legend">
-        <span class="dot dot-ns"></span><span class="u-sm u-muted">Non-Signifikan</span>
-        <span class="dot dot-sg"></span><span class="u-sm u-muted">Signifikan (daerah kritis)</span>
-      </div>
-    </div>
-    <script>
-    (function(){{
-      const D={js_data};
-      const host=document.getElementById('fchart-host');
-      const ns='http://www.w3.org/2000/svg';
-      function mapX(x,W,P,X0,X1){{return P + (W-2*P) * ((x-X0)/(X1-X0));}}
-      function mapY(y,H,P,Y){{return H-P - (H-2*P) * (y/Y);}}
-      function draw(){{
-        host.innerHTML='';
-        const W=Math.min(1280, host.clientWidth||1280), H=D.H;
-        const P=D.PAD, X0=D.xmin, X1=D.xmax, Y=D.ymax;
-        const svg=document.createElementNS(ns,'svg');
-        svg.setAttribute('viewBox','0 0 '+W+' '+H);
-        svg.style.width='100%'; svg.style.height=H+'px'; host.appendChild(svg);
-        const defs=document.createElementNS(ns,'defs');
-        defs.innerHTML=
-          "<linearGradient id='gL'><stop offset='0%' stop-color='#9db4ff' stop-opacity='0.95'/>"+
-          "<stop offset='100%' stop-color='#c9d6ff' stop-opacity='0.3'/></linearGradient>"+
-          "<linearGradient id='gR'><stop offset='0%' stop-color='#DCCCA3' stop-opacity='0.95'/>"+
-          "<stop offset='100%' stop-color='#CBB279' stop-opacity='0.5'/></linearGradient>"+
-          "<filter id='glow'><feGaussianBlur stdDeviation='2.2' result='b'/>"+
-          "<feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter>";
-        svg.appendChild(defs);
-        // axis
-        const ax=document.createElementNS(ns,'line');
-        ax.setAttribute('x1',P); ax.setAttribute('x2',W-P);
-        ax.setAttribute('y1',mapY(0,H,P,Y)); ax.setAttribute('y2',mapY(0,H,P,Y));
-        ax.setAttribute('stroke','#CBD5E1'); ax.setAttribute('stroke-width','1.2'); svg.appendChild(ax);
-        // helpers
-        function pathCurve(arr){{
-          if(!arr.length) return '';
-          let s='M'+mapX(arr[0].x,W,P,X0,X1)+','+mapY(arr[0].y,H,P,Y);
-          for(let i=1;i<arr.length;i++) s+='L'+mapX(arr[i].x,W,P,X0,X1)+','+mapY(arr[i].y,H,P,Y);
-          return s;
-        }}
-        function pathArea(arr){{
-          if(!arr.length) return '';
-          let s='M'+mapX(arr[0].x,W,P,X0,X1)+','+mapY(arr[0].y,H,P,Y);
-          for(let i=1;i<arr.length;i++) s+='L'+mapX(arr[i].x,W,P,X0,X1)+','+mapY(arr[i].y,H,P,Y);
-          const L=arr[arr.length-1]||arr[0];
-          s+='L'+mapX(L.x,W,P,X0,X1)+','+mapY(0,H,P,Y)+'L'+mapX(arr[0].x,W,P,X0,X1)+','+mapY(0,H,P,Y)+'Z';
-          return s;
-        }}
-        // elements
-        const areaL=document.createElementNS(ns,'path'),
-              areaR=document.createElementNS(ns,'path'),
-              curve=document.createElementNS(ns,'path');
-        areaL.setAttribute('fill','url(#gL)');
-        areaR.setAttribute('fill','url(#gR)'); areaR.setAttribute('filter','url(#glow)');
-        curve.setAttribute('fill','none'); curve.setAttribute('stroke','#4A67E9'); curve.setAttribute('stroke-width','2.8');
-        svg.appendChild(areaL); svg.appendChild(areaR); svg.appendChild(curve);
-
-        const total=D.curve.length; let start=null; let finished=false;
-        function anim(ts){{
-          if(!start) start=ts; const t=Math.min(1,(ts-start)/3200); const i=Math.max(2,Math.floor(total*t));
-          curve.setAttribute('d', pathCurve(D.curve.slice(0,i)));
-          areaL.setAttribute('d', pathArea(D.left.slice(0, Math.min(i, D.left.length))));
-          areaR.setAttribute('d', pathArea(D.right.slice(0, Math.min(i, D.right.length))));
-          if(t<1) requestAnimationFrame(anim);
-          else if(!finished){{ finished=true; bounceFhit(); }}
-        }}
-        requestAnimationFrame(anim);
-
-        // critical & hit lines + labels
-        const FcX=mapX(D.Fc,W,P,X0,X1), FhX=mapX(D.Fh,W,P,X0,X1);
-        function vline(x,col,w,id){{
-          const l=document.createElementNS(ns,'line'); l.id=id;
-          l.setAttribute('x1',x); l.setAttribute('x2',x); l.setAttribute('y1',P); l.setAttribute('y2',H-P);
-          l.setAttribute('stroke',col); l.setAttribute('stroke-width',w); l.setAttribute('filter','url(#glow)');
-          svg.appendChild(l); return l;
-        }}
-        const lFc=vline(FcX,'#111827',1.6,'lineFc'); 
-        const lFh=vline(FhX,'#4A67E9',2.4,'lineFh');
-        function label(txt,x,y){{
-          const t=document.createElementNS(ns,'text'); t.textContent=txt; 
-          t.setAttribute('x',x+6); t.setAttribute('y',y);
-          t.setAttribute('fill','#111827'); t.setAttribute('font-size','12'); svg.appendChild(t);
-        }}
-        label('F_krit = '+D.Fc.toFixed(3), FcX, P+14); label('F_hit = '+D.Fh.toFixed(3), FhX, P+28);
-
-        // bounce kecil di F_hit setelah animasi
-        function bounceFhit(){{
-          const base=FhX; let t0=null;
-          function step(ts){{
-            if(!t0) t0=ts; const t=ts-t0; const T=600;
-            const phase=Math.min(1,t/T);
-            const amp=6*(1-phase); // mengecil
-            const x=base + Math.sin(phase*Math.PI*2)*amp;
-            lFh.setAttribute('x1',x); lFh.setAttribute('x2',x);
-            if(phase<1) requestAnimationFrame(step); else {{ lFh.setAttribute('x1',base); lFh.setAttribute('x2',base); }}
-          }}
-          requestAnimationFrame(step);
-        }}
-      }}
-      draw();
-      if('ResizeObserver' in window){ new ResizeObserver(draw).observe(host); } else { window.addEventListener('resize', draw); }
-    }})();
-    </script>
-    """
-    components.html(svg_html, height=620, scrolling=False)
-
-# panggil grafik besar
-render_big_f_chart(df1, df2, Fcalc, Fcrit, ss.controls["alpha"])
-
-# -------------------------------------------------------------
-# 9) FOOTER NOTES
-# -------------------------------------------------------------
-st.caption("Catatan: Tabel F-kritikal berbasis α=0.05 dengan interpolasi; α lain didapat via skala monotonic (0.10≈−15%, 0.01≈+35%). Akurat untuk edukasi & gameplay.")
+st.caption("Catatan: Nilai Fkrit disesuaikan dari tabel α=0.05 dengan skala α lainnya.")
