@@ -7,14 +7,14 @@ from io import BytesIO
 st.markdown(
     """
     <style>
-        /* ======= Background utama (semua halaman) ======= */
+        /* ======= Background utama gradasi 3 warna ======= */
         .stApp, [data-testid="stAppViewContainer"] {
-            background: linear-gradient(to bottom, #1C3B50, #2E5871, #4C7084, #7A8D97, #D7C6BB);
+            background: linear-gradient(to bottom, #8BD1E3 0%, #F4D03F 50%, #B8DCB1 100%);
             background-attachment: fixed;
             transition: background 0.8s ease-in-out;
         }
 
-        /* ======= Sidebar gradasi ======= */
+        /* ======= Sidebar gradasi lembut ======= */
         [data-testid="stSidebar"] {
             background: linear-gradient(to bottom, #ABE7B2, #CBF3BB, #ECF4E8);
             color: #171515;
@@ -36,11 +36,31 @@ st.markdown(
             letter-spacing: 1px;
         }
 
-        /* ======= Menu atas (option_menu) ======= */
+        /* ======= Menu atas ======= */
         div[data-testid="stHorizontalBlock"] {
             background: transparent !important;
         }
+
+        /* ======= Gambar matahari animasi di pojok kanan atas ======= */
+        .sun {
+            position: fixed;
+            top: 50px;
+            right: 80px;
+            width: 130px;
+            opacity: 0.9;
+            z-index: 0;
+            animation: pulse 5s infinite ease-in-out;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.9; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); opacity: 0.9; }
+        }
     </style>
+
+    <!-- Gambar matahari -->
+    <img class="sun" src="https://cdn-icons-png.flaticon.com/512/869/869869.png" />
     """,
     unsafe_allow_html=True,
 )
@@ -62,8 +82,8 @@ def display_images_with_data(gambar_urls, data_list):
             if img is not None:
                 images.append(img)
 
-    for i, img in enumerate(images):
-        # menampilkan gambar di tengah
+   for i, img in enumerate(images):
+        # Menampilkan gambar di tengah
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
             st.image(img, use_container_width=True)
