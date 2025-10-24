@@ -1011,7 +1011,7 @@ if menu == "Departemen Eksternal":
     def eksternal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1i5ya1QGoi-db3FMpF6eAWLA9G-vRH5cD",
-            "https://drive.google.com/uc?export=view&id=1Y1qoHuPrPY5dSUwZgZX3WQD4dqMNPzoS",
+            "https://drive.google.com/uc?export=view&id=1iyBRYdAud-KFR1a9cfGSHsywVAwoYx5Y",
             "https://drive.google.com/uc?export=view&id=1fjlEoWXSHGvrvWqjGtgWzbWOmhXNahtU",
             "https://drive.google.com/uc?export=view&id=11lZPvaMrxpkpYb-FcprqVFRdgC643Kow",
             "https://drive.google.com/uc?export=view&id=1C0oHZS9tDSyoS2l-djgscEweWifZ77oW",
