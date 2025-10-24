@@ -6,7 +6,7 @@ st.set_page_config(page_title="Prediksi Pemenang Berdasarkan Stats Historis ⚽"
 
 st.title("⚽ Prediksi Pemenang: Tim A vs Tim B (Berdasarkan Stats Historis musim)")
 st.write("Masukkan nama dan statistik historis dua tim, lalu lihat prediksi siapa yang lebih mungkin menang berdasarkan data historis")
-st.write("untuk stats boleh di cek di fcstats.com")
+st.write("untuk stats boleh di cek di fcstats.com ya!")
 # --- Input Data Tim ---
 
 st.subheader("📋 Input Data Tim")
