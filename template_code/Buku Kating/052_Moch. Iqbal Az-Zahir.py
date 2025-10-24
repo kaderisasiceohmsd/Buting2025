@@ -103,7 +103,7 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=1raJs9jl9lRH_uXDa-zvEahnIpVGmYQfD",
             "https://drive.google.com/uc?export=view&id=1nsw4dSdxhoYLYBHqLCCl7-itIb2UCwM9",
             "https://drive.google.com/uc?export=view&id=1Xpj686MS9YMA4h2Zh2hLYHP5MvdUeZaz",
-            "https://drive.google.com/uc?export=view&id=1v61dGBOHfg7uBKsGAliC-kOOLr2VckDz",
+            "https://drive.google.com/uc?export=view&id=162YeSOsWoplKeIp4YwcnMVougm0m7uuT",
             "https://drive.google.com/uc?export=view&id=1nSAbDLAvG3VYM8zadbrAVf_3NgQmaumR",
             "https://drive.google.com/uc?export=view&id=1COdHLghT9LQ1lcv_nT5zix_zuSdaDzkb",
         ]
@@ -769,8 +769,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur dan Berkembang",
                 "sosmed": "@randaandriana_",
-                "kesan": "",
-                "pesan":""
+                "kesan": "Abangnya pinter tapi gak pelit ilmu",
+                "pesan":"Terus jadi abang yang terbuka dan mau berbagi ya bang"
             },
             {
                 "nama": "Rut Junita Sari Siburian",
@@ -780,8 +780,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Gg. Nangka 3",
                 "hobbi": "Membaca",
                 "sosmed": "@junitaa_0406",
-                "kesan": "",
-                "pesan":""
+                "kesan": "Kakaknya sopan tapi gak kaku, nyatu banget sama suasana",
+                "pesan":"Semoga bisa ketemu lagi di kegiatan selanjutnya ya Kak"
             },
             {
                 "nama": "Muhammad Regi Abdi Putra Amanta",
@@ -791,8 +791,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Permadani, Sukarame",
                 "hobbi": "Dengerin Musik",
                 "sosmed": "@mregiiii_",
-                "kesan": "",
-                "pesan": ""
+                "kesan": "Abang punya daya tarik karena kepintarannya yang natural",
+                "pesan": "Semoga abang selalu dikelilingi orang-orang positif juga"
             },
             {
                 "nama": "Aisyah Musfirah",
@@ -802,8 +802,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Lapas",
                 "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
-                "kesan": "",
-                "pesan": ""
+                "kesan": "Setiap kakak ngomong selalu berisi, tandanya wawasan kakak luas banget",
+                "pesan": "Semoga aku bisa mencontoh semangat belajar kakak"
             },
             {
                 "nama": "Fadil Prasetyo Alfarizzi",
@@ -813,8 +813,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Segala Mider",
                 "hobbi": "Fose",
                 "sosmed": "@fadilalfarizzi",
-                "kesan": "",
-                "pesan": ""
+                "kesan": "Abang punya banyak ilmu tapi tetap rendah hati",
+                "pesan": "Semoga makin sukses dan tetap jadi pribadi yang hangat bang"
             },
             {
                 "nama": "Muhammad Aqil Ramadhan",
@@ -824,8 +824,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Belwis",
                 "hobbi": "Main Basket/Ngerokok",
                 "sosmed": "@muhammadaqil1111",
-                "kesan": "",
-                "pesan": ""
+                "kesan": "Abang keliatan rajin banget belajar dan produktif",
+                "pesan": "Semoga saya bisa ikut tertular semangat belajarnya bang."
             },
             {
                 "nama": "Muhammad Naufal Ramadhan",
