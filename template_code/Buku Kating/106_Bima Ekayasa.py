@@ -449,14 +449,14 @@ if menu == "Departemen Medkraf":
             },
               {
                 "nama": "Try Yani Rizki Nur Rohmah",
-                "nim": "",
-                "umur": "",
-                "asal": "",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan": ""# 1
+                "nim": "122450020",
+                "umur": "20",
+                "asal": "Lampung Barat",
+                "alamat": "Korpri",
+                "hobbi": "Belajar",
+                "sosmed": "@tryyanitiaaa",
+                "kesan": "kakak ini cantikk banget",  
+                "pesan": "semangatt ya kak kuliahya, semoga pkm nya menang"# 1
             },
               {
                 "nama": "Aliya Ammara Ananta",
@@ -1143,11 +1143,11 @@ if menu == "Departemen SSD":
             {
                 "nama": "Nabila Zakiyah Zahra",
                 "nim": "123450023",
-                "umur": "",
-                "asal": "",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Way Halim",
+                "hobbi": "Jogging",
+                "sosmed": "@nabila_zazahra",
                 "kesan": "lucu kakaknya, murah senyum juga",  
                 "pesan":"semangatt ya kak kuliahnya, semoga di perlancar"# 6
             },
@@ -1383,11 +1383,11 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Fairuz Ary Syifa",
                 "nim": "123450044",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "Sukarame",
+                "hobbi": "Tidur",
+                "sosmed": "@_fairuzary",
                 "kesan": "religius bangett kakak ini, kalemm bangett",  
                 "pesan":"semangatt terus kakak kuliahnya"# 14
             },
@@ -1440,42 +1440,42 @@ if menu == "Departemen MIKFES":
                 "nim": "123450065",
                 "umur": "20",
                 "asal":"Bandar Lampung",
-                "alamat": "",
+                "alamat": "Pemda",
                 "hobbi": "Catur",
-                "sosmed": "@",
+                "sosmed": "@giofaniars",
                 "kesan": "keren bang, vibes coding banget",  
                 "pesan":"semangatt terus bang kuliahnya"# 22
             },
             {
                 "nama": "Rahma Oktavia Albar",
                 "nim": "123450003",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "umur": "19",
+                "asal":"Bengkulu Selatan",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "Main Catur",
+                "sosmed": "@_rhmaoktvia",
                 "kesan": "baik, cantik, ramah juga",  
                 "pesan":"semangattt terus ya kak"# 19
             },
             {
                 "nama": "Rahmah Gustriana Deka",
                 "nim": "123450102",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "umur": "20",
+                "asal":"Lampung",
+                "alamat": "Airan 1",
+                "hobbi": "Main ke embung",
+                "sosmed": "@gustriana.d",
                 "kesan": "baik, ramah, murah senyum",  
                 "pesan":"semangatt terus yaa kak kuliahnya"# 20
             },
             {
                 "nama": "Razin Hafid Hamdi",
                 "nim": "123450096",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "Belwis",
+                "hobbi": "Futsal",
+                "sosmed": "@razyn.hfd",
                 "kesan": "mirip pak tirta, kece",  
                 "pesan":"semangatt terus bang kuliahnyaa"# 21
             },
@@ -1556,9 +1556,9 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1E4cjeA4Vwcipb9cC2pjCCCyrngR6SG0y", #11
             "https://drive.google.com/uc?export=view&id=1tA7_2w8N4WnxWkF1NkaPVwvzr_mExJYV", #12
             "https://drive.google.com/uc?export=view&id=11dM-QPUOv_qQDiiCRQi-V9dwbQ2C65w9", #13
-            "https://drive.google.com/uc?export=view&id=1xG2FAJg-icIfA2F7KzsluCCSbkDtAy71", #14
+            "https://drive.google.com/uc?export=view&id=1mMBcJPPU68S6-XkD1uuMaI9KXsK0dKJz", #14
             "https://drive.google.com/uc?export=view&id=1pD9DKF0FxVJVY0uzl_IPBcLD5-827US5", #15
-            "https://drive.google.com/uc?export=view&id=1mMBcJPPU68S6-XkD1uuMaI9KXsK0dKJz", #16
+            "https://drive.google.com/uc?export=view&id=1xG2FAJg-icIfA2F7KzsluCCSbkDtAy71", #16
             "https://drive.google.com/uc?export=view&id=14n-ISRh6CLadjHq2joQG0sz22kKZPhi4", #17
             "https://drive.google.com/uc?export=view&id=1kTMtEs3_zuP0A2xZuHnTb3sq6heGfcNB", #18
             "https://drive.google.com/uc?export=view&id=1pf9yOk8y07iO--nE6FJiOLfIsNudPrgT", #19
@@ -1574,22 +1574,22 @@ if menu == "Departemen PSDA":
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "122450107",
-                "umur": " ",
-                "asal":" ",
+                "umur": "21",
+                "asal":"Sumatera Utara",
                 "alamat": " ",
                 "hobbi": " ",
-                "sosmed": "@ ",
+                "sosmed": "@ferdy_kevin",
                 "kesan": "tegas, suka gayanya memimpin, banyak tindakan, humoris pastinya",  
                 "pesan":"semangat bang menjalani semester 7 nya, semoga cepet selesai"# 1
             },
             {
                 "nama": "Nisrina Nur Afifah",
                 "nim": "122450052",
-                "umur": "",
-                "asal":" ",
-                "alamat": " ",
-                "hobbi": " ",
-                "sosmed": "@i",
+                "umur": "20",
+                "asal":"Bekasi",
+                "alamat": "Korpsu",
+                "hobbi": "Jalan jalan",
+                "sosmed": "@afifahhnsrn",
                 "kesan": "lucuu dan cantik, meyeramkan",  
                 "pesan":"semangatt kakak kuliahnya, semoga semua nya di lancarkan"# 2
             },
@@ -1749,7 +1749,7 @@ if menu == "Departemen PSDA":
                 "hobbi": "Tidur",
                 "sosmed": "@ferazkaa",
                 "kesan": "lucuu kakak ini, asik juga, tapi seperti nonchalant gitu",
-                "pesan": " " # 16
+                "pesan": "semangatt kak menjalani hari hari kakak dan perkuliahannya" # 16
             },
             
             {
@@ -1876,6 +1876,7 @@ if menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
