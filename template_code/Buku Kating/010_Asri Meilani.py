@@ -923,7 +923,7 @@ if menu == "Departemen MIKFES":
                 "umur": "20",
                 "asal":"Pesawaran, Lampung",
                 "alamat": "Pesawaran, Lampung",
-                "hobbi": "Main piano & Nyanyi",
+                "hobbi": "Main piano dan Nyanyi",
                 "sosmed": "@pebby_olla525",
                 "kesan": "kaa baikk bangeeet ramah poll",  
                 "pesan":"semangat teruss kaaa, semangat yaa nugasnya kaa"# 1
