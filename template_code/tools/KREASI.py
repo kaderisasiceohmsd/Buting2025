@@ -1,17 +1,8 @@
 import streamlit as st
-import matplotlib.pyplot as plt
 
-# Judul aplikasi
-st.title("🧮 Kalkulator Bayes Interaktif")
-st.write("Aplikasi sederhana untuk menghitung probabilitas posterior menggunakan Teorema Bayes.")
-
-# Input dari user
-st.sidebar.header("Masukkan Nilai Probabilitas (0–1)")
-prior = st.sidebar.slider("P(H) - Probabilitas awal hipotesis", 0.0, 1.0, 0.01, 0.01)
-likelihood = st.sidebar.slider("P(E|H) - Probabilitas bukti jika hipotesis benar", 0.0, 1.0, 0.99, 0.01)
-false_positive = st.sidebar.slider("P(E|¬H) - Probabilitas bukti jika hipotesis salah", 0.0, 1.0, 0.05, 0.01)
-
-# Fungsi perhitungan Bayes
+# -----------------------------
+# 🧠 Fungsi Perhitungan Bayes
+# -----------------------------
 def bayes_calculator(prior, likelihood, false_positive):
     numerator = likelihood * prior
     denominator = numerator + false_positive * (1 - prior)
@@ -19,24 +10,43 @@ def bayes_calculator(prior, likelihood, false_positive):
         return 0
     return numerator / denominator
 
+
+# -----------------------------
+# 🎨 UI Streamlit
+# -----------------------------
+st.set_page_config(page_title="Kalkulator Bayes", page_icon="🧮", layout="centered")
+
+st.title("🧮 Kalkulator Bayes Interaktif")
+st.write("Hitung probabilitas **posterior** dengan Teorema Bayes secara sederhana dan intuitif.")
+
+# Input dari sidebar
+st.sidebar.header("Masukkan Nilai Probabilitas (0–1)")
+prior = st.sidebar.slider("P(H) - Probabilitas awal hipotesis", 0.0, 1.0, 0.01, 0.01)
+likelihood = st.sidebar.slider("P(E|H) - Probabilitas bukti jika hipotesis benar", 0.0, 1.0, 0.99, 0.01)
+false_positive = st.sidebar.slider("P(E|¬H) - Probabilitas bukti jika hipotesis salah", 0.0, 1.0, 0.05, 0.01)
+
+# Hitung posterior
 posterior = bayes_calculator(prior, likelihood, false_positive)
+delta = posterior - prior
 
 # Tampilkan hasil
-st.subheader("📊 Hasil Perhitungan")
-st.write(f"**P(H|E)** = `{posterior:.4f}`")
+st.subheader("📈 Hasil Perhitungan")
+st.metric(label="P(H|E) - Probabilitas Posterior", value=f"{posterior:.4f}", delta=f"{delta:+.4f}")
 st.write(f"Artinya: Ada **{posterior*100:.2f}%** kemungkinan hipotesis benar setelah bukti diperoleh.")
 
-# Visualisasi
-fig, ax = plt.subplots()
-ax.bar(["Prior (P(H))", "Posterior (P(H|E))"], [prior, posterior], color=["#4C72B0", "#55A868"])
-ax.set_ylim(0, 1)
-ax.set_ylabel("Probabilitas")
-ax.set_title("Perbandingan Prior dan Posterior")
-st.pyplot(fig)
+# Visualisasi sederhana (tanpa pandas)
+st.subheader("🔍 Perbandingan Prior dan Posterior")
+chart_data = {
+    "Prior (P(H))": [prior],
+    "Posterior (P(H|E))": [posterior]
+}
+st.bar_chart(chart_data)
 
-# Catatan
+# Catatan tambahan
 st.info("""
 💡 **Catatan:**
-- Jika prior sangat kecil (kejadian langka), hasil tes positif belum tentu berarti benar.
-- Jika likelihood tinggi dan false positive kecil, probabilitas posterior akan meningkat signifikan.
+- Jika *prior* sangat kecil (kejadian langka), hasil tes positif belum tentu berarti benar.
+- Jika *likelihood* tinggi dan *false positive* rendah, probabilitas *posterior* akan meningkat signifikan.
 """)
+
+st.caption("Dibuat dengan ❤️ menggunakan Streamlit — tanpa pustaka tambahan.")
