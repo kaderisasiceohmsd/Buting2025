@@ -771,7 +771,7 @@ if menu == "Departemen MIKFES":
                 "kesan": "Kak randa cool dan pinter banget",  
                 "pesan":"hobbinya keren bang dengan tidur aja bisa berkembang"
             },
-           {
+            {
                 "nama": "Rut Junita Sari Siburian",
                 "nim": "122450103",
                 "umur": "21",
@@ -782,7 +782,7 @@ if menu == "Departemen MIKFES":
                 "kesan": "Kak rut pinter dan kalem menurutkuu",  
                 "pesan":"kakak biasanya baca apa kakk?? mau baca jugaa"# 1
             },
-             {
+            {
                 "nama": "Muhammad Regi Abdi Putra Amanta",
                 "nim": "122450031",
                 "umur": "19",
@@ -793,7 +793,7 @@ if menu == "Departemen MIKFES":
                 "kesan": "Bang regi pinter dan visioner banget",  
                 "pesan":"Biasanya dengerin musik apa bang?? Hindia?Bernadya?? atau Opick bang??"# 1
             },
-              {
+            {
                 "nama": "Aisyah Musfirah",
                 "nim": "123450084",
                 "umur": "21",
@@ -804,7 +804,7 @@ if menu == "Departemen MIKFES":
                 "kesan": "Kak aisyah yalili banget kak",  
                 "pesan":"Hobbynya ril banget lagi kak, suka maskerann, btw sehat selalu ya kakk"# 1
             },
-           {
+            {
                 "nama": "Fadil Prasetyo Alfarizzi",
                 "nim": "123450048",
                 "umur": "20",
@@ -1001,9 +1001,7 @@ if menu == "Departemen MIKFES":
                 "sosmed": "@razyn.hfd",
                 "kesan": "Bang razin pinter dan kalem kali nih",  
                 "pesan":"Bang razin ternyata suka futsal ya bang"# 1
-            },
-
-        
+          },
         ]
         display_images_with_data(gambar_urls, data_list)
     mikfes()
