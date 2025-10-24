@@ -130,7 +130,7 @@ if menu == "Kesekjenan":
                 "kesan": "Ramah dan humble banget bang jo",  
                 "pesan":"Semoga kehidupan kuliahnya berjalan mulus"
             },
-             {
+            {
                 "nama": "Elisabeth Claudia Simanjuntak",
                 "nim": "122450123",
                 "umur": "19x    `",
@@ -141,7 +141,7 @@ if menu == "Kesekjenan":
                 "kesan": "Kak claudia ramah dan murah senyum",  
                 "pesan":"Semoga dimudahkan jalan kedepannya kak"
             },
-             {
+            {
                 "nama": "Syadza Puspadari Azhar",
                 "nim": "122450072",
                 "umur": "18",
@@ -152,7 +152,7 @@ if menu == "Kesekjenan":
                 "kesan": "Kakaknya asik dan keliatan banget kutu bukunya",  
                 "pesan":"Semoga diberikan kesehatan selalu kak"
             },
-              {
+            {
                 "nama": "Eksanty Febriana Sugma Islamiaty",
                 "nim": "122450001",
                 "umur": "19",
@@ -1070,7 +1070,7 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@deaa.rsn",
                 "kesan": "Orangnya menyenangkan dan mudah bergaul.",
                 "pesan":"Semoga apa yang dicita-citakan tercapai ya, Kak."
-            }
+            },
             {
                 "nama": "Ratu Keisha Jasmine Deanova",
                 "nim": "122450106",
@@ -1301,7 +1301,7 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@bylaash",
                 "kesan": "Kakak sangat baik dan sabar dalam membimbing.",
                 "pesan":"Jangan lupa jaga kesehatan di tengah kesibukannya ya, Kak."
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     eksternal()
@@ -1856,7 +1856,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@noe_rruuu",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     medkraf()
