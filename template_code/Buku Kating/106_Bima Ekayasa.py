@@ -375,7 +375,7 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1IQFZ8mQPBzeKXVVwO8IMjTPciAF0z8Dr",
             "https://drive.google.com/uc?export=view&id=1BWWqdszW1wH58EmZbVevmEzDmLesL5SQ",
             "https://drive.google.com/uc?export=view&id=1a9x5CevN4wk1UELv46DXnduNCMyTrwCK",
-            "https://drive.google.com/uc?export=view&id=1_BRT4--r8jcduUjYLM-Uuucf7m9RNxRT",
+            "https://drive.google.com/uc?export=view&id=1BB8igQBsF0MVVpOoJVixguI9Lpl3d4Ir",
             "https://drive.google.com/uc?export=view&id=1Z-wtnPgIVVYy12SsCEM_ZIXmC_95U4G1",
         
             
@@ -1576,8 +1576,8 @@ if menu == "Departemen PSDA":
                 "nim": "122450107",
                 "umur": "21",
                 "asal":"Sumatera Utara",
-                "alamat": " ",
-                "hobbi": " ",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "tegas, suka gayanya memimpin, banyak tindakan, humoris pastinya",  
                 "pesan":"semangat bang menjalani semester 7 nya, semoga cepet selesai"# 1
@@ -1876,6 +1876,7 @@ if menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
