@@ -1518,7 +1518,7 @@ if menu == "Departemen SSD":
             "https://drive.google.com/uc?export=view&id=1xZjkql4YHDxqV-6kOuReK-py3qcFAxtm",
             "https://drive.google.com/uc?export=view&id=1jGP6MMdzQ9_vu7c7fiQalsLJsU9qWwcT",
             "https://drive.google.com/uc?export=view&id=1CVi8BgqfKEqtt_eM__uwdXij947ggZdV",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=1eumwS_MgRMvXSwtKigAZx21do4pYFd2i",
             "https://drive.google.com/uc?export=view&id=13ObdS5lUXShQ-TIvugdA88JNXtI7m0Ny",
             "https://drive.google.com/uc?export=view&id=1-cpqNbRABqdmSEKr4fozQqQ9ya7-M8u9",
         ]
@@ -1653,7 +1653,7 @@ elif menu == "Departemen Medkraf":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1y2qMqAsmhJXsEjzYuk9w49Y0Sz4c4BF2",
             "https://drive.google.com/uc?export=view&id=1HW73JV00NPjN1jMgjv_trjPUxT1E_VAb",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=1ACS-XvDt3XonfFeF7OH2n5iHcQFmSb1h",
             "https://drive.google.com/uc?export=view&id=1ZngTckxRwkWcUycToZcnzBiaNj7OeM9Z",
             "https://drive.google.com/uc?export=view&id=167sSYVQjQAAegFdvdBRtpWyXaN2EwisE",
             "https://drive.google.com/uc?export=view&id=1qCrvnUNPtFIgGc9q43OzyryHNkccGS8b",
