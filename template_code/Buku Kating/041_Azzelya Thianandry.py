@@ -1412,7 +1412,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "M. Naufal Algahni",
                 "nim": "123450116",
-                "umur": '20",
+                "umur": "20",
                 "asal": "Sidorejo",
                 "alamat": "Sabah Balau",
                 "hobbi": "Nonton Anime",
