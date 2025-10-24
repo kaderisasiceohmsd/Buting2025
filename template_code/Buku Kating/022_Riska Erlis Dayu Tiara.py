@@ -447,10 +447,10 @@ elif menu == "Departemen PSDA":
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "122450107",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "21",
+                "asal":"Medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "futsal",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "Bang Ferdy tegas, berwibawa, dan inspiratif banget",  
                 "pesan":"Semoga selalu diberi kelancaran dalam setiap langkah, terus jadi inspirasi, dan tetap jadi abang keren"# 1
@@ -1859,6 +1859,7 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
 
