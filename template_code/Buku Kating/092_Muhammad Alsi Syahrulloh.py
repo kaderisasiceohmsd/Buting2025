@@ -1845,8 +1845,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Sabah Balau Residence",
                 "hobbi": "Melukis",
                 "sosmed": "@eigirtmv",
-                "kesan": "baiikk bangeett kakaknya, ramah bangett, dan sama kaya kak Citra hobinya keren",
-                "pesan": "semangaatt kuliahnya kak dan jangan lupa jaga kesehatann!"
+                "kesan": "",
+                "pesan": "!"
             },
             {
                 "nama": "Romauli Oktavia Silaban",
@@ -1856,8 +1856,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Kelengkeng 2, Pemda",
                 "hobbi": "Dance",
                 "sosmed": "@roms.slbn",
-                "kesan": "baiikk bangeett kak, asik juga, ramah bangett, designnya bagus banget dan jago ngedance",
-                "pesan": "sukses terus kedepannya kak dan semoga designnya makin keren keren!"
+                "kesan": "",
+                "pesan": ""
             },
         ]
         display_images_with_data(gambar_urls, data_list)
