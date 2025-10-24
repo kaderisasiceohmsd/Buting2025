@@ -746,10 +746,10 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1iB05mCp1GlOcDxx60L6KOzczZ63YZ9aM",
             "https://drive.google.com/uc?export=view&id=1cJg6ZlXPZztmUmS3qHq_c_iEXCIJ8ms5",
             "https://drive.google.com/uc?export=view&id=1K_CLh9rD3C2iNYNR-2vKTPtDFvY6_D2s",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=109o88VFexm0KT6-Lx_IioclYl8mI-g69",
             "https://drive.google.com/uc?export=view&id=1cksTQ2tLDjNFvGrykkz05KfjapzHZUcb",
             "https://drive.google.com/uc?export=view&id=1BfB80QhkIcjgZTilutxQ7gp6gLFDfr2C",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=17JkUoyr32i6UmkipimZNgPJ3mi_9nJtE", 
             "https://drive.google.com/uc?export=view&id=1cFRFQElbbiCIr_qNp5S7jZLp7Q-Lt6LS",
             "https://drive.google.com/uc?export=view&id=17kBJFaY0PLsGOOmSl41X12gRHuMkcPoi",
             "https://drive.google.com/uc?export=view&id=1WVLk61jO4bPrf7pNXfqSeDncnVeIVw43",
@@ -759,7 +759,7 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=11ZguLm7C3jSu1r1N_57iW_q27sTXUx2b",
             "https://drive.google.com/uc?export=view&id=1HcpXGyzv2eBeFEBvrxKc0VaGrPV3dO7r",
             "https://drive.google.com/uc?export=view&id=11hDAeB6vmRdbcH6JeF1rYfu-_aMDBa2o",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=1dFTJFfBYS5sj_QgBjWO4Z-cNdxnN4mgA",
             "https://drive.google.com/uc?export=view&id=1txDW9_Av70lDetUPF1mqqqtHOlSnhPKj",
             
         ]
@@ -1028,18 +1028,18 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1k1DdfQmTbWfNE-UElCu5FhB4nwPbk3Ru",
             "https://drive.google.com/uc?export=view&id=1oi76zR2OPEFlX4DqypKOFJnGGw1XCES6",
             "https://drive.google.com/uc?export=view&id=15laT8thaL2NbR6HWK0E2H_pSGC_R6-Ke",
-            "https://drive.google.com/uc?export=view&id=1oVyl3buBBJd8XTHF8Bz9G8xCJl8zJwL-",
-            #habis bang desman
-            "https://drive.google.com/uc?export=view&id=1Ega5v6JHC0Pga8vSBm4q2__tiHaApVqg",
-            "https://drive.google.com/uc?export=view&id=1AHLxCD__eXNjB3fQbIFaoncjXGFDYiYl",
-            "https://drive.google.com/uc?export=view&id=1P03WBfJVBDfAZ4nfuyxcEexD6tNip0mK",
-            "https://drive.google.com/uc?export=view&id=1ebBP124Wh08KkD9TuwXS4FzstyYv4BaP",
-            "https://drive.google.com/uc?export=view&id=1NCWu7l7CsjDYbEib8jL4wTjAyc1jmWWI",
-            "https://drive.google.com/uc?export=view&id=13ut6iqEb9dN9bbwBV7dZ_zgtZHIAqCf9",
-            "https://drive.google.com/uc?export=view&id=1QMX31h-WqQvIsc5bQsY_5MBeAOEm4Dz2",
-            "https://drive.google.com/uc?export=view&id=1hKrsb5v0zH3MCJww2f1FvLVL-WDLJxEm",
-            "https://drive.google.com/uc?export=view&id=1612vj1gLx2s_ttnGAm40Fe6KfqWqoRPs",
-            "https://drive.google.com/uc?export=view&id=1B7QjHZnAXt9oVM2pRLBqqRCGnBJTig5O",
+            "https://drive.google.com/uc?export=view&id=1a5DkR3s5WIvru0pVDpYy8lP57GxLx1gZ",
+            "https://drive.google.com/uc?export=view&id=1RRj3hjOajow-3i-_OvvavvWFTayZMFnO",
+            "https://drive.google.com/uc?export=view&id=1IXita2upy6igRGq7kNBv9nXmdpxQuWDe",
+            "https://drive.google.com/uc?export=view&id=1k3EUA8kheaZAVs2gOrU87chCdBPLM3VA",
+            "https://drive.google.com/uc?export=view&id=10mHiz_gNUyoOYxn0pTidhqpKyy76knb5",
+            "https://drive.google.com/uc?export=view&id=1wNchYR58mer8dWr7AyRH2mrfwzJmsHMk",
+            "https://drive.google.com/uc?export=view&id=1wNchYR58mer8dWr7AyRH2mrfwzJmsHMk",
+            "https://drive.google.com/uc?export=view&id=1d3Tw2dhgTZY6iWClH8MZDmCsdgqgWR9u",
+            "https://drive.google.com/uc?export=view&id=1-uFAttN9wrMW_dIkXoGhsO8b6GvKejd3",
+            "https://drive.google.com/uc?export=view&id=1GswIhiwFSVxQpf4LAYKdoJ9VGqkR3Ssk",
+            "https://drive.google.com/uc?export=view&id=1R7PCTJg1GZmgp8H88UrtQLIS81SSAHem",
+            
         ]
         data_list = [
             {
