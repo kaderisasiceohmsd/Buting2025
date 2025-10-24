@@ -101,9 +101,10 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1w0TzJgole5q_sbC8DlvsGA7qRDao41XU",
             "https://drive.google.com/uc?export=view&id=1edFsnqUOOZyyr_xVh6QYB0r5bm4ovPoa",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=18Ul_1e-PYNEG_lVZyjgXNsvvfEiSBjBS",
+            "https://drive.google.com/uc?export=view&id=1Pa-kSWFjqKYuhO8spDKJN92Wl-gnWLZI",
+            "https://drive.google.com/uc?export=view&id=1SmjUIRjHv9ddrQzpsTcqowGjviv1kaIp",
+            "https://drive.google.com/uc?export=view&id=1E4d7FX8aW4sdrtcb5gLUQTf6WcfNrRyX",
         ]
         data_list = [
             {
@@ -358,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def Senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1rc2SQVJrCN8HuTaQ35uLnYUEvB8cz2UP",
+            "https://drive.google.com/uc?export=view&id=13QhXI76xLNeAsfaupZDIQx0I1eiGKvT8",
+            "https://drive.google.com/uc?export=view&id=16Aeab9GZ2wXmLEsSTqg8sHEGXfUiVZv5",
+            "https://drive.google.com/uc?export=view&id=1JFGwDKs32Sy7PwXgwKO480TupS9JtvQV",
         ]
         data_list = [
             {
@@ -735,8 +736,8 @@ if menu == "Departemen PSDA":
         display_images_with_data(gambar_urls, data_list)
     Departemen_PSDA()
 
-if menu == "Departemen Mikfes":
-    def Departemen_Mikfes():
+if menu == "Departemen MIKFES":
+    def Departemen_MIKFES():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -1007,7 +1008,7 @@ if menu == "Departemen Mikfes":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_Mikfes()
+    Departemen_MIKFES()
 
 if menu == "Departemen Eksternal":
     def Departemen_Eksternal():
