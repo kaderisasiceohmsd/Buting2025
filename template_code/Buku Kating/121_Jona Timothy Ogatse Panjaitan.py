@@ -166,7 +166,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
                 "kesan": "Kak Syadza keren, enak diajak ngobrol",  
-                "pesan":"kapan kapan kita ngobrol santai lagi ya kakk"# 1
+                "pesan": "kapan kapan kita ngobrol santai lagi ya kakk"# 1
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
@@ -177,7 +177,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Nahan eek",
                 "sosmed": "@eksantyfebriana",
                 "kesan": "Kak Eksanty kalo ketawa terlihat sangat tulus ",  
-                "pesan":"jangan sering sering di tahan kak, terkadang harus di lepaskan"# 1
+                "pesan": "jangan sering sering di tahan kak, terkadang harus di lepaskan"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -188,7 +188,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifahh",
                 "kesan": "Kakak ini terlihat paling dewasa, kalem",  
-                "pesan":"semoga suksess terus kak mengejar mimpi kakak"# 1
+                "pesan": "semoga suksess terus kak mengejar mimpi kakak"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -223,8 +223,8 @@ if menu == "Baleg":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Pilates",
                 "sosmed": "@jeremia_s_",
-                "kesan": "Abang terasik, terseru, & Satu Alumni Sekolah",  
-                "pesan":"semangat bang semster 7 nya!!!"# 1
+                "kesan": "Abang terasik, terseru, bisa diajak bercanda dan respon nya asik",  
+                "pesan": "Every small step counts"# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -234,8 +234,8 @@ if menu == "Baleg":
                 "alamat": "Kedaton",
                 "hobbi": "Makan lontong sate",
                 "sosmed": "@_.dheamelia",
-                "kesan": "Kak dhea gokil",  
-                "pesan":" Sukses terus kakk!"# 1
+                "kesan": "Kak dhea lucu, kadang bisa keliatan galak, humoris",  
+                "pesan": "The roar of thunder"# 1
             },
             {
                 "nama": "Renisha Putri Giani",
@@ -245,8 +245,8 @@ if menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "tidur, jualan pancing",
                 "sosmed": "@renishapg",
-                "kesan": "kak renisha humoris",  
-                "pesan":"jangan keseringan tidur kak"# 1
+                "kesan": "kak renisha humoris, ramah",  
+                "pesan":"langgeng terus ya kakkk"# 1
             },
             {
                 "nama": "Anisa Fitriyani",
@@ -256,8 +256,8 @@ if menu == "Baleg":
                 "alamat": "Natar",
                 "hobbi": "Belajar Mengaji",
                 "sosmed": "@ansftynn_",
-                "kesan": "Kakaknya keren",  
-                "pesan":"Sukses terus kaa"# 1
+                "kesan": "Kakaknya keren, humoris",  
+                "pesan":"apa yang kakak tabur, itu yang kakak tuai"# 1
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
@@ -267,8 +267,8 @@ if menu == "Baleg":
                 "alamat": "Kedaton",
                 "hobbi": "Nonton AGZ",
                 "sosmed": "@dhruchyo",
-                "kesan": "Terkerenn dan terkecee",  
-                "pesan":"semangat terus bang kejar cumlaude ituu"# 1
+                "kesan": "Pinter,stylish, keren, dan humoris",  
+                "pesan":"learn form yesterday, live for today, hope for tomorrow"# 1
             },
             {
                 "nama": "Feby Wulandari",
@@ -278,8 +278,8 @@ if menu == "Baleg":
                 "alamat": "Way Huwi",
                 "hobbi": "Karambol",
                 "sosmed": "@fby.wlndr",
-                "kesan": "Kakak ini imut, lucu",  
-                "pesan":"semangatt teruss kak feby!"# 1
+                "kesan": "Kakak ini keren, lucu, rambut nya berwarna",  
+                "pesan":"In the middle of difficulty lies opportunity"# 1
             },
             {
                 "nama": "Givaro Ananta",
@@ -289,8 +289,8 @@ if menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Liatin bang mirzan main kucing",
                 "sosmed": "@givarooo",
-                "kesan": "abang-abangan, seru abiez, cihuy mentor terdabest",  
-                "pesan":"kurang-kurangin brainrot nya bang"# 1
+                "kesan": "mentor te debasttt, keren, soft spoken, peduli",  
+                "pesan":"kurang-kurangin brainrot nya bang, langgeng terus ya bangg"# 1
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
@@ -300,8 +300,8 @@ if menu == "Baleg":
                 "alamat": "Korpri",
                 "hobbi": "Main kucing",
                 "sosmed": "@myrrinn",
-                "kesan": "Abang cool, keren, asik",  
-                "pesan":"semangat terus main kucingnya bang!"# 1
+                "kesan": "Abang cool, keren, asik, vibes nya kek mc ghibli gitu bang keren",  
+                "pesan":"You never fail until you stop trying"# 1
             },
             {
                 "nama": "Berliana Enda Putri",
@@ -311,8 +311,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Catur",
                 "sosmed": "@berlyyanda",
-                "kesan": "Kakak ini asix",  
-                "pesan":"semangat terus kuliahnya kakak!!!"# 1
+                "kesan": "Kakak ini lucu, asik, bisa diajak brain root",  
+                "pesan":"Hadapi dunia ini tanpa gentar"# 1
             },
             {
                 "nama": "Juesi Apridelia Saragih",
@@ -322,8 +322,8 @@ if menu == "Baleg":
                 "alamat": "Way Huwi",
                 "hobbi": "Minum air putih 8x sehari",
                 "sosmed": "@j__eesie",
-                "kesan": "Kakak ini asik, seru, baik",  
-                "pesan":"semangat terus kuliahnya, dan selalu stay positive kak!"# 1
+                "kesan": "Kakak ini bagaikan bintang",  
+                "pesan":"keep your light alive and let it shine brighter"# 1
             },
             {
                 "nama": "Ridho Benedictus Togi Manik",
@@ -333,8 +333,8 @@ if menu == "Baleg":
                 "alamat": "GH",
                 "hobbi": "Nyanyi tabola bale",
                 "sosmed": "@iamridhomanik",
-                "kesan": "abang ini lucu, humoris",  
-                "pesan":"tetap lucu dan menghibur orang selalu bang"# 1
+                "kesan": "abang ini suara nya bagus, humoris",  
+                "pesan":"kapan kapan ayo nyanyi bareng bang"# 1
             },
             {
                 "nama": "Feryadi Yulius",
@@ -344,8 +344,8 @@ if menu == "Baleg":
                 "alamat": "Kobang",
                 "hobbi": "Koleksi Stiker",
                 "sosmed": "@fer_yulius",
-                "kesan": "Abang ini chill, ngalur wae",  
-                "pesan":"tetap santai bang, sukses terus kuliahnya"# 1
+                "kesan": "Abang ini chill, bucin",  
+                "pesan":"semangat kuliah nya bang dan langgeng terus ya"# 1
             },
             {
                 "nama": "Monica Patricia Tanjung",
@@ -355,8 +355,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Memanah",
                 "sosmed": "@monica_tjg",
-                "kesan": "Kakak ini asik, manis, humoris",  
-                "pesan":"semangat terus kak monica!"# 1
+                "kesan": "Kakak ini lucu, polos",  
+                "pesan":"be yourself dan semoga sepat jadian ya kak"# 1
             },
             {
                 "nama": "Wan Nashwa Alhasni Yuska",
@@ -366,8 +366,8 @@ if menu == "Baleg":
                 "alamat": "Way Huwi",
                 "hobbi": "Mainn Bola, Belajar",
                 "sosmed": "@nshaysk",
-                "kesan": "Kakak ini asik seru dan humoris",  
-                "pesan":"semangat terus kakk"# 1
+                "kesan": "Kakak ini asik, seru, dan kadang keliatan lesu",  
+                "pesan":"semangat terus kakk, jangan lupa istirahat ya kak"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
