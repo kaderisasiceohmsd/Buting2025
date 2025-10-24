@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Keren dan kece bange",  
-                "pesan":"Semangat terus bang menjalani hidup sebagai ketua"# 1
+                "kesan": "Bang Rendra keliatan orangnya tenang dan berwibawa, cocok banget jadi sosok pemimpin.",
+                "pesan": "Semangat terus bang dalam memimpin dan semoga semua urusannya dimudahkan." # 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Keren banget karna ngajarin ilmu data sains",  
-                "pesan":"Semoga kehidupan kuliahnya berjalan mulus"# 1
+                "kesan": "Bang Johannes keliatan orangnya cerdas dan punya pembawaan kalem.",
+                "pesan": "Semoga makin sukses bang dan terus semangat ngejalanin kuliah." # 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Korpri",
                 "hobbi": "Cutekahim",
                 "sosmed": "@farahanumafifah",
-                "kesan": "Bisa ada diposisi ini aja udah keren banget",  
-                "pesan":"Semoga ga banyak masalah menghampiri"# 1
+                "kesan": "Kak Farahanum keliatan ramah dan berwibawa, sosok yang gampang didekati.",
+                "pesan": "Semoga selalu semangat dan tetap jadi panutan yang baik buat teman-teman." # 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Udah hobi membaca, punya posisi penting pula",  
-                "pesan":"Semoga lancar-lancar saja kehidupannya"# 1
+                "kesan": "Kak Syadza keliatan anggun dan pintar, cocok banget dengan perannya sekarang.",
+                "pesan": "Semoga semua aktivitas kuliah dan organisasinya selalu lancar, kak." # 1
             },
             {
                 "nama": "Eksanty Febriana Sugma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Asrama TB 4",
                 "hobbi": "Nahan Eeq",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Walau hobbynya ngawur, tapi bisa berada di posisi penting haha",  
-                "pesan":"Semoga tidak ada masalah yang menghampiri"# 1
+                "kesan": "Kak Eksanty keliatan ceria dan berani, sosok yang energik banget.",
+                "pesan": "Semoga terus semangat kuliahnya dan makin banyak pengalaman berharga." # 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Agrest Kost",
                 "hobbi": "Nahan Pipis",
                 "sosmed": "@celisabethh_",
-                "kesan": "Hobbynya ngawur, tapi megang posisi penting",  
-                "pesan":"Semoga lancar kehidupan kuliahnya"# 1
+                "kesan": "Kak Elisabeth keliatan tegas tapi tetap ramah, sosok yang bisa diandalkan.",
+                "pesan": "Semoga semua urusan kuliah dan organisasinya berjalan lancar, kak." # 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -206,8 +206,8 @@ if menu == "Baleg":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Yapping",
                 "sosmed": "@Jeremia_s_",
-                "kesan": "Kakaknya asik dan ramah.",
-                "pesan":"Sukses selalu untuk kuliahnya ya!"
+                "kesan": "Bang Jeremia keliatan santai tapi berwawasan, pembawaannya enak diajak ngobrol.",
+                "pesan": "Semoga kuliahnya lancar terus bang dan makin banyak pencapaian baru."
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -217,8 +217,8 @@ if menu == "Baleg":
                 "alamat": "Pesawaran",
                 "hobbi": "Pawat Piwit",
                 "sosmed": "@_.dheamelia",
-                "kesan": "Senang bisa kenal dengan kakak.",
-                "pesan":"Jangan lupa jaga kesehatan, kak."
+                "kesan": "Kak Dhea keliatan ramah dan ceria, aura positifnya kuat banget.",
+                "pesan": "Semoga selalu semangat ngejalanin kuliah dan tetap jadi pribadi yang menyenangkan, kak."
             },
             {
                 "nama": "Anisa Fitriyani",
@@ -228,8 +228,8 @@ if menu == "Baleg":
                 "alamat": "Pringsewu",
                 "hobbi": "Hafalin sandi Morse",
                 "sosmed": "@ansftynn_",
-                "kesan": "Orangnya seru dan baik banget.",
-                "pesan":"Semangat terus dan jangan mudah menyerah!"
+                "kesan": "Kak Anisa keliatan kalem tapi cerdas, tipe orang yang fokus dan tekun.",
+                "pesan": "Tetap semangat ngejar cita-cita dan semoga selalu dikelilingi hal-hal baik, kak."
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
@@ -239,8 +239,8 @@ if menu == "Baleg":
                 "alamat": "Korpri",
                 "hobbi": "Tidur",
                 "sosmed": "@myrrinn",
-                "kesan": "Pembawaannya positif dan menyenangkan.",
-                "pesan":"Semoga kita bisa bertemu lagi."
+                "kesan": "Bang Mirzan keliatan nyantai tapi punya vibe yang asik dan terbuka.",
+                "pesan": "Semoga semua urusan kuliah dan kesehariannya lancar terus, bang."
             },
             {
                 "nama": "Feryadi Yulius",
@@ -250,8 +250,8 @@ if menu == "Baleg":
                 "alamat": "Way kandis",
                 "hobbi": "Baca buku",
                 "sosmed": "@fer_yulius",
-                "kesan": "Sangat berkesan, orangnya humble.",
-                "pesan":"Tetap jadi pribadi yang menginspirasi!"
+                "kesan": "Bang Feryadi keliatan kalem dan bijak, kesannya orangnya banyak pengalaman.",
+                "pesan": "Terus jadi sosok yang inspiratif dan rendah hati ya, bang."
             },
             {
                 "nama": "Renisha Putri Giani",
@@ -261,8 +261,8 @@ if menu == "Baleg":
                 "alamat": "Teluk, Bandar Lampung",
                 "hobbi": "Tidur",
                 "sosmed": "@Renishapg",
-                "kesan": "Kakaknya asik dan ramah.",
-                "pesan":"Sukses selalu untuk kuliahnya ya!"
+                "kesan": "Kak Renisha keliatan anggun dan lembut, punya pembawaan yang tenang.",
+                "pesan": "Semoga segala urusan kuliah dan kesehariannya berjalan lancar, kak."
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
@@ -272,8 +272,8 @@ if menu == "Baleg":
                 "alamat": "Way halim, Bandar Lampung",
                 "hobbi": "Nyuci baju",
                 "sosmed": "@dhruchyo",
-                "kesan": "Senang bisa kenal dengan kakak.",
-                "pesan":"Jangan lupa jaga kesehatan, kak."
+                "kesan": "Bang Dharu keliatan humoris dan santai, kayaknya enak diajak nongkrong.",
+                "pesan": "Tetap semangat kuliahnya bang, semoga sukses terus ke depannya."
             },
             {
                 "nama": "Feby Wulandari",
@@ -283,8 +283,8 @@ if menu == "Baleg":
                 "alamat": "Way huwi, Bandar Lampung",
                 "hobbi": "Main karambol",
                 "sosmed": "@fby.wlndr",
-                "kesan": "Orangnya seru dan baik banget.",
-                "pesan":"Semangat terus dan jangan mudah menyerah!"
+                "kesan": "Kak Feby keliatan ceria dan gampang bergaul, aura positifnya kuat banget.",
+                "pesan": "Semoga selalu semangat dan tetap jadi sosok yang menyenangkan, kak."
             },
             {
                 "nama": "Givaro Ananta",
@@ -294,8 +294,8 @@ if menu == "Baleg":
                 "alamat": "Teluk Betung",
                 "hobbi": "Dengerin Spotify",
                 "sosmed": "@givarooo",
-                "kesan": "Pembawaannya positif dan menyenangkan.",
-                "pesan":"Semoga kita bisa bertemu lagi."
+                "kesan": "Bang Givaro keliatan chill dan easygoing, punya gaya khas sendiri.",
+                "pesan": "Semoga kuliah dan semua aktivitasnya lancar terus bang, sukses selalu."
             },
             {
                 "nama": "Berliana Enda Putri",
@@ -305,8 +305,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyanyi",
                 "sosmed": "@berlyyanda",
-                "kesan": "Sangat berkesan, orangnya humble.",
-                "pesan":"Tetap jadi pribadi yang menginspirasi!"
+                "kesan": "Kak Berliana keliatan percaya diri dan punya aura positif, kayaknya seru banget orangnya.",
+                "pesan": "Semoga kuliahnya lancar dan terus berprestasi ya, kak."
             },
             {
                 "nama": "Juesi Apridelia Saragih",
@@ -316,8 +316,8 @@ if menu == "Baleg":
                 "alamat": "Way huwi",
                 "hobbi": "Dengerin Lany",
                 "sosmed": "@j_eesie",
-                "kesan": "Kakaknya asik dan ramah.",
-                "pesan":"Sukses selalu untuk kuliahnya ya!"
+                "kesan": "Kak Juesi keliatan lembut dan santai, pembawaannya kalem banget.",
+                "pesan": "Semoga makin sukses dan selalu dikelilingi orang-orang baik, kak."
             },
             {
                 "nama": "Ridho Benedictus Togi Manik",
@@ -327,8 +327,8 @@ if menu == "Baleg":
                 "alamat": "gang sekuntum",
                 "hobbi": "Main pedal",
                 "sosmed": "@iamridhomanik",
-                "kesan": "Senang bisa kenal dengan kakak.",
-                "pesan":"Jangan lupa jaga kesehatan, kak."
+                "kesan": "Bang Ridho keliatan santai tapi fokus, tipikal orang yang bisa diandalkan.",
+                "pesan": "Semoga terus semangat ngejalanin kuliah dan kegiatan lainnya bang."
             },
             {
                 "nama": "Monica Patricia Tanjung",
@@ -338,8 +338,8 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nonton",
                 "sosmed": "@monica_tjg",
-                "kesan": "Orangnya seru dan baik banget.",
-                "pesan":"Semangat terus dan jangan mudah menyerah!"
+                "kesan": "Kak Monica keliatan ceria dan ramah, pembawaannya menenangkan.",
+                "pesan": "Semoga semua urusan kuliah dan keseharian kakak selalu lancar."
             },
             {
                 "nama": "Wan Nashwa Alhasni Yuska",
@@ -349,9 +349,9 @@ if menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Tiktokan bareng sahroni",
                 "sosmed": "@nshaysk",
-                "kesan": "Pembawaannya positif dan menyenangkan.",
-                "pesan":"Semoga kita bisa bertemu lagi."
-            }
+                "kesan": "Kak Nashwa keliatan energik dan ceria, kayaknya seru banget kalau ngobrol bareng.",
+                "pesan": "Semoga kuliahnya lancar dan selalu dikelilingi energi positif, kak."
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     baleg()
@@ -365,49 +365,49 @@ if menu == "Senator":
             "https://drive.google.com/uc?export=view&id=1zbF7px1cwyYc25GQlK0VbDx86THot8mF",
         ]
         data_list = [
-            {
+           {
                 "nama": "Rian Bintang Wijaya",
                 "nim": "122450094",
                 "umur": "20",
-                "asal":"Palembang",
+                "asal": "Palembang",
                 "alamat": "tanya caesar",
                 "hobbi": "Padel",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Bang Rian keliatan santai dan gampang diajak ngobrol, pembawaannya enak banget.",
+                "pesan": "Semoga kuliahnya lancar terus bang, dan tetap semangat ngejar targetnya!" # 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
                 "nim": "123450089",
                 "umur": "20",
-                "asal":"Jakarta",
+                "asal": "Jakarta",
                 "alamat": "Belakang Indomaret belwis",
                 "hobbi": "Maen Roblox",
                 "sosmed": "@nadyaanjani",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak Nadya keliatan ceria dan humble, auranya positif banget.",
+                "pesan": "Tetap semangat kuliahnya kak, semoga semua urusannya dimudahkan!" # 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
                 "nim": "123450072",
                 "umur": "20",
-                "asal":"Jakarta",
+                "asal": "Jakarta",
                 "alamat": "Asrama TB1",
                 "hobbi": "like instagram",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak Fathinah keliatan kalem dan sopan, sepertinya orangnya rajin juga.",
+                "pesan": "Semoga kuliah dan kegiatannya berjalan lancar, tetap semangat terus kak!" # 1
             },
             {
                 "nama": "Lia Hana Ichisasmita ",
                 "nim": "123450083",
                 "umur": "20",
-                "asal":"Bandar Lampung",
+                "asal": "Bandar Lampung",
                 "alamat": "Sukarame",
                 "hobbi": "Dengerin Lagu",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kak Lia keliatan ramah dan tenang, kayaknya enak banget diajak ngobrol.",
+                "pesan": "Semoga sukses selalu kak, dan tetap semangat ngejar cita-cita!" # 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1024,7 +1024,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1MrQ_e5UbfVGxgZzqnyZKltIgmDn2nfxA",
             "https://drive.google.com/uc?export=view&id=1EDDjhr46wXlMOJhY_Zpe0-_zvLqqDg06",
             "https://drive.google.com/uc?export=view&id=1pOf6-KWC765hYvrFEJqPZqSfilpA4_ix",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1lgwW8MsZ_Sn084pxR5iYW4_9R_lNyXYO",
             "https://drive.google.com/uc?export=view&id=13cLSokziQ5u-B642WZOChbXq_JtdcKew",
             "https://drive.google.com/uc?export=view&id=1SGXiG-Op6x7pfzSkYSy4DMrbGmV5foPH",
             "https://drive.google.com/uc?export=view&id=1nl-plOaICh7uX34cP_3Bb4o9ud1bOiRS",
