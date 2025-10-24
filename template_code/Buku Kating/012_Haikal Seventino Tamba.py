@@ -1014,30 +1014,30 @@ if menu == "Departemen MIKFES":
 if menu == "Departemen Eksternal":
     def eksternal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1VucPzDcf8a_nND6YxQVqTzl7FZbnSSpI",
-            "https://drive.google.com/uc?export=view&id=1gt9shpsTuV4oubjE9iidBKYtQgo-1lDr",
-            "https://drive.google.com/uc?export=view&id=1J6xyqyAxJHcUxxfRwFB-iI9dYQcw7Fi3",
-            "https://drive.google.com/uc?export=view&id=1kzmRgtlH0tmdFWSDwdseQGLx00mCRnXi",
-            "https://drive.google.com/uc?export=view&id=1rAHpnQqOuOXeQTkLgDjY7QReFX3vmdkz",
-            "https://drive.google.com/uc?export=view&id=1kEVmmC8F60-Mm0JJ42Ga-1TusgVpKGxa",
-            "https://drive.google.com/uc?export=view&id=1XUef5YM-enZaFw7sI2Z-naUfqV9IYniE",
-            "https://drive.google.com/uc?export=view&id=1iQoiFIX5Z9I-V3Qd0-m5NB4txe5IEZAH",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1uA7XHSq-_VdsF9Z3g00TS1hmr-7LKLpM",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=155ZOuvGyoLM2o-DweWi9LEQ9Wn9TnlqR",
-            "https://drive.google.com/uc?export=view&id=1RQ1Duqb-zFHSsq6y6z33bnK95izuBCot",
-            "https://drive.google.com/uc?export=view&id=1okQ7Ij9YsSQkOfYDVu6NeqC_O3No59l1",
-            "https://drive.google.com/uc?export=view&id=1a4ZlMw4xOf-1sFL6dHYPcBQnbt6pdhd2",
-            "https://drive.google.com/uc?export=view&id=1q61WxlTS_bJyjjgsEkUBbqMGCzHrztFO",
-            "https://drive.google.com/uc?export=view&id=1zifOErMPp-_mHMlGUuz3krS33lofI-nF",
-            "https://drive.google.com/uc?export=view&id=1RB4MXuC97v5-2fxJASV6bgLgFXHZbhsk",
-            "https://drive.google.com/uc?export=view&id=1Xfp6Wz5znWQ7CmDjGz9H_4RN8G8kxrl2",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1nDNMLEyri9tie9STeJUN67J3lZfrzOy0",
-            "https://drive.google.com/uc?export=view&id=1xS3Ru5MTZWAmp9zvDkMm5IiAN0H-uSk_",
-            "https://drive.google.com/uc?export=view&id=1z2Aw8Eute1mzNrfiloGeQqM_9XU2tFA6",
+            "https://drive.google.com/uc?export=view&id=1Bg2mk-HmR8xFpO5dxurmUqVyoWmn_MKr",
+            "https://drive.google.com/uc?export=view&id=1fRjLZcQgUbbLQ65VCT0aH5jdH-acDR3q",
+            "https://drive.google.com/uc?export=view&id=1CrTj4meOC0QLPZAG78UHiKWtaVhkoV2j",
+            "https://drive.google.com/uc?export=view&id=1Sg4XwKSbsHwphxEHdGnZ9fUTSdHZipSJ",
+            "https://drive.google.com/uc?export=view&id=1vMFKUcIi1mO63Dw3Rg65-iW7R9FW-a0M",
+            "https://drive.google.com/uc?export=view&id=1PHfXtOLoX3bh3QZ49CllAF-6VL1I1gzJ",
+            "https://drive.google.com/uc?export=view&id=10RtrMrQn4RY6oaVDalPXJs6QSt0PX4yP",
+            "https://drive.google.com/uc?export=view&id=1_g_Zcyu0rnRx5bLhWpX9c6rzwl1PnkKr",
+            "https://drive.google.com/uc?export=view&id=1rl0RHBuzdfs-jlamN4dEKAzKLQ2hdU_9",
+            "https://drive.google.com/uc?export=view&id=18VIG_-lAImW1kQPRhrbBGU3Qmz2K2Vd7",
+            "https://drive.google.com/uc?export=view&id=1Z2Ccpi2iPwEE88R9-c03YdFKxefhq7W3",
+            "https://drive.google.com/uc?export=view&id=1seR49crsKQ1JiHkA569K-CoLnVe-jvSR",
+            "https://drive.google.com/uc?export=view&id=1Hp97S5UF7OfauJu9q1cYT_5XNty5PlAc",
+            "https://drive.google.com/uc?export=view&id=1zbdZlCaZ706hOZWHvX8a82IenU2mw4p3",
+            "https://drive.google.com/uc?export=view&id=1HtwP90KCuac3ufiVbwqsm8Cv3xYqmuKR",
+            "https://drive.google.com/uc?export=view&id=1he2SMGvf_6FGtGUnSanLW4w5E_lj0OM-",
+            "https://drive.google.com/uc?export=view&id=1F5nLu7jwigClV5bvjX3z4y7S0cZGRlQM",
+            "https://drive.google.com/uc?export=view&id=1dHpbKwdPJHtgoX0BYA5JbIotD1nXPaRM",
+            "https://drive.google.com/uc?export=view&id=1-V0SctGZEatDLb8mx_RGKBPxrfoxleZP",
+            "https://drive.google.com/uc?export=view&id=1jYkw5h9Do18mw_DjOKbvDPZCrLwIngxA",
+            "https://drive.google.com/uc?export=view&id=1JGjrRjgUDfOvkLPkhENJEn9-FVbke7B5",
+            "https://drive.google.com/uc?export=view&id=1oejVGiwfhLRmhIR0ZIlW0XnAjnsAPkz0",
+            "https://drive.google.com/uc?export=view&id=1plDDGjGHn5YG4VxH70V0UDcRQgsYKOub",
+            "https://drive.google.com/uc?export=view&id=1FJ-idfp4hSwuSw_JlabOIhSXNx-94qaN",
         ]
         data_list = [
             {
@@ -1059,6 +1059,39 @@ if menu == "Departemen Eksternal":
                 "alamat": " jl. hidup",
                 "hobbi": "Belajar",
                 "sosmed": "@yo_anamnk",
+                "kesan": "Senang bisa kenal dengan kakak, orangnya ramah.",
+                "pesan":"Sukses selalu untuk kakak ke depannya!"
+            },
+             {
+                "nama": "Ratu Keisha Jasmine Deanova",
+                "nim": "122450106",
+                "umur": "21",
+                "asal":"Bogor",
+                "alamat": "Way Kandis",
+                "hobbi": "Nyetrika baju",
+                "sosmed": "@jasminednva",
+                "kesan": "Kakaknya asik dan seru untuk diajak diskusi.",
+                "pesan":"Semangat terus untuk kuliahnya ya, Kak!"
+            },
+             {
+                "nama": "Dea Mutia Risani",
+                "nim": "122450099",
+                "umur": "21",
+                "asal":"Sumatera Barat",
+                "alamat": "Korpri",
+                "hobbi": "Tidur",
+                "sosmed": "@deaa.rsn",
+                "kesan": "Orangnya menyenangkan dan mudah bergaul.",
+                "pesan":"Semoga apa yang dicita-citakan tercapai ya, Kak."
+            },
+            {
+                "nama": "Irvan Alfaritzi",
+                "nim": "122450093",
+                "umur": "21",
+                "asal":"Sumatera Barat",
+                "alamat": "Sukarame",
+                "hobbi": "Main badmin, denger lagu",
+                "sosmed": "@alfaritziirvan",
                 "kesan": "Senang bisa kenal dengan kakak, orangnya ramah.",
                 "pesan":"Sukses selalu untuk kakak ke depannya!"
             },
@@ -1107,17 +1140,6 @@ if menu == "Departemen Eksternal":
                 "pesan":"Semangat terus untuk kuliahnya ya, Kak!"
             },
             {
-                "nama": "Irvan Alfaritzi",
-                "nim": "122450093",
-                "umur": "21",
-                "asal":"Sumatera Barat",
-                "alamat": "Sukarame",
-                "hobbi": "Main badmin, denger lagu",
-                "sosmed": "@alfaritziirvan",
-                "kesan": "Senang bisa kenal dengan kakak, orangnya ramah.",
-                "pesan":"Sukses selalu untuk kakak ke depannya!"
-            },
-            {
                 "nama": "Desman Velius Halawa",
                 "nim": "123450114",
                 "umur": "21 Tahun",
@@ -1149,17 +1171,6 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@izzah_tq",
                 "kesan": "Sangat berkesan, pembawaannya positif.",
                 "pesan":"Terima kasih atas semua pelajarannya, Kak!"
-            },
-            {
-                "nama": "Ratu Keisha Jasmine Deanova",
-                "nim": "122450106",
-                "umur": "21",
-                "asal":"Bogor",
-                "alamat": "Way Kandis",
-                "hobbi": "Nyetrika baju",
-                "sosmed": "@jasminednva",
-                "kesan": "Kakaknya asik dan seru untuk diajak diskusi.",
-                "pesan":"Semangat terus untuk kuliahnya ya, Kak!"
             },
             {
                 "nama": "Qois Olifio",
@@ -1293,17 +1304,6 @@ if menu == "Departemen Eksternal":
                 "kesan": "Kakak sangat baik dan sabar dalam membimbing.",
                 "pesan":"Jangan lupa jaga kesehatan di tengah kesibukannya ya, Kak."
             },
-            {
-                "nama": "Dea Mutia Risani",
-                "nim": "122450099",
-                "umur": "21",
-                "asal":"Sumatera Barat",
-                "alamat": "Korpri",
-                "hobbi": "Tidur",
-                "sosmed": "@deaa.rsn",
-                "kesan": "Orangnya menyenangkan dan mudah bergaul.",
-                "pesan":"Semoga apa yang dicita-citakan tercapai ya, Kak."
-            }
         ]
         display_images_with_data(gambar_urls, data_list)
     eksternal()
@@ -1508,7 +1508,7 @@ if menu == "Departemen SSD":
             "https://drive.google.com/uc?export=view&id=1BNwE7WSmeBwEyqheD2xuM6YX4tD6chPR",
             "https://drive.google.com/uc?export=view&id=1QcLR0JrsgvxNw5N3F7sjf9n89v5MmfW_",
             "https://drive.google.com/uc?export=view&id=10S9BnfoBIYnLlnyi5HXml-mRiojoIqKC",
-            "https://drive.google.com/uc?export=view&id=14sHT1QziX-RwE5A3mJuBwb-3EyA7K5FW",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=17wm9ATiTz2PYsIf6BnlTVn0R9s8EMbXM",
             "https://drive.google.com/uc?export=view&id=1KNCouPFg9mVa66PNLaAEOEMJXcKlwFh9",
         ]
