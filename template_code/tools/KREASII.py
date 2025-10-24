@@ -242,38 +242,25 @@ def f_pdf(x:float, d1:int, d2:int)->float:
 # ANIMATED DUAL F-GRAPH (Cinematic 3s + Glow)
 # SAFE BUILD: embed data via json.dumps + format, escape braces in JS with {{ }}
 # -------------------------
-def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, height:int=640):
-    # Lebih tinggi + padding lebih lega
-    W, H, PAD = 1000, height, 60
-
-    # x-range & sampling
-    xmax = max(8.0, Fcrit*1.45, Fcalc*1.35, 6 + 0.6*df1)
+def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, height:int=600):
+    W, H, PAD = 1000, height, 50
+    xmax = max(8.0, Fcrit*1.45, Fcalc*1.30, 6 + 0.6*df1)
     N = 520
     xs = [xmax*i/(N-1) for i in range(N)]
-
-    # F pdf
     ys = [f_pdf(x, df1, df2) for x in xs]
-    ymax = max(ys) if max(ys) > 0 else 1.0
+    ymax = max(ys) if max(ys)>0 else 1.0
 
-    # Tambah headroom supaya tidak kepotong di atas
-    Yshow = ymax * 1.22
-
-    left  = [{"x":x,"y":y} for x,y in zip(xs,ys) if x <= Fcrit]
-    right = [{"x":x,"y":y} for x,y in zip(xs,ys) if x >= Fcrit]
+    left = [{"x":x,"y":y} for x,y in zip(xs,ys) if x<=Fcrit]
+    right= [{"x":x,"y":y} for x,y in zip(xs,ys) if x>=Fcrit]
     data = {
-        "W": W, "H": H, "PAD": PAD, "xmax": xmax, "ymax": Yshow,
+        "W": W, "H": H, "PAD": PAD, "xmax": xmax, "ymax": ymax,
         "alpha": alpha, "Fcalc": Fcalc, "Fcrit": Fcrit,
         "curve": [{"x":x,"y":y} for x,y in zip(xs,ys)],
         "leftArea": left, "rightArea": right
     }
-    DATA = json.dumps(data)
+    DATA = json.dumps(data)  # safe embed
 
     html = """
-    <style>
-      /* pastikan container & svg tidak memotong konten */
-      #f-main, #f-zoom { overflow: visible; }
-      #f-main svg, #f-zoom svg { overflow: visible; display: block; }
-    </style>
     <div class="fade" style="display:flex;flex-wrap:wrap;gap:20px;justify-content:center;align-items:flex-start;">
       <div class="el-card" style="flex:1;min-width:520px;padding:18px 22px;max-width:none;">
         <div style="font-weight:900;color:#111827;margin-bottom:8px;">📊 Distribusi F – Visual Utama (α = {alpha})</div>
@@ -289,7 +276,6 @@ def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, h
     (function(){{
       const D = {DATA};
       const DUR = 3000;
-
       function mapX(x,W,P,X){{ return P + (W-2*P)*(x/X); }}
       function mapY(y,H,P,Y){{ return H - P - (H-2*P)*(y/Y); }}
 
@@ -299,16 +285,12 @@ def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, h
         const ns="http://www.w3.org/2000/svg";
         const svg=document.createElementNS(ns,"svg");
         svg.setAttribute("viewBox",`0 0 ${{
-          W}} ${{H}}`);
-        svg.setAttribute("width","100%");
-        svg.setAttribute("height",H);
-        svg.setAttribute("preserveAspectRatio","xMidYMid meet");
+          W}} ${{H}}`); svg.setAttribute("width","100%"); svg.setAttribute("height",H);
         host.appendChild(svg);
 
-        // defs
+        // defs: gradients + glow
         const defs=document.createElementNS(ns,"defs"); svg.appendChild(defs);
-        function grad(id,c1,a1,c2,a2){{
-          const g=document.createElementNS(ns,"linearGradient");
+        function grad(id,c1,a1,c2,a2){{const g=document.createElementNS(ns,"linearGradient");
           g.setAttribute("id",id); g.setAttribute("x1","0"); g.setAttribute("y1","0"); g.setAttribute("x2","0"); g.setAttribute("y2","1");
           const s1=document.createElementNS(ns,"stop"); s1.setAttribute("offset","0%"); s1.setAttribute("stop-color",c1); s1.setAttribute("stop-opacity",a1);
           const s2=document.createElementNS(ns,"stop"); s2.setAttribute("offset","100%"); s2.setAttribute("stop-color",c2); s2.setAttribute("stop-opacity",a2);
@@ -318,12 +300,14 @@ def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, h
         grad("gR","#DCCCA3",0.95,"#CBB279",0.75);
 
         const filt=document.createElementNS(ns,"filter");
-        filt.setAttribute("id","glow");
-        filt.innerHTML = `<feGaussianBlur stdDeviation="3.5" result="b"/> 
-          <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>`;
+        filt.setAttribute("id","glow"); filt.innerHTML = `
+          <feGaussianBlur stdDeviation="3.5" result="b"/> 
+          <feMerge>
+            <feMergeNode in="b"/> <feMergeNode in="SourceGraphic"/>
+          </feMerge>`;
         defs.appendChild(filt);
 
-        // axis (y=0 baseline)
+        // axis
         const axis=document.createElementNS(ns,"line");
         axis.setAttribute("x1",P); axis.setAttribute("y1", mapY(0,H,P,Y));
         axis.setAttribute("x2",W-P); axis.setAttribute("y2", mapY(0,H,P,Y));
@@ -331,19 +315,15 @@ def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, h
         svg.appendChild(axis);
 
         // helpers
-        function toPath(points){{
-          if(!points.length) return "";
+        function toPath(points){{ if(!points.length) return ""; 
           let d=`M ${{mapX(points[0].x,W,P,X)}},${{mapY(points[0].y,H,P,Y)}}`;
           for(let i=1;i<points.length;i++) d+=` L ${{mapX(points[i].x,W,P,X)}},${{mapY(points[i].y,H,P,Y)}}`;
-          return d;
-        }}
-        function closeArea(points){{
-          if(!points.length) return "";
+          return d; }}
+        function closeArea(points){{ if(!points.length) return "";
           const start=`M ${{mapX(points[0].x,W,P,X)}},${{mapY(points[0].y,H,P,Y)}}`;
           const lines=points.slice(1).map(p=>`L ${{mapX(p.x,W,P,X)}},${{mapY(p.y,H,P,Y)}}`).join(" ");
           const base=`L ${{mapX(points[points.length-1].x,W,P,X)}},${{mapY(0,H,P,Y)}} L ${{mapX(points[0].x,W,P,X)}},${{mapY(0,H,P,Y)}} Z`;
-          return start+" "+lines+" "+base;
-        }}
+          return start+" "+lines+" "+base; }}
 
         const leftA=document.createElementNS(ns,"path");
         leftA.setAttribute("fill","url(#gL)"); leftA.setAttribute("opacity","0");
@@ -354,6 +334,7 @@ def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, h
         rightA.setAttribute("filter","url(#glow)");
         rightA.setAttribute("d", closeArea(D.rightArea)); svg.appendChild(rightA);
 
+        // pulse animation (glow)
         const style=document.createElementNS(ns,"style");
         style.textContent = `
           @keyframes glowPulse {{ 0%{{opacity:.55}} 50%{{opacity:.95}} 100%{{opacity:.55}} }}
@@ -361,50 +342,41 @@ def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, h
         `;
         svg.appendChild(style);
 
+        // curve
         const curve=document.createElementNS(ns,"path");
         curve.setAttribute("fill","none"); curve.setAttribute("stroke","#4A67E9");
         curve.setAttribute("stroke-width","2.8"); curve.setAttribute("stroke-linecap","round");
         svg.appendChild(curve);
 
-        // verticals & labels — start di dalam canvas (bukan di luar top)
+        // verticals
         const XFc=mapX(D.Fcrit,W,P,X), XF=mapX(D.Fcalc,W,P,X);
-        const Y0=mapY(0,H,P,Y);
-        const YTop=mapY(Y*0.98,H,P,Y); // 0.98 supaya aman di dalam viewBox
-        function vline(x,color,dash){{
-          const ln=document.createElementNS(ns,"line");
-          ln.setAttribute("x1",x); ln.setAttribute("y1",YTop);
-          ln.setAttribute("x2",x); ln.setAttribute("y2",YTop);
+        const Y0=mapY(0,H,P,Y), YT=mapY(Y*1.02,H,P,Y);
+        function vline(x,color,dash){{ const ln=document.createElementNS(ns,"line");
+          ln.setAttribute("x1",x); ln.setAttribute("y1",YT); ln.setAttribute("x2",x); ln.setAttribute("y2",YT);
           ln.setAttribute("stroke",color); ln.setAttribute("stroke-width","2.2");
           if(dash) ln.setAttribute("stroke-dasharray","5,5");
-          svg.appendChild(ln); return ln;
-        }}
-        const lineC=vline(XFc,"#CBB279",true);
-        const lineH=vline(XF ,"#111827",false);
+          svg.appendChild(ln); return ln; }}
+        const lineC=vline(XFc,"#CBB279",true); const lineH=vline(XF,"#111827",false);
 
-        function label(x,y,txt,fill){{
-          const t=document.createElementNS(ns,"text");
-          t.setAttribute("x", x+6); t.setAttribute("y", y+14);
+        function label(x,y,txt,fill){{ const t=document.createElementNS(ns,"text");
+          t.setAttribute("x", x+6); t.setAttribute("y", y+16);
           t.setAttribute("font-size","12"); t.setAttribute("fill", fill);
-          t.textContent=txt; t.setAttribute("opacity","0"); svg.appendChild(t); return t;
-        }}
-        const labC=label(XFc,YTop,`F_krit = ${{D.Fcrit.toFixed(2)}}`,"#6B7280");
-        const labH=label(XF ,YTop+16,`F_hit = ${{D.Fcalc.toFixed(2)}}`,"#111827");
+          t.textContent=txt; t.setAttribute("opacity","0"); svg.appendChild(t); return t; }}
+        const labC=label(XFc,YT,`F_krit = ${{D.Fcrit.toFixed(2)}}`,"#6B7280");
+        const labH=label(XF, YT+16,`F_hit = ${{D.Fcalc.toFixed(2)}}`,"#111827");
 
-        // animasi
+        // animate
         const total=D.curve.length; let start=null;
         function ease(t){{ return t<0.5 ? 2*t*t : -1+(4-2*t)*t; }}
         function frame(ts){{
           if(!start) start=ts; let p=(ts-start)/{dur}; if(p>1) p=1; const e=ease(p);
           const idx=Math.max(2, Math.floor(total*e)); const seg=D.curve.slice(0,idx);
           curve.setAttribute("d", toPath(seg));
-
           leftA.setAttribute("opacity", Math.min(1, e*2.2));
           const rA = Math.max(0, (e-0.45)/0.55);
           rightA.setAttribute("opacity", rA); if(rA>0.05) rightA.setAttribute("class","pulseGold");
-
-          const vl=Math.max(0,(e-0.65)/0.35); lineC.setAttribute("y2", YTop+(Y0-YTop)*vl);
-          const vh=Math.max(0,(e-0.70)/0.30); lineH.setAttribute("y2", YTop+(Y0-YTop)*vh);
-
+          const vl=Math.max(0,(e-0.65)/0.35); lineC.setAttribute("y2", YT+(Y0-YT)*vl);
+          const vh=Math.max(0,(e-0.70)/0.30); lineH.setAttribute("y2", YT+(Y0-YT)*vh);
           labC.setAttribute("opacity", Math.max(0,(e-0.82)/0.18));
           labH.setAttribute("opacity", Math.max(0,(e-0.86)/0.14));
           if(p<1) requestAnimationFrame(frame);
@@ -417,9 +389,7 @@ def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, h
     }})();
     </script>
     """.format(alpha=f"{alpha:.2f}", DATA=DATA, dur=3000)
-
-    # tambahkan tinggi sedikit supaya kartu + SVG gak kepotong
-    components.html(html, height=height+260, scrolling=False)
+    components.html(html, height=height+240, scrolling=False)
 
 # -------------------------
 # CONTROLS
