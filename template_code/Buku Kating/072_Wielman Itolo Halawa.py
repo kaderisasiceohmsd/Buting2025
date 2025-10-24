@@ -1821,7 +1821,7 @@ if menu == "Departemen Medkraf":
                 "hobbi": "Dengerin musik",
                 "sosmed": "@naylasalsabilaa",
                 "kesan": "kakaknya asik dan ramah",  
-                "pesan":"bahagia selalu teman_teman"
+                "pesan":"bahagia selalu kak, semangat terus kuliahnya"
             },
             {
                 "nama": "Akmal Faiz Abdilah ",
