@@ -110,7 +110,7 @@ Kami adalah kelompok yang terinspirasi dari filosofi Greedy Algorithm — selalu
         )
         st.write(""" """)
 
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1sfUpGUuu7myoGzx3vmaCQN7BD66T7kVu"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1rWA_LmvorW3iW43uXXW2v4K2FW84O4GS"
         layout(foto_kelompok)
 
         st.markdown(
@@ -139,9 +139,9 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1lZJmTmcLzgSV1DY93G1KGJPvm16LlvT4",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=13NTt43i_cSWe3XTgEpLyovi4gA9EQLaq",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1IVDJ_x6SUqUo9OBnzwPbnvQ5BV7doSN3",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=12jDkEy792p-ldCTfPQpWZehx6oexcBh_",
         ]
@@ -200,7 +200,7 @@ elif menu == "About Us":
                 "sebagai": "Anggota",
                 "nim": "124450055",
                 "fun_fact": "ga suka makan sayur",
-                "motto_hidup": "yang bisa dilakuin sekarang, jangan ditunda besok",
+                "motto_hidup": "menjadi baik tidak pernah salah",
             },
             {
                 "nama": "gio silma",
@@ -210,7 +210,7 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "risa",
+                "nama": "Risa Romadona",
                 "sebagai": "Anggotaa",
                 "nim": "122450127",
                 "fun_fact": "gabisa makan durian",
