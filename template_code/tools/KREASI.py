@@ -3,6 +3,196 @@ import numpy as np
 import pandas as pd
 import time
 
+# Inline CSS code untuk interface
+st.markdown("""
+<style>
+    /* Reset background colors */
+    .stApp {
+        background-color: transparent !important;
+    }
+    
+    .main .block-container {
+        background-color: transparent !important;
+        padding-top: 0 !important;
+    }
+
+    /* Cloud Background Animation */
+    @keyframes moveClouds {
+        0% { transform: translateX(-100px); }
+        100% { transform: translateX(calc(100vw + 100px)); }
+    }
+
+    @keyframes moveCloudsSlow {
+        0% { transform: translateX(-200px); }
+        100% { transform: translateX(calc(100vw + 200px)); }
+    }
+
+    @keyframes moveCloudsFast {
+        0% { transform: translateX(-150px); }
+        100% { transform: translateX(calc(100vw + 150px)); }
+    }
+
+    .cloud {
+        position: fixed;
+        background: white;
+        border-radius: 1000px;
+        opacity: 0.4;
+        z-index: -1;
+        pointer-events: none;
+        filter: blur(2px);
+    }
+
+    .cloud::before {
+        content: '';
+        position: absolute;
+        top: -80%;
+        left: 10%;
+        width: 50%;
+        height: 150%;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .cloud::after {
+        content: '';
+        position: absolute;
+        top: -40%;
+        right: 20%;
+        width: 30%;
+        height: 100%;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .cloud1 {
+        width: 200px;
+        height: 60px;
+        top: 15%;
+        animation: moveClouds 60s linear infinite;
+    }
+
+    .cloud2 {
+        width: 300px;
+        height: 100px;
+        top: 35%;
+        animation: moveCloudsSlow 80s linear infinite;
+        animation-delay: -20s;
+    }
+
+    .cloud3 {
+        width: 250px;
+        height: 80px;
+        top: 55%;
+        animation: moveCloudsFast 50s linear infinite;
+        animation-delay: -10s;
+    }
+
+    .cloud4 {
+        width: 180px;
+        height: 70px;
+        top: 75%;
+        animation: moveClouds 70s linear infinite;
+        animation-delay: -30s;
+    }
+
+    .cloud5 {
+        width: 220px;
+        height: 65px;
+        top: 25%;
+        animation: moveCloudsSlow 90s linear infinite;
+        animation-delay: -40s;
+    }
+
+    /* Main content styling */
+    .main-content {
+        background-color: rgba(185, 215, 234, 0.95) !important;
+        border-radius: 15px;
+        padding: 2rem;
+        margin: 1rem 0;
+        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    /* Header styling */
+    .main-header {
+        background: linear-gradient(135deg, rgba(20, 108, 148, 0.9), rgba(25, 162, 174, 0.9)) !important;
+        padding: 2rem;
+        border-radius: 15px;
+        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(10px);
+        margin-bottom: 2rem;
+    }
+
+    /* Option menu styling */
+    .st-emotion-cache-1avcm0n {
+        background-color: rgba(255, 255, 255, 0.9) !important;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        margin: 1rem 0;
+    }
+
+    /* Background utama */
+    body {
+        background: linear-gradient(135deg, #B9D7EA 0%, #a0c8e0 50%, #8bb9d6 100%) !important;
+        min-height: 100vh;
+    }
+    
+    /* Image container - FIXED: hilangkan padding atas dan margin */
+    .image-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 1rem;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        margin: 0 !important;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+    
+    /* Fix untuk streamlit image spacing */
+    .stImage {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Remove extra spacing around images */
+    div[data-testid="stImage"] {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Fix column spacing */
+    .stColumn {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Remove extra white space above images */
+    .element-container {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Specific fix for the layout function */
+    .layout-image-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 0.5rem;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        margin: 0.5rem 0 !important;
+    }
+</style>
+
+<!-- Cloud Elements -->
+<div class="cloud cloud1"></div>
+<div class="cloud cloud2"></div>
+<div class="cloud cloud3"></div>
+<div class="cloud cloud4"></div>
+<div class="cloud cloud5"></div>
+""", unsafe_allow_html=True)
+
 def gauss_jordan_elimination(A, b):
     """
     Melakukan eliminasi Gauss-Jordan pada matriks A dan vektor b
@@ -287,7 +477,7 @@ def main():
             with st.spinner('Menghitung solusi...'):
                 solution, steps = gauss_jordan_elimination(A, b)
             
-            # Progress bar untuk simulasi proses
+            # Progress bar
             progress_bar = st.progress(0)
             for i, (step_title, step_matrix, explanation) in enumerate(steps):
                 format_matrix_step(step_title, step_matrix, explanation)
