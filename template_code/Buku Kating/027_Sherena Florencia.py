@@ -437,10 +437,10 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1Tf1bFJexFeAbHTyT0bpH6fyfDN211VXl",
             "https://drive.google.com/uc?export=view&id=1fYX34rW3vwT1cenS6uZTBegoEEIKJxP_",
             "https://drive.google.com/uc?export=view&id=1uNY7Cr20WvDgTat2h_RPKgxcdDMqXZUw",
-            "https://drive.google.com/uc?export=view&id=1ovD8p40T0U7x6qz_LOgTPMQuTPsqU8ar",
             "https://drive.google.com/uc?export=view&id=1ZefdkGdVNG413wvVLqSp8-b_juVOSOxq",
             "https://drive.google.com/uc?export=view&id=17HAOzsgvtWOFIZGpxdmuIEyvpIYfL_4-",
             "https://drive.google.com/uc?export=view&id=1_XLXl9AHm_LrTo-bVdp4SzFQ2E6dPEFP",
+            "https://drive.google.com/uc?export=view&id=1ovD8p40T0U7x6qz_LOgTPMQuTPsqU8ar",
             "https://drive.google.com/uc?export=view&id=1x0YxcB_owX9qLBUnGFq0I76W2wNMF8vc",
 
         ]
@@ -459,11 +459,11 @@ elif menu == "Departemen PSDA":
             {
                 "nama": "Nisrina Nur Afifah",
                 "nim": "122450052",
-                "umur": " ",
-                "asal":" ",
-                "alamat": " ",
-                "hobbi": " ",
-                "sosmed": "@i",
+                "umur": "20",
+                "asal":"Jawa Barat",
+                "alamat": "Korpri",
+                "hobbi": "Jalan jalan",
+                "sosmed": "@afifahhnsrn",
                 "kesan": "Kakaknya cantik banget, tegas tapi baik",  
                 "pesan":"Semangat terrus ya kak, dilancarkan kuliahnya"# 1
             },
@@ -484,7 +484,7 @@ elif menu == "Departemen PSDA":
                 "umur": "20",
                 "asal":"Tangerang",
                 "alamat": "GH Belwis",
-                "hobbi": " ",
+                "hobbi": "Main bola",
                 "sosmed": "@ahmad.rizky___",
                 "kesan": "Kakaknya keren banget, berwibawa dan baik banget",  
                 "pesan":"Semangat ya kak, semoga jadi presma aminnnnnn"# 1
@@ -526,8 +526,8 @@ elif menu == "Departemen PSDA":
                 "nama": "Natasya Amavisca",
                 "nim": "123450024",
                 "umur": "20",
-                "asal":" ",
-                "alamat": " ",
+                "asal":"Pasar Muara Beliti",
+                "alamat": "Kost Putri Gerbang Barat",
                 "hobbi": "Belajar",
                 "sosmed": "@natasyaamavisca",
                 "kesan": "Kakaknya cantik banget, manisss, walaupun tegas tapi profesional keren banget",  
@@ -805,12 +805,12 @@ elif menu == "Departemen MIKFES":
             {
                 "nama": "Aisyah Musfirah",
                 "nim": "123450084",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "21",
+                "asal":"Bengkulu",
+                "alamat": "Jl. Lapas, Belwis",
+                "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
-                "kesan": "Cantik banget",  
+                "kesan": "Cantik banget, kaget kakaknya dari Bengkulu, jemo kito ini. Aku juga dari Bengkulu kak, Bengkulu Selatan, kota Manna lebih tepatnya",  
                 "pesan":"Lancar terus ya kak kuliahnya"# 4
             },
             {
