@@ -143,7 +143,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=12jDkEy792p-ldCTfPQpWZehx6oexcBh_",
         ]
         data_list = [
             {
@@ -203,13 +203,6 @@ elif menu == "About Us":
                 "motto_hidup": "yang bisa dilakuin sekarang, jangan ditunda besok",
             },
             {
-                "nama": "bernardius",
-                "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "one day or day one",
-            },
-           {
                 "nama": "gio silma",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
@@ -230,12 +223,12 @@ elif menu == "About Us":
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
-             {
-                "nama": "Ashila",
-                "sebagai": "Anggotaa",
+            {
+                "nama": "Ashila Islamisahfa Vanisha",
+                "sebagai": "Anggota",
                 "nim": "124450028",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keled",
+                "fun_fact": "Ga suka buah tapi tahu cara kupas buah",
+                "motto_hidup": "Lakukan yang terbaik walaupun dalam langkah kecil.",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
