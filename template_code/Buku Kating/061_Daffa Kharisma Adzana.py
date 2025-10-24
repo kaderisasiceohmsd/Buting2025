@@ -1652,24 +1652,24 @@ if menu == "Departemen SSD":
 elif menu == "Departemen Medkraf":
     def medkraf():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=", #1
-            "https://drive.google.com/uc?export=view&id=", #2
-            "https://drive.google.com/uc?export=view&id=", #3
-            "https://drive.google.com/uc?export=view&id=", #4
-            "https://drive.google.com/uc?export=view&id=", #5
-            "https://drive.google.com/uc?export=view&id=", #6
-            "https://drive.google.com/uc?export=view&id=", #7
-            "https://drive.google.com/uc?export=view&id=", #8
-            "https://drive.google.com/uc?export=view&id=", #9
-            "https://drive.google.com/uc?export=view&id=", #10
-            "https://drive.google.com/uc?export=view&id=", #11
-            "https://drive.google.com/uc?export=view&id=", #12
-            "https://drive.google.com/uc?export=view&id=", #13
-            "https://drive.google.com/uc?export=view&id=", #14
-            "https://drive.google.com/uc?export=view&id=", #15
-            "https://drive.google.com/uc?export=view&id=", #16
-            "https://drive.google.com/uc?export=view&id=", #17
-            "https://drive.google.com/uc?export=view&id=", #18
+            "https://drive.google.com/uc?export=view&id=1oY4zlTTgoQd-QMOva47KJkbA9QBIFYLB", #1
+            "https://drive.google.com/uc?export=view&id=1cA7mDqUoxFMlhnZli294G-jVrEEQNn9L", #2
+            "https://drive.google.com/uc?export=view&id=1ev5We_12lRApbF52SC6zFq13-0RwnNS9", #3
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #4
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #5
+            "https://drive.google.com/uc?export=view&id=1_pMJUgMlK_FMjFvX2PhotKJ6a9NZ6efi", #6
+            "https://drive.google.com/uc?export=view&id=1ZoBgFxuUyeOoeKjD_ZggcfXfXrGW8Jvd", #7
+            "https://drive.google.com/uc?export=view&id=1k_PJcGrBsZvUAPutqal3EneikUFIWVlG", #8
+            "https://drive.google.com/uc?export=view&id=1DxZvCf39ScTN-WMTb8Ee8tYRLl-QsbOu", #9
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #10
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #11
+            "https://drive.google.com/uc?export=view&id=1gYbIzgfqTXu1c-IsQstSKYK2vcPiImXx", #12
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #13
+            "https://drive.google.com/uc?export=view&id=1mO72iOkxLkWFFNAvs4iNnBJUOKhkoQg0", #14
+            "https://drive.google.com/uc?export=view&id=18-I1ZEmceOFKJU1q01sUtWFFpRlAsTFX", #15
+            "https://drive.google.com/uc?export=view&id=1-hZfch-GZ9qA5Gk2LGvy5r3jyHWphTcC", #16
+            "https://drive.google.com/uc?export=view&id=1cVkvTitiayYP3tg4q7roPZ3qBcuHirBb", #17
+            "https://drive.google.com/uc?export=view&id=1uNPlXvDirwsXDpkK37Vi9vVVvwQfPzz4", #18
         ]
         data_list = [
             {
@@ -1680,8 +1680,8 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Jatimulyo",
                 "hobbi": "Mendengarkan musik",
                 "sosmed": "@patriciadiajeng",
-                "kesan": "",  
-                "pesan": "" #1
+                "kesan": "Ramah dan selalu bisa bikin suasana jadi nyaman.",
+                "pesan": "Tetap semangat ngejar mimpi dan jangan lupa istirahat ya!"  #1
             },
             {
                 "nama": "Rahma Neliyana",
@@ -1691,10 +1691,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Jalan Kresna, Korpri",
                 "hobbi": "Nge-gym",
                 "sosmed": "@rahmaneliyana",
-                "kesan": "",  
-                "pesan": "" #2
+                "kesan": "Sosok yang aktif dan penuh semangat, bikin tim makin hidup.",
+                "pesan": "Terus jaga semangatmu dan jangan pernah berhenti berkembang!"  #2
             },
-              {
+            {
                 "nama": "Khoirul Anam",
                 "nim": "122450039",
                 "umur": "21",
@@ -1702,10 +1702,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Pesawaran",
                 "hobbi": "Volly, billyard",
                 "sosmed": "@mananam__",
-                "kesan": "",  
-                "pesan": "" #3
-              },
-              {
+                "kesan": "Orangnya lucu dan santai, tapi kalau serius bisa diandalkan banget.",
+                "pesan": "Tetap jadi diri sendiri dan terus tebarkan energi positif!"  #3
+            },
+            {
                 "nama": "Labo John Noel Napitupulu",
                 "nim": "123450037",
                 "umur": "19",
@@ -1713,10 +1713,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Way Huwi",
                 "hobbi": "Motoran",
                 "sosmed": "@noerruuu",
-                "kesan": "",  
-                "pesan": "" #4
+                "kesan": "Ceria, seru, dan selalu punya cerita menarik.",
+                "pesan": "Tetap semangat dalam setiap perjalanan hidupmu!"  #4
             },
-              {
+            {
                 "nama": "Ravi Diva Efangga",
                 "nim": "123450001",
                 "umur": "21",
@@ -1724,10 +1724,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Airan Raya",
                 "hobbi": "Olahraga",
                 "sosmed": "@rafidivaefangga_",
-                "kesan": "",  
-                "pesan": "" #5
+                "kesan": "Keren, disiplin, dan selalu fokus sama tujuan.",
+                "pesan": "Semoga sukses selalu dan terus jadi panutan buat yang lain!"  #5
             },
-              {
+            {
                 "nama": "Refa Destiny Pranata",
                 "nim": "123450016",
                 "umur": "19",
@@ -1735,21 +1735,21 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Kedaton",
                 "hobbi": "Nge-vlog",
                 "sosmed": "@refadp_",
-                "kesan": "",  
-                "pesan": "" #6
+                "kesan": "Punya aura positif dan gampang akrab sama siapa pun.",
+                "pesan": "Terus berkarya dan jangan ragu tunjukin bakatmu!"  #6
             },
-              {
-                "nama": "\Yani Rizki Nur Rohmah",
+            {
+                "nama": "Yani Rizki Nur Rohmah",
                 "nim": "122450020",
                 "umur": "20",
                 "asal": "Lampung Barat",
                 "alamat": "Korpri",
                 "hobbi": "Belajar",
                 "sosmed": "@",
-                "kesan": "",  
-                "pesan": "" #7
+                "kesan": "Pendiam tapi cerdas, selalu berpikir matang sebelum bertindak.",
+                "pesan": "Semoga semua cita-cita dan perjuanganmu tercapai!"  #7
             },
-              {
+            {
                 "nama": "Aliya Ammara Ananta",
                 "nim": "123450075",
                 "umur": "19",
@@ -1757,10 +1757,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Gracia Kost 1",
                 "hobbi": "Main Gitar",
                 "sosmed": "@aliyaammara",
-                "kesan": "",  
-                "pesan": "" #8
+                "kesan": "Bakat seninya keren, selalu punya vibe tenang dan damai.",
+                "pesan": "Terus main gitar dan kembangkan kreativitasmu!"  #8
             },
-              {
+            {
                 "nama": "Donna Maya Puspita",
                 "nim": "123450028",
                 "umur": "20",
@@ -1768,21 +1768,21 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Way Huwi, Gang Mangga",
                 "hobbi": "Mendengarkan musik",
                 "sosmed": "@donnamaya.p",
-                "kesan": "",  
-                "pesan": "" #9
-                },
-              {
+                "kesan": "Sopan, perhatian, dan enak diajak ngobrol.",
+                "pesan": "Jangan pernah kehilangan senyummu yang menenangkan itu!"  #9
+            },
+            {
                 "nama": "Feby Angelina",
                 "nim": "123450039",
                 "umur": "20",
                 "asal": "Bandar Lampung",
-                "alamat": "kemiling",
-                "hobbi": "scroll pinterest",
+                "alamat": "Kemiling",
+                "hobbi": "Scroll Pinterest",
                 "sosmed": "@writtenbyangel",
-                "kesan": "",  
-                "pesan": "" #10
+                "kesan": "Estetik banget orangnya, ide-idenya selalu menarik.",
+                "pesan": "Teruslah jadi pribadi kreatif dan penuh inspirasi!"  #10
             },
-              {
+            {
                 "nama": "Hafsa Fazila Arradhi",
                 "nim": "123450079",
                 "umur": "20",
@@ -1790,10 +1790,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Labuhan Ratu",
                 "hobbi": "Memasak",
                 "sosmed": "@hafsa.fazila",
-                "kesan": "",  
-                "pesan": "" #11
+                "kesan": "Kalem tapi punya semangat tinggi, masakannya juga enak!",
+                "pesan": "Terus kembangkan bakatmu, siapa tahu jadi chef sukses nanti!"  #11
             },
-              {
+            {
                 "nama": "Nayla Salsabila Fathianisa",
                 "nim": "123450082",
                 "umur": "19",
@@ -1801,10 +1801,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Jalan Lapas, Kec. Kota Agung",
                 "hobbi": "Mendengarkan musik",
                 "sosmed": "@naylasasabilaa_",
-                "kesan": "",  
-                "pesan": "" #12
+                "kesan": "Ceria, lucu, dan selalu bikin suasana jadi hidup.",
+                "pesan": "Tetap jadi versi terbaik dari dirimu ya!"  #12
             },
-              {
+            {
                 "nama": "Sania Dwi Ayu Lestari",
                 "nim": "123450086",
                 "umur": "20",
@@ -1812,10 +1812,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Airan Raya",
                 "hobbi": "Main roblox",
                 "sosmed": "@saniayyllstr",
-                "kesan": "",  
-                "pesan": "" #13
+                "kesan": "Seru dan punya sense humor yang khas banget.",
+                "pesan": "Jangan lupa bahagia dan tetap semangat main roblox-nya!"  #13
             },
-              {
+            {
                 "nama": "Akmal Faiz Abdillah",
                 "nim": "122450114",
                 "umur": "21",
@@ -1823,10 +1823,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Griya Sukarame",
                 "hobbi": "Membaca",
                 "sosmed": "@_akmal.faiz",
-                "kesan": "",  
-                "pesan": "" #14
+                "kesan": "Cerdas dan penuh wawasan, cocok diajak diskusi apapun.",
+                "pesan": "Terus belajar dan jangan pernah puas dengan satu pengetahuan."  #14
             },
-              {
+            {
                 "nama": "Raihana Addelia Putri",
                 "nim": "123450041",
                 "umur": "19",
@@ -1834,10 +1834,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Airan Raya 1",
                 "hobbi": "Menulis, membaca, memasak",
                 "sosmed": "@n1tg._",
-                "kesan": "",  
-                "pesan": "" #15
+                "kesan": "Kreatif dan berwawasan luas, selalu punya pandangan menarik.",
+                "pesan": "Terus berkarya dengan tulisanmu yang inspiratif!"  #15
             },
-              {
+            {
                 "nama": "Citra Agustin",
                 "nim": "123450108",
                 "umur": "21",
@@ -1845,10 +1845,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Natar",
                 "hobbi": "Scroll Pinterest",
                 "sosmed": "@citrastin",
-                "kesan": "",  
-                "pesan": "" #16
+                "kesan": "Anggun dan selalu tampil rapi di setiap kesempatan.",
+                "pesan": "Semoga selalu diberi kemudahan dan kebahagiaan di setiap langkah."  #16
             },
-              {
+            {
                 "nama": "Eigi Artamevia",
                 "nim": "123450011",
                 "umur": "20",
@@ -1856,10 +1856,10 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Sabah Balau Residence",
                 "hobbi": "Melukis",
                 "sosmed": "@eigitvm",
-                "kesan": "",  
-                "pesan": "" #17
+                "kesan": "Punya jiwa seni yang kuat, hasil karyanya selalu memukau.",
+                "pesan": "Teruslah berkarya dan jangan berhenti berimajinasi!"  #17
             },
-              {
+            {
                 "nama": "Romauli Oktavia Silaban",
                 "nim": "123450014",
                 "umur": "19",
@@ -1867,8 +1867,8 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Kelengkeng 2 Pemda",
                 "hobbi": "Menanyi",
                 "sosmed": "@roms.slbn",
-                "kesan": "",  
-                "pesan": "" #18
+                "kesan": "Suaranya indah dan pembawaannya selalu ceria.",
+                "pesan": "Jangan berhenti bernyanyi dan terus sebarkan kebahagiaan!"  #18
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1876,6 +1876,7 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
