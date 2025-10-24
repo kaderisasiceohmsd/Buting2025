@@ -132,8 +132,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damai",
                 "hobbi": "Nyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Abang ini seru Abiez",  
-                "pesan":"Semangat Bang jadi Kahim!!"# 1
+                "kesan": "Keren banget kahim satu ini, keliatan banget wibawanyaaa",  
+                "pesan":"Semangat teruss bang bawa nama HMSD ke tingkat yang lebih tinggi"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -143,8 +143,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL!",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Bang Jo Seru & Ternyata satu daerah asal",  
-                "pesan":"Gassin terus bang !!!"# 1
+                "kesan": "SEKJEN!! keren banget, tengil tapi jago suka banget guaa",  
+                "pesan":"kalo supporteran jangan dorong dorong adek adeknya yaa bang"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -154,8 +154,8 @@ if menu == "Kesekjenan":
                 "alamat": "Ayrest Kost",
                 "hobbi": "Nahan pipis",
                 "sosmed": "@celisabethh_",
-                "kesan": "Kakak ini lucu humoris dan seru",  
-                "pesan":"semoga akunnya gak kena suspend lagi kak"# 1
+                "kesan": "lucu banget kakak ini, semuanya di ketawain wkwk",  
+                "pesan":"semoga akunnya gak kena suspend lagi yaa kak, sayang banget udah banyak followernya"# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -165,8 +165,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Kak Syadza keren",  
-                "pesan":"semoga sukses terus kak"# 1
+                "kesan": "kakaknya pendiem tapi lucu imupp gitu",  
+                "pesan":"semoga dilancarkan yaa kak semua urusannya# 1
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
@@ -176,8 +176,8 @@ if menu == "Kesekjenan":
                 "alamat": "Asrama TB4",
                 "hobbi": "Nahan eek",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Kakak ini asik dan seru",  
-                "pesan":"sukses teruss kak"# 1
+                "kesan": "Kakak ini ni yang manggil gua mirip gibran wapres, jujur malu si awalnya tapi ternyata lucu juga",  
+                "pesan":"jangan panggil aku gibran wapres lagi yaa kak, malu..."# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -187,8 +187,8 @@ if menu == "Kesekjenan":
                 "alamat": "Korpri",
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifahh",
-                "kesan": "Kakak ini lucu, jutek tapi seru",  
-                "pesan":"semoga suksess terus kak"# 1
+                "kesan": "muka kakaknya kayak yang jutek jutek gitu tapi lucuu",  
+                "pesan":"kurang kurangin yaa kak cutek cutek bang rendra, kasian..."# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -223,8 +223,8 @@ if menu == "Baleg":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Pilates",
                 "sosmed": "@jeremia_s_",
-                "kesan": "Abang terasik, terseru, & Satu Alumni Sekolah",  
-                "pesan":"semangat bang semster 7 nya!!!"# 1
+                "kesan": "dua kali bangunin gua pas praktikum wkwk tapi gak marah abnangnya malah ketawa, baik banget orangnya lucu juga",  
+                "pesan":"maju terus bangg!! semangat teruss, jangan marah yaa bang kalo saya ketiduran pas praktikum "# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -234,8 +234,8 @@ if menu == "Baleg":
                 "alamat": "Kedaton",
                 "hobbi": "Makan lontong sate",
                 "sosmed": "@_.dheamelia",
-                "kesan": "Kak dhea gokil",  
-                "pesan":" Sukses terus kakk!"# 1
+                "kesan": "muka kakaknya kayak islami banget hehe, tapi tetep lucu kok kak",  
+                "pesan":"jalani hari hari kakak dengan perasaan yang bahagia yaa kak"# 1
             },
             {
                 "nama": "Renisha Putri Giani",
@@ -245,8 +245,8 @@ if menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "tidur, jualan pancing",
                 "sosmed": "@renishapg",
-                "kesan": "kak renisha humoris",  
-                "pesan":"jangan keseringan tidur kak"# 1
+                "kesan": "lucu nan imup kakaknya, kayanya cocok kalo jadi cosplayer anime ",  
+                "pesan":"jangan sering sering tidur yaaa kak ntar kebanyakan mimpi jadinya# 1
             },
             {
                 "nama": "Anisa Fitriyani",
@@ -256,8 +256,8 @@ if menu == "Baleg":
                 "alamat": "Natar",
                 "hobbi": "Belajar Mengaji",
                 "sosmed": "@ansftynn_",
-                "kesan": "Kakaknya keren",  
-                "pesan":"Sukses terus kaa"# 1
+                "kesan": "masyallah tabarakallah suka ngaji ternyata kakaknya, pantes kok wajah kakanya kayak bersinar sinar gituu ",  
+                "pesan":"ngajinya jangan kalo lagi butuh aja yaa kak, setiap hari kalo bisa biar makin bersinar wajahnyaa"# 1
             },
             {
                 "nama": "Dharu Cahyoaji Sasongko",
@@ -267,8 +267,8 @@ if menu == "Baleg":
                 "alamat": "Kedaton",
                 "hobbi": "Nonton AGZ",
                 "sosmed": "@dhruchyo",
-                "kesan": "Terkerenn dan terkecee",  
-                "pesan":"semangat terus bang kejar cumlaude ituu"# 1
+                "kesan": "mentor PPLK guaa nii, gacor banget sebangga itu gua dulu pas tau mentor gua menang OZT sampe ke semua orang gua cerita, baik banget dulu bang dharu ini gapernah marah ke anak anaknya ini",  
+                "pesan":"kejarr cumlaude itu bang semangat terus pokoknya, terus jadi orang baik yaa bang"# 1
             },
             {
                 "nama": "Feby Wulandari",
@@ -278,8 +278,8 @@ if menu == "Baleg":
                 "alamat": "Way Huwi",
                 "hobbi": "Karambol",
                 "sosmed": "@fby.wlndr",
-                "kesan": "Kakak ini imut, lucu",  
-                "pesan":"semangatt teruss kak feby!"# 1
+                "kesan": "Kakak ini lucu bangett imuppp, kakaknya ini cocok juga kayanya kalo jadi cosplayer karakter anime yang lucu lucu gitu",  
+                "pesan":"jangan ilang yaa kak lucu dan imupnya, cobaiin cosplay coplay kakk"# 1
             },
             {
                 "nama": "Givaro Ananta",
@@ -289,8 +289,8 @@ if menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Liatin bang mirzan main kucing",
                 "sosmed": "@givarooo",
-                "kesan": "abang-abangan, seru abiez, cihuy mentor terdabest",  
-                "pesan":"kurang-kurangin brainrot nya bang"# 1
+                "kesan": "Mentor kader gua ini, sumpahh kalo bisa bikin 500 kata ku bikin ini disini, sumpahh aku bener bener ngerasa beruntung banget dapet mentor kayak abang karna ngeliat berapa kelompok lain pada dapet mentor yang gabisa sedeket itu ke mereka, beda banget sama bang givaro ini dia bener bener mentoe terbaik di mata gua, kalo ada nominasi mentor terbaik ga terima gua kalo bukan bang givaro pemenangnya, abang ini bener bener ngebuat suasana kumpul kelompok kayak ga ada batas antara dia dan anak anak nya ini, aku bener bener ngerasa percaya banget kalau cerita masalah masalah pribadiku ke diaa, pokoknya diaa mentor terbaik pada kader ini!!",  
+                "pesan":"semangat terus yaa bang buat nemenin kita selama masa kaderisasi ini yaa walaupun kadang kita bikin abang cape atau kesel, kami berterimakasihh sebanyak banyaknya kee abang karna udah nunjukin sosok dibalik panggilan MENTOR itu"# 1
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
