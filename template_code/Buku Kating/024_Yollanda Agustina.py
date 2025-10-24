@@ -181,20 +181,20 @@ if menu == "Kesekjenan":
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
-           "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+           "https://drive.google.com/uc?export=view&id=1OXTS6n9pPRt8tr6zOyiYhZz1k66D6jvd",
+            "https://drive.google.com/uc?export=view&id=10-jLVkDibNgwabcMhItsvW5OTltyKOh8",
+            "https://drive.google.com/uc?export=view&id=18V245Wd9kq3ZeqC_T_LxOwHEzh5V4MBM",
+            "https://drive.google.com/uc?export=view&id=112dZMEc1bwkvUfHMspwYxtLjyw5_Z6Q1",
             "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
-            "https://drive.google.com/uc?export=view&id=1hLs5fqj4PpnA3CocOLSQsMd-uvP74Eck",
+            "https://drive.google.com/uc?export=view&id=1jVBRoHT1_NbmUJ08HaI8_vqBfqj-E868,
+            "https://drive.google.com/uc?export=view&id=1TUO6HTmS3t9Pot9YMskuJ3VuORWDfG3f",
+            "https://drive.google.com/uc?export=view&id=1sqmOqxlPsxbUk6tvd_CSgLkkirz-Vug3",
+            "https://drive.google.com/uc?export=view&id=1r3d4zFynOtEbWfrr8YPbMrX-at8UAol8",
+            "https://drive.google.com/uc?export=view&id=1TUO6HTmS3t9Pot9YMskuJ3VuORWDfG3f",
+            "https://drive.google.com/uc?export=view&id=1TUO6HTmS3t9Pot9YMskuJ3VuORWDfG3f",
+            "https://drive.google.com/uc?export=view&id=1TUO6HTmS3t9Pot9YMskuJ3VuORWDfG3f",
+            "https://drive.google.com/uc?export=view&id=1rLip4QtsrbITF0ZCaj7BpNGI6D7e9m36",
+            "https://drive.google.com/uc?export=view&id=1RvMsVbNwEy0EvGDfq_JLL_1yWS13z_Er",
         ]
         data_list = [
             {
@@ -348,8 +348,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyapa angin",
                 "sosmed": "@nshaysk",
-                "kesan": "kak ",
-                "pesan": "Tetap semangaatt kak Nashwa!"
+                "kesan": "kak ceria banget setiap saat, unik banget namanya",
+                "pesan": "Arti namanya apa tuh kak? BTW nyap angin dijam 1 malem deket tol kta baru asik tau kk"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
