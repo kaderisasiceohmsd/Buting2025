@@ -179,15 +179,15 @@ if menu == "Kesekjenan":
     kesekjenan()
 
 
-if menu == "Baleg":
+elif menu == "Baleg":
     def baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1daLQFjqLm3ERfVQ2jr0FoqzH_eLq38sX",
             "https://drive.google.com/uc?export=view&id=1YstTaL6OAQcO-GmoM5JvIVizudmGvSlX",
-             "https://drive.google.com/uc?export=view&id=1ZJdlQeyThEqYHTC19rnT01E0JlYldiAa",
-             "https://drive.google.com/uc?export=view&id=1ApdpZChp5IpSgrfO1EghXm48jxWIql7b",
+            "https://drive.google.com/uc?export=view&id=1ZJdlQeyThEqYHTC19rnT01E0JlYldiAa",
+            "https://drive.google.com/uc?export=view&id=1ApdpZChp5IpSgrfO1EghXm48jxWIql7b",
             "https://drive.google.com/uc?export=view&id=1oJuFpYvalJ-c-8R_uALoJOOtyGqwpr40",
-             "https://drive.google.com/uc?export=view&id=1NfNwRH6DxpXOWNHvNcsGeWQrv2uadSQi",
+            "https://drive.google.com/uc?export=view&id=1NfNwRH6DxpXOWNHvNcsGeWQrv2uadSQi",
             "https://drive.google.com/uc?export=view&id=1Lt7YtFpV2nby18bbuk4mo0jjB-vDvouW",
             "https://drive.google.com/uc?export=view&id=15pl1N89wZV0sCTR-urdUI45uC_Uu8joe",
             "https://drive.google.com/uc?export=view&id=1HdbvNJ3rwR2bsEMPV5fzDTTwE7Ppt81n",
@@ -357,7 +357,7 @@ if menu == "Baleg":
         display_images_with_data(gambar_urls, data_list)
     baleg()
 
-if menu == "Departemen Medkraf":
+elif menu == "Departemen Medkraf":
     def medkraf():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1icIG7N7ICDMtxZYhjJZmLrJfXMiSa5C5",
@@ -582,7 +582,7 @@ if menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     medkraf()
 
-if menu == "Senator":
+elif menu == "Senator":
     def senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tdcgSxPPuFutKqz5kP0Ryev1uCDiMZh5",
@@ -639,8 +639,8 @@ if menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     senator()
 
-if menu == "Departemen SSD":
-    def Departemen_SSD():
+elif menu == "Departemen SSD":
+    def ssd():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=13n4izlu9Ucuz2qNPayIv2zmNVuSjEPKC", #1
             "https://drive.google.com/uc?export=view&id=1tfx_CF5NiEV9WWFOg8e-R3XLeVaHcyXL", #2
@@ -778,7 +778,7 @@ if menu == "Departemen SSD":
             },     
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_SSD()
+    ssd()
 
 if menu == "Departemen MIKFES":
     def mikfes():
@@ -1054,8 +1054,8 @@ if menu == "Departemen MIKFES":
         display_images_with_data(gambar_urls, data_list)
     mikfes()
 
-if menu == "Departemen Eksternal":
-    def Departemen_Eksternal():
+elif menu == "Departemen Eksternal":
+    def eksternal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1UFgQh6tn_TUk_Kmz3bGcwe5jSFWtVTIp", #1
             "https://drive.google.com/uc?export=view&id=1_fW93tU9dOYuq_DuKg1msHukc0Fh_pK8", #2
@@ -1349,10 +1349,10 @@ if menu == "Departemen Eksternal":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_Eksternal()
+    eksternal()
 
-if menu == "Departemen Internal":
-    def Departemen_Internal():
+elif menu == "Departemen Internal":
+    def internal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1vwTC3Rfkv0rVV5bqzv3JP6AtgGb2xO1J", #1
             "https://drive.google.com/uc?export=view&id=139geL1-kqjSP3HzZMG0tGRuvHtOkuKWh", #2
@@ -1538,7 +1538,7 @@ if menu == "Departemen Internal":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_Internal()
+    internal()
 
 elif menu == "Departemen PSDA":
     def psda():
@@ -1728,7 +1728,6 @@ elif menu == "Departemen PSDA":
                 "kesan": "Kak Rosalia baik dan ekspresif",
                 "pesan": "selalu jaga semangatnya ya kaaakk!!" # 14
             },
-            
             {
                 "nama": "Kharisma Mustika Sari",
                 "nim": "123450034",
@@ -1740,7 +1739,6 @@ elif menu == "Departemen PSDA":
                 "kesan": "Kak kharisma awalnya aku ngiranya jutek, tapi ternyata emangg gitu kalau lagi ga senyum",
                 "pesan": "jangan luntur senyumnya ya kak, kakak manis kalau senyum soalnya!" # 15
             },
-            
             {
                 "nama": "Gusti Putu Ferazka",
                 "nim": "123450046",
@@ -1752,7 +1750,6 @@ elif menu == "Departemen PSDA":
                 "kesan": "Kak fera cantik sekali, cocok sama kacamatanya!",
                 "pesan": "semoga selalu dikelilingi oleh orang-orang yang baik ya ka" # 16
             },
-            
             {
                 "nama": "Sahid Maulana",
                 "nim": "122450109",
@@ -1764,7 +1761,6 @@ elif menu == "Departemen PSDA":
                 "kesan": "bang sahid supel, dan bisa bergaul dengan siapapun",
                 "pesan": "next time perlukah kita lanjutkan membahas tentang kenapa aktuaria UI ga dapet kerja?" # 17
             },
-            
             {
                 "nama": "Daffa Ahmad Naufal",
                 "nim": "122450137",
@@ -1776,7 +1772,6 @@ elif menu == "Departemen PSDA":
                 "kesan": "Kak Daffa keren dan ternyata orangnya receh",
                 "pesan": "semoga cepet-cepet lulus ya bangg!" # 18
             },
-            
             {
                 "nama": "Ihsan Maulana Yusuf",
                 "nim": "123450110",
