@@ -479,7 +479,7 @@ if menu == "Departemen PSDA":
             },
             {
                 "nama": "Nisrina Nur Afifah",
-                "nim": "122450122",
+                "nim": "122450052",
                 "umur": "20",
                 "asal":"Bekasi",
                 "alamat": "korpri sukarame",
@@ -662,7 +662,7 @@ if menu == "Departemen PSDA":
                 "hobbi": "Rebahan",
                 "sosmed": "@ahmadnaufal_",
                 "kesan": "cool banget abang yang satu ini",  
-                "pesaa": "semangat teruss yaa bang kuliahnya"# 1
+                "pesan": "semangat teruss yaa bang kuliahnya"# 1
             },
             {
                 "nama": "Erma Daniar Safitri",
