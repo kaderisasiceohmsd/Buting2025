@@ -132,7 +132,7 @@ if menu == "Kesekjenan":
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
                 "nim": "122450123",
-                "umur": "19x    `",
+                "umur": "19",
                 "asal":"Tanggerang",
                 "alamat": "Airest Kost",
                 "hobbi": "siram shopee",
@@ -211,7 +211,7 @@ if menu == "Baleg":
             },
             {
                 "nama": "Dhea Amelia Putri",
-                "nim": "",
+                "nim": "122450004",
                 "umur": "20",
                 "asal":"Chiwidew, Jawa Barat",
                 "alamat": "Pesawaran",
@@ -227,7 +227,7 @@ if menu == "Baleg":
                 "asal":"Teluk, Bandar Lampung",
                 "alamat": "Teluk, Bandar Lampung",
                 "hobbi": "Tidur",
-                "sosmed": "@Renishapg",
+                "sosmed": "@renishapg",
                 "kesan": "Kakaknya baik dan ramah banget",
                 "pesan":"Sukses selalu untuk kuliahnya ya kak, semangatt!"
             },
@@ -370,7 +370,7 @@ if menu == "Senator":
                 "nim": "122450094",
                 "umur": "20",
                 "asal":"Palembang",
-                "alamat": "tanya caesar",
+                "alamat": "Kobam, Way Kandis",
                 "hobbi": "Mancing",
                 "sosmed": "@bintangtwinkle",
                 "kesan": "Bang Bintang baik banget, ramah dan humble banget",  
@@ -984,12 +984,12 @@ if menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "nim": "123450035",
+                "umur": "20",
+                "asal":"Pesawaran",
+                "alamat": "Pesawaran",
+                "hobbi": "Main piano, Nyanyi, Ngehalu",
+                "sosmed": "@bee_0115",
                 "kesan": "Kak Fabiolla energik dan punya semangat tinggi buat belajar.",
                 "pesan": "Sukses terus ya kak! Semoga makin jago main bola dan makin pinter juga!"
             },
@@ -1470,12 +1470,12 @@ if menu == "Departemen Internal":
             },
             {
                 "nama": "Muhammad Naufal Alghani",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
-                "sosmed": "@-",
+                "nim": "123450116",
+                "umur": "20",
+                "asal":"Sidorejo",
+                "alamat": "Sabah Balau",
+                "hobbi": "Nonton Anime",
+                "sosmed": "@muhammadnaufalalghani73",
                 "kesan": "Bang Naufal memiliki semangat tinggi dan selalu ingin belajar hal baru",
                 "pesan":"Semoga Abang terus berkembang dan menjadi pribadi yang semakin hebat setiap harinya"
             },
@@ -1853,7 +1853,7 @@ if menu == "Departemen Medkraf":
                 "alamat": "Gg.sakum",
                 "hobbi": "Motoran",
                 "sosmed": "@noe_rruuu",
-                "kesan": "KAbang Labo orangnya santai tapi tangguh, selalu bisa diandalkan dalam banyak situasi",  
+                "kesan": "Bang Labo orangnya santai tapi tangguh, selalu bisa diandalkan dalam banyak situasi",  
                 "pesan":"Semoga Abang terus sukses, tetap rendah hati, dan selalu membawa pengaruh baik untuk sekitar!"
             }
         ]
