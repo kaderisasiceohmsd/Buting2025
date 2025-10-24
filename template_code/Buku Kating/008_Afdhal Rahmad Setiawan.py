@@ -754,7 +754,7 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1B_1L_EPWW59upz_et_aS-2CWHXv5Rar6",
             "https://drive.google.com/uc?export=view&id=1ArrKG00b9ZiJ_bLqiYg2GGiezDNxm71P",
             "https://drive.google.com/uc?export=view&id=1aTMwN5JZNeYXvZ7PZNs3452admWwkvuj",
-            "https://drive.google.com/uc?export=view&id=1E-00j9HNJ10UbQA1WB0HSvU56ApWNJYL",
+            "https://drive.google.com/uc?export=view&id=1iF5RNQfBxhrTL_e_F21EXncj_gjji1pZ",
             "https://drive.google.com/uc?export=view&id=1UdCUApDUA8rHLrUaTT247S_bnBoiyGId",
             "https://drive.google.com/uc?export=view&id=1ZA1JLUHHc58PKtLg4N0QWfRGtzAEkoVE",
             "https://drive.google.com/uc?export=view&id=19EqGzRvCXDsWynOgDnZp3_iixsDBjpat",
