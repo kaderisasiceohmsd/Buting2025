@@ -1663,8 +1663,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Jatimulyo",
                 "hobbi": "Sleep Call",
                 "sosmed": "@patriciadiajeng",
-                "kesan": "-",  
-                "pesan":"-"
+                "kesan": "Kakak nya cantik tapi tegas",  
+                "pesan":"Semangat terus ya kak kuliahnya dan untuk tugasnya"
             },
             {
                 "nama": "Rahma Neliyana",
@@ -1674,8 +1674,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Korpri, Sukarame",
                 "hobbi": "Gym, Masak",
                 "sosmed": "@i",
-                "kesan": "-",  
-                "pesan":"-"
+                "kesan": "Kakak ceria banget",  
+                "pesan":"Sukses selalu dan jangan lupa bahagia."
             },
             {
                 "nama": "Khoirul Anam",
@@ -1685,8 +1685,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Pesawaran",
                 "hobbi": "Billiard dan volly",
                 "sosmed": "@mananam_",
-                "kesan": "-",  
-                "pesan":"-"
+                "kesan": "Pendiam tapi selalu balas setiap pertanyaan",  
+                "pesan":"Selalu jadi orang yang baik dan ramah ya bang!"
             },
             {
                 "nama": "Labo John Noel Napitupulu",
@@ -1696,8 +1696,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Gg.sakum",
                 "hobbi": "Motoran",
                 "sosmed": "@noe_rruuu",
-                "kesan": "-",  
-                "pesan":"-"
+                "kesan": "Tinggi, keren karena sering megang kamera",  
+                "pesan":"Semangat yaaa bang dokum nyaa"
             },
             {
                 "nama": "Rafi Diva Efangga",
@@ -1707,8 +1707,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Airan",
                 "hobbi": "Olahraga",
                 "sosmed": "@rafidivaefangga",
-                "kesan": "-",  
-                "pesan":"-"
+                "kesan": "Lucu tapi jahil",  
+                "pesan":"Terimakasih yaa bang, semoga kuliahnya lancar terus!"
             },
             {
                 "nama": "Refa Destini Pranata",
@@ -1718,8 +1718,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Kedaton",
                 "hobbi": "Mengoleksi Gelang",
                 "sosmed": "@refadp_",
-                "kesan": "-",  
-                "pesan":"-"
+                "kesan": "Baikk, lucu dan selalu rendah hati",  
+                "pesan":"Doa yang terbaik untuk masa depan kakak!"
             },
             {
                 "nama": "Try Yani Rizki Nur Rohmah",
@@ -1729,8 +1729,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Korpri",
                 "hobbi": "Belajar",
                 "sosmed": "@tryyaniciaaa",
-                "kesan": "-",  
-                "pesan":"-"
+                "kesan": "Kakak baik dan senang tersenyum.",  
+                "pesan":"Terus jaga kepribadian kakak yang baik itu yaa "
             },
             {
                 "nama": "Aliya Ammara Ananta",
