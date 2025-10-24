@@ -99,7 +99,7 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok 8 (GREEDY)</h1>",
+            "<h1 class='centered-title'>✨Deskripsi Kelompok 8 (GREEDY)🎀</h1>",
             unsafe_allow_html=True,
         )
         st.markdown(
@@ -191,7 +191,7 @@ elif menu == "About Us":
             {
                 "nama": "Rafli Al Mansyah Tambunan",
                 "sebagai": "Anggota",
-                "nim": "122450007",
+                "nim": "124450007",
                 "fun_fact": "bisa namatin drakor 1 season 1 hari",
                 "motto_hidup": "Love What You Do. Do What You Love",
             },
