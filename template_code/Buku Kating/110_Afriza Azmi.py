@@ -245,7 +245,7 @@ if menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "tidur, jualan pancing",
                 "sosmed": "@renishapg",
-                "kesan": "lucu nan imup kakaknya, kayanya cocok kalo jadi cosplayer anime ",  
+                "kesan": "lucu nan imup kakaknya, kayanya cocok kalo jadi cosplayer anime",  
                 "pesan":"jangan sering sering tidur yaaa kak ntar kebanyakan mimpi jadinya# 1
             },
             {
@@ -256,7 +256,7 @@ if menu == "Baleg":
                 "alamat": "Natar",
                 "hobbi": "Belajar Mengaji",
                 "sosmed": "@ansftynn_",
-                "kesan": "masyallah tabarakallah suka ngaji ternyata kakaknya, pantes kok wajah kakanya kayak bersinar sinar gituu ",  
+                "kesan": "masyallah tabarakallah suka ngaji ternyata kakaknya, pantes kok wajah kakanya kayak bersinar sinar gituu",  
                 "pesan":"ngajinya jangan kalo lagi butuh aja yaa kak, setiap hari kalo bisa biar makin bersinar wajahnyaa"# 1
             },
             {
