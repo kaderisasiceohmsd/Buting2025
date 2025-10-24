@@ -456,11 +456,11 @@ elif menu == "Departemen PSDA":
             },
             {
                 "nama": "Nisrina Nur Afifah",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "122450052",
+                "umur": "20",
+                "asal":"jawa Barat",
+                "alamat": "Korpsu",
+                "hobbi": "Jalan-jalan",
                 "sosmed": "@afifahhnsrn",
                 "kesan": "",  
                 "pesan":""# 1
@@ -1647,7 +1647,7 @@ elif menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1ssDT0Erjko0GkXOhGKYID0BoUrwVIpMT",
             "https://drive.google.com/uc?export=view&id=17ZkS4rqzqgcX7zr-N1MqOMtn1yqZv7cz",
             "https://drive.google.com/uc?export=view&id=1h9fyOjxfZZ_f0AqyM-ddLmsqQKbMTAtX",
-            "https://drive.google.com/uc?export=view&id=1h9fyOjxfZZ_f0AqyM-ddLmsqQKbMTAtX",
+            "https://drive.google.com/uc?export=view&id=1qxhlcaLJmpSSlv6cq3524UzNIGltj3HZ",
             "https://drive.google.com/uc?export=view&id=1IUv61_45y4apAFjB7U9hLbCbLIQyopGl",
             "https://drive.google.com/uc?export=view&id=1KfZHZI9KtiLd4qiVhul2sMY92uS7eFiZ",
             "https://drive.google.com/uc?export=view&id=1176i6Zt4QqEU6od8BymbBDHIQgC95aRJ",
@@ -1863,6 +1863,7 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
 
