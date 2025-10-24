@@ -1810,7 +1810,7 @@ if menu == "Departemen Medkraf":
                 "hobbi": "Main roblox",
                 "sosmed": "@saniayyllstr",
                 "kesan": "tegas, baik dan perhatian",  
-                "pesan":"semangat terus kak, jaga kesehatan selalu, info map robloks", 
+                "pesan":"semangat terus kak, jaga kesehatan selalu btw kak info map robloks", 
             },
             {
                 "nama": "Nayla Salsabila Fathianisa",
