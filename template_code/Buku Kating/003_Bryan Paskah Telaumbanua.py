@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Sangat berwibawa dan keren",  
-                "pesan":"Semangat terus bang menjalani hidup sebagai ketua"# 1
+                "kesan": "Pemimpin (Kahim) yang ramah namun berwibawa",  
+                "pesan":"Tetap semangat bang, semoga menjadi pemimpin lagi kedepannya"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Keren banget karna ngajarin ilmu data sains",  
-                "pesan":"Semoga kehidupan kuliahnya berjalan mulus"# 1
+                "kesan": "Pemimpin (Sekjen) yang kece, santai namun jiwa kepemimpinannya dapat",  
+                "pesan":"Terus maju bang jangan kendor, sampai kelulusan"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Agrest Kost",
                 "hobbi": "Nahan Pipis",
                 "sosmed": "@celisabethh_",
-                "kesan": "Hobbynya ngawur, tapi megang posisi penting",  
-                "pesan":"Semoga lancar kehidupan kuliahnya"# 1
+                "kesan": "Kakaknya baik, ramah dan menyenangkan",  
+                "pesan":"Dilancarkan kuliahnya kak, tetap semangat."# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Udah hobi membaca, punya posisi penting pula",  
-                "pesan":"Semoga lancar-lancar saja kehidupannya"# 1
+                "kesan": "Kakaknya kalem namun ramah.",  
+                "pesan":"Semangat kak. Semoga yang direncanakan kedepannya tercapai "# 1
             },
             {
                 "nama": "Eksanty Febriana Sugma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Asrama TB 4",
                 "hobbi": "Nahan Eeq",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Walau hobbynya ngawur, tapi bisa berada di posisi penting haha",  
-                "pesan":"Semoga tidak ada masalah yang menghampiri"# 1
+                "kesan": "Baik, lucu dan ramah kakaknya.",  
+                "pesan":"Tetap maenjadi pribadi yang menyenangkan kak."# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -190,7 +190,7 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1l9LSyiKYUuiTrYb-QPMZO6gQsV7fVDg1",
             "https://drive.google.com/uc?export=view&id=1z2xPf8Ym4drImfoCq7kKwmnl4cNHJwHE",
             "https://drive.google.com/uc?export=view&id=1YF4AO30-UbMszOo_td1Fe6FkTyo8lue2",
-            "https://drive.google.com/uc?export=view&id=13LF4qiec8zI7q6bA-UkeTKXNJMgNHWQD",
+            "https://drive.google.com/uc?export=view&id=1IFJ7fGL0T1j27083AU5K16HzpHwjecOa",
             "https://drive.google.com/uc?export=view&id=1zEvuOR1O0P2c2HTQq1GJ-AYWj822hC62",
             "https://drive.google.com/uc?export=view&id=1Z1ObS9dnknJ9mqJjTENrZ3wOUNBLmlS6",
             "https://drive.google.com/uc?export=view&id=1Y2Wkz6yxUqvAALEUyfI8OdJAvvFBJF4R",
@@ -437,7 +437,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1YyZUOhNdWkSAy09dhSXz3zNG_gwL1QsK",
             "https://drive.google.com/uc?export=view&id=1WCpmorm2n6j2viqvStaSRsPi5eIW0-bf",
             "https://drive.google.com/uc?export=view&id=1VXXgDyTbR1Eu2lMeNZ-H1B5DSw_f2pVq",
-            "https://drive.google.com/uc?export=view&id=1KBYqK87GXYXymQfdy9QAqd7eK1iVUoDa",
+            "https://drive.google.com/uc?export=view&id=1JOKz3NZ0B2M0YnMWZoHKsmZBik4R7GOX",
             "https://drive.google.com/uc?export=view&id=1DxfL2aKGjfRY4jYb0Lmrh0OZezpge6bP",
             "https://drive.google.com/uc?export=view&id=13pBb8H0A3cL9kIww-muGW_d2nZwEHTYw",
             "https://drive.google.com/uc?export=view&id=1tCSk_zDQZKQwTL7xa3FcT7lqjj8M_K0G",
@@ -752,7 +752,7 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=17YBShslE7SNm6kXH8F9PhOaqvku7e-Xg",
             "https://drive.google.com/uc?export=view&id=1qemjzzjF5S0onX8MCtTeMqUlJSyAEDpm",
             "https://drive.google.com/uc?export=view&id=1n-gLyowhb5M_2tN0It2jEOHBUimaIlqb",
-            "https://drive.google.com/uc?export=view&id=1AmqKzhNhEaDh-tTT7DBLGKpaZbpdtMTi",
+            "https://drive.google.com/uc?export=view&id=1lFQ4L9lqWkLDNp-3zvBI0zl2JGgdlSEs",
             "https://drive.google.com/uc?export=view&id=1s7zg5vf2eD7K6uVhXsAJYvzU_T6Ybj40",
             "https://drive.google.com/uc?export=view&id=1zlTTIRvSXerOk5b7h7mTluU7L7bRCBNQ",
             "https://drive.google.com/uc?export=view&id=18oceMT3dIqef7aWDB5ibH56CNcaXnKg2",
@@ -1018,7 +1018,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1QFFp9XdA3gelhxpd6CqoqtfLml1Gc2M_",
             "https://drive.google.com/uc?export=view&id=1Xnn5OeCVDHCxo-c6ssG-WulvMQRrIYda",
             "https://drive.google.com/uc?export=view&id=1rfG4LiFVgkyhmK5FHXuQv54iaZCyanH0",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1o90DTjJSzrldtH5S_rQORf_c3zwuSfui",
             "https://drive.google.com/uc?export=view&id=19ouhOPgi7YLOtkSANVMq0ydoImRQf5HG",
             "https://drive.google.com/uc?export=view&id=1gypi3wyGOQwsa-CKAyBcvfC6PbVwjpt6",
             "https://drive.google.com/uc?export=view&id=15PBx-e7fxoA5GySrRKcHJDL8W5V8Q9Ce",
