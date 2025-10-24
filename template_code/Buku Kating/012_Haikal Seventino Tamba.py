@@ -1510,7 +1510,7 @@ if menu == "Departemen SSD":
             "https://drive.google.com/uc?export=view&id=10S9BnfoBIYnLlnyi5HXml-mRiojoIqKC",
             "https://drive.google.com/uc?export=view&id=14sHT1QziX-RwE5A3mJuBwb-3EyA7K5FW",
             "https://drive.google.com/uc?export=view&id=17wm9ATiTz2PYsIf6BnlTVn0R9s8EMbXM",
-            "https://drive.google.com/uc?export=view&id=1vlsbevFrXhS7yZuJxTQugqfLLkV7-syH",
+            "https://drive.google.com/uc?export=view&id=1KNCouPFg9mVa66PNLaAEOEMJXcKlwFh9",
         ]
         data_list = [
             {
