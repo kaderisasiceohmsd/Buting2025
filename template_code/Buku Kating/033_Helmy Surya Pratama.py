@@ -1497,5 +1497,147 @@ elif menu == "Departemen Internal":
          display_images_with_data(gambar_urls, data_list)
     DepartemenInternal()
 
+elif menu == "Departemen SSD":
+    def DepartemenSSD():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1pl276lIZ4fXIZbYU9YoEsikpcBt_sV_M", 
+            "https://drive.google.com/uc?export=view&id=1SPY19zfvN9X2VCDeLWdaHPDOyxN46vzF", 
+            "https://drive.google.com/uc?export=view&id=1W0rvOZHV8iIpcoDe451_AZhSlc6jEMCQ",  
+            "https://drive.google.com/uc?export=view&id=1HSlIrdFfjEO0HuXUvvu4tNq5ZafRVVnR", 
+            "https://drive.google.com/uc?export=view&id=1Prixd78cshV_nbtDSJ-ZPUK22DvQwIAO",  
+            "https://drive.google.com/uc?export=view&id=1N-U5_EPAEckpIujdyXr2rVNfzf3yiXHo",  
+            "https://drive.google.com/uc?export=view&id=1Om4LRXUw550xu-hWc-AFXdj7NBbWyjp1",  
+            "https://drive.google.com/uc?export=view&id=1VL1_UXVtUnbyZ5aw-v9cAUOm22TLD9aa",  
+            "https://drive.google.com/uc?export=view&id=1p6ywdBeeClIPjLJaaUs5G8NmIa74fhuD",  
+            "https://drive.google.com/uc?export=view&id=1MdtKOI1SmPa9EaWdaO0EiUglrwQ7JA7w", 
+            "https://drive.google.com/uc?export=view&id=1Ay6JQRvAot0zjJgG2aoxUWvCtsT1JUfM",
+        ]
+        data_list = [
+            {
+                "nama": "Danang Hilal Kurniawan",
+                "nim": "122450085",
+                "umur": "22",
+                "asal":"Balam",
+                "alamat": "Belakang PB",
+                "hobbi": "Joging",
+                "sosmed": "@dananghk_",
+                "kesan": "Bener bener asikk bangett diajak ngobroll gak berasa bisa sampe lama",  
+                "pesan":"Semangat terus abangda !"# 1
+            },
+            {
+                "nama": "Syalaisha Andina Putriansyah",
+                "nim": "122450012",
+                "umur": "22",
+                "asal":"Tanggerang",
+                "alamat": "Sukarame",
+                "hobbi": "Baca Novel",
+                "sosmed": "@syalaishaa_31",
+                "kesan": "Kakaknya vibesnya adem bangett",  
+                "pesan":"Semangat teruss ya kak!"# 1
+            },
+            {
+                "nama": "Ahmad Rizqi",
+                "nim": "122450138",
+                "umur": "21",
+                "asal":"Bekasi",
+                "alamat": "Airan",
+                "hobbi": "Beli Parfum",
+                "sosmed": "@den_iki_",
+                "kesan": "Jujurr paling skena ini abangnya",  
+                "pesan":"Semangatt alwayss ya bangg"# 1
+            },
+            {
+                "nama": "Anadia Carana",
+                "nim": "123450019",
+                "umur": "20",
+                "asal":"Palembang",
+                "alamat": "Lampung Selatan",
+                "hobbi": "Joging",
+                "sosmed": "@anadiacrn_",
+                "kesan": "Kakaknya asikk bangett",  
+                "pesan":"Semangat terus kak kuliahnya"# 1
+            },
+            {
+                "nama": "Aprilia Dewi Hutapea",
+                "nim": "123450040",
+                "umur": "20",
+                "asal":"Lampung Selatan",
+                "alamat": "Lampung Selatan",
+                "hobbi": "Nonton dramashort di fb",
+                "sosmed": "@aphrhtp_",
+                "kesan": "Kak April jago beutt narinya",  
+                "pesan":"Semangat terus kuliahnya kak!"# 1
+            },
+            {
+                "nama": "Nabila Zakiyah Zahra",
+                "nim": "122450139",
+                "umur": "21",
+                "asal":"Bandar Lampung",
+                "alamat": "Way Halim",
+                "hobbi": "Jogging",
+                "sosmed": "@nabila_azazahra",
+                "kesan": "Kakaknya baikk beut aslii",  
+                "pesan":"Semoga makin sukses dan bahagia selalu kak!"# 1
+            },
+            {
+                "nama": "Dhafin Razaqa Luthfi",
+                "nim": "122450133",
+                "umur": "21",
+                "asal":"Bandar lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Jogging",
+                "sosmed": "@dhafinrzqa13",
+                "kesan": "Aura businessmann jujur kuat bangett",  
+                "pesan":"Semangat alwayss bang!"# 1
+            },
+            {
+                "nama": "Devi Rahayu",
+                "nim": "123450010",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Way Kandis",
+                "hobbi": "Main",
+                "sosmed": "@deviirhyu",
+                "kesan": "Kakaknya seru banget",  
+                "pesan":"Sukses lancar selalu kak"# 1
+            },
+            {
+                "nama": "Enggli Rahmadhani",
+                "nim": "123450043",
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "gang perwira 2",
+                "hobbi": "Nontol alur cerita film",
+                "sosmed": "@englirahmdhnii",
+                "kesan": "Kakaknya cantik banget mirip artis siapa gituu,  
+                "pesan":"Semoga sukses selalu kak"# 1
+            },
+            {
+                "nama": "Hanifah Inaya Sani",
+                "nim": "123450123",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Korpri",
+                "hobbi": "Masak",
+                "sosmed": "@_inayasani",
+                "kesan": "Kak naya seru bingitzzz",  
+                "pesan":"Semangat 45 ya kak"# 1
+            },
+            {
+                "nama": "Nydia Manda Putri",
+                "nim": "123450018",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Tanjung Karang Timur",
+                "hobbi": "Main",
+                "sosmed": "@nydiaaptr",
+                "kesan": "Kakaknya asikk bener loh yahh",  
+                "pesan":"Semoga bahagia selalu kak!"# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    DepartemenSSD()
+
+
 
 # Tambahkan menu lainnya sesuai kebutuhan
