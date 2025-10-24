@@ -1489,7 +1489,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Zahra Putri Salsabila",
                 "nim": "123450026",
-                "umur": '19",
+                "umur": "19",
                 "asal": "Natar",
                 "alamat": "Way Huwi, Pemda",
                 "hobbi": "Mengetik",
