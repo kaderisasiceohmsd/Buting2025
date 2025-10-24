@@ -57,4 +57,4 @@ Tes memiliki akurasi 90% (P(E|H)=0.9), dan false positive 5% (P(E|¬H)=0.05).
 Maka hasil tes positif tidak berarti pasien pasti sakit — probabilitas sebenarnya sekitar 15–16%.
 """)
 
-st.caption("Dibuat dengan ❤️ menggunakan Streamlit — tanpa pustaka tambahan.")
+
