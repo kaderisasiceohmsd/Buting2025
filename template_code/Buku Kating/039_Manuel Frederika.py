@@ -1044,7 +1044,7 @@ if menu == "Departemen MIKFES":
                 "nim": "123450065",
                 "umur": "20",
                 "asal":"Bandar Lampung",
-                "alamat": "",
+                "alamat": "Pemda",
                 "hobbi": "Catur",
                 "sosmed": "@giofaniars_",
                 "kesan": "Abangnya kalem banget, inget banget abangnya ozt pas pplk 2024 ",  
@@ -1878,6 +1878,7 @@ elif menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
