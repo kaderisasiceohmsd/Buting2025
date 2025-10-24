@@ -1121,7 +1121,7 @@ elif menu == "Departemen Eksternal":
                 "hobbi": "Jalan-jalan",
                 "sosmed": "@bylaash",
                 "kesan": "Kak Nabyla lembut dan ramah banget",  
-                "pesan":"Semoga selalu dikelilingi hal baik kak"# 1
+                "pesan":"Semoga selalu dikelilingi hal-hal baik"# 1
             },
             {
                 "nama": "Syahrialdi Rachim Akbar",
