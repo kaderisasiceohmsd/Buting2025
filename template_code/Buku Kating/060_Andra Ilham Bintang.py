@@ -1011,7 +1011,7 @@ if menu == "Departemen Eksternal":
     def Departemen_Eksternal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1ZzXW9z3zhETXxsNoLABBk7SJ7-wYvr_I",
-            "https://drive.google.com/uc?export=view&id=1hJGgtWAusJYI0-P7F-oAN7SUFc7f6dQ6",
+            "https://drive.google.com/uc?export=view&id=1Oe2sEfgDgDNfdzfKE_OJ2r3N_NtGj72Z",
             "https://drive.google.com/uc?export=view&id=1KAy2vZKFjOmMecg1yZQbalKmvT3ZNnzC",
             "https://drive.google.com/uc?export=view&id=1IWrVwbex0eyn08iY-x_jDUvmcxsew58V",
             "https://drive.google.com/uc?export=view&id=1QJyK4YhjPYL3OeYJSkd4rQZCGLvj1lIW",
@@ -1025,7 +1025,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1SqGoWb0_W00EZzKreSdUPWgC4GgB6Wzf",
             "https://drive.google.com/uc?export=view&id=1LV4LJnLBEMzeoNoi4VV60AHlcb3ghWvb",
             "https://drive.google.com/uc?export=view&id=1p0Ow6jJi1sGQ1jQFeSo5bI5KlGafEud_",
-            "https://drive.google.com/uc?export=view&id=1GWdjJtAYUygVwfAZtovr3PHEdHXfjvEQ",
+            "https://drive.google.com/uc?export=view&id=1PAwd2-8OxfrefKuXA9NzCG5jWVVGBEfZ",
             "https://drive.google.com/uc?export=view&id=1mo2NhSIIDl1W6Qh8niVr4oMKnAOsFC4j",
             "https://drive.google.com/uc?export=view&id=1GWdjJtAYUygVwfAZtovr3PHEdHXfjvEQ",
             "https://drive.google.com/uc?export=view&id=1kw3CvqzVMzGnOC4H0imNMwWJ0usA_fag",
@@ -1235,7 +1235,7 @@ if menu == "Departemen Eksternal":
                 "pesan": "semangat terus kuliahnya kakak !!!"
             },
             {
-                "nama": "Khazanati Ilmi",
+                "nama": "Khazanatil Ilmi",
                 "nim": "123440053",
                 "umur": "20",
                 "asal": "Padang",
