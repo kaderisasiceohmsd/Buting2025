@@ -360,8 +360,7 @@ elif menu == "Senator":
             "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
             "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
             "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
-            "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
-         
+            "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH", 
         ]
         data_list = [
             {
