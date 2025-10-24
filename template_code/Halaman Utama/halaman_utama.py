@@ -16,7 +16,7 @@ st.markdown(
 
         /* ======= Sidebar gradasi ======= */
         [data-testid="stSidebar"] {
-            background: linear-gradient(to bottom, #F5EFE6, #E8DFCA, #CBDCEB);
+            background: linear-gradient(to bottom, #ABE7B2, #CBF3BB, #ECF4E8);
             color: #D7C6BB;
         }
 
