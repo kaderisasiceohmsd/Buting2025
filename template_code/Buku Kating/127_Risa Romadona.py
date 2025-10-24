@@ -1469,23 +1469,23 @@ if menu == "Departemen Internal":
             },
             {
                 "nama": "Muhammad Naufal Alghani",
-                "nim": "122450030",
-                "umur": "21",
-                "asal":"Surabaya",
-                "alamat": "Rajabasa",
-                "hobbi": "Mengaji",
-                "sosmed": "@rannipu",
+                "nim": "-",
+                "umur": "-",
+                "asal":"-",
+                "alamat": "-",
+                "hobbi": "-",
+                "sosmed": "@-",
                 "kesan": "Abangnya ramah dan selalu perhatian.",
                 "pesan":"Semoga terus jadi panutan internal, bang!"
             },
             {
                 "nama": "Zahra Putri Salsabilla",
-                "nim": "122450070",
+                "nim": "122450026",
                 "umur": "22",
-                "asal":"Sumatera Utara",
-                "alamat": "Gerbang Barat",
-                "hobbi": "Memancing",
-                "sosmed": "@renta.shn",
+                "asal":"Natar",
+                "alamat": "Jl Durian 19",
+                "hobbi": "Mengetik",
+                "sosmed": "@zhresti",
                 "kesan": "Kakaknya gemess banget deh.",
                 "pesan":"Terus semangat menghidupkan internal, Kak!"
             }
@@ -1516,7 +1516,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Belakang PB",
                 "hobbi": "jogging",
-                "sosmed": "dananghk_",
+                "sosmed": "@dananghk_",
                 "kesan": "Abangnya asik dan seru, bikin suasana lebih hangat.",
                 "pesan": "Semangat terus, bang! Tetap jadi inspirasi."
             },
@@ -1527,7 +1527,7 @@ if menu == "Departemen SSD":
                 "asal": "Tanggerang",
                 "alamat": "Sukarame",
                 "hobbi": "Baca novel",
-                "sosmed": "syalaishaa_31",
+                "sosmed": "@syalaishaa_31",
                 "kesan": "Senang bisa kenal kakak, orangnya ramah dan sabar.",
                 "pesan": "Semoga sukses selalu dalam kuliah dan kegiatan, Kak!"
             },
@@ -1538,7 +1538,7 @@ if menu == "Departemen SSD":
                 "asal": "Padang",
                 "alamat": "Airan",
                 "hobbi": "beli parfum",
-                "sosmed": "den_iki__",
+                "sosmed": "@den_iki__",
                 "kesan": "Abangnya ramah, mudah diajak ngobrol.",
                 "pesan": "Jaga kesehatan selalu, bang!"
             },
@@ -1549,7 +1549,7 @@ if menu == "Departemen SSD":
                 "asal": "Palembang",
                 "alamat": "Lampung Selatan",
                 "hobbi": "jogging",
-                "sosmed": "anadiacrn_",
+                "sosmed": "@anadiacrn_",
                 "kesan": "Kakaknya keren dan penuh motivasi.",
                 "pesan": "Semangat terus, Kak! Tetap jadi panutan."
             },
@@ -1560,7 +1560,7 @@ if menu == "Departemen SSD":
                 "asal": "Lampung Selatan",
                 "alamat": "Lampung Selatan",
                 "hobbi": "nonton dramashort di fb",
-                "sosmed": "aprhtp_",
+                "sosmed": "@aprhtp_",
                 "kesan": "Senang bisa bertemu kakak, orangnya hangat.",
                 "pesan": "Semoga semua urusannya dilancarkan, Kak!"
             },
@@ -1571,7 +1571,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Way Halim",
                 "hobbi": "jogging",
-                "sosmed": "nabila_zazahra",
+                "sosmed": "@nabila_zazahra",
                 "kesan": "Kakaknya sangat membantu dan peduli.",
                 "pesan": "Sukses selalu untuk Kakak!"
             },
@@ -1582,7 +1582,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Sukarame",
                 "hobbi": "Belajar",
-                "sosmed": "dhafinrzqa13",
+                "sosmed": "@dhafinrzqa13",
                 "kesan": "Abangnya asik diajak diskusi dan ramah.",
                 "pesan": "Terima kasih atas bimbingannya, bang!"
             },
@@ -1593,7 +1593,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Way Kandis",
                 "hobbi": "nonton drakor",
-                "sosmed": "deviirhyu",
+                "sosmed": "@deviirhyu",
                 "kesan": "Kakaknya baik hati dan murah senyum.",
                 "pesan": "Semangat terus ya, Kak!"
             },
@@ -1604,7 +1604,7 @@ if menu == "Departemen SSD":
                 "asal": "Sumatera Barat",
                 "alamat": "gg.perwira 2",
                 "hobbi": "menonton alur cerita film",
-                "sosmed": "englirahmdhnii",
+                "sosmed": "@englirahmdhnii",
                 "kesan": "Senang bisa kenal dengan kakak, asik banget.",
                 "pesan": "Semoga sukses selalu, Kak!"
             },
@@ -1615,7 +1615,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Korpri",
                 "hobbi": "Masak",
-                "sosmed": "_inayasani",
+                "sosmed": "@_inayasani",
                 "kesan": "Kakaknya ramah dan selalu mendukung.",
                 "pesan": "Jaga kesehatan selalu, Kak!"
             },
@@ -1626,7 +1626,7 @@ if menu == "Departemen SSD":
                 "asal": "Bandar Lampung",
                 "alamat": "Tanjung Karang",
                 "hobbi": "Main",
-                "sosmed": "nydiaaptr_",
+                "sosmed": "@nydiaaptr_",
                 "kesan": "Terima kasih Kakak atas bantuannya, hangat banget.",
                 "pesan": "Semangat dan sukses selalu!"
             }
@@ -1675,7 +1675,7 @@ if menu == "Departemen Medkraf":
                 "asal":"Lampung",
                 "alamat": "Korpri, Sukarame",
                 "hobbi": "Gym, Masak",
-                "sosmed": "@i",
+                "sosmed": "@rahmanellyana",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
@@ -1818,7 +1818,7 @@ if menu == "Departemen Medkraf":
                 "asal":"Bandar Lampung",
                 "alamat": "Griya Sukarame",
                 "hobbi": "Main Hp",
-                "sosmed": "@i",
+                "sosmed": "@_akmal.faiz",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
