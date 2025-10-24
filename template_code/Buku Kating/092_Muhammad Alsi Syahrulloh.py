@@ -761,15 +761,15 @@ if menu == "Departemen MIKFES":
         ]
         data_list = [
             {
-               "nama": "Randa Andriana Putra",
+                "nama": "Randa Andriana Putra",
                 "nim": "122450083",
                 "umur": "22",
                 "asal":"Serang, Banten",
                 "alamat": "Sukarame",
                 "hobbi": "Tidur dan berkembang",
                 "sosmed": "@@randaandriana_",
-                "kesan": "Kak randa cool dan pinter banget",  
-                "pesan":"hobbinya keren bang dengan tidur aja bisa berkembang"
+                "kesan": "",  
+                "pesan":""
             },
            {
                 "nama": "Rut Junita Sari Siburian",
@@ -779,8 +779,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Gg. Nangka 3",
                 "hobbi": "Membaca",
                 "sosmed": "@junitaa_0406",
-                "kesan": "Kak rut pinter dan kalem menurutkuu",  
-                "pesan":"kakak biasanya baca apa kakk?? mau baca jugaa"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
              {
                 "nama": "Muhammad Regi Abdi Putra Amanta",
@@ -790,8 +790,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Permadani, Sukarame",
                 "hobbi": "Dengerin Musik",
                 "sosmed": "@mregiiii_",
-                "kesan": "Bang regi pinter dan visioner banget",  
-                "pesan":"Biasanya dengerin musik apa bang?? Hindia?Bernadya?? atau Opick bang??"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
               {
                 "nama": "Aisyah Musfirah",
@@ -801,8 +801,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Lapas",
                 "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
-                "kesan": "Kak aisyah yalili banget kak",  
-                "pesan":"Hobbynya ril banget lagi kak, suka maskerann, btw sehat selalu ya kakk"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
            {
                 "nama": "Fadil Prasetyo Alfarizzi",
@@ -812,8 +812,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Segala Mider",
                 "hobbi": "Fose",
                 "sosmed": "@fadilalfarizzi",
-                "kesan": "Wihh bang fadil nih, satu kata *keren banget cool abiszz* ",  
-                "pesan":"Bang kalo mau jadi pinter tuh main game kan bang?? "# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Muhammad Aqil Ramadhan",
@@ -823,8 +823,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Belwis",
                 "hobbi": "Main Basket/Ngerokok",
                 "sosmed": "@muhammadaqil1111",
-                "kesan": "Bang aqil seru dan lucu orangnya",  
-                "pesan":"hobi main basket tapi ngerokok kuat kah bang napasnyaa, gimana tuh tipsnya bang biar kuat"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Muhammad Naufal Ramadhan",
@@ -832,10 +832,10 @@ if menu == "Departemen MIKFES":
                 "umur": "20",
                 "asal":"Bandar Lampung",
                 "alamat": "Tanjung Senang",
-                "hobbi": "Dengerin Musik",t
+                "hobbi": "Dengerin Musik",
                 "sosmed": "@notfall.s",
-                "kesan": "Bang naufal ramadhan cool dan pinter banget bangg",  
-                "pesan":"Infokan plasylist spotify bangg"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Nadia Faraj Alyafaatin Simbolon",
@@ -845,8 +845,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Manggis 1",
                 "hobbi": "Menonton film",
                 "sosmed": "@nadiaafrj",
-                "kesan": "Kak nadia kalem , pinter, ramah, keren, cantik, cakep, pokoknya keren abiss",  
-                "pesan":"Kak nadia saya adek NIM mu kakk, salam kenal, sehat selalu ya kakk"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Marleta Cornelia Leander",
@@ -856,8 +856,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Gg. Nangka 3",
                 "hobbi": "Main Musik",
                 "sosmed": "@marletacornelia",
-                "kesan": "Kak marleta kalem dan cool banget kak",  
-                "pesan":"Kak biasanya main musik apa kak?? ajarin dong kakk"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Akeyla Fairuz Shafi",
@@ -867,8 +867,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Pramuka",
                 "hobbi": "Dengerin Musik",
                 "sosmed": "@keyashafi_",
-                "kesan": "Kak akeyla cakep dan cantik banget, keren juga",  
-                "pesan":"Kakk suka dengerin musik apa?? genre apa?? info playlist dong kakk"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Anggi Puspita Ningrum",
@@ -878,8 +878,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Bumi sari, Natar, Lampung Selatan",
                 "hobbi": "Menari, Dengerin Musik, Ngedance",
                 "sosmed": "@anggi_yllow2318",
-                "kesan": "Kak anggi pinter, seru dan membawa energi positiff",  
-                "pesan":"Banyak banget hobbynya kak anggi keren bangett"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Efi Defiyati",
@@ -889,19 +889,19 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Raden Saleh, Airan Raya",
                 "hobbi": "Membaca",
                 "sosmed": "@eeffiidefi",
-                "kesan": "Kak efi cakep dan positive vibes banget pokoknya keren bett",  
-                "pesan":"Hobinya baca apa tuh kakk, hobi baca manga ga kakk??"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-                "nim": "123450024",
-                "umur": "20",
-                "asal": "Bandar Lampung",
-                "alamat": "JL. Gajah Mada, Tanjungkarang",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@pebby_olla525",
-                "kesan": "Kakaknya baik dan lucu keren banget",
-                "pesan": "Sehat selalu kak dan bahagia selaluu selalu"
+                "nim": "",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
+                "sosmed": "",
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Fairuz Ary Syifa",
@@ -911,19 +911,19 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur",
                 "sosmed": "@_fairuzary",
-                "kesan": "Kak fairuz cantik dan cakep banget",  
-                "pesan":"Kak semangat terus ya kak kuliahnya, saya juga btw suka tidur kakk"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Tanty Widiyastuti",
-                "nim": "123450094",
-                "umur": "20",
-                "asal": "Lampung Tengah",
-                "alamat": "Asrama Itera TB 4",
-                "hobbi": "Tidur",
+                "nim": "124450081",
+                "umur": "",
+                "asal":"",
+                "alamat": "",
+                "hobbi": "",
                 "sosmed": "@tunty_i",
-                "kesan": "Kakaknya baik seru dan asik bangett ",
-                "pesan": "sehat selalu ya kak dan semangat kuliahnyaa, ternyata banyak juga ya kak yang hobinya tiduurr"
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Eggi Satria",
@@ -933,8 +933,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur",
                 "sosmed": "@_egistr",
-                "kesan": "Bang eggi keren banget, penjelasannya gampang dimengerti banget",  
-                "pesan":"Sama juga nih bang hobby ku tidurr "# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Afifah Fauziah",
@@ -944,8 +944,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Hasan VI, Airan",
                 "hobbi": "Isengin orang/ngobrol random",
                 "sosmed": "@fifah.zy",
-                "kesan": "Kak afifah usil ya orangnya",  
-                "pesan":"Ngobrol random gimana tuh kak, ga ngomong sama tembok kan kak?"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Fabio Banyu Cyto",
@@ -955,8 +955,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Teratai No.27, Kedaton",
                 "hobbi": "Jalan-jalan, main game",
                 "sosmed": "@biyokcb",
-                "kesan": "Bang fabio keren bet dahh, asik dan seru banget",  
-                "pesan":"Bang fabio jalan-jalan kemana biasanya bang, suka main game apa??"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Giofani Aristyo",
@@ -966,8 +966,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Pemda",
                 "hobbi": "Catur",
                 "sosmed": "@giofaniars_",
-                "kesan": "Bang gio keren banget bang, dan seru banget",  
-                "pesan":"Suka pake pembukaan apa bang main catur??"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Rahma Oktavia Albar",
@@ -977,19 +977,19 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Main Catur",
                 "sosmed": "@_rhmaoktvia",
-                "kesan": "Kak rahma cakep dan seru banget",  
-                "pesan":"Kalo kakak suka main catur sama bang gio??"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Rahmah Gustriana Deka",
                 "nim": "123450102",
-                "umur": "20",
+                "umur": "",
                 "asal":"Lampung Timur",
                 "alamat": "Airan",
                 "hobbi": "Ngerepotin Tanty",
                 "sosmed": "@gustriana.d_",
-                "kesan": "Kakak inspiratif sekali kakk",  
-                "pesan":"Hobbynya keren banget kak, sama kayak saya suka ngerepotin wijaya"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
             {
                 "nama": "Razin Hafid Hamdi",
@@ -999,8 +999,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Belwis",
                 "hobbi": "Futsal",
                 "sosmed": "@razyn.hfd",
-                "kesan": "Bang razin pinter dan kalem kali nih",  
-                "pesan":"Bang razin ternyata suka futsal ya bang"# 1
+                "kesan": "",  
+                "pesan":""# 1
             },
 
         
