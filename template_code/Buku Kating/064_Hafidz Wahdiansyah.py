@@ -452,7 +452,7 @@ if menu == "Departemen PSDA":
                 "asal":"",
                 "alamat": "",
                 "hobbi": "",
-                "sosmed": "",
+                "sosmed": "@ferdy_kevin",
                 "kesan": "",  
                 "pesan":""
             },
@@ -475,8 +475,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Ngekader 24",
                 "sosmed": "@Allyapasha_",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Kak Allya orangnya energik, disiplin, dan penuh semangat.",  
+                "pesan":"Semoga semua usaha dan energi positif kak allya bisa membawa banyak kebaikan"# 1
             },
               {
                 "nama": "Ahmad Rizky",
@@ -486,8 +486,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main bola",
                 "sosmed": "@ahmad.rizky__",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Bang Ahmad orangnya aktif, sportif, dan gampang akrab sama teman-temannya.",  
+                "pesan":"Terus pertahankan semangat dan energi positifmu,bang Ahmad! Semoga hobi dan kerja kerasmu selalu membuahkan hasil yang membanggakan"# 1
             },
            {
                 "nama": "Arienta Khusnul Ananda",
@@ -497,8 +497,8 @@ if menu == "Departemen PSDA":
                 "alamat": "deket kost bang dapa",
                 "hobbi": "cari kesibukan",
                 "sosmed": "@arientakhsnl_",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Kak Arienta orangnya energik, kreatif, dan selalu aktif mencari hal-hal baru untuk dilakukan",  
+                "pesan":"Semoga semua aktivitas dan kesibukanmu selalu membawa hal-hal positif dan pengalaman berharga"# 1
             },
             {
                 "nama": "Daffa Hadyan Navista",
