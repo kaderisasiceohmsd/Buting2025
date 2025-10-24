@@ -279,55 +279,91 @@ def f_pdf(x:float, d1:int, d2:int)->float:
     a=d1/2; b=d2/2
     return ((d1/d2)**a * (x**(a-1))) / (beta_func(a,b) * (1+(d1/d2)*x)**(a+b))
 
-def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, width:int=1000, height:int=550):
+def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float):
+    # ======= Dua Grafik F Responsif =======
+    def beta_func(a,b): return math.exp(math.lgamma(a)+math.lgamma(b)-math.lgamma(a+b))
+    def f_pdf(x,d1,d2):
+        if x<=0: return 0.0
+        a,b=d1/2,d2/2
+        return ((d1/d2)**a*(x**(a-1))) / (beta_func(a,b)*(1+(d1/d2)*x)**(a+b))
+    
+    # parameter umum
+    W,H,PAD = 1000,600,48
     xmax = max(8.0, Fcrit*1.35, Fcalc*1.25, 6+0.6*df1)
-    W,H,PAD = width,height,48
     N = 420
     xs = [xmax*i/(N-1) for i in range(N)]
     ys = [f_pdf(x,df1,df2) for x in xs]
     ymax = max(ys) if max(ys)>0 else 1.0
-    def sx(x): return PAD + (W-2*PAD)*(x/xmax)
-    def sy(y): return H - PAD - (H-2*PAD)*(y/ymax)
+    sx = lambda x: PAD+(W-2*PAD)*(x/xmax)
+    sy = lambda y: H-PAD-(H-2*PAD)*(y/ymax)
     path = " ".join(("M" if i==0 else "L")+f"{sx(x):.2f},{sy(y):.2f}" for i,(x,y) in enumerate(zip(xs,ys)))
+    
+    # area non & kritis
     xsL=[x for x in xs if x<=Fcrit]; ysL=[f_pdf(x,df1,df2) for x in xsL]
-    areaL=("M"+f"{sx(xsL[0]):.2f},{sy(ysL[0]):.2f}")+"".join(f"L{sx(x):.2f},{sy(y):.2f}" for x,y in zip(xsL[1:],ysL[1:]))+f"L{sx(xsL[-1]):.2f},{sy(0):.2f}Z"
     xsR=[x for x in xs if x>=Fcrit]; ysR=[f_pdf(x,df1,df2) for x in xsR]
+    areaL=("M"+f"{sx(xsL[0]):.2f},{sy(ysL[0]):.2f}")+"".join(f"L{sx(x):.2f},{sy(y):.2f}" for x,y in zip(xsL[1:],ysL[1:]))+f"L{sx(xsL[-1]):.2f},{sy(0):.2f}Z"
     areaR=("M"+f"{sx(xsR[0]):.2f},{sy(ysR[0]):.2f}")+"".join(f"L{sx(x):.2f},{sy(y):.2f}" for x,y in zip(xsR[1:],ysR[1:]))+f"L{sx(xsR[-1]):.2f},{sy(0):.2f}Z"
+    
     XFc, XF, Y0, YT = sx(Fcrit), sx(Fcalc), sy(0), sy(ymax*1.02)
-    html=f"""
-    <div class="el-card fade" style="padding:18px 22px; max-width:none;">
-      <div style="font-weight:900;color:#111827;margin-bottom:8px;">📊 Distribusi F (α = {alpha:.2f})</div>
-      <svg viewBox="0 0 {W} {H}" width="100%" height="{H}">
-        <defs>
-          <linearGradient id="gL" x1="0" x2="0" y1="0" y2="1">
-            <stop offset="0%" stop-color="#9db4ff" stop-opacity="0.85"/>
-            <stop offset="100%" stop-color="#9db4ff" stop-opacity="0.35"/>
-          </linearGradient>
-          <linearGradient id="gR" x1="0" x2="0" y1="0" y2="1">
-            <stop offset="0%" stop-color="#DCCCA3" stop-opacity="0.95"/>
-            <stop offset="100%" stop-color="#CBB279" stop-opacity="0.75"/>
-          </linearGradient>
-        </defs>
-        <line x1="{PAD}" y1="{Y0}" x2="{W-PAD}" y2="{Y0}" stroke="#9CA3AF" stroke-width="1"/>
-        <path d="{areaL}" fill="url(#gL)"/>
-        <path d="{areaR}" fill="url(#gR)"/>
-        <path d="{path}" fill="none" stroke="#4A67E9" stroke-width="2.6"/>
-        <line x1="{XFc}" y1="{YT}" x2="{XFc}" y2="{Y0}" stroke="#CBB279" stroke-width="2" stroke-dasharray="5,5"/>
-        <line x1="{XF}" y1="{YT}" x2="{XF}" y2="{Y0}" stroke="#111827" stroke-width="2.4"/>
-        <text x="{XFc+6}" y="{YT+16}" font-size="12" fill="#6B7280">F_krit = {Fcrit:.2f}</text>
-        <text x="{XF+6}"  y="{YT+32}" font-size="12" fill="#111827">F_hit = {Fcalc:.2f}</text>
-      </svg>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:6px;">
-        <span style="display:flex;align-items:center;gap:6px;font-size:12px;color:#374151;">
-          <span style="width:14px;height:14px;border-radius:3px;background:#9db4ff;border:1px solid rgba(0,0,0,.2);"></span> Non-Signifikan
-        </span>
-        <span style="display:flex;align-items:center;gap:6px;font-size:12px;color:#374151;">
-          <span style="width:14px;height:14px;border-radius:3px;background:#DCCCA3;border:1px solid rgba(0,0,0,.2);"></span> Signifikan (daerah kritis)
-        </span>
+
+    # ======= SVG utama + zoom =======
+    html = f"""
+    <div class="fade" style="display:flex;flex-wrap:wrap;gap:20px;justify-content:center;align-items:flex-start;">
+      <!-- Grafik utama -->
+      <div class="el-card" style="padding:18px 22px;max-width:none;flex:1;min-width:480px;">
+        <div style="font-weight:900;color:#111827;margin-bottom:8px;">📊 Distribusi F (α = {alpha:.2f})</div>
+        <svg viewBox="0 0 {W} {H}" width="100%" height="{H}">
+          <defs>
+            <linearGradient id="gL" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#9db4ff" stop-opacity="0.85"/>
+              <stop offset="100%" stop-color="#9db4ff" stop-opacity="0.35"/>
+            </linearGradient>
+            <linearGradient id="gR" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#DCCCA3" stop-opacity="0.95"/>
+              <stop offset="100%" stop-color="#CBB279" stop-opacity="0.75"/>
+            </linearGradient>
+          </defs>
+          <line x1="{PAD}" y1="{Y0}" x2="{W-PAD}" y2="{Y0}" stroke="#9CA3AF" stroke-width="1"/>
+          <path d="{areaL}" fill="url(#gL)"/>
+          <path d="{areaR}" fill="url(#gR)"/>
+          <path d="{path}" fill="none" stroke="#4A67E9" stroke-width="2.6"/>
+          <line x1="{XFc}" y1="{YT}" x2="{XFc}" y2="{Y0}" stroke="#CBB279" stroke-width="2" stroke-dasharray="5,5"/>
+          <line x1="{XF}" y1="{YT}" x2="{XF}" y2="{Y0}" stroke="#111827" stroke-width="2.4"/>
+          <text x="{XFc+6}" y="{YT+16}" font-size="12" fill="#6B7280">F_krit = {Fcrit:.2f}</text>
+          <text x="{XF+6}"  y="{YT+32}" font-size="12" fill="#111827">F_hit = {Fcalc:.2f}</text>
+        </svg>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:6px;">
+          <span style="display:flex;align-items:center;gap:6px;font-size:12px;color:#374151;">
+            <span style="width:14px;height:14px;border-radius:3px;background:#9db4ff;border:1px solid rgba(0,0,0,.2);"></span> Non-Signifikan
+          </span>
+          <span style="display:flex;align-items:center;gap:6px;font-size:12px;color:#374151;">
+            <span style="width:14px;height:14px;border-radius:3px;background:#DCCCA3;border:1px solid rgba(0,0,0,.2);"></span> Signifikan (daerah kritis)
+          </span>
+        </div>
+      </div>
+
+      <!-- Grafik zoom kanan -->
+      <div class="el-card" style="padding:18px 22px;flex:1;min-width:480px;">
+        <div style="font-weight:900;color:#111827;margin-bottom:8px;">🔍 Zoom Area Kritis (F &gt; F_krit)</div>
+        <svg viewBox="0 0 {W} {H}" width="100%" height="{H}">
+          <defs>
+            <linearGradient id="gZoom" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#DCCCA3" stop-opacity="0.95"/>
+              <stop offset="100%" stop-color="#CBB279" stop-opacity="0.75"/>
+            </linearGradient>
+          </defs>
+          <path d="{areaR}" fill="url(#gZoom)"/>
+          <path d="{path}" fill="none" stroke="#4A67E9" stroke-width="2.6"/>
+          <line x1="{XFc}" y1="{YT}" x2="{XFc}" y2="{Y0}" stroke="#CBB279" stroke-width="2" stroke-dasharray="5,5"/>
+          <line x1="{XF}" y1="{YT}" x2="{XF}" y2="{Y0}" stroke="#111827" stroke-width="2.4"/>
+          <text x="{XFc+6}" y="{YT+16}" font-size="12" fill="#6B7280">F_krit</text>
+          <text x="{XF+6}"  y="{YT+32}" font-size="12" fill="#111827">F_hit</text>
+        </svg>
+        <p style="font-size:12px;color:#374151;margin-top:4px;">Area zoom menampilkan fokus pada sisi kanan distribusi, menegaskan batas daerah kritis untuk keputusan uji.</p>
       </div>
     </div>
     """
-    components.html(html, height=H+180, scrolling=False)
+    components.html(html, height=H+200, scrolling=False)
 
 
 # -------------------------
