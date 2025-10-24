@@ -623,10 +623,10 @@ if menu == "Departemen PSDA":
             {
                 "nama": "Kharisma Mustika Sari",
                 "nim": "123450034",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "umur": "20",
+                "asal":"Way Kanan",
+                "alamat": "Untung",
+                "hobbi": "Scroll Tiktok",
                 "sosmed": "@rismaa.mustika_",
                 "kesan": "Kakak lucu seru",  
                 "pesan":"semangat terus kuliahnya kak!"# 1
