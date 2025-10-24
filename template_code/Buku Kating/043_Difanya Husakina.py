@@ -118,10 +118,10 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1lR5iM3C-cu91XJbKODMIHrW_7-ItsevY",
             "https://drive.google.com/uc?export=view&id=1Xcc1wn8tP_M6tFipQUuFzxUANKDIDwZH",
-            "https://drive.google.com/uc?export=view&id=1J1JDTkQ_gdCiTskAE4wjWqsOKKLEsBQI",
             "https://drive.google.com/uc?export=view&id=1Pzpsrgm1-YRlAzluz-BAGjtEyKbCJECU",
-            "https://drive.google.com/uc?export=view&id=1V1OoOcepglDtm5i-ooHtzHIJdBZxttYN",
             "https://drive.google.com/uc?export=view&id=1cwsbwUTnmRM2wKcf20TrQKsP8c67hk5l",
+            "https://drive.google.com/uc?export=view&id=1V1OoOcepglDtm5i-ooHtzHIJdBZxttYN",
+            "https://drive.google.com/uc?export=view&id=1J1JDTkQ_gdCiTskAE4wjWqsOKKLEsBQI",
         ]
         data_list = [
             {
@@ -289,8 +289,8 @@ if menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Liatin bang mirzan main kucing",
                 "sosmed": "@givarooo",
-                "kesan": "Abang terkece, terkeren, termantep, terbaik, terpinter, ter the best, tercare ama kelompoknya, ter ter ter semuaa",  
-                "pesan":"Jangan lupa istirahat bang, dijaga kesehatannya bang, makasih uda jadi mentor terbangett bagi Anova, kita bangga punya abang sebagai mentor, infokan discord with anova"# 1
+                "kesan": "Abang terkece, terkeren, termantep, terbaik, terpinter, ter the best, tercare ama kelompoknya, ter ter ter semuaa, mentor yang paling disayang Anova, pokoknya kalo bukan Bang Givaro gatau lah gimana nasib Anovapeeps inii, Anova sayang banget dah sama Bang Gipayo Chan ini, perhatian banget selalu nanyain kabar anak anak anova yang banyak gedebak gedebuknya ini, sering nanyain progres, selalu ngajak meet sama anova, tau kok kita kalo anovapeeps ini ngangenin, bener kata imel bang, Bang Gipayo sabar banget ngadepin kita, ga pernah marah, apa ga tambah sayang jona sama bang Givaro",  
+                "pesan":"Jangan lupa istirahat bang, dijaga kesehatannya bang, makasih uda jadi mentor terbangett bagi Anova, kita bangga punya abang sebagai mentor, jangan lupa makan bang, sedih loh aku sama yang lain bacain repostan tiktok Giv itu wkwk hehe, makasih banyak ya bang uda sabar ngadepin kita, mungkin kadang abang kesel ngadepin Anova yang banyak tingkah, tapi tingkahnya ga macem macem kok, Abang baik bangett, langgeng terus bya bang, Bang Givaro bakal selalu dikenang sama anovapeeps, infokan discord with anova dan yuk kapan kapan kita main benerann bukan cuma makan di tempat seblak huhu"# 1
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
@@ -623,10 +623,10 @@ if menu == "Departemen PSDA":
             {
                 "nama": "Kharisma Mustika Sari",
                 "nim": "123450034",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "umur": "20",
+                "asal":"Way Kanan",
+                "alamat": "Untung",
+                "hobbi": "Scroll Tiktok",
                 "sosmed": "@rismaa.mustika_",
                 "kesan": "Kakaknya seruu, keren jugaa",  
                 "pesan":"Semangat terus kak semester 5 nya, sukses terus kakk!"# 1
@@ -919,11 +919,11 @@ if menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "123450035",
+                "umur": "20",
+                "asal":"Pesawaran, Lampung",
+                "alamat": "Pesawaran, Lampung",
+                "hobbi": "Main piano dan nyanyi",
                 "sosmed": "@pebby_olla525",
                 "kesan": "Kak Fabiolla baik banget, asprak ter the best pokoknyaa",
                 "pesan":"Semangat terus ya kak kuliahnyaa, Jangan lupa bahagia selalu!"# 1
@@ -1823,7 +1823,7 @@ if menu == "Departemen Medkraf":
                 "hobbi": "Mendengarkan Musik",
                 "sosmed": "@naylasalsabilaa_",
                 "kesan": "Kak Nay lucukkk, super sibukk, asyikk, cantik, imupp, kerenn",  
-                "pesan":"Kak Nay jangan lupa istirahat, semangat terus km nya kakk, infokan closingan kak!"# 1
+                "pesan":"Kak Nay jangan lupa istirahat, semangat terus km nya kakak cantikkk, jangan lupa makan kakkk, infokan closingan kak!"# 1
             },
             {
                 "nama": "Sania Dwi Ayu Lestari",
@@ -1833,7 +1833,7 @@ if menu == "Departemen Medkraf":
                 "alamat": "Airan",
                 "hobbi": "Main Roblox",
                 "sosmed": "@saniayyllstr",
-                "kesan": "Kak Sania ter the bestt, cantik, imut, gemas, lucu, seru, keren",  
+                "kesan": "Kak Sania ter the bestt, cantik, imut, gemas, lucu, seru, keren, asyik jugaa",  
                 "pesan":"Bahagia selalu kak Saniaa, jangan lupa dijaga kesehatannyaa, langgeng terus ama abang tse kak hehe, info closingan!"# 1
             },
             {
