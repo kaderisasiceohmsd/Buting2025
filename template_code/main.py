@@ -89,7 +89,7 @@ st.markdown("""
     background: linear-gradient(to bottom, #FF6F00, #000080);
     background-size: 200% 200%;
     opacity: 0.9;
-    animation: gradientShift 30s ease-in-out infinite; /* Durasi diperpanjang menjadi 30 detik */
+    animation: gradientShift 20s ease-in-out infinite; /* Durasi diperpanjang menjadi 30 detik */
     z-index: -1;
 }
 
@@ -110,7 +110,7 @@ st.markdown("""
     font-weight: 500;
     position: relative;
     z-index: 1;
-    transition: color 0.8s ease, text-shadow 0.8s ease; /* Transisi lebih lambat */
+    transition: color 0.5s ease, text-shadow 0.8s ease; /* Transisi lebih lambat */
 }
 
 /* Efek hover untuk link */
