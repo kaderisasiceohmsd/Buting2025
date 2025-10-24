@@ -378,7 +378,7 @@ if menu == "Senator":
             },
             {
                 "nama": "Nadya Ratu Anjani",
-                "nim": "123450089",
+                "nim": "123450083",
                 "umur": "20",
                 "asal":"Jakarta",
                 "alamat": "Belakang Indomaret belwis",
@@ -400,7 +400,7 @@ if menu == "Senator":
             },
             {
                 "nama": "Lia Hana Ichisasmita ",
-                "nim": "123450083",
+                "nim": "123450089",
                 "umur": "20",
                 "asal":"Bandar Lampung",
                 "alamat": "Sukarame",
@@ -447,10 +447,10 @@ if menu == "Departemen PSDA":
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "122450107",
-                "umur": "",
-                "asal": "",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "21",
+                "asal": "Medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "Abangnya positive vibes dan sangat berwibawa",
                 "pesan": "Lancar selalu untuk kuliah dan kariernya bang"
