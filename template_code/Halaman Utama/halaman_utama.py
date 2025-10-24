@@ -83,7 +83,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "#3FBAD8"},
+            "nav-link-selected": {"background-color": "#FF6F00"},
         },
     )
     return selected
@@ -99,8 +99,23 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+            "<h1 class='centered-title'>𝑫𝗲𝑠𝙠𝑟𝒊𝒑𝘀𝗶 𝐊𝑒𝙡𝑜𝑚𝙥𝑜𝗸</h1>", unsafe_allow_html=True
         )
+        st.markdown(
+            """<div style="text-align: center;">
+            𝑔𝑜 𝑡𝑒𝑛𝑠𝑜𝑟<br>
+            𝑔𝑜 𝑔𝑜 𝑔𝑜<br>
+            𝑤𝑒 𝑎𝑟𝑒 𝑡ℎ𝑒 𝑜𝑛𝑒 𝑜𝑛𝑒 𝑡𝑒𝑛𝑠𝑜𝑟 𝑜𝑛𝑒<br>
+            𝑤𝑒 𝑎𝑟𝑒 𝑡ℎ𝑒 𝑔𝑜 𝑔𝑜 𝑡𝑒𝑛𝑠𝑜𝑟 𝑔𝑜<br>
+            𝑤𝑒 𝑎𝑟𝑒 𝑡ℎ𝑒 𝑜𝑛𝑒 𝑜𝑛𝑒 𝑜𝑛𝑒<br>
+            𝑤𝑒 𝑎𝑟𝑒 𝑡ℎ𝑒 𝑔𝑜 𝑔𝑜 𝑔𝑜<br>
+            𝑊𝑒 𝑎𝑟𝑒 𝑡ℎ𝑒, 𝑇𝑒𝑛𝑠𝑜𝑟
+            </div>""",
+            unsafe_allow_html=True
+        )
+        st.write(""" """)
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1_04qOrTrYwchG0l_31HVqCvU9QwfBLei"
+        layout(foto_kelompok)
         st.markdown(
             """<div style="text-align: justify;">Kelompok 1 Tensor bukan hanya sekelompok nama, kami adalah simpul keakraban dan keharmonisan. 
             Nama Tensor sendiri melambangkan kekuatan yang menyatukan berbagai elemen, dan itulah yang kami lakukan. Di sini, setiap individu dihargai, 
@@ -108,18 +123,6 @@ if menu == "Home":
             canggung. Kami percaya bahwa kaderisasi terbaik lahir dari kebersamaan yang solid. Kami belajar, berdiskusi, dan berproses dengan semangat 
             saling dukung dan gotong royong. Kelompok Tensor adalah bukti nyata bahwa ketika kita selaras, proses belajar pun terasa ringan dan 
             penuh makna.</div>""",
-            unsafe_allow_html=True,
-        )
-        st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
-        layout(foto_kelompok)
-        st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -135,18 +138,18 @@ elif menu == "About Us":
         )
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Andra
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Aisyah
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Aliya
+            "https://drive.google.com/uc?export=view&id=1cH_4xLVVySDkjafokPLl4c7OCslSFOK7", #Della
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Elsa
+            "https://drive.google.com/uc?export=view&id=1-8b-WLrqBEMIkPIYROpuPfILcIgii7zG", #Favian
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Felisya
+            "https://drive.google.com/uc?export=view&id=19rya7Zkzck08XZf82EBAN4lWtMBxhA_f", #Ghiyat
+            "https://drive.google.com/uc?export=view&id=1gX1RV6SsMhWp1XVrI2-K71MKNRCHhlDd", #Lutfi
+            "https://drive.google.com/uc?export=view&id=1STo9XNgWn-WbbwlvaipBo79sf-GZtEX-", #Nazlah
+            "https://drive.google.com/uc?export=view&id=15CBRRE1N-puql9vHfJRm27UoCoGYGp9E", #Razan
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Rozak
         ]
         data_list = [
             {
@@ -174,22 +177,22 @@ elif menu == "About Us":
                 "nama": "Della",
                 "sebagai": "Anggotaa",
                 "nim": "122450000",
-                "fun_fact": "nyemilin",
-                "motto_hidup": "jalanin dulu aja",
+                "fun_fact": "suka membayangkan domba lompat pager kalo mau tidur ,biar cepet tidur",
+                "motto_hidup": "jalanin yang membuatmu bahagia dengan sebaik baiknya",
             },
             {
                 "nama": "Elsa",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "122450088",
+                "fun_fact": "Makan sayur tapi, ga makan tangkainya",
+                "motto_hidup": "Untuk segala sesuatu ada masanya, untuk apa pun di bawah langit ada waktunya.",
             },
             {
                 "nama": "Favian",
-                "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "sebagai": "Anggotaa paling cool abiezzz",
+                "nim": "124450021",
+                "fun_fact": "Suka berdialog sama diri sendiri",
+                "motto_hidup": "anything that happens to you, tetaplah jadi manusia yang baik",
             },
             {
                 "nama": "Felisya",
@@ -199,11 +202,11 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "Ghiyat",
+                "nama": "Ghiyats",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "fun_fact": "apapun game yang dimainin pasti bagus",
+                "motto_hidup": "yang penting hidup dulu",
             },
             {
                 "nama": "Lutfi",
@@ -216,15 +219,15 @@ elif menu == "About Us":
                 "nama": "Nazlah Auliya",
                 "sebagai": "Anggotaa",
                 "nim": "124450054",
-                "fun_fact": "Suka Kucing tapi gasuka kucing kecil",
-                "motto_hidup": "tebarlah kebaikan maka ia akan kembali kepadamu",
+                "fun_fact": "susah hapalin nama orang baru",
+                "motto_hidup": "tebarkan kebaikan maka ia akan kembali padamu",
             },
             {
                 "nama": "Razan",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450031",
+                "fun_fact": "Sudah pernah main salju",
+                "motto_hidup": "Tidak semua bisa dimiliki, tapi semuanya bisa di syukuri",
             },
             {
                 "nama": "Rozak",

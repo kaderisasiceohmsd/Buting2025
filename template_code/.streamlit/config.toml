@@ -1,5 +1,6 @@
 [theme]
-primaryColor="#146c94"
-backgroundColor="#f6f1f1"
-secondaryBackgroundColor="#19a7ce"
-textColor="#000000"
+primaryColor="#FF6F00"       # Oranye sebagai warna utama
+backgroundColor="#fff0e6"    # Oranye sangat pucat untuk background
+secondaryBackgroundColor="#ffffff"  # Putih untuk widget
+textColor="#000000"          # Hitam untuk teks
+font="sans serif"
