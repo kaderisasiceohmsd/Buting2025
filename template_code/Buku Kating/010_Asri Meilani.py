@@ -468,22 +468,22 @@ if menu == "Departemen PSDA":
         data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "haiii",
+                "nim": "122450107",
+                "umur": "21",
+                "asal":"Medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "keren banget bang ferdy, panutaan",  
                 "pesan":"semangat terus bang kadep, semoga sukses selalu!"# 1
             },
             {
                 "nama": "Nisrina Nur Afifah",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "122450122",
+                "umur": "20",
+                "asal":"Bekasi",
+                "alamat": "Korpri Sukarame",
+                "hobbi": "jajan",
                 "sosmed": "@afifahhnsrn",
                 "kesan": "kakaknya cantik bangettt dari awal ngeliatin langsung WOW, muka nya bener bener sebersinar ituuu",  
                 "pesan":"semangat teruss kaa, sukses selaluu, dan have a nice day yaaaa"# 1
@@ -742,15 +742,15 @@ if menu == "Departemen PSDA":
                 "pesan":"semangat teruss bang, semoga sukses selaluuuu!"# 1
             },
             {
-                "nama": "-",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
-                "sosmed": "@-",
-                "kesan": "-",  
-                "pesan":"T-"# 1
+                "nama": "Rewina Audriya Melva Sari",
+                "nim": "123450049",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Way Kandis",
+                "hobbi": "Liat Shopee tapi ga beli",
+                "sosmed": "@rewinanaaa",
+                "kesan": "PENDIAAMM KAKAKNYA TAPI LUCUU",  
+                "pesan":"SEMANGAT TERUS KULIAHNYAAAA KAK!!!!"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
