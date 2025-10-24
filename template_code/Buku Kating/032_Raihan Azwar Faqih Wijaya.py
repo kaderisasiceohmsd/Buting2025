@@ -99,43 +99,79 @@ menu = streamlit_menu()
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1TSyHHWoUzpdjDeBs80SK3s6qwyghnVp6",
+            "https://drive.google.com/uc?export=view&id=1TQzFLPdqoNg7bMoh-d6byQdevBT2wMPq",
+            "https://drive.google.com/uc?export=view&id=1TyhKWcYQsj8UZ6oKSn50MIjf_tRgw5nD",
+            "https://drive.google.com/uc?export=view&id=1Tdldv334XqvgSC8HyqtpbCgDytVSLbsF",
+            "https://drive.google.com/uc?export=view&id=1TxIDHCRQPN6ple5QqKFyLvDCxEDFho-w",
+            "https://drive.google.com/uc?export=view&id=1TqlF-h5Um_FW6DnYn8TIBCAKDenp1VAp",
         ]
         data_list = [
             {
-                "nama": "Kakak A",
-                "nim": "122450000",
-                "umur": "18",
+                "nama": "Rendra Eka Prayoga",
+                "nim": "122450112",
+                "umur": "21",
                 "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "alamat": "Pulau Damar",
+                "hobbi": "beli donat kentang",
+                "sosmed": "@_erendraa",
+                "kesan": "Orangnya berkharisma dan public speaking nya bagus",  
+                "pesan":"Tetap semangat dalam menjabat. Maaf gua gak bisa lanjutin jejak lu sebagai staff harmon"# 1
             },
             {
-                "nama": "Kakak B",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Johannes Krisjon Silitonga",
+                "nim": "122450043",
+                "umur": "20",
+                "asal":"Tanggerang",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "Baca buku SQL",
+                "sosmed": "@johanneskrisjnnn",
+                "kesan": "Ada-ada aja. setiap ketemu selalu aja ada yang bisa diketawain. Humble dan sangat asik diajak ngobrol",  
+                "pesan":"Selalu ajarin adek-adek nya supaya Sains Data selalu punya orang yang kek elu bang."# 1
             },
             {
-                "nama": "Kakak CCc",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "nama": "Elisabeth Claudia Simanjuntak",
+                "nim": "122450123",
+                "umur": "24",
+                "asal":"Baduy dalem",
+                "alamat": "Airest Kost",
+                "hobbi": "Makan kuaci",
+                "sosmed": "@celisabethh",
+                "kesan": "Baik, humble, dan easy going banget",  
+                "pesan":"Semoga semua hal baik terus ngikutin kakak!"# 1
+            },
+            {
+                "nama": "Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "21",
+                "asal":"Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Membaca",
+                "sosmed": "@puspadrr",
+                "kesan": "Ramah dan selalu ngasih vibes positif",  
+                "pesan":"Semoga ke depan makin banyak hal baik yang datang!"# 1
+            },
+            {
+                "nama": "Eksanty F. Sukma Islamiaty",
+                "nim": "122450001",
+                "umur": "21",
+                "asal":"Wakatobi, Sulawesi Tenggara",
+                "alamat": "Mutun, Pesawaran",
+                "hobbi": "Ngomenin tiktok cewe cantik",
+                "sosmed": "@eksantyfebriana",
+                "kesan": "Kakak keren dan bijak banget",  
+                "pesan":"Semoga semua hal baik terus ngikutin kakak!"# 1
+            },
+            {
+                "nama": "Farahanum Afifah Ardiansyah",
+                "nim": "122450056",
+                "umur": "21",
+                "asal":"Padang, Sumbar",
+                "alamat": "Gya Kost Korpri",
+                "hobbi": "Cute Jenderal",
+                "sosmed": "@farahanumafifah",
+                "kesan": "",  
+                "pesan":" "# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
