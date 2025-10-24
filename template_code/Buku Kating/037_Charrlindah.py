@@ -1266,8 +1266,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "b.lampung",
                 "hobbi": "baca",
                 "sosmed": "@syahrialdi_rchmnim",
-                "kesan": "bangg Syahrialdi pinter dan asik banget diajak ngobrol.",
-                "pesan": "Jangan capek berbagi ilmu, bang. Keren banget!"
+                "kesan": "bangg aldi asikkk ga sihh pasti",
+                "pesan": "Jangan capek berbagi ilmu, bang. tetep jaga kesehatan"
             },
             {
                 "nama": "Lutfia Aisyah Putri",
@@ -1288,7 +1288,7 @@ if menu == "Departemen Eksternal":
                 "alamat": "Jalan Lapas Raya",
                 "hobbi": "Jalan - Jalan",
                 "sosmed": "@bylaash",
-                "kesan": "Kak Nabyla cheerful banget dan gampang bikin orang nyaman.",
+                "kesan": "Kak Nabyla cheerful banget dan cantik bangettt hihi",
                 "pesan": "Semoga makin sukses dan bahagia terus, Kak!"
             },
             {
@@ -1337,7 +1337,7 @@ if menu == "Departemen Internal":
                 "hobbi": "Mengaji",
                 "sosmed": "@rannipu",
                 "kesan": "kereeenn banget kak Rani, sabar dan telaten dalam menjalankan tugasnya yaaa kak ",
-                "pesan":"Semoga kakak selalu bisa menjadi perekat bagi kami semua. Semangat terus!"
+                "pesan":"Semoga kakak selalu bisa menjadi perekat bagi kami semua, jaga kesehatan yaa kak"
             },
             {
                 "nama": "Renta Siahaan",
@@ -1347,8 +1347,8 @@ if menu == "Departemen Internal":
                 "alamat": "Gerbang Barat",
                 "hobbi": "Memancing",
                 "sosmed": "@renta.shn",
-                "kesan": "Terima kasih sudah membuat suasana internal himpunan menjadi hangat dan nyaman.",
-                "pesan":"Teruslah jaga kehangatan dan kekeluargaan di himpunan kita, Kak."
+                "kesan": "kakk kerenn suka mancing karna aku takut ikan hehe",
+                "pesan":"jagaa kesehatan jangan lupa makan yaa kak"
             },
             {
                 "nama": "Salwa Farhanatussaidah",
@@ -1358,8 +1358,8 @@ if menu == "Departemen Internal":
                 "alamat": "Airan",
                 "hobbi": "Memanah",
                 "sosmed": "@salwa_fhn",
-                "kesan": "Kemampuan kakak dalam menjaga soliditas tim internal sangat luar biasa.",
-                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal kita, Kak!"
+                "kesan": "wihhh kak keren banget bisa memanah gituu",
+                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal Kak!"
             },
             {
                 "nama": "Rendi Alexander Hutagalung",
@@ -1369,8 +1369,8 @@ if menu == "Departemen Internal":
                 "alamat": "Airan",
                 "hobbi": "Menyanyi",
                 "sosmed": "@rexanderr",
-                "kesan": "Selalu menjadi penengah dan penguat bagi kami semua di internal.",
-                "pesan":"Terima kasih telah menjadi garda terdepan untuk keharmonisasian kami."
+                "kesan": "mauu denger bang rendi nyanyii",
+                "pesan":"Terima kasih telah menjadi garda terdepan untuk kerohanian "
             },
             {
                 "nama": "Hanna Grecia Sinaga",
@@ -1380,7 +1380,7 @@ if menu == "Departemen Internal":
                 "alamat": "Pemda",
                 "hobbi": "Melihat cicak",
                 "sosmed": "@hanna_g_sinaga",
-                "kesan": "Kakak sangat peduli dengan keakraban dan kesejahteraan anggota.",
+                "kesan": "Kakak lucuuu bangetttt, baik bangett gatakut cicak lagi",
                 "pesan":"Semoga kakak selalu bisa menjadi perekat bagi kami semua. Semangat terus!"
             },
             {
@@ -1391,7 +1391,7 @@ if menu == "Departemen Internal":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Baking",
                 "sosmed": "@iqfinahalikaa_",
-                "kesan": "Terima kasih sudah membuat suasana internal himpunan menjadi hangat dan nyaman.",
+                "kesan": "kaakk baik sekali, mau dong hasil baking nya",
                 "pesan":"Teruslah jaga kehangatan dan kekeluargaan di himpunan kita, Kak."
             },
             {
@@ -1402,8 +1402,8 @@ if menu == "Departemen Internal":
                 "alamat": "Kota Baru",
                 "hobbi": "Balapan",
                 "sosmed": "@haikalsbln_",
-                "kesan": "Kemampuan kakak dalam menjaga soliditas tim internal sangat luar biasa.",
-                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal kita, Kak!"
+                "kesan": "bang haikall keren banget bang",
+                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal bang, jaga kesehatan juga"
             },
             {
                 "nama": "Zailani Satria",
@@ -1413,7 +1413,7 @@ if menu == "Departemen Internal":
                 "alamat": "Rajabasa",
                 "hobbi": "Olahraga",
                 "sosmed": "@zailanisatria",
-                "kesan": "Selalu menjadi penengah dan penguat bagi kami semua di internal.",
+                "kesan": "baikkk banget asikk juga bang",
                 "pesan":"Terima kasih telah menjadi garda terdepan untuk kesejahteraan kami."
             },
             {
@@ -1424,7 +1424,7 @@ if menu == "Departemen Internal":
                 "alamat": "Urip",
                 "hobbi": "Berkuda",
                 "sosmed": "@may_dahlia12",
-                "kesan": "Kakak sangat peduli dengan keakraban dan kesejahteraan anggota.",
+                "kesan": "cantikkk kakakk, baik bangett",
                 "pesan":"Semoga kakak selalu bisa menjadi perekat bagi kami semua. Semangat terus!"
             },
             {
@@ -1435,8 +1435,8 @@ if menu == "Departemen Internal":
                 "alamat": "Asrama TB4",
                 "hobbi": "Memasak",
                 "sosmed": "@azza.rrr_",
-                "kesan": "Terima kasih sudah membuat suasana internal himpunan menjadi hangat dan nyaman.",
-                "pesan":"Teruslah jaga kehangatan dan kekeluargaan di himpunan kita, Kak."
+                "kesan": "Kak Azzahra ramah dan gampang diajak ngobrol ya",
+                "pesan":"Teruslah jaga kehangatan dan kekeluargaan di himpunan Kak."
             },
             {
                 "nama": "Sarah Wasti",
@@ -1446,8 +1446,8 @@ if menu == "Departemen Internal":
                 "alamat": "Tanjung Senang",
                 "hobbi": "Bermain alat musik",
                 "sosmed": "@sarahwsti",
-                "kesan": "Kemampuan kakak dalam menjaga soliditas tim internal sangat luar biasa.",
-                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal kita, Kak!"
+                "kesan": "kaakk cantikk sekali ramah juga hihi",
+                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal Kak!"
             },
             {
                 "nama": "Keren Marito Lumban Gaol",
@@ -1457,7 +1457,7 @@ if menu == "Departemen Internal":
                 "alamat": "Way Hui Pemda",
                 "hobbi": "Main musik",
                 "sosmed": "@kerenmrtv",
-                "kesan": "Selalu menjadi penengah dan penguat bagi kami semua di internal.",
+                "kesan": "kakk keren cantik banget cii kaaa",
                 "pesan":"Terima kasih telah menjadi garda terdepan untuk kesejahteraan kami."
             },
             {
@@ -1479,8 +1479,8 @@ if menu == "Departemen Internal":
                 "alamat": "Rajabasa",
                 "hobbi": "Mengaji",
                 "sosmed": "@rannipu",
-                "kesan": "Terima kasih sudah membuat suasana internal himpunan menjadi hangat dan nyaman.",
-                "pesan":"Teruslah jaga kehangatan dan kekeluargaan di himpunan kita, Kak."
+                "kesan": "abang nya baikk bangettt and ramahh",
+                "pesan":"Teruslah jaga kehangatan dan kekeluargaan di himpunan, bang"
             },
             {
                 "nama": "Zahra Putri Salsabilla",
@@ -1491,7 +1491,7 @@ if menu == "Departemen Internal":
                 "hobbi": "Memancing",
                 "sosmed": "@renta.shn",
                 "kesan": "Kemampuan kakak dalam menjaga soliditas tim internal sangat luar biasa.",
-                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal kita, Kak!"
+                "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal"
             }
         ]
         display_images_with_data(gambar_urls, data_list)
