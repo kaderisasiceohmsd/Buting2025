@@ -1327,7 +1327,7 @@ if menu == "Departemen Internal":
         ]
         data_list = [
             {
-                 "nama": "Rani Puspita Sari",
+                "nama": "Rani Puspita Sari",
                 "nim": "122450030",
                 "umur": "21",
                 "asal": "Surabaya",
@@ -1492,7 +1492,7 @@ if menu == "Departemen Internal":
                 "sosmed": "@zhrptsl",
                 "kesan": "Kakaknya sangat mengayomi dan baik",
                 "pesan": "cepat bergelar kak"
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     internal()
