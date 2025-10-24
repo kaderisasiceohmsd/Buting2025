@@ -740,9 +740,9 @@ if menu == "Departemen PSDA":
 if menu == "Departemen MIKFES":
     def Departemen_MIKFES():
         gambar_urls = [
-             "https://drive.google.com/uc?export=view&id=15xhrzNCkgpbW1t4IHVVxRbpgPGlpvCJ4",
-            "https://drive.google.com/uc?export=view&id=1x9Q_c98WfZl-PqzovOxYWMXyhGEgTHxr",
-            "https://drive.google.com/uc?export=view&id=1ri9KYnY3eyfTUyLSaGe7tgyrmcA__dZw",
+             "https://drive.google.com/uc?export=view&id=1bolK1Phd9OkupfU8FQtaRVd2lNlInbao",
+            "https://drive.google.com/uc?export=view&id=12MOZ8TAE98NAIZzfuD2IRA4xq_U1x0f2",
+            "https://drive.google.com/uc?export=view&id=1yv6Sb9vigS3Gq6V8weT69sN7PuyH2Njy",
             "https://drive.google.com/uc?export=view&id=1vxIXP-WvopBEs_5USWGnsJsv45qLjpKh",
             "https://drive.google.com/uc?export=view&id=1NhYILheq_A4UG0MCOZfGVIA-UaletI0r",
             "https://drive.google.com/uc?export=view&id=1KUaxAFH-qrytc_CptZtU2Lub6Zmcpaoj",
