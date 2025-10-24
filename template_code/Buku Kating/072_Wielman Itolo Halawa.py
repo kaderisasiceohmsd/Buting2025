@@ -1639,9 +1639,9 @@ if menu == "Departemen Medkraf":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1aXw2G1iFlNfxxarID_vz708d-bssDICQ",
             "https://drive.google.com/uc?export=view&id=1W3u6U2SY0vxZI4LQ-3ybuoO0APhMqfvK",
-            "https://drive.google.com/uc?export=view&id=11jQznbsU7nk4dKJyXkRdAas-LuddR1FQd",
+            "https://drive.google.com/uc?export=view&id=1jQznbsU7nk4dKJyXkRdAas-LuddR1FQd",
             "https://drive.google.com/uc?export=view&id=1Z9htzCt6S6x-LWuB-QvnNcrWuffoTWtZ",
-            "https://drive.google.com/uc?export=view&id=1V5dO9wOCwrqrh3xF-wZcJCpzYw5FSknY",
+            "https://drive.google.com/uc?export=view&id=1b7Tz7TUcSAIXi8owXmAHVBNztYXYhbO8",
             "https://drive.google.com/uc?export=view&id=1cBkxD2vFCcPntrLHpxiuvbHX9O72DH6A",
             "https://drive.google.com/uc?export=view&id=1XnjAUTnIzcqA2sNYUlIDbXlg1lMMuFA-",
             "https://drive.google.com/uc?export=view&id=1TxhzHkDrYtJ9iNu4SLFF6orSvtXgcb4b",
@@ -1649,12 +1649,13 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1crndBDEIgPu07v7sZGowFPn8lRe94WEz",
             "https://drive.google.com/uc?export=view&id=1UcLAj5qKPgVU1HF7RGgRgOqf_b2lSVWQ",
             "https://drive.google.com/uc?export=view&id=1X-XIhOfeeB8-v2vty5kuF5XhXmj0Mekw",
+            "https://drive.google.com/uc?export=view&id=1_0zI0O-wg3THiMpoLaNiiVrZQcWsqIz8",
             "https://drive.google.com/uc?export=view&id=1Vn4LRET-HY0sKAivltNnAcrbwPoSuSJB",
             "https://drive.google.com/uc?export=view&id=1VO4u-meQXUnhZDv6bfCYxH_POqGvNdQi",
             "https://drive.google.com/uc?export=view&id=1_vhGTK9ya3RZCC-7K4dALyXZ7BKFXQWn",
             "https://drive.google.com/uc?export=view&id=1_uKR5t9Q2bdAyPwCYdg3-L-A6VJy08tu",
             "https://drive.google.com/uc?export=view&id=1YaGy2yc1GGEaI9zJgroUZtmbWsG9kPYA",
-            "https://drive.google.com/uc?export=view&id=1_0zI0O-wg3THiMpoLaNiiVrZQcWsqIz8",
+    
         ]
         data_list = [
             {
@@ -1783,9 +1784,9 @@ if menu == "Departemen Medkraf":
                 "nim": "123450041",
                 "umur": "19",
                 "asal":"Lampung Tengah",
-                "Alamat: Airan Raya 1"
-                "Hobbi: Menulis, membaca, memasak"
-                "Sosial Media: @nltg._"
+                "alamat": "Airan Raya 1",
+                "hobbi" : "Menulis, membaca, memasak",
+                "sosmed" : "@nltg._",
                 "kesan": "kakaknya ramah dan asik diajak ngobrol",  
                 "pesan":"jaga kesehatannya kak, semangat kuliahnya"
             },
@@ -1799,6 +1800,61 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@mananam_",
                 "kesan": "abangnya asik dan humoris",  
                 "pesan":"semangat perkuliahannya bang, semangat"
+            },
+            {
+                "nama": "Sania Dwi Ayu Lestari",
+                "nim": "123450086",
+                "umur": "20",
+                "asal":"Karawang",
+                "alamat": "Airan",
+                "hobbi": "Main roblox",
+                "sosmed": "@saniayyllstr",
+                "kesan": "tegas, baik dan perhatian",  
+                "pesan":"semangat terus kak, jaga kesehatan selalu, info map robloks", 
+            },
+            {
+                "nama": "Nayla Salsabila Fathianisa",
+                "nim": "123450082",
+                "umur": "20",
+                "asal":"Payakumbuh, Sumatera Barat",
+                "alamat": "Jl. Lapas Raya, Jati Agung",
+                "hobbi": "Dengerin musik",
+                "sosmed": "@naylasalsabilaa",
+                "kesan": "kakaknya asik dan ramah",  
+                "pesan":"bahagia selalu teman_teman"
+            },
+            {
+                "nama": "Akmal Faiz Abdilah ",
+                "nim": "122450114",
+                "umur": "21",
+                "asal":"Bandar Lampung",
+                "alamat": "Griya Sukarame",
+                "hobbi": "Main Hp",
+                "sosmed": "@_akmal.faiz",
+                "kesan": "abangnya keliatan pinter banget, jago ngedit",  
+                "pesan":"semoga bisa menjadi inspirasi buat adik-adik tingkat bang"
+            },
+            {
+                "nama": "Dona Maya Puspita",
+                "nim": "123450028",
+                "umur": "20",
+                "asal":"Bekasi",
+                "alamat": "Way Huwi",
+                "hobbi": "Mendengar musik",
+                "sosmed": "@donamaya.p",
+                "kesan": "kakaknya pinter banget, akrab dan seru",  
+                "pesan":"tetap tersenyum kak"
+            },
+            {
+                "nama": "Labo Napitupulu",
+                "nim": "123450037",
+                "umur": "20",
+                "asal":"Medan",
+                "alamat": "Gg.sakum",
+                "hobbi": "Motoran",
+                "sosmed": "@noe_rruuu",
+                "kesan": "kerenn abangnya, PDD sejati",  
+                "pesan":"semangat terus bang, jaga kesehatan yaa"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
