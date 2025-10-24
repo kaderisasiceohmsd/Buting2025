@@ -103,7 +103,7 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=1Dl0mMA59pqJURkgqckrKFKjEya71CW-B",#2
             "https://drive.google.com/uc?export=view&id=1BTrI5ooalrYQFJWSM77gRoqUVbt8Tjjd",#3
             "https://drive.google.com/uc?export=view&id=1fajnHNJQr555X3wIgoctGAFM8pbQjEMQ",#4
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",#5 kosong
+            "https://drive.google.com/uc?export=view&id=1r5mSildwsO3T5wJ8YVx62BVR1I8cwpIE",#5 kosong
             "https://drive.google.com/uc?export=view&id=1_4PkCRSFwId69_ZiuD1ZjchlZbyI5mkw",#6
         ]
         data_list = [
@@ -183,14 +183,14 @@ elif menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1PX4eHc9nB1S7eBsIY6LoD8xoNqAMyVKt",#2
             "https://drive.google.com/uc?export=view&id=1jSCDLzvp0pSg1rX59W_4XBed_IEQunDg",#3
             "https://drive.google.com/uc?export=view&id=1dDTS8K4SXel7qwngykl-kRvTKztApFPI",#4
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",#5 kosong
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",#6 kosong
+            "https://drive.google.com/uc?export=view&id=1xfzMvdlwkNgYh_D0lkHrM3aCcIC6dCfR",#5 
+            "https://drive.google.com/uc?export=view&id=1k_r__QlBHtBoNkQRSYUj8lTwlyt67_xj",#6 
             "https://drive.google.com/uc?export=view&id=1kgTgww2z0ti1zxqxSuInnve344xRrSMe",#7
             "https://drive.google.com/uc?export=view&id=1cBsr4GWSA9jrO8OEksTkKDJpXXTGrUxQ",#8
             "https://drive.google.com/uc?export=view&id=1E2wti1CQeKHIdOTJtWgxw758PWPmD8KZ",#9
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",#10 kosong
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",#10kosong
             "https://drive.google.com/uc?export=view&id=141Zbqnyhfpmsvon6s4lWHCUALDDqzOFH",#11
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",#12 kosong
+            "https://drive.google.com/uc?export=view&id=1X1vnGHmk2knQIZZHAd2oeDQ2z5fMVkwZ",#12
             "https://drive.google.com/uc?export=view&id=1jyNNanChittd51MSh_zRskyGYQP2uEQs",#13
             "https://drive.google.com/uc?export=view&id=109sHDuK9-pJnLkzUxRl9hPfckX8Qr9J8",#14
         ]
@@ -420,7 +420,7 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1YoLsMRiiv6axzqo8XIhAseaGHjX50y6a",#7
             "https://drive.google.com/uc?export=view&id=1iayk6BeXBCDBw6qEC3Dysh9jjIc9PBVM",#8
             "https://drive.google.com/uc?export=view&id=1uZYoEbuyonX4vXqFZtKeFP9Z9LDxgPwG",#9 
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",#10 kosong
+            "https://drive.google.com/uc?export=view&id=1_EH-ljUi4Q2TDdDsGkAlaZI1epFR9a08",#10
             "https://drive.google.com/uc?export=view&id=1R8714ERP-THQnhRobautiTmsDVfEWrzn",#11
             "https://drive.google.com/uc?export=view&id=1qR9TSGFTI5ylAHGV0c7zUp6AHELA-dcC",#12
             "https://drive.google.com/uc?export=view&id=1hR4Pjs2bkMwrH3OP_p-DngbPMLy7dEt5",#13
@@ -433,7 +433,7 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1LDGMpNLthJY59BYp1AiSYVMC6GRcfkdW",#20
             "https://drive.google.com/uc?export=view&id=1rB1QXVBpJuPAk6izcxZiffqfWSVNhr7g",#21
             "https://drive.google.com/uc?export=view&id=1uAhKqVmL-CZK2WdeaSIch1Ut7ZmhHyb9",#22
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",#23 kosong
+            "https://drive.google.com/uc?export=view&id=1LYQlBOnohfkRMryK5EZwI1pdFHdTnHdR",#23
             "https://drive.google.com/uc?export=view&id=1jTGKEJpm4jRryobu2SipHytdWSRh0lBD",#24
             "https://drive.google.com/uc?export=view&id=1chIs3uynOyFcsUg0gDteOvEVzKoc7juu",#25
             "https://drive.google.com/uc?export=view&id=1AKDWaE4fBUiH1J7s3vWgH2bLKiRm3aJx",#26
@@ -1952,268 +1952,125 @@ elif menu == "Departemen Medkraf":
         ]
         data_list = [
             {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Danang Hilal Kurniawan",
+                "nim": "122450085",
+                "umur": "22",
+                "asal":"Bandar Lampung",
+                "alamat": "Belakang PB",
+                "hobbi": "Jogging",
+                "sosmed": "@dananghk_",
                 "kesan": "",  
                 "pesan":""# 1
             },
             {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Syalaisha Andina Putriansyah",
+                "nim": "122450021",
+                "umur": "22",
+                "asal":"Tanggerang",
+                "alamat": "Sukarame",
+                "hobbi": "Baca Novel",
+                "sosmed": "@syalaishaa_31",
                 "kesan": "",  
                 "pesan":""# 2
             },
             {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Ahmad Rizqi",
+                "nim": "122450138",
+                "umur": "20",
+                "asal":"Padang",
+                "alamat": "Airan",
+                "hobbi": "Beli parfum",
+                "sosmed": "@den_iki__",
                 "kesan": "",  
                 "pesan":""# 3
             },
             {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Anadia Carana",
+                "nim": "123450019",
+                "umur": "20",
+                "asal":"Palembang",
+                "alamat": "Lampung Selatan",
+                "hobbi": "Jogging",
+                "sosmed": "@anadiacrn_",
                 "kesan": "",  
                 "pesan":""# 4
             },
             {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Aprilia Dewi Hutapea",
+                "nim": "123450040",
+                "umur": "20",
+                "asal":"Lampung Selatan",
+                "alamat": "Lampung Selatan",
+                "hobbi": "Nonton Drama Short di fb",
+                "sosmed": "@aprhtp_",
                 "kesan": "",  
                 "pesan":""# 5
             },
             {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Nabila Zakiyah Zahra",
+                "nim": "122450139",
+                "umur": "21",
+                "asal":"Bandar Lampung",
+                "alamat": "Way Halim",
+                "hobbi": "Jogging",
+                "sosmed": "@nabila_zazahra",
                 "kesan": "",  
                 "pesan":""# 6
             },
             {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Dhafin Razaqa Luthfi",
+                "nim": "122450133",
+                "umur": "21",
+                "asal":"Bandar Lampung",
+                "alamat": "Sukarame",
+                "hobbi": "Belajar",
+                "sosmed": "@dhafinrzqa13",
                 "kesan": "",  
                 "pesan":""# 7
             },
             {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Devi Rahayu",
+                "nim": "123450010",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Way Kandis",
+                "hobbi": "Nonton drakor",
+                "sosmed": "@deviirhyu",
                 "kesan": "",  
                 "pesan":""# 8
             },
             {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Enggli Rahmadhani",
+                "nim": "123450043",
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "Gg.Perwira 2",
+                "hobbi": "Menonton alur cerita film",
+                "sosmed": "@englirahmdhnii",
                 "kesan": "",  
                 "pesan":""# 9
             },
             {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Hanifah Inaya Sani",
+                "nim": "123450123",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Korpri",
+                "hobbi": "Masak",
+                "sosmed": "@_inayasani",
                 "kesan": "",  
                 "pesan":""# 10
             },
             {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nama": "Ndya Manda Putri",
+                "nim": "123450018",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Tanjung Karang",
+                "hobbi": "Main",
+                "sosmed": "@nydiaaptr_",
                 "kesan": "",  
                 "pesan":""# 11
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 12
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 13
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 14
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 15
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 16
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 17
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 18
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 19
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 20
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 21
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 22
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 23
-            },
-            {
-                "nama": "",
-                "nim": "122450xxx",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 24
             },
         ]
         display_images_with_data(gambar_urls, data_list)
