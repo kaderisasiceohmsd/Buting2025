@@ -1662,8 +1662,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Jatimulyo",
                 "hobbi": "Sleep call",
                 "sosmed": "@patriciadiajeng",
-                "kesan": "Kak ciaa asik banget, ceria banget orangnyaa dan seruu bangeett",
-                "pesan": "sehaatt selaluu dan selalu ceria kakk, bahagia selalu kak!"
+                "kesan": "Kakak tampak sangat teliti dalam bekerja, sehingga hasilnya selalu rapi.",
+                "pesan": "Semoga ke depannya tetap konsisten dan bisa terus menjadi contoh bagi kami."
             },
             {
                 "nama": "Rahma Neliyana",
@@ -1673,8 +1673,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "jl.Kresna, korpri",
                 "hobbi": "Masak",
                 "sosmed": "@rahmanellyana",
-                "kesan": "pinterr bangeett dan ramah banget",
-                "pesan": "semangaatt kuliahnya kakk dan bahagia selalu!"
+                "kesan": "Pembawaannya tenang, tapi selalu sigap saat dibutuhkan.",
+                "pesan": "Terima kasih atas bimbingannya selama kegiatan berlangsung."
             },
              {
                 "nama": "Khoirul Anam",
@@ -1685,7 +1685,7 @@ if menu == "Departemen Medkraf":
                 "hobbi": "Billiard dan volly",
                 "sosmed": "@mananam_",
                 "kesan": "baikk, asik juga orangnya dan jago main billiard sama jago main volly",
-                "pesan": "semangaatt teruss bangg dan jangan lupa istirahat, soalnya jauh juga pulang peergi sampai pesawaran!"
+                "pesan": "Semoga selalu diberikan semangat dalam setiap kegiatan berikutnya."
             },
             {
             
@@ -1696,8 +1696,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Way huwi",
                 "hobbi": "Motoran",
                 "sosmed": "@noe_rruuu",
-                "kesan": "keren banget dan seru banget juga, hasil fotonya keren keren banget",
-                "pesan": "semangaaatt kuliahnya bangg dan semoga hasil fotonya makin keren lagi!"
+                "kesan": "Suasananya terasa menyenangkan setiap kali kakak terlibat.",
+                "pesan": "Fotoin dong banggg"
             },
             {
                 "nama": "Rafi Diva Efangga",
@@ -1707,8 +1707,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Airan",
                 "hobbi": "Olahraga",
                 "sosmed": "@rafidivaefangga",
-                "kesan": "Seru banget abangnya, ramah banget juga, dan hasil fotonya keren keren banget",
-                "pesan": "semangaatt kuliahnya bangg dan semoga hasil fotonya makin keren juga"
+                "kesan": "Kakak selalu memberikan arahan dengan sabar dan jelas.",
+                "pesan": "Terima kasih atas bimbingannya, sangat membantu kami dalam memahami tugas dari divisi medkraf."
             },
             {
                 "nama": "Refa Destiny Pranata",
@@ -1718,8 +1718,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Kedaton",
                 "hobbi": "Ngoleksi gelang",
                 "sosmed": "@refadp_",
-                "kesan": "seruu banget kakaknya, asik banget, ramah bangett dan lucu banget juga orangnyaa",
-                "pesan": "semangatt kak kuliahnyaa, besok tepuk doa bareng ya kak wwkkwkw, soalnya kemaren ga jadi "
+                "kesan": "Gaya kepemimpinan kakak tegas namun tetap nyaman diikuti.",
+                "pesan": "Semoga terus menjadi panutan yang inspiratif bagi kami"
             },
             {
                 "nama": "Try Yani Rizki Nur Rohmah",
