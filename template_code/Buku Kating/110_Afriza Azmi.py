@@ -728,7 +728,7 @@ if menu == "Departemen PSDA":
                 "hobbi": "Main futsal, voli",
                 "sosmed": "@sidabutar.26",
                 "kesan": "kocak abiss abang satu ini, humoris banget",  
-                "pesan":" semangat teruss bang, makin gacor lagi futsalnya"# 1
+                "pesan":"semangat teruss bang, makin gacor lagi futsalnya"# 1
             },
             {
                 "nama": "Wuliano Wiliam Purba",
