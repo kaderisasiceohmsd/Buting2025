@@ -110,7 +110,7 @@ Kami adalah kelompok yang terinspirasi dari filosofi Greedy Algorithm — selalu
         )
         st.write(""" """)
 
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1sfUpGUuu7myoGzx3vmaCQN7BD66T7kVu"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=19xOVtZ737DJ43ozpWhyEzVzQ5nIFsVKp"
         layout(foto_kelompok)
 
         st.markdown(
@@ -132,7 +132,7 @@ elif menu == "About Us":
         )
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1qI3HDfMsbus9TnzJ5oDHUBjCrReAUmdq",
             "https://drive.google.com/uc?export=view&id=1tEVXxONkKHSRX3-NGqVILi0bC1Rwdz8t",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
