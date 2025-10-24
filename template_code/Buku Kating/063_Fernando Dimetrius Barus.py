@@ -752,7 +752,7 @@ elif menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=11urIMkomtOAFfFMG3Jlr2Bl-Osi0FEOU",
             "https://drive.google.com/uc?export=view&id=1HAy-eHsn2xgisZVAQYrvg2mWzuondmay",
-            "https://drive.google.com/uc?export=view&id=1q6_hHsxJ8M5PMa_qKZQYTBDoXmYAPlmg",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1GZLrzRaS1pZwGuN49WpZpYYPrlBe3j02",
             "https://drive.google.com/uc?export=view&id=1BOTe6p3a_26luKyQiIazELFbwQ5ac8hs",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
