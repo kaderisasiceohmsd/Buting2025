@@ -101,12 +101,13 @@ if menu == "Kesekjenan":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tWhEQz6cO2lzOu-jNColNdWw2p5v2RyK",
             "https://drive.google.com/uc?export=view&id=13AEXSCQPaLLwJ5BpM6OzKiCzfl8_ssmn",
-            "https://drive.google.com/uc?export=view&id=1t684MYLmb7bTKqhWWG8Krervyh8g8ej1",
+            "https://drive.google.com/uc?export=view&id=1Uv6tjnRveZQ72NIP0EtsMj_9a7StqWog",
             "https://drive.google.com/uc?export=view&id=1ej8L9TErsaKWy7GVMyXrAXUTzOrPissK",
             "https://drive.google.com/uc?export=view&id=1c9VH11LFP_4TwZK1njdIYDLp82WKAS1g",
-            "https://drive.google.com/uc?export=view&id=1Uv6tjnRveZQ72NIP0EtsMj_9a7StqWog",
+            "https://drive.google.com/uc?export=view&id=1t684MYLmb7bTKqhWWG8Krervyh8g8ej1",
         ]
         data_list = [
+            _list = [
             {
                 "nama": "Rendra Eka Prayoga",
                 "nim": "122450122",
@@ -115,8 +116,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Menyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Bang Rendra keliatan orangnya tenang dan berwibawa, cocok banget jadi sosok pemimpin.",
-                "pesan": "Semangat terus bang dalam memimpin dan semoga semua urusannya dimudahkan." # 1
+                "kesan": "Sangat berwibawa dan keren",  
+                "pesan":"Semangat terus bang menjalani hidup sebagai ketua"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,41 +127,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Bang Johannes keliatan orangnya cerdas dan punya pembawaan kalem.",
-                "pesan": "Semoga makin sukses bang dan terus semangat ngejalanin kuliah." # 1
-            },
-            {
-                "nama": "Farahanum Afifah Ardiansyah",
-                "nim": "122450056",
-                "umur": "21",
-                "asal":"Kota Padang",
-                "alamat": "Korpri",
-                "hobbi": "Cutekahim",
-                "sosmed": "@farahanumafifah",
-                "kesan": "Kak Farahanum keliatan ramah dan berwibawa, sosok yang gampang didekati.",
-                "pesan": "Semoga selalu semangat dan tetap jadi panutan yang baik buat teman-teman." # 1
-            },
-            {
-                "nama": "Syadza Puspadari Azhar",
-                "nim": "122450072",
-                "umur": "21",
-                "asal":"Palembang",
-                "alamat": "Belwis",
-                "hobbi": "Membaca",
-                "sosmed": "@puspadrr",
-                "kesan": "Kak Syadza keliatan anggun dan pintar, cocok banget dengan perannya sekarang.",
-                "pesan": "Semoga semua aktivitas kuliah dan organisasinya selalu lancar, kak." # 1
-            },
-            {
-                "nama": "Eksanty Febriana Sugma Islamiaty",
-                "nim": "122450001",
-                "umur": "19",
-                "asal":"Bulaleng, Bali",
-                "alamat": "Asrama TB 4",
-                "hobbi": "Nahan Eeq",
-                "sosmed": "@eksantyfebriana",
-                "kesan": "Kak Eksanty keliatan ceria dan berani, sosok yang energik banget.",
-                "pesan": "Semoga terus semangat kuliahnya dan makin banyak pengalaman berharga." # 1
+                "kesan": "Keren banget karna ngajarin ilmu data sains",  
+                "pesan":"Semoga kehidupan kuliahnya berjalan mulus"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -170,8 +138,41 @@ if menu == "Kesekjenan":
                 "alamat": "Agrest Kost",
                 "hobbi": "Nahan Pipis",
                 "sosmed": "@celisabethh_",
-                "kesan": "Kak Elisabeth keliatan tegas tapi tetap ramah, sosok yang bisa diandalkan.",
-                "pesan": "Semoga semua urusan kuliah dan organisasinya berjalan lancar, kak." # 1
+                "kesan": "Hobbynya ngawur, tapi megang posisi penting",  
+                "pesan":"Semoga lancar kehidupan kuliahnya"# 1
+            },
+            {
+                "nama": "Syadza Puspadari Azhar",
+                "nim": "122450072",
+                "umur": "21",
+                "asal":"Palembang",
+                "alamat": "Belwis",
+                "hobbi": "Membaca",
+                "sosmed": "@puspadrr",
+                "kesan": "Udah hobi membaca, punya posisi penting pula",  
+                "pesan":"Semoga lancar-lancar saja kehidupannya"# 1
+            },
+            {
+                "nama": "Eksanty Febriana Sugma Islamiaty",
+                "nim": "122450001",
+                "umur": "19",
+                "asal":"Bulaleng, Bali",
+                "alamat": "Asrama TB 4",
+                "hobbi": "Nahan Eeq",
+                "sosmed": "@eksantyfebriana",
+                "kesan": "Walau hobbynya ngawur, tapi bisa berada di posisi penting haha",  
+                "pesan":"Semoga tidak ada masalah yang menghampiri"# 1
+            },
+            {
+                "nama": "Farahanum Afifah Ardiansyah",
+                "nim": "122450056",
+                "umur": "21",
+                "asal":"Kota Padang",
+                "alamat": "Korpri",
+                "hobbi": "Cutekahim",
+                "sosmed": "@farahanumafifah",
+                "kesan": "Bisa ada diposisi ini aja udah keren banget",  
+                "pesan":"Semoga ga banyak masalah menghampiri"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1018,7 +1019,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1FhJE0kMWtyADyn4J4EBZAYj74memOv66",
             "https://drive.google.com/uc?export=view&id=1hGUYhjZ7uFGCH-d6WiVVQj8kxSoXZYke",
             "https://drive.google.com/uc?export=view&id=1Dm5SYSpqcQr42uY53_C-jlOXVDUEgkMW",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1ysbn_RxBKfmB7t9R23z9ig33VCCZKWe5",
             "https://drive.google.com/uc?export=view&id=13ghhZ_Xlvk7jeiB4Sx2E7YLfySdysL6h",
             "https://drive.google.com/uc?export=view&id=1p-_ektvTyNKS9jF8idkms6Cm1u-tCHhY",
             "https://drive.google.com/uc?export=view&id=1MrQ_e5UbfVGxgZzqnyZKltIgmDn2nfxA",
@@ -1030,7 +1031,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1nl-plOaICh7uX34cP_3Bb4o9ud1bOiRS",
             "https://drive.google.com/uc?export=view&id=1HER86M2HktRrimftFsU1ha_FEfVLFcAx",
             "https://drive.google.com/uc?export=view&id=130ZnfBhudiqfQhKckDLn_sFsFy3kIHFY",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1ysbn_RxBKfmB7t9R23z9ig33VCCZKWe5",
             "https://drive.google.com/uc?export=view&id=15kspomUBkrRBUqGAAgxUG5FyPHNM9OE0",
             "https://drive.google.com/uc?export=view&id=17UCnN3NUybzCpbc9yUxDlyt1qL63FcY-",
             "https://drive.google.com/uc?export=view&id=1CiKiOr6bCwbOyCODkirLGMuwfHtp3uoY",
