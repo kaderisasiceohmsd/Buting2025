@@ -180,20 +180,20 @@ if menu == "Kesekjenan":
 elif menu == "Baleg":
     def Baleg():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1w7d1rJfhcL882sVcBxNsC-qp95mB3QrP",
+            "https://drive.google.com/uc?export=view&id=15mVZ4e7PHX1g4SYqgEfCRb2qvnPLUlXc",
+            "https://drive.google.com/uc?export=view&id=1nUALdUq6cwkNtURq5dnGYudlKlgyKfOd",
+            "https://drive.google.com/uc?export=view&id=1AI_saLTlqEUy3HYmRzxwb8PvVzzOVhGx",
+            "https://drive.google.com/uc?export=view&id=1c1K0w88u5BKMGD3WLpEtEjrCTUa4h_Da",
+            "https://drive.google.com/uc?export=view&id=1jcaVz62lBmqeCdHiOxLvLJkextD3EnoJ",
+            "https://drive.google.com/uc?export=view&id=1kGMRXO1OUV2wizYFwN5ZII-7dxdgemnC",
+            "https://drive.google.com/uc?export=view&id=1kMPJSAIYskvFgqJdgx__khhD83iG2m71",
+            "https://drive.google.com/uc?export=view&id=1zdPevThMZTLj3hOJOkpNmzm4-J4zh6HZ",
+            "https://drive.google.com/uc?export=view&id=1mwOVsw44f3nZWETI_2PS5tjo0az5XqFz",
+            "https://drive.google.com/uc?export=view&id=1JDqIsM7QcDwMnkqR7lixYD6vXdoIcz1M",
+            "https://drive.google.com/uc?export=view&id=1UzvDVJuLpdBsDWYcPrPPzX-qy2LY37vp",
+            "https://drive.google.com/uc?export=view&id=1Lhzs1leV8ugV--HhAt2eTMTR8k5hL62Y",
+            "https://drive.google.com/uc?export=view&id=1ROnqkqSyhtZKGshlvypNlw2kUbsq74_Z",
         ]
         data_list = [
             {
@@ -204,8 +204,8 @@ elif menu == "Baleg":
                 "alamat": "Tanjung Merawa",
                 "hobbi": "Suka main voli sama Feby",
                 "sosmed": "@jeremia_s_",
-                "kesan": "Lucu abangnya tapi tegas",
-                "pesan": "semangat bang kuliahnya semoga urusannya lancar"
+                "kesan": "Bang jeremia keren banget, orangnya tenang dan keliatan berwibawa",
+                "pesan": "Semoga makin banyak pencapaian hebat yang diraih"
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -215,8 +215,8 @@ elif menu == "Baleg":
                 "alamat": "Bandar Lampung Ujung",
                 "hobbi": "Badmood liatin Jaldi",
                 "sosmed": "@_.dheamelia",
-                "kesan": "Seru banget selalu out of the box.",
-                "pesan": "Tetap jadi orang yang berani ngomong dan ngasih ide, tapi jangan lupa dengerin juga ya"
+                "kesan": "Kak dhea orangnya lucu, murah senyum",
+                "pesan": "Semoga ke depannya semua rencananya berjalan lancarr"
             },
             {
                 "nama": "Renisha Putri Giani",
