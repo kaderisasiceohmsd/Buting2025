@@ -1,383 +1,690 @@
-# =============================================================
-# ANOVA ODYSSEY — CINEMATIC+ ANIMATIONS v5.3 (Sidebar ON)
-# Dependensi: HANYA streamlit + HTML/JS murni (tanpa paket lain)
-# Animasi: shimmer, count-up metrics, kurva F menulis, area fill,
-#          bounce F_hit, tooltip interaktif, konfeti 2 detik
-# Visual: Grafik F BESAR di bawah hasil (no crop)
-# =============================================================
+# ======================================================================
+# ANOVA ODYSSEY – Final Cinematic UltraSafe (Single File, No External Deps)
+# Theme: Elegant ANOVA (light-blue + gold)
+# Visual: Dual F-curve (main + zoom), gold glow, smooth animation (JS/SVG)
+# Game: Significance prediction, scoring, rounds, session leaderboard
+# FX: Right-side confetti (2s), progress simulation, subtle glows
+# Safe: No numpy/pandas; only stdlib (math, statistics, random, json)
+# ======================================================================
 
-import math, random, time, json
 import streamlit as st
 import streamlit.components.v1 as components
+import random, math, statistics, time, json
+from typing import Dict, List
 
-# -------------------------------------------------------------
-# PAGE CONFIG (sidebar TETAP ADA)
-# -------------------------------------------------------------
+# ----------------------------------------------------------------------
+# PAGE CONFIG
+# ----------------------------------------------------------------------
 st.set_page_config(
-    page_title="ANOVA Odyssey – Cinematic+",
+    page_title="ANOVA Odyssey – Final Cinematic",
     page_icon="⚔️",
-    layout="wide",
-    initial_sidebar_state="expanded",  # ← bukan fullscreen
+    layout="centered",
 )
 
-# -------------------------------------------------------------
-# CSS TEMA (tanpa menyembunyikan sidebar)
-# -------------------------------------------------------------
-st.markdown("""
+# ----------------------------------------------------------------------
+# THEME CSS (elegan: biru muda + emas)
+# ----------------------------------------------------------------------
+THEME_CSS = """
 <style>
 :root{
-  --bg1:#F6FAFF; --ink:#0F172A; --muted:#64748B; --bl:#4A67E9; --bl2:#7EA3FF;
-  --gold:#CBB279; --soft:#F8FAFF; --card:#ffffff;
+  --bg-soft:#EAF4FB; --bg-panel:#F7FBFF; --gold:#DCCCA3; --gold2:#CBB279;
+  --ink:#111827; --muted:#6B7280; --blue:#4A67E9; --blue2:#7EA3FF; --card:#FFFFFF;
 }
-body, [data-testid="stAppViewContainer"]{background:radial-gradient(900px 420px at 12% -10%, var(--bg1), #fff 60%);}
-.block{background:var(--card);border:1px solid rgba(0,0,0,.06);border-radius:16px;padding:16px 18px;box-shadow:0 10px 30px rgba(10,30,60,.06);}
-.title{font-weight:900;color:var(--ink);font-size:28px;letter-spacing:.2px}
-.badge{background:var(--gold);color:#1b1b1b;border-radius:999px;padding:6px 12px;font-weight:800}
-.sub{color:var(--muted);font-weight:600}
-.hr{height:1px;background:#e5e7eb;margin:8px 0 14px}
-.tbl{border:1px solid #e5e7eb;border-radius:12px;overflow:hidden}
-.tbl table{width:100%;border-collapse:collapse}
-.tbl th,.tbl td{padding:8px 10px;border-bottom:1px solid #eef2f7;text-align:center;font-size:13px}
-.tbl thead tr{background:#f3f4f6}
-.tbl tr:last-child td{border-bottom:none}
+html,body,[data-testid="stAppViewContainer"]{
+  background:linear-gradient(180deg,var(--bg-soft),#FFFFFF 65%);
+}
+section.main > div.block-container{ padding-top:1.0rem; }
 
-/* shimmer bar */
-.shimmer{position:relative;height:10px;background:#e5edff;border-radius:999px;overflow:hidden}
-.shimmer:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#e5edff 0%,#bfd1ff 40%,#e5edff 80%);animation:slide 1.15s linear infinite}
-@keyframes slide{0%{transform:translateX(-60%)}100%{transform:translateX(60%)}}
+.el-card{ background:var(--card); border:1px solid rgba(0,0,0,.06);
+  border-radius:18px; padding:18px 20px; box-shadow:0 14px 36px rgba(10,30,60,.06); }
+.el-title{ font-weight:900; color:var(--ink); letter-spacing:.25px; }
+.el-sub{ color:var(--muted); font-weight:500; }
 
-/* custom metric tiles (biar bisa count-up) */
-.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.metric{background:var(--soft);border:1px solid #eef2f7;border-radius:12px;padding:14px}
-.metric .k{font-size:12px;color:var(--muted);font-weight:700}
-.metric .v{font-size:24px;font-weight:900;color:var(--ink)}
+.el-chip{ display:inline-flex; align-items:center; gap:8px; background:var(--gold);
+  color:#1b1b1b; padding:6px 12px; border-radius:999px; font-weight:800; }
 
-/* decisions */
-.ok{background:#dcfce7;border:1px solid #86efac;color:#065f46;border-radius:12px;padding:10px 12px;font-weight:800}
-.warn{background:#fef9c3;border:1px solid #fde68a;color:#854d0e;border-radius:12px;padding:10px 12px;font-weight:800}
+.hr-soft{ height:1px; background:rgba(0,0,0,.06); margin:14px 0; }
 
-/* chart card */
-.chart-card{padding:14px;border-radius:16px;background:var(--card);border:1px solid rgba(0,0,0,.06);box-shadow:0 10px 30px rgba(10,30,60,.06)}
-.legend{display:flex;gap:16px;align-items:center;margin-top:6px}
-.dot{width:14px;height:14px;border-radius:4px;display:inline-block}
-.dot-ns{background:linear-gradient(180deg,#9db4ff,#c9d6ff)}
-.dot-sg{background:linear-gradient(180deg,#DCCCA3,#CBB279)}
-.tooltip{position:absolute;pointer-events:none;background:#111827;color:#fff;font-size:12px;padding:6px 8px;border-radius:8px;opacity:0;transform:translate(-50%,-140%);transition:opacity .12s ease}
+.metric{ display:flex; gap:10px; align-items:center; background:var(--bg-panel);
+  border:1px solid rgba(0,0,0,.06); border-radius:14px; padding:12px 14px; }
+.metric .k{ color:var(--muted); font-size:13px; font-weight:700; }
+.metric .v{ color:var(--ink); font-size:20px; font-weight:900; }
+
+.badge{ display:inline-flex; gap:8px; align-items:center; border-radius:12px;
+  padding:6px 10px; font-weight:800; }
+.badge.ok{ background:#dcfce7; color:#065f46; }
+.badge.warn{ background:#fef9c3; color:#854d0e; }
+.badge.err{ background:#fee2e2; color:#7f1d1d; }
+
+.chart-box{ border:1px dashed rgba(0,0,0,.12); border-radius:14px; background:#fff; padding:16px; }
+.bar-wrap{ display:grid; gap:10px; }
+.bar-row{ display:flex; gap:10px; align-items:center; }
+.bar-label{ min-width:68px; font-weight:900; color:#111827; }
+.bar{ flex:1; height:18px; border-radius:9px; position:relative; overflow:hidden; background:#eef2ff; }
+.bar > div{ height:100%; background:linear-gradient(90deg,var(--blue),var(--blue2)); border-radius:9px; }
+.mean-pill{ display:inline-flex; gap:8px; align-items:center; border:1px solid rgba(37,99,235,.25);
+  background:#eef2ff; color:#1e3a8a; padding:6px 10px; font-weight:900; border-radius:999px; }
+
+table.simple{ width:100%; border-collapse:collapse; background:#fff; border-radius:10px; overflow:hidden;
+  border:1px solid rgba(0,0,0,.06); }
+table.simple thead tr{ background:#f3f4f6; }
+table.simple th, table.simple td{ padding:8px 10px; border-bottom:1px solid rgba(0,0,0,.06);
+  text-align:center; font-size:13px; }
+table.simple tr:last-child td{ border-bottom:none; }
+
+.fade{ animation:fadeIn .55s ease-out both; }
+@keyframes fadeIn{ from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:none} }
+
+.glow{
+  box-shadow: 0 0 0 rgba(220,204,163,0.0);
+  animation: breath 3s ease-in-out infinite;
+}
+@keyframes breath{
+  0%{ box-shadow:0 0 0 rgba(220,204,163,0.0) }
+  50%{ box-shadow:0 0 24px rgba(220,204,163,0.45) }
+  100%{ box-shadow:0 0 0 rgba(220,204,163,0.0) }
+}
 </style>
-""", unsafe_allow_html=True)
+"""
+st.markdown(THEME_CSS, unsafe_allow_html=True)
 
-# -------------------------------------------------------------
-# HELPERS (ANOVA & F-PDF)
-# -------------------------------------------------------------
-fmt = lambda x, p=2: f"{x:.{p}f}"
-def clamp(x,a,b): return max(a,min(b,x))
-def beta_func(a,b): return math.exp(math.lgamma(a)+math.lgamma(b)-math.lgamma(a+b))
-def f_pdf(x,d1,d2):
-    if x<=0: return 0.0
-    a,b=d1/2,d2/2
-    num=(d1**(d1/2))*(d2**(d2/2))*(x**(a-1))
-    den=(d1*x+d2)**((d1+d2)/2)*beta_func(a,b)
-    v=num/den
-    return v if math.isfinite(v) and v>=0 else 0.0
+# ----------------------------------------------------------------------
+# SESSION STATE INIT
+# ----------------------------------------------------------------------
+def init_state():
+    ss = st.session_state
+    ss.setdefault("round", 1)
+    ss.setdefault("score", 0)
+    ss.setdefault("history", [])
+    ss.setdefault("seed", random.randint(1, 999999))
+    ss.setdefault("controls", {
+        "k": 3, "n": 6, "effect": 0.8, "alpha": 0.05
+    })
+    ss.setdefault("last_correct", None)
+init_state()
 
-F_CRIT_005={
- 1:{3:10.13,5:6.61,10:4.96,20:4.35,40:4.08,60:4.00,120:3.92,200:3.89},
- 2:{3:9.55,5:5.79,10:4.10,20:3.49,40:3.23,60:3.15,120:3.07,200:3.04},
- 3:{3:9.28,5:5.41,10:3.71,20:3.10,40:2.84,60:2.76,120:2.68,200:2.65},
- 4:{3:9.12,5:5.19,10:3.48,20:2.87,40:2.61,60:2.53,120:2.45,200:2.42},
- 5:{3:9.01,5:5.05,10:3.33,20:2.72,40:2.46,60:2.38,120:2.30,200:2.27},
-}
-def fcrit_alpha(df1,df2,alpha):
-    df1=int(clamp(df1,1,5))
-    keys=sorted(F_CRIT_005[df1])
-    lo=max(k for k in keys if k<=df2); hi=min(k for k in keys if k>=df2)
-    base = F_CRIT_005[df1][lo] if lo==hi else F_CRIT_005[df1][lo] + (df2-lo)/(hi-lo)*(F_CRIT_005[df1][hi]-F_CRIT_005[df1][lo])
-    if alpha==0.10: return base*0.85
-    if alpha==0.01: return base*1.35
-    return base
+# ----------------------------------------------------------------------
+# UTILS
+# ----------------------------------------------------------------------
+def fmt(x: float, p: int = 3) -> str:
+    try:
+        return f"{x:.{p}f}"
+    except Exception:
+        return str(x)
 
-def generate_groups(k,n,effect,seed):
-    rnd=random.Random(seed); base=rnd.uniform(55,65)
-    groups={}
+def progress_sim(texts: List[str], delays: List[float]=(0.15,0.12,0.18,0.14,0.1)):
+    prog = st.progress(0, text="Menyiapkan …")
+    steps = max(1, len(texts))
+    for i, t in enumerate(texts):
+        pct = int((i+1)/steps*100)
+        prog.progress(pct, text=t)
+        time.sleep(delays[i % len(delays)])
+    time.sleep(0.03)
+
+# ----------------------------------------------------------------------
+# DATA GENERATION (tanpa numpy)
+# ----------------------------------------------------------------------
+def generate_groups(k:int, n:int, effect:float, seed:int) -> Dict[str, List[float]]:
+    rnd = random.Random(seed)
+    base = rnd.uniform(55, 65)
+    groups: Dict[str, List[float]] = {}
     for gi in range(k):
-        shift=(gi-(k-1)/2)*(5.0*effect)+rnd.uniform(-1,1)
-        m=base+shift; sd=max(2.5,6.0-1.2*effect+rnd.uniform(-1,1))
-        groups[chr(65+gi)]=[rnd.gauss(m,sd) for _ in range(n)]
+        # mean bergeser sesuai effect
+        mean_shift = (gi - (k-1)/2.0) * (5.0 * effect) + rnd.uniform(-1.0, 1.0)
+        true_mean = base + mean_shift
+        within_sd = max(2.5, 6.0 - 1.2*effect + rnd.uniform(-1.0, 1.0))
+        vals = [rnd.gauss(true_mean, within_sd) for _ in range(n)]
+        groups[chr(65+gi)] = vals
     return groups
 
-def anova_oneway(groups):
-    k=len(groups); n=len(next(iter(groups.values())))
-    totals={g:sum(v) for g,v in groups.items()}
-    means={g:totals[g]/len(groups[g]) for g in groups}
-    allv=[x for arr in groups.values() for x in arr]
-    gm=sum(allv)/len(allv)
-    ssb=sum(len(groups[g])*(means[g]-gm)**2 for g in groups)
-    ssw=sum(sum((x-means[g])**2 for x in groups[g]) for g in groups)
-    sst=ssb+ssw; dfb=k-1; dfw=k*(n-1)
-    msb,msw=ssb/dfb,ssw/dfw
-    F=msb/msw if msw>0 else float("inf")
-    eta2=ssb/sst if sst>0 else 0.0
-    return {"k":k,"n":n,"means":means,"gm":gm,"ssb":ssb,"ssw":ssw,"sst":sst,"dfb":dfb,"dfw":dfw,"msb":msb,"msw":msw,"F":F,"eta2":eta2}
+# ----------------------------------------------------------------------
+# ANOVA (manual, one-way)
+# ----------------------------------------------------------------------
+def anova_oneway(groups:Dict[str,List[float]])->Dict[str,float]:
+    k = len(groups)
+    n = len(next(iter(groups.values())))
+    totals = {g: sum(v) for g,v in groups.items()}
+    ns = {g: len(v) for g,v in groups.items()}
+    means = {g: totals[g]/ns[g] for g in groups}
+    all_vals = [x for v in groups.values() for x in v]
+    grand_mean = sum(all_vals)/len(all_vals)
 
-# -------------------------------------------------------------
-# SIDEBAR (biar enak kontrol)
-# -------------------------------------------------------------
-sb = st.sidebar
-sb.title("⚙️ Pengaturan")
-k = sb.slider("Jumlah Kelompok (k)", 3, 6, 4)
-n = sb.slider("Ukuran Sampel per Kelompok (n)", 4, 20, 8)
-effect = sb.slider("Besaran Perbedaan Mean (effect)", 0.0, 2.0, 0.9, 0.1)
-alpha = sb.select_slider("Taraf Signifikansi (α)", [0.10, 0.05, 0.01], value=0.05)
-seed = sb.number_input("Seed (opsional)", min_value=1, max_value=99999, value=random.randint(1,99999), step=1)
+    ss_between = sum(ns[g]*(means[g]-grand_mean)**2 for g in groups)
+    ss_within  = sum(sum((x-means[g])**2 for x in groups[g]) for g in groups)
+    ss_total   = ss_between + ss_within
 
-if sb.button("🔁 Terapkan & Simulasikan"):
-    st.session_state["_go"] = True
-    st.session_state["_seed"] = int(seed)
-    st.experimental_rerun()
+    df_between = k - 1
+    df_within  = k*(n-1)
 
-seed = st.session_state.get("_seed", seed)
+    ms_between = ss_between/df_between if df_between>0 else float('nan')
+    ms_within  = ss_within/df_within if df_within>0 else float('nan')
+    F = (ms_between/ms_within) if ms_within>0 else 0.0
+    eta2 = ss_between/ss_total if ss_total>0 else 0.0
 
-# -------------------------------------------------------------
-# DATA + TABEL
-# -------------------------------------------------------------
-groups = generate_groups(k, n, effect, int(seed))
-A = anova_oneway(groups)
-df1, df2 = A["dfb"], A["dfw"]
-Fcalc = A["F"];  Fcrit = fcrit_alpha(df1, df2, alpha)
-signif = Fcalc > Fcrit
+    return {
+        "k":k,"n":n,"means":means,"grand_mean":grand_mean,
+        "ssb":ss_between,"ssw":ss_within,"sst":ss_total,
+        "dfb":df_between,"dfw":df_within,
+        "msb":ms_between,"msw":ms_within,"F":F,"eta2":eta2
+    }
 
-st.markdown(f"""
-<div class="block">
-  <div class="title">⚔️ ANOVA Odyssey — <span style="color:#4A67E9">Cinematic+</span></div>
-  <div class="sub">One-way ANOVA (manual) dengan animasi interaktif.</div>
-  <div class="hr"></div>
-  <div class="tbl">
-    <table>
-      <thead><tr><th>No</th>{''.join(f'<th>Kelompok {g}</th>' for g in groups.keys())}</tr></thead>
-      <tbody>
-""", unsafe_allow_html=True)
+# ----------------------------------------------------------------------
+# F-CRITICAL TABLE (alpha=0.05) + simple alpha adjust
+# ----------------------------------------------------------------------
+F_CRIT_005 = {
+    1:{3:10.13,4:7.71,5:6.61,6:5.99,8:5.32,10:4.96,12:4.75,15:4.54,20:4.35,30:4.17,40:4.08,60:4.00,120:3.92,200:3.89},
+    2:{3: 9.55,4:6.94,5:5.79,6:5.14,8:4.46,10:4.10,12:3.89,15:3.68,20:3.49,30:3.32,40:3.23,60:3.15,120:3.07,200:3.04},
+    3:{3: 9.28,4:6.59,5:5.41,6:4.76,8:4.07,10:3.71,12:3.49,15:3.29,20:3.10,30:2.92,40:2.84,60:2.76,120:2.68,200:2.65},
+    4:{3: 9.12,4:6.39,5:5.19,6:4.53,8:3.84,10:3.48,12:3.26,15:3.06,20:2.87,30:2.69,40:2.61,60:2.53,120:2.45,200:2.42},
+    5:{3: 9.01,4:6.26,5:5.05,6:4.39,8:3.69,10:3.33,12:3.11,15:2.91,20:2.72,30:2.54,40:2.46,60:2.38,120:2.30,200:2.27},
+}
+def interp_fcrit(df1:int, df2:int)->float:
+    df1 = max(1, min(5, df1))
+    table = F_CRIT_005[df1]
+    keys = sorted(table.keys())
+    if df2 <= keys[0]: return table[keys[0]]
+    if df2 >= keys[-1]: return table[keys[-1]]
+    lo = max(k for k in keys if k<=df2)
+    hi = min(k for k in keys if k>=df2)
+    if lo==hi: return table[lo]
+    t = (df2-lo)/(hi-lo)
+    return table[lo] + t*(table[hi]-table[lo])
 
-rows = max(len(v) for v in groups.values())
-for i in range(rows):
+def fcrit_adjusted(df1:int, df2:int, alpha:float)->float:
+    base = interp_fcrit(df1, df2)
+    if abs(alpha-0.05) < 1e-9: return base
+    if abs(alpha-0.10) < 1e-9: return base*0.85
+    if abs(alpha-0.01) < 1e-9: return base*1.35
+    return base
+
+# ----------------------------------------------------------------------
+# F-PDF (tanpa scipy)
+# ----------------------------------------------------------------------
+def f_pdf(x:float, d1:int, d2:int)->float:
+    if x <= 0: return 0.0
+    a, b = d1/2.0, d2/2.0
+    # Beta(a,b) via gamma
+    beta = math.exp(math.lgamma(a)+math.lgamma(b)-math.lgamma(a+b))
+    return ((d1/d2)**a * x**(a-1)) / (beta * (1+(d1/d2)*x)**(a+b))
+
+# ----------------------------------------------------------------------
+# RENDER: TABLE, MEANS, VARIANCES (tanpa pandas)
+# ----------------------------------------------------------------------
+def render_data_table(groups:Dict[str,List[float]]):
+    labels = list(groups.keys())
+    rows = max(len(v) for v in groups.values())
+    html = ['<div class="chart-box fade glow"><table class="simple"><thead><tr><th>No</th>']
+    for g in labels:
+        html.append(f"<th>Kelompok {g}</th>")
+    html.append("</tr></thead><tbody>")
+    for i in range(rows):
+        html.append(f"<tr><td>{i+1}</td>")
+        for g in labels:
+            val = groups[g][i] if i < len(groups[g]) else ""
+            html.append(f"<td>{fmt(val,2)}</td>")
+        html.append("</tr>")
+    html.append("</tbody></table></div>")
+    st.markdown("".join(html), unsafe_allow_html=True)
+
+def bar_row(label:str, value:float, vmax:float):
+    pct = 0 if vmax<=0 else max(0.0, min(100.0, (value / vmax) * 100.0))
     st.markdown(
-        "<tr><td>"+str(i+1)+"</td>"+"".join(f"<td>{fmt(groups[g][i])}</td>" for g in groups.keys())+"</tr>",
+        f"""
+        <div class="bar-row">
+            <div class="bar-label">{label}</div>
+            <div class="bar"><div style="width:{pct}%;"></div></div>
+            <div class="mean-pill">{fmt(value,2)}</div>
+        </div>
+        """,
         unsafe_allow_html=True
     )
 
-st.markdown("</tbody></table></div>", unsafe_allow_html=True)
-st.markdown("</div>", unsafe_allow_html=True)
+def render_means_chart(means:Dict[str,float]):
+    vmin = min(means.values()) if means else 0
+    span = max(1.0, (max(means.values()) - vmin))
+    vmax = vmin + span*1.2
+    st.markdown('<div class="chart-box fade"><b>📈 Rata-rata per Kelompok</b><div class="bar-wrap">', unsafe_allow_html=True)
+    for g, m in sorted(means.items()):
+        bar_row(f"Mean {g}", m - (vmin - 0.1*span), vmax)
+    st.markdown('</div></div>', unsafe_allow_html=True)
 
-# -------------------------------------------------------------
-# SIMULATED CALC (shimmer)
-# -------------------------------------------------------------
-with st.expander("▶️ Jalankan Perhitungan ANOVA (simulasi langkah)"):
-    ph = st.empty()
-    for txt in ["Menyiapkan data …","Menghitung rata-rata & grand mean …","Menghitung SSB & SSW …","Menyusun tabel ANOVA …","Selesai ✅"]:
-        ph.markdown("<div class='shimmer'></div><div class='sub' style='font-size:12px;margin-top:6px'>"+txt+"</div>", unsafe_allow_html=True)
-        time.sleep(0.16)
+def render_var_chart(groups:Dict[str,List[float]]):
+    vars_ = {}
+    for g, vals in groups.items():
+        try:
+            vars_[g] = statistics.pvariance(vals)
+        except statistics.StatisticsError:
+            vars_[g] = 0.0
+    vmax = max(vars_.values()) if vars_ else 1.0
+    st.markdown('<div class="chart-box fade"><b>🧮 Varians per Kelompok</b><div class="bar-wrap">', unsafe_allow_html=True)
+    for g, v in sorted(vars_.items()):
+        bar_row(f"Var {g}", v, vmax)
+    st.markdown('</div></div>', unsafe_allow_html=True)
 
-# -------------------------------------------------------------
-# METRICS + KEPUTUSAN (count-up animasi via HTML)
-# -------------------------------------------------------------
-metric_payload = {
-    "k": A["k"], "n": A["n"], "gm": float(A["gm"]),
-    "ssb": float(A["ssb"]), "ssw": float(A["ssw"]), "sst": float(A["sst"]),
-    "msb": float(A["msb"]), "msw": float(A["msw"]),
-    "Fh": float(Fcalc), "Fc": float(Fcrit), "eta2": float(A["eta2"])
-}
-components.html("""
-<div class="block">
-  <div class="metrics">
-    <div class="metric"><div class="k">Kelompok</div><div id="m1" class="v">0</div></div>
-    <div class="metric"><div class="k">Sampel/Kelompok</div><div id="m2" class="v">0</div></div>
-    <div class="metric"><div class="k">Grand Mean</div><div id="m3" class="v">0</div></div>
-  </div>
-  <div class="hr"></div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
-    <div>
-      <b>Between</b><br>
-      SSB: <span id="ssb">0</span><br>df: <span id="dfb">0</span><br>MSB: <span id="msb">0</span>
+# ----------------------------------------------------------------------
+# CONFETTI (2 detik, kanan layar) – aman di Streamlit Cloud
+# ----------------------------------------------------------------------
+def confetti_right():
+    js = """
+    <script>
+    (function(){
+      let c=document.createElement('canvas');
+      c.style.position='fixed';c.style.right='0';c.style.top='0';
+      c.style.width='100vw';c.style.height='100vh';c.style.pointerEvents='none';
+      c.style.zIndex='9999';document.body.appendChild(c);
+      let ctx=c.getContext('2d'); c.width=innerWidth; c.height=innerHeight;
+      let parts=[];
+      for(let i=0;i<220;i++){ parts.push({
+        x: c.width*0.72 + Math.random()*80,
+        y: c.height*0.18 + Math.random()*30,
+        vx:(Math.random()*8)+2, vy: - (Math.random()*12+6),
+        r:2+Math.random()*3,
+        color:['#4A67E9','#7EA3FF','#DCCCA3','#CBB279'][~~(Math.random()*4)],
+        life: 120
+      }) }
+      let t=0;
+      function step(){
+        t++; ctx.clearRect(0,0,c.width,c.height);
+        parts.forEach(p=>{
+          p.x+=p.vx; p.y+=p.vy; p.vy+=0.35; p.life--;
+          ctx.globalAlpha=Math.max(0,p.life/120);
+          ctx.fillStyle=p.color; ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,6.28); ctx.fill();
+        });
+        parts=parts.filter(p=>p.life>0);
+        if(t<120) requestAnimationFrame(step); else c.remove();
+      }
+      step();
+    })();
+    </script>
+    """
+    components.html(js, height=0, width=0)
+
+# ----------------------------------------------------------------------
+# F-DISTRIBUTION RENDER (dual: main + zoom) – auto-scale anti kepotong
+# ----------------------------------------------------------------------
+def render_f_dual(df1:int, df2:int, Fh:float, Fc:float, alpha:float):
+    # smart max-x: kalau Fh jauh di atas Fc, scale ke Fh*1.1; else sekitar Fc*1.6
+    xmax = Fh*1.1 if Fh > Fc*3 else Fc*1.6
+    xmin = 0.0
+    # jaga agar kanvas proporsional terhadap jumlah kelompok
+    xmax = max(xmax, 10 + 1.2*df1)
+
+    # sampling kurva
+    N = 560
+    xs = [xmin + (xmax-xmin)*i/(N-1) for i in range(N)]
+    ys = [f_pdf(x, df1, df2) for x in xs]
+    ymax = max(ys) if max(ys) > 0 else 1.0
+
+    left = [{"x":x,"y":y} for x,y in zip(xs,ys) if x<=Fc]
+    right= [{"x":x,"y":y} for x,y in zip(xs,ys) if x>=Fc]
+
+    data = {
+        "W": 1120, "H": 520, "PAD": 60,
+        "xmax": xmax, "xmin": xmin, "ymax": ymax,
+        "Fh": Fh, "Fc": Fc, "alpha": alpha,
+        "curve":[{"x":x,"y":y} for x,y in zip(xs,ys)],
+        "left": left, "right": right
+    }
+    data_json = json.dumps(data)
+
+    # HTML/JS – tidak pakai f-string variable di template literal agar aman
+    html = """
+    <div style="display:flex; flex-wrap:wrap; gap:18px; justify-content:center;">
+      <div class="el-card fade glow" style="flex:1; min-width:560px;">
+        <div class="el-title" style="font-size:18px;">📊 Distribusi F (α = <span style='color:#4A67E9'>DATA_ALPHA</span>)</div>
+        <div id="f-main"></div>
+      </div>
+      <div class="el-card fade" style="flex:1; min-width:560px;">
+        <div class="el-title" style="font-size:18px;">🔎 Zoom Area Kritis</div>
+        <div id="f-zoom"></div>
+      </div>
     </div>
-    <div>
-      <b>Within</b><br>
-      SSW: <span id="ssw">0</span><br>df: <span id="dfw">0</span><br>MSW: <span id="msw">0</span>
+    <script>
+    (function(){
+      const D = DATA_JSON_PLACEHOLDER;
+      function mapX(x,W,P,X0,X1){ return P + (W-2*P)*((x-X0)/(X1-X0)); }
+      function mapY(y,H,P,Y){ return H-P - (H-2*P)*(y/Y); }
+
+      function draw(hostId, zoom){
+        const ns='http://www.w3.org/2000/svg';
+        const W=D.W, H=D.H, P=D.PAD, X0=D.xmin, X1=D.xmax, Y=D.ymax;
+        const host = document.getElementById(hostId);
+        const svg = document.createElementNS(ns,'svg');
+        svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+        svg.style.width='100%'; svg.style.height=H+'px';
+        host.innerHTML=''; host.appendChild(svg);
+
+        const defs = document.createElementNS(ns,'defs');
+        const gL = document.createElementNS(ns,'linearGradient');
+        gL.id='leftGrad';
+        gL.innerHTML = "<stop offset='0%' stop-color='#9db4ff' stop-opacity='0.95'/>" +
+                       "<stop offset='100%' stop-color='#9db4ff' stop-opacity='0.15'/>";
+        const gR = document.createElementNS(ns,'linearGradient');
+        gR.id='rightGrad';
+        gR.innerHTML = "<stop offset='0%' stop-color='#DCCCA3' stop-opacity='0.95'/>" +
+                       "<stop offset='100%' stop-color='#CBB279' stop-opacity='0.55'/>";
+        const glow = document.createElementNS(ns,'filter');
+        glow.id='glow';
+        glow.innerHTML = "<feGaussianBlur stdDeviation='3.5' result='b'/>" +
+                         "<feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge>";
+        defs.appendChild(gL); defs.appendChild(gR); defs.appendChild(glow);
+        svg.appendChild(defs);
+
+        // axis
+        const axis = document.createElementNS(ns,'line');
+        axis.setAttribute('x1',P); axis.setAttribute('x2',W-P);
+        axis.setAttribute('y1',mapY(0,H,P,Y)); axis.setAttribute('y2',mapY(0,H,P,Y));
+        axis.setAttribute('stroke','#9CA3AF'); axis.setAttribute('stroke-width','1.2');
+        svg.appendChild(axis);
+
+        // Fc line
+        let Fc = D.Fc;
+        const lineFc = document.createElementNS(ns,'line');
+        lineFc.setAttribute('x1',mapX(Fc,W,P,X0,X1)); lineFc.setAttribute('x2',mapX(Fc,W,P,X0,X1));
+        lineFc.setAttribute('y1',P); lineFc.setAttribute('y2',H-P);
+        lineFc.setAttribute('stroke','#1f2937'); lineFc.setAttribute('stroke-width','1.4');
+        svg.appendChild(lineFc);
+
+        // Fh line
+        let Fh = D.Fh;
+        const lineFh = document.createElementNS(ns,'line');
+        lineFh.setAttribute('x1',mapX(Fh,W,P,X0,X1)); lineFh.setAttribute('x2',mapX(Fh,W,P,X0,X1));
+        lineFh.setAttribute('y1',P); lineFh.setAttribute('y2',H-P);
+        lineFh.setAttribute('stroke','#4A67E9'); lineFh.setAttribute('stroke-width','2.1');
+        lineFh.setAttribute('filter','url(#glow)');
+        svg.appendChild(lineFh);
+
+        // curve & areas
+        const pathCurve = document.createElementNS(ns,'path');
+        pathCurve.setAttribute('fill','none'); pathCurve.setAttribute('stroke','#4A67E9');
+        pathCurve.setAttribute('stroke-width','2.6');
+        const pathLeft = document.createElementNS(ns,'path');
+        const pathRight = document.createElementNS(ns,'path');
+        pathLeft.setAttribute('fill','url(#leftGrad)');
+        pathRight.setAttribute('fill','url(#rightGrad)'); pathRight.setAttribute('filter','url(#glow)');
+        svg.appendChild(pathLeft); svg.appendChild(pathRight); svg.appendChild(pathCurve);
+
+        const curve = zoom ? D.left.concat(D.right) : D.curve;
+        const total = curve.length;
+        function toPath(arr){
+          if(!arr.length) return '';
+          let s='M'+mapX(arr[0].x,W,P,X0,X1)+','+mapY(arr[0].y,H,P,Y);
+          for(let i=1;i<arr.length;i++){ s+='L'+mapX(arr[i].x,W,P,X0,X1)+','+mapY(arr[i].y,H,P,Y); }
+          return s;
+        }
+        function areaPath(arr){
+          if(!arr.length) return '';
+          let s='M'+mapX(arr[0].x,W,P,X0,X1)+','+mapY(arr[0].y,H,P,Y);
+          for(let i=1;i<arr.length;i++){ s+='L'+mapX(arr[i].x,W,P,X0,X1)+','+mapY(arr[i].y,H,P,Y); }
+          const last = arr[arr.length-1]||arr[0];
+          s+='L'+mapX(last.x,W,P,X0,X1)+','+mapY(0,H,P,Y)+'L'+mapX(arr[0].x,W,P,X0,X1)+','+mapY(0,H,P,Y)+'Z';
+          return s;
+        }
+
+        let start=null;
+        function frame(ts){
+          if(!start) start=ts;
+          let t=Math.min(1,(ts-start)/3200); // 3.2s
+          const idx=Math.max(2, Math.floor(total*t));
+          const c=curve.slice(0,idx);
+          pathCurve.setAttribute('d', toPath(c));
+          pathLeft.setAttribute('d', areaPath(D.left.slice(0, Math.min(idx, D.left.length))));
+          pathRight.setAttribute('d', areaPath(D.right.slice(0, Math.min(idx, D.right.length))));
+          if(t<1) requestAnimationFrame(frame);
+        }
+        requestAnimationFrame(frame);
+
+        // Legend
+        const legend=document.createElement('div');
+        legend.style.margin='8px 8px 0 8px';
+        legend.innerHTML = `
+          <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;">
+            <span style="display:inline-flex;gap:8px;align-items:center;">
+              <span style="width:14px;height:14px;border-radius:4px;background:#9db4ff;display:inline-block"></span>
+              <span>Non-Signifikan</span>
+            </span>
+            <span style="display:inline-flex;gap:8px;align-items:center;">
+              <span style="width:14px;height:14px;border-radius:4px;background:#DCCCA3;display:inline-block"></span>
+              <span>Signifikan (daerah kritis)</span>
+            </span>
+          </div>`;
+        host.appendChild(legend);
+      }
+
+      draw('f-main', false);
+      draw('f-zoom', true);
+    })();
+    </script>
+    """
+    html = html.replace("DATA_JSON_PLACEHOLDER", data_json).replace("DATA_ALPHA", str(alpha))
+    components.html(html, height=780, scrolling=False)
+
+# ----------------------------------------------------------------------
+# HEADER
+# ----------------------------------------------------------------------
+st.markdown(
+    """
+    <div class="el-card fade" style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
+      <div>
+        <div class="el-title" style="font-size:28px;">⚔️ ANOVA Odyssey: <span style="color:#4A67E9">Final Cinematic</span></div>
+        <div class="el-sub">Kelompok 4 ANOVA · HMSD Adyatama ITERA 2025</div>
+      </div>
+      <div class="el-chip">Elegan · Biru & Emas</div>
     </div>
-    <div>
-      <b>Total</b><br>
-      SST: <span id="sst">0</span><br>F: <span id="fh">0</span><br>Eta²: <span id="eta">0</span>
-    </div>
-  </div>
-  <div class="hr"></div>
-  <div id="decision"></div>
-</div>
-<script>
-const D = """ + json.dumps(metric_payload) + """;
-function up(el, target, dur=800, fmt=val=>val.toString()){
-  const start=performance.now(), from=0;
-  function step(t){
-    const p=Math.min(1,(t-start)/dur);
-    el.textContent = fmt(from + (target-from)*p);
-    if(p<1) requestAnimationFrame(step);
-  }
-  requestAnimationFrame(step);
-}
-const nfmt=(x)=> (Math.round(x*100)/100).toFixed(2);
-up(document.getElementById('m1'), D.k, 600, v=>Math.round(v));
-up(document.getElementById('m2'), D.n, 600, v=>Math.round(v));
-up(document.getElementById('m3'), D.gm, 900, v=>nfmt(v));
-document.getElementById('dfb').textContent = """ + str(df1) + """;
-document.getElementById('dfw').textContent = """ + str(df2) + """;
-up(document.getElementById('ssb'), D.ssb, 700, nfmt);
-up(document.getElementById('ssw'), D.ssw, 700, nfmt);
-up(document.getElementById('sst'), D.sst, 700, nfmt);
-up(document.getElementById('msb'), D.msb, 700, nfmt);
-up(document.getElementById('msw'), D.msw, 700, nfmt);
-up(document.getElementById('fh'), D.Fh, 900, nfmt);
-up(document.getElementById('eta'), D.eta2, 700, v=> (Math.round(v*1000)/1000).toFixed(3));
-const sig = D.Fh > D.Fc;
-const box = document.getElementById('decision');
-box.innerHTML = sig
- ? "<div class='ok'>Keputusan: Tolak H₀ — F_hit ("+nfmt(D.Fh)+") > F_krit ("+nfmt(D.Fc)+")</div>"
- : "<div class='warn'>Keputusan: Gagal Menolak H₀ — F_hit ("+nfmt(D.Fh)+") ≤ F_krit ("+nfmt(D.Fc)+")</div>";
-// konfeti 2 detik di kanan atas jika signifikan
-if(sig){
-  const host=document.body, c=document.createElement('canvas'); c.style.position='fixed'; c.style.top='12px'; c.style.right='0'; c.style.width='420px'; c.style.height='180px'; c.style.pointerEvents='none'; c.style.zIndex='9999'; host.appendChild(c);
-  c.width=420; c.height=180; const ctx=c.getContext('2d'); let t0=null; const parts=[];
-  for(let i=0;i<140;i++){ parts.push({x: 420*Math.random(), y: -20-60*Math.random(), vx: 60+120*Math.random(), vy: 40+80*Math.random(), g: 180+Math.random()*160, s: 4+Math.random()*6, rot: Math.random()*6.28, col: i%2? '#CBB279':'#4A67E9'}); }
-  function step(ts){ if(!t0) t0=ts; const t=ts-t0; ctx.clearRect(0,0,420,180);
-    for(const p of parts){ p.x+=p.vx/60; p.y+=p.vy/60; p.vy+=p.g/2000; p.rot+=0.08; ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.rot); ctx.fillStyle=p.col; ctx.fillRect(-p.s/2,-p.s/2,p.s,p.s); ctx.restore(); }
-    if(t<2000) requestAnimationFrame(step); else host.removeChild(c);
-  }
-  requestAnimationFrame(step);
-}
-</script>
-""", height=320)
+    """,
+    unsafe_allow_html=True
+)
 
-# -------------------------------------------------------------
-# GRAFIK F BESAR (animasi menulis, area fill, bounce, tooltip)
-# -------------------------------------------------------------
-# siapkan data kurva
-xmax = max(Fcrit*1.6, Fcalc*1.2, 10+df1)
-xs   = [i*xmax/900 for i in range(901)]
-ys   = [f_pdf(x, df1, df2) for x in xs]
-chart_payload = {
-    "xmax": xmax, "xs": xs, "ys": ys,
-    "Fcrit": Fcrit, "Fcalc": Fcalc,
-}
-components.html("""
-<div class="chart-card">
-  <div style="display:flex;gap:10px;align-items:center;margin:2px 4px 8px 4px">
-    <b>📈 Distribusi F (α=""" + str(alpha) + """)</b>
-  </div>
-  <div id="fchart-host" style="position:relative"></div>
-  <div class="legend"><span class="dot dot-ns"></span> Non-Signifikan <span class="dot dot-sg"></span> Signifikan</div>
-</div>
-<script>
-const D = """ + json.dumps(chart_payload) + """;
-const host = document.getElementById('fchart-host');
-const ns='http://www.w3.org/2000/svg';
-const W=(host.clientWidth||1100), H=520, P=60;
-const svg=document.createElementNS(ns,'svg');
-svg.setAttribute('viewBox','0 0 '+W+' '+H); svg.style.width='100%'; svg.style.height=H+'px'; host.appendChild(svg);
-// tooltip
-const tip=document.createElement('div'); tip.className='tooltip'; host.appendChild(tip);
+# ----------------------------------------------------------------------
+# SIDEBAR – scoreboard & controls
+# ----------------------------------------------------------------------
+with st.sidebar:
+    st.markdown("### 🧭 Progress")
+    st.write("**Ronde:**", st.session_state.round)
+    st.write("**Skor:**", st.session_state.score)
+    if st.session_state.history:
+        best = max(h["score_after"] for h in st.session_state.history)
+        st.write("**Best (sesi):**", best)
+    st.markdown("---")
+    st.caption("Cara main: tebak ada/tidak perbedaan signifikan antar mean. "
+               "Benar +10, salah −5. Data berubah tiap ronde.")
+    st.markdown("---")
+    if st.button("🔄 Reset Skor & Ronde"):
+        st.session_state.score = 0
+        st.session_state.history.clear()
+        st.session_state.round = 1
+        st.session_state.seed = random.randint(1, 999999)
+        st.rerun()
 
-const maxY = Math.max(...D.ys) || 1;
-function mapX(x){return P+(W-2*P)*(x/D.xmax);}
-function mapY(y){return H-P-(H-2*P)*(y/maxY);}
+# Controls panel
+def controls_panel():
+    st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
+    st.markdown('<div class="el-title">⚙️ Pengaturan Eksperimen</div>', unsafe_allow_html=True)
+    st.markdown('<div class="el-sub">Atur jumlah kelompok, ukuran sampel, dan effect size.</div>', unsafe_allow_html=True)
+    c1, c2 = st.columns(2)
+    with c1:
+        k = st.slider("Jumlah Kelompok (k)", 3, 6, st.session_state.controls["k"])
+        n = st.slider("Sampel per Kelompok (n)", 4, 12, st.session_state.controls["n"])
+    with c2:
+        effect = st.slider("Besaran Perbedaan Mean (effect)", 0.0, 2.0, st.session_state.controls["effect"], 0.1)
+        alpha = st.select_slider("Taraf Signifikansi (α)", options=[0.10, 0.05, 0.01], value=st.session_state.controls["alpha"])
+    apply = st.button("Terapkan & Ronde Baru 🔁")
+    st.markdown('</div>', unsafe_allow_html=True)
+    if apply:
+        st.session_state.controls.update({"k":k, "n":n, "effect":effect, "alpha":float(alpha)})
+        st.session_state.seed = random.randint(1, 999999)
+        st.session_state.round += 1
+        st.rerun()
+controls_panel()
 
-// axis
-const ax=document.createElementNS(ns,'line'); ax.setAttribute('x1',P); ax.setAttribute('x2',W-P); ax.setAttribute('y1',mapY(0)); ax.setAttribute('y2',mapY(0));
-ax.setAttribute('stroke','#CBD5E1'); ax.setAttribute('stroke-width','1.2'); svg.appendChild(ax);
+# ----------------------------------------------------------------------
+# GENERATE ROUND DATA
+# ----------------------------------------------------------------------
+k = st.session_state.controls["k"]
+n = st.session_state.controls["n"]
+effect = st.session_state.controls["effect"]
+alpha = st.session_state.controls["alpha"]
 
-// gradients & glow
-const defs=document.createElementNS(ns,'defs');
-defs.innerHTML =
- "<linearGradient id='gL'><stop offset='0%' stop-color='#9db4ff' stop-opacity='0.95'/>"+
- "<stop offset='100%' stop-color='#c9d6ff' stop-opacity='0.3'/></linearGradient>"+
- "<linearGradient id='gR'><stop offset='0%' stop-color='#DCCCA3' stop-opacity='0.95'/>"+
- "<stop offset='100%' stop-color='#CBB279' stop-opacity='0.5'/></linearGradient>"+
- "<filter id='glow'><feGaussianBlur stdDeviation='2.0' result='b'/>"+
- "<feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter>";
-svg.appendChild(defs);
+groups = generate_groups(k, n, effect, seed=st.session_state.seed + st.session_state.round)
 
-// paths
-const areaL=document.createElementNS(ns,'path'), areaR=document.createElementNS(ns,'path'), curve=document.createElementNS(ns,'path');
-areaL.setAttribute('fill','url(#gL)'); areaR.setAttribute('fill','url(#gR)'); areaR.setAttribute('filter','url(#glow)');
-curve.setAttribute('fill','none'); curve.setAttribute('stroke','#4A67E9'); curve.setAttribute('stroke-width','2.6'); curve.setAttribute('filter','url(#glow)');
-svg.appendChild(areaL); svg.appendChild(areaR); svg.appendChild(curve);
+# ----------------------------------------------------------------------
+# TABLE DATA
+# ----------------------------------------------------------------------
+st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
+st.markdown(f'<div class="el-title">🧪 Data Ronde {st.session_state.round}</div>', unsafe_allow_html=True)
+st.markdown('<div class="el-sub">Nilai simulasi untuk tiap kelompok.</div>', unsafe_allow_html=True)
+render_data_table(groups)
+st.markdown('</div>', unsafe_allow_html=True)
 
-// critical & hit lines + labels
-function vline(x,col,w,id){
-  const l=document.createElementNS(ns,'line'); l.id=id; l.setAttribute('x1',x); l.setAttribute('x2',x); l.setAttribute('y1',P); l.setAttribute('y2',H-P);
-  l.setAttribute('stroke',col); l.setAttribute('stroke-width',w); l.setAttribute('filter','url(#glow)'); svg.appendChild(l); return l;
-}
-const FcX = mapX(D.Fcrit), FhX = mapX(D.Fcalc);
-const lFc = vline(FcX,'#111827',1.6,'lFc');
-const lFh = vline(FhX,'#4A67E9',2.4,'lFh');
-function label(txt,x,y){ const t=document.createElementNS(ns,'text'); t.textContent=txt; t.setAttribute('x',x+6); t.setAttribute('y',y); t.setAttribute('fill','#111827'); t.setAttribute('font-size','12'); svg.appendChild(t); }
-label('F_krit = '+D.Fcrit.toFixed(3), FcX, P+14); label('F_hit = '+D.Fcalc.toFixed(3), FhX, P+28);
+# ----------------------------------------------------------------------
+# SIMULATED CALC (progress)
+# ----------------------------------------------------------------------
+with st.expander("▶️ Jalankan Perhitungan ANOVA (simulasi langkah)", expanded=True):
+    progress_sim([
+        "Menghitung mean tiap kelompok …",
+        "Menghitung grand mean …",
+        "Menghitung SSB & SSW …",
+        "Menyusun tabel ANOVA …",
+        "Selesai ✅"
+    ])
 
-// build arrays for animation
-const n = D.xs.length;
-let left=[], right=[], curvePts=[];
-for(let i=0;i<n;i++){
-  const px = mapX(D.xs[i]), py = mapY(D.ys[i]);
-  curvePts.push([px,py]);
-  if(D.xs[i] <= D.Fcrit) left.push([px,py]); else right.push([px,py]);
-}
-function toPath(arr){ if(!arr.length) return ''; let s='M'+arr[0][0]+','+arr[0][1]; for(let i=1;i<arr.length;i++) s+='L'+arr[i][0]+','+arr[i][1]; return s; }
-function areaPath(arr){
-  if(!arr.length) return ''; let s='M'+arr[0][0]+','+arr[0][1]; for(let i=1;i<arr.length;i++) s+='L'+arr[i][0]+','+arr[i][1];
-  const L=arr[arr.length-1]; return s+'L'+L[0]+','+mapY(0)+'L'+arr[0][0]+','+mapY(0)+'Z';
-}
+# ----------------------------------------------------------------------
+# ANOVA CALC
+# ----------------------------------------------------------------------
+anv = anova_oneway(groups)
+Fcalc = anv["F"]
+df1, df2 = anv["dfb"], anv["dfw"]
+Fcrit = fcrit_adjusted(df1, df2, alpha)
+significant = Fcalc > Fcrit
 
-// animate draw
-let start=null; const DUR=3200;
-function anim(ts){
-  if(!start) start=ts;
-  const p=Math.min(1,(ts-start)/DUR), idx=Math.max(2,Math.floor(curvePts.length*p));
-  curve.setAttribute('d', toPath(curvePts.slice(0,idx)));
-  // area slice
-  const lidx = Math.min(idx, left.length), ridx = Math.max(0, idx - left.length);
-  areaL.setAttribute('d', areaPath(left.slice(0, lidx)));
-  areaR.setAttribute('d', areaPath(right.slice(0, ridx)));
-  if(p<1) requestAnimationFrame(anim); else bounceFhit();
-}
-requestAnimationFrame(anim);
+# ----------------------------------------------------------------------
+# SUMMARY (lab style)
+# ----------------------------------------------------------------------
+st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
+st.markdown('<div class="el-title">🧫 Ringkasan Perhitungan (Lab)</div>', unsafe_allow_html=True)
+m1, m2, m3 = st.columns(3)
+with m1:
+    st.markdown(f'<div class="metric"><div class="k">SS Between (SSB)</div><div class="v">{fmt(anv["ssb"],4)}</div></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="metric"><div class="k">df Between</div><div class="v">{df1}</div></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="metric"><div class="k">MS Between</div><div class="v">{fmt(anv["msb"],4)}</div></div>', unsafe_allow_html=True)
+with m2:
+    st.markdown(f'<div class="metric"><div class="k">SS Within (SSW)</div><div class="v">{fmt(anv["ssw"],4)}</div></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="metric"><div class="k">df Within</div><div class="v">{df2}</div></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="metric"><div class="k">MS Within</div><div class="v">{fmt(anv["msw"],4)}</div></div>', unsafe_allow_html=True)
+with m3:
+    st.markdown(f'<div class="metric"><div class="k">F-Statistic</div><div class="v">{fmt(Fcalc,3)}</div></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="metric"><div class="k">F-Critical (α={alpha})</div><div class="v">{fmt(Fcrit,3)}</div></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="metric"><div class="k">Eta²</div><div class="v">{fmt(anv["eta2"],3)}</div></div>', unsafe_allow_html=True)
+st.markdown('</div>', unsafe_allow_html=True)
 
-// bounce kecil di garis F_hit
-function bounceFhit(){
-  const base=FhX; let t0=null; const T=600;
-  function step(ts){
-    if(!t0) t0=ts; const u=Math.min(1,(ts-t0)/T);
-    const amp=7*(1-u);
-    const x=base + Math.sin(u*Math.PI*2)*amp;
-    lFh.setAttribute('x1',x); lFh.setAttribute('x2',x);
-    if(u<1) requestAnimationFrame(step); else { lFh.setAttribute('x1',base); lFh.setAttribute('x2',base); }
-  }
-  requestAnimationFrame(step);
-}
+# ----------------------------------------------------------------------
+# PREDICTION UI
+# ----------------------------------------------------------------------
+st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
+st.markdown('<div class="el-title">🎯 Prediksi Kamu</div>', unsafe_allow_html=True)
+st.markdown('<div class="el-sub">Berdasarkan data & grafik, apakah ada perbedaan rata-rata yang signifikan?</div>', unsafe_allow_html=True)
+choice = st.radio("Pilih jawaban:", ["Ya, signifikan ✅", "Tidak signifikan ❌"], index=0, key="guess_choice")
+go = st.button("Kunci Jawaban & Tampilkan Hasil 🧪")
+st.markdown('</div>', unsafe_allow_html=True)
 
-// tooltip interaktif
-svg.addEventListener('mousemove', (e)=>{
-  const rect=svg.getBoundingClientRect();
-  const x = e.clientX - rect.left;
-  const xr = (x - P) / (W-2*P); if(xr<0||xr>1){ tip.style.opacity=0; return; }
-  const xval = xr * D.xmax;
-  // cari y terdekat
-  let i=Math.floor(xr*(n-1)); if(i<0) i=0; if(i>n-2) i=n-2;
-  const yval = D.ys[i];
-  tip.style.left = e.clientX - rect.left + 'px';
-  tip.style.top  = e.clientY - rect.top  + 'px';
-  tip.style.opacity = 1;
-  tip.textContent = 'x='+xval.toFixed(3)+' | pdf='+yval.toFixed(4);
-});
-svg.addEventListener('mouseleave', ()=> tip.style.opacity=0);
-</script>
-""", height=620, scrolling=False)
+# ----------------------------------------------------------------------
+# RESULT + SCORING + VISUALS
+# ----------------------------------------------------------------------
+if go:
+    user_says_sig = choice.startswith("Ya")
+    correct = (user_says_sig and significant) or ((not user_says_sig) and (not significant))
+    before = st.session_state.score
+    if correct:
+        st.session_state.score += 10
+        badge = '<span class="badge ok">Benar · +10</span>'
+        confetti_right()  # efek aman 2 detik kanan
+    else:
+        st.session_state.score -= 5
+        badge = '<span class="badge err">Salah · -5</span>'
 
-# -------------------------------------------------------------
+    st.session_state.history.append({
+        "round": st.session_state.round,
+        "choice": "Signifikan" if user_says_sig else "Tidak",
+        "significant": significant,
+        "F": Fcalc, "Fcrit": Fcrit,
+        "score_before": before, "score_after": st.session_state.score
+    })
+
+    # Decision text
+    if significant:
+        decision_html = f"""
+        <div class="badge ok">Keputusan: Tolak H₀</div>
+        <div class="el-sub" style="margin-top:6px">
+          Karena F_hit ({fmt(Fcalc,3)}) > F_krit ({fmt(Fcrit,3)}), terdapat bukti bahwa minimal satu mean kelompok berbeda.
+        </div>"""
+        note = "Variasi antar-kelompok lebih besar daripada variasi dalam-kelompok."
+    else:
+        decision_html = f"""
+        <div class="badge warn">Keputusan: Gagal Menolak H₀</div>
+        <div class="el-sub" style="margin-top:6px">
+          F_hit ({fmt(Fcalc,3)}) ≤ F_krit ({fmt(Fcrit,3)}): belum cukup bukti perbedaan rata-rata antar kelompok.
+        </div>"""
+        note = "Perbedaan mean tidak cukup kuat dibanding noise dalam-kelompok."
+
+    st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
+    st.markdown(f'<div style="display:flex;align-items:center;gap:10px;">{badge}<div style="font-weight:900;">&nbsp;Hasil Ronde {st.session_state.round}</div></div>', unsafe_allow_html=True)
+    st.markdown(decision_html, unsafe_allow_html=True)
+    st.markdown(f'<div class="hr-soft"></div><div class="el-sub">{note}</div>', unsafe_allow_html=True)
+    st.markdown('</div>', unsafe_allow_html=True)
+
+    # Grafik F (dua panel, auto-scale anti kepotong)
+    render_f_dual(df1, df2, Fcalc, Fcrit, alpha)
+
+    # Means & variance
+    cA, cB = st.columns(2)
+    with cA: render_means_chart(anv["means"])
+    with cB: render_var_chart(groups)
+
+    # Next round button
+    st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
+    nxt1, nxt2 = st.columns([1,1])
+    with nxt1:
+        if st.button("🔁 Lanjut ke Ronde Berikutnya"):
+            st.session_state.seed = random.randint(1, 999999)
+            st.session_state.round += 1
+            st.rerun()
+    with nxt2:
+        st.write(f"🏆 Skor saat ini: **{st.session_state.score}**")
+    st.markdown('</div>', unsafe_allow_html=True)
+
+# ----------------------------------------------------------------------
+# HISTORY (session leaderboard)
+# ----------------------------------------------------------------------
+with st.expander("🏅 Riwayat Ronde & Leaderboard (Sesi Ini)"):
+    if not st.session_state.history:
+        st.info("Belum ada riwayat. Mainkan satu ronde dulu.")
+    else:
+        head = "<tr><th>Ronde</th><th>Pilihan</th><th>F_hit</th><th>F_krit</th><th>Benar?</th><th>Skor →</th></tr>"
+        rows = []
+        for h in st.session_state.history:
+            right = (h["choice"]=="Signifikan" and h["significant"]) or (h["choice"]=="Tidak" and not h["significant"])
+            ok = "✅" if right else "❌"
+            rows.append(
+                f"<tr><td>{h['round']}</td><td>{h['choice']}</td>"
+                f"<td>{fmt(h['F'],3)}</td><td>{fmt(h['Fcrit'],3)}</td>"
+                f"<td style='font-weight:800;'>{ok}</td>"
+                f"<td>{h['score_before']} → <b>{h['score_after']}</b></td></tr>"
+            )
+        st.markdown(
+            f"<div class='chart-box'><table class='simple'><thead>{head}</thead><tbody>{''.join(rows)}</tbody></table></div>",
+            unsafe_allow_html=True
+        )
+        top = max(h["score_after"] for h in st.session_state.history)
+        st.caption(f"Skor terbaik sesi ini: **{top}**. Coba variasikan k, n, dan effect untuk tantangan baru.")
+
+# ----------------------------------------------------------------------
 # FOOTER
-# -------------------------------------------------------------
-st.caption("Catatan: Tabel F-kritikal berbasis α=0.05 (interpolasi), skala untuk α=0.10/0.01 bersifat monotonic—cukup untuk edukasi & gameplay.")
+# ----------------------------------------------------------------------
+st.markdown('<div class="hr-soft"></div>', unsafe_allow_html=True)
+st.caption(
+    "Catatan: F-kritis diturunkan dari tabel α=0.05 dengan interpolasi; α=0.10 & 0.01 "
+    "diaproksimasi skala monoton. Cukup akurat untuk edukasi & gameplay."
+)
+# ======================================================================
+# END
+# ======================================================================
