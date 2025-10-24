@@ -238,7 +238,7 @@ st.markdown(
     <div class="main-header">
         <div style='text-align: center;'>
             <h1 style='font-size: 4.5em; color: white; margin-bottom: 0.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);'>WEBSITE KATING</h1>
-            <p style='font-size: 1.8em; color: white; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);'>CEO HMSD Adyatama ITERA 2024</p>
+            <p style='font-size: 1.8em; color: white; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);'>CEO HMSD Adyatama ITERA 2025</p>
         </div>
     </div>
     """,
@@ -367,17 +367,17 @@ elif menu == "About Us":
         )
         
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1l1X1SeRurcUV_ASu2oAefnZfQmcjAS5X",
+            "https://drive.google.com/uc?export=view&id=1si-ZzHgBWtLza3JM-lHjSDC0tGeyG3zn",
+            "https://drive.google.com/uc?export=view&id=1l0SxqOlvFtZUq40GmABVnkDsj5-EX5CD",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1Jy4nmnlj8SWx9LRuIyDoWacrWcw6ce5p",
+            "https://drive.google.com/uc?export=view&id=1WazCg_yU_LJTk8SZNyZoAgT6pQZovJwu",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1aaGJOIdBMcJARcNFSqjJAiDcTAUPLhQK",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1TCAHTolhHAhrdpkk7eWzY5RIVhBvO-gP",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1hjJj6c1K2f-GpPyP436EuwZVYHTR7JWm",
+            "https://drive.google.com/uc?export=view&id=162KwSFJ_Zhax2oEFYWX5UxY_htmjP5Pk",
+            "https://drive.google.com/uc?export=view&id=1m1YmNFgJN3ZaRR-3SjRMI3Hz63QFal6B",
+            "https://drive.google.com/uc?export=view&id=17Fs6bvYB7__K29KjyO3SSQ-lm6JlajYB",
         ]
         data_list = [
             {
