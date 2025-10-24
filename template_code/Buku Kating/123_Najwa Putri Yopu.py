@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "beli donat kentang",
                 "sosmed": "@_erendraa",
-                "kesan": "",  
-                "pesan": ""
+                "kesan": "Setiap ngeliat abangnya, rasanya kayak liat senior yang bisa dijadiin panutan. Abangnya ramah tapi tetap berwibawa.",  
+                "pesan": "Semoga langkah abang ke depannya selalu lancar, terus nyebarin energi positif kayak biasanya ya!"
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas Raya",
                 "hobbi": "baca buku (dasar-dasar sql)",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "",  
-                "pesan":""
+                "kesan": "Abangnya keren banget, disiplin tapi nggak kaku. Kalau ngomong tuh selalu bikin orang semangat dan termotivasi.",  
+                "pesan":"Semoga semua usaha abang dibalas dengan hasil terbaik. Teruslah jadi inspirasi buat adik-adik di bawah, ya!"
             },
              {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Airest Kost",
                 "hobbi": "siram shopee",
                 "sosmed": "@celisabethh_",
-                "kesan": "",  
-                "pesan":""
+                "kesan": "Kakaknya seru banget, selalu bisa bikin suasana cairnwalau lagi tegang. Rasanya setiap ngobrol pasti ada aja hal lucu yang bikin ketawa.",  
+                "pesan":"Semoga tetap jadi pribadi yang lebih ringan tapi bermakna ya kak, jangan pernah kehilangan semangat dan kebaikan yang bikin orang nyaman di sekitar kakak!"
             },
              {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "",  
-                "pesan":""
+                "kesan": "Kakaknya keliahatan tegas, tapi sebenarnya perhatian banget sama adik tingkat.",  
+                "pesan":"Semoga kakak terus jadi sosok kuat yang juga lembut hatinya, karena kombinasi itu jarang banget."
             },
               {
                 "nama": "Eksanty Febriana Sugma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "rajabasa",
                 "hobbi": "baca buku, saku pramuka",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "",  
-                "pesan":""
+                "kesan": "Kakaknya kalem banget tapi selalu hadir di momen penting. Kayak diam-diam tapi berkesan.",  
+                "pesan":"Semoga kakak selalu dikelilingi hal-hal baik, dan tetap jadi sosok tenang di tengah ributnya dunia."
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur",
                 "sosmed": "@farahanumafifah",
-                "kesan": "",  
-                "pesan":""
+                "kesan": "Kakaknya rapi banget, dari gaya sampai cara ngomong. Keliatan banget kalau orangnya teratur.",  
+                "pesan":"Semoga semua kerapian dan disiplin kakak ini bawa kesuksesan besar ke depannya ya!"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -193,7 +193,7 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1l99961ZUX7ul-AEC6YkCJi1nUyUVFXWg",
             "https://drive.google.com/uc?export=view&id=1TN8QezWSmEhAcBLTP7bgzBAT2u5rbo0x",
             "https://drive.google.com/uc?export=view&id=19nbuO-JWHr5E2It0n7gmv6MjbKXLzNJh",
-            "https://drive.google.com/uc?export=view&id=1Lv25ZuGWHh9zk0CGuocQO1nTjkMKdHUz",
+            "https://drive.google.com/uc?export=view&id=1f0SbVXoj5BHp1U2vLVy04SdFZSgV0Ezv",
             "https://drive.google.com/uc?export=view&id=1mg5ypXo45S6-jbj45N9M_rtny2hyJtfu",
             "https://drive.google.com/uc?export=view&id=1u0qUC_kfF-g4cIGcE9Q0Pgyyc7MWt0be",
         ]
@@ -422,7 +422,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1U7Ls7p9cdoxXGqCEvC3ta2YBEfb_22WF",
             "https://drive.google.com/uc?export=view&id=1mwPvvDPb0_LpvldKoFaBzP5K1KKncjJH",
             "https://drive.google.com/uc?export=view&id=1FC89mBMDzN7o5ga3BiCVEPPZv084aKp3",
-            "https://drive.google.com/uc?export=view&id=1-1SWVohXlB2DYSZHOXFTc76G-rAYGYwP",
+            "https://drive.google.com/uc?export=view&id=1At3x_Sj9OG3pMMZX14c1WB-HHOzPj7ST",
             "https://drive.google.com/uc?export=view&id=1NuMNUG-Xpk50U3s-uC8yyADEF1WgKqJ4",
             "https://drive.google.com/uc?export=view&id=1FKCfsq19CAnp4POs7oRoZxL9ZsXf8APu",
             "https://drive.google.com/uc?export=view&id=1D9qL5VCgwsHQLC4UXv8tUtmSqFaXV0Al",
@@ -430,7 +430,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1HzxjsO4tI5oA9Tx_727hrvhuqE3U2aiT",
             "https://drive.google.com/uc?export=view&id=1QR4RDWux0s9ZfbZjnQpJKmk98BAehQDk",
             "https://drive.google.com/uc?export=view&id=1sRcS21fM8wnqjje59dODQwWT6Oz1Ku9j",
-            "https://drive.google.com/uc?export=view&id=1aZJ1BhQEVlWbjvhnAnKlhe5Fk8PT8KId",
+            "https://drive.google.com/uc?export=view&id=1Gh8PwzIwmbyKdfp2WVv_-1AIZE-lN7r1",
             "https://drive.google.com/uc?export=view&id=1svNWTH4PILzDClxxX4fFxLF_0dQNwsBB",
             "https://drive.google.com/uc?export=view&id=1YK9pVihw_B8UP3-bId_65ush2GSaFtG1",
             "https://drive.google.com/uc?export=view&id=1Bbqlt4SRAL9YeahdLJsXe3Omxlh0G3LF",
@@ -1031,7 +1031,7 @@ if menu == "Departemen Eksternal":
             "https://drive.google.com/uc?export=view&id=1If-9n1R7rWj4dqAtZtZPg5TyDgn75Tlm",
             "https://drive.google.com/uc?export=view&id=1t0JydAh4iLKOfGksQwcvXzUk-B_hm7Xp",
             "https://drive.google.com/uc?export=view&id=124x04deTErlGVcf0V8FBEkM98E-L6wFC",
-            "https://drive.google.com/uc?export=view&id=1t2lss3w7p8zBDs395_tTos54V_T4mWZn",
+            "https://drive.google.com/uc?export=view&id=14jEdMlzfHXqZByNvLIe8FPJGAR9GVjrT",
             "https://drive.google.com/uc?export=view&id=13P_ITLwchucG1aiwTmRiQ15JunnSBKt3",
             "https://drive.google.com/uc?export=view&id=1Gh6ZnGQpXG33k5AMfE5v5daEWgPVstyt",
         ]
@@ -1502,7 +1502,7 @@ if menu == "Departemen SSD":
             "https://drive.google.com/uc?export=view&id=11TUDmrRKFDvjfEMr-pHJSLoLzolSX5z2",
             "https://drive.google.com/uc?export=view&id=1joeG7yxGCip81DXMphzqc0VnpnOsVj3p",
             "https://drive.google.com/uc?export=view&id=1-x06IjAyYvGQ6Fw0fzjCQRsNWEt1_yE2",
-            "https://drive.google.com/uc?export=view&id=1NKZnGQuQUH4aoxZBmXi7c9G_qL5Q1JJ",
+            "https://drive.google.com/uc?export=view&id=1P_PnHJSMV-ANqOjta8n-3ZFSLUDwxuj2",
             "https://drive.google.com/uc?export=view&id=1gz0LVOxRUz1LTQmThBaA1JnMo3Uvqsfl",
             "https://drive.google.com/uc?export=view&id=1oYVQONOFKT59dclhUkzNAeUImgT8ij17",
             "https://drive.google.com/uc?export=view&id=1U05HVsV71mHaM2oKjggqUkxh4eyED-BH",
