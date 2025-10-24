@@ -729,13 +729,12 @@ if menu == "Departemen PSDA":
                 "kesan": "Pembawaannya tenang dan bijaksana.",
                 "pesan": "Sukses selalu untuk kakak, ditunggu arahan selanjutnya."
             },
-            
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_PSDA()
 
 if menu == "Departemen MIKFES":
-    def Departemen_MIKFES():
+    def DepartemenMIKFES():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1Lyhh5xqRAzwuw2KZUEysQWLZlrSvsHBb",
             "https://drive.google.com/uc?export=view&id=1F16Zt7LrLLhS-wF95uPt_u7UsAsPVyxx",
@@ -1004,10 +1003,8 @@ if menu == "Departemen MIKFES":
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
-            
-            
         ]
          display_images_with_data(gambar_urls, data_list)
-    Departemen_MIKFES()
+    DepartemenMIKFES()
 
 # Tambahkan menu lainnya sesuai kebutuhan
