@@ -443,10 +443,10 @@ elif menu == "Departemen PSDA":
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "122450107",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "21",
+                "asal":"Medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "Bang kevin kelihatannya tegas, tapi aslinya baik dan ramah banget",  
                 "pesan":" semangat bang semester 7 nya"# 1
@@ -627,7 +627,7 @@ elif menu == "Departemen PSDA":
                 "kesan": "Abangnya ramah bangettt, enak kalo diajak ngobrol",  
                 "pesan":"Sukses terus ya bangg"# 1
             },
-{
+            {
                 "nama": "Daffa Ahmad Naufal",
                 "nim": "122450137",
                 "umur": "21",
@@ -643,7 +643,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Jl. Lapas Raya no.55",
                 "hobbi": "ngoleksi pita pink",
                 "sosmed": "@d__aniar",
-                "kesan": "Kakr Daniar ramah banget, humbel banget padahal baru kenal ",  
+                "kesan": "Kak Daniar ramah banget, humbel banget padahal baru kenal",  
                 "pesan":"Sukses terus yaa kak terutama di bidang tarinyaa"# 1
             },
             {
@@ -1851,6 +1851,7 @@ elif menu == "Departemen Medkraf":
     DepartemenMedkraf()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
