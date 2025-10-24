@@ -1779,8 +1779,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Memasak",
                 "sosmed": "@hafsa.fazila",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Rajin, positif vibes",  
+                "pesan":"Semangat gapai cita cita"# 1
             },
             {
                 "nama": "Nayla Salsabila Fathianisa",
@@ -1790,8 +1790,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Jl. Lapas Raya, Jati Agung",
                 "hobbi": "Dengerin musik",
                 "sosmed": "@naylasalsabilaa",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Gemass, lucu, imut",  
+                "pesan":"Semoga selalu diberi kesehatan"# 1
             },
             {
                 "nama": "Sania Dwi Ayu Lestari",
@@ -1801,8 +1801,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Airan",
                 "hobbi": "Main roblox",
                 "sosmed": "@saniayyllstr",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Murah senyum, agak pendiam",  
+                "pesan":"Semangat mengejar cita cita kak"# 1
             },
             {
                 "nama": "Akmal Faiz Abdilah ",
@@ -1812,8 +1812,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Griya Sukarame",
                 "hobbi": "Main Hp",
                 "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Terlihat pendiam, baik, dan ramah",  
+                "pesan":"Semoga sehat selalu"# 1
             },
             {
                 "nama": "Raihana Adelia Putri",
@@ -1823,8 +1823,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Airan Raya 1",
                 "hobbi": "Menulis, membaca, memasak",
                 "sosmed": "@nltg._",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Baik, disiplin dan rajin",  
+                "pesan":"Semangat terus kuliahnya kakak"# 1
             },
             {
                 "nama": "Citra Agustin",
@@ -1834,8 +1834,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Natar",
                 "hobbi": "Scroll Pinterest",
                 "sosmed": "@citrastin",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Murah senyum, ceria, dan selalu bersemangat",  
+                "pesan":"Tetap selalu ceria ya kak!"# 1
             },
             {
                 "nama": "Eigi Artamevia",
@@ -1845,8 +1845,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Sabah Balau",
                 "hobbi": "Melukis",
                 "sosmed": "@eigirtmv",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Cantik, ramah, dan baik hati",  
+                "pesan":"Semoga selalu sehat"# 1
             },
             {
                 "nama": "Romauli Oktavia Silaban",
@@ -1856,8 +1856,8 @@ if menu == "Departemen Medkraf":
                 "alamat": "Kelengkeng 2",
                 "hobbi": "Dance",
                 "sosmed": "@roms.slbn",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat dan semoga selalu sehat."# 1
+                "kesan": "Cantik, baik, lembut dan pekerja keras",  
+                "pesan":"Semoga sehat dan bahagia selalu."# 1
             },
         
         ]
