@@ -1511,19 +1511,19 @@ if menu == "Departemen Internal":
 if menu == "Departemen SSD":
     def Departemen_SSD():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=", #1
-            "https://drive.google.com/uc?export=view&id=", #2
-            "https://drive.google.com/uc?export=view&id=", #3
-            "https://drive.google.com/uc?export=view&id=", #4
-            "https://drive.google.com/uc?export=view&id=", #5
-            "https://drive.google.com/uc?export=view&id=", #6
-            "https://drive.google.com/uc?export=view&id=", #7
-            "https://drive.google.com/uc?export=view&id=", #8
-            "https://drive.google.com/uc?export=view&id=", #9
-            "https://drive.google.com/uc?export=view&id=", #10
-            "https://drive.google.com/uc?export=view&id=", #11
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #1
+            "https://drive.google.com/uc?export=view&id=1Ogn2wWdEfppkFCLbZVYvkAXKClPcYFxN", #2
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #3
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #4
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #5
+            "https://drive.google.com/uc?export=view&id=1iHCD9hXpE_oI5id4VhFo8IovmDBfh-j8", #6
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #7
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #8
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #9
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #10
+            "https://cdn-icons-png.flaticon.com/512/847/847969.png", #11
         ]
-        data_list = [
+       data_list = [
             {
                 "nama": "Danang Hilal Kurniawan",
                 "nim": "122450085",
@@ -1532,8 +1532,8 @@ if menu == "Departemen SSD":
                 "alamat": "Belakang PB Swalayan",
                 "hobbi": "Jogging",
                 "sosmed": "@dananghk_ ",
-                "kesan": "  ",  
-                "pesan": "  "# 1
+                "kesan": "Orangnya santai tapi selalu bisa diandalkan kalau udah serius ngerjain sesuatu.",
+                "pesan": "Tetap semangat dan jangan lupa istirahat, bro!"
             },
             {
                 "nama": "Syalaisha Andina Putriansyah",
@@ -1543,10 +1543,10 @@ if menu == "Departemen SSD":
                 "alamat": "Suka Rame",
                 "hobbi": "Baca Novel",
                 "sosmed": "@syalaishaa_31 ",
-                "kesan": "  ",  
-                "pesan": "  "# 2
+                "kesan": "Ramah dan gampang nyambung kalau diajak ngobrol, vibes-nya positif banget.",
+                "pesan": "Jangan berubah, tetap jadi pribadi yang ceria dan nyenengin ya!"
             },
-              {
+            {
                 "nama": "Ahmad Rizqi",
                 "nim": "122450138",
                 "umur": "20",
@@ -1554,10 +1554,10 @@ if menu == "Departemen SSD":
                 "alamat": "Airan",
                 "hobbi": "Pergi ke cafe tengah malam",
                 "sosmed": "@den_iki__",
-                "kesan": "  ",  
-                "pesan": "  "# 3
+                "kesan": "Santai banget orangnya, tapi punya pemikiran yang matang.",
+                "pesan": "Terus jaga semangat dan jangan kebanyakan nongkrong malem-malem wkwk."
             },
-              {
+            {
                 "nama": "Anadia Carana",
                 "nim": "123450019",
                 "umur": "20",
@@ -1565,10 +1565,10 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "Jogging",
                 "sosmed": "@anadiacrn_",
-                "kesan": "  ",  
-                "pesan": " "# 4
-                   },
-              {
+                "kesan": "Kalem tapi asik, gampang bikin suasana jadi nyaman.",
+                "pesan": "Semoga makin sukses dan selalu semangat ngejar mimpi!"
+            },
+            {
                 "nama": "Aprilia Dewi Hutapea",
                 "nim": "123450040",
                 "umur": "20",
@@ -1576,8 +1576,8 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "Nonton di Facebook",
                 "sosmed": "@aprhtp_ ",
-                "kesan": " ",  
-                "pesan": " "# 5
+                "kesan": "Seru banget orangnya, selalu ada aja hal random yang bikin ketawa.",
+                "pesan": "Terus jadi diri sendiri dan jangan lupa nonton yang edukatif juga ya wkwk."
             },
             {
                 "nama": "Nabila Zakiyah Zahra",
@@ -1587,10 +1587,10 @@ if menu == "Departemen SSD":
                 "alamat": "Way Halim",
                 "hobbi": "Jogging",
                 "sosmed": "@nabila_zazahra",
-                "kesan": "  ",  
-                "pesan":"   "# 6
+                "kesan": "Baik dan kalem, tapi bisa juga jadi rame kalau udah akrab.",
+                "pesan": "Semangat terus dan jangan gampang nyerah ya!"
             },
-             {
+            {
                 "nama": "Dhafin Razaqa Luthfi",
                 "nim": "122450133",
                 "umur": "21",
@@ -1598,10 +1598,10 @@ if menu == "Departemen SSD":
                 "alamat": "Sukarame",
                 "hobbi": "Belajar",
                 "sosmed": "@dhafinrzqa13",
-                "kesan": "  ",  
-                "pesan": " "# 7
+                "kesan": "Pintar dan fokus banget, tapi tetap humble sama semua orang.",
+                "pesan": "Terus kembangkan kemampuanmu, tapi jangan lupa buat have fun juga!"
             },
-              {
+            {
                 "nama": "Devi Rahayu",
                 "nim": "123450010",
                 "umur": "20",
@@ -1609,10 +1609,10 @@ if menu == "Departemen SSD":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Nonton Drakor",
                 "sosmed": "@deviirhyu",
-                "kesan": "  ",  
-                "pesan": "  "# 8
+                "kesan": "Ceria banget, gampang bikin suasana jadi rame.",
+                "pesan": "Terus jadi pribadi yang positif dan semangat ya!"
             },
-              {
+            {
                 "nama": "Enggli Rahmadhani",
                 "nim": "122450043",
                 "umur": "20",
@@ -1620,10 +1620,10 @@ if menu == "Departemen SSD":
                 "alamat": "Gang Pawira 2",
                 "hobbi": "Main Mobile Legend",
                 "sosmed": "@engliramdhnii",
-                "kesan": " ",  
-                "pesan": " "# 9
+                "kesan": "Seru banget kalau udah ngobrol, apalagi soal game.",
+                "pesan": "Terus asah skill, tapi jangan lupa rehat juga dari push rank wkwk."
             },
-              {
+            {
                 "nama": "Hanifah Inaya Sani",
                 "nim": "123450123",
                 "umur": "20",
@@ -1631,10 +1631,10 @@ if menu == "Departemen SSD":
                 "alamat": "Korpri",
                 "hobbi": "Memasak",
                 "sosmed": "@_inayasani",
-                "kesan": " ",  
-                "pesan": " "# 10
+                "kesan": "Kalem dan sopan, tapi lucu juga kalau udah deket.",
+                "pesan": "Semoga makin jago masak dan sukses selalu ke depannya!"
             },
-              {
+            {
                 "nama": "Nydia Manda Putri",
                 "nim": "123450018",
                 "umur": "20",
@@ -1642,9 +1642,9 @@ if menu == "Departemen SSD":
                 "alamat": "Tanjung Karang Timur",
                 "hobbi": "Main",
                 "sosmed": "@nydiaaptr_",
-                "kesan": " ",  
-                "pesan": " "# 11
-            },     
+                "kesan": "Ramah banget, gampang nyambung sama siapa aja.",
+                "pesan": "Semangat terus, semoga makin banyak hal seru yang kamu temuin!"
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_SSD()
@@ -1876,6 +1876,7 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
