@@ -185,7 +185,7 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1_54BNsYqpphxWtvRGTbT0FfER49Uafvc",
             "https://drive.google.com/uc?export=view&id=1g_A6kPVEMIUdggWN9Dnhx9gqv9CMeLsc",
             "https://drive.google.com/uc?export=view&id=1yAWKFiXE_YEg5FGGQefFXJiH3V7bIJCQ",
-            "https://drive.google.com/uc?export=view&id=1z0Hn6StsmE83wVQOE6LpK2O97EB638YM",
+            "https://drive.google.com/uc?export=view&id=1yl4k5qdzR9Lh_qKA6D0lam_tLN4iWMyQ",
             "https://drive.google.com/uc?export=view&id=1tXJRd5xZ-9_Hx1JQ4_6Ld-mN53RnjGp6",
             "https://drive.google.com/uc?export=view&id=1TMapyVNyY8xAFf5D076Lwln-aGtOoq0m",
             "https://drive.google.com/uc?export=view&id=1Cw4OmKb1HMbfA15w58xFY687R5et85uB",
@@ -1876,6 +1876,7 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
