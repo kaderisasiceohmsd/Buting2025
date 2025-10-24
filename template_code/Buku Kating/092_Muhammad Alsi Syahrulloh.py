@@ -1856,6 +1856,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@roms.slbn",
                 "kesan": "-",
                 "pesan": "-"
+                
             },
         ]
         display_images_with_data(gambar_urls, data_list)
