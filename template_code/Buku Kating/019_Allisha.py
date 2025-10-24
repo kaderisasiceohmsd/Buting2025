@@ -190,7 +190,7 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1--eyys0At5kw1oGh-Y5JcovDSAO8A8tE",
             "https://drive.google.com/uc?export=view&id=185nWv2B1WycMFCVvefNbNPnQdWp37bl7",
             "https://drive.google.com/uc?export=view&id=127P1KwLR6PYTOLeHzzMxxIOQZbcq9SCx",
-            "https://drive.google.com/uc?export=view&id=164_satLb_-DwR0DdCa2MeVdd4iwUzcLj",
+            "https://drive.google.com/uc?export=view&id=",
             "https://drive.google.com/uc?export=view&id=1c0ppVVMPGbrWNxcX4tVFyjNC7sNHzxSn",
             "https://drive.google.com/uc?export=view&id=1fVMR-NVo8heX8MBVqlLkAeOZKOnI4FgR",
             "https://drive.google.com/uc?export=view&id=1uwca5-sDKzL9Gqe8G06P0CG-LXja7uo-",
@@ -1499,8 +1499,8 @@ if menu == "Departemen SSD":
     def ssd():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1emqDNTp7GU_ot0032F1LjZg5SFCzZBAw",
-            "https://drive.google.com/uc?export=view&id=1ffBIRSlGlYLHywx8zoU0Ir4OTyQkOGpr",
-            "https://drive.google.com/uc?export=view&id=1nvP_nbZyO6LPx7vbGEmBFJ0Ey4OE_KmJ",
+            "https://drive.google.com/uc?export=view&id=1HCMnja0GMcK-VstfFLbWHoKtTdwzbtQX",
+            "https://drive.google.com/uc?export=view&id=1aBB8bCvXC0s0ezkwOQAWM56QQVxpv9Q2",
             "https://drive.google.com/uc?export=view&id=1_JAj4Lf9Dgbcqnd8oT47n-WGS-da1wOn",
             "https://drive.google.com/uc?export=view&id=1SiISVfWz_EMPO6WVHHt5CKLj3tKrmM57",
             "https://drive.google.com/uc?export=view&id=1rvnGYe0j8JjibTc1DqgaRAYtuM9jvntM",
