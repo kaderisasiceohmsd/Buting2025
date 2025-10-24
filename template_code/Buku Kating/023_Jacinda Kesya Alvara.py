@@ -384,7 +384,7 @@ elif menu == "Senator":
                 "hobbi": "Denger lagu",
                 "sosmed": "@nadiaanjani",
                 "kesan": "Kakak cantik dan baik banget, anggun gtu diliatnya",  
-                "pesan":"semangat terus kuliah# 1
+                "pesan":"semangat kak kuliahnya, semangat menggapai mimpi-mimpi kakak# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -394,8 +394,8 @@ elif menu == "Senator":
                 "alamat": "Asrama TB1",
                 "hobbi": "Main",
                 "sosmed": "@fathinahnazzh",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Masyaallah adem banget kalo liat kakak, sabar juga kalo lagi tutorin ALE, oh iya kk mirip bgt kakak kelas aku pas smp kirain masih sodarakan",  
+                "pesan":"semangat terus kuliahnya kak, jangan lupa senyum ya kak biar orang-orang di sekitar kakak ketularan manis nya"# 1
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -405,8 +405,8 @@ elif menu == "Senator":
                 "alamat": "Belakang indomaret belwis",
                 "hobbi": "Rebahan",
                 "sosmed": "@lia.h_264",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Nama kakak unik deh, lucuuu, kakak juga baik",  
+                "pesan":"semangat menjalankan hari hari yang dar der dor ini kak, jangan lupa hiling kak"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1863,6 +1863,7 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
 
