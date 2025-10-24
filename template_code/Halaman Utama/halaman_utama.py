@@ -41,7 +41,7 @@ st.markdown(
     """
     <div style='text-align: center;'>
         <h1 style='font-size: 5.5em;'>WEBSITE KATING</h1>
-        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2024</p>
+        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2025</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -206,7 +206,7 @@ elif menu == "About Us":
                 "nama": "Yollanda Agustina",
                 "sebagai": "Anggotaa",
                 "nim": "124450024",
-                "fun_fact": "nyemilin es bata, kiko",
+                "fun_fact": "nangkep cicak",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
@@ -220,7 +220,7 @@ elif menu == "About Us":
                 "nama": "Rafa Sabina Fahimah",
                 "sebagai": "Anggotaa",
                 "nim": "124450036",
-                "fun_fact": "-",
+                "fun_fact": "kuku tangan pucat",
                 "motto_hidup": "jalanin dulu keles",
             },
         ]
