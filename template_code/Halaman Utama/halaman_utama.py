@@ -139,7 +139,7 @@ elif menu == "About Us":
         )
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1E7EPrxkTHrXoSDPUUzn0mv2kYk1KxAEg",
+            "https://drive.google.com/uc?export=view&id=1MORuuPCJ3i3aaJxqGrKDdGa84XxZXECq",
             "https://drive.google.com/uc?export=view&id=12QYP3Q1XZaf9G5TE_PqyrNe6WcRApMCu",
             "https://drive.google.com/uc?export=view&id=1ru-z422OmTI687C9XegBQMy6RYTdVY0b",
             "https://drive.google.com/uc?export=view&id=1MIMAC_pUMKHpF7C8ASxsZ3xh8RYmBdyS",
