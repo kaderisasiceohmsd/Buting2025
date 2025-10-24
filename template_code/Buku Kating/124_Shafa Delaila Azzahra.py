@@ -132,8 +132,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damai",
                 "hobbi": "Nyanyi",
                 "sosmed": "@_erendraa",
-                "kesan": "Abang ini seru Abiez",  
-                "pesan":"Semangat Bang jadi Kahim!!"# 1
+                "kesan": "Bang rendra kalo nyanyi suaranya enak benerrr sumpisss, asik bangett lagiii",  
+                "pesan":"Semangat Abang kahim, semoga selalu diberi kemudahan kuliahnyaaa, Aamiin.."# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -143,8 +143,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl.Lapas",
                 "hobbi": "Baca Buku SQL!",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Bang Jo Seru & Ternyata satu daerah asal",  
-                "pesan":"Gassin terus bang !!!"# 1
+                "kesan": "Awal ketemu bang jo jujur agak takut karna mukanya galak, ternyata bang jo asik abiss, terus kocak juga orangnya, seruu dehhhh",  
+                "pesan":"LUCU TERUS YA BANG JO!! semangat kuliahnya bang, semoga cepet lulussss"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -154,8 +154,8 @@ if menu == "Kesekjenan":
                 "alamat": "Ayrest Kost",
                 "hobbi": "Nahan pipis",
                 "sosmed": "@celisabethh_",
-                "kesan": "Kakak ini lucu humoris dan seru",  
-                "pesan":"semoga akunnya gak kena suspend lagi kak"# 1
+                "kesan": "kak abett asikk bangett, dan pastinya kerenn bangettt jugaa",  
+                "pesan":"semangat kuliahnya kakk, semoga diberi kemudahan kuliahnya"# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -165,8 +165,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Kak Syadza keren",  
-                "pesan":"semoga sukses terus kak"# 1
+                "kesan": "kakak kalem bangett, baik lagi",  
+                "pesan":"sukses terus ya kakk!!"# 1
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
@@ -176,8 +176,8 @@ if menu == "Kesekjenan":
                 "alamat": "Asrama TB4",
                 "hobbi": "Nahan eek",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Kakak ini asik dan seru",  
-                "pesan":"sukses teruss kak"# 1
+                "kesan": "Kak eksanty seruu banget orangnya, sosial energi nya selalu penuh kayaknya",  
+                "pesan":"bahagia selalu ya kakk!!"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -187,8 +187,8 @@ if menu == "Kesekjenan":
                 "alamat": "Korpri",
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifahh",
-                "kesan": "Kakak ini lucu, jutek tapi seru",  
-                "pesan":"semoga suksess terus kak"# 1
+                "kesan": "Kakak cantik bangett plsss, mukanya jutek tapi ternyata ngga, murah senyumm lucu lagii",  
+                "pesan":"semangat menjalani hari harinya kakk"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -223,8 +223,8 @@ if menu == "Baleg":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Pilates",
                 "sosmed": "@jeremia_s_",
-                "kesan": "Abang terasik, terseru, & Satu Alumni Sekolah",  
-                "pesan":"semangat bang semster 7 nya!!!"# 1
+                "kesan": "bang jeree keren bingittt, ramahh lalu murah senyummm",  
+                "pesan":"semangat menjalani semester akhirnya bang, semoga diberikan kemudahannn"# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -267,8 +267,8 @@ if menu == "Baleg":
                 "alamat": "Kedaton",
                 "hobbi": "Nonton AGZ",
                 "sosmed": "@dhruchyo",
-                "kesan": "Terkerenn dan terkecee",  
-                "pesan":"semangat terus bang kejar cumlaude ituu"# 1
+                "kesan": "aduhhh bang dharu ini kecil kecil cabe rawit lahhh, kerenn abiieess lah pokoknyaa, mentor pplk kesayangan drespanthra",  
+                "pesan":"semangat terus bang dharuuu, semoga selalu diberi kemudahan untuk setiap langkahnya, Aamiin. ayo pan kapan ngumpul bareng drespanthra lagii"# 1
             },
             {
                 "nama": "Feby Wulandari",
@@ -289,8 +289,8 @@ if menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Liatin bang mirzan main kucing",
                 "sosmed": "@givarooo",
-                "kesan": "abang-abangan, seru abiez, cihuy mentor terdabest",  
-                "pesan":"kurang-kurangin brainrot nya bang"# 1
+                "kesan": "BANG GIPP!!! THE BEST MENTOR DEH POKOKNYAAA, asikkkk lucuukk baikkk 1000%%%",  
+                "pesan":"bahagia selalu ya bang gipp, semoga diberikan kemudahan kuliahnya, Aamiin.."# 1
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
