@@ -1,16 +1,52 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
-# === 1. Baca data ===
-df = pd.read_csv("tools/understat.com.csv")
-# Convert date column directly to year since it contains year values
-df['year'] = df['date']  # date column already contains years
+# === 1. Baca data (efisien) ===
+@st.cache_data(show_spinner=False)
+def load_data(path: str, nrows: int | None = None) -> pd.DataFrame:
+    """Load CSV efficiently. Will persist a parquet copy next to the CSV for faster subsequent loads.
+
+    - only reads three columns we need (date/team/xG) to reduce memory and I/O
+    - if a parquet file exists it will be used instead
+    - the function is cached by Streamlit so repeated calls are fast
+    """
+    parquet_path = path.replace('.csv', '.parquet')
+    if os.path.exists(parquet_path):
+        try:
+            return pd.read_parquet(parquet_path)
+        except Exception:
+            # fall back to CSV if parquet can't be read
+            pass
+
+    usecols = ['date', 'team', 'xG']
+    df = pd.read_csv(path, usecols=usecols, nrows=nrows, low_memory=False)
+
+    # try to write a parquet copy for faster future loads (best-effort)
+    try:
+        df.to_parquet(parquet_path)
+    except Exception:
+        pass
+
+    return df
 
 st.title("Analisis Sepak Bola")
 st.markdown("Gunakan slider di bawah untuk memilih tahun yang ingin dilihat")
 
 # === 2. Slider Tahun ===
+with st.spinner("Memuat data (cepat)..."):
+    # for development you can pass nrows=1000 to load a slice and iterate faster
+    csv_path = os.path.join(os.path.dirname(__file__), "understat.com.csv")
+    df = load_data(csv_path)
+
+# Convert/normalize year column
+if df['date'].dtype == 'int64' or df['date'].astype(str).str.match(r'^\d{4}$').all():
+    df['year'] = pd.to_numeric(df['date'])
+else:
+    df['date'] = pd.to_datetime(df['date'], errors='coerce')
+    df['year'] = df['date'].dt.year.fillna(0).astype(int)
+
 min_year = int(df['year'].min())
 max_year = int(df['year'].max())
 if min_year == max_year:
