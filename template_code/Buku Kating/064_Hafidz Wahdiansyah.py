@@ -127,7 +127,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Baca buku SQL",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "Bang Johannes orangnya asik, seru diajak ngobrol, dan selalu punya semangat tinggi dalam belajar, terutama soal SQL",  
-                "pesan":"semangat terus bang !!!"# 1
+                "pesan":"semangat terus bang , semoga diberi kelancaran segala urusan!"# 1
             },
             {
                 "nama": "Elisabeth Claudia",
