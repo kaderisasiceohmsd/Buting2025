@@ -102,24 +102,25 @@ if menu == "Home":
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+<<<<<<< HEAD
+            """<div style="text-align: justify;">Dalam sains data, cosval adalah singkatan dari cosine value,
+              yaitu hasil perhitungan cosine similarity antara dua vektor. Konsep ini berasal dari matematika trigonometri, 
+              di mana cosinus digunakan untuk mengukur sudut antara dua vektor.
+              Dalam sains data, khususnya pada analisis kelompok (clustering) atau pengelompokan data,
+              cosval (cosine value) dipahami sebagai ukuran numerik yang menunjukkan tingkat kemiripan 
+              antar anggota kelompok atau tingkat kedekatan suatu data dengan pusat kelompok (centroid).</div>""",
+=======
+            """<div style="text-align: justify;">Dalam sains data, cosval adalah singkatan dari cosine value, yaitu hasil perhitungan cosine similarity antara dua vektor. Konsep ini berasal dari matematika trigonometri, di mana cosinus digunakan untuk mengukur sudut antara dua vektor.
+Dalam sains data, khususnya pada analisis kelompok (clustering) atau pengelompokan data, cosval (cosine value) dipahami sebagai ukuran numerik yang menunjukkan tingkat kemiripan antar anggota kelompok atau tingkat kedekatan suatu data dengan pusat kelompok (centroid).</div>""",
+>>>>>>> bbbb59273a22cb285e8c1d7599a1c2d5bd623b7b
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=1s2CshvEIz3_fV3QK_TOgpMsJQkcb3rDi"
         layout(foto_kelompok)
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">COSVAL adalah kelompok 2 dari kaderisasi CEO HMSD ADYATAMA 
+            dengan Mentor yang sangat luar biasa yaitu ka gusti putu ferazka d.</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -137,62 +138,62 @@ elif menu == "About Us":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1EPD1nRRm700qOtb5m4rFcEc1ZGfr0CON",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "jaya saputra tamba",
                 "sebagai": "Pak Lurah",
                 "nim": "122450016",
                 "fun_fact": "suka makan pedes, tapi ga suka efeknya",
                 "motto_hidup": "new semester new me",
             },
             {
-                "nama": "x",
+                "nama": "farhanah hadaya fatin",
                 "sebagai": "Bu Lurah",
                 "nim": "122450000",
                 "fun_fact": "nyemilin es bata",
                 "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "x",
+                "nama": "Muhamad Syafiqul Falakh",
                 "sebagai": "Anggota",
-                "nim": "122450083",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "mantap",
+                "nim": "124450099",
+                "fun_fact": "suka dikira orang lampung padahal orang jawa",
+                "motto_hidup": "kalau mau sesuatu yang besar harus berani berkorban yang besar juga",
             },
             {
-                "nama": "x",
+                "nama": "Audina Fitria",
                 "sebagai": "Anggotaa",
                 "nim": "122450000",
                 "fun_fact": "nyemilin",
                 "motto_hidup": "jalanin dulu aja",
             },
             {
-                "nama": "x",
+                "nama": "Juwita Sari",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Putri Manna Anantama Simbolon",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "Lovianorasaragih",
                 "sebagai": "Anggotaa",
                 "nim": "122450100",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "x",
+                "nama": "   jeremi Marolop",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
                 "fun_fact": "nyemilin es bata, kiko",
