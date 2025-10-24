@@ -207,7 +207,7 @@ if menu == "Baleg":
                 "hobbi": "Yapping",
                 "sosmed": "@Jeremia_s_",
                 "kesan": "Kakaknya asik dan ramah.",
-                "pesan":"Sukses selalu untuk kuliahnya ya!"
+                "pesan":"Hebat bang"
             },
             {
                 "nama": "Dhea Amelia Putri",
