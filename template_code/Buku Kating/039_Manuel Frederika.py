@@ -816,7 +816,7 @@ if menu == "Departemen MIKFES":
                 "hobbi": "Tidur dan berkembang",
                 "sosmed": "@randaandriana_",
                 "kesan": "Abangnya murah senyum, asik, aura mikfes nya kuat banget ",  
-                "pesan":"Semoga abangnya cepat luluss"# 1
+                "pesan":"Semoga abangnya cepat lulus"# 1
             },
             {
                 "nama": "Kakak Rut Junita Sari Siburian",
@@ -827,7 +827,7 @@ if menu == "Departemen MIKFES":
                 "hobbi": "Membaca Buku",
                 "sosmed": "@junitaa_0406",
                 "kesan": "Masih ga nyangka kakaknya dari Kepri juga",  
-                "pesan":"Semangat terus ya kak sampai lulus "# 2
+                "pesan":"Semangat terus ya kak sampai luluss "# 2
             },
             {
                 "nama": "Kakak Muhammad Regi Abdi Putra Ananta",
@@ -837,7 +837,7 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jalan Permadi, Sukarame",
                 "hobbi": "Mendengar Musik",
                 "sosmed": "@mregiiii_",
-                "kesan": "Abangnya ramah banget dan murah senyum ",  
+                "kesan": "Abangnya jago ngoomong dan murah senyum banget ",  
                 "pesan":"Semoga cepat lulus dan mendapatkan nilai yang terbaik bang "# 3
             },
             {
@@ -914,8 +914,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Pramuka, bandar Lampung",
                 "hobbi": "Mendengar Musik",
                 "sosmed": "@keyshafi_",
-                "kesan": " ",  
-                "pesan":" "# 10
+                "kesan": "Abangnya mirip bryan ",  
+                "pesan":"Semangat terus buat abang nya jangan lupa makan dan minum"# 10
             },
             {
                 "nama": "Kakak Anggi Puspita Ningrum",
@@ -925,8 +925,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jln. Seputih, Bumisari, Natar",
                 "hobbi": "Mendengarkan musik, nonton drakor, ngedance",
                 "sosmed": "@anggi_yllow2318",
-                "kesan": " ",  
-                "pesan":" "# 11
+                "kesan": "Kakaknya lucu dan manis banget ",  
+                "pesan":"Semanagat terus mengejar deadline "# 11
             },
             {
                 "nama": "Kakak Efi Defiyati",
@@ -936,8 +936,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Raden Saleh",
                 "hobbi": "Membaca",
                 "sosmed": "@eeffiidefi",
-                "kesan": " ",  
-                "pesan":" "# 12
+                "kesan": "Kakaknya keliatannya  galak aslinya murah senyum ",  
+                "pesan":"Semangat terus ya kak jangan lupa makan dan minum "# 12
             },
             {
                 "nama": "Kakak Fabiolla Charissa Putri",
@@ -947,8 +947,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Pesawaran",
                 "hobbi": "Main Piano dan bernyanyi",
                 "sosmed": "@hey.olla",
-                "kesan": " ",  
-                "pesan":" "# 13
+                "kesan": "Kakaknya murah senyum dan kalau ngomong lembut",  
+                "pesan":"Semangat terus ya kak menjalani kehidupannya sehari hari "# 13
             },
             {
                 "nama": "Kakak Fairuz Ary Syifa",
@@ -958,8 +958,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 14
+                "kesan": "Kakaknya tipe yang langsung asik deh kayaknya",  
+                "pesan":"Semangat terus ya kak di dunia perkuliahannya"# 14
             },
             {
                 "nama": "Kakak Tanty Widyiastuti",
@@ -969,8 +969,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@i",
-                "kesan": "",  
-                "pesan":""# 15
+                "kesan": "Keliatannya kakaknya galak aslinya perhatian",  
+                "pesan":"Makasi kak dah nanyain keadaanku waktu di notiz hut"# 15
             },
             {
                 "nama": "Kakak Eggi Satria",
@@ -980,8 +980,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Permadi",
                 "hobbi": "Bernafas",
                 "sosmed": "@_egistr",
-                "kesan": " ",  
-                "pesan":" "# 16
+                "kesan": "Abangnya baik banget mau ngasih ilmu ngoding, belajar sama abangnya ngoding jadi simple",  
+                "pesan":"Makasih bang dah bagiin ilmu ngoding bang"# 16
             },
             { 
                 "nama": "Kakak Afifah Fauziah",
@@ -991,8 +991,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Padang, Sumbar",
                 "hobbi": "Isengin orang dan ngobrol random with gpt",
                 "sosmed": "@fifah.zy",
-                "kesan": " ",  
-                "pesan":" "# 17
+                "kesan": "Kayaknya Kakaknya tipe yang langsung asik deh ",  
+                "pesan":"Tetap semangat terus ya kak jangan meninggalkan ibadah "# 17
             },
             {
                 "nama": "Kakak Fabio Banyu Cyto",
@@ -1002,8 +1002,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jalan Teratai No 27A, Kedaton",
                 "hobbi": "Jadi PJ Kelas bu Febri",
                 "sosmed": "@biyokcb",
-                "kesan": " ",  
-                "pesan":" "# 18
+                "kesan": "Abangnya baik banget, asik parah pokoknya ",  
+                "pesan":"Semoga keinginannya tercapai dalam waktu dekat "# 18
             },
           
             {
@@ -1014,8 +1014,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 19
+                "kesan": "Kakaknya vibes positif pake banget",  
+                "pesan":"Tetap jadi orang vibes positif terus ya kak"# 19
             },
             {
                 "nama": "Kakak Rahmah Gustriana Deka",
@@ -1025,8 +1025,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 20
+                "kesan": "Kakaknya baik banget dan perhatian",  
+                "pesan":"Semangat terus buat kakaknya jangan patah semangat"# 20
             },
             {
                 "nama": "Kakak Razin Hafid Hamdi",
@@ -1036,8 +1036,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@",
-                "kesan": "",  
-                "pesan":""# 21
+                "kesan": "Abangnya baik banget mau bantuin dan ngasih tau banyak hal tentang website",  
+                "pesan":"Makasih ya bang ilmu ilmunya"# 21
             },
             {
                 "nama": "Kakak Giofani Aristyo",
@@ -1047,8 +1047,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "",
                 "hobbi": "Catur",
                 "sosmed": "@",
-                "kesan": " ",  
-                "pesan":" "# 22
+                "kesan": "Abangnya kalem banget, inget banget abangnya ozt pas pplk 2024 ",  
+                "pesan":"Semangat terus bang semoga banyak prestasi yang menghampiri "# 22
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1091,8 +1091,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Asrama",
                 "hobbi": "Bank BSI",
                 "sosmed": "@arafiramadhanmaulana",
-                "kesan": " ",  
-                "pesan":" "# 1
+                "kesan": "Abangnya baik banget banyak ngasih ilmu tentang departemen eksternal ",  
+                "pesan":"Makasih ilmu ilmu nya bang"# 1
             },
             {
                 "nama": "Kakak Yohana Manik",
@@ -1102,8 +1102,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Jl Hidup",
                 "hobbi": "Belajar",
                 "sosmed": "@yo_anamnk",
-                "kesan": " ",  
-                "pesan":" "# 2
+                "kesan": "Kakaknya ramah banget dan kalau senyum manis banget ",  
+                "pesan":"Semangat terus kak menjalani semester akhirnya "# 2
             },
             {
                 "nama": "Kakak Dea Mutia Risani",
@@ -1113,19 +1113,19 @@ if menu == "Departemen Eksternal":
                 "alamat": "Korpri",
                 "hobbi": "Tidur",
                 "sosmed": "@deaa.rsn",
-                "kesan": " ",  
-                "pesan":" "# 3
+                "kesan": "Kakaknya baik banget mau ngajari pas codingan ku ga jalan ",  
+                "pesan":"Semoga tetap betah ya kak ngasprak di kelas RA "# 3
             },
             {
-                "nama": "Kakak Devyna Palupi Sanjaya",
+                "nama": "Kakak Devyna Sonya Palupi Sanjaya",
                 "nim": "123450007",
                 "umur": "20",
                 "asal":"Duo P(Palembang & Pringsewu)",
                 "alamat": "like crowded",
                 "hobbi": "Scroll template jj & ngasprak",
                 "sosmed": "@devynasonyaa",
-                "kesan": " ",  
-                "pesan":" "# 4
+                "kesan": "Mentorku paling terbaik deh, asik pake banget, perhatian banget, paling ngertiin anak anaknya, fast respon, definisi perfect ada di kak sonya",  
+                "pesan":"Makasih banyak buat banyak hal deh kak, infokan gacoan satu kelompok dalam waktu dekat "# 4
             },
             {
                 "nama": "Kakak Luthfia Laila Ramadhani",
@@ -1135,8 +1135,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Jl. Raden Saleh",
                 "hobbi": "Nyubitin Ketang",
                 "sosmed": "@Luthfiaarmdhni",
-                "kesan": " ",  
-                "pesan":" "# 5
+                "kesan": "Tau kakanya karna sering masuk story wa kak sonya ",  
+                "pesan":"Semangat terus kak jangan lupa makan dan minum "# 5
             },
             {
                 "nama": "Kakak Cindy Laura Manik",
@@ -1146,8 +1146,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Belwis ",
                 "hobbi": "beli risol ayam naya",
                 "sosmed": "@cindylauura",
-                "kesan": " ",  
-                "pesan":" "# 6
+                "kesan": "Kakaknya manis, murah senyum dan kalem ",  
+                "pesan":"Semangat mengikuti Duta Itera nya kak "# 6
             },
             {
                 "nama": "Kakak Desman Velius Halawa",
@@ -1157,8 +1157,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Asrama TB 3",
                 "hobbi": "Bermusik",
                 "sosmed": "@dsmannhal_",
-                "kesan": " ",  
-                "pesan":" "# 7
+                "kesan": "Tegas, terkadang asik, aslinya abangnya baik banget ",  
+                "pesan":"Roma 8:28"# 7
             },
             {
                 "nama": "Kakak Dea Amanda",
@@ -1168,8 +1168,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "korpri",
                 "hobbi": "nonton reels agz",
                 "sosmed": "@deaamnd3_",
-                "kesan": " ",  
-                "pesan":" "# 8
+                "kesan": "Kakaknya murah senyum, mirip teman SMA ku ",  
+                "pesan":"Semoga keinginannya tercapai ya kak "# 8
             },
             {
                 "nama": "Kakak Irvan Alfaritzi",
@@ -1179,8 +1179,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Sukarame",
                 "hobbi": "Main badmin, denger lagu",
                 "sosmed": "@alfaritziirvan",
-                "kesan": " ",  
-                "pesan":" "# 9
+                "kesan": "Abangnya tipe  tipe softboy ",  
+                "pesan":"Semangat terus buat abangnya dan jangan patah semangat "# 9
             },
             {
                 "nama": "Kakak Fathya Intami Gusda",
@@ -1190,8 +1190,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Sukarame ",
                 "hobbi": "minta tolong adit",
                 "sosmed": "@fatthyaa",
-                "kesan": " ",  
-                "pesan":" "# 10
+                "kesan": "Kakaknya vibes positif banget dan ramah ",  
+                "pesan":"Semangat menjalani hari hari nya kak "# 10
             },
             {
                 "nama": "Kakak khazanatil ilmi",
@@ -1201,8 +1201,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "korpri raya",
                 "hobbi": "nonton",
                 "sosmed": "@khazanatil_ilmi05",
-                "kesan": " ",  
-                "pesan":" "# 11
+                "kesan": "Cantik dan kakaknya manis banget ",  
+                "pesan":"Semangat terus kak jangan tinggalkan ibadah "# 11
             },
             {
                 "nama": "Kakak Nurul Izzah Istiqomah",
@@ -1212,8 +1212,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Gang nalim",
                 "hobbi": "Baking",
                 "sosmed": "@izzah_tq",
-                "kesan": " ",  
-                "pesan":" "# 12
+                "kesan": "Kakaknya murah senyumm aura orang baiknya keliatan banget ",  
+                "pesan":"Semangat terus buat kakaknya "# 12
             },
             {
                 "nama": "Kakak Qois Olifio",
@@ -1223,8 +1223,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Gang sakum",
                 "hobbi": "Ngabisin bensin",
                 "sosmed": "@qoisolifio_",
-                "kesan": " ",  
-                "pesan":" "# 13
+                "kesan": "Abangnya tipe cool boy, masih ga nyangka ada orang batam di data ",  
+                "pesan":"Kapan kapan pulang bareng ke batam yok bang "# 13
             },
             {
                 "nama": "Kakak Melinza Nabila",
@@ -1234,8 +1234,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Kedamaian",
                 "hobbi": "menonton film",
                 "sosmed": "@melynznb",
-                "kesan": " ",  
-                "pesan":" "# 14
+                "kesan": "Kakaknya kalem dan kalau senyum manis banget ",  
+                "pesan":"Semangat terus kak semoga prestasi menghampiri kakak "# 14
             },
             {
                 "nama": "Kakak Nayla Shafira Roza",
@@ -1245,8 +1245,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Kedamaian",
                 "hobbi": "Me time",
                 "sosmed": "@n.shafirarz",
-                "kesan": " ",  
-                "pesan":" "# 15
+                "kesan": "Kakaknya senyum manis banget ",  
+                "pesan":"Semangat terus kak semoga kakak selalu jadi orang vibes positif "# 15
             },
             {
                 "nama": "Kakak Aditya Taufiqurrohman",
@@ -1256,8 +1256,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Belwis",
                 "hobbi": "Open the new map",
                 "sosmed": "@Ty_Tq90",
-                "kesan": " ",  
-                "pesan":" "# 16
+                "kesan": "Abangnya kalau ngomong lucu, mirip giyat sekilas ",  
+                "pesan":"Semangat jadi mentor nya kelompok giyatt bang "# 16
             },
             {
                 "nama": "Kakak Tarisya Hidayatul Rahmi",
@@ -1267,8 +1267,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Korpri",
                 "hobbi": " jelajahi desa lamsel",
                 "sosmed": "@tari_sya23",
-                "kesan": " ",  
-                "pesan":" "# 17
+                "kesan": "Kakaknya kayaknya tipe yang lemah lembut deh ",  
+                "pesan":"Semangat terus kak jangan lupa makan dan minum yang cukup"# 17
             },
             {
                 "nama": "Kakak Ratu Keisha Jasmine Deanova",
@@ -1278,8 +1278,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Way Kandis",
                 "hobbi": "Nyetrika baju",
                 "sosmed": "@jasminednva",
-                "kesan": " ",  
-                "pesan":" "# 18
+                "kesan": "Kakaknya kalau senyum manis banget ",  
+                "pesan":"Semangat terus kak semoga cepat lulus ya kak "# 18
             },
             {
                 "nama": "Kakak Khoirul Muttoharoh",
@@ -1289,8 +1289,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "sukarame",
                 "hobbi": "main main",
                 "sosmed": "@khoirulmuttoharoh",
-                "kesan": " ",  
-                "pesan":" "# 19
+                "kesan": "Awalnya ngira kakaknya tipe yang serius gitu, aslinya murah senyum ",  
+                "pesan":"semangat terus kak menjalani hari harinya"# 19
             },
             {
                 "nama": "Kakak Arya Muda Siregar",
@@ -1300,8 +1300,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Rawa Laut",
                 "hobbi": "ngelamun",
                 "sosmed": "@aryamudasiregar",
-                "kesan": " ",  
-                "pesan":" "# 20
+                "kesan": "Abangnya keren banget, cool parah",  
+                "pesan": "Semangat terus bang menjalani hari harinya "# 20
             },
             {
                 "nama": "Kakak Arini Puteri Elandra",
@@ -1311,8 +1311,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Teluk, Bandar Lampung",
                 "hobbi": "jalan jalan berkeliling dunia",
                 "sosmed": "@elandraa_",
-                "kesan": " ",  
-                "pesan":" "# 21
+                "kesan": "Awalnya ngira kakaknya tipe serius gitu, aslinya baik banget ",  
+                "pesan":"Makasih banyak pake banget kak udah bawa aku klinik "# 21
             },
             {
                 "nama": "Kakak Syahrialdi Rachim Akbar",
@@ -1322,8 +1322,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "b.lampung",
                 "hobbi": "baca",
                 "sosmed": "@syahrialdi_rchm",
-                "kesan": " ",  
-                "pesan":" "# 22
+                "kesan": "Abangnya asik dan murah senyum, awal tau abangnya karna satu perwalian ",  
+                "pesan":"Semangat terus buat abangnya jangan tinggalkan ibadah "# 22
             },
             {
                 "nama": "Kakak Lutfia Aisyah Putri",
@@ -1333,8 +1333,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Pemda",
                 "hobbi": "nyari dataset",
                 "sosmed": "@lutfiaisyh",
-                "kesan": " ",  
-                "pesan":" "# 23
+                "kesan": "Kakaknya kalem dan manis banget ",  
+                "pesan": "Jangan patah semangat kak menjalani hari harinya "# 23
             },
             {
                 "nama": "Kakak Nabyla Sharfina",
@@ -1344,8 +1344,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Jalan Lapas Raya",
                 "hobbi": "Jalan - Jalan",
                 "sosmed": "@bylaash",
-                "kesan": " ",  
-                "pesan":" "# 24
+                "kesan": "Kakaknya lucu, cantik, manis banget ",  
+                "pesan":"Makasi kak udah ada di dunia ini "# 24
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1878,6 +1878,7 @@ elif menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
