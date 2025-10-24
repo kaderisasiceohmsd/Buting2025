@@ -541,6 +541,192 @@ if menu == "Departemen PSDA":
                 "sosmed": "@nobelnizam",
                 "kesan": "Bang nobel keren dan pinter ngodingg",
                 "pesan": "Jujur saya pengen bet ngobrol santai sama abang bang, kayaknya seru deh kalo denger cerita dari wijaya"
+                {
+                "nama": "Nurul Alfajar Gumel",
+                "nim": "122450127",
+                "umur": "21",
+                "asal": "Sumatera Barat",
+                "alamat": "Sigma family",
+                "hobbi": "ngasprak",
+                "sosmed": "@j_gumel_17",
+                "kesan": "Bang aji keren dan pinter banget, asprak ADS saya juga nih",
+                "pesan": "Terimakasih atas bimbingannya ya bang, untuk kader maupun praktikum ADS, sehat selalu ya bangg"
+              },
+              {
+                "nama": "Vany Salsabila Putri",
+                "nim": "123450022",
+                "umur": "20",
+                "asal": "palembang",
+                "alamat": "airan raya",
+                "hobbi": "ngoding di macbook",
+                "sosmed": "@vany.salsabila",
+                "kesan": "Kak vany keren dan cakep banget kak",
+                "pesan": "Ngoding di macbook emang beda ya kak sama ngoding di laptop lain??"
+              },
+              {
+                "nama": "Ahmad Sahidin Akbar",
+                "nim": "1224450044",
+                "umur": "21",
+                "asal": "Tulang Bawang",
+                "alamat": "Sukarame",
+                "hobbi": "Badminton",
+                "sosmed": "@sahid22_",
+                "kesan": "Atletis banget bang sahidin akbar",
+                "pesan": "Bang, temen saya ada yang ngajak sparing badminton namanya Rozak(sorry zak)"
+              },
+              {
+                "nama": "Ali Aristo Muthahhari Parisi",
+                "nim": "123450088",
+                "umur": "20",
+                "asal": "Jabung, Lampung Timur",
+                "alamat": "Sukarame",
+                "hobbi": "Main game, kulineran",
+                "sosmed": "@ali_parisi3",
+                "kesan": "Bang Ali inspriratif dan kalem",
+                "pesan": "Semangat terus bang ali, btw suka main game apa bang??"
+              },
+              {
+                "nama": "Gusti Putu Ferazka",
+                "nim": "123450046",
+                "umur": "20",
+                "asal": "Bekasi",
+                "alamat": "Way Dadi",
+                "hobbi": "Tidur",
+                "sosmed": "@farazka",
+                "kesan": "Kak gusti putu ferazka keren banget dan cakep juga positiv vibes",
+                "pesan": "Kak?? saya juga hobi tidur tapi harus sambil nonton ASMR Gledek"
+              },
+              {
+                "nama": "Kharisma Mustika Sari",
+                "nim": "123450034",
+                "umur": "20",
+                "asal": "Way Kanan",
+                "alamat": "Untung",
+                "hobbi": "Scroll Tiktok",
+                "sosmed": "@risma.mustika_",
+                "kesan": "Kak risma cantik banget, keren dan berwibawa",
+                "pesan": "Info fyp hari ini apa ya kakk??"
+              },
+              {
+                "nama": "Rosalia Siregar",
+                "nim": "123450036",
+                "umur": "19",
+                "asal": "Medan",
+                "alamat": "Belwis",
+                "hobbi": "Main Roblox",
+                "sosmed": "rosaliasiregar_",
+                "kesan": "Kak rosalia kalem dan cool banget kak",
+                "pesan": "Kakk saya juga main roblox, mabar roblox gas kakk"
+              },
+              {
+                "nama": "Sahid Maulana",
+                "nim": "122450109",
+                "umur": "22",
+                "asal": "Depok, Jawa Barat",
+                "alamat": "Airan Raya",
+                "hobbi": "Main Video Game",
+                "sosmed": "@sahid_maul19",
+                "kesan": "Bang sahid maulana ganteng, keren banget bang",
+                "pesan": "Bang biasanya main game apa bang?? siapa tau ada info mabar bangg"
+              },
+              {
+                "nama": "Daffa Ahmad Naufal",
+                "nim": "122450137",
+                "umur": "21",
+                "asal": "Jakarta",
+                "alamat": "Korpri",
+                "hobbi": "Ngerjain Tugas",
+                "sosmed": "@ahmadnaufal_11",
+                "kesan": "Bang daffa naufal sesuai hobby, pas wwc lagi negrjain tugass",
+                "pesan": "Bang emang suka ngerjain tugas ADS dan ALE bang pas semester 3??"
+              },
+              {
+                "nama": "Erma Daniar Safitri",
+                "nim": "123450061",
+                "umur": "20",
+                "asal": "Pringsewu",
+                "alamat": "Jl. Lapas Raya No.55",
+                "hobbi": "Koleksi pita pink",
+                "sosmed": "@d_aniar",
+                "kesan": "Kak erma cakep dan keren banget",
+                "pesan": "Kak kenapa suka koleksi pita pink?? kenapa ga pita biruu??"
+              },
+              {
+                "nama": "Ihsan Maulana Yusuf",
+                "nim": "123450110",
+                "umur": "20",
+                "asal": "Sumatera Barat",
+                "alamat": "Belwis, Pemda",
+                "hobbi": "Gangguin Kak Dea",
+                "sosmed": "@ihsan.yusuf",
+                "kesan": "Bang ihsan menurut saya sedikit usil dan lucu banget orangnya",
+                "pesan": "Semangat terus ya bang, sehat selalu dan banyak rezeki be yourself and never surrender bang"
+              },
+              {
+                "nama": "Kevin Antoni Junior",
+                "nim": "123450109",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Panjang Selatan",
+                "hobbi": "Ngomongin Kak Dea",
+                "sosmed": "@kevinaja",
+                "kesan": "Bang kevin cool sekali bang",
+                "pesan": "Kenapa bang kevin dan bang ihsan suka jailin kak dea bangg??"
+              },
+              {
+                "nama": "Lidia Natasyah Marpaung",
+                "nim": "123450015",
+                "umur": "20",
+                "asal": "Medan",
+                "alamat": "Pemda",
+                "hobbi": "Merajut",
+                "sosmed": "@dia_natzzyaa",
+                "kesan": "Kak lidia kalem terus positive vibes banget",
+                "pesan": "Kak merajut susah gasi kak?? saya juga mau belajar"
+              },
+              {
+                "nama": "Muhammad Ridwan",
+                "nim": "123450091",
+                "umur": "20",
+                "asal": "Lampung Tengah",
+                "alamat": "Belwis",
+                "hobbi": "Nyuruh Kak Dea diam",
+                "sosmed": "@m.ridwan_22",
+                "kesan": "Bang ridwan keren dan berwibawa bang",
+                "pesan": "Semangat terus bang kuliah dan kesehariannya"
+              },
+              {
+                "nama": "Ulliano William Purba",
+                "nim": "122450098",
+                "umur": "19",
+                "asal": "Depok",
+                "alamat": "jl. Raden saleh",
+                "hobbi": "Main piano, ngoding, menanam anggrek, berantem",
+                "sosmed": "@ullianowlm",
+                "kesan": "Bang ulliano tegas dan cool orangya",
+                "pesan": "Banyak banget hobinya bangg, keren keren semua lagii, respectt!!"
+              },
+              {
+                "nama": "Benget Sidabutar",
+                "nim": "123450043",
+                "umur": "20",
+                "asal": "Sumatera Utara",
+                "alamat": "Belwis",
+                "hobbi": "Main Bola",
+                "sosmed": "@sidabutar.26",
+                "kesan": "Bang benget lucu dan seru banget",
+                "pesan": "Bang suka main bola tapi suka main ps ga bangg??"
+              },
+              {
+                "nama": "Rewina Audriya Melva Sari",
+                "nim": "123450049",
+                "umur": "20",
+                "asal": "Ibu Kota Lampung",
+                "alamat": "Way Kandis",
+                "hobbi": "Cari GPT",
+                "sosmed": "@rewinanaaa",
+                "kesan": "Kak rewina kece dan anggunly banget",
+                "pesan": "Kak?? biasanya pake gpt pernah di adu sama gemini ga kak pinteran manaa??"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
