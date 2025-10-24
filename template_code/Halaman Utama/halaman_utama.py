@@ -214,14 +214,14 @@ elif menu == "About Us":
                 "sebagai": "Anggotaa",
                 "nim": "124450119",
                 "fun_fact": "suka campurin makanannn",
-                "motto_hidup": "jalanin dulu keles",
+                "motto_hidup": "jalanin aja dulu keles",
             },
             {
                 "nama": "Rafa Sabina Fahimah",
                 "sebagai": "Anggotaa",
                 "nim": "124450036",
                 "fun_fact": "kuku tangan pucat",
-                "motto_hidup": "jalanin dulu keles",
+                "motto_hidup": "jalanin aja dulu keles",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
