@@ -541,8 +541,7 @@ if menu == "Departemen PSDA":
                 "sosmed": "@nobelnizam",
                 "kesan": "Bang nobel keren dan pinter ngodingg",
                 "pesan": "Jujur saya pengen bet ngobrol santai sama abang bang, kayaknya seru deh kalo denger cerita dari wijaya"
-            },    
-            {
+                {
                 "nama": "Nurul Alfajar Gumel",
                 "nim": "122450127",
                 "umur": "21",
