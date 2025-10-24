@@ -42,7 +42,7 @@ st.markdown(
     """
     <div style='text-align: center;'>
         <h1 style='font-size: 5.5em;'>WEBSITE KATING</h1>
-        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2024</p>
+        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2025</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -110,7 +110,7 @@ Kami adalah kelompok yang terinspirasi dari filosofi Greedy Algorithm — selalu
         )
         st.write(""" """)
 
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1sfUpGUuu7myoGzx3vmaCQN7BD66T7kVu"
+        foto_kelompok = "https://drive.google.com/uc?export=1rWA_LmvorW3iW43uXXW2v4K2FW84O4GS"
         layout(foto_kelompok)
 
         st.markdown(
@@ -135,8 +135,8 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tEVXxONkKHSRX3-NGqVILi0bC1Rwdz8t",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=13NTt43i_cSWe3XTgEpLyovi4gA9EQLaq",
+            "https://drive.google.com/uc?export=view&id=1IVDJ_x6SUqUo9OBnzwPbnvQ5BV7doSN3",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
@@ -168,6 +168,20 @@ elif menu == "About Us":
                 "motto_hidup": "mantap",
             },
             {
+                "nama": "Indah Julia Mawar Pratiwi",
+                "sebagai": "Anggota",
+                "nim": "124450055",
+                "fun_fact": "ga suka makan sayur",
+                "motto_hidup": "Menjadi baik tidak pernah salah",
+            },
+            {
+                "nama": "Risa Romadona",
+                "sebagai": "Anggotaa",
+                "nim": "122450127",
+                "fun_fact": "gabisa makan durian",
+                "motto_hidup": "jalani dan syukuri",
+            },
+            {
                 "nama": "Charrlindah",
                 "sebagai": "Anggotaa",
                 "nim": "122450037",
@@ -196,13 +210,6 @@ elif menu == "About Us":
                 "motto_hidup": "Love What You Do. Do What You Love",
             },
             {
-                "nama": "Indah Julia Mawar Pratiwi",
-                "sebagai": "Anggota",
-                "nim": "124450055",
-                "fun_fact": "ga suka makan sayur",
-                "motto_hidup": "yang bisa dilakuin sekarang, jangan ditunda besok",
-            },
-            {
                 "nama": "bernardius",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
@@ -217,7 +224,7 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "risa",
+                "nama": "Risa Romadona",
                 "sebagai": "Anggotaa",
                 "nim": "122450127",
                 "fun_fact": "gabisa makan durian",
