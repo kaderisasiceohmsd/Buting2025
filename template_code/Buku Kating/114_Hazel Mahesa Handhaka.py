@@ -1490,7 +1490,7 @@ if menu == "Departemen Internal":
                 "sosmed": "@zhrptsl",
                 "kesan": "Kakaknya ramah dan asik.",
                 "pesan": "Sukses terus, Kak!"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     internal()
