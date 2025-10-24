@@ -392,8 +392,8 @@ if menu == "Senator":
                 "alamat": "Raden Saleh",
                 "hobbi": "Denger lagu, rapat",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Abang kece kura-kura",  
-                "pesan":"semangat terus bangg menggapai mimpinya!"# 1
+                "kesan": "gatau gua bingung banget abang ini ada aja punchline punchline nyaa, kocak banget abang ini sumpaa seru banget kayanya kalo jadi temen deket diaa",  
+                "pesan":"jangan ilang yaa bang kekocakannya, pengen deh gua akrab sama lu bang"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -403,8 +403,8 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Denger lagu, maen roblox",
                 "sosmed": "@nadyaanjanani",
-                "kesan": "Kakak ini asik, baik",  
-                "pesan":"semangat terus kuliahnya, dan langgeng terus ya kak ;)"# 1
+                "kesan": "manis banget kakaknya kalo senyum, mukanya pembaik bangettt",  
+                "pesan":"langgeng langging yaa kak sama bang ghitato"# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -414,8 +414,8 @@ if menu == "Senator":
                 "alamat": "Asrama TB1",
                 "hobbi": "Ice Skating",
                 "sosmed": "@fathinahazzh",
-                "kesan": "Kakak ini baik, seru",  
-                "pesan":"keep positive kak!"# 1
+                "kesan": "Tutur katanya lembut, pembaik banget keliatannya, kalo jadi kakak aku kayaknya ga bakal pernah di marah akunya",  
+                "pesan":"jangan berubah yaa kak gini aja jadi pembaik"# 1
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -425,8 +425,8 @@ if menu == "Senator":
                 "alamat": "Belakang indomaret belwis",
                 "hobbi": "Rebahan",
                 "sosmed": "@lia.h_264",
-                "kesan": "kakaknya kerenn",  
-                "pesan":"semangat terus kuliahnya kakak!"# 1
+                "kesan": "kayaknya serem kalo marah, tapi untungnya kakaknya senyum teruss",  
+                "pesan":"jangan sering sering rebahan yaa kak"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
