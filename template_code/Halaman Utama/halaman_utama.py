@@ -136,15 +136,15 @@ elif menu == "About Us":
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1zujBrFyxrhkbGMpG6DjZfAekH-_jbcyc", #niko
-            "https://drive.google.com/uc?export=view&id=1NRBQH_QT8lNsbMgg6gWx4wvw-yfxObUU", #rahma
-            "https://drive.google.com/uc?export=view&id=1PlYQrm1pg9FoCmZHf9o79lLAYC2ozbuZ", #fadya
-            "https://drive.google.com/uc?export=view&id=1RpUljY4kbmbHDiXhbts5hZMmpfh1usw3", #indah
+            "https://drive.google.com/uc?export=view&id=1Cf2aDk9AhHNGHNjX7nmp-JFcqYPd0DiO", #rahma
+            "https://drive.google.com/uc?export=view&id=1dM1sfaWa59jFaga9H3FAWNka24gW8Mpd", #fadya
+            "https://drive.google.com/uc?export=view&id=10s6guDARSCsYFUL9N3xKSxqgBArp_S6q", #indah
             "https://drive.google.com/uc?export=view&id=1qI4MFay1-fhuszwZQwlPxYsv2BY-ybne", #caca
             "https://drive.google.com/uc?export=view&id=1Cl0u_FOfQlMiPuROPViGGepppIommkko", #anggun
             "https://drive.google.com/uc?export=view&id=1wwBHyFgyIi0idBbpFwosCgw5TXvv2glv", #raisya
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #jaya
-            "https://drive.google.com/uc?export=view&id=1hAmwIuWyGLNfiwBNUwKsh6Ke-_ihyKbo", #riska
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #helmay           
+            "https://drive.google.com/uc?export=view&id=1zRxCjXKm2A5NMX6a7herSlfxoILMWnQ6", #riska
+            "https://drive.google.com/uc?export=view&id=1jn4cNQQAOuWjlsSgFvzPsT1kCze5CklB", #helmay           
         ]
         data_list = [
             {
@@ -214,8 +214,8 @@ elif menu == "About Us":
                 "nama": "Helmy Surya Pratama",
                 "sebagai": "Anggotaa",
                 "nim": "12450033",
-                "fun_fact": "",
-                "motto_hidup": " ",
+                "fun_fact": "Saya Takut Balon",
+                "motto_hidup": "Love the life live, Live the life you love ",
             },
         ]
         display_images_with_data(gambar_urls, data_list)

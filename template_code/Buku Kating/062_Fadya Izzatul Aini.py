@@ -404,7 +404,7 @@ elif menu == "Senator":
                 "alamat": "Belakang Indomart Belwis",
                 "hobbi": "Rebahan",
                 "sosmed": "@lia.h_264",
-                "kesan": "Pengen panggil kak ichi",  
+                "kesan": "Pengen panggil kakak kak ichi, tapi kakaknya gasuka dipanggil kak ichi",  
                 "pesan":"Senang bisa kenal sama kakak"# 1
             },
         ]
@@ -444,11 +444,11 @@ elif menu == "Departemen PSDA":
         data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "nim": "122450107",
+                "umur": "21",
+                "asal":"Medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "Bang ferdy di FG Sains Data jokesnya lucu banget",  
                 "pesan":"Sukses terus ya bang!"# 1
@@ -472,7 +472,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Gang Perwira",
                 "hobbi": "Main",
                 "sosmed": "@allyapasha_",
-                "kesan": "Ketemu kak alya waktu verbek ramah banget",  
+                "kesan": "Ketemu kak allya waktu verbek ramah banget",  
                 "pesan":"Semangat terus kak alya!"# 1
             },
             {
@@ -483,7 +483,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Kontrakan GH",
                 "hobbi": "Main bola",
                 "sosmed": "@ahmad.rizky___",
-                "kesan": "Cara penyampaiannya baik banget",  
+                "kesan": "Cara penyampaiannya abangnya baik banget",  
                 "pesan":"Sukses terus bang"# 1
             },
             {
@@ -494,8 +494,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "Kost Orange",
                 "hobbi": "Ngekader",
                 "sosmed": "@arientakhsnl_",
-                "kesan": "Kak arienta lucu banget",  
-                "pesan":"Bahagia terus kak"# 1
+                "kesan": "Suka banget liat Kak arienta mukanya rapi banget",  
+                "pesan":"Bahagia terus ya kak"# 1
             },
             {
                 "nama": "Daffa Hadyan Navista",
@@ -503,7 +503,7 @@ elif menu == "Departemen PSDA":
                 "umur": "21",
                 "asal":"Sumatera Barat",
                 "alamat": "Sebelah kost kak Arienta",
-                "hobbi": "",
+                "hobbi": "Jahilin miyor",
                 "sosmed": "@daffahdynn_",
                 "kesan": "Awal liat bang daffa waktu kumpul pertama untuk Damaskus",  
                 "pesan":"Tips keren nya dong bang"# 1
@@ -549,7 +549,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Sigma Fam",
                 "hobbi": "Mancing keributan",
                 "sosmed": "@ji_gumel17",
-                "kesan": "Abangnya keren banget",  
+                "kesan": "Bang aji selalu ingetin untuk menjawab adzan dalam hati waktu adzan berkumandang",  
                 "pesan":"Makasih udah motivasi kami bang"# 1
             },
             {
@@ -560,7 +560,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Dekat masjid",
                 "hobbi": "Belajar",
                 "sosmed": "@vany.salsabilaa",
-                "kesan": "Kakaknya cantik banget",  
+                "kesan": "Kak vany cantik banget",  
                 "pesan":"Semangat kuliahnya kak"# 1
             },
             {
@@ -593,7 +593,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Way Dadi",
                 "hobbi": "Tidur",
                 "sosmed": "@ferazkaa",
-                "kesan": "Kakaknya lucu banget",  
+                "kesan": "Kakaknya lucu banget aktif juga",  
                 "pesan":"Semangat terus kak"# 1
             },
              {
@@ -626,7 +626,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Jalan Airan",
                 "hobbi": "Main game",
                 "sosmed": "@sahid_maul19",
-                "kesan": "Abangnya asik",  
+                "kesan": "Abangnya asik dan banyak kasih kami motivasi",  
                 "pesan":"Sukses selalu bang"# 1
             },
             {
@@ -648,7 +648,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Jl. Lapas Raya No. 55",
                 "hobbi": "Ngoleksi pita pink",
                 "sosmed": "@d__aniar",
-                "kesan": "Kakaknya lucu banget",  
+                "kesan": "Kakaknya lucu banget suka liat cara narinya luwes banget",  
                 "pesan":"Sehat selalu kak"# 1
             },
             {
@@ -681,7 +681,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Pemda",
                 "hobbi": "Merajut",
                 "sosmed": "@dla_natzzyaa",
-                "kesan": "Kakaknya lucu banget",  
+                "kesan": "Kakaknya lidia banget",  
                 "pesan":"Semangat kuliahnya kak"# 1
             },
             {
@@ -703,7 +703,7 @@ elif menu == "Departemen PSDA":
                 "alamat": "Jl. Raden Saleh",
                 "hobbi": "Ngerjain soal mtk",
                 "sosmed": "@liano.wlm",
-                "kesan": "Abangnya keren banget",  
+                "kesan": "Ngeliat bang liano keren banget",  
                 "pesan":"Sukses selalu bang"# 1
             },
             {
@@ -767,8 +767,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur dan berenang",
                 "sosmed": "@randaandriana_",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Abangnya orangnya santai",  
                 "pesan":"Semoga terus sukses dan tetap jadi sosok yang menyenangkan bang"# 1
             },
@@ -780,8 +778,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Nangka 3",
                 "hobbi": "Membaca Buku",
                 "sosmed": "@junitaa_0406",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Kak Rut lembut dan kalem, enak diajak ngobrol",  
                 "pesan":"Semoga terus semangat dan makin sukses ke depannya!"# 1
             },
@@ -793,7 +789,7 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Permadi",
                 "hobbi": "Bernafas",
                 "sosmed": "@mregiiii_",
-                "kesan": "Abangnya lucu",  
+                "kesan": "Abangnya lucu dan suka cara pembawaannya",  
                 "pesan":"Tetap jadi pribadi yang positif dan penuh energi ya, Bang!"# 1
             },
             {
@@ -804,8 +800,8 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Lapas, Belwis",
                 "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
-                "kesan": "",  
-                "pesan":"", # 1
+                "kesan": "Kak Aisyah kalem banget dan baik banget",  
+                "pesan":"Semangat kuliahnya ya kak, semoga lancar terus", # 1
             },
             {
                 "nama": "Fadil Prasetyo Alfarizzi",
@@ -815,8 +811,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Segala Mider",
                 "hobbi": "Liat Jam",
                 "sosmed": "@fadilalfarizzii",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Abangnya keren banget",  
                 "pesan":"Semoga terus bahagia dan sukses, Bang Fadil!"# 1
             },
@@ -828,8 +822,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Kasuari Gg Salam",
                 "hobbi": "Main basket",
                 "sosmed": "@muhammadaqil1111",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Abangnya lucu banget",  
                 "pesan":"Sehat-sehat abang lucu"# 1
             },
@@ -841,8 +833,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Tanjung Senang",
                 "hobbi": "Dengerin musik",
                 "sosmed": "@notfall.s",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Abangnya asik banget",  
                 "pesan":"Semoga kuliahnya lancar terus bang!"# 1
             },
@@ -854,8 +844,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Manggis 1 Way Huwi",
                 "hobbi": "Nonton film",
                 "sosmed": "@nadiaafrj",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Kak Nadia positive vibes banget",  
                 "pesan":"Semoga makin sukses dan terus jadi inspirasi kak!"# 1
             },
@@ -867,8 +855,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Nangka 3",
                 "hobbi": "Kepo(baca codingan)",
                 "sosmed": "@marletacornelia",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Kak marleta cantik banget",  
                 "pesan":"Tips cantiknya dong kak"# 1
             },
@@ -880,8 +866,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Perum Bukit Alam Permai 3, Blokk C, No.9",
                 "hobbi": "Dengrin musik",
                 "sosmed": "@keyashafi_",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Bang akey keliatannya kalem",  
                 "pesan":"Semoga cita-citanya tercapai bang"# 1
             },
@@ -893,8 +877,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Seputih, Bummisari Kec.Natar",
                 "hobbi": "Dance dan menyanyi",
                 "sosmed": "@anggi_yllow2318",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Kak Anggi keren banget",  
                 "pesan":"Semoga makin bersinar kak"# 1
             },
@@ -906,8 +888,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Raden Sale, Airan",
                 "hobbi": "Membaca",
                 "sosmed": "@eeffiidefi",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Kak Efi lembut banget",  
                 "pesan":"Bahagia selalu kak"# 1
             },
@@ -919,8 +899,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Pesawaran, Lampung",
                 "hobbi": "main piano dan nyanyi",
                 "sosmed": "@pebby_olla525",
-                "kesan": "-",  
-                "pesan":"", # 1
                 "kesan": "Kak Fabiolla ramah banget",  
                 "pesan":"Sehat terus kak olla"# 1
             },
@@ -932,8 +910,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "tidur",
                 "sosmed": "@_fairuzary",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Kakaknya cantik banget",  
                 "pesan":"Semoga kuliahnya lancar selalu kak"# 1
             },
@@ -945,8 +921,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Asrama TB 4 ITERA",
                 "hobbi": "Tidur",
                 "sosmed": "@tvnty_",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Kak Tanty attractive banget",  
                 "pesan":"Selalu ceria ya kak!"# 1
             },
@@ -958,8 +932,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "tidur",
                 "sosmed": "@_egistr",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Abangnya humble banget",  
                 "pesan":"Semoga sukses terus bang"# 1
             },
@@ -971,8 +943,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Airan,Hasan 4",
                 "hobbi": "isengin orang (main game)",
                 "sosmed": "@fifah.zy",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Kak Afifah seru banget",  
                 "pesan":"Semoga terus bahagia dan sukses selalu ya kak"# 1
             },
@@ -984,8 +954,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Teratai No 27A, Kedaton",
                 "hobbi": "game(proplayer),tidur,jalan-jalan",
                 "sosmed": "@biyokcb",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Abangnya seru banget diajak ngobrol",  
                 "pesan":"Semoga terus sukses dan tetap semangat bang"# 1
             },
@@ -997,8 +965,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Pemda",
                 "hobbi": "Main game",
                 "sosmed": "@giofaniars_",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Abangnya kalem banget",  
                 "pesan":"Tips pinter dong bang"# 1
             },
@@ -1010,8 +976,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Laps Raya, Lampung Selatan",
                 "hobbi": "Main Catur",
                 "sosmed": "@_rhmaoktvia",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Kakaknya cantik banget",  
                 "pesan":"Semangat kuliahnya kak"# 1
             },
@@ -1023,8 +987,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Airan 1",
                 "hobbi": "Balap random",
                 "sosmed": "@gustriana.d_",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Kakaknya seru banget",  
                 "pesan":"Semoga lancar kuliahnya kak"# 1
             },
@@ -1036,8 +998,6 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Grans Sakum,Belwis",
                 "hobbi": "futsal",
                 "sosmed": "@razynhfd",
-                "kesan": "",  
-                "pesan":"", # 1
                 "kesan": "Abangnya asik banget",  
                 "pesan":"Semangat terus bang"# 1
             },
@@ -1897,3 +1857,4 @@ elif menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
 # Tambahkan menu lainnya sesuai kebutuhan
+
