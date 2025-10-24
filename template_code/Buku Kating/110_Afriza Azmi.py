@@ -246,7 +246,7 @@ if menu == "Baleg":
                 "hobbi": "tidur, jualan pancing",
                 "sosmed": "@renishapg",
                 "kesan": "lucu nan imup kakaknya, kayanya cocok kalo jadi cosplayer anime",  
-                "pesan":"jangan sering sering tidur yaaa kak ntar kebanyakan mimpi jadinya# 1
+                "pesan":"jangan sering sering tidur yaaa kak ntar kebanyakan mimpi jadinya"# 1
             },
             {
                 "nama": "Anisa Fitriyani",
@@ -267,7 +267,7 @@ if menu == "Baleg":
                 "alamat": "Kedaton",
                 "hobbi": "Nonton AGZ",
                 "sosmed": "@dhruchyo",
-                "kesan": "mentor PPLK guaa nii, gacor banget sebangga itu gua dulu pas tau mentor gua menang OZT",  
+                "kesan": "mentor PPLK guaa nii, gacor banget sebangga itu gua dulu pas tau mentor gua menang OZT sampe ke semua orang gua cerita, baik banget dulu bang dharu ini gapernah marah ke anak anaknya ini",  
                 "pesan":"kejarr cumlaude itu bang semangat terus pokoknya, terus jadi orang baik yaa bang"# 1
             },
             {
@@ -289,8 +289,8 @@ if menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Liatin bang mirzan main kucing",
                 "sosmed": "@givarooo",
-                "kesan": "Mentor kader gua ini, ",  
-                "pesan":"semangat terus yaa "# 1
+                "kesan": "Mentor kader gua ini,sumpahh kalo bisa bikin 500 kata ku bikin ini disini, sumpahh aku bener bener ngerasa beruntung banget dapet mentor kayak abang karna ngeliat berapa kelompok lain pada dapet mentor yang gabisa sedeket itu ke mereka, beda banget sama bang givaro ini dia bener bener mentoe terbaik di mata gua, kalo ada nominasi mentor terbaik ga terima gua kalo bukan bang givaro pemenangnya, abang ini bener bener ngebuat suasana kumpul kelompok kayak ga ada batas antara dia dan anak anak nya ini, aku bener bener ngerasa percaya banget kalau cerita masalah masalah pribadiku ke diaa, pokoknya diaa mentor terbaik pada kader ini!! ",  
+                "pesan":"semangat terus yaa bang buat nemenin kita selama masa kaderisasi ini yaa walaupun kadang kita bikin abang cape atau kesel, kami berterimakasihh sebanyak banyaknya kee abang karna udah nunjukin sosok dibalik panggilan MENTOR itu"# 1
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
