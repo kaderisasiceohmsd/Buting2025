@@ -1498,17 +1498,17 @@ if menu == "Departemen Internal":
 if menu == "Departemen SSD":
     def ssd():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=1KkHXMMl4dVqXe7epnmrkims-URg53ovz",
+            "https://drive.google.com/uc?export=view&id=1KkHXMMl4dVqXe7epnmrkims-URg53ovz",
+            "https://drive.google.com/uc?export=view&id=1KkHXMMl4dVqXe7epnmrkims-URg53ovz",
+            "https://drive.google.com/uc?export=view&id=1_JAj4Lf9Dgbcqnd8oT47n-WGS-da1wOn",
+            "https://drive.google.com/uc?export=view&id=1SiISVfWz_EMPO6WVHHt5CKLj3tKrmM57",
+            "https://drive.google.com/uc?export=view&id=1rvnGYe0j8JjibTc1DqgaRAYtuM9jvntM",
+            "https://drive.google.com/uc?export=view&id=136KYTLjZbN80XSehVmALozZ8iNkxKedV",
+            "https://drive.google.com/uc?export=view&id=1NZiLzqNQdi-aScXij2w0YGl8uShwMu2m",
+            "https://drive.google.com/uc?export=view&id=1blq1NurXHmYtTIQIrJs0gxAN2Wi6xc9t",
+            "https://drive.google.com/uc?export=view&id=1wxmIofxLxI7PWAjDlZCUnRG0FstCIInV",
+            "https://drive.google.com/uc?export=view&id=1WTCsy-2XL3MqLJN9OnTja9sKYCYuA9_F",
         ]
         data_list = [
             {
