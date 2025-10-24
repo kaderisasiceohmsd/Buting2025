@@ -444,12 +444,12 @@ elif menu == "Departemen PSDA":
         data_list = [
             {   
                 "nama": "Ferdy Kevin Naibaho",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "",
+                "nim": "122450107",
+                "umur": "21",
+                "asal": "Medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal",
+                "sosmed": "@ferdy_kevin",
                 "kesan": "Bang Ferdy keren, tegas dan berwibawa",  
                 "pesan": "Bahagia selalu bang, sukses terus, Semoga wibawa dan ketegasan Bang Ferdy selalu menjadi panutan bagi kami semua. "
             },
@@ -632,7 +632,7 @@ elif menu == "Departemen PSDA":
             {
                 "nama": "Daffa Ahmad Naufal",
                 "nim": "122450137",
-                "umur": "-",
+                "umur": "21",
                 "asal": "Jakarta",
                 "alamat": "Korpri",
                 "hobbi": "Ngerjain Tugas",
@@ -894,14 +894,14 @@ elif menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-                "nim": "-",
-                "umur": "-",
-                "asal": "-",
-                "alamat": "-",
-                "hobbi": "-",
-                "sosmed": "-",
-                "kesan": "-",
-                "pesan": "-"
+                "nim": "123450024",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "JL. Gajah Mada, Tanjungkarang",
+                "hobbi": "Mainn Bola, Belajar",
+                "sosmed": "@pebby_olla525",
+                "kesan": "Kakaknya baik dan lucu",
+                "pesan": "sehat selalu kak dan bahagia selaluu"
             },
             {
                 "nama": "Fairuz Ary Syifa",
@@ -916,14 +916,14 @@ elif menu == "Departemen MIKFES":
             },
             {
                 "nama": "Tanty Widiyastuti",
-                "nim": "124450081",
-                "umur": "-",
-                "asal": "-",
-                "alamat": "-",
-                "hobbi": "-",
-                "sosmed": "-",
-                "kesan": "-",
-                "pesan": "-"
+                "nim": "123450094",
+                "umur": "20",
+                "asal": "Lampung Tengah",
+                "alamat": "Asrama Itera TB 4",
+                "hobbi": "Tidur",
+                "sosmed": "@tunty_i",
+                "kesan": "Kakaknya baik, seru juga, lucu banget pas jadi mc",
+                "pesan": "sehat selalu kak dan semangat kuliahnyaa"
             },
             {
                 "nama": "Eggi Satria",
