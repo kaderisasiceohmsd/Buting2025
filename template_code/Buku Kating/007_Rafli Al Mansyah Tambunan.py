@@ -444,11 +444,11 @@ if menu == "Departemen PSDA" :
         data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",
-                "nim": "",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "122450107",
+                "umur": "21",
+                "asal":"Medan",
+                "alamat": "Tanjung senang",
+                "hobbi": "futsal",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "abangnya kelihatan seru dan memang baik",  
                 "pesan":"semangat terus bang jadi kadep, jangan capek sama kami angkatan 24"
