@@ -1502,7 +1502,7 @@ if menu == "Departemen SSD":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1mG9c7a9qqP_sUUIYa2Knbe3QtnM3cYY-",
             "https://drive.google.com/uc?export=view&id=1zNdgK0yZkfgkdDRndFzJvJ6K7mIzGKLf",
-            "https://drive.google.com/uc?export=view&id=5dXft2E-1dPrIjVARAHoE4yeR9yvu3Ft",
+            "https://drive.google.com/uc?export=view&id=15dXft2E-1dPrIjVARAHoE4yeR9yvu3Ft",
             "https://drive.google.com/uc?export=view&id=1rvWO6bmLhAl1w4FSCNirRH7VhOk_Resr",
             "https://drive.google.com/uc?export=view&id=1Wr-91mFVPZHriidKfy16HHRvfwbQ9-IY",
             "https://drive.google.com/uc?export=view&id=1l2gPvUf4TWHH68a1nvinAYf5E5jkAK_i",
