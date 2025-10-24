@@ -751,7 +751,7 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=17My8GBEf-BUlxPN4Pv1OExvAsbdoc-mV",
             "https://drive.google.com/uc?export=view&id=1TKkUFgm4PFo7awc6qf2z7aYO4ZoRvuzS",
             "https://drive.google.com/uc?export=view&id=1IZaG_0dhxbglUBATviOApTXXBolurGVo",
-            "https://drive.google.com/uc?export=view&id=1qYy8M0l7PCwnTKStbfhsQ-fGiCeIBE8-",
+            "https://drive.google.com/uc?export=view&id=1-TFyw85-5g89Ad3wbuF5GNW3o83vD6qb",
             "https://drive.google.com/uc?export=view&id=1j50uNBujo_lqA0pMogG6rPRPD-BnXqLY",
             "https://drive.google.com/uc?export=view&id=139CY1rASyCWJRHiX2w3S4DQJpqTVwTMW",
             "https://drive.google.com/uc?export=view&id=1gMIUrKvhuOcQwvRVZSr6-WwiK_9Hhjtg",
@@ -1502,7 +1502,7 @@ if menu == "Departemen SSD":
     def Departemen_SSD():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=14zrh_eads_Tp_2c3WJja2KQS1JuVZy0i",
-            "https://drive.google.com/uc?export=view&id=1VUWwjKLeXY6f66pDcosCkk6IxuVk0l_H",
+            "https://drive.google.com/uc?export=view&id=1oUBJUCZFYtff7dUi2yJOcNSk-ORa7bmJ",
             "https://drive.google.com/uc?export=view&id=1JtFhYTb8rtJk7HCNk4nkhvUzd6uvB3V1",
             "https://drive.google.com/uc?export=view&id=1PERPtOUBiyukMfiQu1FUC98wLL6NSRDU",
             "https://drive.google.com/uc?export=view&id=1iot90XDOuZOXgGhP8h46wg_QysND-tKf",
