@@ -889,7 +889,7 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Raden Sale, Airan",
                 "hobbi": "Membaca",
                 "sosmed": "@eeffiidefi",
-                "kesan": "kaka sekum pplk"
+                "kesan": "kaka sekum pplk",
                 "pesan":"jaga kesehatan ka" # 1
             },
             {
@@ -988,7 +988,7 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Airan 1",
                 "hobbi": "Balap random",
                 "sosmed": "@gustriana.d_",
-                "kesan": "kakaknya asik"
+                "kesan": "kakaknya asik",
                 "pesan":"auoo balapan kak" # 1
             },
             {
@@ -1852,7 +1852,7 @@ elif menu == "Departemen Medkraf":
                 "alamat": "Kelengkeng 2, Pemda",
                 "hobbi": "Dance",
                 "sosmed": "@roms.slbn",
-                "kesan": "Kak roma lucu dan imut"
+                "kesan": "Kak roma lucu dan imut",
                 "pesan":"Semoga sukses terus kak!"# 1
             },
         ]
