@@ -160,7 +160,7 @@ if menu == "Kesekjenan":
                 "alamat": "Rajabasa",
                 "hobbi": "Baca buku, suka pramuka",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Kaka nya asik, asal ketemu di ged f pasti diteriakain sodara ester",  
+                "kesan": "Kaka nya asik, asal ketemu di ged f pasti diteriakain saudara ester",  
                 "pesan":"tetap jadi orang yang ceria ya kak"
             },
             {
