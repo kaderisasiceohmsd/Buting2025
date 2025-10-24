@@ -371,8 +371,8 @@ elif menu == "Senator":
                 "alamat": "Belwis",
                 "hobbi": "Belajar",
                 "sosmed": "@bintangtwinkle",
-                "kesan": " ",
-                "pesan": " "
+                "kesan": " Bang bintang kerennn dan berwibawa bangett ",
+                "pesan": "semangattt banggg kuliahnyaa"
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -382,8 +382,8 @@ elif menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Denger lagu",
                 "sosmed": "@nadyaanjani",
-                "kesan": " ",
-                "pesan": " "
+                "kesan": "kakak humble dan imutt",
+                "pesan": "imutt imutt teruss kak nad"
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -393,8 +393,8 @@ elif menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Bengong",
                 "sosmed": "@fathinahnazzh",
-                "kesan": " ",
-                "pesan": " "
+                "kesan": "kak jijahhh comelll baget sih",
+                "pesan": "semangat kakak menjadi calon senat"
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -404,8 +404,8 @@ elif menu == "Senator":
                 "alamat": "Belakang Indomaret Belwis",
                 "hobbi": "Tidur",
                 "sosmed": "@lia.h_264",
-                "kesan": " ",
-                "pesan": ""
+                "kesan": "kak lia pendiam tapiii berisi",
+                "pesan": "semoga menjadi orang sukses kakk"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -462,8 +462,8 @@ if menu == "Departemen PSDA":
                 "alamat": "korpri",
                 "hobbi": "mikir",
                 "sosmed": "@afifahhnsrn",
-                "kesan": " ",  
-                "pesan":" "# 1
+                "kesan": "selalu mikir 2 kali kalo mau ajak ngobrol",  
+                "pesan":"ih kak baik banget makasih udh fast respon"# 1
             },
              {
                 "nama": "Allya Nurul Islami Pasha",
@@ -473,8 +473,8 @@ if menu == "Departemen PSDA":
                 "alamat": "belwis",
                 "hobbi": "ngekader 24",
                 "sosmed": "@allyapasha_",
-                "kesan": " ",  
-                "pesan":" "# 1
+                "kesan": " sosok yang ga ada kata asbun unfalid",  
+                "pesan":" kak bagi tips gimana cara kontrol emosi dan ga belibet klo lagi ngomong serius "# 1
             },
               {
                 "nama": "Ahmad Rizky",
@@ -484,8 +484,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main bola",
                 "sosmed": "@ahmad.rizky__",
-                "kesan": " ",  
-                "pesan":" "# 1
+                "kesan": " kaya manusia pada umumnya, pas dikulik Bziiiiir gooks gilak gitu bang ",  
+                "pesan":" kok bisa sih bang konsisten antara ucapan dan perbuatan"# 1
             },
            {
                 "nama": "Arienta Khusnul Ananda",
@@ -495,8 +495,8 @@ if menu == "Departemen PSDA":
                 "alamat": "deket kost bang dapa",
                 "hobbi": "cari kesibukan",
                 "sosmed": "@arientakhsnl_",
-                "kesan": "  ",  
-                "pesan":" "# 1
+                "kesan": " punya kesan sulit dideketin buat diajak ngitung jumlah helm di gedung f ",  
+                "pesan":" kak emang semester ganjil ga sibuk? "# 1
             },
             {
                 "nama": "Daffa Hadyan Navista",
