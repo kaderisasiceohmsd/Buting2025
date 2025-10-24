@@ -1502,17 +1502,17 @@ if menu == "Departemen Internal":
 if menu == "Departemen SSD":
     def Departemen_SSD():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1vTYKLoHVt43WF3X-hwDGNKdSG1gvpt-r",
-            "https://drive.google.com/uc?export=view&id=1zj4usKVfVXOK16F5xVi3-Dp6tYsOcjX0",
-            "https://drive.google.com/uc?export=view&id=1F8BXdxQcDQbL2kYDSIKj0dl_Lhg9rTYN",
-            "https://drive.google.com/uc?export=view&id=1e1rApTgLa4OUpmtbXlfJlgdNvwlR2GQv",
-            "https://drive.google.com/uc?export=view&id=1_-7eSoOg6zaiSkuGA3WXqEw4kBwfmZyU",
-            "https://drive.google.com/uc?export=view&id=1wGm6WliM0KkWkz1pZ1YlypM0QbKyDQLe",
-            "https://drive.google.com/uc?export=view&id=158P_VM136KL3CHVNUreleOXme6WfgyxP",
-            "https://drive.google.com/uc?export=view&id=1vbBg22Wtd9L0p6Pqv9sHddSQ5bqCbmIc",
-            "https://drive.google.com/uc?export=view&id=1OKAZI12Mj-jB_CYynVXBCg5M4gJUl9kC",
-            "https://drive.google.com/uc?export=view&id=10e4hqL4IcSoPv1PEPaTWuYesUCAre8cM",
-            "https://drive.google.com/uc?export=view&id=1XdonqwCl34iQYaUPbtK1smkrLoLoD4I2",
+            "https://drive.google.com/uc?export=view&id=1VMpTjAF2Uxcy3NJFvDxbc_taWPW_H8Lr",
+            "https://drive.google.com/uc?export=view&id=1foPS-3AJznB2Q-vO5jaPqS7ND6SuEcw7",
+            "https://drive.google.com/uc?export=view&id=1owTdMFjKC2wg9ilrWjndp7ITXCG4WAun",
+            "https://drive.google.com/uc?export=view&id=1mG124ku9_kycVYx_MJ_NRMFVhseeIGUm",
+            "https://drive.google.com/uc?export=view&id=1mG124ku9_kycVYx_MJ_NRMFVhseeIGUm",
+            "https://drive.google.com/uc?export=view&id=1WSdAR_Sf8XohUUjYhQ5F7ZV7IRSz-MhE",
+            "https://drive.google.com/uc?export=view&id=14O0I6VyeErdV858QeGe_wcwF-aSbU0xX",
+            "https://drive.google.com/uc?export=view&id=1mG124ku9_kycVYx_MJ_NRMFVhseeIGUm",
+            "https://drive.google.com/uc?export=view&id=1-Nhs6cnOkm0FBtpdTXM7NBtJI4vjoJOO",
+            "https://drive.google.com/uc?export=view&id=1FEbnQtYCNFcr9SxH6MTKGtzVBVbMgKh_",
+            "https://drive.google.com/uc?export=view&id=196L9hNn-U4sFVXK49W-s-BcX9ZAV84He",
             
         ]
         data_list = [
@@ -1524,52 +1524,30 @@ if menu == "Departemen SSD":
                 "alamat": "Belakang PB",
                 "hobbi": "jogging",
                 "sosmed": "dananghk_",
-                "kesan": "Kakaknya asik dan seru.",
-                "pesan": "Semangat terus kak!"
+                "kesan": "Kakaknya asik dan seru, pertama kali kami wawancara langsung ditawarin beli ganci",
+                "pesan": "Semangat jualan ganci nya bang!!"
             },
-            {
-                "nama": "Hanifah Inaya Sani",
-                "nim": "123450123",
-                "umur": "20",
-                "asal": "Bandar Lampung",
-                "alamat": "Korpri",
-                "hobbi": "Masak",
-                "sosmed": "_inayasani",
-                "kesan": "Kakaknya sangat ramah.",
-                "pesan": "Jaga kesehatan selalu, kak!"
+              {
+                "nama": "Syalaisha Andina Putriansyah",
+                "nim": "122450021",
+                "umur": "22",
+                "asal": "Tanggerang",
+                "alamat": "Sukarame",
+                "hobbi": "Baca novel",
+                "sosmed": "syalaishaa_31",
+                "kesan": "kakanya lucu, cantik, lucu lagi",
+                "pesan": "Semoga sukses selalu kuliahnya!"
             },
-            {
-                "nama": "Nydia Manda Putri",
-                "nim": "123450018",
+             {
+                "nama": "Ahmad Rizqi",
+                "nim": "122450138",
                 "umur": "20",
-                "asal": "Bandar Lampung",
-                "alamat": "Tanjung Karang",
-                "hobbi": "Main",
-                "sosmed": "nydiaaptr_",
-                "kesan": "Terima kasih kak atas bantuannya.",
-                "pesan": "Semangat dan sukses selalu!"
-            },
-            {
-                "nama": "Devi Rahayu",
-                "nim": "123450010",
-                "umur": "20",
-                "asal": "Bandar Lampung",
-                "alamat": "Way Kandis",
-                "hobbi": "nonton drakor",
-                "sosmed": "deviirhyu",
-                "kesan": "Kakaknya baik dan murah senyum.",
-                "pesan": "Semangat terus ya, kak!"
-            },
-            {
-                "nama": "Aprilia Dewi Hutapea",
-                "nim": "123450040",
-                "umur": "20",
-                "asal": "Lampung Selatan",
-                "alamat": "Lampung Selatan",
-                "hobbi": "nonton dramashort di fb",
-                "sosmed": "aprhtp_",
-                "kesan": "Senang bisa bertemu dengan kakak.",
-                "pesan": "Semoga semua urusannya dilancarkan."
+                "asal": "Padang",
+                "alamat": "Airan",
+                "hobbi": "beli parfum",
+                "sosmed": "den_iki__",
+                "kesan": "awalnya ngira abang nya pendiem gitu, ternyata ngga",
+                "pesan": "Sehat selalu ya, bang"    
             },
             {
                 "nama": "Anadia Carana",
@@ -1579,10 +1557,21 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "jogging",
                 "sosmed": "anadiacrn_",
-                "kesan": "Kakaknya keren dan inspiratif.",
-                "pesan": "Semangat terus kuliahnya, kak!"
+                "kesan": "Kakaknya keren dan cantik, kalau senyum cantik bgt gitu",
+                "pesan": "Semangat terus kuliahnya kak, jangan lupa istirahat ya" 
             },
             {
+                "nama": "Aprilia Dewi Hutapea",
+                "nim": "123450040",
+                "umur": "20",
+                "asal": "Lampung Selatan",
+                "alamat": "Lampung Selatan",
+                "hobbi": "nonton dramashort di fb",
+                "sosmed": "aprhtp_",
+                "kesan": "kaka nya manis bgt, kalau senyum makin manis",
+                "pesan": "jangan lupa istirahat ya kak"
+            },
+             {
                 "nama": "Nabila Zakiyah Zahra",
                 "nim": "122450139",
                 "umur": "21",
@@ -1590,10 +1579,10 @@ if menu == "Departemen SSD":
                 "alamat": "Way Halim",
                 "hobbi": "jogging",
                 "sosmed": "nabila_zazahra",
-                "kesan": "Kakaknya sangat membantu.",
-                "pesan": "Semangat terus ya, kak!"
+                "kesan": "kakanya seru bgt kalau ngobrol, topiknya asik gitu",
+                "pesan": "Semangat terus ya kak kuliahnya"
             },
-            {
+             {
                 "nama": "Dhafin Razaqa Luthfi",
                 "nim": "122450133",
                 "umur": "21",
@@ -1601,32 +1590,21 @@ if menu == "Departemen SSD":
                 "alamat": "Sukarame",
                 "hobbi": "Belajar",
                 "sosmed": "dhafinrzqa13",
-                "kesan": "Kakaknya asik diajak diskusi.",
-                "pesan": "Terima kasih atas bimbingannya, kak."
+                "kesan": "Kakaknya asik diajak diskusi soal cara menjadi wirausahawan yang baik.",
+                "pesan": "Terimakasih atas sharing ilmunya bang"
             },
             {
-                "nama": "Ahmad Rizqi",
-                "nim": "122450138",
+                "nama": "Devi Rahayu",
+                "nim": "123450010",
                 "umur": "20",
-                "asal": "Padang",
-                "alamat": "Airan",
-                "hobbi": "beli parfum",
-                "sosmed": "den_iki__",
-                "kesan": "Kakaknya ramah dan baik.",
-                "pesan": "Sehat selalu ya, kak."    
+                "asal": "Bandar Lampung",
+                "alamat": "Way Kandis",
+                "hobbi": "nonton drakor",
+                "sosmed": "deviirhyu",
+                "kesan": "Kakaknya baik murah senyum, dan ramah kalau ketemu",
+                "pesan": "jaga kesehatan ya kak"
             },
-            {
-                "nama": "Syalaisha Andina Putriansyah",
-                "nim": "122450021",
-                "umur": "22",
-                "asal": "Tanggerang",
-                "alamat": "Sukarame",
-                "hobbi": "Baca novel",
-                "sosmed": "syalaishaa_31",
-                "kesan": "Senang bisa berkenalan dengan kakak.",
-                "pesan": "Semoga sukses selalu kuliahnya!"
-            },
-            {
+             {
                 "nama": "Enggli Rahmadhani",
                 "nim": "123450043",
                 "umur": "20",
@@ -1634,10 +1612,32 @@ if menu == "Departemen SSD":
                 "alamat": "gg.perwira 2",
                 "hobbi": "menonton alur cerita film",
                 "sosmed": "@englirahmdhnii",
-                "kesan": "kakanya asik dan seru diajak ngobrol",
+                "kesan": "kakanya asik dan seru diajak ngobrol topiknya ga mati disebekah pihak dan mengalir aja",
                 "pesan": "Semoga sukses selalu ya kak!"
             },
-            
+            {
+                "nama": "Hanifah Inaya Sani",
+                "nim": "123450123",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Korpri",
+                "hobbi": "Masak",
+                "sosmed": "_inayasani",
+                "kesan": "Kakaknya sangat ramah, dan juga ceria, kakanya meyakinkan kami kalau ads ga susah",
+                "pesan": "sehat selalu ya kak!"
+            },
+            {
+                "nama": "Nydia Manda Putri",
+                "nim": "123450018",
+                "umur": "20",
+                "asal": "Bandar Lampung",
+                "alamat": "Tanjung Karang",
+                "hobbi": "Main",
+                "sosmed": "nydiaaptr_",
+                "kesan": "kakanya ramah, baik, cantik",
+                "pesan": "Semangat dan sukses selalu!"
+            },
+           
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_SSD()
