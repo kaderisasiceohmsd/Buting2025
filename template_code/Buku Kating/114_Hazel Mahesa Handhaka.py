@@ -1631,7 +1631,7 @@ if menu == "Departemen SSD":
                 "sosmed": "nydiaaptr_",
                 "kesan": "Terima kasih kak atas bantuannya.",
                 "pesan": "Semangat dan sukses selalu!"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     ssd()
