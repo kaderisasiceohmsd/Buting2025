@@ -1784,7 +1784,7 @@ elif menu == "Departemen PSDA":
                 "asal": "Sumatera Barat",
                 "alamat": "Belwis, Pemda",
                 "hobbi": "Nangkap Lele",
-                "sosmed": "ihsan.yusuf",
+                "sosmed": "@ihsan.yusuf",
                 "kesan": "Abangnya asik banget dan cool",
                 "pesan": "Semangat terus bang di dunia perkuliahannya" # 19
             },
@@ -1808,7 +1808,7 @@ elif menu == "Departemen PSDA":
                 "asal": "Sumatera Utara",
                 "alamat": "Belwis",
                 "hobbi": "Futsal",
-                "sosmed": "sidabutar.26",
+                "sosmed": "@sidabutar.26",
                 "kesan": "Abangnya kocak banget, mau gimanapun lucu",
                 "pesan": "Semangat terus bang jangan sampai bosan main futsal" # 21
             },
@@ -1878,6 +1878,7 @@ elif menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
