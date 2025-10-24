@@ -142,7 +142,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1-8b-WLrqBEMIkPIYROpuPfILcIgii7zG",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=19rya7Zkzck08XZf82EBAN4lWtMBxhA_f",
         ]
         data_list = [
             {
@@ -195,11 +195,11 @@ elif menu == "About Us":
                 "motto_hidup": "jalanin dulu keles",
             },
             {
-                "nama": "Ghiyat",
+                "nama": "Ghiyats",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "fun_fact": "apapun game yang dimainin pasti bagus",
+                "motto_hidup": "yang penting hidup dulu",
             },
             {
                 "nama": "Lutfi",
