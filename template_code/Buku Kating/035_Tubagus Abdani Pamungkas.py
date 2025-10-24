@@ -159,10 +159,10 @@ if menu == "Departemen MIKFES":
             {
                 "nama": " Aisyah Musfirah",
                 "nim": "123450084",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "21",
+                "asal":"Bengkulu",
+                "alamat": "Jl. Lapas",
+                "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
                 "kesan": " Aisyah keren cara berbicaranya",  
                 "pesan":"semangat menjalani semester 5 "# 4
@@ -269,22 +269,22 @@ if menu == "Departemen MIKFES":
             {
                 "nama": " Fairuz Ary Syifa",
                 "nim": "123450044",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "nya keren abis",  
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "Sukarame",
+                "hobbi": "Tidur",
+                "sosmed": "@_fairuzary",
+                "kesan": "kakaknya keren abis",  
                 "pesan":"semangat kuliahnya kak"# 14
             },
             {
                 "nama": " Tanty Widyiastuti",
                 "nim": "123450094",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@i",
+                "umur": "20",
+                "asal":"Lampung Tengah",
+                "alamat": "Asrama TB 4 ITERA",
+                "hobbi": "Tidur",
+                "sosmed": "@tvnty_",
                 "kesan": "kak tanty sangat menginspiratif",  
                 "pesan":"semangat selalu menginspiratif kak"# 15
             },
@@ -325,23 +325,23 @@ if menu == "Departemen MIKFES":
             {
                 "nama": " Rahma Oktavia Albar",
                 "nim": "123450003",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "nya ramah dan baik hati",  
+                "umur": "19",
+                "asal":"Bengkulu",
+                "alamat": "Jl. Lapas Raya",
+                "hobbi": "Main Catur",
+                "sosmed": "@_rhmaoktvia",
+                "kesan": "kakaknya ramah dan baik hati",  
                 "pesan":"bagahia selalu kakk"# 19
             },
             {
                 "nama": " Rahmah Gustriana Deka",
                 "nim": "123450102",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "nya sangat keren",  
+                "umur": "20",
+                "asal":"Lampung Timur",
+                "alamat": "Airan",
+                "hobbi": "ngerepotin Tanty",
+                "sosmed": "@gustriana.d_",
+                "kesan": "kakaknya sangat keren",  
                 "pesan":"jaga kesehatan kak"# 20
             },
             {
@@ -1093,11 +1093,11 @@ elif menu == "Departemen Internal":
             {
                 "nama": " Muhammad Naufal Al Ghani",
                 "nim": "123450116",
-                "umur": "-",
-                "asal": "-",
-                "alamat": "-",
-                "hobbi": "-",
-                "sosmed": "@",
+                "umur": "20",
+                "asal": "Sidorejo, Sidomulyo, Kalianda",
+                "alamat": "Sabah Balau",
+                "hobbi": "Nonton anime",
+                "sosmed": "@muhammadnaufalalghani73",
                 "kesan": "Kak Naufal sosok yang kalem tapi kocak juga dalam waktu bersamaan",
                 "pesan": "Semoga makin terus aktif di setiap kegiatan kak!" # 8
             },
@@ -1177,11 +1177,11 @@ elif menu == "Departemen Internal":
             {
                 "nama": " Zahra Putri Salsabila",
                 "nim": "123450026",
-                "umur": "-",
-                "asal": "-",
-                "alamat": "-",
-                "hobbi": "-",
-                "sosmed": "@",
+                "umur": "19",
+                "asal": "Natar",
+                "alamat": "way Huwi, Pemda",
+                "hobbi": "rubik miror",
+                "sosmed": "@zhrptsl",
                 "kesan": "Kak Zahra lembut",
                 "pesan": "Semoga makin aktif dan terus menebar kebaikan di setiap kegiatan!" # 15
             }
@@ -1280,13 +1280,13 @@ elif menu == "Departemen Medkraf":
             },
               {
                 "nama": " Try Yani Rizki Nur Rohmah",
-                "nim": "",
-                "umur": "",
-                "asal": "",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
-                "kesan": "nya cantik dan imut",  
+                "nim": "122450020",
+                "umur": "20",
+                "asal": "Lampung Barat",
+                "alamat": "Korpri",
+                "hobbi": "Belajar",
+                "sosmed": "@tryyaniciaa",
+                "kesan": "cantik dan imut",  
                 "pesan": "sehat selalu "# 7
             },
               {
@@ -1449,23 +1449,23 @@ elif menu == "Departemen PSDA":
             {
                 "nama": " Ferdy Kevin Naibaho",
                 "nim": "122450107",
-                "umur": " ",
-                "asal":" ",
-                "alamat": " ",
-                "hobbi": " ",
-                "sosmed": "@ ",
+                "umur": "21",
+                "asal":"Sumatera Utara",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal",
+                "sosmed": "@ferdy_kevin",
                 "kesan": "keren Kak Ferdy jadi kadep",  
                 "pesan":"Semangat terus jadi kadepnya kak "# 1
             },
             {
                 "nama": " Nisrina Nur Afifah",
                 "nim": "122450052",
-                "umur": " ",
-                "asal":" ",
-                "alamat": " ",
-                "hobbi": " ",
-                "sosmed": "@i",
-                "kesan": "kak afifh cantik dan baik",  
+                "umur": "20",
+                "asal":"Bekasi",
+                "alamat": "Korpsu",
+                "hobbi": "Jalan-jalan",
+                "sosmed": "@afifahhnsrn",
+                "kesan": "kak afifah cantik dan baik",  
                 "pesan":"Semangat kuliahnya  sekdep"# 2
             },
             {
@@ -1609,7 +1609,7 @@ elif menu == "Departemen PSDA":
                 "umur": "20",
                 "asal": "Way Kanan",
                 "alamat": "Untung",
-                "hobbi": "-",
+                "hobbi": "Scrol tiktok",
                 "sosmed": "@rismaa.mustika_",
                 "kesan": "Kak Kharisma murah senyum",
                 "pesan": "Semoga makin sukses dan tetap rendah hati ya kak" # 15
@@ -1825,12 +1825,12 @@ elif menu == "Departemen SSD":
             {
                 "nama": " Nabila Zakiyah Zahra",
                 "nim": "123450023",
-                "umur": ".",
-                "asal": ".",
-                "alamat": ".",
-                "hobbi": ".",
-                "sosmed": ".",
-                "kesan": "nya keren dan baik ",  
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Way Halim",
+                "hobbi": "Jogging",
+                "sosmed": "@nabila_zazahra",
+                "kesan": "kakaknya keren dan baik ",  
                 "pesan":"Semoga diperlancar semua urusannya "# 6
             },
              {
@@ -1891,6 +1891,7 @@ elif menu == "Departemen SSD":
         ]
         display_images_with_data(gambar_urls, data_list)
     ssd()
+
 
 
 
