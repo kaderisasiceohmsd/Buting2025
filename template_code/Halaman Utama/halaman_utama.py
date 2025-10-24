@@ -48,18 +48,27 @@ def display_images_with_data(gambar_urls, data_list):
 st.markdown(
     """
     <style>
+        /* Background utama untuk seluruh halaman */
         .stApp {
-            background: linear-gradient(to bottom, #EDFAFD, #AED9DA, #3DDAD7, #2A93D5, #135589);
+            background: linear-gradient(to bottom, #1C3B50, #2E5871, #4C7084, #7A8D97, #D7C6BB);
+            background-attachment: fixed;
+            transition: background 0.8s ease-in-out;
+        }
+
+        /* Terapkan juga ke kontainer tampilan utama */
+        [data-testid="stAppViewContainer"] {
+            background: linear-gradient(to bottom, #1C3B50, #2E5871, #4C7084, #7A8D97, #D7C6BB);
             background-attachment: fixed;
         }
 
+        /* Sidebar gradasi */
         [data-testid="stSidebar"] {
-            background: linear-gradient(to bottom, #EDFAFD, #3DDAD7, #2A93D5);
-            color: #002B5B;
+            background: linear-gradient(to bottom, #2E5871, #4C7084, #7A8D97);
+            color: #D7C6BB;
         }
 
         [data-testid="stSidebar"] * {
-            color: #002B5B !important;
+            color: #D7C6BB !important;
             font-weight: 500;
         }
 
@@ -71,10 +80,6 @@ st.markdown(
             text-align: center;
             font-weight: 800;
             letter-spacing: 1px;
-        }
-
-        .stApp {
-            transition: background 0.8s ease-in-out;
         }
 
     </style>
