@@ -183,7 +183,7 @@ elif menu == "About Us":
             {
                 "nama": "Favian",
                 "sebagai": "Anggotaa paling cool abiezzz",
-                "nim": "122450021",
+                "nim": "124450021",
                 "fun_fact": "Suka berdialog sama diri sendiri",
                 "motto_hidup": "anything that happens to you, tetaplah jadi manusia yang baik",
             },
