@@ -4,6 +4,47 @@ import requests
 from PIL import Image, ImageOps
 from io import BytesIO
 
+st.markdown(
+    """
+    <style>
+        /* ======= Background utama (semua halaman) ======= */
+        .stApp, [data-testid="stAppViewContainer"] {
+            background: linear-gradient(to bottom, #1C3B50, #2E5871, #4C7084, #7A8D97, #D7C6BB);
+            background-attachment: fixed;
+            transition: background 0.8s ease-in-out;
+        }
+
+        /* ======= Sidebar gradasi ======= */
+        [data-testid="stSidebar"] {
+            background: linear-gradient(to bottom, #2E5871, #4C7084, #7A8D97);
+            color: #D7C6BB;
+        }
+
+        [data-testid="stSidebar"] * {
+            color: #D7C6BB !important;
+            font-weight: 500;
+        }
+
+        /* ======= Judul dan teks ======= */
+        h1, h2, h3, p {
+            color: #D7C6BB !important;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        /* ======= Menu atas (option_menu) ======= */
+        div[data-testid="stHorizontalBlock"] {
+            background: transparent !important;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # JANGAN DIUBAH
 @st.cache_data
 def load_image(url):
@@ -46,44 +87,6 @@ def display_images_with_data(gambar_urls, data_list):
 
 # JANGAN DIUBAH
 st.markdown(
-    """
-    <style>
-        /* Background utama untuk seluruh halaman */
-        .stApp {
-            background: linear-gradient(to bottom, #1C3B50, #2E5871, #4C7084, #7A8D97, #D7C6BB);
-            background-attachment: fixed;
-            transition: background 0.8s ease-in-out;
-        }
-
-        /* Terapkan juga ke kontainer tampilan utama */
-        [data-testid="stAppViewContainer"] {
-            background: linear-gradient(to bottom, #1C3B50, #2E5871, #4C7084, #7A8D97, #D7C6BB);
-            background-attachment: fixed;
-        }
-
-        /* Sidebar gradasi */
-        [data-testid="stSidebar"] {
-            background: linear-gradient(to bottom, #2E5871, #4C7084, #7A8D97);
-            color: #D7C6BB;
-        }
-
-        [data-testid="stSidebar"] * {
-            color: #D7C6BB !important;
-            font-weight: 500;
-        }
-
-        h1, h2, h3, p {
-            color: #002B5B !important;
-        }
-
-        h1 {
-            text-align: center;
-            font-weight: 800;
-            letter-spacing: 1px;
-        }
-
-    </style>
-
     <div style='text-align: center;'>
         <h1 style='font-size: 5.5em; color:#002B5B;'>WEBSITE KATING</h1>
         <p style='font-size: 2em; color:#073B4C;'>CEO HMSD Adyatama ITERA 2025</p>
