@@ -971,12 +971,12 @@ if menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-                "nim": "",
-                "umur": "",
-                "asal":"",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
+                "nim": "123450035",
+                "umur": "20",
+                "asal":"pesawaran",
+                "alamat": "pesawaran",
+                "hobbi": "Mainn piano, nyanyi, ngehalu",
+                "sosmed": "@bee_0115",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
