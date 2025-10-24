@@ -139,7 +139,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=17PveRKcAUJwdo7FQtqZLmlIkuQmRADxD",
             "https://drive.google.com/uc?export=view&id=1lZJmTmcLzgSV1DY93G1KGJPvm16LlvT4",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1Mu5lszeShFKNFpfZxtIu1_pP2T2KeabD",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1IVDJ_x6SUqUo9OBnzwPbnvQ5BV7doSN3",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
