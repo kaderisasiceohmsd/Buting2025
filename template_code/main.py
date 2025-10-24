@@ -1,51 +1,83 @@
 import streamlit as st
 
-# 🌊 CSS animasi ombak laut + gradasi warna custom
+# 🌊 CSS untuk gradasi + animasi ombak besar
 st.markdown("""
 <style>
+/* 🌅 Background gradasi laut */
 body {
-    background: linear-gradient(to bottom, #1C3B50, #2E5871, #4C7084, #7A8D97, #D7C6BB);
-    margin: 0;
+    background: linear-gradient(to bottom, #C7E9FB, #69BDEB, #2094D1, #1A6DB3, #144B8A);
     overflow-x: hidden;
+    margin: 0;
 }
 
-/* Lapisan ombak bergerak di bawah */
+/* 🌊 Lapisan ombak */
+.ocean {
+  height: 180px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #015871;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* Ombak besar pertama */
 .wave {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 200%;
-    height: 100px;
-    background-repeat: repeat-x;
-    background-size: 50% 100px;
-    opacity: 0.5;
-    animation: moveWave 10s linear infinite;
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: -80px;
+  width: 200%;
+  height: 180px;
+  border-radius: 43%;
+  animation: wave 12s infinite linear;
 }
 
-/* Ombak pertama */
-.wave1 {
-    background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.8), rgba(255,255,255,0) 70%);
-    animation-delay: 0s;
-    bottom: 0;
-    opacity: 0.4;
-}
-
-/* Ombak kedua (lebih lembut) */
+/* Ombak besar kedua (lebih lambat, lebih lembut) */
 .wave2 {
-    background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.5), rgba(255,255,255,0) 70%);
-    animation-delay: -5s;
-    bottom: 10px;
-    opacity: 0.2;
+  background: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: -100px;
+  width: 200%;
+  height: 180px;
+  border-radius: 43%;
+  animation: wave 20s infinite linear reverse;
 }
 
-@keyframes moveWave {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+/* 🔄 Gerakan ombak bolak-balik */
+@keyframes wave {
+  0% { transform: translateX(0) rotate(0deg); }
+  50% { transform: translateX(-25%) rotate(1deg); }
+  100% { transform: translateX(-50%) rotate(0deg); }
+}
+
+/* 🌟 Efek shimmer air laut di atas */
+.shimmer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.2) 100%);
+  animation: shimmer 3s infinite linear;
+  opacity: 0.5;
+  z-index: 999;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
 }
 </style>
 
-<div class="wave wave1"></div>
-<div class="wave wave2"></div>
+<!-- Lapisan ombak -->
+<div class="ocean">
+  <div class="wave"></div>
+  <div class="wave2"></div>
+</div>
+
+<!-- Efek cahaya -->
+<div class="shimmer"></div>
 """, unsafe_allow_html=True)
 
 # session state agar ketika pindah page tidak berubah data yang tersedia
