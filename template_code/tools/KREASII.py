@@ -1,6 +1,9 @@
 import streamlit as st
 import random
 import time
+import requests
+from PIL import Image
+from io import BytesIO
 
 # 🧠 Efek teks typewriter
 def typewriter(text, delay=0.03):
@@ -11,15 +14,24 @@ def typewriter(text, delay=0.03):
         placeholder.markdown(f"<h4 style='text-align:center;'>{full_text}</h4>", unsafe_allow_html=True)
         time.sleep(delay)
 
-# 🔗 Link Google Drive (format langsung)
-drive_links = [
-    "https://drive.google.com/uc?export=view&id=1x1kGE_QZx5CLf4g4ipKRHpOAAQ3G0r41",
-    "https://drive.google.com/uc?export=view&id=1LOfFVz5NrYq6KIon4MTg-qIFrqtHwchp",
-    "https://drive.google.com/uc?export=view&id=1NnPtHtj6bS-I6NIMDargefd9H8H798FT",
-    "https://drive.google.com/uc?export=view&id=1mt7H7_1LEW18Eldt2H0zZAZz39nAKGvn"
-]
+# 🖼️ Fungsi ambil gambar dari link Google Drive
+@st.cache_data
+def load_image(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return Image.open(BytesIO(response.content))
+    except Exception as e:
+        st.error(f"Gagal memuat gambar: {e}")
+        return None
 
-poisson_images = drive_links  # ✅ langsung pakai ini saja
+# 🔗 Link Google Drive (ubah ke export=download)
+poisson_images = [
+    "https://drive.google.com/uc?export=download&id=188Atf3QnwaerlDPhBT9ykzttyv4yqIAv",
+    "https://drive.google.com/uc?export=download&id=1j2whG_RXnlMioXeOqXbXWct4OK6qqFxS",
+    "https://drive.google.com/uc?export=download&id=1WlsJOtW86QjnczgRXm46oaB3PX6Hmqco",
+    "https://drive.google.com/uc?export=download&id=1n3GrMCFWvW-ttkUR5jQwq_7EYOug9I4R"
+]
 
 # 🃏 Inisialisasi kartu
 if "cards" not in st.session_state:
@@ -52,7 +64,11 @@ for i, card in enumerate(cards):
     col = cols[i % 4]
     with col:
         if st.session_state.flipped[i] or st.session_state.matched[i]:
-            st.image(card, width=120)
+            img = load_image(card)
+            if img:
+                st.image(img, width=120)
+            else:
+                st.write("🚫 Gagal tampil")
         else:
             if st.button(f"🎁 Kartu {i+1}", key=i):
                 st.session_state.flipped[i] = True
@@ -86,4 +102,8 @@ if all(st.session_state.matched):
 st.write(f"🧮 Percobaan: {st.session_state.attempts}")
 
 # 🔁 Tombol reset
-
+if st.button("🔄 Main Lagi"):
+    for key in ["cards", "flipped", "selected", "matched", "game_over", "attempts"]:
+        if key in st.session_state:
+            del st.session_state[key]
+    st.rerun()
