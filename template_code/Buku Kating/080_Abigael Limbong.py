@@ -178,7 +178,7 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
     
-if menu == "Baleg":
+elif menu == "Baleg":
     def baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1GssFMzoRbCwkWiQDvoT5E_IkjtR8uAJu",
@@ -356,7 +356,7 @@ if menu == "Baleg":
         display_images_with_data(gambar_urls, data_list)
     baleg()
     
-if menu == "Senator":
+elif menu == "Senator":
     def senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1bJiSw9OQ_B3IGAMnMYqkdUaFyXtl12ai",
@@ -413,7 +413,7 @@ if menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     senator()
 
-if menu == "Departemen MIKFES":
+elif menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1aBNjXyz3CHdNFzqpUP-kY_Tn3EuxwD8H", #1
@@ -687,8 +687,8 @@ if menu == "Departemen MIKFES":
         display_images_with_data(gambar_urls, data_list)
     mikfes()
 
-if menu == "Departemen SSD":
-    def Departemen_SSD():
+elif menu == "Departemen SSD":
+    def ssd():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1gKYiETc7lFAWoYyQH3sHl7V-dNsPlmx1", #1
             "https://drive.google.com/uc?export=view&id=1kmvWgp2LDrHPXf_bmQGwVRsLxY-FuwIf", #2
@@ -826,10 +826,10 @@ if menu == "Departemen SSD":
             },     
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_SSD()
+    ssd()
 
-if menu == "Departemen Eksternal":
-    def Departemen_Eksternal():
+elif menu == "Departemen Eksternal":
+    def eksternal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1DXrbBcaqzGzwOG4dSnQBXgYes3yxbhIk", #1
             "https://drive.google.com/uc?export=view&id=1SSKZZMDqE6EXhXk9zAlT3JXkm8IQD6B8", #2
@@ -894,7 +894,7 @@ if menu == "Departemen Eksternal":
                 "nama": "Kakak Devyna Sonya Palupi Sanjaya",
                 "nim": "123450007",
                 "umur": "20",
-                "asal":""asal": "Duo P (Palembang & Pringsewu)",
+                "asal":"Duo P (Palembang & Pringsewu)",
                 "alamat": "like crowded",
                 "hobbi": "Scroll template jj & ngasprak",
                 "sosmed": "@devynasonyaa",
@@ -1122,12 +1122,12 @@ if menu == "Departemen Eksternal":
                 "pesan":"Terima kasih sudah jadi kakak tutor ALE RC kakak! Saya paham OBE karena kakak, semoga rezeki kakak dilimpahkan selalu dan sehat-sehat terus! "# 24
             },
         ]
-        display_images_with_data(gambar_urls, data_list)
-    Departemen_Eksternal()
+        display_images_with_data(gambar_urls, data_list) 
+    eksternal()
 
 
-if menu == "Departemen Internal":
-    def Departemen_Internal():
+elif menu == "Departemen Internal":
+    def internal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1EfYmWGN1eKluaJL1Hrp_7cjSaGn3bD4d", #1
             "https://drive.google.com/uc?export=view&id=1UA6fgSfr9yGpGs_MAVQWKhjYwcJk7NbL", #2
@@ -1314,33 +1314,33 @@ if menu == "Departemen Internal":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_Internal()
+    internal()
 
 
-if menu == "Departemen Medkraf":
+elif menu == "Departemen Medkraf":
     def medkraf():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1x19gE0vFbgapt3lLBf3MI0_JoOXbA8QL",
-            "https://drive.google.com/uc?export=view&id=1Pzw0fZiQV_ZnpLjpCj0jwaY_O2Hwyip_",
-            "https://drive.google.com/uc?export=view&id=1-NNhj_MGe7rfLevTpPVC3zrLTBFuj7L9",
-            "https://drive.google.com/uc?export=view&id=1IWZuvzpgw2-QbjDHO_OQ_C_E-Zg6EQxs",
-            "https://drive.google.com/uc?export=view&id=1HfcPLi9h4bwXiqRBhocYy8otsypuAgQz",
-            "https://drive.google.com/uc?export=view&id=1VM5Lh8s0guSZDG1Ncf_VXSr50awEm5Un",
-            "https://drive.google.com/uc?export=view&id=1gtIMN48zZAj-_fKqUI8_fbIpCBQl_Q-Y",
-            "https://drive.google.com/uc?export=view&id=1uRpwaqiidu5ZwZgK4UmP83GPWEYRnTxy",
-            "https://drive.google.com/uc?export=view&id=1phXoSZmijn_g6L-uMKjhFuTrBixXNQ9m",
-            "https://drive.google.com/uc?export=view&id=1jvONJKtR9_YJv_bluZm90SuCRULYbHlE",
-            "https://drive.google.com/uc?export=view&id=1JD8FV662f449FHqToyWwRX_tUPwta0cI",
-            "https://drive.google.com/uc?export=view&id=1GQgbAhG6o34FXwe3l1PLvRgiTgrIjy4S",
-            "https://drive.google.com/uc?export=view&id=1mu6g37yhKhhehIqeP6d7MzM4yqYtb-Ms",
-            "https://drive.google.com/uc?export=view&id=1pbRNcmjXkl2Eg4QTz04gTyO0nkviTHUC",
-            "https://drive.google.com/uc?export=view&id=1ei2se_1_uqgpkmD_LQqBrVdTy-Ml8CsW",
-            "https://drive.google.com/uc?export=view&id=1KDRWePTTzJ7tpl6Kj5sxS4yFn98hO2Yo",
-            "https://drive.google.com/uc?export=view&id=1xvFF5JY8Gjuh8K6gxab5c0dxPM773JwS",
-            "https://drive.google.com/uc?export=view&id=1LSaE8hIscrjwVToPLISHLs84SgTmfqsu",
+            "https://drive.google.com/uc?export=view&id=1x19gE0vFbgapt3lLBf3MI0_JoOXbA8QL", #1
+            "https://drive.google.com/uc?export=view&id=1Pzw0fZiQV_ZnpLjpCj0jwaY_O2Hwyip_", #2
+            "https://drive.google.com/uc?export=view&id=1-NNhj_MGe7rfLevTpPVC3zrLTBFuj7L9", #3
+            "https://drive.google.com/uc?export=view&id=1IWZuvzpgw2-QbjDHO_OQ_C_E-Zg6EQxs", #4
+            "https://drive.google.com/uc?export=view&id=1HfcPLi9h4bwXiqRBhocYy8otsypuAgQz", #5
+            "https://drive.google.com/uc?export=view&id=1VM5Lh8s0guSZDG1Ncf_VXSr50awEm5Un", #6
+            "https://drive.google.com/uc?export=view&id=1gtIMN48zZAj-_fKqUI8_fbIpCBQl_Q-Y", #7
+            "https://drive.google.com/uc?export=view&id=1uRpwaqiidu5ZwZgK4UmP83GPWEYRnTxy", #8
+            "https://drive.google.com/uc?export=view&id=1phXoSZmijn_g6L-uMKjhFuTrBixXNQ9m", #9
+            "https://drive.google.com/uc?export=view&id=1jvONJKtR9_YJv_bluZm90SuCRULYbHlE", #10
+            "https://drive.google.com/uc?export=view&id=1JD8FV662f449FHqToyWwRX_tUPwta0cI", #11
+            "https://drive.google.com/uc?export=view&id=1GQgbAhG6o34FXwe3l1PLvRgiTgrIjy4S", #12
+            "https://drive.google.com/uc?export=view&id=1mu6g37yhKhhehIqeP6d7MzM4yqYtb-Ms", #13
+            "https://drive.google.com/uc?export=view&id=1pbRNcmjXkl2Eg4QTz04gTyO0nkviTHUC", #14
+            "https://drive.google.com/uc?export=view&id=1ei2se_1_uqgpkmD_LQqBrVdTy-Ml8CsW", #15
+            "https://drive.google.com/uc?export=view&id=1KDRWePTTzJ7tpl6Kj5sxS4yFn98hO2Yo", #16
+            "https://drive.google.com/uc?export=view&id=1xvFF5JY8Gjuh8K6gxab5c0dxPM773JwS", #17
+            "https://drive.google.com/uc?export=view&id=1LSaE8hIscrjwVToPLISHLs84SgTmfqsu", #18
         ]
         data_list = [
-            {
+              {
                 "nama": "Kakak Patricia Leondrea Diajeng Putri",
                 "nim": "122450050",
                 "umur": "21",
@@ -1350,8 +1350,8 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@patriciadiajeng",
                 "kesan": "Kakak Patricia sangat wangi dan cantik, suaranya juga lembut banget!",  
                 "pesan": "Semoga sehat selalu ya kakak!"# 1
-            },
-            {
+              },
+              {
                 "nama": "Kakak Rahma Neliyana",
                 "nim": "122450036",
                 "umur": "21",
@@ -1361,7 +1361,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@rahmaneliyana",
                 "kesan": "Kakak ini manis sekali, pangling lihatny hehe",  
                 "pesan": "Selalu menjadi pribadi yang manis ya kakak, semoga sehat selalu"# 1
-            },
+              },
               {
                 "nama": "Kakak Khoirul Anam",
                 "nim": "122450039",
@@ -1372,7 +1372,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@mananam__",
                 "kesan": "Kakak ini welome banget, baik sekali!",  
                 "pesan": "Terima kasih banyak ya kakak, semoga sehat selalu"# 1
-            },
+              },
               {
                 "nama": "Kakak Labo John Noel Napitupulu",
                 "nim": "123450037",
@@ -1383,7 +1383,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@noerruuu",
                 "kesan": "Kakak ini wangi dan tinggi banget",  
                 "pesan": "Semoga semua urusan dipermudah ya kakak!"# 1
-            },
+              },
               {
                 "nama": "Kakak Rafi Diva Efangga",
                 "nim": "123450001",
@@ -1394,7 +1394,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@rafidivaefangga_",
                 "kesan": "Kakak Rafi baik dan welcome sekali!",  
                 "pesan": "Semoga semuanya dipermudah ya kakak!"# 1
-            },
+              },
               {
                 "nama": "Kakak Refa Destiny Pranata",
                 "nim": "123450016",
@@ -1405,7 +1405,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@refadp_",
                 "kesan": "Kakak Refa!! Manis, baik, asik dan seru!",  
                 "pesan": "Semoga sehat selalu dan jadi inspirasi banyak orang terus ya kakak!"# 1
-            },
+              },
               {
                 "nama": "Try Yani Rizki Nur Rohmah",
                 "nim": "",
@@ -1416,7 +1416,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@",
                 "kesan": "Kakak manis sekali dan baik sekali!",  
                 "pesan": "Terus jadi panutan banyak orang ya kakak!"# 1
-            },
+              },
               {
                 "nama": "Kakak Aliya Ammara Ananta",
                 "nim": "123450075",
@@ -1427,7 +1427,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@aliyaammara",
                 "kesan": "Kakak ini baik sekali dan manis sekali",  
                 "pesan": "Semoga semuanya dipermudah dan studinya diperlancar ya kakak"# 1
-            },
+              },
               {
                 "nama": "Kakak Donna Maya Puspita",
                 "nim": "123450028",
@@ -1438,7 +1438,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@donnamaya.p",
                 "kesan": "Kakak Donna baik sekali, sangat welcome terhadap kami",  
                 "pesan": "Terima kasih ya kakak, semoga hal baik menghampiri kakak"# 1
-            },
+              },
               {
                 "nama": "Kakak Feby Angelina",
                 "nim": "123450039",
@@ -1449,7 +1449,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@writtenbyangel",
                 "kesan": "Kakak Feby baik dan cantik sekali",  
                 "pesan": "Sehat dan sukses selalu ya kakak, semoga semua hal baik terjadi kepada kakak!"# 1
-            },
+              },
               {
                 "nama": "Kakak Hafsa Fazila Arradhi",
                 "nim": "123450079",
@@ -1460,7 +1460,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@hafsa.fazila",
                 "kesan": "Kakak Hafsa manis dan baik!",  
                 "pesan": "Terima kasih banyak ya kakak, semoga semuanya dipermudah bagi kakak"# 1
-            },
+              },
               {
                 "nama": "Kakak Nayla Salsabila Fathianisa",
                 "nim": "123450082",
@@ -1471,7 +1471,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@naylasasabilaa_",
                 "kesan": "Kakak Nayla manis dan baik sekali",  
                 "pesan": "Tetap jadi inspirasi saya dan banyak orang ya kakak"# 1
-            },
+              },
               {
                 "nama": "Kakak Sania Dwi Ayu Lestari",
                 "nim": "123450086",
@@ -1482,7 +1482,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@saniayyllstr",
                 "kesan": "Kakak Sania manis dan baik banget!",  
                 "pesan": "Tetap jadi pribadi yang ceria ya kakak"# 1
-            },
+              },
               {
                 "nama": "Kakak Akmal Faiz Abdillah",
                 "nim": "122450114",
@@ -1493,7 +1493,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@_akmal.faiz",
                 "kesan": "Kakak Akmal ceria dan humble sekali",  
                 "pesan": "Kakak mirip dengan seseorang yang aku kenal. Semoga sehat dan sukses selalu ya kakak"# 1
-            },
+              },
               {
                 "nama": "Kakak Raihan Addelia Putri",
                 "nim": "123450041",
@@ -1504,7 +1504,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@n1tg._",
                 "kesan": "Kakak baik dan manis",  
                 "pesan": "Sehat dan sukses selalu ya kakak"# 1
-            },
+              },
               {
                 "nama": "Kakak Citra Agustin",
                 "nim": "123450108",
@@ -1515,7 +1515,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@citrastin",
                 "kesan": "Kakak Citra baik dan welcome banget",  
                 "pesan": "Sehat dan sukses selalu ya kakak"# 1
-            },
+              },
               {
                 "nama": "Kakak Eigi Artamevia",
                 "nim": "123450011",
@@ -1526,7 +1526,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@eigitvm",
                 "kesan": "Kakak manis dan ceria banget! Sangat 'cewe bumi' looks banget hehehe",  
                 "pesan": "Semoga sehat selalu ya kakak, apapun itu diberikan kemudahan oleh Tuhan"# 1
-            },
+              },
               {
                 "nama": "Kakak Romauli Oktavia Silaban",
                 "nim": "123450014",
