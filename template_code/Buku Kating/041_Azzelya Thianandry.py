@@ -1304,27 +1304,27 @@ if menu == "Departemen Eksternal":
 if menu == "Departemen Internal":
     def internal():
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1vDoaOXJHTxd3DdPhqH6K5I6-I5TP1yRj",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1Bvfh-ceVWgp_af2KicB36Mw936n_0HDW",
+            "https://drive.google.com/uc?export=view&id=1Iep27MjYpRmPfUZPrBCg7Tr-0kKBeHcV",
+            "https://drive.google.com/uc?export=view&id=1SUom1a6RhykLTOkSP7vbnfEHZTrmdZQd",
+            "https://drive.google.com/uc?export=view&id=17o-aHA9avZ_8yhGjRdM2rwcmdMiK8V5Y",
+            "https://drive.google.com/uc?export=view&id=1yUwGLUK90AhhTK7QYRmOEPdzY2IZIMNW",
+            "https://drive.google.com/uc?export=view&id=1hI_nazfweqz6kjC3iXz7EKiXVjAJP48p",
+            "https://drive.google.com/uc?export=view&id=1D5N5oY6NQymUuDy7uXjQx7J7G_lKOBnT",
+            "https://drive.google.com/uc?export=view&id=1chIZCqvSJrYGYdyzDM1DXrbbhbcrrSvd",
+            "https://drive.google.com/uc?export=view&id=1foX3NU08bWY1NNKhLPQ9H7WluOhPohAl",
+            "https://drive.google.com/uc?export=view&id=1QT_3H883YcMPhe1Xcy5XodFOELZWVmoK",
+            "https://drive.google.com/uc?export=view&id=1i-M3JD2NJ1kG5c2ywHjUfJgmU1rQzRl0",
+            "https://drive.google.com/uc?export=view&id=1-k0NVjmGJ8vuN_yriLfZAYAKBWJEVYk7",
+            "https://drive.google.com/uc?export=view&id=1V36HuPU0FnYob6qFVnBrfdEe_IVkrGmT",
         ]
         data_list = [
             {
                 "nama": "Rani Puspita Sari",
                 "nim": "122450030",
-                "umur": 21,
+                "umur": "21",
                 "asal": "Metro",
                 "alamat": "Bandar Lampung",
                 "hobbi": "Mengaji",
@@ -1335,7 +1335,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Renta Siahaan",
                 "nim": "122450070",
-                "umur": 22,
+                "umur": "22",
                 "asal": "Sumatera Utara",
                 "alamat": "Sukarame",
                 "hobbi": "Memancing",
@@ -1346,7 +1346,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Salwa Farhanatussaidah",
                 "nim": "122450055",
-                "umur": 21,
+                "umur": "21",
                 "asal": "Brebes, Jateng",
                 "alamat": "Airan",
                 "hobbi": "Memasak",
@@ -1357,7 +1357,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Azzahra Putri Kamilah",
                 "nim": "123450013",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Pekan Baru",
                 "alamat": "Asrama TB4",
                 "hobbi": "Main Palinfit",
@@ -1368,7 +1368,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Haikal Fransiskus Simbolon",
                 "nim": "123450106",
-                "umur": 18,
+                "umur": "18",
                 "asal": "Pekan Baru, Riau",
                 "alamat": "Airan",
                 "hobbi": "Mancing Ribut",
@@ -1376,10 +1376,21 @@ if menu == "Departemen Internal":
                 "kesan": "Kakak selalu kelihatan siap di situasi apa pun, kayak nggak gampang goyah.",
                 "pesan": "Semoga keyakinan itu tetap jadi pegangan Kakak terus ke depan."
             },
+              {
+                "nama": "Haikal Fransisqo Simbolon",
+                "nim": "123450106",
+                "umur": "20",
+                "asal": "Lampung Barat",
+                "alamat": "Sukarame",
+                "hobbi": "Berkhayal",
+                "sosmed": "iqfinanhalikaa_",
+                "kesan": "Kakak punya gaya santai yang natural, nggak dibuat-buat.",
+                "pesan": "Tetap jadi orang yang senyaman itu ya, Kak, dunia butuh yang tulus."
+            },
             {
                 "nama": "Iqfinah Haula Halika",
                 "nim": "123450076",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Lampung Barat",
                 "alamat": "Sukarame",
                 "hobbi": "Berkhayal",
@@ -1390,7 +1401,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "May Thalita Dehlia",
                 "nim": "123450009",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Bandung",
                 "alamat": "Kedaton",
                 "hobbi": "Menyelam",
@@ -1401,7 +1412,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "M. Naufal Algahni",
                 "nim": "123450116",
-                "umur": 20,
+                "umur": '20",
                 "asal": "Sidorejo",
                 "alamat": "Sabah Balau",
                 "hobbi": "Nonton Anime",
@@ -1412,7 +1423,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Zailani Satria",
                 "nim": "123450111",
-                "umur": 19,
+                "umur": "19",
                 "asal": "Bandar Lampung",
                 "alamat": "Bandar Lampung",
                 "hobbi": "Olahraga",
@@ -1423,7 +1434,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Rendi Alexander Hutagalung",
                 "nim": "122450057",
-                "umur": 21,
+                "umur": "21",
                 "asal": "Tanggerang",
                 "alamat": "Belwis",
                 "hobbi": "Nyanyi",
@@ -1434,7 +1445,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Hanna Grecia Sinaga",
                 "nim": "123450038",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Jakarta Selatan",
                 "alamat": "Belakang UIN",
                 "hobbi": "Menggoreng Pisang",
@@ -1445,7 +1456,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Keren Marito Lumban Gaol",
                 "nim": "123450020",
-                "umur": 19,
+                "umur": "19",
                 "asal": "Bekasi",
                 "alamat": "Pemda",
                 "hobbi": "Bermain Musik",
@@ -1456,7 +1467,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Muhammad Hanif Zaki",
                 "nim": "123450004",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Padang",
                 "alamat": "Perumnas, Way Kandis",
                 "hobi": "Futsal",
@@ -1467,7 +1478,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Sarah Warti",
                 "nim": "123450057",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Jawa Barat",
                 "alamat": "Tanjung Senang",
                 "hobbi": "Berkebun",
@@ -1478,7 +1489,7 @@ if menu == "Departemen Internal":
             {
                 "nama": "Zahra Putri Salsabila",
                 "nim": "123450026",
-                "umur": 19,
+                "umur": '19",
                 "asal": "Natar",
                 "alamat": "Way Huwi, Pemda",
                 "hobbi": "Mengetik",
@@ -1486,6 +1497,7 @@ if menu == "Departemen Internal":
                 "kesan": "Kakak punya gaya jalan dan cara ngomong yang kalem tapi berwibawa.",
                 "pesan": "Semoga Kakak selalu dikelilingi hal-hal yang seimbang kayak diri Kakak sendiri."
             },
+            
         ]
         display_images_with_data(gambar_urls, data_list)
     internal()
@@ -1636,6 +1648,7 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1sKzsZ8KQMslzYRXZ1ObfdmzdssoYr_t6",
             "https://drive.google.com/uc?export=view&id=1ZFQOQVuuyxL6P5PEVJ62w9sUcRBtwV1R",
             "https://drive.google.com/uc?export=view&id=1mmMC4YYcgwJzgqgYr5x652NVZoytz0n6",
+            "https://drive.google.com/uc?export=view&id=1OlXPxDEcqs_zqflyHStTUExMPn4wvqqz",
             "https://drive.google.com/uc?export=view&id=16pADRY0vHVZ4Qe9rvQqERoMZKAwaOF7a",
             "https://drive.google.com/uc?export=view&id=1lo85n1JZLJVyFlJKFs0pOz91-GJzMKZb",
             "https://drive.google.com/uc?export=view&id=1pf2rbknlfNw4osvVlslnQba8bY5bFjZW",
@@ -1644,7 +1657,6 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1L9JBRgCzkQMd0d1n4eq8VyzwbXzCXw8O",
             "https://drive.google.com/uc?export=view&id=1viH_ciVMtK3xSdt708rwPfONpiixCquc",
             "https://drive.google.com/uc?export=view&id=1QhEW0kQclE8Q0RfrmB_Hp8ZpUOhqYwzv",
-            "https://drive.google.com/uc?export=view&id=1UB3zhbJ32H2TL8jZQzWhJHBDZmQMfk7h",
             "https://drive.google.com/uc?export=view&id=1UB3zhbJ32H2TL8jZQzWhJHBDZmQMfk7h",
             "https://drive.google.com/uc?export=view&id=1YzWSOMLbKS5cPL0WZ9qYZWpD3whqtKnc",
             "https://drive.google.com/uc?export=view&id=1j2JJwjdT3Kr2-NxMnGbgh5R5wVX1bkrx",
@@ -1655,10 +1667,10 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Patricia Leondrea Diajeng Putri",
                 "nim": "122450050",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": "  ",
+                "umur": "21",
+                "asal": "Lamsel",
+                "alamat": "Jatimulyo",
+                "hobbi": "Sleep Call",
                 "sosmed": "@patriciadiajeng",
                 "kesan": "Kak ciaa asik banget dan seruu bangeett",
                 "pesan": "sehaatt selaluu dan selalu ceria kakk!"
@@ -1666,10 +1678,10 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Rahma Neliyana",
                 "nim": "122450036",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "21",
+                "asal": "Lampung",
+                "alamat": "Korpri, Sukarame",
+                "hobbi": "Gym, Masak",
                 "sosmed": "@rahmanellyana",
                 "kesan": "pinterr bangeett dan ramah banget",
                 "pesan": "semangaatt kuliahnya kakk!"
@@ -1677,10 +1689,10 @@ if menu == "Departemen Medkraf":
              {
                 "nama": "Khoirul Anam",
                 "nim": "122450039",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "22",
+                "asal": "Pesawaran",
+                "alamat": "Pesawaran",
+                "hobbi": "Billiard dan volly",
                 "sosmed": "@mananam_",
                 "kesan": "baikk dan sabar bangett ngajarin nyaa",
                 "pesan": "semangaatt truss bangg!"
@@ -1689,10 +1701,10 @@ if menu == "Departemen Medkraf":
             
                 "nama": "Labo Napitupulu",
                 "nim": "123450037",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "20",
+                "asal": "Medan",
+                "alamat": "Gg.sakum",
+                "hobbi": " Motoran",
                 "sosmed": "@noe_rruuu",
                 "kesan": "keren banget dan seru banget juga",
                 "pesan": "semangaaatt kuliahnya bangg!"
@@ -1700,10 +1712,10 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Rafi Diva Efangga",
                 "nim": "123450001",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "21",
+                "asal": "Lampung Tengah",
+                "alamat": "Airan",
+                "hobbi": "Olahraga",
                 "sosmed": "@rafidivaefangga",
                 "kesan": "Seru banget abangnya dan ramah banget juga",
                 "pesan": "semangaatt kuliahnya bangg"
@@ -1711,10 +1723,10 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Refa Destini Pranata",
                 "nim": "123450016",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": "  ",
+                "umur": "19",
+                "asal": "Bandar Lampung",
+                "alamat": "Kedaton",
+                "hobbi": "Mengoleksi Gelang",
                 "sosmed": "@refadp_",
                 "kesan": "seruu banget kakaknya dan asik banget",
                 "pesan": "semangatt kak kuliahnyaa, besok tepuk doa bareng ya kak wwkkwkw"
@@ -1722,10 +1734,10 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Try Yani Rizki Nur Rohmah",
                 "nim": "122450020",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "20",
+                "asal": "Lampung Barat",
+                "alamat": "Korpri",
+                "hobbi": " Belajar",
                 "sosmed": "@tryyaniciaaa",
                 "kesan": "seruu bangeet kak dan ramah juga",
                 "pesan": "Tetap semangat kak kuliahnya!"
@@ -1733,10 +1745,10 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Aliya Ammara Ananta",
                 "nim": "123450075",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "20",
+                "asal": "Lampung Utara",
+                "alamat": "Sukarame",
+                "hobbi": "Nonton Netflix",
                 "sosmed": "@aliyaamara",
                 "kesan": "kereenn kakaknya dan seru juga",
                 "pesan": "Semangat kuliahnya kak!"
@@ -1744,10 +1756,10 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Dona Maya Puspita",
                 "nim": "123450028",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "20",
+                "asal": "Bekasi",
+                "alamat": "Way Huwi",
+                "hobbi": "Mendengar musik",
                 "sosmed": "@donamaya.p",
                 "kesan": "Kakaknya seru banget dan ramah juga",
                 "pesan": "Semoga sukses di masa depaann kaakk!"
@@ -1755,10 +1767,10 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Feby Angelina",
                 "nim": "123450039",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "20",
+                "asal": "Kemiling",
+                "alamat": "Kemiling",
+                "hobbi": "Scroll Pinterest",
                 "sosmed": "@writtenbyangel",
                 "kesan": "baiikk bangeett kakaknya dan asik bangettt",
                 "pesan": "semangaatt kuliahnya kak!"
@@ -1777,10 +1789,10 @@ if menu == "Departemen Medkraf":
              {
                 "nama": "Nayla Salsabila Fathianisa",
                 "nim": "123450082",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "20",
+                "asal": "Payakumbuh, Sumatera Barat",
+                "alamat": "Jl. Lapas Raya, Jati Agung",
+                "hobbi": "Dengerin musik",
                 "sosmed": "@naylasalsabilaa",
                 "kesan": "baiikk bangeett kakaknya dan seru juga",
                 "pesan": "semangaatt kuliahnya kak!"
@@ -1788,10 +1800,10 @@ if menu == "Departemen Medkraf":
              {
                 "nama": "Sania Dwi Ayu Lestari",
                 "nim": "123450086",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "20",
+                "asal": "Karawang",
+                "alamat": "Airan",
+                "hobbi": "Main roblox",
                 "sosmed": "@saniayyllstr",
                 "kesan": "baiikk bangeett kakaknya dan seru",
                 "pesan": "semangaatt kuliahnya kak dan bahagia selalu kak!"
@@ -1799,21 +1811,21 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Akmal Faiz Abdilah",
                 "nim": "122450114",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
-                "sosmed": "@i",
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Griya Sukarame",
+                "hobbi": "Main Hp",
+                "sosmed": "@",
                 "kesan": "baiikk bangeett abangnya dan ramah juga",
                 "pesan": "semangaatt bang!"
             },
              {
                 "nama": "Raihana Adelia Putri",
                 "nim": "123450041",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "19",
+                "asal": "Lampung Tengah",
+                "alamat": "Airan Raya 1",
+                "hobbi": " Menulis, membaca, memasak",
                 "sosmed": "@nltg._",
                 "kesan": "baiikk bangeett kakaknya dan ramah juga",
                 "pesan": "semangaatt kuliahnya kak!"
@@ -1821,10 +1833,10 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Citra Agustin",
                 "nim": "123450108",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "21",
+                "asal": "Lampung Selatan",
+                "alamat": "Natar",
+                "hobbi": "Scroll Pinterest",
                 "sosmed": "@citrastin",
                 "kesan": "baiikk bangeett kak dan asik juga",
                 "pesan": "semangaatt kuliahnya kak!"
@@ -1832,10 +1844,10 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Eigi Artamevia",
                 "nim": "123450011",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": " 21",
+                "asal": "Lampung Selatan",
+                "alamat": "Sabah Balau",
+                "hobbi": "Melukis",
                 "sosmed": "@eigirtmv",
                 "kesan": "baiikk bangeett kakaknya dan ramah bangett",
                 "pesan": "semangaatt kuliahnya kak!"
@@ -1843,10 +1855,10 @@ if menu == "Departemen Medkraf":
             {
                 "nama": "Romauli Oktavia Silaban",
                 "nim": "123450014",
-                "umur": " ",
-                "asal": " ",
-                "alamat": " ",
-                "hobbi": " ",
+                "umur": "19",
+                "asal": "Sumatera Utara",
+                "alamat": "Kelengkeng 2",
+                "hobbi": "Dance",
                 "sosmed": "@roms.slbn",
                 "kesan": "baiikk bangeett kak, asik juga dan ramah bangett",
                 "pesan": "sukses terus kedepannya kak!"
