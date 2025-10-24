@@ -306,7 +306,7 @@ if menu == "Baleg":
                 "hobbi": "Dengerin Lany",
                 "sosmed": "@j_eesie",
                 "kesan": "Gayanya estetik, kepribadiannya menarik.",
-                "pesan":"semangat selalu kak! Semoga kuliah dan hari-harinya selalu seru dan penuh warna.",
+                "pesan":"semangat selalu kak! Semoga kuliah dan hari-harinya selalu seru dan penuh warna."
             },
             {
                 "nama": "Ridho Benedictus Togi Manik",
