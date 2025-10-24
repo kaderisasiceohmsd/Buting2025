@@ -983,7 +983,7 @@ elif menu == "Departemen MIKFES":
             {
                 "nama": "Rahmah Gustriana Deka",
                 "nim": "123450102",
-                "umur": "-",
+                "umur": "20",
                 "asal": "Lampung Timur",
                 "alamat": "Airan",
                 "hobbi": "Ngerepotin Tanty",
@@ -1326,7 +1326,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Rani Puspita Sari",
                 "nim": "122450030",
-                "umur": 21,
+                "umur": "21",
                 "asal": "Metro",
                 "alamat": "Bandar Lampung",
                 "hobbi": "Mengaji",
@@ -1337,7 +1337,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Renta Siahaan",
                 "nim": "122450070",
-                "umur": 22,
+                "umur": "22",
                 "asal": "Sumatera Utara",
                 "alamat": "Sukarame",
                 "hobbi": "Memancing",
@@ -1348,7 +1348,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Salwa Farhanatussaidah",
                 "nim": "122450055",
-                "umur": 21,
+                "umur": "21",
                 "asal": "Brebes, Jateng",
                 "alamat": "Airan",
                 "hobbi": "Memasak",
@@ -1359,7 +1359,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Azzahra Putri Kamilah",
                 "nim": "123450013",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Pekan Baru",
                 "alamat": "Asrama TB4",
                 "hobbi": "Main Palinfit",
@@ -1370,7 +1370,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Haikal Fransiskus Simbolon",
                 "nim": "123450106",
-                "umur": 18,
+                "umur": "18",
                 "asal": "Pekan Baru, Riau",
                 "alamat": "Airan",
                 "hobbi": "Mancing Ribut",
@@ -1381,7 +1381,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Iqfinah Haula Halika",
                 "nim": "123450076",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Lampung Barat",
                 "alamat": "Sukarame",
                 "hobbi": "Berkhayal",
@@ -1392,7 +1392,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "May Thalita Dehlia",
                 "nim": "123450009",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Bandung",
                 "alamat": "Kedaton",
                 "hobbi": "Menyelam",
@@ -1403,7 +1403,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Muhammad Naufal Algahni",
                 "nim": "123450116",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Sidorejo",
                 "alamat": "Sabah Balau",
                 "hobbi": "Nonton Anime",
@@ -1414,7 +1414,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Zailani Satria",
                 "nim": "123450111",
-                "umur": 19,
+                "umur": "19",
                 "asal": "Bandar Lampung",
                 "alamat": "Bandar Lampung",
                 "hobbi": "Olahraga",
@@ -1425,7 +1425,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Rendi Alexander Hutagalung",
                 "nim": "122450057",
-                "umur": 21,
+                "umur": "21",
                 "asal": "Tanggerang",
                 "alamat": "Belwis",
                 "hobbi": "Nyanyi",
@@ -1436,7 +1436,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Hanna Grecia Sinaga",
                 "nim": "123450038",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Jakarta Selatan",
                 "alamat": "Belakang UIN",
                 "hobbi": "Menggoreng Pisang",
@@ -1447,7 +1447,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Keren Marito Lumban Gaol",
                 "nim": "123450020",
-                "umur": 19,
+                "umur": "19",
                 "asal": "Bekasi",
                 "alamat": "Pemda",
                 "hobbi": "Bermain Musik",
@@ -1458,7 +1458,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Muhammad Hanif Zaki",
                 "nim": "123450004",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Padang",
                 "alamat": "Perumnas, Way Kandis",
                 "hobbi": "Futsal",
@@ -1469,7 +1469,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Sarah Warti",
                 "nim": "123450057",
-                "umur": 20,
+                "umur": "20",
                 "asal": "Jawa Barat",
                 "alamat": "Tanjung Senang",
                 "hobbi": "Berkebun",
@@ -1480,7 +1480,7 @@ elif menu == "Departemen Internal":
             {
                 "nama": "Zahra Putri Salsabila",
                 "nim": "123450026",
-                "umur": 19,
+                "umur": "19",
                 "asal": "Natar",
                 "alamat": "Way Huwi, Pemda",
                 "hobbi": "Mengetik",
