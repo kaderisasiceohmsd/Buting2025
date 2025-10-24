@@ -105,8 +105,8 @@ if menu == "Kesekjenan":
             "https://drive.google.com/uc?export=view&id=17vEujPlAXKfR2z17VwaAEuQ_Xn4kBbU8",
             "https://drive.google.com/uc?export=view&id=1mokkAuIQlIna_TRCS5KnC7iSBvLrHEx0",
             "https://drive.google.com/uc?export=view&id=1xEfMcNiDD45l1UZg6oagm2pc5ei3t_f5",
+            
         ]
-
         data_list = [
             {
                 "nama": "Rendra Eka Prayoga",
@@ -182,7 +182,6 @@ if menu == "Kesekjenan":
 if menu == "Baleg":
     def Baleg():
         gambar_urls = [
-
             "https://drive.google.com/uc?export=view&id=1fcEdOZIVHYnJQd6tLWyrwSLG9MJhnqJM",
             "https://drive.google.com/uc?export=view&id=1vJzSxrSK1pdKK26Zaut-xTqm9dmztd52",
             "https://drive.google.com/uc?export=view&id=1lwZ0WVAHnoC81fC9NCRAHX8KCtjVyP4z",
@@ -210,7 +209,7 @@ if menu == "Baleg":
                 "kesan": "bang jere inspiratiff, pengen jadi pemandu lkmm jg karena liat bang jere.",
                 "pesan":"sukses selalu bang kuliah nya, jangan lupa makan ya"
             },
-             {
+            {
                 "nama": "Dhea Amelia Putri",
                 "nim": "",
                 "umur": "20",
@@ -243,7 +242,7 @@ if menu == "Baleg":
                 "kesan": "kaka nya cantik, imut, suka sama senyum nya lucu.",
                 "pesan":"selalu jaga kesehatan ya kak"
             },
-             {
+            {
                 "nama": "Dharu Cahyoaji Sasongko",
                 "nim": "123450023",
                 "umur": "18",
@@ -254,7 +253,7 @@ if menu == "Baleg":
                 "kesan": "abang nya inspiratif, punya banyak pengalaman, pengen kaya abang nya juga",
                 "pesan":"tetap jadi panutan bang."
             },
-             {
+            {
                 "nama": "Feby Wulandari",
                 "nim": "123450042",
                 "umur": "17",
@@ -276,7 +275,7 @@ if menu == "Baleg":
                 "kesan": "vibes abang nya kaya tegas dan berwibawa",
                 "pesan":"jaga kesehatan, jangan lupa tidur"
             },
-             {
+            {
                 "nama": "Mirzan Yusuf Rabbani",
                 "nim": "122450118",
                 "umur": "21",
@@ -287,7 +286,7 @@ if menu == "Baleg":
                 "kesan": "abang nya wangi bgt, vibes nya kaya seger terus gitu.",
                 "pesan":"spill cara wangi tahan lama bang"
             },
-             {
+            {
                 "nama": "Berliana Enda Putri",
                 "nim": "124450065",
                 "umur": "21",
@@ -331,7 +330,7 @@ if menu == "Baleg":
                 "kesan": "orang nya baik, ramah juga",
                 "pesan":"semangat kuliahnya bang, kuliah dibawa santai aja"
             },
-             {
+            {
                 "nama": "Monica Patricia Tanjung",
                 "nim": "123450073",
                 "umur": "19",
@@ -389,7 +388,7 @@ if menu == "Senator":
                 "kesan": "kaka nya cantik bgt, vibesnya kaya cewe lemah lembutt gitu",  
                 "pesan":"tetep baik hati ya kak!"
             },
-             {
+            {
                 "nama": "Fathinah Nur Azizah",
                 "nim": "123450072",
                 "umur": "20",
@@ -469,7 +468,7 @@ if menu == "Departemen PSDA":
                 "kesan": "Kakaknya asik, cantik dan tegas terlihat seperti independen women",
                 "pesan": "Sehat selalu, dan lancar segala urusannya kak."
             },
-             {
+            {
                 "nama": "Allya Nurul Islami Pasha",
                 "nim": "122450033",
                 "umur": "21",
@@ -480,7 +479,7 @@ if menu == "Departemen PSDA":
                 "kesan": "Kakaknya asik dan baik banget, dan juga tegas, terlihat seperti wanita dominan",
                 "pesan": "tetap jaga kesehatan kak"
             },
-             {
+            {
                 "nama": "Ahmad Rizky",
                 "nim": "123450050",
                 "umur": "20",
@@ -491,7 +490,7 @@ if menu == "Departemen PSDA":
                 "kesan": "saya senang mendapat arahan dan motivasi dari abangnya karena dapat saya gunakan dalam kehidupan perkuliahan.",
                 "pesan": "Semangat terus kedepannya bang, walau banyak rintangan pasti bisa dihadapi."
             },
-             {
+            {
                 "nama": "Arienta Khusnul Ananda",
                 "nim": "123450097",
                 "umur": "20",
@@ -513,7 +512,7 @@ if menu == "Departemen PSDA":
                 "kesan": "abang nya aslinya baik walau terkadang agak galak",
                 "pesan": "Sehat selalu bang, semoga segala urusannya lancar"
             },
-             {
+            {
                 "nama": "Ginda Fajar Riadi Marpaung",
                 "nim": "123450103",
                 "umur": "20",
@@ -557,7 +556,7 @@ if menu == "Departemen PSDA":
                 "kesan": "abang nya memberikan bimbingan yang berharga, yang bisa dipakai kedepannya",
                 "pesan": "Semangat kuliahnya bang, jangan lupa istirahat."
             },
-             {
+            {
                 "nama": "Vany Salsabila Putri",
                 "nim": "123450022",
                 "umur": "20",
@@ -568,7 +567,7 @@ if menu == "Departemen PSDA":
                 "kesan": "kaka nya lucu dan cantik, kadang suka berperilaku random yang membuat nya jadi makin kelihatan lucu.",
                 "pesan": "semangat kuliahnya kak, jangan sampai sakit."
             },
-             {
+            {
                 "nama": "Ahmad Sahidin Akbar",
                 "nim": "122450044",
                 "umur": "21",
@@ -612,7 +611,7 @@ if menu == "Departemen PSDA":
                 "kesan": "Kakaknya cantik, baik, dan asik",
                 "pesan": "jangan lupa istirahat ya kak"
             },
-             {
+            {
                 "nama": "Rosalia Siregar",
                 "nim": "123450036",
                 "umur": "19",
@@ -623,7 +622,7 @@ if menu == "Departemen PSDA":
                 "kesan": "Kakak nya asik bgt, baik lagi ",  
                 "pesan":"semangat terus kuliahnya kakak !!!"
             },
-              {
+            {
                 "nama": "Sahid Maulana",
                 "nim": "122450109",
                 "umur": "22",
@@ -645,7 +644,7 @@ if menu == "Departemen PSDA":
                 "kesan": "Kakaknya asik dan lucu, kadang kasih lelucon yang buat suasana ga canggung.",
                 "pesan": "semoga lancar perkuliahannya."
             },
-             {
+            {
                 "nama": "Erma Daniar Safitri",
                 "nim": "123450061",
                 "umur": "20",
@@ -656,7 +655,7 @@ if menu == "Departemen PSDA":
                 "kesan": "Kakaknya baik dan keren banget waktu jadi dancer",
                 "pesan": "Sehat selalu kak, semangat nge dance nya."
             },
-             {
+            {
                 "nama": "Ihsan Maulana Yusuf",
                 "nim": "123450110",
                 "umur": "20",
@@ -678,7 +677,7 @@ if menu == "Departemen PSDA":
                 "kesan": "abangnya baik banget, bertanggung jawab sama janji yang udah beliau buat",
                 "pesan": "Semoga studinya lancar, dan sehat selalu bang."
             },
-             {
+            {
                 "nama": "Lidia Natasyah Marpaung",
                 "nim": "123450023",
                 "umur": "20",
@@ -740,7 +739,7 @@ if menu == "Departemen PSDA":
 if menu == "Departemen MIKFES":
     def Departemen_MIKFES():
         gambar_urls = [
-             "https://drive.google.com/uc?export=view&id=15xhrzNCkgpbW1t4IHVVxRbpgPGlpvCJ4",
+            "https://drive.google.com/uc?export=view&id=15xhrzNCkgpbW1t4IHVVxRbpgPGlpvCJ4",
             "https://drive.google.com/uc?export=view&id=1x9Q_c98WfZl-PqzovOxYWMXyhGEgTHxr",
             "https://drive.google.com/uc?export=view&id=1ri9KYnY3eyfTUyLSaGe7tgyrmcA__dZw",
             "https://drive.google.com/uc?export=view&id=1vxIXP-WvopBEs_5USWGnsJsv45qLjpKh",
