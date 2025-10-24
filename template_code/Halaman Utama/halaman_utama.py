@@ -148,9 +148,9 @@ elif menu == "About Us":
             {
                 "nama": "Fernando Dimetrius Barus",
                 "sebagai": "Pak Lurah",
-                "nim": "122450016",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
-                "motto_hidup": "new semester new me",
+                "nim": "124450063",
+                "fun_fact": "Suka nonton vidio orang kesurupan karna kepo bener ga kesurupan itu ada",
+                "motto_hidup": "just do it and trust the process",
             },
             {
                 "nama": "Azzelya Thianandry",
