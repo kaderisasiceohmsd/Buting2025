@@ -1549,8 +1549,8 @@ if menu == "Departemen SSD":
                 "alamat": "Belakang PB",
                 "hobbi": "Bisnis Startup, Jogging",
                 "sosmed": "@dananghk_",
-                "kesan": "Abang keren role model banget",  
-                "pesan":"semangat terus bang berinovasinya!"# 1
+                "kesan": "kocak banget abang satu ini",  
+                "pesan":"semangat terus bang, kocak terus pokoknya"# 1
             },
             {
                 "nama": "Syalaisha Andina Putriansyah",
@@ -1561,7 +1561,7 @@ if menu == "Departemen SSD":
                 "hobbi": "Baca Novel",
                 "sosmed": "@syalaishaa_31",
                 "kesan": "Kakak ini asik",  
-                "pesan":"Semangat terus kuliahnya kakak!!"# 1
+                "pesan":"jaga kesehatanya"# 1
             },
             {
                 "nama": "Ahmad Rizqi",
@@ -1572,7 +1572,7 @@ if menu == "Departemen SSD":
                 "hobbi": "beli parfum, foto-foto pemandangan",
                 "sosmed": "@den_iki__",
                 "kesan": "Abang cool kece abiez photogenic",  
-                "pesan":"stay cool bang!"# 1
+                "pesan":"minta parfum bang"# 1
             },
              {
                 "nama": "Anadia Carana",
@@ -1582,8 +1582,8 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "Jogging",
                 "sosmed": "@anadiacrn_",
-                "kesan": "Kakak ini asik abis!",  
-                "pesan":"semangat terus kuliahnya kakak!!"# 1
+                "kesan": "Kakak ini seru dan lucu",  
+                "pesan":"ajakin aku jogging kak"# 1
             },
              {
                 "nama": "Aprilia Dewi Hutapea",
@@ -1594,7 +1594,7 @@ if menu == "Departemen SSD":
                 "hobbi": "nonton dramashort fb",
                 "sosmed": "@aphrhtp_",
                 "kesan": "Kakak ini lucu dan seru",  
-                "pesan":"semangat terus kuliahnya kakak!"# 1
+                "pesan":"nonton drama apa kak?"# 1
             },
              {
                 "nama": "Nabila Zakiyah Zahra",
@@ -1605,7 +1605,7 @@ if menu == "Departemen SSD":
                 "hobbi": "Joggin juga",
                 "sosmed": "@nabila_zazahra",
                 "kesan": "Kakak ini asik, seru",  
-                "pesan":"semangat terus kuliahnya kakak!!"# 1
+                "pesan":"ajakin jogging kak"# 1
             },
              {
                 "nama": "Dhafin Razaqa Luthfi",
@@ -1616,7 +1616,7 @@ if menu == "Departemen SSD":
                 "hobbi": "Belajar",
                 "sosmed": "@dhafinrzqa13",
                 "kesan": "Abang kalem, baik",  
-                "pesan":"semangat terus kuliahnya bang !!!"# 1
+                "pesan":"gimana caranya hobby belajar bang"# 1
             },
              {
                 "nama": "Devi Rahayu",
@@ -1626,8 +1626,8 @@ if menu == "Departemen SSD":
                 "alamat": "Way Kandis",
                 "hobbi": "Nonton Drakor",
                 "sosmed": "@deviirhyu",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "lucu dan imut kakaknya",  
+                "pesan":"dijaga kesehatannya"# 1
             },
              {
                 "nama": "Enggli Rahmadhani",
@@ -1638,7 +1638,7 @@ if menu == "Departemen SSD":
                 "hobbi": "Nonton alur cerita film",
                 "sosmed": "@englirahmdhnii",
                 "kesan": "Kakak ini asik lucu seru",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "pesan":"sama kak aku juga suka nonton alur cerita film"# 1
             },
              {
                 "nama": "Hanifah Inaya Sani",
@@ -1648,8 +1648,8 @@ if menu == "Departemen SSD":
                 "alamat": "Korpri",
                 "hobbi": "Masak",
                 "sosmed": "@_inayasani",
-                "kesan": "kakak lucu santai",  
-                "pesan":"semangat terus masaknya kak!!!"# 1
+                "kesan": "kakak lucu asik juga",  
+                "pesan":"masakin aku kak"# 1
             },
              {
                 "nama": "Nydia Manda Putri",
@@ -1659,8 +1659,8 @@ if menu == "Departemen SSD":
                 "alamat": "Tanjung Karang",
                 "hobbi": "Main",
                 "sosmed": "@nydiaaptr_",
-                "kesan": "Kakak baik, lucu dan seru",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "manis kakaknya",  
+                "pesan":"sehat sehat kak, jangan begadang"# 1
             },
             
         ]
