@@ -385,7 +385,7 @@ if menu == "Senator":
                 "hobbi": "Mendengarkan Musik",
                 "sosmed": "@nadyaanjani",
                 "kesan": "keren, baik, mentor top, peduli kpd kelompok ,dan lain lain ",  
-                "pesan":"semangat tereus kuliahnya kanad, sehat sehat orang sehat!!"
+                "pesan":"semangat terus kuliahnya kanad, sehat sehat orang sehat!!"
             },
             {
                 "nama": "Fathinah Nur Azizah",
