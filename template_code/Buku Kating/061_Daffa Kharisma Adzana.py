@@ -1322,21 +1322,21 @@ if menu == "Departemen Eksternal":
 if menu == "Departemen Internal":
     def Departemen_Internal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=", #1
-            "https://drive.google.com/uc?export=view&id=", #2
-            "https://drive.google.com/uc?export=view&id=", #3
+            "https://drive.google.com/uc?export=view&id=cdn-icons-png.flaticon.com/512/847/847969.png", #1
+            "https://drive.google.com/uc?export=view&id=cdn-icons-png.flaticon.com/512/847/847969.png", #2
+            "https://drive.google.com/uc?export=view&id=cdn-icons-png.flaticon.com/512/847/847969.png", #3
             "https://drive.google.com/uc?export=view&id=1Ws7RxQZSBaJZzZGZHHd2mNIdsX0qLIqa", #4
-            "https://drive.google.com/uc?export=view&id=", #5
+            "https://drive.google.com/uc?export=view&id=cdn-icons-png.flaticon.com/512/847/847969.png", #5
             "https://drive.google.com/uc?export=view&id=1AJZTfJUvY_glYZch7E4gNg-BfgPjl36-", #6
             "https://drive.google.com/uc?export=view&id=1b0XRDo5xXFoo8F3RyLSPLRKSIyk9OKaG", #7
             "https://drive.google.com/uc?export=view&id=1LeX2nZlYGGRVAoek5-AERb6a02fUGaD4", #8
-            "https://drive.google.com/uc?export=view&id=", #9
-            "https://drive.google.com/uc?export=view&id=", #10
-            "https://drive.google.com/uc?export=view&id=", #11
+            "https://drive.google.com/uc?export=view&id=cdn-icons-png.flaticon.com/512/847/847969.png", #9
+            "https://drive.google.com/uc?export=view&id=cdn-icons-png.flaticon.com/512/847/847969.png", #10
+            "https://drive.google.com/uc?export=view&id=cdn-icons-png.flaticon.com/512/847/847969.png", #11
             "https://drive.google.com/uc?export=view&id=1vi1bjXMxYYVfJn1MJ1FWYsuaFeMnYZHX", #12
-            "https://drive.google.com/uc?export=view&id=", #13
-            "https://drive.google.com/uc?export=view&id=", #14
-            "https://drive.google.com/uc?export=view&id=", #15
+            "https://drive.google.com/uc?export=view&id=cdn-icons-png.flaticon.com/512/847/847969.png", #13
+            "https://drive.google.com/uc?export=view&id=cdn-icons-png.flaticon.com/512/847/847969.png", #14
+            "https://drive.google.com/uc?export=view&id=cdn-icons-png.flaticon.com/512/847/847969.png", #15
         ]
         data_list = [
             {
@@ -1876,6 +1876,7 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
