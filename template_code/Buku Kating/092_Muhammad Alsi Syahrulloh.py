@@ -1641,24 +1641,22 @@ if menu == "Departemen SSD":
 if menu == "Departemen Medkraf":
     def medkraf():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=10qGqjz-9dIAo9cFjmdKUGlAv7Gtcfc7Q",
-            "https://drive.google.com/uc?export=view&id=1p0YJBniDrUlHmKZWOY_q4iU2frTUzm2j",
-            "https://drive.google.com/uc?export=view&id=1ipH_PRzWGObIquk6pLe0cFXtwg7Ttqos",
-            "https://drive.google.com/uc?export=view&id=1hQ76VSqnb35CGn-Gac2qNdFMQEiyFui8",
-            "https://drive.google.com/uc?export=view&id=1YsDJTRWBUNcHDPmqBJpZekXXaOmXMgUi",
-            "https://drive.google.com/uc?export=view&id=1g3lXgG2urY4F64-o13yt2bkkakN6QIWP",
-            "https://drive.google.com/uc?export=view&id=1_sqmb_ia3jAfZE4JE7dhFqgQYTAoIEPt",
-            "https://drive.google.com/uc?export=view&id=1LnMTMgelYsDjSWTKQ5jK0JqmmicCv9Op",
-            "https://drive.google.com/uc?export=view&id=1cCoGpLMfagA8OUQmqZsnDJ6dHXF-1g0F",
-            "https://drive.google.com/uc?export=view&id=1DH5WoOADghL8fZUxA6MiZVmrBpREZc1b", 
-            "https://drive.google.com/uc?export=view&id=1RfLYeNC78rjdVw3Pn7GrKN9TvyRN0Xry",
-            "https://drive.google.com/uc?export=view&id=1u-PIXk62VWHImK8wLMOian9x37Cd_Iw_",
-            "https://drive.google.com/uc?export=view&id=1lzHc861QpXjUYi7Tr4610pUzFl4wAFyG",
-            "https://drive.google.com/uc?export=view&id=1mIvTZXGe67bfZ_RgzWCC2zTfCCYM1ZHI",
-            "https://drive.google.com/uc?export=view&id=1teoKjnaH5BWAZAvwX6VeKdRfbqa-_WTp",
-            "https://drive.google.com/uc?export=view&id=1b6LW-ukMHgPTNCimjI3tBeWdvBpydJIM",
-            "https://drive.google.com/uc?export=view&id=1iJ-e2j53-ikVWPQA2vBeKeTk_b5IMEId",
-            "https://drive.google.com/uc?export=view&id=1_a_gShJ3nqTiZxYHbXD4GyufUXTV_OXy",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", 
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
@@ -1858,26 +1856,6 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@roms.slbn",
                 "kesan": "-",
                 "pesan": "-"
-                 "nama": "Eigi Artamevia",
-                "nim": "123450011",
-                "umur": "20",
-                "asal": "Krui",
-                "alamat": "Sabah Balau Residence",
-                "hobbi": "Melukis",
-                "sosmed": "@eigirtmv",
-                "kesan": "",
-                "pesan": ""
-            },
-            {
-                "nama": "Romauli Oktavia Silaban",
-                "nim": "123450014",
-                "umur": "19",
-                "asal": "Sumatera utara",
-                "alamat": "Kelengkeng 2, Pemda",
-                "hobbi": "Dance",
-                "sosmed": "@roms.slbn",
-                "kesan": "",
-                "pesan": ""
             },
         ]
         display_images_with_data(gambar_urls, data_list)
