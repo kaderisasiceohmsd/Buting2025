@@ -1502,7 +1502,7 @@ if menu == "Departemen SSD":
     def Departemen_SSD():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1DqSpArxKe0k5suujGUund78y91fHEze2",
-            "https://drive.google.com/uc?export=view&id=17Y2essZKUK4GuI-EupbPkziSX3F8Llr",
+            "https://drive.google.com/uc?export=view&id=17Y2essZKUK4GuI-EupbPkziSX3F8LlrI",
             "https://drive.google.com/uc?export=view&id=1XFvEyctiXr78AQvFXWFWEAVMp8OVXFHD",
             "https://drive.google.com/uc?export=view&id=1a33r5PyXB968awhT1GYOanQ-fK4z-aqg",
             "https://drive.google.com/uc?export=view&id=1w8D5UMWTqzXJv1eQS05fgzg7GolM4I3y",
