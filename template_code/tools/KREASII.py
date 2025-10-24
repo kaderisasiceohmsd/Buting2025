@@ -279,7 +279,7 @@ def f_pdf(x:float, d1:int, d2:int)->float:
     a=d1/2; b=d2/2
     return ((d1/d2)**a * (x**(a-1))) / (beta_func(a,b) * (1+(d1/d2)*x)**(a+b))
 
-def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, width:int=900, height:int=500):
+def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, width:int=1000, height:int=550):
     xmax = max(8.0, Fcrit*1.35, Fcalc*1.25, 6+0.6*df1)
     W,H,PAD = width,height,48
     N = 420
@@ -288,20 +288,16 @@ def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, width:
     ymax = max(ys) if max(ys)>0 else 1.0
     def sx(x): return PAD + (W-2*PAD)*(x/xmax)
     def sy(y): return H - PAD - (H-2*PAD)*(y/ymax)
-
     path = " ".join(("M" if i==0 else "L")+f"{sx(x):.2f},{sy(y):.2f}" for i,(x,y) in enumerate(zip(xs,ys)))
-    xsL=[x for x in xs if x<=Fcrit] or [0.0]; ysL=[f_pdf(x,df1,df2) for x in xsL]
-    areaL = ("M"+f"{sx(xsL[0]):.2f},{sy(ysL[0]):.2f}") + "".join(f"L{sx(x):.2f},{sy(y):.2f}" for x,y in zip(xsL[1:],ysL[1:])) \
-          + f"L{sx(xsL[-1]):.2f},{sy(0):.2f} L{sx(xsL[0]):.2f},{sy(0):.2f} Z"
-    xsR=[x for x in xs if x>=Fcrit] or [Fcrit]; ysR=[f_pdf(x,df1,df2) for x in xsR]
-    areaR = ("M"+f"{sx(xsR[0]):.2f},{sy(ysR[0]):.2f}") + "".join(f"L{sx(x):.2f},{sy(y):.2f}" for x,y in zip(xsR[1:],ysR[1:])) \
-          + f"L{sx(xsR[-1]):.2f},{sy(0):.2f} L{sx(xsR[0]):.2f},{sy(0):.2f} Z"
-    XFc = sx(Fcrit); XF = sx(Fcalc); Y0 = sy(0); YT = sy(ymax*1.02)
-
-    html = f"""
-    <div class="el-card fade" style="padding:14px 16px; max-width:{W}px;">
+    xsL=[x for x in xs if x<=Fcrit]; ysL=[f_pdf(x,df1,df2) for x in xsL]
+    areaL=("M"+f"{sx(xsL[0]):.2f},{sy(ysL[0]):.2f}")+"".join(f"L{sx(x):.2f},{sy(y):.2f}" for x,y in zip(xsL[1:],ysL[1:]))+f"L{sx(xsL[-1]):.2f},{sy(0):.2f}Z"
+    xsR=[x for x in xs if x>=Fcrit]; ysR=[f_pdf(x,df1,df2) for x in xsR]
+    areaR=("M"+f"{sx(xsR[0]):.2f},{sy(ysR[0]):.2f}")+"".join(f"L{sx(x):.2f},{sy(y):.2f}" for x,y in zip(xsR[1:],ysR[1:]))+f"L{sx(xsR[-1]):.2f},{sy(0):.2f}Z"
+    XFc, XF, Y0, YT = sx(Fcrit), sx(Fcalc), sy(0), sy(ymax*1.02)
+    html=f"""
+    <div class="el-card fade" style="padding:18px 22px; max-width:none;">
       <div style="font-weight:900;color:#111827;margin-bottom:8px;">📊 Distribusi F (α = {alpha:.2f})</div>
-      <svg viewBox="0 0 {W} {H}" width="{W}" height="{H}">
+      <svg viewBox="0 0 {W} {H}" width="100%" height="{H}">
         <defs>
           <linearGradient id="gL" x1="0" x2="0" y1="0" y2="1">
             <stop offset="0%" stop-color="#9db4ff" stop-opacity="0.85"/>
@@ -313,15 +309,13 @@ def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, width:
           </linearGradient>
         </defs>
         <line x1="{PAD}" y1="{Y0}" x2="{W-PAD}" y2="{Y0}" stroke="#9CA3AF" stroke-width="1"/>
-        <line x1="{PAD}" y1="{YT}" x2="{PAD}" y2="{Y0}" stroke="#9CA3AF" stroke-width="1"/>
         <path d="{areaL}" fill="url(#gL)"/>
         <path d="{areaR}" fill="url(#gR)"/>
         <path d="{path}" fill="none" stroke="#4A67E9" stroke-width="2.6"/>
         <line x1="{XFc}" y1="{YT}" x2="{XFc}" y2="{Y0}" stroke="#CBB279" stroke-width="2" stroke-dasharray="5,5"/>
-        <line x1="{XF}"  y1="{YT}" x2="{XF}"  y2="{Y0}" stroke="#111827" stroke-width="2.4"/>
+        <line x1="{XF}" y1="{YT}" x2="{XF}" y2="{Y0}" stroke="#111827" stroke-width="2.4"/>
         <text x="{XFc+6}" y="{YT+16}" font-size="12" fill="#6B7280">F_krit = {Fcrit:.2f}</text>
         <text x="{XF+6}"  y="{YT+32}" font-size="12" fill="#111827">F_hit = {Fcalc:.2f}</text>
-        <text x="{W-36}"  y="{Y0+16}" font-size="12" fill="#6B7280">F</text>
       </svg>
       <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:6px;">
         <span style="display:flex;align-items:center;gap:6px;font-size:12px;color:#374151;">
@@ -333,7 +327,8 @@ def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, width:
       </div>
     </div>
     """
-    components.html(html, height=H+160, scrolling=False)
+    components.html(html, height=H+180, scrolling=False)
+
 
 # -------------------------
 # CONTROLS
