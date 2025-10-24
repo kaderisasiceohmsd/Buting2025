@@ -564,7 +564,7 @@ if menu == "Departemen PSDA":
                 "sosmed": "@vany.salsabilaa",
                 "kesan": "Suka bikin rencana dadakan",
                 "pesan": "Tapi anehnya selalu jalan"
-            }
+            },
             {
                 "nama": "Ahmad Sahidin Akbar",
                 "nim": "122450044",
@@ -1069,7 +1069,7 @@ if menu == "Departemen Eksternal":
                 "kesan": "Kalau bercanda kelewatan tapi niatnya baik",
                 "pesan": "semangat terus kuliahnya kakak !!!"
             },
-           {
+            {
                 "nama": "Arini Puteri Elandra",
                 "nim": "123450069",
                 "umur": "20",
@@ -1077,7 +1077,7 @@ if menu == "Departemen Eksternal":
                 "alamat": "Teluk, Bandar Lampung",
                 "hobbi": "Jalan-jalan berkeliling dunia",
                 "sosmed": "@elandraa_",
-                "kesan": "Tetap jaga batas, tapi jangan kehilangan lucumu,"
+                "kesan": "Tetap jaga batas, tapi jangan kehilangan lucumu",
                 "pesan": "semangat terus kuliahnya kakak !!!"
             },
             {
@@ -1088,7 +1088,7 @@ if menu == "Departemen Eksternal":
                 "alamat": "Rawa Laut",
                 "hobbi": "Ngelamun",
                 "sosmed": "@aryamudasiregar",
-                "kesan": "Gayanya santai, tapi kerjaannya niat"",
+                "kesan": "Gayanya santai, tapi kerjaannya niat",
                 "pesan": "sBalance banget hidupmu"
             },
             {
@@ -1102,7 +1102,7 @@ if menu == "Departemen Eksternal":
                 "kesan": "Gak pernah serius tapi hasilnya bagus",
                 "pesan": "Kamu tuh bukti “yang penting niat” !!!"
             },
-           {
+            {
                 "nama": "Lutfia Aisyah Putri",
                 "nim": "123450074",
                 "umur": "17",
@@ -1810,7 +1810,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@_akmal.faiz",
                 "kesan": "Orangnya rame, tapi hati lembut ",
                 "pesan": "Kombinasi langka, jangan berubah"
-            }
+            },
             {
                 "nama": "Raihana Adelia Putri",
                 "nim": "123450041",
