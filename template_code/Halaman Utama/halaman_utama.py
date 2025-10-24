@@ -42,7 +42,7 @@ st.markdown(
     """
     <div style='text-align: center;'>
         <h1 style='font-size: 5.5em;'>WEBSITE KATING</h1>
-        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2024</p>
+        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2025</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -83,7 +83,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "#3FBAD8"},
+            "nav-link-selected": {"background-color": "#E8A0B8"},
         },
     )
     return selected
@@ -99,33 +99,30 @@ if menu == "Home":
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
+            "<h1 class='centered-title'>✨Deskripsi Kelompok 8 (GREEDY)🎀</h1>",
+            unsafe_allow_html=True,
         )
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">Selamat datang di Kelompok Greedy! 💡
+Kami adalah kelompok yang terinspirasi dari filosofi Greedy Algorithm — selalu berusaha mengambil setiap kesempatan terbaik di setiap langkah untuk mencapai hasil yang optimal. Greedy To Grow, Ready To Glow!
+</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
-        foto_kelompok = "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_"
+
+        foto_kelompok = "https://drive.google.com/uc?export=view&id=19xOVtZ737DJ43ozpWhyEzVzQ5nIFsVKp"
         layout(foto_kelompok)
+
         st.markdown(
-            """<div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum.</div>""",
+            """<div style="text-align: justify;">Kelompok Greedy terinspirasi dari filosofi algoritma Greedy dalam ilmu komputer, di mana setiap langkah diambil dengan memilih keputusan terbaik pada saat itu untuk mencapai hasil optimal secara keseluruhan. Filosofi ini kami maknai sebagai semangat untuk selalu mengambil setiap kesempatan belajar, berproses, dan berkontribusi sebaik mungkin dalam setiap tahap kaderisasi.
+Sebagai kader, kami percaya bahwa perubahan besar dimulai dari keputusan-keputusan kecil yang konsisten dan bijak. Dengan semangat adaptif, kolaboratif, dan progresif, Greedy berkomitmen untuk tumbuh bersama — tidak hanya menjadi kader yang cerdas, tetapi juga berkarakter dan berpengaruh positif bagi lingkungan sekitar.
+</div>""",
             unsafe_allow_html=True,
         )
         st.write(""" """)
 
     home_page()
-
+    
 elif menu == "About Us":
 
     def about_page():
@@ -135,68 +132,103 @@ elif menu == "About Us":
         )
         st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1qI3HDfMsbus9TnzJ5oDHUBjCrReAUmdq",
+            "https://drive.google.com/uc?export=view&id=1tEVXxONkKHSRX3-NGqVILi0bC1Rwdz8t",
+            "https://drive.google.com/uc?export=view&id=1YkImAh1qxs0ZGoZdT2xCb9I7KFZ0M84G",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1c7p7YO8HUUeKU2u1ylmlenrV1w3FSBPz",
+            "https://drive.google.com/uc?export=view&id=1lZJmTmcLzgSV1DY93G1KGJPvm16LlvT4",
+            "https://drive.google.com/uc?export=view&id=1ebzAoauppdFrxO2J46eZqC87_2DswlhO",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1IVDJ_x6SUqUo9OBnzwPbnvQ5BV7doSN3",
+            "https://drive.google.com/uc?export=view&id=1l0tjYOpCsdmiFyR8sOFZptAXRfOglaZb",
+            "https://drive.google.com/uc?export=view&id=12jDkEy792p-ldCTfPQpWZehx6oexcBh_",
         ]
         data_list = [
             {
-                "nama": "x",
+                "nama": "Haikal Seventino Tamba",
                 "sebagai": "Pak Lurah",
-                "nim": "122450016",
-                "fun_fact": "suka makan pedes, tapi ga suka efeknya",
-                "motto_hidup": "new semester new me",
+                "nim": "12450012",
+                "fun_fact": "masuk itera dan milih sains data h-15 menit penutupan snbp",
+                "motto_hidup": "telat bukan berarti gagal,lebih baik gagal daripada tidak mencoba",
             },
             {
-                "nama": "x",
+                "nama": "Queenta Thifaal Nabila",
                 "sebagai": "Bu Lurah",
-                "nim": "122450000",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "Ya apa ya",
+                "nim": "124450059",
+                "fun_fact": "Bisa main game seharian nonstop",
+                "motto_hidup": "Sesungguhnya bersama kesulitan ada kemudahan",
             },
             {
-                "nama": "x",
+                "nama": "Wielman Itolo Halawa",
                 "sebagai": "Anggota",
-                "nim": "122450083",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "mantap",
+                "nim": "122450072",
+                # "fun_fact": "dari awal kuliah, selalu ditanyain udah bisa lompat batu apa belum",
+                "motto_hidup": "hidup itu berproses, sesuaikanlah",
             },
             {
-                "nama": "x",
+                "nama": "Charrlindah",
                 "sebagai": "Anggotaa",
-                "nim": "122450000",
-                "fun_fact": "nyemilin",
-                "motto_hidup": "jalanin dulu aja",
+                "nim": "122450037",
+                "fun_fact": "PHOBIA IKANN!!!",
+                "motto_hidup": "Kebaikan yang kita berikan adalah investasi terbaik.",
             },
             {
-                "nama": "x",
+                "nama": "Fislam Fathurrahman",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450018",
+                "fun_fact": "bisa baca 1 buku novel berbahasa inggris dalam satu malam",
+                "motto_hidup": "Pikiran positif membawa kehidupan yang lebih baik",
             },
             {
-                "nama": "x",
+                "nama": "Najwa Putri Yopu",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450123",
+                "fun_fact": "Belum terbiasa sama udara Lampung",
+                "motto_hidup": "Belajar menerima adalah bentuk tertinggi dari kedewasaan",
             },
             {
-                "nama": "x",
+                "nama": "Rafli Al Mansyah Tambunan",
+                "sebagai": "Anggota",
+                "nim": "124450007",
+                "fun_fact": "bisa namatin drakor 1 season 1 hari",
+                "motto_hidup": "Love What You Do. Do What You Love",
+            },
+            {
+                "nama": "Indah Julia Mawar Pratiwi",
+                "sebagai": "Anggota",
+                "nim": "124450055",
+                "fun_fact": "ga suka makan sayur",
+                "motto_hidup": "yang bisa dilakuin sekarang, jangan ditunda besok",
+            },
+            {
+                "nama": "Gio Silma",
                 "sebagai": "Anggotaa",
-                "nim": "122450100",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "122450069",
+                "fun_fact": "-",
+                "motto_hidup": "-",
             },
             {
-                "nama": "x",
+                "nama": "Risa Romadona",
+                "sebagai": "Anggotaa",
+                "nim": "122450127",
+                "fun_fact": "gabisa makan durian",
+                "motto_hidup": "jalani dan syukuri",
+            },
+            {
+                "nama": "salsabila",
                 "sebagai": "Anggotaa",
                 "nim": "122450110",
                 "fun_fact": "nyemilin es bata, kiko",
                 "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Ashila Islamisahfa Vanisha",
+                "sebagai": "Anggota",
+                "nim": "124450028",
+                "fun_fact": "Ga suka buah tapi tahu cara kupas buah",
+                "motto_hidup": "Lakukan yang terbaik walaupun dalam langkah kecil.",
             },
         ]
         display_images_with_data(gambar_urls, data_list)
