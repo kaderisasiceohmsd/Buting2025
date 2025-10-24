@@ -1,5 +1,53 @@
 import streamlit as st
 
+# 🌊 CSS animasi ombak laut + gradasi warna custom
+st.markdown("""
+<style>
+body {
+    background: linear-gradient(to bottom, #1C3B50, #2E5871, #4C7084, #7A8D97, #D7C6BB);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Lapisan ombak bergerak di bawah */
+.wave {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200%;
+    height: 100px;
+    background-repeat: repeat-x;
+    background-size: 50% 100px;
+    opacity: 0.5;
+    animation: moveWave 10s linear infinite;
+}
+
+/* Ombak pertama */
+.wave1 {
+    background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.8), rgba(255,255,255,0) 70%);
+    animation-delay: 0s;
+    bottom: 0;
+    opacity: 0.4;
+}
+
+/* Ombak kedua (lebih lembut) */
+.wave2 {
+    background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.5), rgba(255,255,255,0) 70%);
+    animation-delay: -5s;
+    bottom: 10px;
+    opacity: 0.2;
+}
+
+@keyframes moveWave {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+</style>
+
+<div class="wave wave1"></div>
+<div class="wave wave2"></div>
+""", unsafe_allow_html=True)
+
 # session state agar ketika pindah page tidak berubah data yang tersedia
 st.session_state.pindah = True
 
