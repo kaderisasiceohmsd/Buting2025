@@ -176,7 +176,7 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
 
-if menu == "Baleg":
+elif menu == "Baleg":
     def Baleg():
          gambar_urls = [
              "https://drive.google.com/uc?export=view&id=1NbwgauoR54c36umgFQSYwZuj-F249n5d",#bang jeremia
@@ -353,7 +353,7 @@ if menu == "Baleg":
          display_images_with_data(gambar_urls, data_list)
          Baleg()
 
-if menu == "Senator":
+elif menu == "Senator":
     def Senator():
          gambar_urls = [
              "https://drive.google.com/uc?export=view&id=1PybOF7fo2v5InsKqRArHMDmZHRUZL2yC", #bang bintang
@@ -410,7 +410,7 @@ if menu == "Senator":
     display_images_with_data(gambar_urls, data_list)
     Senator()
 
-if menu == "Departemen MIKFES":
+elif menu == "Departemen MIKFES":
     def DepartemenMIKFES():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id= ", #bang randa
@@ -683,7 +683,7 @@ if menu == "Departemen MIKFES":
         display_images_with_data(gambar_urls, data_list)
     DepartemenMIKFES()
 
-if menu == "Departemen Eksternal":
+elif menu == "Departemen Eksternal":
     def DepartemenEksternal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=",#arafi
@@ -981,7 +981,7 @@ if menu == "Departemen Eksternal":
         display_images_with_data(gambar_urls, data_list)
     DepartemenEksternal()
 
-if menu == "Departemen Internal":
+elif menu == "Departemen Internal":
     def Departemen_Internal():
          gambar_urls = [
              "https://drive.google.com/uc?export=view&id=1Kky8LR7kjygZxDJrV9yhrD6fcM4_KiRA", # kak rani
@@ -1169,7 +1169,7 @@ if menu == "Departemen Internal":
          display_images_with_data(gambar_urls, data_list)
          Departemen_Internal()
 
-if menu == "Departemen SSD":
+elif menu == "Departemen SSD":
     def DepartemenSSD():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=", #Danang
@@ -1310,7 +1310,7 @@ if menu == "Departemen SSD":
         display_images_with_data(gambar_urls, data_list)
     DepartemenSSD()
 
-if menu == "Departemen Medkraf":
+elif menu == "Departemen Medkraf":
     def DepartemenMedkraf():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=", #Patricia
@@ -1536,4 +1536,5 @@ if menu == "Departemen Medkraf":
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
