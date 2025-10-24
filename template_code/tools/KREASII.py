@@ -1,123 +1,112 @@
-import streamlit as st
-import time
+import tkinter as tk
 import random
+from tkinter import messagebox
 
-# 💛 --- Efek Lucu Sobat Poisson --- 💛
-def efek_teks_poisson():
-    st.markdown("""
-    <style>
-    /* 🌟 Efek Typewriter */
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
-    @keyframes blink-caret {
-      from, to { border-color: transparent }
-      50% { border-color: #ffd700; }
-    }
-    .typewriter {
-      overflow: hidden;
-      border-right: .15em solid #ffd700;
-      white-space: nowrap;
-      margin: 0 auto;
-      letter-spacing: .10em;
-      animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
-      font-weight: bold;
-      color: #ffb703;
-      font-size: 22px;
-      text-align: center;
-      width: fit-content;
-    }
+# === Setup window ===
+root = tk.Tk()
+root.title("🐠 Temukan Poisson! 🎮")
+root.config(bg="#0077b6")
+root.geometry("500x600")
 
-    /* 💫 Efek Blink */
-    @keyframes blink {
-      50% { opacity: 0; }
-    }
-    .blink {
-      animation: blink 1s infinite;
-      color: #FF69B4;
-      font-weight: bold;
-      font-size: 20px;
-      text-align: center;
-      margin-top: 20px;
-    }
+title = tk.Label(root, text="🐠 Memory Game: Temukan Poisson 🎮", 
+                 font=("Comic Sans MS", 18, "bold"), fg="white", bg="#0077b6")
+title.pack(pady=10)
 
-    body {
-      background-color: #fffbea;
-    }
-    </style>
+# === Data dasar game ===
+icons = ["🐠", "🐡", "🐬", "🐙", "🐋", "🐢", "🪸", "🦀"]
+cards = icons * 2
+random.shuffle(cards)
 
-    <div style="text-align:center; margin-top:40px;">
-        <div class="typewriter">🐠 Sobat Poisson siap terbang menembus awan-awan galau!</div>
-        <div class="blink">✨ Klik tombol mulai dan buktikan ketangkasanmu! ✨</div>
-    </div>
-    """, unsafe_allow_html=True)
+buttons = []
+flipped = []
+matched = 0
+score = 0
 
-    st.caption("💛 Efek oleh Sobat Poisson Crew")
-    st.snow()
+score_label = tk.Label(root, text=f"Skor: {score}", font=("Comic Sans MS", 14), bg="#0077b6", fg="white")
+score_label.pack(pady=5)
 
+# === Grid frame ===
+frame = tk.Frame(root, bg="#0077b6")
+frame.pack(pady=10)
 
-# 🎮 --- Game Fly Poisson (Flappy Bird Mini) --- 🎮
-def fly_poisson_game():
-    st.subheader("🐟 Game: Fly Poisson")
-    st.write("Klik tombol di bawah untuk membantu Sobat Poisson terbang sejauh mungkin 💨")
+# === Fungsi klik kartu ===
+def flip_card(i):
+    global flipped, matched, score
+    btn = buttons[i]
+    if btn["state"] == "disabled" or len(flipped) == 2:
+        return
 
-    if "score" not in st.session_state:
-        st.session_state.score = 0
-        st.session_state.y = 250
-        st.session_state.pipe_x = 400
-        st.session_state.pipe_gap = 150
-        st.session_state.pipe_height = random.randint(100, 300)
-        st.session_state.game_over = False
+    btn.config(text=cards[i], bg="white", state="disabled")
+    flipped.append((i, cards[i]))
 
-    if st.session_state.game_over:
-        st.error(f"💥 Game Over! Skor kamu: {st.session_state.score}")
-        if st.button("🔁 Main lagi"):
-            st.session_state.score = 0
-            st.session_state.y = 250
-            st.session_state.pipe_x = 400
-            st.session_state.game_over = False
-            st.rerun()
+    if len(flipped) == 2:
+        root.after(700, check_match)
+
+def check_match():
+    global flipped, matched, score
+    i1, icon1 = flipped[0]
+    i2, icon2 = flipped[1]
+
+    if icon1 == icon2:
+        buttons[i1].config(bg="#80ed99")
+        buttons[i2].config(bg="#80ed99")
+        matched += 2
+        score += 10
     else:
-        col1, col2 = st.columns([1, 2])
-        with col1:
-            if st.button("⬆️ Terbang!"):
-                st.session_state.y -= 30
-        with col2:
-            st.write(f"Skor: **{st.session_state.score}**")
+        buttons[i1].config(text="❓", state="normal", bg="#caf0f8")
+        buttons[i2].config(text="❓", state="normal", bg="#caf0f8")
+        score -= 2
 
-        st.session_state.y += 10
-        st.session_state.pipe_x -= 20
+    flipped = []
+    score_label.config(text=f"Skor: {score}")
 
-        if st.session_state.pipe_x < -50:
-            st.session_state.pipe_x = 400
-            st.session_state.pipe_height = random.randint(100, 300)
-            st.session_state.score += 1
+    if matched == len(cards):
+        messagebox.showinfo("🎉 Selamat!", "Kamu berhasil menemukan semua Poisson! 🌊")
+        reset_game()
 
-        if (st.session_state.pipe_x < 100 < st.session_state.pipe_x + 50) and \
-           not (st.session_state.pipe_height < st.session_state.y < st.session_state.pipe_height + st.session_state.pipe_gap):
-            st.session_state.game_over = True
+# === Reset game ===
+def reset_game():
+    global cards, matched, score
+    matched = 0
+    score = 0
+    score_label.config(text=f"Skor: {score}")
+    random.shuffle(cards)
+    for btn in buttons:
+        btn.config(text="❓", bg="#caf0f8", state="normal")
 
-        if st.session_state.y > 500 or st.session_state.y < 0:
-            st.session_state.game_over = True
+# === Buat tombol kartu ===
+for i in range(16):
+    btn = tk.Button(frame, text="❓", font=("Arial", 25), width=4, height=2, 
+                    bg="#caf0f8", fg="#03045e", command=lambda i=i: flip_card(i))
+    btn.grid(row=i//4, column=i%4, padx=8, pady=8)
+    buttons.append(btn)
 
-        canvas_html = f"""
-        <div style="width:400px; height:500px; background-color:#cceeff; border-radius:15px; margin:auto; position:relative;">
-            <div style="position:absolute; left:100px; top:{st.session_state.y}px; width:40px; height:40px; 
-                        background-color:#ffb703; border-radius:50%; text-align:center; line-height:40px; font-size:24px;">
-                🐠
-            </div>
-            <div style="position:absolute; left:{st.session_state.pipe_x}px; top:0; width:50px; height:{st.session_state.pipe_height}px; background-color:#228B22;"></div>
-            <div style="position:absolute; left:{st.session_state.pipe_x}px; top:{st.session_state.pipe_height + st.session_state.pipe_gap}px; width:50px; height:{500 - st.session_state.pipe_height - st.session_state.pipe_gap}px; background-color:#228B22;"></div>
-        </div>
-        """
-        st.markdown(canvas_html, unsafe_allow_html=True)
-        time.sleep(0.1)
-        st.rerun()
+# === Tombol main lagi ===
+reset_btn = tk.Button(root, text="🔄 Main Lagi", font=("Comic Sans MS", 14, "bold"), 
+                      bg="#00b4d8", fg="white", relief="ridge", command=reset_game)
+reset_btn.pack(pady=20)
 
+# === Efek gelembung sederhana ===
+canvas = tk.Canvas(root, width=500, height=150, bg="#0077b6", highlightthickness=0)
+canvas.pack()
 
-# --- Jalankan Halaman ---
-st.title("💛 Sobat Poisson Playground")
-efek_teks_poisson()
-time.sleep(4)
-fly_poisson_game()
+bubbles = []
+for _ in range(15):
+    x = random.randint(0, 500)
+    y = random.randint(150, 300)
+    size = random.randint(10, 30)
+    bubble = canvas.create_oval(x, y, x+size, y+size, fill="white", outline="")
+    bubbles.append((bubble, size))
+
+def move_bubbles():
+    for bubble, size in bubbles:
+        canvas.move(bubble, 0, -1)
+        coords = canvas.coords(bubble)
+        if coords[1] < -30:
+            canvas.move(bubble, 0, 180)
+    root.after(50, move_bubbles)
+
+move_bubbles()
+
+# === Jalankan window ===
+root.mainloop()
