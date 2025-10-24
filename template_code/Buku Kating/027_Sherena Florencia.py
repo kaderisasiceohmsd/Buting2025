@@ -449,9 +449,9 @@ elif menu == "Departemen PSDA":
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "122450107",
                 "umur": "21 ",
-                "asal":"Sumatera Barat",
-                "alamat": " ",
-                "hobbi": " ",
+                "asal":"Medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal ",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "Awalnya aku takut ama kakaknya, tapi ternyata ga semenakutkan itu kakaknya juga keren dan asik, seru banget",  
                 "pesan":"Jangan menyerahhhhh tidak boleh menyerahhhh tetap SEMANGATTTT"# 1
