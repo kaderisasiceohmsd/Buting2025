@@ -141,7 +141,7 @@ elif menu == "About Us":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1E7EPrxkTHrXoSDPUUzn0mv2kYk1KxAEg",
             "https://drive.google.com/uc?export=view&id=1djo1xGvZKuKjpGzBfYR-mStm9DiJ6S2g",
-            "https://drive.google.com/uc?export=view&id=1tQAhvJOTqEg9zCiZdwSWpsr58CaFdsAp",
+            "https://drive.google.com/uc?export=view&id=1ru-z422OmTI687C9XegBQMy6RYTdVY0b",
             "https://drive.google.com/uc?export=view&id=1J7X30B_JkoVfKcCJSrVi8qWngonPOUDj",
             "https://drive.google.com/uc?export=view&id=1zJDX0OggTE77AeUwLyH3ErEhkexCtYfv",
             "https://drive.google.com/uc?export=view&id=1AaZewHnz5nRQDBg34iW5dAdx6KsP3M9Y",
