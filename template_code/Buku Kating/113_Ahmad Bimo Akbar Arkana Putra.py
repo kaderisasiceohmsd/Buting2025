@@ -732,6 +732,7 @@ if menu == "Departemen PSDA":
                 "kesan": "kakaknya baik dan pengertian ",
                 "pesan": "sehat selalu kak " # 25
             },
+            
             {
                 "nama": "Muhammad Ridwan",
                 "nim": "123450091",
@@ -1875,3 +1876,4 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
