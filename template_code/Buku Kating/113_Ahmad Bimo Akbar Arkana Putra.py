@@ -1522,7 +1522,7 @@ elif menu == "Departemen SSD":
             "https://drive.google.com/uc?export=view&id=1h-YJFzjlzEwrQU470Wle3h193Vdaf6bw", #10
             "https://drive.google.com/uc?export=view&id=1RxxLdOxD7CK7ps_jruJ9A9sjX5-KeH_0", #11
         ]
-         data_list = [
+        data_list = [
             {
                 "nama": "Danang Hilal Kurniawan",
                 "nim": "122450085",
@@ -1556,7 +1556,7 @@ elif menu == "Departemen SSD":
                 "kesan": " abangnya keren banget ",  
                 "pesan": " jangan terlalu sering keluar malem bang, nanti meriang "# 3
             },
-              {
+            {
                 "nama": "Anadia Carana",
                 "nim": "123450019",
                 "umur": "20",
@@ -1566,8 +1566,8 @@ elif menu == "Departemen SSD":
                 "sosmed": "@anadiacrn_",
                 "kesan": " kakaknya keren banget, kaya tomboy gitu vibesnya ",  
                 "pesan": "jangan lupa istirahat juga ya kak setelah aktivitas yang melelahkan"# 4
-                   },
-              {
+            },
+            {
                 "nama": " Aprilia Dewi Hutapea",
                 "nim": "123450040",
                 "umur": "20",
@@ -1853,6 +1853,7 @@ elif menu == "Departemen Medkraf":
     medkraf()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
