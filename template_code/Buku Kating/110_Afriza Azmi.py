@@ -1649,7 +1649,7 @@ if menu == "Departemen SSD":
                 "hobbi": "Masak",
                 "sosmed": "@_inayasani",
                 "kesan": "kakak lucu asik juga",  
-                "pesan":"masakin aku kak"# 1
+                "pesan":"masakin aku kak,laper"# 1
             },
              {
                 "nama": "Nydia Manda Putri",
