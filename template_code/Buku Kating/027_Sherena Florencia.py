@@ -1014,7 +1014,7 @@ elif menu == "Departemen MIKFES":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-        mikfes()
+    mikfes()
         
 elif menu == "Departemen Eksternal":
     def eksternal():
