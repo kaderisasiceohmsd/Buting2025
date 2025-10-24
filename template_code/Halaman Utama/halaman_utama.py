@@ -138,7 +138,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Andra
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Aisyah
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Aliya
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Della
+            "https://drive.google.com/uc?export=view&id=1cH_4xLVVySDkjafokPLl4c7OCslSFOK7", #Della
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Elsa
             "https://drive.google.com/uc?export=view&id=1-8b-WLrqBEMIkPIYROpuPfILcIgii7zG", #Favian
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Felisya
@@ -174,8 +174,8 @@ elif menu == "About Us":
                 "nama": "Della",
                 "sebagai": "Anggotaa",
                 "nim": "122450000",
-                "fun_fact": "nyemilin",
-                "motto_hidup": "jalanin dulu aja",
+                "fun_fact": "suka membayangkan domba lompat pager kalo mau tidur ,biar cepet tidur",
+                "motto_hidup": "jalanin yang membuatmu bahagia dengan sebaik baiknya",
             },
             {
                 "nama": "Elsa",
