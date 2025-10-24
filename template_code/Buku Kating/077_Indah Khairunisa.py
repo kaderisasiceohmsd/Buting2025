@@ -1040,45 +1040,45 @@ elif menu == "Departemen Eksternal":
                 "nama": "Arafi Ramadhan Maulana",
                 "nim": "122450002",
                 "umur": "21",
-                "asal":"Bengkulu",
+                "asal": "Bengkulu",
                 "alamat": "Warjo",
                 "hobbi": "Makan Warjo",
                 "sosmed": "@arafiramadhanmaulana",
                 "kesan": "Bang Arafi baik, terus asik juga",  
-                "pesan":"Semangat dan sukses terus ya bangg"
+                "pesan": "Semangat dan sukses terus ya bangg"
             },
             {
                 "nama": "Yohana Manik",
                 "nim": "122450126",
                 "umur": "21",
-                "asal":"Sumatera Utara",
+                "asal": "Sumatera Utara",
                 "alamat": "Gg. Sakum",
                 "hobbi": "Menanam ubi",
                 "sosmed": "@yo_anamnk",
                 "kesan": "Kak Yohana kalem banget, baik juga",  
-                "pesan":"Semangat terus kak"
+                "pesan": "Semangat terus kak"
             },
             {
                 "nama": "Ratu Keisha Jasmine Deanova",
                 "nim": "122450106",
                 "umur": "21",
-                "asal":"Bogor",
+                "asal": "Bogor",
                 "alamat": "Way Kandis",
                 "hobbi": "Jalan-jalan",
                 "sosmed": "@jasminednva",
                 "kesan": "Kakaknya asik banget",  
-                "pesan":"Semoga tetep semangat dan penuh senyum tiap harinya"
+                "pesan": "Semoga tetep semangat dan penuh senyum tiap harinya"
             },
             {
                 "nama": "Arini Puteri Elandra",
                 "nim": "123450069",
                 "umur": "20",
-                "asal":"Bandar Lampung",
+                "asal": "Bandar Lampung",
                 "alamat": "Teluk",
                 "hobbi": "Jalan-jalan",
                 "sosmed": "@elandraa_",
                 "kesan": "Kakaknya baik dan tegas tapi lucuu",  
-                "pesan":"Sehat sehat ya kakk"
+                "pesan": "Sehat sehat ya kakk"
             },
             {
                 "nama": "Arya Muda Siregar",
@@ -1301,6 +1301,7 @@ elif menu == "Departemen Eksternal":
                 "pesan":"Hehe kak kalo inget knit tetep inget kita bertiga yang duduk di barisan nomor 2 pas praktikum ads yaa"
             },
         ]
+        
         display_images_with_data(gambar_urls, data_list)
     DepartemenEksternal()
 
@@ -1859,6 +1860,7 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
 
