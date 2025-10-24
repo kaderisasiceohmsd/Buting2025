@@ -435,13 +435,13 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1yO0uH4Op_VgOGkcPreb2EX5qmZagy1BC",
             "https://drive.google.com/uc?export=view&id=1QT32uEdAq_bgAC-LVxl2ERJe80n72g-J",
             "https://drive.google.com/uc?export=view&id=1ByZ08-XksPT6lshurv1MBeNRhcKoUEoD",
-            "https://drive.google.com/uc?export=view&id=1FtSs5OOSa-t7Xod5H6QvRZ-45uJqlp6M",
-            "https://drive.google.com/uc?export=view&id=1oy7qIKb1zMMhnMBOtWU6S_BT-HEGMEPu",
-            "https://drive.google.com/uc?export=view&id=1g1zpLwswRiiGRaz860Csu-WYqa9PPY0E",
+            "https://drive.google.com/uc?export=view&id=1PSeZiMK_gT2SSKGz6isfy-Fbh-XnJI5J",
+            "https://drive.google.com/uc?export=view&id=1M7eeL0aAKuRGEaoITVyLEnFyxQzu-B_T",
+            "https://drive.google.com/uc?export=view&id=1Ar8mARZCWEmRYmdQOzpqwBlcY19iBNja",
             "https://drive.google.com/uc?export=view&id=19TsN3KQLEckmrl9gPZlTwbcVB9S-7RUb",
             "https://drive.google.com/uc?export=view&id=1QifpZdvFatr-4w5VBT4vY0PbM7aHBmUi",
-            "https://drive.google.com/uc?export=view&id=1s16nA4_9Y3q9x55Dsg-zYW5fg7a3p6pj",
-            "https://drive.google.com/uc?export=view&id=1NRI-hRARVviCq_2Fl6S0hEZ0fnsKzK0o",
+            "https://drive.google.com/uc?export=view&id=1MQIhBBS_Q4Kd6wkuPBm3ozO-k1dnzzO5",
+            "https://drive.google.com/uc?export=view&id=1nybZifvG_QCyjn4-OL1iU4L-qeetzyD_",
         ]
         data_list = [
             {
@@ -737,7 +737,7 @@ if menu == "Departemen PSDA":
 if menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1y5Z1eCpaMnuHkOOGBbo4PDeUUz9gyUa6",
+            "https://drive.google.com/uc?export=view&id=1blR69eE41tPpKZWOgB2fRqeDDiM6Rh1Z",
             "https://drive.google.com/uc?export=view&id=10r79qJmnRAVzeugZhJuY_i3ew4OvM1jt",
             "https://drive.google.com/uc?export=view&id=16Xa7uUp1ocmxyc8qvQLUuOH94LHNnwTp",
             "https://drive.google.com/uc?export=view&id=1SHuQB7iTF5uEPEkALupBNU-yR1hx9Rsx",
@@ -1503,7 +1503,7 @@ if menu == "Departemen SSD":
             "https://drive.google.com/uc?export=view&id=13ezm2H9moRG0kBmW104bl06Lmk7u3KxE",
             "https://drive.google.com/uc?export=view&id=16GNerXgYRfuealIdcQ8TVdt66NSkWPs5",
             "https://drive.google.com/uc?export=view&id=1pDaOq1CKClYFPpqJV4m2x2NGozkEBATW",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1f2V34NKOR_TBWKZFImW85W8jI_jm_B_b",
             "https://drive.google.com/uc?export=view&id=18DTzm8hpr4e4FBpO5-zLKv4NJN3jU6yV",
             "https://drive.google.com/uc?export=view&id=1fe__oeVY3jwL6N6eEN9q7QvHEqxxdYwB",
             "https://drive.google.com/uc?export=view&id=1XlR-Ybmwj-npTP-_vmsA2cGSS7wU9OS7",
