@@ -1321,7 +1321,7 @@ if menu == "Departemen Internal":
             "https://drive.google.com/uc?export=view&id=1hvj9o-48tuYJJycra39GUsfFMpDCPLfc",
             "https://drive.google.com/uc?export=view&id=1_6WYG2Ztfw3i5X2PUbqM8SHXNpBAJy3N",
             "https://drive.google.com/uc?export=view&id=1bd5o6uBsvRzi8OlXb7-1F-W-w_oCBCQ4",
-            "https://drive.google.com/uc?export=view&id=1bd5o6uBsvRzi8OlXb7-1F-W-w_oCBCQ4",
+            "https://drive.google.com/uc?export=view&id=14q5wH_my-ycMqUTgrI8XMMRglUzJyPcc",
             "https://drive.google.com/uc?export=view&id=1mmO82IGtX_j4xZ-6X1qx6ByOBXqK8ePD",
             "https://drive.google.com/uc?export=view&id=1rS047DOKwDf5vUsGNAnmFKHRV64SiAUd",
         ]
