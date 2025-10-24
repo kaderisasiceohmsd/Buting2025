@@ -44,7 +44,7 @@ def streamlit_menu():
                 "margin": "0px",
                 "--hover-color": "#eee",
             },
-            "nav-link-selected": {"background-color": "#3FBAD8"},
+            "nav-link-selected": {"background-color": "#FF6F00"},
         },
     )
     return selected
@@ -443,7 +443,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1Q_tqEVUC7Fut1O3CYAZz7EqWkJqRyEa-",
             "https://drive.google.com/uc?export=view&id=1YUlnQNlH1W7_oF2bsIKs-bP4pPz_GoNb",
         ]
-        data_list = [
+        data_list =[
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "",
@@ -1077,8 +1077,8 @@ if menu == "Departemen Eksternal":
                 "alamat": "Teluk, Bandar Lampung",
                 "hobbi": "Jalan-jalan berkeliling dunia",
                 "sosmed": "@elandraa_",
-                "kesan": "Tetap jaga batas, tapi jangan kehilangan lucumu",
-                "pesan": "semangat terus kuliahnya kakak"
+                "kesan": "Tetap jaga batas, tapi jangan kehilangan lucumu,",
+                "pesan": "semangat terus kuliahnya kakak !!!"
             },
             {
                 "nama": "Arya Muda Siregar",
@@ -1656,7 +1656,7 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=148lHhl6kVadqaUupK0RdD3QKpEXFlw_-",
             "https://drive.google.com/uc?export=view&id=1sP_j7g0c2pbBAbaXqkHVMq7Som37L6aV",
         ]
-        data_list = [
+        data_list =[
             {
                 "nama": "Patricia Leondrea Diajeng Putri",
                 "nim": "122450050",
