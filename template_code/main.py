@@ -62,7 +62,7 @@ Mahasiswa10 = st.Page(
 
 #Perlu diperhatikan perubahannya
 KREASI = st.Page("tools/KREASI.py", title="Jacobi", icon=":material/search:")
-KREASII = st.Page("tools/KREASII.py", title="KREASII", icon=":material/search:")
+KREASII = st.Page("tools/KREASII.py", title="Tebak Angka", icon=":material/search:")
 
 #Perlu diperhatikan perubahannya
 if st.session_state.pindah:
