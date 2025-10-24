@@ -739,7 +739,7 @@ if menu == "Departemen PSDA":
                 "hobbi": "Ngoding",
                 "sosmed": "@liano.wlm",
                 "kesan": "Aura farming, baik, peduli, tegas",  
-                "pesan":"jaga kesehatan ya bang"# 1
+                "pesan":"jaga kesehatan bang"# 1
             },
             {
                 "nama": "Rewina Audiya Melvasari",
