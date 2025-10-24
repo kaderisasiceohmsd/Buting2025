@@ -149,7 +149,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1gX1RV6SsMhWp1XVrI2-K71MKNRCHhlDd", #Lutfi
             "https://drive.google.com/uc?export=view&id=1STo9XNgWn-WbbwlvaipBo79sf-GZtEX-", #Nazlah
             "https://drive.google.com/uc?export=view&id=15CBRRE1N-puql9vHfJRm27UoCoGYGp9E", #Razan
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Rozak
+            "https://drive.google.com/uc?export=view&id=1UfnN3SGtRAPZXjttw98_PXGybgccR99_", #Rozak
         ]
         data_list = [
             {
@@ -167,11 +167,11 @@ elif menu == "About Us":
                 "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "Aliya",
+                "nama": "Alya Ramadhanti",
                 "sebagai": "Anggota",
-                "nim": "122450083",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "mantap",
+                "nim": "124450091",
+                "fun_fact": "gasuka kucing",
+                "motto_hidup": "setiap hari menjadi lebih baikkkk ",
             },
             {
                 "nama": "Della",
@@ -204,7 +204,7 @@ elif menu == "About Us":
             {
                 "nama": "Ghiyats",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
+                "nim": "124450067",
                 "fun_fact": "apapun game yang dimainin pasti bagus",
                 "motto_hidup": "yang penting hidup dulu",
             },
@@ -232,9 +232,9 @@ elif menu == "About Us":
             {
                 "nama": "Rozak",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es bata, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "124450100",
+                "fun_fact": "BISA NAIK MOTOR SEJAK KELAS 3 SD",
+                "motto_hidup": "ingin selalu menanyakan mengapa bisa seperti ini??? ",
             }
         ]
         display_images_with_data(gambar_urls, data_list)
