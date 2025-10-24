@@ -1501,17 +1501,17 @@ if menu == "Departemen Internal":
 if menu == "Departemen SSD":
     def Departemen_SSD():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1wmQdwgcItQ8Fe5rJdZ0Ild77WXLFYAFo",
-            "https://drive.google.com/uc?export=view&id=1yDUgCGWM7lk4SJ4pnfkDh58hh90PWFUe",
-            "https://drive.google.com/uc?export=view&id=11boE3m9NR_Y8XGIcTzPtuNEJS9jt4OSy",
-            "https://drive.google.com/uc?export=view&id=1k-eP2aNiaSlSK9U0f5Ooweaeu48jXumM",
-            "https://drive.google.com/uc?export=view&id=1qt7tWxyLdJNQJmkU9gCcZdFOCqkaG5_C",
+            "https://drive.google.com/uc?export=view&id=14zrh_eads_Tp_2c3WJja2KQS1JuVZy0i",
+            "https://drive.google.com/uc?export=view&id=1VUWwjKLeXY6f66pDcosCkk6IxuVk0l_H",
+            "https://drive.google.com/uc?export=view&id=1JtFhYTb8rtJk7HCNk4nkhvUzd6uvB3V1",
+            "https://drive.google.com/uc?export=view&id=1PERPtOUBiyukMfiQu1FUC98wLL6NSRDU",
+            "https://drive.google.com/uc?export=view&id=1iot90XDOuZOXgGhP8h46wg_QysND-tKf",
             "https://drive.google.com/uc?export=view&id=1k2n5vJC13_Q4mEZxwGQ52b2dNck-KiAy",
-            "https://drive.google.com/uc?export=view&id=1iYH4NbEhPsrSu_Nn5PxKS4jnwuCBFOHW",
-            "https://drive.google.com/uc?export=view&id=11RlqRS7WO_GYUjIUlgTdnJzSM56Vtm8r",
-            "https://drive.google.com/uc?export=view&id=1Osnb8KMzrdYFSnrEBAn_K2LZgksgw1Yf",
-            "https://drive.google.com/uc?export=view&id=1wRxPX50Ijc_280zUDZmL7H3qwYjKEKr3",
-            "https://drive.google.com/uc?export=view&id=1TQU_aKkGIgr8IDKDscbhpEAKwzVu-JMu",
+            "https://drive.google.com/uc?export=view&id=16eR_bzXS2HTygfgxj7QSkqpf6jMitCu3",
+            "https://drive.google.com/uc?export=view&id=1JIa-5bmja6cXqr3iqK3B5uyF1ZZZJDiD",
+            "https://drive.google.com/uc?export=view&id=1Z3Ipo6OZ856V1XiLG6FncGJViOFSYD8p",
+            "https://drive.google.com/uc?export=view&id=1oeJqrahzyB__Sz0puZZgVtH1ZjGWrq1c",
+            "https://drive.google.com/uc?export=view&id=19k-vioVpqmO8jZBFjiXBzVqRjZSrN4OE",
             
         ]
         data_list = [
