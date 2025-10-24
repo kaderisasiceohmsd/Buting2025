@@ -79,7 +79,7 @@ if len(st.session_state.selected) == 2:
         st.session_state.flipped[first] = False
         st.session_state.flipped[second] = False
     st.session_state.selected = []
-    st.experimental_rerun()
+    st.rerun()  # ✅ sudah diperbarui
 
 # 🌟 Cek kemenangan
 if all(st.session_state.matched):
@@ -99,4 +99,4 @@ if st.button("🔁 Main Lagi"):
     st.session_state.matched = [False] * len(st.session_state.cards)
     st.session_state.game_over = False
     st.session_state.attempts = 0
-    st.experimental_rerun()
+    st.rerun()  # ✅ ganti dari st.experimental_rerun
