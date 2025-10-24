@@ -696,8 +696,8 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "Jogging",
                 "sosmed": "@anadiacrn_",
-                "kesan": "kakaknya keren ",  
-                "pesan": "Semoga urusannya diperlancar "# 4
+                "kesan": "Kakaknya ramah dan murah senyum ",  
+                "pesan": "Semoga kuliah kakak diberi kelancaran ya "# 4
                    },
               {
                 "nama": "Kakak Aprilia Dewi Hutapea",
@@ -707,8 +707,8 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "Nonton di Facebook",
                 "sosmed": "@aprhtp_ ",
-                "kesan": " ",  
-                "pesan": " "# 5
+                "kesan": "Kakaknya lucu dan murah senyum",  
+                "pesan": "Semoga kakaknya sehat selalu ya"# 5
             },
             {
                 "nama": "Kakak Nabila Zakiyah Zahra",
@@ -718,8 +718,8 @@ if menu == "Departemen SSD":
                 "alamat": ".",
                 "hobbi": ".",
                 "sosmed": ".",
-                "kesan": "Kakaknya keren banget ",  
-                "pesan":"Semoga diperlancar semuanya  "# 6
+                "kesan": "Kakaknya kalau ngomong lembut banget dan ramah",  
+                "pesan":"Terus jadi orang yang vibes positif ya kak"# 6
             },
              {
                 "nama": "Kakak Dhafin Razaqa Luthfi",
@@ -729,8 +729,8 @@ if menu == "Departemen SSD":
                 "alamat": "Sukarame",
                 "hobbi": "Belajar",
                 "sosmed": "@dhafinrzqa13",
-                "kesan": "Kakaknya cantik dan lucu ",  
-                "pesan": "Semangat kak, diperlancar semuanya "# 7
+                "kesan": "Awal ngeliat dah langsung kepikiran abangnya mirip JHON tiktoker",  
+                "pesan": "Semangat terus di semester akhirnya bang "# 7
             },
               {
                 "nama": "Kakak Devi Rahayu",
@@ -1878,6 +1878,7 @@ elif menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
