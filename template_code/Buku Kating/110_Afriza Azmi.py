@@ -474,8 +474,8 @@ if menu == "Departemen PSDA":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@ferdy_kevin",
-                "kesan": "Abang cool abiez",  
-                "pesan":"semakin cool bang dan semangat terus bang jadi kadep!"# 1
+                "kesan": "ini dia kadep PSDA, keren dan cool abies",  
+                "pesan":"di jaga kesehatannya yaa bang, semooga lulus tepat waktu"# 1
             },
             {
                 "nama": "Nisrina Nur Afifah",
@@ -485,8 +485,8 @@ if menu == "Departemen PSDA":
                 "alamat": "-",
                 "hobbi": "-",
                 "sosmed": "@afifahhnsrn",
-                "kesan": "Kakak seru kece",  
-                "pesan":"semangat teruss kak jadi sekrenya!!!"# 1
+                "kesan": "lucu banget kak pipeh, baikk banget juga sumpaa, maniss sii tapi kalo jutek serem bet",  
+                "pesan":"senyum terus yaa kak, jangan jutek jutek serem"# 1
             },
             {
                 "nama": "Allya Nurul Islami Pasha",
@@ -496,8 +496,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Gang Perwira Belwis",
                 "hobbi": "Main",
                 "sosmed": "@allyapasha_",
-                "kesan": "Kakak ini asik seru gaul abis pokoknya",  
-                "pesan":"semangat terus jadi kadivnya kak pasha!"# 1
+                "kesan": "bener bener bikin kagum aku sii kak jujur, kakak tipe yang jarang marah tapi selalu punya aura yang ga dimilikin IKA lainnya, kakak kalo berargumen kayak ga ada celah buat bantah, pengen banget bisa kayak gitu juga",  
+                "pesan":"makasiii ya kak kayak udah nganggep aku kayak adiknya kakak sendiri, seneng aja pas kakak puk puk aku malam itu, terus sering suapin aku klo kakak lagi makan, makasii yaa kak semangatt juga yaa kak semogaa cepet lulusss"# 1
             },
             {
                 "nama": "Ahmad Rizky",
