@@ -623,10 +623,10 @@ if menu == "Departemen PSDA":
             {
                 "nama": "Kharisma Mustika Sari",
                 "nim": "123450034",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "umur": "20",
+                "asal":"Way Kanan",
+                "alamat": "Untung",
+                "hobbi": "Scroll tiktok",
                 "sosmed": "@rismaa.mustika_",
                 "kesan": "kakaknya gemoy hehe",  
                 "pesan":"semangat terus kuliahnya kak!"# 1
@@ -919,11 +919,11 @@ if menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "123450035",
+                "umur": "20",
+                "asal":"Pesawaran",
+                "alamat": "Pesawaran",
+                "hobbi": "Main piano dan menyanyi",
                 "sosmed": "@pebby_olla525",
                 "kesan": "kakanya ramah banget",  
                 "pesan":"sukses terus ya kak"# 1
