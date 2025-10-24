@@ -1,4 +1,3 @@
-
 import streamlit as st
 from streamlit_option_menu import option_menu
 import requests
@@ -173,7 +172,7 @@ if menu == "Kesekjenan":
                 "sosmed": "@farahanumafifah",
                 "kesan": "Kakaknya ramah dan enak buat diajak sharing",  
                 "pesan":"Semoga kuliahnya diberi kemudahan terus kak, semangattt"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
@@ -352,7 +351,7 @@ if menu == "Baleg":
                 "sosmed": "@nshaysk",
                 "kesan": "Pembawaannya positif dan menyenangkan",
                 "pesan":"Semoga kita bisa bertemu dan sharing lagi ya kak"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     baleg()
@@ -409,7 +408,7 @@ if menu == "Senator":
                 "sosmed": "@lia.h_264",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"Semangat kak kuliahnya, kalo cape istirahat"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     senator()
@@ -730,7 +729,7 @@ if menu == "Departemen PSDA":
                 "sosmed": "@ridwan122",
                 "kesan": "Abangnya sederhana tapi punya jiwa pemimpin yang kuat",  
                 "pesan":"Semoga abang makin sukses dan terus menginspirasi yang lain!"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     psda()
@@ -1004,7 +1003,7 @@ if menu == "Departemen MIKFES":
                 "sosmed": "@_fairuzary",
                 "kesan": "Kak Fairuz lembut dan perhatian, enak banget diajak ngobrol santai.",
                 "pesan": "Semangat terus kak! Jangan lupa istirahat biar gak tidur terus"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     mikfes()
@@ -1301,7 +1300,7 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@bylaash",
                 "kesan": "Kak Nabyla anggun, sopan, dan selalu menebarkan energi positif",
                 "pesan":"Teruslah menjadi sosok yang membawa inspirasi bagi orang lain, Kak"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     eksternal()
@@ -1490,7 +1489,7 @@ if menu == "Departemen Internal":
                 "sosmed": "@zhresti",
                 "kesan": "Kak Zahra memiliki pembawaan yang tenang, sopan, dan selalu menjaga sikap dalam setiap keadaan",
                 "pesan":"Teruslah menjadi contoh kebaikan bagi orang di sekitar, Kak. Semoga Kakak selalu dilimpahi kebahagiaan dan kesuksesan"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     internal()
@@ -1631,7 +1630,7 @@ if menu == "Departemen SSD":
                 "sosmed": "nydiaaptr_",
                 "kesan": "Kak Nydia adalah pribadi yang ceria, komunikatif, dan penuh semangat",
                 "pesan": "Semoga Kakak selalu sukses dan tetap menjadi pribadi yang menyenangkan untuk semua orang"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     ssd()
@@ -1856,7 +1855,7 @@ if menu == "Departemen Medkraf":
                 "sosmed": "@noe_rruuu",
                 "kesan": "KAbang Labo orangnya santai tapi tangguh, selalu bisa diandalkan dalam banyak situasi",  
                 "pesan":"Semoga Abang terus sukses, tetap rendah hati, dan selalu membawa pengaruh baik untuk sekitar!"
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     medkraf()
