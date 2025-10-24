@@ -1639,6 +1639,232 @@ elif menu == "Departemen SSD":
         
     DepartemenSSD()
 
+elif menu == "Departemen Medkraf":
+    def DepartemenMedkraf():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1J7KkVZIzQc54lA6PWNW-Ul3v9lGPatKb",
+            "https://drive.google.com/uc?export=view&id=11x-hrG4uK7i73NwM53CmhRkatb4jz-TN",
+            "https://drive.google.com/uc?export=view&id=1ssDT0Erjko0GkXOhGKYID0BoUrwVIpMT",
+            "https://drive.google.com/uc?export=view&id=17ZkS4rqzqgcX7zr-N1MqOMtn1yqZv7cz",
+            "https://drive.google.com/uc?export=view&id=1h9fyOjxfZZ_f0AqyM-ddLmsqQKbMTAtX",
+            "https://drive.google.com/uc?export=view&id=1h9fyOjxfZZ_f0AqyM-ddLmsqQKbMTAtX",
+            "https://drive.google.com/uc?export=view&id=1IUv61_45y4apAFjB7U9hLbCbLIQyopGl",
+            "https://drive.google.com/uc?export=view&id=1KfZHZI9KtiLd4qiVhul2sMY92uS7eFiZ",
+            "https://drive.google.com/uc?export=view&id=1176i6Zt4QqEU6od8BymbBDHIQgC95aRJ",
+            "https://drive.google.com/uc?export=view&id=1B-5-jBfYiRtstVHN2IqMoHgd0rofdTRm",
+            "https://drive.google.com/uc?export=view&id=1JfL2Ksu_j7shyAKYjRgDDBbXq_rYxnCK",
+            "https://drive.google.com/uc?export=view&id=1QkNCgO1-chXwybMAdEn1wDK3hu41dxzA",
+            "https://drive.google.com/uc?export=view&id=1fU_PNVoeXho45jhhKLO4gg7QCqON07Ny",
+            "https://drive.google.com/uc?export=view&id=1W3qPFqTkU68COilUl3VEM3piiXs6rmqZ",
+            "https://drive.google.com/uc?export=view&id=1qwwnR4fIvVCmYPHO_j-KCnkB2j03WB-L",
+            "https://drive.google.com/uc?export=view&id=1-NU2H7kUmUGwE5ouQtZrmMaWRXyF1-nJ",
+            "https://drive.google.com/uc?export=view&id=1f__KOZQpbAIdhW29mYE86UoLalZZxMil",
+            "https://drive.google.com/uc?export=view&id=1LDlNxShid9W23nGyr7eNIoz7SmJTRwNo",
+        ]
+        data_list = [
+            {
+                "nama": "Patricia Leondrea Diajeng Putri",
+                "nim": "122450050",
+                "umur": "21",
+                "asal":"Lampung Selatan",
+                "alamat": "Jatimulyo",
+                "hobbi": "Sleep call",
+                "sosmed": "@patriciadiajeng",
+                "kesan": "Kakaknya cantik, asikk seruu, dan cara bicaranya enak banget didengar",  
+                "pesan":"Semangat terus ya kak! Tetap jadi pribadi yang lembut tapi kuat"# 1
+            },
+            {
+                "nama": "Rahma Neliyana",
+                "nim": "122450036",
+                "umur": "21",
+                "asal":"Lampung",
+                "alamat": "Jalan Kresna, Korpri",
+                "hobbi": "Masak",
+                "sosmed": "@rahmanellyana",
+                "kesan": "Kak Rahma orangnya hangat banget, gampang bikin suasana nyaman",  
+                "pesan":"Semoga selalu bahagia dan sukses di setiap langkah kak!"# 1
+            },
+            {
+                "nama": "Khoriul Anam",
+                "nim": "122450039",
+                "umur": "22",
+                "asal":"Pesawaran",
+                "alamat": "Pesawaran",
+                "hobbi": "Billiard dan voli",
+                "sosmed": "@mananam__",
+                "kesan": "Abangnya seru, gayanya santai tapi nyenengin kalau ngobrol",  
+                "pesan":"Tetap semangat bang, semoga makin banyak hal keren yang bisa dicapai!"# 1
+            },
+            {
+                "nama": "Labo John Noel Napitupulu",
+                "nim": "123450037",
+                "umur": "19",
+                "asal":"Medan",
+                "alamat": "Way Hui",
+                "hobbi": "Motoran",
+                "sosmed": "@noerruuu",
+                "kesan": "Abangnya asik banget, pembawaannya santai tapi berwibawa",  
+                "pesan":"semangat terus ya bangg, makin sukses!"# 1
+            },
+            {
+                "nama": "Rafi Diva Efangga",
+                "nim": "123450001",
+                "umur": "21",
+                "asal":"Lampung Tengah",
+                "alamat": "Airan",
+                "hobbi": "Olahraga",
+                "sosmed": "@rafidivaefangga_",
+                "kesan": "keliatan energik dan easygoing",  
+                "pesan":"Tetap semangat bang! Jangan lupa jaga kesehatan juga"# 1
+            },
+            {
+                "nama": "Refa Destiny Pranata",
+                "nim": "123450016",
+                "umur": "19",
+                "asal":"Bandar Lampung",
+                "alamat": "Kedaton",
+                "hobbi": "Ngoleksi gelang",
+                "sosmed": "@refadp_",
+                "kesan": "Kak Refa asik banget",  
+                "pesan":"Semangat ya kak! Semoga semua hal baik datang di waktu yang tepat"# 1
+            },
+            {
+                "nama": "Try Yani Rizki Nur Rohmah",
+                "nim": "122350020",
+                "umur": "20",
+                "asal":"Lampung Barat",
+                "alamat": "Korpri",
+                "hobbi": "Belajar",
+                "sosmed": "@tryyaniciaa",
+                "kesan": "Kakaknya pintar banget dan keliatan rajin, inspirasional!",  
+                "pesan":"Semoga terus jadi sosok yang semangat dan rendah hati ya kak!"# 1
+            },
+            {
+                "nama": "Aliya Ammara Ananta",
+                "nim": "123450075",
+                "umur": "19",
+                "asal":"Kotabumi, Lampung Utara",
+                "alamat": "Jl. Pangeran Senopati",
+                "hobbi": "Main gitar",
+                "sosmed": "@aliyaammara",
+                "kesan": "Kak Aliya ramah banget dan suaranya lembut, enak diajak ngobrol",  
+                "pesan":"Semangat terus ya kak, terus kembangin bakatnya!"# 1
+            },
+            {
+                "nama": "Donna Maya Puspita",
+                "nim": "123450028",
+                "umur": "20",
+                "asal":"Bekasi",
+                "alamat": "Way Huwi",
+                "hobbi": "Mendengarkan musik",
+                "sosmed": "@donnamaya.p",
+                "kesan": "Kak Donna kalem dan sopan, pembawaannya tenang banget",  
+                "pesan":"Semoga kakak selalu diberi semangat dan kebahagiaan setiap harinya!"# 1
+            },
+            {
+                "nama": "Feby Angelina",
+                "nim": "123450039",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Kemiling",
+                "hobbi": "Scroll Pinterest",
+                "sosmed": "@wriitenbyangel",
+                "kesan": "Kak Feby manis banget, pembawaannya ceria dan positif",  
+                "pesan":"Semoga terus jadi sumber semangat buat orang di sekitar ya kak!"# 1
+            },
+            {
+                "nama": "Hafsa Fazila Arradhi",
+                "nim": "123450079",
+                "umur": "20",
+                "asal":"Bandar Lampung",
+                "alamat": "Labuhan Ratu",
+                "hobbi": "Masak",
+                "sosmed": "@hafsafazilaa",
+                "kesan": "Kak Hafsa keliatan sabar banget dan punya aura tenang",  
+                "pesan":"Tetap semangat ya kak! Semoga semua impiannya tercapai"# 1
+            },
+            {
+                "nama": "Nayla Salsabila Fathianisa",
+                "nim": "123450082",
+                "umur": "19",
+                "asal":"Payakumbuh, Sumatera Barat",
+                "alamat": "Jl. Lapas, Jati Agung",
+                "hobbi": "Dengar musik",
+                "sosmed": "@naylasalsabilaa._",
+                "kesan": "Kak Nayla lembut dan ramah banget, enak diajak ngobrol santai",  
+                "pesan":"Semoga kuliahnya lancar dan makin berprestasi ya kak!"# 1
+            },
+            {
+                "nama": "Sania Dwi Ayu Lestari",
+                "nim": "123450086",
+                "umur": "20",
+                "asal":"Karawang",
+                "alamat": "Airan",
+                "hobbi": "main roblox",
+                "sosmed": "@saniayyllstr",
+                "kesan": "Kak Sania seru banget, pembawaannya santai dan friendly",  
+                "pesan":"Tetap semangat dan jangan lupa main roblox buat healing"# 1
+            },
+            {
+                "nama": "Akmal Faiz Abdillah",
+                "nim": "122450114",
+                "umur": "21",
+                "asal":"Bandar Lampung",
+                "alamat": "Griya Sukarame",
+                "hobbi": "Main HP",
+                "sosmed": "@_akmal.faiz",
+                "kesan": "Abangnya kalem tapi lucu, asik banget pas diajak ngobrol",  
+                "pesan":"Sukses terus bang, semoga makin banyak rezeki dan hal baik!", # 1
+            },
+             {
+                "nama": "Raihana Adelia Putri",
+                "nim": "123450041",
+                "umur": "19",
+                "asal":"Lampung Tengah",
+                "alamat": "Airan Raya 1",
+                "hobbi": "Membaca, Menulis, Memasak",
+                "sosmed": "@n1tg._",
+                "kesan": "Kak Raihana kelihatan pintar dan sopan banget",  
+                "pesan":"Semangat terus ya kak, semoga selalu jadi inspirasi buat banyak orang!"# 1
+            },
+            {
+                "nama": "Citra Agustin",
+                "nim": "123450108",
+                "umur": "21",
+                "asal":"Natar",
+                "alamat": "Natar, Lampung Selatan",
+                "hobbi": "Melukis",
+                "sosmed": "@citrastin",
+                "kesan": "Kak Citra kreatif banget, keliatan dari cara dia cerita",  
+                "pesan":"Terus berkarya ya kak! Dunia butuh banyak orang kreatif kayak kakak"# 1
+            },
+            {
+                "nama": "Eigi Artamevia",
+                "nim": "123450011",
+                "umur": "20",
+                "asal":"Krui",
+                "alamat": "Sabah balau residence",
+                "hobbi": "Melukis",
+                "sosmed": "@eigirtmv",
+                "kesan": "Kak Eigi punya vibe kalem dan elegan banget",  
+                "pesan":"Semoga terus bahagia dan sukses di bidang yang kakak suka!"# 1
+            },
+            {
+                "nama": "Romauli Oktavia Silaban",
+                "nim": "123450014",
+                "umur": "19",
+                "asal":"Sumatera Utara",
+                "alamat": "Kelengkeng 2, Pemda",
+                "hobbi": "Dance",
+                "sosmed": "@roms.slbn",
+                "kesan": "Kak Romauli enerjik banget, pembawaannya ceria dan percaya diri",  
+                "pesan":"Terus semangat ya kak! Semoga makin bersinar di tiap langkah"# 1
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    DepartemenMedkraf()
+
+
 
 
 
