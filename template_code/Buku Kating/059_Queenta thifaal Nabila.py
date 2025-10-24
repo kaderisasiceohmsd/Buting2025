@@ -368,7 +368,7 @@ if menu == "Senator":
                 "nim": "122450094",
                 "umur": "20",
                 "asal":"Palembang",
-                "alamat": "-",
+                "alamat": "Kobam, way kandis",
                 "hobbi": "Mancing",
                 "sosmed": "@bintangtwinkle",
                 "kesan": "Ramah dan asik diajak ngobrol, suasana langsung cair.",  
