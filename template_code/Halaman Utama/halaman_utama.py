@@ -138,7 +138,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1zujBrFyxrhkbGMpG6DjZfAekH-_jbcyc", #niko
             "https://drive.google.com/uc?export=view&id=1NRBQH_QT8lNsbMgg6gWx4wvw-yfxObUU", #rahma
             "https://drive.google.com/uc?export=view&id=1dM1sfaWa59jFaga9H3FAWNka24gW8Mpd", #fadya
-            "https://drive.google.com/uc?export=view&id=1RpUljY4kbmbHDiXhbts5hZMmpfh1usw3", #indah
+            "https://drive.google.com/uc?export=view&id=10s6guDARSCsYFUL9N3xKSxqgBArp_S6q", #indah
             "https://drive.google.com/uc?export=view&id=1qI4MFay1-fhuszwZQwlPxYsv2BY-ybne", #caca
             "https://drive.google.com/uc?export=view&id=1Cl0u_FOfQlMiPuROPViGGepppIommkko", #anggun
             "https://drive.google.com/uc?export=view&id=1wwBHyFgyIi0idBbpFwosCgw5TXvv2glv", #raisya
