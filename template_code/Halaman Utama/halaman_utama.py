@@ -140,7 +140,7 @@ elif menu == "About Us":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Andra
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Aisyah
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Aliya
+            "https://drive.google.com/uc?export=view&id=1YeKupUCs6_H_DuShkwH-t6lDo0BWOM22", #Aliya
             "https://drive.google.com/uc?export=view&id=1cH_4xLVVySDkjafokPLl4c7OCslSFOK7", #Della
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #Elsa
             "https://drive.google.com/uc?export=view&id=1-8b-WLrqBEMIkPIYROpuPfILcIgii7zG", #Favian
@@ -167,11 +167,11 @@ elif menu == "About Us":
                 "motto_hidup": "Ya apa ya",
             },
             {
-                "nama": "Aliya",
+                "nama": "Alya",
                 "sebagai": "Anggota",
-                "nim": "122450083",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "mantap",
+                "nim": "122450091",
+                "fun_fact": "takut kucing tapi suka liat nya",
+                "motto_hidup": "Setap hari adalah kesempatan baru untuk lebih baik",
             },
             {
                 "nama": "Della",
