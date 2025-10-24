@@ -432,7 +432,7 @@ elif menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1ekdBbzNqSIUYkDGfpfYfjPR_MfBQM_iP", #kak kharisma
             "https://drive.google.com/uc?export=view&id=1RyRfRzrSb35_Gi_J0Zu957KDQKS35zLM", #kak rosalia
             "https://drive.google.com/uc?export=view&id=1joMsOOxncEM3gWnU0bCDmrCbVfAVGX-W", #bang sahid
-            "https://drive.google.com/uc?export=view&id=1_djcg4oB6pqjwtIY4dlXQuPy9518fNsd ", #bang daffa ahmad
+            "https://drive.google.com/uc?export=view&id=1_djcg4oB6pqjwtIY4dlXQuPy9518fNsd", #bang daffa ahmad
             "https://drive.google.com/uc?export=view&id=1EGXbF0muLmkYCPeQs6IU0zElvKxT4G4P", #kak erma
             "https://drive.google.com/uc?export=view&id=1qVxXTPOCu4-DcvPssaXylrXztvqezSww", #bang ihsan
             "https://drive.google.com/uc?export=view&id=1WXE8F8PvwpptYFcheSuiBScVz84EpwWQ", #bang kevin
@@ -736,28 +736,28 @@ elif menu == "Departemen PSDA":
 elif menu == "Departemen MIKFES":
     def MIKFES():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang randa
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak rut
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang regi
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak aisyah
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang fadhil
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang aqil
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang naufal
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak nadia faraj
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak marleta
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang kea
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak anggi
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak efi
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak olla
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak fairuz
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak tanti
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang eggi
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak afifah
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang bio
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang gio
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak rahma
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #kak rahma gudtriana
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #bang razin
+            "https://drive.google.com/uc?export=view&id=1XiP67O29HtfcdAcrQYSlYNIW22OYoQKB", #bang randa
+            "https://drive.google.com/uc?export=view&id=1rAd_x09PSjGlBXOgBqqUNZPm_B8NPkii", #kak rut
+            "https://drive.google.com/uc?export=view&id=1XEWKWxDs7S6Jdk1Q3FdfHF4JCjEAsv7P", #bang regi
+            "https://drive.google.com/uc?export=view&id=1aEINtzdUtAIHO_4KTb17wZ_aA27C4vZn", #kak aisyah
+            "https://drive.google.com/uc?export=view&id=1rxshb8yZ04PI_cJbNSqCiyEAj9ojkkwN", #bang fadhil
+            "https://drive.google.com/uc?export=view&id=1Qe1wxy6Y1OUPCOOq4Vg2_RbzsjdfjXgk", #bang aqil
+            "https://drive.google.com/uc?export=view&id=14YHmG_U5GFgOafFVe-MQJXieVtpA6wsZ", #bang naufal
+            "https://drive.google.com/uc?export=view&id=1dJIrOMq4NsDRHCrb034oAbTDrvQlf8xQ", #kak nadia faraj
+            "https://drive.google.com/uc?export=view&id=1emK2J1YKedJyYqco9uaXCK-XUJnxl-eN", #kak marleta
+            "https://drive.google.com/uc?export=view&id=1G7bbLCHFBRWX7qRlbOccxZefm7tIW5nv", #bang kea
+            "https://drive.google.com/uc?export=view&id=1gBGaLFCCcqXxi2RIRHV-btNls2rWXd6q", #kak anggi
+            "https://drive.google.com/uc?export=view&id=1Au8ka4VxmprSLJ8QH0cw3DoBnbQyUgM6", #kak efi
+            "https://drive.google.com/uc?export=view&id=1emdLy9bz5QF3y0Utd6CPyEaEe_Y7E0KI", #kak olla
+            "https://drive.google.com/uc?export=view&id=13-vgH9rn-WDj0FIvW3eH6ajUWSECjuiB", #kak fairuz
+            "https://drive.google.com/uc?export=view&id=1ec8qiwgFpvQUHxlbI2X8Ha6uo63nUPst", #kak tanti
+            "https://drive.google.com/uc?export=view&id=159Va0nC4AyWTAfkN34GcJdu8OE03efdw", #bang eggi
+            "https://drive.google.com/uc?export=view&id=1ZLO8cofEekDfq5WO_T7xHD2e2uFQKTxR", #kak afifah
+            "https://drive.google.com/uc?export=view&id=16m548vRepafWXjS485CGUycFgY_Br6nF", #bang bio
+            "https://drive.google.com/uc?export=view&id=1H6dxfYhAB1aZq425MSPsPHyj6ZMnEiWB", #bang gio
+            "https://drive.google.com/uc?export=view&id=15ekTAnNRCQHS4XhJ6H6YHXlVR5d7wb3f", #kak rahma
+            "https://drive.google.com/uc?export=view&id=19aGFptfHPeUvY4YrVlI1-MNtVrUnvOAL", #kak rahma gudtriana
+            "https://drive.google.com/uc?export=view&id=1EvGkSojZ_EKI3LpFwmbJ7FKLqJx-NohR", #bang razin
             
            
         ]
