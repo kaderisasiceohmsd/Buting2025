@@ -141,8 +141,8 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1X2LaZpq-4Dn_BTfQ4ZukyjmwzoGN0oml",
             "https://drive.google.com/uc?export=view&id=194BAGsWowpr07P3_Rh_t2l5SMH3gB9pt",
             "https://drive.google.com/uc?export=view&id=1VLs8Txy7nSd49XsAeUqnm_yQ3lSi_Y1H",
-            "https://drive.google.com/uc?export=view&id=1VLs8Txy7nSd49XsAeUqnm_yQ3lSi_Y1H",
-            "https://drive.google.com/uc?export=view&id=1VLs8Txy7nSd49XsAeUqnm_yQ3lSi_Y1H",
+            "https://drive.google.com/uc?export=view&id=1dKoTc0ATZZNrJW_XeuHWcW1ercLryXQ8",
+            "https://drive.google.com/uc?export=view&id=11857ZVkQqD1mZsST1oLydaVUHK98CSb5",
         ]
         data_list = [
             {
@@ -214,6 +214,13 @@ elif menu == "About Us":
                 "sebagai": "Anggotaa",
                 "nim": "124450119",
                 "fun_fact": "suka campurin makanannn",
+                "motto_hidup": "jalanin dulu keles",
+            },
+            {
+                "nama": "Rafa Sabina Fahimah",
+                "sebagai": "Anggotaa",
+                "nim": "124450036",
+                "fun_fact": "-",
                 "motto_hidup": "jalanin dulu keles",
             },
         ]
