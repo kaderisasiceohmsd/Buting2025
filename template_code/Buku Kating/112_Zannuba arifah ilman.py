@@ -451,8 +451,8 @@ if menu == "Departemen PSDA":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "",
-                "kesan": "",  
-                "pesan":""
+                "kesan": "Sangat berwibawaaa",  
+                "pesan":"semangat terus bang "
             },
            {
                 "nama": "Nisrina Nur Afifah",
@@ -699,10 +699,10 @@ if menu == "Departemen PSDA":
             {
                 "nama": "Ulliano William Purba",
                 "nim": "122450098",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "19",
+                "asal":"Depok",
+                "alamat": "jl. Raden saleh",
+                "hobbi": "Main piano, ngoding, menanam anggrek, berantem",
                 "sosmed": "@ullianowlm",
                 "kesan": "kereenn bangg",  
                 "pesan":"semangaat kuliahnya bangg"# 1
