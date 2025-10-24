@@ -177,7 +177,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Nahan eek",
                 "sosmed": "@eksantyfebriana",
                 "kesan": "Kakak ini ni yang manggil gua mirip gibran wapres, jujur malu si awalnya tapi ternyata lucu juga",  
-                "pesan":"jangan panggil aku gibran wapres lagi yaa kak, malu..."# 1
+                "pesan":"jangan panggil aku gibran wapres lagi yaa kak, malu"# 1
             },
             {
                 "nama": "Farahanum Afifah Ardiansyah",
@@ -188,7 +188,7 @@ if menu == "Kesekjenan":
                 "hobbi": "Cutek Kahim",
                 "sosmed": "@farahanumafifahh",
                 "kesan": "muka kakaknya kayak yang jutek jutek gitu tapi lucuu",  
-                "pesan":"kurang kurangin yaa kak cutek cutek bang rendra, kasian..."# 1
+                "pesan":"kurang kurangin yaa kak cutek cutek bang rendra, kasian"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -224,7 +224,7 @@ if menu == "Baleg":
                 "hobbi": "Pilates",
                 "sosmed": "@jeremia_s_",
                 "kesan": "dua kali bangunin gua pas praktikum wkwk tapi gak marah abnangnya malah ketawa, baik banget orangnya lucu juga",  
-                "pesan":"maju terus bangg!! semangat teruss, jangan marah yaa bang kalo saya ketiduran pas praktikum "# 1
+                "pesan":"maju terus bangg!! semangat teruss, jangan marah yaa bang kalo saya ketiduran pas praktikum"# 1
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -289,7 +289,7 @@ if menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Liatin bang mirzan main kucing",
                 "sosmed": "@givarooo",
-                "kesan": "Mentor kader gua ini,sumpahh kalo bisa bikin 500 kata ku bikin ini disini, sumpahh aku bener bener ngerasa beruntung banget dapet mentor kayak abang karna ngeliat berapa kelompok lain pada dapet mentor yang gabisa sedeket itu ke mereka, beda banget sama bang givaro ini dia bener bener mentoe terbaik di mata gua, kalo ada nominasi mentor terbaik ga terima gua kalo bukan bang givaro pemenangnya, abang ini bener bener ngebuat suasana kumpul kelompok kayak ga ada batas antara dia dan anak anak nya ini, aku bener bener ngerasa percaya banget kalau cerita masalah masalah pribadiku ke diaa, pokoknya diaa mentor terbaik pada kader ini!! ",  
+                "kesan": "Mentor kader gua ini,sumpahh kalo bisa bikin 500 kata ku bikin ini disini, sumpahh aku bener bener ngerasa beruntung banget dapet mentor kayak abang karna ngeliat berapa kelompok lain pada dapet mentor yang gabisa sedeket itu ke mereka, beda banget sama bang givaro ini dia bener bener mentoe terbaik di mata gua, kalo ada nominasi mentor terbaik ga terima gua kalo bukan bang givaro pemenangnya, abang ini bener bener ngebuat suasana kumpul kelompok kayak ga ada batas antara dia dan anak anak nya ini, aku bener bener ngerasa percaya banget kalau cerita masalah masalah pribadiku ke diaa, pokoknya diaa mentor terbaik pada kader ini!!",  
                 "pesan":"semangat terus yaa bang buat nemenin kita selama masa kaderisasi ini yaa walaupun kadang kita bikin abang cape atau kesel, kami berterimakasihh sebanyak banyaknya kee abang karna udah nunjukin sosok dibalik panggilan MENTOR itu"# 1
             },
             {
