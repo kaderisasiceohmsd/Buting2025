@@ -359,10 +359,10 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=15IJksEx7o4Tpw6__LLGNcRxIE9YnI09r",
+            "https://drive.google.com/uc?export=view&id=11CPuMc43IUagQeS_1CHyjoHCTJWW2d3f",
+            "https://drive.google.com/uc?export=view&id=19__DtaUuyLqFItpJvRaEF2vFnvXfslRc",
+            "https://drive.google.com/uc?export=view&id=1CBn407ANOJmw3L2fyspPgou1nrXgMO8_",
         ]
         data_list = [
             {
@@ -373,8 +373,8 @@ if menu == "Senator":
                 "alamat": "Kobam",
                 "hobbi": "Tidur",
                 "sosmed": "@bintangtwinkle",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kocak,lucu,ramah tapi tetap tenang dan profesional sebagai senator",  
+                "pesan": "Petir bukan sembarang petir"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -384,8 +384,8 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Mendengar Lagu ",
                 "sosmed": "@nadyaanjaani",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak cantik dan baik, ramah juga sih kalo ketemu selalu senyum",  
+                "pesan": "Sehat-sehat dan sebarkan aura keceriaan di gedung F"# 1
             },
               {
                 "nama": "Fathinah Nur Azizah",
@@ -395,8 +395,8 @@ if menu == "Senator":
                 "alamat": "Asrama TB 1",
                 "hobbi": "Melamun",
                 "sosmed": "@fathinahnazzh",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Kakak yang keliatannya selalu serius dan fokus",  
+                "pesan": "Semangat dan tetap pada tujuan!"# 1
             },
               {
                 "nama": "Lia Hana Ichisasmita",
@@ -406,8 +406,8 @@ if menu == "Senator":
                 "alamat": "Indomaret Belwis",
                 "hobbi": "Main Roblox",
                 "sosmed": "@lia.h_264",
-                "kesan": " ",  
-                "pesan": " "# 1
+                "kesan": "Jarang ngorbol tapi kakaknya baik dan murah senyum.",  
+                "pesan": "Semoga hari-harinya menyenangkan."# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1876,6 +1876,7 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
