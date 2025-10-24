@@ -137,7 +137,7 @@ if menu == "Kesekjenan":
                 "alamat": "Airest Kos",
                 "hobbi": "Siram Shopee",
                 "sosmed": "@celisabeth_",
-                "kesan": "Kakak Abeth seru banget, ceria orangnyaa,  
+                "kesan": "Kakak Abeth seru banget, ceria orangnyaa",  
                 "pesan":"semangat terus kuliahnya Kak Abeth!!!"# 1
             },
             {
@@ -414,7 +414,7 @@ elif menu == "Senator":
         ]
         display_images_with_data(gambar_urls, data_list)
     Senator()
-lif menu == "Departemen PSDA":
+elif menu == "Departemen PSDA":
     def DepartemenPSDA():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tGCaZUPWU32UDtIx3zGizhTsnshDfgJ9",#kevin
