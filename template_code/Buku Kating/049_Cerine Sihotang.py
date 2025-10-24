@@ -463,7 +463,6 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1WWzaVHBKyaaDGQZHYnRJdZ6OIZre3nZa",
             "https://drive.google.com/uc?export=view&id=1Gbgv1zlQIby-_JHWJpxk-SNgQCd_MsOL",
             "https://drive.google.com/uc?export=view&id=1d4Kji6l2aDBpOMwH8nuj4oOlwKpIyZ4h",
-
         ]
         data_list = [
             {
@@ -755,8 +754,6 @@ if menu == "Departemen PSDA":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenPSDA()
-
-# Tambahkan menu lainnya sesuai kebutuhan
 
 if menu == "Departemen MIKFES":
     def DepartemenMIKFES():
@@ -1351,7 +1348,6 @@ if menu == "Departemen Internal":
             "https://drive.google.com/uc?export=view&id=17FsISJ1V7GV9Id4ZTie3I95bTC7L0eyv",
             "https://drive.google.com/uc?export=view&id=1jaUqG7MzQRxh2GxUtPasbML3ROKu3mac",
             "https://drive.google.com/uc?export=view&id=1lLNt7p44-PlDf1BNA8w8ShO7GItvR30F",
-        
         ]
         data_list = [
             {
@@ -1690,7 +1686,6 @@ if menu == "Departemen Medkraf":
             "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
             "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
             "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
-
         ]
         data_list = [
             {
