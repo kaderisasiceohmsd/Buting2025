@@ -87,6 +87,7 @@ def display_images_with_data(gambar_urls, data_list):
 
 # JANGAN DIUBAH
 st.markdown(
+    """
     <div style='text-align: center;'>
         <h1 style='font-size: 5.5em; color:#002B5B;'>WEBSITE KATING</h1>
         <p style='font-size: 2em; color:#073B4C;'>CEO HMSD Adyatama ITERA 2025</p>
