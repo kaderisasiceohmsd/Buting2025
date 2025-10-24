@@ -254,6 +254,51 @@ def f_pdf(x:float, d1:int, d2:int)->float:
     return ((d1/d2)**a * (x**(a-1))) / (beta * (1+(d1/d2)*x)**(a+b))
 
 def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, height:int=580):
+    W, H, PAD = 1000, height, 50
+    xmax = max(8.0, Fcrit*1.45, Fcalc*1.30, 6 + 0.6*df1)
+    N = 520
+    xs = [xmax*i/(N-1) for i in range(N)]
+    ys = [f_pdf(x, df1, df2) for x in xs]
+    ymax = max(ys) if max(ys)>0 else 1.0
+
+    # data dict
+    data = {
+        "W": W, "H": H, "PAD": PAD,
+        "xmax": xmax, "ymax": ymax,
+        "alpha": alpha,
+        "Fcalc": Fcalc, "Fcrit": Fcrit,
+        "curve": [{"x":x,"y":y} for x,y in zip(xs,ys)]
+    }
+
+    html = """
+    <div style="padding:10px 0;">
+      <svg id='anova_svg' width='100%' height='{H}'></svg>
+      <script>
+      const data = {data};
+      const svg = document.getElementById('anova_svg');
+      const ns = 'http://www.w3.org/2000/svg';
+      const W = data.W, H = data.H, PAD=data.PAD;
+      function mapX(x){{return PAD+(W-2*PAD)*(x/data.xmax);}}
+      function mapY(y){{return H-PAD-(H-2*PAD)*(y/data.ymax);}}
+      const path = document.createElementNS(ns,'path');
+      path.setAttribute('stroke','#4A67E9');
+      path.setAttribute('stroke-width','2.5');
+      path.setAttribute('fill','none');
+      svg.appendChild(path);
+      let i=0;
+      function draw(){{
+        const seg=data.curve.slice(0,i);
+        let d='M '+mapX(seg[0].x)+','+mapY(seg[0].y);
+        for(let j=1;j<seg.length;j++)d+=' L '+mapX(seg[j].x)+','+mapY(seg[j].y);
+        path.setAttribute('d',d);
+        if(i<data.curve.length){{i+=5;requestAnimationFrame(draw);}}
+      }}
+      draw();
+      </script>
+    </div>
+    """.format(H=height, data=data)
+    components.html(html, height=height+100, scrolling=False)
+
     """Dual graph: main + zoom, animated with JS (3s). Fully responsive width."""
     # Precompute curve points in Python (smooth)
     W, H, PAD = 1000, height, 50
