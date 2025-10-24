@@ -452,8 +452,8 @@ if menu == "Departemen PSDA":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "",
-                "kesan": "Kakak sangat berwibawa dan mengayomi.",
-                "pesan": "Mohon bimbingannya selalu, Kak. Sehat dan sukses terus!"
+                "kesan": "Santai tapi tetap bisa diandalkan. Punya semangat tinggi dan suka membantu teman, bikin suasana jadi lebih hidup.",
+                "pesan": "Semoga cepet lulus bang"
             },
             {
                 "nama": "Nisrina Nur Afifah",
@@ -463,8 +463,8 @@ if menu == "Departemen PSDA":
                 "alamat": "korpri sukarame",
                 "hobbi": "jajan",
                 "sosmed": "@afifahhnsrn",
-                "kesan": "Terima kasih atas bimbingannya selama ini, Kak.",
-                "pesan": "Semoga kami bisa meneladani semangat kakak."
+                "kesan": "Kalem, baik, disiplin dan rajin.",
+                "pesan": "Terus jadi pribadi yang baik dan ceria kayak sekarang ya kak.",
             },
             {
                 "nama": "Allya Nurul Islami Pasha",
@@ -769,8 +769,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur berkembang",
                 "sosmed": "@randaadriana_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Humoris, dan penuh tanggung jawab",  
+                "pesan":"Semangat berproses demi menggapai cita cita."# 1
             },
             {
                 "nama": "Rut Junita Sari Siburian",
@@ -780,8 +780,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Nangka 3",
                 "hobbi": "Membaca abstrak jurnal/paper/artikel, dan gangguin Randa",
                 "sosmed": "@Junitaa.0406",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Ramah, Ceria dan penuh tawa",  
+                "pesan":"Selalu bahagia kak"# 1
             },
             {
                 "nama": "Muhammad Regi Abdi Putra Amanta",
@@ -791,8 +791,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "dengerin musik",
                 "sosmed": "@mregiiii_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Bijak,tegas dan punya pendirian ",  
+                "pesan":"Tetap semangat menjalani hari hari"# 1
             },
             {
                 "nama": "Aisyah Musfirah",
@@ -802,8 +802,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Jl. Lapas, Belwis",
                 "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Selalu ceria dan punya energi positif",  
+                "pesan":"Selalu ceria dan bersemangat ya kak"# 1
             },
             {
                 "nama": "Fadil Prasetyo Alfarizzi",
@@ -813,8 +813,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "fore",
                 "hobbi": "Segala a100",
                 "sosmed": "@fadilalfarizzi",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Santai dan selalu punya cara untuk bikin orang tertawa",  
+                "pesan":"Terus jadi orang yang asik ya bang"# 1
             },
             {
                 "nama": "Muhammad Aqil Ramadhan",
@@ -824,8 +824,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "GH, Belwis",
                 "hobbi": "Main basket",
                 "sosmed": "@muhammadqil1111",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Disiplin, berani dan penuh percaya diri",  
+                "pesan":"Selamat menjalani hari harinya"# 1
             },
             {
                 "nama": "Muhammad Naufal Ramadhan",
