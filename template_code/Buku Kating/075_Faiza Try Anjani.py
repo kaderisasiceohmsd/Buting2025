@@ -449,8 +449,8 @@ if menu == "Departemen PSDA":
                 "nim": "122450107",
                 "umur": "21",
                 "asal":"Sumatera Utara",
-                "alamat": " ",
-                "hobbi": " ",
+                "alamat": "Tanjung Senang",
+                "hobbi": "futsal ",
                 "sosmed": "@ferdy_kevin ",
                 "kesan": "abangnya tegas dan keren banget,tapi pas FG abang lucuu banget",  
                 "pesan":"Semangat terus ya bang ngejalanin semester -semester akhirnya "# 1
