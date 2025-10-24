@@ -306,7 +306,7 @@ if menu == "Baleg":
                 "hobbi": "Dengerin Lany",
                 "sosmed": "@j_eesie",
                 "kesan": "Gayanya estetik, kepribadiannya menarik.",
-                "pesan":"semangat selalu kak! Semoga kuliah dan hari-harinya selalu seru dan penuh warna."
+                "pesan": "semangat selalu kak! Semoga kuliah dan hari-harinya selalu seru dan penuh warna."
             },
             {
                 "nama": "Ridho Benedictus Togi Manik",
@@ -1604,7 +1604,7 @@ if menu == "Departemen SSD":
                 "asal": "Sumatera Barat",
                 "alamat": "@gg.perwira 2",
                 "hobbi": "menonton alur cerita film",
-                "sosmed": "englirahmdhnii",
+                "sosmed": "@englirahmdhnii",
                 "kesan": "Seru bisa berkenalan sama kakak, vibes-nya positif.",
                 "pesan": "Semoga langkah-langkah kakak selalu dimudahkan menuju kesuksesan!"
             },
@@ -1856,6 +1856,5 @@ if menu == "Departemen Medkraf":
                 "pesan":"Jangan pernah berhenti berkembang dan tetap semangat kuliah!"# 1
             }, 
         ]
-buatkan codingan legkapnya seperti ini tapi ganti kesan dan pesannya
         display_images_with_data(gambar_urls, data_list)
     medkraf()
