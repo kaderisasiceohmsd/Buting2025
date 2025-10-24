@@ -1827,7 +1827,7 @@ elif menu == "Departemen Medkraf":
                 "pesan": "banyakin ngejokes coba bang"
             },
             {
-                "nama": "Raihana Addelia Putri",
+                "nama": "Raihana Adelia Putri",
                 "nim": "123450041",
                 "umur": "19",
                 "asal": "Lampug Tengah, Terbanggi",
@@ -1844,9 +1844,11 @@ elif menu == "Departemen Medkraf":
                 "asal": "Natar",
                 "alamat": "Natar",
                 "hobbi": "Scroll Pinterest",
-
-
-    
+            },
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    medkraf()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
