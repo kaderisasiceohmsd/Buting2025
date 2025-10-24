@@ -1876,3 +1876,4 @@ elif menu == "Departemen Medkraf":
 
 # Tambahkan menu lainnya sesuai kebutuhan
 
+
