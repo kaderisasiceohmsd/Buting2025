@@ -420,7 +420,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1Hct6z7R17GsYum3UQG2TSJDNlQXii5eu", #2
             "https://drive.google.com/uc?export=view&id=169VtIv9MeIMIlLNuSs6WUhNsCF0YJVaT", #3
             "https://drive.google.com/uc?export=view&id=1qKRzI7cO-HoDyC3HSfjigTTKLx5n0di1", #4
-            "https://drive.google.com/uc?export=view&id=1jDClbGGfEN9zXdLrTKhZrdC3pctjwf1R", #5
+            "https://drive.google.com/uc?export=view&id=1hsR28wn2YsabNB4uIboSfzeRoOI5niAC", #5
             "https://drive.google.com/uc?export=view&id=1caJm7fc1ggPNcIgXQYNfggmH2Ps_N546", #6
             "https://drive.google.com/uc?export=view&id=11mCv9mo_PJE7_n5muTtXd2OtRbcLOWUI", #7
             "https://drive.google.com/uc?export=view&id=10lwQQ1llOVTomhbzzLZkdimtwFxyvyXR", #8
@@ -576,8 +576,7 @@ if menu == "Departemen PSDA":
                 "kesan": "abangnya humble banget, murah senyum juga. plus chill dan nyantai gayanya ",
                 "pesan": "semangat dan sukses selalu bang " # 12
             },
-            
-            {
+             {
                 "nama": "Ali Aristo Muthahhari Parisi",
                 "nim": "123450088",
                 "umur": "20",
@@ -743,7 +742,7 @@ if menu == "Departemen PSDA":
                 "sosmed": "@ridwan122",
                 "kesan": "gokil dan kece ",
                 "pesan": "semoga diperlancar semua bang urusannya " # 26
-            }
+            },
         ]
         display_images_with_data(gambar_urls, data_list)
     Departemen_PSDA()
@@ -1876,4 +1875,5 @@ elif menu == "Departemen Medkraf":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
