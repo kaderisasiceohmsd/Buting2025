@@ -1495,7 +1495,7 @@ if menu == "Departemen SSD":
     def ssd():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1vSumcvGx0NBUgTL7lEup-QlEz858D2fm",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1aRk5rEpBZgR2-aitumo4axNhtBNYR_Ss",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1Cuv9UfoaDKGefGMF0Db_BalzgDeCkEzt",
             "https://drive.google.com/uc?export=view&id=1e4sVA91BaOo914uOpPgtBM_ximg63lZ_",
