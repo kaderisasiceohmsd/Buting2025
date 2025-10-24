@@ -126,7 +126,7 @@ if menu == "Kesekjenan":
                 "alamat": "jl.Lapas",
                 "hobbi": "Baca buku SQL",
                 "sosmed": "@johanneskrisjnnn",
-                "kesan": "Bang Johannes asik",  
+                "kesan": "Bang Johannes orangnya asik, seru diajak ngobrol, dan selalu punya semangat tinggi dalam belajar, terutama soal SQL",  
                 "pesan":"semangat terus bang !!!"# 1
             },
             {
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "airas kost",
                 "hobbi": "nyemil",
                 "sosmed": "@celisabethh_",
-                 "kesan": "kak elisabeth asik banget diajak ngobrol",  
-                "pesan":"semangat terus ya kak, semoga diberi kelancaran segala urusan"# 1
+                "kesan": "Kak Elisabeth orangnya ramah, ceria, dan gampang akrab sama siapa aja. Selalu bikin suasana jadi lebih santai dan seru",  
+                "pesan":"Tetap jadi pribadi yang ceria dan positif ya! Semoga makin sukses di setiap hal yang kamu kerjakan, dan jangan lupa terus semangat ngejar impianmu kak"# 1
             },
              {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "belwis",
                 "hobbi": "membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Kak Syadza kalem banget!",
-                "pesan": "Terus semangat ya kak Syadza !"
+                "kesan": "Kak Syadza orangnya kalem, cerdas, dan terlihat sangat suka belajar",
+                "pesan": "Terus pertahankan semangat belajarnya ya kak! Semoga apa pun yang kamu cita-citakan bisa tercapai. Jangan lupa juga untuk tetap menikmati waktu istirahat di tengah kesibukanmu!"
             },
             {
                 "nama": "Eksanty Febriana Sugma Islamiati",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "kiya kost",
                 "hobbi": "domino, qtek kahim",
                 "sosmed": "@farahanumafifahh",
-                "kesan": "Kak Farahanum seru banget dan inspiratif!",
-                "pesan": "Semangat terus ya kak!"
+                "kesan": "Farahanum orangnya seru, aktif. Selalu terlihat semangat dalam setiap kegiatan",
+                "pesan": "Terus jadi sosok yang inspiratif dan bersemangat ya! Semoga semua kesibukan dan tanggung jawabmu berjalan lancar, dan jangan lupa tetap jaga waktu buat istirahat serta bersenang-senang juga!"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -205,8 +205,8 @@ elif menu == "Baleg":
                 "alamat": "Tanjung Merawa",
                 "hobbi": "Suka main voli sama Feby",
                 "sosmed": "@jeremia_s_",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang Jeremia adalah sosok kepala departemen yang bertanggung jawab, tegas, dan bisa jadi panutan. Cara dia memimpin menunjukkan kedewasaan dan ketegasan, tapi tetap bisa menjaga suasana agar nyaman dan kompak",
+                "pesan": "Terus pertahankan jiwa kepemimpinanmu yang keren itu, ya bang! Semoga makin sukses dalam setiap langkah, baik di organisasi maupun di luar kampus."
             },
             {
                 "nama": "Dhea Amelia Putri",
@@ -216,8 +216,8 @@ elif menu == "Baleg":
                 "alamat": "Bandar Lampung Ujung",
                 "hobbi": "Badmood liatin Jaldi",
                 "sosmed": "@_.dheamelia",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak Dhea orangnya lucu, spontan, dan punya karakter yang unik banget",
+                "pesan": "Tetap jadi diri sendiri ya, kak Dhea! Jangan terlalu dibawa perasaan kalau lagi badmood, hehehe. Semoga selalu bahagia, sukses di kuliah, dan makin banyak momen seru bareng teman-teman"
             },
             {
                 "nama": "Renisha Putri Giani",
@@ -227,8 +227,8 @@ elif menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "Nawarin alat pancing",
                 "sosmed": "@renishapg",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak Renisha orangnya asik, lucu dan selalu bisa bikin suasana jadi lebih santai",
+                "pesan": "Terus jadi pribadi yang ceria dan menghibur ya,kak Renisha! Semoga semangatmu nggak pernah padam"
             },
             {
                 "nama": "Anisa Fitriyani",
@@ -249,8 +249,8 @@ elif menu == "Baleg":
                 "alamat": "Way Halim, Balam",
                 "hobbi": "Nyuci baju",
                 "sosmed": "@dhruchyo",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang Dharu orangnya pintar, rajin, dan punya aura tenang yang bikin nyaman diajak ngobrol. Selain cerdas, dia juga rendah hati",
+                "pesan": "Terus pertahankan kepintaran dan kerendahan hatimu ya, Bang! Semoga selalu sukses di setiap langkah, dan jangan lupa juga tetap jaga semangat serta keseimbangan antara belajar dan istirahat"
             },
             {
                 "nama": "Feby Wulandari",
@@ -260,8 +260,8 @@ elif menu == "Baleg":
                 "alamat": "Way Huwi",
                 "hobbi": "Macing keributan",
                 "sosmed": "@feby.wldr",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak Feby orangnya rame, spontan, dan penuh energi!",
+                "pesan": "Terus jadi sosok yang ceria dan berani nunjukin diri sendiri ya,kak Feby! Semoga semangatmu nggak pernah padam, dan tetap seimbang antara becanda dan seriusnya"
             },
             {
                 "nama": "Givaro Ananta",
@@ -271,8 +271,8 @@ elif menu == "Baleg":
                 "alamat": "Sukabumi",
                 "hobbi": "Liatin langit",
                 "sosmed": "@givarooo",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang Givaro orangnya kalem, santai, dan punya vibe yang tenang banget. Hobinya liatin langit kayaknya cocok sama kepribadiannya yang suka mikir dalam dan menikmati hal-hal kecil.",
+                "pesan": "Terus jadi pribadi yang tenang dan penuh makna ya, Givaro! Semoga pandangan luasmu kayak langit itu bisa bantu kamu capai banyak hal besar ke depannya. Jangan lupa juga tetap semangat dan percaya diri dalam setiap langkah"
             },
             {
                 "nama": "Mirzan Yusuf Rabbani",
@@ -282,8 +282,8 @@ elif menu == "Baleg":
                 "alamat": "Korpri",
                 "hobbi": "Nyoba makanan terbaru",
                 "sosmed": "@myrrinn",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang Mirzan orangnya seru, gampang akrab, dan selalu punya topik menarik",
+                "pesan": "erus jadi pribadi yang ceria dan penuh semangat ya,bang Mirzan!"
             },
             {
                 "nama": "Berliana Enda Putri",
@@ -293,8 +293,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Ngumpulin batu unik di pantai",
                 "sosmed": "@berlyyanda",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Berliana orangnya lembut, tenang, dan punya kepribadian yang unik banget",
+                "pesan": "Terus jadi pribadi yang tenang dan penuh warna ya,kak Berliana! Semoga kamu selalu menemukan “batu berharga” di setiap langkah hidupmu—baik itu pengalaman, teman, maupun kesempatan baru"
             },
             {
                 "nama": "Juesi Apridelia Saragih",
@@ -304,8 +304,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Galau",
                 "sosmed": "@j_eesie",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak Juesi orangnya imut, lucu, dan punya aura yang bikin suasana jadi adem tapi juga seru",
+                "pesan": "Tetap jadi kakak yang imut dan menggemaskan ya, Kak Juesi! Jangan terlalu sering galau—ingat, banyak hal indah yang nunggu di depan."
             },
             {
                 "nama": "Ridho Benedictus Togi Manik",
@@ -315,8 +315,8 @@ elif menu == "Baleg":
                 "alamat": "Gh",
                 "hobbi": "Main padle",
                 "sosmed": "@iamridhomanik",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang Ridho orangnya keren, kalem, dan punya aura percaya diri yang kuat.",
+                "pesan": "Terus jadi pribadi yang santai tapi tetap berprestasi ya,bang Ridho! Semoga sukses selalu dalam setiap hal yang kamu jalani, baik di kampus maupun di luar"
             },
             {
                 "nama": "Feryadi Yulius",
@@ -326,8 +326,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Dengerin Wawa ngomong",
                 "sosmed": "@fer.yulius",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Bang Feryadi orangnya lucu, santai dan hobinya unik",
+                "pesan": "Terus jadi pribadi yang asik dan ringan hati ya bang! Semoga semangatmu selalu stabil, dan tetap jadi pendengar yang baik terutama buat kak Wawa, hehe"
             },
             {
                 "nama": "Monica Patricia Tanjung",
@@ -337,8 +337,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Main ML, only Franco",
                 "sosmed": "@monica_tjg",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "kak Monica orangnya seru, kompetitif, dan punya semangat tinggi",
+                "pesan": "Terus jadi pribadi yang kuat dan bersemangat ya,kak Monica"
             },
             {
                 "nama": "Wa Nashwa Alhasni Yuska",
@@ -348,8 +348,8 @@ elif menu == "Baleg":
                 "alamat": "Belwis",
                 "hobbi": "Nyapa angin",
                 "sosmed": "@nshaysk",
-                "kesan": "-",
-                "pesan": "-"
+                "kesan": "Kak Wawa orangnya lembut, lucu, dan punya keunikan tersendiri—apalagi dengan hobinya yang nyapa angin",
+                "pesan": "Terus jadi pribadi yang manis dan positif ya, kak Wawa! Jangan pernah kehilangan keunikan dan keceriaanmu itu"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
