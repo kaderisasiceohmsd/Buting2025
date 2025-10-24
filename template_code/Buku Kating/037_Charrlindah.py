@@ -1336,7 +1336,7 @@ if menu == "Departemen Internal":
                 "alamat": "Rajabasa",
                 "hobbi": "Mengaji",
                 "sosmed": "@rannipu",
-                "kesan": "kereeenn banget kak Rani, sabar dan telaten dalam menjalankan tugasnya yaaa kak ",
+                "kesan": "kereeenn banget kak Rani, sabar dan telaten dalam menjalankan tugasnya yaaa kak>< ",
                 "pesan":"Semoga kakak selalu bisa menjadi perekat bagi kami semua, jaga kesehatan yaa kak"
             },
             {
@@ -1347,7 +1347,7 @@ if menu == "Departemen Internal":
                 "alamat": "Gerbang Barat",
                 "hobbi": "Memancing",
                 "sosmed": "@renta.shn",
-                "kesan": "kakk kerenn suka mancing karna aku takut ikan hehe",
+                "kesan": "kakk kerenn suka mancing karna aku takut ikan huhu",
                 "pesan":"jagaa kesehatan jangan lupa makan yaa kak"
             },
             {
@@ -1358,7 +1358,7 @@ if menu == "Departemen Internal":
                 "alamat": "Airan",
                 "hobbi": "Memanah",
                 "sosmed": "@salwa_fhn",
-                "kesan": "wihhh kak keren banget bisa memanah gituu",
+                "kesan": "wihhh kak keren banget bisa memanah gituuuu",
                 "pesan":"Semangat selalu dalam menjalankan program kerja untuk internal Kak!"
             },
             {
@@ -1369,7 +1369,7 @@ if menu == "Departemen Internal":
                 "alamat": "Airan",
                 "hobbi": "Menyanyi",
                 "sosmed": "@rexanderr",
-                "kesan": "mauu denger bang rendi nyanyii",
+                "kesan": "mauu denger bang rendi nyanyii dongg",
                 "pesan":"Terima kasih telah menjadi garda terdepan untuk kerohanian "
             },
             {
