@@ -1228,7 +1228,7 @@ if menu == "Departemen Eksternal":
                 "asal": "Tanggerang Selatan",
                 "alamat": "Sukarame",
                 "hobbi": "Minta tolong adit",
-                "sosmed": @fatthyaa_",
+                "sosmed": "@fatthyaa_",
                 "kesan": "-",  
                 "pesan": "-"# 1
             },
