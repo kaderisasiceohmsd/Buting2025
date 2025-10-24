@@ -1,25 +1,22 @@
 # =========================
-# ANOVA ODYSSEY – EXPERT EDITION v3.0 (no external deps)
-# Theme: Elegant ANOVA (light-blue + gold)
-# Animations: progress bar, Victory Explosion confetti (2s), soft fade-in
-# Logic: One-way ANOVA (manual), F-critical interpolasi (α=0.05) + skala α (0.10/0.01)
-# Visuals: HTML/CSS charts (means & variances), data table, lab-style report,
-#          HD F-distribution SVG (kanan) via components.html
-# Gameplay: prediction, scoring, rounds, session leaderboard
+# 🎓 ANOVA ODYSSEY v3.5 – Elegan Biru & Emas (Kelompok 4)
+# Theme : Light-Blue + Gold (elegan)
+# FX    : Victory Explosion Confetti (2s) via JS on parent, fade-in panels
+# Logic : One-way ANOVA (manual), F-critical interpolation (α=0.05) + simple scaling (0.10/0.01)
+# Visual: Tabel data, bar means & variances (HTML/CSS), HD F-Distribution (900×500) di kolom kanan (SVG via components.html)
+# Game  : Prediksi signifikan/tidak, skor, ronde, riwayat
+# Deps  : HANYA streamlit (no install lain)
 # =========================
 
 import streamlit as st
 import streamlit.components.v1 as components
-import random
-import time
-import math
-import statistics
+import random, time, math, statistics
 from typing import Dict, List
 
 # -------------------------
 # PAGE CONFIG & THEME
 # -------------------------
-st.set_page_config(page_title="ANOVA Odyssey – Expert v3.0", page_icon="⚔️", layout="centered")
+st.set_page_config(page_title="ANOVA Odyssey v3.5 – Elegan Biru & Emas (Kelompok 4)", page_icon="⚔️", layout="centered")
 
 THEME = """
 <style>
@@ -30,28 +27,20 @@ THEME = """
 html, body, [data-testid="stAppViewContainer"]{
   background:linear-gradient(180deg,var(--bg-soft),#FFFFFF 60%);
 }
-section.main > div.block-container{ padding-top:1.1rem; }
+section.main > div.block-container{ padding-top:1.0rem; }
 
-/* Cards, typography */
+/* Cards & text */
 .el-card{ background:var(--card); border:1px solid rgba(0,0,0,.05); border-radius:18px;
   box-shadow:0 12px 30px rgba(10,30,60,.06); padding:18px 20px; }
 .el-title{ font-weight:900; color:var(--ink); letter-spacing:.3px; }
 .el-sub{ color:var(--muted); font-weight:500; }
-
-/* Chip */
 .el-chip{ display:inline-flex; align-items:center; gap:8px; background:var(--gold); color:#1b1b1b;
   border-radius:999px; padding:6px 12px; font-weight:800; }
-
-/* Divider */
 .hr-soft{ height:1px; background:rgba(0,0,0,.06); margin:14px 0; }
 
-/* Badges */
+/* Badges & metrics */
 .badge{ display:inline-flex; align-items:center; gap:6px; font-weight:800; border-radius:12px; padding:6px 10px; }
-.badge.ok{ background:#dcfce7; color:#065f46; }
-.badge.warn{ background:#fef9c3; color:#854d0e; }
-.badge.err{ background:#fee2e2; color:#7f1d1d; }
-
-/* Metrics */
+.badge.ok{ background:#dcfce7; color:#065f46; } .badge.warn{ background:#fef9c3; color:#854d0e; } .badge.err{ background:#fee2e2; color:#7f1d1d; }
 .metric{ display:flex; flex-direction:column; gap:4px; padding:12px 14px; border-radius:12px;
   background:var(--bg-panel); border:1px solid rgba(0,0,0,.06); }
 .metric .k{ font-size:14px; color:var(--muted); font-weight:700; }
@@ -78,8 +67,8 @@ table.simple tr:last-child td{ border-bottom:none; }
 .fade{ animation:fadeIn .55s ease-out both; }
 @keyframes fadeIn { from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:none} }
 
-/* Confetti host: paling atas */
-#confetti-host{ position:fixed; inset:0; z-index:999999; pointer-events:none; }
+/* Ensure component containers don't clip overlays */
+.stApp iframe{ overflow:visible !important; }
 </style>
 """
 st.markdown(THEME, unsafe_allow_html=True)
@@ -98,7 +87,7 @@ def init_state():
 init_state()
 
 # -------------------------
-# F-critical table (α=0.05)
+# F-critical (α=0.05) + interp
 # -------------------------
 F_CRIT_005 = {
     1:{3:10.13,4:7.71,5:6.61,6:5.99,7:5.59,8:5.32,9:5.12,10:4.96,12:4.75,15:4.54,20:4.35,24:4.26,30:4.17,40:4.08,60:4.00,120:3.92,200:3.89},
@@ -197,41 +186,90 @@ def render_vars(groups:Dict[str,List[float]]):
     st.markdown('</div></div>', unsafe_allow_html=True)
 
 # -------------------------
-# CONFETTI: Victory Explosion (2s)
+# CONFETTI (Victory Explosion 2s) — JS di parent document (pasti terlihat)
 # -------------------------
-def victory_confetti(pieces:int=120, duration:float=2.0):
-    rnd = random.Random()
-    colors = ["#4A67E9","#7EA3FF","#DCCCA3","#CBB279"]
-    dots = []
-    for _ in range(pieces):
-        x = rnd.uniform(45,55)   # start near center
-        y = 110                  # from bottom
-        dx = rnd.uniform(-50,50) # horizontal spread
-        h = rnd.uniform(40,85)   # vertical height
-        delay = rnd.uniform(0,0.15)
-        size = rnd.uniform(6,10)
-        color = colors[rnd.randrange(len(colors))]
-        dots.append(
-          f"<i style='position:absolute; left:{x}vw; bottom:0vh; width:{size}px; height:{size}px; "
-          f"background:{color}; border-radius:2px; transform:translate(0,0); opacity:0.95; "
-          f"animation:bang {duration}s cubic-bezier(.17,.84,.44,1) {delay}s forwards; "
-          f"--dx:{dx}vw; --h:{h}vh;'></i>"
-        )
+def victory_confetti_js(pieces:int=160, duration:float=2.0):
+    # Pure JS: buat canvas ke window.parent.document agar overlay seluruh app
+    # Hapus sendiri setelah animasi selesai.
     html = f"""
-    <div id="confetti-host">{''.join(dots)}</div>
-    <style>
-      @keyframes bang {{
-        0%   {{ transform:translate(0,0) scale(1); opacity:1; }}
-        60%  {{ transform:translate(var(--dx), var(--h)) rotate(540deg) scale(1); }}
-        100% {{ transform:translate(calc(var(--dx)*1.1), calc(var(--h)*1.2)) rotate(900deg) scale(.8); opacity:0; }}
+    <div id="__confetti_mount"></div>
+    <script>
+    (function(){{
+      try{{
+        var P = window.parent || window;
+        var doc = P.document;
+        var old = doc.getElementById('anova-confetti-canvas');
+        if(old) old.remove();
+        var canvas = doc.createElement('canvas');
+        canvas.id = 'anova-confetti-canvas';
+        canvas.style.position='fixed';
+        canvas.style.left='0'; canvas.style.top='0';
+        canvas.style.width='100vw'; canvas.style.height='100vh';
+        canvas.style.pointerEvents='none';
+        canvas.style.zIndex='999999';
+        doc.body.appendChild(canvas);
+        var ctx = canvas.getContext('2d');
+        function resize(){{ canvas.width = P.innerWidth; canvas.height = P.innerHeight; }}
+        resize(); P.addEventListener('resize', resize);
+
+        var colors = ['#4A67E9','#7EA3FF','#DCCCA3','#CBB279'];
+        var parts = [];
+        for (var i=0;i<{pieces};i++) {{
+          parts.push({{
+            x: canvas.width/2,
+            y: canvas.height*0.92,
+            r: 4 + Math.random()*3.5,
+            a: (Math.random()*Math.PI*2),
+            s: 8 + Math.random()*6,            // speed
+            vx: (Math.random()*2-1)*14,        // random spread
+            vy: - (14 + Math.random()*10),     // initial blast up
+            g: 0.35 + Math.random()*0.25,      // gravity
+            rot: Math.random()*Math.PI*2,
+            vr: (Math.random()*0.2 - 0.1),
+            color: colors[(Math.random()*colors.length)|0],
+            life: {duration}*60, // frames roughly 60fps
+          }});
+        }}
+
+        var start = null;
+        function step(ts){{
+          if(!start) start = ts;
+          var t = (ts - start)/1000.0;
+          ctx.clearRect(0,0,canvas.width,canvas.height);
+          for (var i=0;i<parts.length;i++) {{
+            var p = parts[i];
+            p.vy += p.g;
+            p.x += p.vx;
+            p.y += p.vy;
+            p.rot += p.vr;
+            p.life--;
+            ctx.save();
+            ctx.translate(p.x, p.y);
+            ctx.rotate(p.rot);
+            ctx.fillStyle = p.color;
+            ctx.globalAlpha = Math.max(0, p.life/({duration}*60));
+            ctx.fillRect(-p.r, -p.r, p.r*2, p.r*2);
+            ctx.restore();
+          }}
+          parts = parts.filter(p => p.life>0 && p.y < canvas.height + 20);
+          if (t < {duration} || parts.length>0) {{
+            P.requestAnimationFrame(step);
+          }} else {{
+            canvas.remove();
+            P.removeEventListener('resize', resize);
+          }}
+        }}
+        P.requestAnimationFrame(step);
+      }} catch(e) {{
+        console.log('Confetti error:', e);
       }}
-    </style>
+    }})();
+    </script>
     """
-    # Render as overlay (iframe; zero size = overlay only)
     components.html(html, height=0, width=0)
 
 # -------------------------
-# F-distribution PDF & SVG (HD; kanan)
+# F-Distribution (SVG HD 900×500) — via components.html
 # -------------------------
 def beta_func(a:float,b:float)->float:
     return math.exp(math.lgamma(a)+math.lgamma(b)-math.lgamma(a+b))
@@ -241,18 +279,16 @@ def f_pdf(x:float, d1:int, d2:int)->float:
     a=d1/2; b=d2/2
     return ((d1/d2)**a * (x**(a-1))) / (beta_func(a,b) * (1+(d1/d2)*x)**(a+b))
 
-def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, height:int=420):
-    # domain & sampling
+def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, width:int=900, height:int=500):
     xmax = max(8.0, Fcrit*1.35, Fcalc*1.25, 6+0.6*df1)
-    W,H,PAD = 820,height,42
-    N = 360
+    W,H,PAD = width,height,48
+    N = 420
     xs = [xmax*i/(N-1) for i in range(N)]
     ys = [f_pdf(x,df1,df2) for x in xs]
     ymax = max(ys) if max(ys)>0 else 1.0
     def sx(x): return PAD + (W-2*PAD)*(x/xmax)
     def sy(y): return H - PAD - (H-2*PAD)*(y/ymax)
 
-    # curve & areas
     path = " ".join(("M" if i==0 else "L")+f"{sx(x):.2f},{sy(y):.2f}" for i,(x,y) in enumerate(zip(xs,ys)))
     xsL=[x for x in xs if x<=Fcrit] or [0.0]; ysL=[f_pdf(x,df1,df2) for x in xsL]
     areaL = ("M"+f"{sx(xsL[0]):.2f},{sy(ysL[0]):.2f}") + "".join(f"L{sx(x):.2f},{sy(y):.2f}" for x,y in zip(xsL[1:],ysL[1:])) \
@@ -260,13 +296,12 @@ def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, height
     xsR=[x for x in xs if x>=Fcrit] or [Fcrit]; ysR=[f_pdf(x,df1,df2) for x in xsR]
     areaR = ("M"+f"{sx(xsR[0]):.2f},{sy(ysR[0]):.2f}") + "".join(f"L{sx(x):.2f},{sy(y):.2f}" for x,y in zip(xsR[1:],ysR[1:])) \
           + f"L{sx(xsR[-1]):.2f},{sy(0):.2f} L{sx(xsR[0]):.2f},{sy(0):.2f} Z"
-
     XFc = sx(Fcrit); XF = sx(Fcalc); Y0 = sy(0); YT = sy(ymax*1.02)
 
     html = f"""
-    <div class="el-card fade" style="padding:14px 16px;">
+    <div class="el-card fade" style="padding:14px 16px; max-width:{W}px;">
       <div style="font-weight:900;color:#111827;margin-bottom:8px;">📊 Distribusi F (α = {alpha:.2f})</div>
-      <svg viewBox="0 0 {W} {H}" width="100%" height="auto">
+      <svg viewBox="0 0 {W} {H}" width="{W}" height="{H}">
         <defs>
           <linearGradient id="gL" x1="0" x2="0" y1="0" y2="1">
             <stop offset="0%" stop-color="#9db4ff" stop-opacity="0.85"/>
@@ -281,9 +316,9 @@ def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, height
         <line x1="{PAD}" y1="{YT}" x2="{PAD}" y2="{Y0}" stroke="#9CA3AF" stroke-width="1"/>
         <path d="{areaL}" fill="url(#gL)"/>
         <path d="{areaR}" fill="url(#gR)"/>
-        <path d="{path}" fill="none" stroke="#4A67E9" stroke-width="2.4"/>
+        <path d="{path}" fill="none" stroke="#4A67E9" stroke-width="2.6"/>
         <line x1="{XFc}" y1="{YT}" x2="{XFc}" y2="{Y0}" stroke="#CBB279" stroke-width="2" stroke-dasharray="5,5"/>
-        <line x1="{XF}"  y1="{YT}" x2="{XF}"  y2="{Y0}" stroke="#111827" stroke-width="2.2"/>
+        <line x1="{XF}"  y1="{YT}" x2="{XF}"  y2="{Y0}" stroke="#111827" stroke-width="2.4"/>
         <text x="{XFc+6}" y="{YT+16}" font-size="12" fill="#6B7280">F_krit = {Fcrit:.2f}</text>
         <text x="{XF+6}"  y="{YT+32}" font-size="12" fill="#111827">F_hit = {Fcalc:.2f}</text>
         <text x="{W-36}"  y="{Y0+16}" font-size="12" fill="#6B7280">F</text>
@@ -298,7 +333,7 @@ def render_f_svg(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, height
       </div>
     </div>
     """
-    components.html(html, height=height+120, scrolling=False)
+    components.html(html, height=H+160, scrolling=False)
 
 # -------------------------
 # CONTROLS
@@ -352,8 +387,7 @@ with st.sidebar:
     st.write("**Level/Ronde:**", st.session_state.round)
     st.write("**Skor:**", st.session_state.score)
     if st.session_state.history:
-        best = max(h["score_after"] for h in st.session_state.history)
-        st.write("**Best (sesi):**", best)
+        best = max(h["score_after"] for h in st.session_state.history); st.write("**Best (sesi):**", best)
     st.markdown("---")
     st.caption("Tebak benar apakah ada perbedaan signifikan. Skor +10 bila benar, -5 bila salah.")
     st.markdown("---")
@@ -406,7 +440,7 @@ significant = Fcalc > Fcrit
 st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
 st.markdown('<div class="el-title">🎯 Prediksi Kamu</div>', unsafe_allow_html=True)
 st.markdown('<div class="el-sub">Berdasarkan tabel & grafik batang, apakah mean berbeda signifikan?</div>', unsafe_allow_html=True)
-choice = st.radio("Pilih jawaban:", ["Ya, signifikan ✅","Tidak signifikan ❌"], key="guess_v3")
+choice = st.radio("Pilih jawaban:", ["Ya, signifikan ✅","Tidak signifikan ❌"], key="guess_v35")
 go = st.button("Kunci Jawaban & Lihat Hasil 🧪")
 st.markdown('</div>', unsafe_allow_html=True)
 
@@ -441,11 +475,8 @@ def lab_panel(anv:Dict[str,float], alpha:float, decision_html:str, note:str):
     if note: st.caption(note)
 
     st.markdown('<div class="hr-soft"></div>', unsafe_allow_html=True)
-    st.subheader("Rata-rata per Kelompok")
-    render_means(anv["means"])
-
-    st.subheader("Varians per Kelompok (indikasi keragaman)")
-    render_vars(groups)
+    st.subheader("Rata-rata per Kelompok"); render_means(anv["means"])
+    st.subheader("Varians per Kelompok (indikasi keragaman)"); render_vars(groups)
 
 if go:
     correct = (choice.startswith("Ya") and significant) or (choice.startswith("Tidak") and not significant)
@@ -456,7 +487,7 @@ if go:
             f"✅ Tepat! F_hit = {fmt(Fcalc,3)} > F_krit = {fmt(Fcrit,3)}"
             if significant else f"✅ Tepat! F_hit = {fmt(Fcalc,3)} ≤ F_krit = {fmt(Fcrit,3)}"
         )
-        victory_confetti(130, 2.0)  # Victory explosion (2 detik)
+        victory_confetti_js(200, 2.0)  # 🎇 Victory explosion 2s — JS pada parent
         badge = '<span class="badge ok">Benar · +10</span>'
     else:
         st.session_state.score -= 5
@@ -489,14 +520,14 @@ if go:
     st.write(st.session_state.last_feedback)
     st.markdown('</div>', unsafe_allow_html=True)
 
-    # Layout dua kolom: Lab kiri, Grafik kanan
-    left, right = st.columns([1.1, 1])
+    # Layout: Lab kiri, Grafik kanan (HD 900×500)
+    left, right = st.columns([1.08, 1])
     with left:
         st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
         lab_panel(anv, alpha, decision_html, note)
         st.markdown('</div>', unsafe_allow_html=True)
     with right:
-        render_f_svg(df1, df2, Fcalc, Fcrit, alpha, height=420)
+        render_f_svg(df1, df2, Fcalc, Fcrit, alpha, width=900, height=500)
 
     # Next round
     st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
@@ -532,5 +563,5 @@ with st.expander("🏅 Riwayat Ronde & Leaderboard (Sesi Ini)"):
 # FOOTER
 # -------------------------
 st.markdown('<div class="hr-soft"></div>', unsafe_allow_html=True)
-st.caption("Grafik F dirender sebagai SVG HD lewat components.html (anti-sanitasi). "
-           "Tabel F-kritikal α=0.05 diinterpolasi; α=0.10 & 0.01 memakai skala pendekatan edukatif.")
+st.caption("Konfeti dieksekusi dengan JavaScript pada parent document (kanvas overlay), otomatis hilang setelah 2 detik. "
+           "Grafik F dirender sebagai SVG HD via components.html. Tabel F-kritikal α=0.05 diinterpolasi; α=0.10 & 0.01 memakai skala pendekatan edukatif.")
