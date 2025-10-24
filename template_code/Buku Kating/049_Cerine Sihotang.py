@@ -373,8 +373,6 @@ if menu == "Baleg":
         display_images_with_data(gambar_urls, data_list)
     Baleg()
 
-# Tambahkan menu lainnya sesuai kebutuhan
-
 if menu == "Senator":
     def Senator():
         gambar_urls = [
@@ -431,8 +429,6 @@ if menu == "Senator":
         ]
         display_images_with_data(gambar_urls, data_list)
     Senator()
-
-# Tambahkan menu lainnya sesuai kebutuhan
 
 if menu == "Departemen PSDA":
     def DepartemenPSDA():
@@ -1658,17 +1654,14 @@ if menu == "Departemen SSD":
                 "kesan": "Kakak baik dan imup banget",  
                 "pesan":"semakin gacor dan keren ya kakkk !!!"# 1
             },
-            
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenSSD()
 
-# Tambahkan menu lainnya sesuai kebutuhan
-
 if menu == "Departemen Medkraf":
     def DepartemenMedkraf():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1i20rTVtOwHqW23l4cgDYscNOr4X2Mh7d",
+            "https://drive.google.com/uc?export=view&id=1i20rTVtOwHqW23l4cgDYscvscNOr4X2Mh7d",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1nRgTrP2gdaCKkrOZj-4T_58ub4dMZoPU",
