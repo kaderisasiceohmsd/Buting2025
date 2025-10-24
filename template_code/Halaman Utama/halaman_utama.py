@@ -4,6 +4,195 @@ import requests
 from PIL import Image, ImageOps
 from io import BytesIO
 
+# Inline CSS code untuk interface
+st.markdown("""
+<style>
+    /* Reset background colors */
+    .stApp {
+        background-color: transparent !important;
+    }
+    
+    .main .block-container {
+        background-color: transparent !important;
+        padding-top: 0 !important;
+    }
+
+    /* Cloud Background Animation */
+    @keyframes moveClouds {
+        0% { transform: translateX(-100px); }
+        100% { transform: translateX(calc(100vw + 100px)); }
+    }
+
+    @keyframes moveCloudsSlow {
+        0% { transform: translateX(-200px); }
+        100% { transform: translateX(calc(100vw + 200px)); }
+    }
+
+    @keyframes moveCloudsFast {
+        0% { transform: translateX(-150px); }
+        100% { transform: translateX(calc(100vw + 150px)); }
+    }
+
+    .cloud {
+        position: fixed;
+        background: white;
+        border-radius: 1000px;
+        opacity: 0.4;
+        z-index: -1;
+        pointer-events: none;
+        filter: blur(2px);
+    }
+
+    .cloud::before {
+        content: '';
+        position: absolute;
+        top: -80%;
+        left: 10%;
+        width: 50%;
+        height: 150%;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .cloud::after {
+        content: '';
+        position: absolute;
+        top: -40%;
+        right: 20%;
+        width: 30%;
+        height: 100%;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .cloud1 {
+        width: 200px;
+        height: 60px;
+        top: 15%;
+        animation: moveClouds 60s linear infinite;
+    }
+
+    .cloud2 {
+        width: 300px;
+        height: 100px;
+        top: 35%;
+        animation: moveCloudsSlow 80s linear infinite;
+        animation-delay: -20s;
+    }
+
+    .cloud3 {
+        width: 250px;
+        height: 80px;
+        top: 55%;
+        animation: moveCloudsFast 50s linear infinite;
+        animation-delay: -10s;
+    }
+
+    .cloud4 {
+        width: 180px;
+        height: 70px;
+        top: 75%;
+        animation: moveClouds 70s linear infinite;
+        animation-delay: -30s;
+    }
+
+    .cloud5 {
+        width: 220px;
+        height: 65px;
+        top: 25%;
+        animation: moveCloudsSlow 90s linear infinite;
+        animation-delay: -40s;
+    }
+
+    /* Main content styling */
+    .main-content {
+        background-color: rgba(185, 215, 234, 0.95) !important;
+        border-radius: 15px;
+        padding: 2rem;
+        margin: 1rem 0;
+        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    /* Header styling */
+    .main-header {
+        background: linear-gradient(135deg, rgba(20, 108, 148, 0.9), rgba(25, 162, 174, 0.9)) !important;
+        padding: 2rem;
+        border-radius: 15px;
+        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(10px);
+        margin-bottom: 2rem;
+    }
+
+    /* Option menu styling */
+    .st-emotion-cache-1avcm0n {
+        background-color: rgba(255, 255, 255, 0.9) !important;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        margin: 1rem 0;
+    }
+
+    /* Background utama */
+    body {
+        background: linear-gradient(135deg, #B9D7EA 0%, #a0c8e0 50%, #8bb9d6 100%) !important;
+        min-height: 100vh;
+    }
+    
+    /* Image container - FIXED: hilangkan padding atas dan margin */
+    .image-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 1rem;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        margin: 0 !important;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+    
+    /* Fix untuk streamlit image spacing */
+    .stImage {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Remove extra spacing around images */
+    div[data-testid="stImage"] {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Fix column spacing */
+    .stColumn {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Remove extra white space above images */
+    .element-container {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Specific fix for the layout function */
+    .layout-image-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 0.5rem;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        margin: 0.5rem 0 !important;
+    }
+</style>
+
+<!-- Cloud Elements -->
+<div class="cloud cloud1"></div>
+<div class="cloud cloud2"></div>
+<div class="cloud cloud3"></div>
+<div class="cloud cloud4"></div>
+<div class="cloud cloud5"></div>
+""", unsafe_allow_html=True)
 
 # JANGAN DIUBAH
 @st.cache_data
@@ -26,23 +215,31 @@ def display_images_with_data(gambar_urls, data_list):
         # menampilkan gambar di tengah
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
+            st.markdown('<div class="layout-image-container">', unsafe_allow_html=True)
             st.image(img, use_container_width=True)
+            st.markdown('</div>', unsafe_allow_html=True)
 
         if i < len(data_list):
-            st.write(f"Nama: {data_list[i]['nama']}")
-            st.write(f"Sebagai: {data_list[i]['sebagai']}")
-            st.write(f"NIM: {data_list[i]['nim']}")
-            st.write(f"Fun Fact: {data_list[i]['fun_fact']}")
-            st.write(f"Motto Hidup: {data_list[i]['motto_hidup']}")
+            st.markdown(f"""
+            <div class="main-content">
+                <h3>👤 {data_list[i]['nama']}</h3>
+                <p><strong>Sebagai:</strong> {data_list[i]['sebagai']}</p>
+                <p><strong>NIM:</strong> {data_list[i]['nim']}</p>
+                <p><strong>Fun Fact:</strong> {data_list[i]['fun_fact']}</p>
+                <p><strong>Motto Hidup:</strong> <em>"{data_list[i]['motto_hidup']}"</em></p>
+            </div>
+            """, unsafe_allow_html=True)
 
 
 # JANGAN DIUBAH
 
 st.markdown(
     """
-    <div style='text-align: center;'>
-        <h1 style='font-size: 5.5em;'>WEBSITE KATING</h1>
-        <p style='font-size: 2em;'>CEO HMSD Adyatama ITERA 2024</p>
+    <div class="main-header">
+        <div style='text-align: center;'>
+            <h1 style='font-size: 4.5em; color: white; margin-bottom: 0.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);'>WEBSITE KATING</h1>
+            <p style='font-size: 1.8em; color: white; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);'>CEO HMSD Adyatama ITERA 2024</p>
+        </div>
     </div>
     """,
     unsafe_allow_html=True,
@@ -54,15 +251,19 @@ url1 = "https://drive.google.com/uc?export=view&id=12RBvQdMiqqqph-Q1QqLb0zvvIPnB
 
 
 def layout(url):
-    col1, col2, col3 = st.columns([1, 2, 1])  # Menggunakan kolom dengan rasio 1:2:1
+    col1, col2, col3 = st.columns([1, 2, 1])
     with col1:
-        st.write("")  # Menyisakan kolom kosong
+        st.write("")
     with col2:
-        st.image(load_image(url), use_container_width="True", width=350)
+        # Gunakan container khusus dengan padding minimal
+        st.markdown('<div class="layout-image-container">', unsafe_allow_html=True)
+        st.image(load_image(url), use_container_width=True)
+        st.markdown('</div>', unsafe_allow_html=True)
     with col3:
-        st.write("")  # Menyisakan kolom kosong
+        st.write("")
 
 
+# Panggil layout function tanpa extra spacing
 layout(url)
 layout(url1)
 
@@ -75,15 +276,20 @@ def streamlit_menu():
         default_index=0,
         orientation="horizontal",
         styles={
-            "container": {"padding": "0!important", "background-color": "#fafafa"},
-            "icon": {"color": "black", "font-size": "19px"},
+            "container": {"padding": "0!important", "background-color": "rgba(255, 255, 255, 0.9)", "backdrop-filter": "blur(10px)", "border-radius": "10px"},
+            "icon": {"color": "#146c94", "font-size": "19px"},
             "nav-link": {
-                "font-size": "15px",
-                "text-align": "left",
+                "font-size": "16px",
+                "text-align": "center",
                 "margin": "0px",
-                "--hover-color": "#eee",
+                "color": "#146c94",
+                "--hover-color": "#e6f7ff",
             },
-            "nav-link-selected": {"background-color": "#3FBAD8"},
+            "nav-link-selected": {
+                "background-color": "#146c94",
+                "color": "white",
+                "font-weight": "bold"
+            },
         },
     )
     return selected
@@ -95,21 +301,48 @@ if menu == "Home":
 
     def home_page():
         st.markdown(
-            """<style>.centered-title {text-align: center;}</style>""",
+            """<style>.centered-title {text-align: center; color: #146c94; margin-bottom: 1rem;}</style>""",
             unsafe_allow_html=True,
         )
         st.markdown(
             "<h1 class='centered-title'>Deskripsi Kelompok</h1>", unsafe_allow_html=True
         )
+        
         st.markdown(
-            """<div style="text-align: justify;">Test ini Kaleb dari kelompok 6</div>""",
+            """
+            <div class="main-content">
+                <div style="text-align: justify; line-height: 1.6;">
+                    <h3 style="color: #146c94; text-align: center;">🎓 Kelompok Jordan</h3>
+                    <p>Selamat datang di website buku kating kelompok <strong>Jordan</strong>! Kami adalah sekelompok mahasiswa yang bersemangat dari HMSD Adyatama ITERA 2024.</p>
+                    <p>Kelompok kami terdiri dari 11 anggota yang berdedikasi untuk saling mendukung dan berkembang bersama. Dengan semangat kolaborasi dan inovasi, kami hadir untuk memberikan yang terbaik dalam setiap proyek yang kami kerjakan.</p>
+                    <p><strong>Visi:</strong> Menjadi kelompok yang inspiratif dan berkontribusi positif untuk lingkungan sekitar.</p>
+                    <p><strong>Misi:</strong> Belajar bersama, tumbuh bersama, dan mencapai kesuksesan bersama.</p>
+                </div>
+            </div>
+            """,
             unsafe_allow_html=True,
         )
+        
         st.write(""" """)
         foto_kelompok = "https://drive.google.com/uc?export=view&id=1ERUfITTPfR7SWanlCSTD_Q7LVF9EbRwn"
-        layout(foto_kelompok)
+        
+        # Layout untuk foto kelompok dengan container khusus
+        col1, col2, col3 = st.columns([1, 2, 1])
+        with col2:
+            st.markdown('<div class="layout-image-container">', unsafe_allow_html=True)
+            st.image(load_image(foto_kelompok), use_container_width=True)
+            st.markdown('</div>', unsafe_allow_html=True)
+        
         st.markdown(
-            """<div style="text-align: justify;">hai ini kaleb.</div>""",
+            """
+            <div class="main-content">
+                <div style="text-align: justify;">
+                    <h4 style="color: #146c94; text-align: center;">🌟 Tentang Kami</h4>
+                    <p>Kelompok Jordan terbentuk dengan dasar persahabatan dan komitmen untuk saling mendukung dalam perjalanan akademik maupun non-akademik. Setiap anggota membawa keunikan dan keahlian masing-masing, menciptakan sinergi yang harmonis dalam tim.</p>
+                    <p>Kami percaya bahwa dengan kerja sama dan semangat pantang menyerah, tidak ada hal yang tidak mungkin untuk dicapai. Mari jelajahi lebih lanjut tentang setiap anggota kami di bagian <strong>About Us</strong>!</p>
+                </div>
+            </div>
+            """,
             unsafe_allow_html=True,
         )
         st.write(""" """)
@@ -120,10 +353,19 @@ elif menu == "About Us":
 
     def about_page():
         st.markdown(
-            """<style>.centered-title {text-align: center;}</style>""",
+            """<style>.centered-title {text-align: center; color: #146c94; margin-bottom: 1rem;}</style>""",
             unsafe_allow_html=True,
         )
-        st.markdown("<h1 class='centered-title'>About Us</h1>", unsafe_allow_html=True)
+        st.markdown(
+            """
+            <div class="main-content">
+                <h1 class='centered-title'>👥 About Us - Tim Jordan</h1>
+                <p style="text-align: center; color: #666;">Meet our amazing team members!</p>
+            </div>
+            """, 
+            unsafe_allow_html=True
+        )
+        
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
