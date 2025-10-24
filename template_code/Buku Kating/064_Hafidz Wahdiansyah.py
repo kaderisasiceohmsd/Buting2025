@@ -508,8 +508,8 @@ if menu == "Departemen PSDA":
                 "alamat": "samping kost arienta",
                 "hobbi": "jahilin yulia",
                 "sosmed": "@daffahdynn_",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Bang Daffa orangnya tegas tapi asik",  
+                "pesan":"Semoga selalu sukses dalam setiap usaha"# 1
             },
             {
                 "nama": "Ginda Fajar Riadi Marpaung",
@@ -519,8 +519,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Kontrakan GH",
                 "hobbi": "Banyak",
                 "sosmed": "@ginda_mrp",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "ang Fajar orangnya baik hati, ramah, dan gampang akrab sama siapa saja.",  
+                "pesan":"Terus pertahankan kebaikan dan keramahanmu, Bang Fajar! Semoga selalu sukses dalam setiap hal yang kamu lakukan bang"# 1
             },
             {
                 "nama": "Natasya Amavisca",
