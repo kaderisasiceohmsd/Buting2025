@@ -1,4 +1,4 @@
-import streamlit as st
+ import streamlit as st
 from streamlit_option_menu import option_menu
 import requests
 from PIL import Image, ImageOps
@@ -95,7 +95,7 @@ def display_images_with_data(gambar_urls, data_list):
     st.write("Semua gambar telah dimuat!")
 menu = streamlit_menu()
 
-# BAGIAN SINI YANG HANYA BOLEH DIUABAH
+# BAGIAN SINI YANG HANYA BOLEH DIUBAH
 if menu == "Kesekjenan":
     def kesekjenan():
         gambar_urls = [
@@ -190,7 +190,7 @@ if menu == "Baleg":
             "https://drive.google.com/uc?export=view&id=1--eyys0At5kw1oGh-Y5JcovDSAO8A8tE",
             "https://drive.google.com/uc?export=view&id=185nWv2B1WycMFCVvefNbNPnQdWp37bl7",
             "https://drive.google.com/uc?export=view&id=127P1KwLR6PYTOLeHzzMxxIOQZbcq9SCx",
-            "https://drive.google.com/uc?export=view&id=1EOxP22TRboeq5hArgzCrPJK4CW-cna6k",
+            "https://drive.google.com/uc?export=view&id=164_satLb_-DwR0DdCa2MeVdd4iwUzcLj",
             "https://drive.google.com/uc?export=view&id=1c0ppVVMPGbrWNxcX4tVFyjNC7sNHzxSn",
             "https://drive.google.com/uc?export=view&id=1fVMR-NVo8heX8MBVqlLkAeOZKOnI4FgR",
             "https://drive.google.com/uc?export=view&id=1uwca5-sDKzL9Gqe8G06P0CG-LXja7uo-",
@@ -1011,26 +1011,26 @@ if menu == "Departemen MIKFES":
 if menu == "Departemen Eksternal":
     def eksternal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
-            "https://drive.google.com/uc?export=view&id=",
+            "https://drive.google.com/uc?export=view&id=1Ub1qhEprrBGqpBQAY-W6ma70W0wZLxaj",
+            "https://drive.google.com/uc?export=view&id=1niC3CZ34r9sr6a1qUl1YRiFxL3i0tnQ",
+            "https://drive.google.com/uc?export=view&id=1aRYWnVHPAUSA6q86jJchWgMFq4kvnGPD ",
+            "https://drive.google.com/uc?export=view&id=1d9LykSP5Rmoy60spf3IDnTDhqA9VsoVc",
+            "https://drive.google.com/uc?export=view&id=13pG_HqMGT1LRW9Qpji0zDkDWwQTfnxjT",
+            "https://drive.google.com/uc?export=view&id=1l5q8NCpIX1XrGzY1KsC-UafBlrEphdwB",
+            "https://drive.google.com/uc?export=view&id=1TSB_5gTWwqGcLsqQS09nOw-h6hBxMHWs",
+            "https://drive.google.com/uc?export=view&id=1SgRIUuL6uOwul5d2Kb6-KYnzyr-MgkLT",
+            "https://drive.google.com/uc?export=view&id=1-P9Wc8dcMq8HuL0BnOJxYnBHoxBOe0pD",
+            "https://drive.google.com/uc?export=view&id=1Deygq8tWG4ybMMEB1efnXTcbL8V100Ao",
+            "https://drive.google.com/uc?export=view&id=1jjX64ZjTp_OplYTjIDHxmcajH8MXGw6O",
+            "https://drive.google.com/uc?export=view&id=1WSfovwccR875rkmfbj97a_WLq7-OcRgP",
+            "https://drive.google.com/uc?export=view&id=114fMeC0tfnMlCUaS3Qic-36nL-_KyhpV",
+            "https://drive.google.com/uc?export=view&id=1tqzLY3BZBsx6wc0vqh5j31PGs1i0Eket",
+            "https://drive.google.com/uc?export=view&id=1umRA9V-x6GAbzTA1Mv3Kz0te-ZBUyQK-",
+            "https://drive.google.com/uc?export=view&id=1Ul-QjtkKbG5wZCV8vkBy80cPX095F22O",
+            "https://drive.google.com/uc?export=view&id=1sfvbrQVsu3tpjUGq7xlSkfelXxdcjPM9",
+            "https://drive.google.com/uc?export=view&id=1t5OYBQr1wxwf30ZTfSohYY5VZQHUDebP",
+            "https://drive.google.com/uc?export=view&id=1eaWkaOYbRxd4xunspO-c6tJ4fqrhkrTV",
+            "https://drive.google.com/uc?export=view&id=1s8_YeXeJbQqoUkNqsmDKlyS5KRuJaTs_",
             "https://drive.google.com/uc?export=view&id=",
             "https://drive.google.com/uc?export=view&id=",
             "https://drive.google.com/uc?export=view&id=",
@@ -1498,9 +1498,9 @@ if menu == "Departemen Internal":
 if menu == "Departemen SSD":
     def ssd():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1KkHXMMl4dVqXe7epnmrkims-URg53ovz",
-            "https://drive.google.com/uc?export=view&id=1KkHXMMl4dVqXe7epnmrkims-URg53ovz",
-            "https://drive.google.com/uc?export=view&id=1KkHXMMl4dVqXe7epnmrkims-URg53ovz",
+            "https://drive.google.com/uc?export=view&id=1emqDNTp7GU_ot0032F1LjZg5SFCzZBAw",
+            "https://drive.google.com/uc?export=view&id=1ffBIRSlGlYLHywx8zoU0Ir4OTyQkOGpr",
+            "https://drive.google.com/uc?export=view&id=1nvP_nbZyO6LPx7vbGEmBFJ0Ey4OE_KmJ",
             "https://drive.google.com/uc?export=view&id=1_JAj4Lf9Dgbcqnd8oT47n-WGS-da1wOn",
             "https://drive.google.com/uc?export=view&id=1SiISVfWz_EMPO6WVHHt5CKLj3tKrmM57",
             "https://drive.google.com/uc?export=view&id=1rvnGYe0j8JjibTc1DqgaRAYtuM9jvntM",
@@ -1600,7 +1600,7 @@ if menu == "Departemen SSD":
                 "pesan": "Semangat terus ya, kak!"
             },
             {
-                "nama": "Engeli Rahmadhani",
+                "nama": "Enggli Rahmadhani",
                 "nim": "123450043",
                 "umur": "20",
                 "asal": "Sumatera Barat",
