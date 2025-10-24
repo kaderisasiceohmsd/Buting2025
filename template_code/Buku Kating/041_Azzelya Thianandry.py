@@ -226,7 +226,7 @@ elif menu == "Baleg":
                 "alamat": "Teluk",
                 "hobbi": "Nawarin alat pancing",
                 "sosmed": "@renishapg",
-                "kesan": "Bikin suasana jadi rame terus, nggak pernah ngebosenin.",
+                "kesan": "Kak Renisha terlihat tenang namun sangat ramah.",
                 "pesan": "Tapi kadang fokusnya ilang, tolong dibenerin dikit aja"
             },
             {
