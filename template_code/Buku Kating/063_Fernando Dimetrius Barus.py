@@ -1312,6 +1312,7 @@ if menu == "Departemen Internal":
             "https://drive.google.com/uc?export=view&id=1zmiVz1iB62J7eR68oBcrHPuY_grZc07E",
             "https://drive.google.com/uc?export=view&id=11gJGpgOkBZRF4SQz5FsFcEcVTFEeweLC",
             "https://drive.google.com/uc?export=view&id=1StXkizToDPkz2I4hzOaeiS-3uyoMyTf_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1fP_939F6Eh-36gsB8b6K1bzu_C87oHh6",
             "https://drive.google.com/uc?export=view&id=1bhyvjkhrglMsCCa4727PLkvEkoM7yDyQ",
             "https://drive.google.com/uc?export=view&id=1zHd5z16hVmT2QlFe9YH0BDKVPe2Ta9WY",
@@ -1320,7 +1321,6 @@ if menu == "Departemen Internal":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1sr0WmL4IhVxieDoC0rFdYE5p89V7OrNT",
             "https://drive.google.com/uc?export=view&id=1REGXybivh0ii1gvrgDtih3e5-E4hkdtp",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
