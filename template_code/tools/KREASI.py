@@ -1,62 +1,55 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import random
 
-# Judul aplikasi
-st.title("🌦️ Simulasi Perkiraan Cuaca Lampung dengan Markov Chain")
+# Judul
+st.title("Simulasi Markov Chain")
 
-st.write("""
-Aplikasi ini menggunakan model **Markov Chain** untuk memperkirakan cuaca berdasarkan pola transisi sederhana.
-Contoh data ini disimulasikan dari pola cuaca umum di **Lampung**.
-""")
+# Input parameter
+states_input = st.text_input("Masukkan state (pisahkan koma)", "Sunny,Cloudy,Rainy")
+states = [s.strip() for s in states_input.split(",")]
 
-# State cuaca
-states = ["Cerah", "Berawan", "Hujan"]
+n = len(states)
+# Input matriks transisi sebagai CSV-like atau entry per baris
+trans_matrix = []
+st.write("Masukkan matriks transisi (baris per state):")
+for i, s in enumerate(states):
+    row = st.text_input(f"Probabilitas dari {s} ke masing-masing state (pisah koma)", 
+                        value="0.7,0.2,0.1" if i==0 else "0.3,0.4,0.3")
+    probs = [float(x.strip()) for x in row.split(",")]
+    trans_matrix.append(probs)
 
-# Matriks probabilitas transisi (diasumsikan)
-transition_matrix = np.array([
-    [0.6, 0.3, 0.1],  # Dari Cerah -> Cerah/Berawan/Hujan
-    [0.2, 0.5, 0.3],  # Dari Berawan -> Cerah/Berawan/Hujan
-    [0.1, 0.4, 0.5]   # Dari Hujan -> Cerah/Berawan/Hujan
-])
+P = np.array(trans_matrix)
+# Validasi bahwa setiap baris sum = 1
+if not np.allclose(P.sum(axis=1), 1.0):
+    st.error("Setiap baris matriks transisi harus jumlahkan ke 1")
 
-# Menampilkan matriks transisi
-st.subheader("📊 Matriks Probabilitas Transisi")
-df = pd.DataFrame(transition_matrix, columns=states, index=states)
-st.dataframe(df.style.format("{:.2f}"))
+# Pilih initial state
+initial_state = st.selectbox("Initial State", states, index=0)
+initial_idx = states.index(initial_state)
 
-# Input pengguna
-st.subheader("🔧 Pengaturan Simulasi")
-start_state = st.selectbox("Pilih kondisi cuaca awal:", states)
-days = st.slider("Jumlah hari yang ingin diprediksi:", 1, 30, 10)
+# Jumlah langkah simulasi
+steps = st.number_input("Jumlah langkah simulasi", min_value=1, max_value=1000, value=10)
 
-# Fungsi simulasi Markov Chain
-def predict_weather(start, transition_matrix, states, days):
-    current_state = states.index(start)
-    predictions = [start]
-    for _ in range(days):
-        current_state = np.random.choice(
-            range(len(states)), 
-            p=transition_matrix[current_state]
-        )
-        predictions.append(states[current_state])
-    return predictions
+if st.button("Jalankan simulasi"):
+    # Simulasi random walk
+    curr = initial_idx
+    seq = [states[curr]]
+    for _ in range(int(steps)):
+        curr = np.random.choice(np.arange(n), p=P[curr])
+        seq.append(states[curr])
+    st.write("Hasil urutan state:", seq)
 
-# Jalankan simulasi
-if st.button("Mulai Simulasi"):
-    results = predict_weather(start_state, transition_matrix, states, days)
-    
-    st.subheader("📅 Hasil Prediksi Cuaca:")
-    forecast_df = pd.DataFrame({
-        "Hari": [f"Hari {i}" for i in range(len(results))],
-        "Perkiraan Cuaca": results
-    })
-    st.table(forecast_df)
-    
-    # Hitung frekuensi hasil
-    st.subheader("📈 Frekuensi Cuaca yang Diprediksi")
-    freq = pd.Series(results).value_counts()
-    st.bar_chart(freq)
+    # Simulasi distribusi probabilitas seiring waktu
+    # menggunakan multiplikasi vektor awal * P^t
+    v0 = np.zeros(n)
+    v0[initial_idx] = 1.0
+    history = [v0]
+    v = v0.copy()
+    for t in range(1, steps+1):
+        v = v.dot(P)
+        history.append(v)
+    df_hist = pd.DataFrame(history, columns=states)
+    st.line_chart(df_hist)
 
-st.caption("Model ini disederhanakan untuk tujuan kreasi dan mungkin tidak mencerminkan kondisi cuaca sebenarnya di Lampung.")
+    st.write("Distribusi akhir:", dict(zip(states, history[-1])))
