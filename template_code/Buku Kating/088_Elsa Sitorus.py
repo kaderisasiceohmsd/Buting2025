@@ -442,8 +442,6 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1Zkpa7u3P_p11Ly17eOuS1egUA69bxg1m",
             "https://drive.google.com/uc?export=view&id=1UrrBDpYnU6thLcmwVVREdSsw1CblN-ni",
             "https://drive.google.com/uc?export=view&id=115c_F24rWpqS7lTB8z964DLVE0mPlB9c",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
         ]
         data_list = [
             {
@@ -739,7 +737,7 @@ if menu == "Departemen PSDA":
 if menu == "Departemen MIKFES":
     def Departemen_MIKFES():
         gambar_urls = [
-           "https://drive.google.com/uc?export=view&id=1c6R1Uph1zTN-b4h_erHgKZRxmWGofCnP",
+            "https://drive.google.com/uc?export=view&id=1c6R1Uph1zTN-b4h_erHgKZRxmWGofCnP",
             "https://drive.google.com/uc?export=view&id=1qZvCNsqndkkaPyh7zPfuHXcD0vx1XZ9P",
             "https://drive.google.com/uc?export=view&id=1htJQUqfBDK9A2SZIx_jPBSx5s9naYqQi",
             "https://drive.google.com/uc?export=view&id=1XsOyz1tSpcfnUmZvv6FILFme2mzvvO5j",
