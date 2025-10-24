@@ -1354,19 +1354,19 @@ elif menu == "Departemen Eksternal":
 elif menu == "Departemen Internal":
     def internal():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1vwTC3Rfkv0rVV5bqzv3JP6AtgGb2xO1J", #1
-            "https://drive.google.com/uc?export=view&id=139geL1-kqjSP3HzZMG0tGRuvHtOkuKWh", #2
-            "https://drive.google.com/uc?export=view&id=1SZ7nZ_-8rmNoZ1Kqkj1zm7T9odxFbidD", #3
-            "https://drive.google.com/uc?export=view&id=1FlFsUEbVN_qRH477FhiViMvv1JgAGWT4", #4
-            "https://drive.google.com/uc?export=view&id=17cR6yiYir0MGe-tA3sHEJud1Ug17F407", #5
-            "https://drive.google.com/uc?export=view&id=1ig7N84xhTngqyAe8I3P5cbr1-Kn954Sa", #6
-            "https://drive.google.com/uc?export=view&id=1dYZwdZ4ZG6gLWbQnPl6jYye3fCIRCeyY", #7
-            "https://drive.google.com/uc?export=view&id=1nUOXcFI4rjudzfKJCymFQwijgjvpPwY1", #8
-            "https://drive.google.com/uc?export=view&id=1sg9iQa1e1UlOPj8uoVbLF4USTi1rZTtP", #9
-            "https://drive.google.com/uc?export=view&id=1aB2YVi8m2wwJd5h1yCdPhiUyzqPkgffm", #10
-            "https://drive.google.com/uc?export=view&id=1OQuyHhcHlrWfTqcEpfRtEVB-lztxLTUq", #11
-            "https://drive.google.com/uc?export=view&id=1CDpVOsaZRevm5Pg_tN4KGRtlNhKnmsO0", #12
-            "https://drive.google.com/uc?export=view&id=1OkbH_VngBdNykAva7oVpdkWWKEI9Fe79", #13
+            "https://drive.google.com/uc?export=view&id=1xuKj4Jk_JSsZUqbYfZwjlX9j94igyrC5", #1
+            "https://drive.google.com/uc?export=view&id=1-EbuHG8gptK7_zZtTYvN99AdxtTo05gB", #2
+            "https://drive.google.com/uc?export=view&id=1lcLmENlLt0TOq9Xwe95G_ZeBuTl8RJoE", #3
+            "https://drive.google.com/uc?export=view&id=1AFE7FIq4WI17MRm3jambprAOFkSis-hN", #4
+            "https://drive.google.com/uc?export=view&id=1o-yn_bVH98ZHN9R8DMLPaWAlcumlCAVw", #5
+            "https://drive.google.com/uc?export=view&id=13ik74DtdAUYrs_av4c6YWVxNhppsPI5i", #6
+            "https://drive.google.com/uc?export=view&id=1Fik8_aq1oeUje8Pdesn9Swb3cvH3R1qF", #7
+            "https://drive.google.com/uc?export=view&id=1ksGaRZDJ9H_2iTQ4SRnwJEQ_91pXE14d", #8
+            "https://drive.google.com/uc?export=view&id=1TJ-pMtzCxJNHGGFJE-qgUELlA21wRdYU", #9
+            "https://drive.google.com/uc?export=view&id=13w6EtcQzFZWafpdlkLEHW8nUXRRNTd-P", #10
+            "https://drive.google.com/uc?export=view&id=1_TCGTOS2sw2AjaJFpfNbcxiHEQyW3GvM", #11
+            "https://drive.google.com/uc?export=view&id=1nR5-CcRN7rauJtpjEouPCmZZAa1Vh54P", #12
+            "https://drive.google.com/uc?export=view&id=16j1a-7t-OAD8e6uwdBxKC9Xk_SnsrP3X", #13
             "https://drive.google.com/uc?export=view&id=1nQYPuJtRA1xcE2CKqTIpNUM8WZCxguT1", #14
             "https://drive.google.com/uc?export=view&id=1cMct3bht86CDzB-_2rcggTZQ1iKjsPbX", #15
         ]
@@ -1575,11 +1575,11 @@ elif menu == "Departemen PSDA":
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "122450107",
-                "umur": " ",
-                "asal":" ",
-                "alamat": " ",
-                "hobbi": " ",
-                "sosmed": "@ ",
+                "umur": "21",
+                "asal":"Medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal",
+                "sosmed": "@ferdy_kevin",
                 "kesan": "keren banget bang bisa sejauh ini mimpin dept yang menaungi kaderisasi",  
                 "pesan":" semangat terus bang, semoga selalu dikelilingi keberuntungan dan orang-orang baik!"# 1
             },
