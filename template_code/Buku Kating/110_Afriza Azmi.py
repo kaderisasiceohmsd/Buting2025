@@ -468,11 +468,11 @@ if menu == "Departemen PSDA":
         data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "122450107",
+                "umur": "21",
+                "asal":"medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "futsal",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "ini dia kadep PSDA, keren dan cool abies",  
                 "pesan":"di jaga kesehatannya yaa bang, semooga lulus tepat waktu"# 1
@@ -650,7 +650,7 @@ if menu == "Departemen PSDA":
                 "alamat": "Jl. Airan Raya",
                 "hobbi": "Maen game",
                 "sosmed": "@sahid_maulana",
-                "kesan": "asik banget abang ini",  
+                "kesan": "asik banget abang ini kalo diajak ngobrol",  
                 "pesan":"di jaga kesehatannya yaa bang"# 1
             },
             {
@@ -661,8 +661,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Korpri",
                 "hobbi": "Rebahan",
                 "sosmed": "@ahmadnaufal_",
-                "kesan": "Abang santai, kece",  
-                "pesan":"tetep kece terus bang!"# 1
+                "kesan": "cool banget abang yang satu ini",  
+                "pesaa": "semangat teruss yaa bang kuliahnya"# 1
             },
             {
                 "nama": "Erma Daniar Safitri",
@@ -672,8 +672,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Jl. Lapas Raya No 50",
                 "hobbi": "Dance",
                 "sosmed": "@d__aniar",
-                "kesan": "Kakak asikk dan seru",  
-                "pesan":"semangat terus kak jadi dancernya!"# 1
+                "kesan": "lucu banget kakak ini, keren banget klo dance",  
+                "pesan":"yang semangat yaa kak dancenya"# 1
             },
             {
                 "nama": "Ihsan Maulana Yusuf",
@@ -683,8 +683,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis Pemda",
                 "hobbi": "Belajar Front end",
                 "sosmed": "@ihsan.myusuf",
-                "kesan": "Abang Chill, skena",  
-                "pesan":"semangat terus belajar fornt end nya bang!"# 1
+                "kesan": "abang nim awak ni, seru banget kalo diajak becanda",  
+                "pesan":"semangat terus belajar fornt end nya bang"# 1
             },
             {
                 "nama": "Kevin Antoni JUnior",
@@ -694,8 +694,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Bandar Lampung",
                 "hobbi": "Berdiri, Nyantai",
                 "sosmed": "@kevinaj_",
-                "kesan": "Abang ini asik seru gaul abis pokoknya",  
-                "pesan":"Stay gaul bang!"# 1
+                "kesan": "skena abiss derr, sangar mukanyaa",  
+                "pesan":"stay skenaa bang, semangat terusss"# 1
             },
             {
                 "nama": "Lidia Natasyah Marpaung",
@@ -705,8 +705,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Pemda",
                 "hobbi": "Merajuk",
                 "sosmed": "@dla_natzzyaa",
-                "kesan": "Kakak ini asik santai",  
-                "pesan":"semangat terus kak kuliahnya!"# 1
+                "kesan": "muka muka orang baik keliatannya",  
+                "pesan":"senyum terus yaa kak, bahagia terus hari harinya"# 1
             },
             {
                 "nama": "Muhammad Ridwan",
@@ -716,8 +716,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Badminton",
                 "sosmed": "@ridwan122",
-                "kesan": "Abang kocak, seru, santai",  
-                "pesan":"Keep positive bang!"# 1
+                "kesan": "kocak banget abang satu ini, kalo ketemu nyapa terus",  
+                "pesan":"kocak terus yaa bang, semangat"# 1
             },
             {
                 "nama": "Benget Sidabutar",
@@ -727,8 +727,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main futsal, voli",
                 "sosmed": "@sidabutar.26",
-                "kesan": "Abang Kocak Abis, Humoris, Seru",  
-                "pesan":"Tetap semangat bang Benget!"# 1
+                "kesan": "kocak abiss abang satu ini, humoris banget",  
+                "pesan":" semangat teruss bang, makin gacor lagi futsalnya"# 1
             },
             {
                 "nama": "Wuliano Wiliam Purba",
@@ -738,19 +738,19 @@ if menu == "Departemen PSDA":
                 "alamat": "Jl. Raden Saleh",
                 "hobbi": "Ngoding",
                 "sosmed": "@liano.wlm",
-                "kesan": "Abang cool, dingin, asik",  
-                "pesan":"Tetap semangat bang!"# 1
+                "kesan": "seremnyaa abang ini, paling serem mukanya klo jadi komdis",  
+                "pesan":"jangan serem serem yaa bang takut gua"# 1
             },
             {
-                "nama": "-",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
-                "sosmed": "@-",
-                "kesan": "-",  
-                "pesan":"T-"# 1
+                "nama": "Rewina Audriya Melva Sari",
+                "nim": "123450049",
+                "umur": "20",
+                "asal":"bandar Lampung",
+                "alamat": "Way Kandis",
+                "hobbi": "Liat Shoppe tapi ga beli",
+                "sosmed": "@rewinanaaa",
+                "kesan": "kakanya pendiem banget tapi baikk banget, satu kelompok ALE sama aku",  
+                "pesan":"di jaga kesehatannya yaa kak semangat teruss"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -919,11 +919,11 @@ if menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "123450035",
+                "umur": "20",
+                "asal":"Pesawaran, Lampung",
+                "alamat": "Pesawaran, Lampung",
+                "hobbi": "main piano dan nyanyi",
                 "sosmed": "@pebby_olla525",
                 "kesan": "Kakak kalem, baik",  
                 "pesan":"semangat teruss kak!"# 1
