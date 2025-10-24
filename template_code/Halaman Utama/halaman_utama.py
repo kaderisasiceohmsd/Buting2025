@@ -146,7 +146,7 @@ elif menu == "About Us":
                 "sebagai": "Pak Lurah",
                 "nim": "124450115",
                 "fun_fact": "Suka belajar bahasa baru",
-                "motto_hidup": "Berkembanglah terus meski lambat asal pasti",
+                "motto_hidup": "Tetaplah melangkah untuk berkembang walaupun lambat tapi pasti",
             },
             {
                 "nama": "Suci Aulia Putri",
@@ -194,8 +194,8 @@ elif menu == "About Us":
                 "nama": "Caesar Ozora Alrando",
                 "sebagai": "Anggota",
                 "nim": "124450017",
-                "fun_fact": "suka mancing tapi gak suka makan ikan",
-                "motto_hidup": "urip iku urup",
+                "fun_fact": "Duduk jam 2 pagi di embung",
+                "motto_hidup": "Bernafaslah selagi gratis",
             },
             {
                 "nama": "Layina Ropiqo",
