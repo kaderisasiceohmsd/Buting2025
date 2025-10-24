@@ -452,7 +452,7 @@ if menu == "Departemen PSDA":
                 "hobbi": "Futsal",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "Abangnya tegas dan berwibawa ",
-                "pesan": "Semangat terus kuliahnya bang"
+                "pesan": "Semangat terus kuliahnya ya bang"
             },
             {
                 "nama": "Nisrina Nur Afifah",
