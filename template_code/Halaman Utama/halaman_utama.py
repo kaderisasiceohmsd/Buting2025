@@ -144,7 +144,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1wwBHyFgyIi0idBbpFwosCgw5TXvv2glv", #raisya
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_", #jaya
             "https://drive.google.com/uc?export=view&id=1zRxCjXKm2A5NMX6a7herSlfxoILMWnQ6", #riska
-            "https://drive.google.com/uc?export=view&id=1jn4cNQQAOuWjlsSgFvzPsT1kCze5CklB", #helmay           
+            "https://drive.google.com/uc?export=view&id=1roBvYITDO71i7Sdgb5dTvFpZnNQuFHrj", #helmay           
         ]
         data_list = [
             {
