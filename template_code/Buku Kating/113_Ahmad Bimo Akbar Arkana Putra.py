@@ -178,7 +178,7 @@ if menu == "Kesekjenan":
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
     
-if menu == "Baleg":
+elif menu == "Baleg":
     def baleg():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1LRVcgyxwXRcK0E9hPi-ZqUuIjcpCgMu6",
@@ -356,7 +356,7 @@ if menu == "Baleg":
         display_images_with_data(gambar_urls, data_list)
     baleg()
     
-if menu == "Senator":
+elif menu == "Senator":
     def senator():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=19Bg9SgI-DkZHrshnBaAJIWsklRAi_7VC",
@@ -413,8 +413,8 @@ if menu == "Senator":
         display_images_with_data(gambar_urls, data_list)
     senator()
 
-if menu == "Departemen PSDA":
-    def Departemen_PSDA():
+elif menu == "Departemen PSDA":
+    def psda():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1EWlAIbAbCZxwU7HCled91IK1wY4BUrQA", #1
             "https://drive.google.com/uc?export=view&id=1Hct6z7R17GsYum3UQG2TSJDNlQXii5eu", #2
@@ -745,9 +745,9 @@ if menu == "Departemen PSDA":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_PSDA()
+    psda()
 
-if menu == "Departemen MIKFES":
+elif menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=15OSSQJMZek8KdRBtEKIBue69lUna6BCD", #1
@@ -1021,8 +1021,8 @@ if menu == "Departemen MIKFES":
         display_images_with_data(gambar_urls, data_list)
     mikfes()
 
-if menu == "Departemen Eksternal":
-    def Departemen_Eksternal():
+elif menu == "Departemen Eksternal":
+    def eksternal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1p4CK9kMKjrRcWpuAeo64XfnUpm2VmftB", #1
             "https://drive.google.com/uc?export=view&id=1ZW_x5oUWuj4QXgYJGT8dLvz28t4x4dew", #2
@@ -1316,10 +1316,10 @@ if menu == "Departemen Eksternal":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_Eksternal()
+    eksternal()
 
-if menu == "Departemen Internal":
-    def Departemen_Internal():
+elif menu == "Departemen Internal":
+    def internal():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1oLV2h7keJ8wN5z0OPHIRkqNsm0aEL3-O", #1
             "https://drive.google.com/uc?export=view&id=1DJrddHEJZZrN9pRr42yOGE4FyounAQnA", #2
@@ -1505,10 +1505,10 @@ if menu == "Departemen Internal":
             },
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_Internal()
+    internal()
 
-if menu == "Departemen SSD":
-    def Departemen_SSD():
+elif menu == "Departemen SSD":
+    def ssd():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1VEPe_ENBpKo5MfA9NIjrGJCDf9mJcUo-", #1
             "https://drive.google.com/uc?export=view&id=1rin2xakvobKuG2Iav8fDxazEot14v8XA", #2
@@ -1646,7 +1646,7 @@ if menu == "Departemen SSD":
             },     
         ]
         display_images_with_data(gambar_urls, data_list)
-    Departemen_SSD()
+    ssd()
 
 elif menu == "Departemen Medkraf":
     def medkraf():
@@ -1844,11 +1844,15 @@ elif menu == "Departemen Medkraf":
                 "asal": "Natar",
                 "alamat": "Natar",
                 "hobbi": "Scroll Pinterest",
+                "sosmed": "@citrastin",
+                "kesan": "kakaknya keliatan kalem dan friendly",
+                "pesan": "semangat terus ya kak, jangan lupa istirahat juga"
             },
         ]
         display_images_with_data(gambar_urls, data_list)
     medkraf()
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
