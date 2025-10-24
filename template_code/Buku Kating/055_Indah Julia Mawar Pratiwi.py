@@ -173,7 +173,7 @@ if menu == "Kesekjenan":
                 "sosmed": "@farahanumafifah",
                 "kesan": "Kakaknya ramah dan enak buat diajak sharing",  
                 "pesan":"Semoga kuliahnya diberi kemudahan terus kak, semangattt"
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     kesekjenan()
@@ -409,7 +409,7 @@ if menu == "Senator":
                 "sosmed": "@lia.h_264",
                 "kesan": "Kakak ini asik saya suka belajar dengan dia",  
                 "pesan":"Semangat kak kuliahnya, kalo cape istirahat"
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     senator()
@@ -730,7 +730,7 @@ if menu == "Departemen PSDA":
                 "sosmed": "@ridwan122",
                 "kesan": "Abangnya sederhana tapi punya jiwa pemimpin yang kuat",  
                 "pesan":"Semoga abang makin sukses dan terus menginspirasi yang lain!"
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     psda()
@@ -1004,7 +1004,7 @@ if menu == "Departemen MIKFES":
                 "sosmed": "@_fairuzary",
                 "kesan": "Kak Fairuz lembut dan perhatian, enak banget diajak ngobrol santai.",
                 "pesan": "Semangat terus kak! Jangan lupa istirahat biar gak tidur terus"
-            },
+            }
         ]
         display_images_with_data(gambar_urls, data_list)
     mikfes()
@@ -1446,6 +1446,7 @@ if menu == "Departemen Internal":
                 "sosmed": "@sarahwsti",
                 "kesan": "Kak Sarah pribadi yang berbakat dan kreatif, terutama dalam hal seni dan musik",
                 "pesan":"Teruslah berkarya dan gunakan bakat Kakak untuk menginspirasi banyak orang"
+            },
             {
                 "nama": "Keren Marito Lumban Gaol",
                 "nim": "123450020",
