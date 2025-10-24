@@ -480,11 +480,11 @@ if menu == "Departemen PSDA":
             },
             {
                 "nama": "Nisrina Nur Afifah",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "122450122",
+                "umur": "20",
+                "asal":"Bekasi",
+                "alamat": "korpri sukarame",
+                "hobbi": "jajan",
                 "sosmed": "@afifahhnsrn",
                 "kesan": "Kakak seru kece",  
                 "pesan":"semangat teruss kak jadi sekrenya!!!"# 1
@@ -624,10 +624,10 @@ if menu == "Departemen PSDA":
             {
                 "nama": "Kharisma Mustika Sari",
                 "nim": "123450034",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "umur": "20",
+                "asal":"Way Kanan",
+                "alamat": "Untung",
+                "hobbi": "Scroll tiktok",
                 "sosmed": "@rismaa.mustika_",
                 "kesan": "Kakak lucu seru",  
                 "pesan":"semangat terus kuliahnya kak!"# 1
