@@ -452,8 +452,8 @@ if menu == "Departemen PSDA":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@ferdy_kevin",
-                "kesan": "Keren banget bang",  
-                "pesan":"semangat ngejalanin harinya bang"# 1
+                "kesan": "Abang ini keren banget dakh",  
+                "pesan":"Sehat sehat bang... semangat TA-nyaa"# 1
             },
             {
                 "nama": "Nisrina Nur Afifah",
@@ -463,8 +463,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Korpsu",
                 "hobbi": "Jalan-jalan",
                 "sosmed": "@afifahhnsrn",
-                "kesan": "lucu,asik dan kece banget kak",  
-                "pesan":"semangat jadi sekre kak"# 1
+                "kesan": "Imup banget kakak sekdep inii",  
+                "pesan":"Semangat kak mnjadi sekrenyh"# 1
             },
             {
                 "nama": "Allya Nurul Islami Pasha",
@@ -474,8 +474,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main apapun",
                 "sosmed": "@allyapasha_",
-                "kesan": "Baik, keren banget kak, gokill",  
-                "pesan":"makasih udah sabar banget ngadepin kami, jangan lupa istirahat kak"# 1
+                "kesan": "Ebuset baik banget kakak ini cakep jugaaak",  
+                "pesan":"Istirahat yang cukup kak, jaga kesehatan yaaa"# 1
             },
             {
                 "nama": "Ahmad Rizky",
@@ -485,8 +485,8 @@ if menu == "Departemen PSDA":
                 "alamat": "kontrakan GH",
                 "hobbi": "Mainn Bola",
                 "sosmed": "@ahmad.rizky",
-                "kesan": "keren banget bang, panutan banyak orang",  
-                "pesan":"semangat bang bawa nama data ke ranah yang lebih besar"# 1
+                "kesan": "Abang ini gacor bgt asli, jadi termotivasi",  
+                "pesan":"Semangat terus bangg, jangan lupa main bola kalau capeek"# 1
             },
             {
                 "nama": "Arienta Khusnul Ananda",
@@ -496,8 +496,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Samping kost daffa",
                 "hobbi": "Main Sudoku",
                 "sosmed": "@arientakhsnl",
-                "kesan": "keren banget kak",  
-                "pesan":"tetep jadi contoh keren untuk kami kak"# 1
+                "kesan": "Asik banget kakak ini, keyennnn",  
+                "pesan":"Jangan lupa sudiku kak kalau senggang"# 1
             },
             {
                 "nama": "Daffa Hadyan Navista",
@@ -507,8 +507,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Sebelah kost kak arienta",
                 "hobbi": "Jailin putri",
                 "sosmed": "@daffahdynn_",
-                "kesan": "keren banget bang, gokill abis ",  
-                "pesan":"semangat dan keren selalu bang "# 1
+                "kesan": "Abang ini kece bgtt, badass jugaak",  
+                "pesan":"Sehat sehat bang, jangan kecapean"# 1
             },
             {
                 "nama": "Ginda Fajar Riadi Marpaung",
@@ -518,8 +518,8 @@ if menu == "Departemen PSDA":
                 "alamat": "kontrakan GH",
                 "hobbi": "Banyak",
                 "sosmed": "@ginda_nrp",
-                "kesan": "kece banget bang",
-                "pesan": "semangat kuliahnya bang"  # 1
+                "kesan": "Abang ini baik banget busenggg",
+                "pesan": "Terus kembangin hobinya baangg"  # 1
             },
             {
                 "nama": "Natasya Amavisca",
@@ -529,8 +529,8 @@ if menu == "Departemen PSDA":
                 "alamat": "kost putri, gerbang barat samping sawah",
                 "hobbi": "Belajar",
                 "sosmed": "@natasyamavisca",
-                "kesan": "baik, asik, dan seru banget kak",  
-                "pesan":"jaga kesehatan ya kak"# 1
+                "kesan": "Cakeeepp, senyumnya manisss",  
+                "pesan":"Belajarnya jangan sampe lupa waktu sama kesehatan ya kakk"# 1
             },
             {
                 "nama": "Nobel Nizam Fathirizki",
@@ -540,8 +540,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "ngekader",
                 "sosmed": "@nobelnizam",
-                "kesan": "abang cool yang jago ngoding",  
-                "pesan":"sukses selalu bang"# 1
+                "kesan": "Jago banget abang ini ngodingnya busyet",  
+                "pesan":"Selalu siapin rekomen laptop tiap taun ya bangg!"# 1
             },
             {
                 "nama": "Nurul Alfajar Gumel",
@@ -551,8 +551,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Sigma fam",
                 "hobbi": "ngasprak",
                 "sosmed": "@ji_gumel17",
-                "kesan": "Tegas tapi baik banget",  
-                "pesan":"semoga harinya berjalan baik ya bang"# 1
+                "kesan": "Abangnya saya blm pantun aja udh cakep #eyaq",  
+                "pesan": "Semangat terus bang, jangan lupa jaga kesehatan!"# 1
             },
             {
                 "nama": "Vany Salsabila Putri",
@@ -562,8 +562,8 @@ if menu == "Departemen PSDA":
                 "alamat": "maju jaya kost",
                 "hobbi": "yapping sampe bete",
                 "sosmed": "@vany.salsabilaa",
-                "kesan": "Baik, asik, dan seru abiez kak",  
-                "pesan":"semangat terus kak ngejalanin hari"# 1
+                "kesan": "Kak ratu spiderman asik beutttt",  
+                "pesan":"Jaga kesehatan kakkk, biar bisa yap yap teruszzz"# 1
             },
             {
                 "nama": "Ahmad Sahidin Akbar",
@@ -573,8 +573,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Sukarame",
                 "hobbi": "Lari",
                 "sosmed": "@sahid22_",
-                "kesan": "kece banget bang",  
-                "pesan":"semangat bang, jangan nyerah"# 1
+                "kesan": "Kece abis bang aselik",  
+                "pesan":"lari boleh bang, tp jangan lari dari TA ya bangg"# 1
             },
             {
                 "nama": "Ali Aristo Muthahhari parisi",
@@ -584,8 +584,8 @@ if menu == "Departemen PSDA":
                 "alamat": "nangka 4, sukarame",
                 "hobbi": "Main game + kulineran",
                 "sosmed": "@ali_parisi3",
-                "kesan": "abangnya baik, santai",  
-                "pesan":"jaga kesehatan bang"# 1
+                "kesan": "Kalem banget abang inii, pendiem kayanya",  
+                "pesan":"Semangat bang biar sukses acaranya~~"# 1
             },
             {
                 "nama": "Gusti Putu Ferazka D",
@@ -595,8 +595,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Way Dadi",
                 "hobbi": "Tidur",
                 "sosmed": "@ferazkaa",
-                "kesan": "lucu, asik, baik, seru abiezz, mentor paling gokill",  
-                "pesan":"jaga kesehatan ya kak, semangat jangan lupa makan!"# 1
+                "kesan": "Nie gokiel nie, asik beut... ketawa terus kak xixix",  
+                "pesan":"Jangan tidur sembarangan kak, nnti kena paparazieh"# 1
             },
             {
                 "nama": "Kharisma Mustika Sari",
@@ -606,8 +606,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Untung",
                 "hobbi": "Scroll TikTok",
                 "sosmed": "@rismaa.mustika_",
-                "kesan": "baik dan keren banget kakk",  
-                "pesan":"semangat terus kak"# 1
+                "kesan": "Baikk kakaknya, asik jugaaaaak",  
+                "pesan":"Semangat kak kuliahnyaa! jangan lupa sekrol tiktok"# 1
             },
             {
                 "nama": "Rosalia Siregar",
@@ -617,8 +617,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main Roblox",
                 "sosmed": "@rosaliasiregar_",
-                "kesan": "kaka ini baik dan santai",  
-                "pesan":"sukses selalu kak"# 1
+                "kesan": "Santai kakaknya, asikkk",  
+                "pesan":"Walau sibuk, roblox jgan dilupakan yh kak"# 1
             },
             {
                 "nama": "Sahid Maulana",
@@ -628,8 +628,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Main video game",
                 "sosmed": "@sahid_maul9",
-                "kesan": "asik dan baik banget",  
-                "pesan":"jangan lupa istirahat bang"# 1
+                "kesan": "Kalem banget banggg",  
+                "pesan":"Istirahat jangan lupa bang"# 1
             },
             {
                 "nama": "Daffa Ahmad Naufal",
@@ -639,8 +639,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Korpri",
                 "hobbi": "Rebahan",
                 "sosmed": "@ahmadnaufal_11",
-                "kesan": "keren banget bang, gokill",  
-                "pesan":"sukses dan bahagia selalu bang"# 1
+                "kesan": "Gokieeell abang ini keren beut asliik",  
+                "pesan":"Ayok olahraga bang, capek baru rebagan lagi"# 1
             },
             {
                 "nama": "Erma Daniar Safitri",
@@ -650,8 +650,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Jl.lapas raya no 55",
                 "hobbi": "ngoleksi pita pink",
                 "sosmed": "@d__aniar",
-                "kesan": "kakanya asik dan seru",  
-                "pesan":"semangat terus kak"# 1
+                "kesan": "Keren banget kakak ini, dancenya cakeupp bangett",  
+                "pesan":"Jangan lupa istirahat kakk"# 1
             },
             {
                 "nama": "Ihsan Maulana Yusuf",
@@ -661,8 +661,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis, Pemda",
                 "hobbi": "Bikin project, ngoleksi data",
                 "sosmed": "@ihsan.myusuf",
-                "kesan": "keren, asik, kece banget bang",  
-                "pesan":"jangan lupa istirahat bang"# 1
+                "kesan": "Asik bang, pokoknya asik, asik banget lah asik",  
+                "pesan": "Stop guyon bang..."# 1
             },
             {
                 "nama": "Kevin Antoni Junior",
@@ -672,8 +672,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Balam",
                 "hobbi": "Masak",
                 "sosmed": "@kevinaj__",
-                "kesan": "serem tapi asik, keren banget bang",
-                "pesan": "semangat selalu bang"  # 1
+                "kesan": "Mimik wajahnya jutekkk, tp senyum ababg manisss",
+                "pesan": "Kalau senggang jangan lupa masak bangg"  # 1
             },
             {
                 "nama": "Lidia Natasyah Marpaung",
@@ -683,8 +683,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Pemda",
                 "hobbi": "Merajut",
                 "sosmed": "@dla_natzzyaa",
-                "kesan": "kakanya asik dan juga santai",  
-                "pesan":"semoga harinya bahagia"# 1
+                "kesan": "Pembawaan kakaknya asik, santai jugaaak",  
+                "pesan":"Jangan lupa bahagia kakk!"# 1
             },
             {
                 "nama": "Muhammad Ridwan",
@@ -694,8 +694,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Lempar Batu",
                 "sosmed": "@m.ridwan_22",
-                "kesan": "baik, seru, dan asik banget bang",  
-                "pesan":"semangatnya jangan sampe pudar ya bang"# 1
+                "kesan": "Asik, santai, seru dehh",  
+                "pesan":"Semangat terus bang! jangan lupa bahagia"# 1
             },
             {
                 "nama": "Benget Sidabutar",
@@ -705,8 +705,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Mainn Bola",
                 "sosmed": "@sidabutar.26",
-                "kesan": "baik, humoris, asik",  
-                "pesan":"jangan lupa istirahat bang"# 1
+                "kesan": "Abang ini senyum mulu, pamer senyumnya cakep apa ya",  
+                "pesan":"Ayo main bola bang, tp gak sama saya hehdhe"# 1
             },
             {
                 "nama": "Uliano Wiliam Purba ",
@@ -716,8 +716,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Jln. Raden Saleh",
                 "hobbi": "Main musik, ngoding, menanam anggrek",
                 "sosmed": "@nano.wlm",
-                "kesan": "serius tapi lucu juga",  
-                "pesan":"bahagia selalu bang"# 1
+                "kesan": "Serius, tapi santai juga okee",  
+                "pesan":"Sabar, sehat selalu ya bangg!"# 1
             },
             {
                 "nama": "Rewina Audrya Melva Sari",
@@ -727,8 +727,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Way Kandis",
                 "hobbi": "Bengong",
                 "sosmed": "@rewinanaaa",
-                "kesan": "baik, santai, dan seru",  
-                "pesan":"selalu jaga kesehatan kak"# 1
+                "kesan": "Kakaknya asik, seru jugaaa",  
+                "pesan":"Jangan seting sering bengong ya kakkk"# 1
             },
             
         ]
@@ -770,8 +770,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur berkembang",
                 "sosmed": "@randaadriana_",
-                "kesan": "Asik dan seru untuk diajak diskusi",
-                "pesan":"Semangat terus kuliahnya bang"
+                "kesan": "Easy going abangnya, enak juga diajak diskusinyaa",
+                "pesan":"Semangat bang, jangan lupa istirahaattt"
             },
             {
                 "nama": "Rut Junita Sari Siburian",
@@ -781,8 +781,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "jl. Nangka 3",
                 "hobbi": "Membaca abstrak jurnal/paper/artikel, dan gangguin Randa",
                 "sosmed": "@junitaa.0406",
-                "kesan": "Kakaknya asik, baik, suka sharing ilmu",  
-                "pesan":"Selalu jaga kesehatan ya kak"
+                "kesan": "Seru kakaknya, enak bangett ngobrolnyaaa",  
+                "pesan":"Sehat terus kakk, jangan lupa istirahat"
             },
             {
                 "nama": "Muhammad Regi Abdi Putra Amanta",
@@ -792,8 +792,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Sukarame",
                 "hobbi": "Dengerin Musik",
                 "sosmed": "@mregiiii_",
-                "kesan": "Keren banget bang + abang asuh di TPB paling gokil",  
-                "pesan":"Semangat nyusun TA ya bang"
+                "kesan": "Abang ini keren banget edannn, seru juga lagiiik",  
+                "pesan":"Semangat nyusun TA-nya bangg"
             },
             {
                 "nama": "Aisyah Musfirah",
@@ -803,8 +803,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "jl. Lapas, Belwis",
                 "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
-                "kesan": "Kakanya baik, seru diajak ngobrol",
-                "pesan":"Jangan lupa makan ya kak"
+                "kesan": "Kakanya baik, asik banget diajak ngobrol",
+                "pesan":"Ayo kita maskeran bareng kakkk!"
             },
             {
                 "nama": "Fadil Prasetyo Alfarizzi",
@@ -814,8 +814,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Fore",
                 "hobbi": "Segala a100",
                 "sosmed": "@fadilalfarizzi",
-                "kesan": "Orangnya menyenangkan dan mudah bergaul",
-                "pesan":"Semoga apa yang dicita-citakan tercapai ya bang"
+                "kesan": "Abangnya seru banget, keren, easy going mampus",
+                "pesan":"Jangan lupa nge-matcha bang"
             },
             {
                 "nama": "Muhammad Aqil Ramadhan",
@@ -825,8 +825,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "GH, Belwis",
                 "hobbi": "Main Basket",
                 "sosmed": "@muhammadqil1111",
-                "kesan": "Keren banget bang, akhirnya ketemu abang nim",
-                "pesan":"Semangat jadi abas bang" 
+                "kesan": "Gokiel asik abis bang, mantep pokonya ",
+                "pesan":"Semangat basketnya bang, biar masuk NBA" 
             },
             {
                 "nama": "Muhammad Naufal Ramadhan",
@@ -837,7 +837,7 @@ if menu == "Departemen MIKFES":
                 "hobbi": "Dengerin Musik",
                 "sosmed": "@notfall.s",
                 "kesan": "Abangnya baik, santai orangnya",
-                "pesan":"Semangat terus bang"
+                "pesan":"Semangat terus bang, healingnya jgn lupa"
             },
             {
                 "nama": "Nadia Faraj Alyafaatin Simbolon",
@@ -847,8 +847,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "jl. Manggis 1",
                 "hobbi": "Nonton Film",
                 "sosmed": "@nadiaafrj",
-                "kesan": "kakanya baik, kalem juga",  
-                "pesan":"semoga harinya selalu menyenangkan ya kak"
+                "kesan": "Kakanya baik, kalem juga",  
+                "pesan":"Semoga harinya selalu menyenangkan ya kak"
             },
             {
                 "nama": "Marleta Cornelia Leander",
@@ -858,8 +858,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "jl. Nangka 3",
                 "hobbi": "Main Bass, Piano, Semualah",
                 "sosmed": "@marletacornelia",
-                "kesan": "kakanya baik, asik, bawaannya ceria terus",
-                "pesan":"semangat kuliahnya ya kak"
+                "kesan": "Kakak manis bangett, Asik lagi diajak ngobrolnya",
+                "pesan":"Ayok kita latihan musik kakk"
             },
             {
                 "nama": "Akeyla Fairuz Shafi",
@@ -870,7 +870,7 @@ if menu == "Departemen MIKFES":
                 "hobbi": "Dengerin Musik",
                 "sosmed": "@keylashafi_",
                 "kesan": "Abangnya baik, asik, santai",
-                "pesan":"selalu keren bang"
+                "pesan":" keren teruz bang"
             },
             {
                 "nama": "Anggi Puspita Ningrum",
@@ -880,7 +880,7 @@ if menu == "Departemen MIKFES":
                 "alamat": "Bumi Sari, Natar",
                 "hobbi": "Denger musik, dance, Ngedrakor",
                 "sosmed": "@anggi_yllow2318",
-                "kesan": "kakanya baik banget, seru juga",
+                "kesan": "Kakanya baik banget, seru juga",
                 "pesan":"Semangat Ngedrakor kak"    
             },
             {
@@ -891,8 +891,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "jl. Raden Saleh",
                 "hobbi": "jalan-jalan",
                 "sosmed": "@eeffiidefi",
-                "kesan": "Seru banget, baik, asik",
-                "pesan":"semangat terus kak kuliahnya"
+                "kesan": "Seru bangettt kakk, asik juga parah",
+                "pesan":"Jangan lupa jalan jalan kak ditengah hiruk pikuk inu"
             },
             {
                 "nama": "Fabiolla Charissa Putri",
@@ -902,8 +902,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "",
                 "hobbi": "",
                 "sosmed": "@pebby_olla525",
-                "kesan": "kakanya baik, kalem",  
-                "pesan":"semangat terus ya kak"
+                "kesan": "Kalem banget keliatannya kakakk",  
+                "pesan":"Semangat terus ya kak"
             },
             {
                 "nama": "Fairuz  Ary Syifa",
@@ -924,8 +924,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Asrama ITERA TB 4",
                 "hobbi": "Tidur",
                 "sosmed": "@tunty_i",
-                "kesan": "Orangnya menyenangkan dan mudah bergaul.",
-                "pesan":"Semoga apa yang dicita-citakan tercapai ya, Kak."
+                "kesan": "Kakak seru banget dan berisik tapi nyenengin deh pokoknya",
+                "pesan":"Semoga apa yang disemogakan tersemogakan ya kak!"
             },
             {
                 "nama": "Eggi Satria",
@@ -936,7 +936,7 @@ if menu == "Departemen MIKFES":
                 "hobbi": "Tidur",
                 "sosmed": "@_egistr",
                 "kesan": "Aura codingannya kuat banget bang",
-                "pesan":"Tetap semangat jangan menyerah"
+                "pesan":"Semangat ngodingnya bang!"
             },
             {
                 "nama": "Afifah Fauziah",
@@ -946,8 +946,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Hasan IV, Airan",
                 "hobbi": "Isengin orang, dan random chat bareng gpt",
                 "sosmed": "@fifah.zy",
-                "kesan": "Kakaknya asik dan seru untuk diajak diskusi.",
-                "pesan":"Semangat terus untuk kuliahnya ya, Kak!"
+                "kesan": "Kakaknya asik dan seru untuk diajak diskusi",
+                "pesan":"Semangat terus kuliahnya Kak!"
             },
             {
                 "nama": "Fabio Banyu Cyto",
@@ -957,8 +957,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Kedaton",
                 "hobbi": "jalan-jalan, main game",
                 "sosmed": "@biokcb",
-                "kesan": "Keren banget bang, asik abiezz",
-                "pesan":"semangat terus bang kuliahnya"
+                "kesan": "Aura codingnya gk jauh beda ini sama bang eggi",
+                "pesan":"Semangat bang kuliahnya! jangan ngoding teruszz"
             },
             {
                 "nama": "Giofani Aristyo",
@@ -969,7 +969,7 @@ if menu == "Departemen MIKFES":
                 "hobbi": "Catur & main geometry dash",
                 "sosmed": "@giofaniars_",
                 "kesan": "Abangnya pinter, kalem, seru",
-                "pesan":"Selalu jaga kesehatan ya bang"
+                "pesan":"Jaga kesehatan ya bang"
             },
             {
                 "nama": "Rahma Oktavia Albar",
@@ -979,8 +979,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "jl. Lapas Raya",
                 "hobbi": "Main Catur",
                 "sosmed": "@rhmaoktvia",
-                "kesan": "Sangat berkesan, pembawaannya positif.",
-                "pesan":"semangat terus kuliahnya Kak!"
+                "kesan": "Seru, asik banget juga kakaknyaa",
+                "pesan":"Semangat terus kuliahnya Kak!"
             },
             {
                 "nama": "Rahmah Gustriana Deka",
@@ -991,7 +991,7 @@ if menu == "Departemen MIKFES":
                 "hobbi": "main ke embung",
                 "sosmed": "@gustriana.d_",
                 "kesan": "Kakak ini asik, baik, seru diajak ngobrol",  
-                "pesan":"semangat terus kuliahnya kak, jangan bosen liat embung ya kak"
+                "pesan":"Sqemangat terus kuliahnya kak, jangan bosen liat embung ya kak"
             },
             {
                 "nama": "Razin Hafid Hamdi",
@@ -1001,8 +1001,8 @@ if menu == "Departemen MIKFES":
                 "alamat": "Belwis",
                 "hobbi": "Futsal",
                 "sosmed": "@razyn.hfd",
-                "kesan": "Baik, asik banget bang",
-                "pesan":"Semangat Futsalnya bang"
+                "kesan": "Baik, seru banget diajak ngobrol abangnyaa",
+                "pesan":"Tetep futsalan bang walau sibuq"
             }
             
         ]
