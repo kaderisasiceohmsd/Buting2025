@@ -115,8 +115,8 @@ if menu == "Kesekjenan":
                 "alamat": "Pulau Damar",
                 "hobbi": "Beli donat kentang",
                 "sosmed": "@erendraa",
-                "kesan": "keren banget banggg bisa jadi ",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Keren dan ramah, Bang Rendra kalo di ajak ngobrol juga santai jadi enak",  
+                "pesan":"Semangat Bang kuliahnya dan sehat terus, semoga tercapai target nya"# 1
             },
             {
                 "nama": "Johannes Krisjon Silitonga",
@@ -126,8 +126,8 @@ if menu == "Kesekjenan":
                 "alamat": "Jl. Lapas Raya",
                 "hobbi": "Baca buku dasar-dasar",
                 "sosmed": "@johannneskrijnnn",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Bang Jo keliatan nya serem tapi kalo udah kenal jadi enak dan seru ngobrol bareng",  
+                "pesan":"Semangat terus Bang kuliahnya sehat-sehat selalu bang, semoga apa yang diharapkan tercapai"# 1
             },
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
@@ -137,8 +137,8 @@ if menu == "Kesekjenan":
                 "alamat": "Airest Kost",
                 "hobbi": "Siram shopee",
                 "sosmed": "@celisabeth_",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakak Elisabeth ini seru, lucu, dan kocak. Apalagi pas ramah tamah sama Teknik Perkeretaapian",  
+                "pesan":"Semangat terus kuliahnya kak, sehat terus dan apa yang di inginkan semoga tercapai"# 1
             },
             {
                 "nama": "Syadza Puspadari Azhar",
@@ -148,8 +148,8 @@ if menu == "Kesekjenan":
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakak ini cantik, baik, dan ramah.",  
+                "pesan":"Semangat dan sehat terus kak, semoga semua urusannya di permudah"# 1
             },
             {
                 "nama": "Eksanty F. Sukma Islamiaty",
@@ -159,8 +159,8 @@ if menu == "Kesekjenan":
                 "alamat": "Rajabasa",
                 "hobbi": "Baca buku, suka pramuka",
                 "sosmed": "@eksantyfebriana",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakak Eksanty seru dan ramah banget pas ngomong",  
+                "pesan":"Semangat dan sehat terus kuliahnya ka, Semoga hal apapun yang kakak hadapi di permudah"# 1
             },
             {
                 "nama": "Farhanum Afifah Ardiansyah",
@@ -170,8 +170,8 @@ if menu == "Kesekjenan":
                 "alamat": "Sukarame",
                 "hobbi": "Tidur",
                 "sosmed": "@farahanumafifah",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
+                "kesan": "Kakak nya asik dan seru, keliatannya serem tapi baik kalo kenal",  
+                "pesan":"Semangat terus kuliahnya ka, dan sehat-sehat selalu. Semoga tercapai apa yang diharapkan dan dipermudahkan"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
