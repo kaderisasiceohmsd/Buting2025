@@ -1,22 +1,15 @@
 # =========================
-# 🎬 ANOVA ODYSSEY v4.2 – Smooth Cinematic Edition (No external deps)
-# Theme : Elegan ANOVA (Light-Blue + Gold)
-# FX    : Confetti victory (2s, kanan) + Dual F-Graph Cinematic (3s SVG+JS)
-# Logic : One-way ANOVA (manual), Fcritical table (α=0.05) + scale 0.10/0.01
-# Visual: Tabel data, bar means & variances, dual animated F-graph (utama + zoom)
-# Game  : Prediksi signifikan/tidak, skor, ronde, riwayat
-# Deps  : HANYA streamlit
+# ANOVA ODYSSEY v4.3 – Full Cinematic Glow (No external deps)
 # =========================
-
 import streamlit as st
 import streamlit.components.v1 as components
-import random, time, math, statistics
+import random, time, math, statistics, json
 from typing import Dict, List
 
 # -------------------------
 # PAGE CONFIG & THEME
 # -------------------------
-st.set_page_config(page_title="ANOVA Odyssey v4.2 – Smooth Cinematic", page_icon="⚔️", layout="centered")
+st.set_page_config(page_title="ANOVA Odyssey – Cinematic Glow", page_icon="⚔️", layout="centered")
 
 THEME = """
 <style>
@@ -24,9 +17,7 @@ THEME = """
   --bg-soft:#EAF4FB; --bg-panel:#F7FBFF; --gold:#DCCCA3; --gold2:#CBB279;
   --ink:#111827; --muted:#6B7280; --blue:#4A67E9; --blue2:#7EA3FF; --card:#ffffff;
 }
-html, body, [data-testid="stAppViewContainer"]{
-  background:linear-gradient(180deg,var(--bg-soft),#FFFFFF 60%);
-}
+html, body, [data-testid="stAppViewContainer"]{ background:linear-gradient(180deg,var(--bg-soft),#FFFFFF 60%); }
 section.main > div.block-container{ padding-top:1.0rem; }
 
 .el-card{ background:var(--card); border:1px solid rgba(0,0,0,.05); border-radius:18px;
@@ -62,9 +53,6 @@ table.simple tr:last-child td{ border-bottom:none; }
 
 .fade{ animation:fadeIn .55s ease-out both; }
 @keyframes fadeIn { from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:none} }
-
-/* Agar overlay konfeti terlihat */
-.stApp iframe{ overflow:visible !important; }
 </style>
 """
 st.markdown(THEME, unsafe_allow_html=True)
@@ -182,10 +170,10 @@ def render_vars(groups:Dict[str,List[float]]):
     st.markdown('</div></div>', unsafe_allow_html=True)
 
 # -------------------------
-# CONFETTI (Victory Explosion 2s)
+# CONFETTI (Victory Explosion 2s – kanan)
 # -------------------------
-def victory_confetti_js(pieces:int=200, duration:float=2.0):
-    html = f"""
+def victory_confetti_js(pieces:int=220, duration:float=2.0):
+    html = """
     <div id="__confetti_mount"></div>
     <script>
     (function(){{
@@ -199,8 +187,7 @@ def victory_confetti_js(pieces:int=200, duration:float=2.0):
         canvas.style.position='fixed';
         canvas.style.left='0'; canvas.style.top='0';
         canvas.style.width='100vw'; canvas.style.height='100vh';
-        canvas.style.pointerEvents='none';
-        canvas.style.zIndex='999999';
+        canvas.style.pointerEvents='none'; canvas.style.zIndex='999999';
         doc.body.appendChild(canvas);
         var ctx = canvas.getContext('2d');
         function resize(){{ canvas.width = P.innerWidth; canvas.height = P.innerHeight; }}
@@ -210,7 +197,7 @@ def victory_confetti_js(pieces:int=200, duration:float=2.0):
         var parts = [];
         for (var i=0;i<{pieces};i++) {{
           parts.push({{
-            x: canvas.width*0.7, y: canvas.height*0.25,
+            x: canvas.width*0.72, y: canvas.height*0.25,
             r: 4 + Math.random()*3.5,
             vx: (Math.random()*2-1)*14,
             vy: - (10 + Math.random()*12),
@@ -224,7 +211,6 @@ def victory_confetti_js(pieces:int=200, duration:float=2.0):
         var start=null;
         function step(ts){{
           if(!start) start=ts;
-          var t=(ts-start)/1000.0;
           ctx.clearRect(0,0,canvas.width,canvas.height);
           parts.forEach(p=>{{
             p.vy += p.g; p.x += p.vx; p.y += p.vy; p.rot += p.vr; p.life--;
@@ -233,27 +219,30 @@ def victory_confetti_js(pieces:int=200, duration:float=2.0):
             ctx.fillRect(-p.r,-p.r, p.r*2, p.r*2); ctx.restore();
           }});
           parts = parts.filter(p=>p.life>0 && p.y<canvas.height+20);
-          if (t<{duration} || parts.length>0) P.requestAnimationFrame(step);
+          if (parts.length>0) P.requestAnimationFrame(step);
           else {{ canvas.remove(); P.removeEventListener('resize', resize); }}
         }}
         P.requestAnimationFrame(step);
       }} catch(e){{ console.log('Confetti error:',e); }}
     }})();
     </script>
-    """
+    """.format(pieces=pieces, duration=duration)
     components.html(html, height=0, width=0)
 
 # -------------------------
-# ANIMATED DUAL F-GRAPH (Smooth Cinematic 3s)
+# F pdf
 # -------------------------
 def f_pdf(x:float, d1:int, d2:int)->float:
     if x<=0: return 0.0
     a,b=d1/2,d2/2
-    # Beta function via lgamma
     beta = math.exp(math.lgamma(a)+math.lgamma(b)-math.lgamma(a+b))
     return ((d1/d2)**a * (x**(a-1))) / (beta * (1+(d1/d2)*x)**(a+b))
 
-def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, height:int=580):
+# -------------------------
+# ANIMATED DUAL F-GRAPH (Cinematic 3s + Glow)
+# SAFE BUILD: embed data via json.dumps + format, escape braces in JS with {{ }}
+# -------------------------
+def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, height:int=600):
     W, H, PAD = 1000, height, 50
     xmax = max(8.0, Fcrit*1.45, Fcalc*1.30, 6 + 0.6*df1)
     N = 520
@@ -261,77 +250,20 @@ def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, h
     ys = [f_pdf(x, df1, df2) for x in xs]
     ymax = max(ys) if max(ys)>0 else 1.0
 
-    # data dict
+    left = [{"x":x,"y":y} for x,y in zip(xs,ys) if x<=Fcrit]
+    right= [{"x":x,"y":y} for x,y in zip(xs,ys) if x>=Fcrit]
     data = {
-        "W": W, "H": H, "PAD": PAD,
-        "xmax": xmax, "ymax": ymax,
-        "alpha": alpha,
-        "Fcalc": Fcalc, "Fcrit": Fcrit,
-        "curve": [{"x":x,"y":y} for x,y in zip(xs,ys)]
+        "W": W, "H": H, "PAD": PAD, "xmax": xmax, "ymax": ymax,
+        "alpha": alpha, "Fcalc": Fcalc, "Fcrit": Fcrit,
+        "curve": [{"x":x,"y":y} for x,y in zip(xs,ys)],
+        "leftArea": left, "rightArea": right
     }
+    DATA = json.dumps(data)  # safe embed
 
     html = """
-    <div style="padding:10px 0;">
-      <svg id='anova_svg' width='100%' height='{H}'></svg>
-      <script>
-      const data = {data};
-      const svg = document.getElementById('anova_svg');
-      const ns = 'http://www.w3.org/2000/svg';
-      const W = data.W, H = data.H, PAD=data.PAD;
-      function mapX(x){{return PAD+(W-2*PAD)*(x/data.xmax);}}
-      function mapY(y){{return H-PAD-(H-2*PAD)*(y/data.ymax);}}
-      const path = document.createElementNS(ns,'path');
-      path.setAttribute('stroke','#4A67E9');
-      path.setAttribute('stroke-width','2.5');
-      path.setAttribute('fill','none');
-      svg.appendChild(path);
-      let i=0;
-      function draw(){{
-        const seg=data.curve.slice(0,i);
-        let d='M '+mapX(seg[0].x)+','+mapY(seg[0].y);
-        for(let j=1;j<seg.length;j++)d+=' L '+mapX(seg[j].x)+','+mapY(seg[j].y);
-        path.setAttribute('d',d);
-        if(i<data.curve.length){{i+=5;requestAnimationFrame(draw);}}
-      }}
-      draw();
-      </script>
-    </div>
-    """.format(H=height, data=data)
-    components.html(html, height=height+100, scrolling=False)
-
-    """Dual graph: main + zoom, animated with JS (3s). Fully responsive width."""
-    # Precompute curve points in Python (smooth)
-    W, H, PAD = 1000, height, 50
-    xmax = max(8.0, Fcrit*1.45, Fcalc*1.30, 6 + 0.6*df1)
-    N = 520
-    xs = [xmax*i/(N-1) for i in range(N)]
-    ys = [f_pdf(x, df1, df2) for x in xs]
-    ymax = max(ys) if max(ys)>0 else 1.0
-
-    # split areas for fill
-    left_idx = [i for i,x in enumerate(xs) if x <= Fcrit]
-    right_idx= [i for i,x in enumerate(xs) if x >= Fcrit]
-    def to_path_points():
-        return [{"x": x, "y": y} for x,y in zip(xs,ys)]
-    def to_area(points_idx):
-        return [{"x": xs[i], "y": ys[i]} for i in points_idx]
-
-    # Prepare data for JS
-    data = {
-        "W": W, "H": H, "PAD": PAD,
-        "xmax": xmax, "ymax": ymax,
-        "alpha": alpha,
-        "Fcalc": Fcalc, "Fcrit": Fcrit,
-        "curve": to_path_points(),
-        "leftArea": to_area(left_idx),
-        "rightArea": to_area(right_idx),
-    }
-
-    # HTML + JS animator (draw path gradually, glow on critical area, slide-in vertical lines)
-    html = f"""
     <div class="fade" style="display:flex;flex-wrap:wrap;gap:20px;justify-content:center;align-items:flex-start;">
       <div class="el-card" style="flex:1;min-width:520px;padding:18px 22px;max-width:none;">
-        <div style="font-weight:900;color:#111827;margin-bottom:8px;">📊 Distribusi F – Visual Utama (α = {alpha:.2f})</div>
+        <div style="font-weight:900;color:#111827;margin-bottom:8px;">📊 Distribusi F – Visual Utama (α = {alpha})</div>
         <div id="f-main"></div>
       </div>
       <div class="el-card" style="flex:1;min-width:520px;padding:18px 22px;">
@@ -342,145 +274,122 @@ def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, h
 
     <script>
     (function(){{
-      const D = {data};
-      const DUR = 3000; // 3s cinematic
-      function mapX(x, W, PAD, xmax) {{ return PAD + (W-2*PAD)*(x/xmax); }}
-      function mapY(y, H, PAD, ymax) {{ return H - PAD - (H-2*PAD)*(y/ymax); }}
+      const D = {DATA};
+      const DUR = 3000;
+      function mapX(x,W,P,X){{ return P + (W-2*P)*(x/X); }}
+      function mapY(y,H,P,Y){{ return H - P - (H-2*P)*(y/Y); }}
 
-      function makeSVG(containerId, zoom=false){{
-        const W = D.W, H = D.H, PAD = D.PAD, xmax = D.xmax, ymax = D.ymax;
-        const host = document.getElementById(containerId);
-        host.innerHTML = "";
-        const svg = document.createElementNS("http://www.w3.org/2000/svg","svg");
-        svg.setAttribute("viewBox", `0 0 ${{W}} ${{H}}`);
-        svg.setAttribute("width","100%"); svg.setAttribute("height", H);
+      function makeSVG(id, zoom){{
+        const W=D.W,H=D.H,P=D.PAD,X=D.xmax,Y=D.ymax;
+        const host=document.getElementById(id); host.innerHTML="";
+        const ns="http://www.w3.org/2000/svg";
+        const svg=document.createElementNS(ns,"svg");
+        svg.setAttribute("viewBox",`0 0 ${{
+          W}} ${{H}}`); svg.setAttribute("width","100%"); svg.setAttribute("height",H);
         host.appendChild(svg);
 
-        // defs
-        const defs = document.createElementNS(svg.namespaceURI,"defs");
-        svg.appendChild(defs);
-        function addGrad(id, c1, a1, c2, a2){{
-          const lg = document.createElementNS(svg.namespaceURI,"linearGradient");
-          lg.setAttribute("id", id); lg.setAttribute("x1","0"); lg.setAttribute("x2","0"); lg.setAttribute("y1","0"); lg.setAttribute("y2","1");
-          const s1 = document.createElementNS(svg.namespaceURI,"stop");
-          s1.setAttribute("offset","0%"); s1.setAttribute("stop-color", c1); s1.setAttribute("stop-opacity", a1);
-          const s2 = document.createElementNS(svg.namespaceURI,"stop");
-          s2.setAttribute("offset","100%"); s2.setAttribute("stop-color", c2); s2.setAttribute("stop-opacity", a2);
-          lg.appendChild(s1); lg.appendChild(s2); defs.appendChild(lg);
+        // defs: gradients + glow
+        const defs=document.createElementNS(ns,"defs"); svg.appendChild(defs);
+        function grad(id,c1,a1,c2,a2){{const g=document.createElementNS(ns,"linearGradient");
+          g.setAttribute("id",id); g.setAttribute("x1","0"); g.setAttribute("y1","0"); g.setAttribute("x2","0"); g.setAttribute("y2","1");
+          const s1=document.createElementNS(ns,"stop"); s1.setAttribute("offset","0%"); s1.setAttribute("stop-color",c1); s1.setAttribute("stop-opacity",a1);
+          const s2=document.createElementNS(ns,"stop"); s2.setAttribute("offset","100%"); s2.setAttribute("stop-color",c2); s2.setAttribute("stop-opacity",a2);
+          g.appendChild(s1); g.appendChild(s2); defs.appendChild(g);
         }}
-        addGrad("gradL", "#9db4ff", zoom?0.70:0.85, "#9db4ff", zoom?0.25:0.35);
-        addGrad("gradR", "#DCCCA3", 0.95, "#CBB279", 0.75);
+        grad("gL","#9db4ff", zoom?0.70:0.85, "#9db4ff", zoom?0.25:0.35);
+        grad("gR","#DCCCA3",0.95,"#CBB279",0.75);
 
-        // axes
-        const axis = document.createElementNS(svg.namespaceURI,"line");
-        axis.setAttribute("x1", PAD); axis.setAttribute("y1", mapY(0,H,PAD,ymax));
-        axis.setAttribute("x2", W-PAD); axis.setAttribute("y2", mapY(0,H,PAD,ymax));
+        const filt=document.createElementNS(ns,"filter");
+        filt.setAttribute("id","glow"); filt.innerHTML = `
+          <feGaussianBlur stdDeviation="3.5" result="b"/> 
+          <feMerge>
+            <feMergeNode in="b"/> <feMergeNode in="SourceGraphic"/>
+          </feMerge>`;
+        defs.appendChild(filt);
+
+        // axis
+        const axis=document.createElementNS(ns,"line");
+        axis.setAttribute("x1",P); axis.setAttribute("y1", mapY(0,H,P,Y));
+        axis.setAttribute("x2",W-P); axis.setAttribute("y2", mapY(0,H,P,Y));
         axis.setAttribute("stroke","#9CA3AF"); axis.setAttribute("stroke-width","1");
         svg.appendChild(axis);
 
-        // areas
-        function pathFrom(points){{
-          if(!points.length) return "";
-          let d = `M ${{mapX(points[0].x,W,PAD,xmax)}},${{mapY(points[0].y,H,PAD,ymax)}}`;
-          for(let i=1;i<points.length;i++) d += ` L ${{mapX(points[i].x,W,PAD,xmax)}},${{mapY(points[i].y,H,PAD,ymax)}}`;
-          return d;
-        }}
-        function closedArea(points){{
-          if(!points.length) return "";
-          const start = `M ${{mapX(points[0].x,W,PAD,xmax)}},${{mapY(points[0].y,H,PAD,ymax)}}`;
-          const lines = points.slice(1).map(p=>`L ${{mapX(p.x,W,PAD,xmax)}},${{mapY(p.y,H,PAD,ymax)}}`).join(" ");
-          const base  = `L ${{mapX(points[points.length-1].x,W,PAD,xmax)}},${{mapY(0,H,PAD,ymax)}} L ${{mapX(points[0].x,W,PAD,xmax)}},${{mapY(0,H,PAD,ymax)}} Z`;
-          return start + " " + lines + " " + base;
-        }}
+        // helpers
+        function toPath(points){{ if(!points.length) return ""; 
+          let d=`M ${{mapX(points[0].x,W,P,X)}},${{mapY(points[0].y,H,P,Y)}}`;
+          for(let i=1;i<points.length;i++) d+=` L ${{mapX(points[i].x,W,P,X)}},${{mapY(points[i].y,H,P,Y)}}`;
+          return d; }}
+        function closeArea(points){{ if(!points.length) return "";
+          const start=`M ${{mapX(points[0].x,W,P,X)}},${{mapY(points[0].y,H,P,Y)}}`;
+          const lines=points.slice(1).map(p=>`L ${{mapX(p.x,W,P,X)}},${{mapY(p.y,H,P,Y)}}`).join(" ");
+          const base=`L ${{mapX(points[points.length-1].x,W,P,X)}},${{mapY(0,H,P,Y)}} L ${{mapX(points[0].x,W,P,X)}},${{mapY(0,H,P,Y)}} Z`;
+          return start+" "+lines+" "+base; }}
 
-        const leftArea = document.createElementNS(svg.namespaceURI,"path");
-        leftArea.setAttribute("fill", "url(#gradL)"); leftArea.setAttribute("opacity","0");
-        leftArea.setAttribute("d", closedArea(D.leftArea));
-        svg.appendChild(leftArea);
+        const leftA=document.createElementNS(ns,"path");
+        leftA.setAttribute("fill","url(#gL)"); leftA.setAttribute("opacity","0");
+        leftA.setAttribute("d", closeArea(D.leftArea)); svg.appendChild(leftA);
 
-        const rightArea = document.createElementNS(svg.namespaceURI,"path");
-        rightArea.setAttribute("fill", "url(#gradR)"); rightArea.setAttribute("opacity","0");
-        rightArea.setAttribute("d", closedArea(D.rightArea));
-        svg.appendChild(rightArea);
+        const rightA=document.createElementNS(ns,"path");
+        rightA.setAttribute("fill","url(#gR)"); rightA.setAttribute("opacity","0.0");
+        rightA.setAttribute("filter","url(#glow)");
+        rightA.setAttribute("d", closeArea(D.rightArea)); svg.appendChild(rightA);
+
+        // pulse animation (glow)
+        const style=document.createElementNS(ns,"style");
+        style.textContent = `
+          @keyframes glowPulse {{ 0%{{opacity:.55}} 50%{{opacity:.95}} 100%{{opacity:.55}} }}
+          .pulseGold {{ animation: glowPulse 2.6s ease-in-out infinite; }}
+        `;
+        svg.appendChild(style);
 
         // curve
-        const curve = document.createElementNS(svg.namespaceURI,"path");
-        curve.setAttribute("fill","none"); curve.setAttribute("stroke","#4A67E9"); curve.setAttribute("stroke-width","2.8");
-        curve.setAttribute("stroke-linecap","round");
+        const curve=document.createElementNS(ns,"path");
+        curve.setAttribute("fill","none"); curve.setAttribute("stroke","#4A67E9");
+        curve.setAttribute("stroke-width","2.8"); curve.setAttribute("stroke-linecap","round");
         svg.appendChild(curve);
 
-        // vertical lines (hidden first)
-        const XFc = mapX(D.Fcrit,W,PAD,xmax), XF = mapX(D.Fcalc,W,PAD,xmax);
-        const Y0 = mapY(0,H,PAD,ymax), YT = mapY(ymax*1.02,H,PAD,ymax);
-
-        function vline(x, color, dash){
-          const ln = document.createElementNS(svg.namespaceURI,"line");
-          ln.setAttribute("x1", x); ln.setAttribute("y1", YT); ln.setAttribute("x2", x); ln.setAttribute("y2", YT);
-          ln.setAttribute("stroke", color); ln.setAttribute("stroke-width", "2.2");
+        // verticals
+        const XFc=mapX(D.Fcrit,W,P,X), XF=mapX(D.Fcalc,W,P,X);
+        const Y0=mapY(0,H,P,Y), YT=mapY(Y*1.02,H,P,Y);
+        function vline(x,color,dash){{ const ln=document.createElementNS(ns,"line");
+          ln.setAttribute("x1",x); ln.setAttribute("y1",YT); ln.setAttribute("x2",x); ln.setAttribute("y2",YT);
+          ln.setAttribute("stroke",color); ln.setAttribute("stroke-width","2.2");
           if(dash) ln.setAttribute("stroke-dasharray","5,5");
-          svg.appendChild(ln);
-          return ln;
-        }
-        const lineCrit = vline(XFc, "#CBB279", true);
-        const lineHit  = vline(XF,  "#111827", false);
+          svg.appendChild(ln); return ln; }}
+        const lineC=vline(XFc,"#CBB279",true); const lineH=vline(XF,"#111827",false);
 
-        // labels
-        function label(x,y,text,fill){
-          const t = document.createElementNS(svg.namespaceURI,"text");
+        function label(x,y,txt,fill){{ const t=document.createElementNS(ns,"text");
           t.setAttribute("x", x+6); t.setAttribute("y", y+16);
           t.setAttribute("font-size","12"); t.setAttribute("fill", fill);
-          t.textContent = text; svg.appendChild(t); return t;
-        }
-        const labCrit = label(XFc, YT, `F_krit = ${{D.Fcrit.toFixed(2)}}`, "#6B7280"); labCrit.setAttribute("opacity","0");
-        const labHit  = label(XF,  YT+16, `F_hit = ${{D.Fcalc.toFixed(2)}}`, "#111827"); labHit.setAttribute("opacity","0");
+          t.textContent=txt; t.setAttribute("opacity","0"); svg.appendChild(t); return t; }}
+        const labC=label(XFc,YT,`F_krit = ${{D.Fcrit.toFixed(2)}}`,"#6B7280");
+        const labH=label(XF, YT+16,`F_hit = ${{D.Fcalc.toFixed(2)}}`,"#111827");
 
-        // Animate curve drawing
-        const total = D.curve.length;
-        let start=null;
-        function ease(t){{ return t<0.5 ? 2*t*t : -1+(4-2*t)*t; }} // smooth ease-in-out
-
-        function frame(ts){
-          if(!start) start=ts;
-          let p = (ts - start) / DUR;
-          if(p>1) p=1;
-          const eased = ease(p);
-
-          const idx = Math.max(2, Math.floor(total * eased));
-          const seg = D.curve.slice(0, idx);
-          curve.setAttribute("d", pathFrom(seg));
-
-          // fade left area first 40%
-          leftArea.setAttribute("opacity", Math.min(1, eased*2.2));
-          // show right area after 45%
-          const rightAlpha = Math.max(0, (eased-0.45)/0.55);
-          rightArea.setAttribute("opacity", rightAlpha);
-
-          // slide-in verticals after 65%
-          const vl = Math.max(0, (eased-0.65)/0.35);
-          const yCrit = YT + (Y0-YT)*vl;
-          lineCrit.setAttribute("y2", yCrit);
-          const yHit = YT + (Y0-YT)*Math.max(0, (eased-0.70)/0.30);
-          lineHit.setAttribute("y2", yHit);
-
-          // labels fade-in near end
-          labCrit.setAttribute("opacity", Math.max(0, (eased-0.82)/0.18));
-          labHit.setAttribute("opacity", Math.max(0, (eased-0.86)/0.14));
-
+        // animate
+        const total=D.curve.length; let start=null;
+        function ease(t){{ return t<0.5 ? 2*t*t : -1+(4-2*t)*t; }}
+        function frame(ts){{
+          if(!start) start=ts; let p=(ts-start)/{dur}; if(p>1) p=1; const e=ease(p);
+          const idx=Math.max(2, Math.floor(total*e)); const seg=D.curve.slice(0,idx);
+          curve.setAttribute("d", toPath(seg));
+          leftA.setAttribute("opacity", Math.min(1, e*2.2));
+          const rA = Math.max(0, (e-0.45)/0.55);
+          rightA.setAttribute("opacity", rA); if(rA>0.05) rightA.setAttribute("class","pulseGold");
+          const vl=Math.max(0,(e-0.65)/0.35); lineC.setAttribute("y2", YT+(Y0-YT)*vl);
+          const vh=Math.max(0,(e-0.70)/0.30); lineH.setAttribute("y2", YT+(Y0-YT)*vh);
+          labC.setAttribute("opacity", Math.max(0,(e-0.82)/0.18));
+          labH.setAttribute("opacity", Math.max(0,(e-0.86)/0.14));
           if(p<1) requestAnimationFrame(frame);
-        }
+        }}
         requestAnimationFrame(frame);
-
-        // Return svg in case caller needs
-        return svg;
       }}
 
-      // Render both
       makeSVG("f-main", false);
       makeSVG("f-zoom", true);
     }})();
     </script>
-    """
-    components.html(html, height=height+220, scrolling=False)
+    """.format(alpha=f"{alpha:.2f}", DATA=DATA, dur=3000)
+    components.html(html, height=height+240, scrolling=False)
 
 # -------------------------
 # CONTROLS
@@ -514,21 +423,18 @@ def new_round(reset:bool):
     st.rerun()
 
 # -------------------------
-# HEADER
+# HEADER & SIDEBAR
 # -------------------------
 st.markdown("""
 <div class="el-card fade" style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
   <div>
-    <div class="el-title" style="font-size:28px;">⚔️ ANOVA Odyssey: <span style="color:#4A67E9">Smooth Cinematic Edition</span></div>
+    <div class="el-title" style="font-size:28px;">⚔️ ANOVA Odyssey: <span style="color:#4A67E9">Full Cinematic Glow</span></div>
     <div class="el-sub">Kelompok 4 ANOVA · HMSD Adyatama ITERA 2025</div>
   </div>
   <div class="el-chip">Elegan ANOVA · Biru & Emas</div>
 </div>
 """, unsafe_allow_html=True)
 
-# -------------------------
-# SIDEBAR
-# -------------------------
 with st.sidebar:
     st.markdown("### 🧭 Progress")
     st.write("**Level/Ronde:**", st.session_state.round)
@@ -587,7 +493,7 @@ significant = Fcalc > Fcrit
 st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
 st.markdown('<div class="el-title">🎯 Prediksi Kamu</div>', unsafe_allow_html=True)
 st.markdown('<div class="el-sub">Berdasarkan tabel & grafik batang, apakah mean berbeda signifikan?</div>', unsafe_allow_html=True)
-choice = st.radio("Pilih jawaban:", ["Ya, signifikan ✅","Tidak signifikan ❌"], key="guess_v42")
+choice = st.radio("Pilih jawaban:", ["Ya, signifikan ✅","Tidak signifikan ❌"], key="guess_v43")
 go = st.button("Kunci Jawaban & Lihat Hasil 🧪")
 st.markdown('</div>', unsafe_allow_html=True)
 
@@ -661,23 +567,19 @@ if go:
         """
         note = "Perbedaan mean tidak cukup kuat dibanding noise dalam-kelompok."
 
-    # Hasil ringkas
     st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
     st.markdown(f'<div style="display:flex; align-items:center; gap:10px;">{badge}<div style="font-weight:900;">&nbsp;Hasil Ronde {st.session_state.round}</div></div>', unsafe_allow_html=True)
     st.write(st.session_state.last_feedback)
     st.markdown('</div>', unsafe_allow_html=True)
 
-    # Layout: Lab panel + Dual Animated F Graph
-    left, right = st.columns([1.08, 1])
+    left, right = st.columns([1.05, 1])
     with left:
         st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
         lab_panel(anv, alpha, decision_html, note)
         st.markdown('</div>', unsafe_allow_html=True)
     with right:
-        # Dual animated F-graph (utama + zoom) — smooth cinematic 3s
-        render_f_animated(df1, df2, Fcalc, Fcrit, alpha, height=600)
+        render_f_animated(df1, df2, Fcalc, Fcrit, alpha, height=620)
 
-    # Next round
     st.markdown('<div class="el-card fade">', unsafe_allow_html=True)
     c1,c2 = st.columns(2)
     with c1:
@@ -711,5 +613,4 @@ with st.expander("🏅 Riwayat Ronde & Leaderboard (Sesi Ini)"):
 # FOOTER
 # -------------------------
 st.markdown('<div class="hr-soft"></div>', unsafe_allow_html=True)
-st.caption("Animasi kurva F digambar bertahap (3 detik) menggunakan SVG + requestAnimationFrame; area kritis glow emas, garis F_krit dan F_hit slide-in. "
-           "Konfeti overlay via canvas parent, otomatis hilang setelah 2 detik. Tabel F α=0.05 diinterpolasi; α=0.10/0.01 memakai skala pendekatan edukatif.")
+st.caption("Build aman (no SyntaxError): data JS ditanam pakai json.dumps + .format(); kurva F dianimasikan 3 detik, area kritis glow emas berdenyut, dan garis F_krit/F_hit slide-in. Konfeti overlay 2 detik di sisi kanan.")
