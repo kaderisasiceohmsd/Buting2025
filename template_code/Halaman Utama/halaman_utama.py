@@ -82,7 +82,7 @@ def display_images_with_data(gambar_urls, data_list):
             if img is not None:
                 images.append(img)
 
-   for i, img in enumerate(images):
+    for i, img in enumerate(images):
         # Menampilkan gambar di tengah
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
