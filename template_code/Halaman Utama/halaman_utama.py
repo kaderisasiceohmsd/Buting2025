@@ -172,11 +172,11 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1cmz12RH1e92O6B7yIt7LgPtOkN-y7_qt",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1ntjjSNkS2Q75WdZUqNfOZ7nhY1dtdvxJ",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1Vs0BblRlHkCkyOTNKlHKNafPs9zoZYZf",
             "https://drive.google.com/uc?export=view&id=152kn1VwtsFDWOYUgr-05fNxn765UlmWk",
             "https://drive.google.com/uc?export=view&id=1nteU7mBaF4WuyacPn4zAZcnqqvu2Da-2",
             "https://drive.google.com/uc?export=view&id=1vFsJMR4gP8JYcfxO9XeU2xUUJDSRHyXW",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1FhKN0yyaPWCS5Z08guKfSBG4hw6a4S3K",
            
         ]
         data_list = [
