@@ -783,6 +783,7 @@ if menu == "Departemen MIKFES":
             "https://drive.google.com/uc?export=view&id=1eGGOFwHI8EGf7EGmdRGDHnxbd8TfsSGw",
             "https://drive.google.com/uc?export=view&id=1KmBnlL-k9M80_wKcNYDXW9miCtntY62",
             "https://drive.google.com/uc?export=view&id=1tEYk13s3XpTmn9U9Dc12fnFli2sJn_yj",
+        ]
         data_list = [
             {
                 "nama": "Randa Andriana Putra",
