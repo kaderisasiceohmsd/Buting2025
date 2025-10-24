@@ -438,7 +438,7 @@ if menu == "Departemen PSDA":
             "https://drive.google.com/uc?export=view&id=1XujV65lpFfHdvprXMnBYBJMH8Wwqyo59",
             "https://drive.google.com/uc?export=view&id=1zGSt4NTSZZQoX_1LGsus5bo_0MZM0vhm",
             "https://drive.google.com/uc?export=view&id=1sfUOIxx8bhhjLaKII-u7z5bXE1dhjQ3V",
-            "https://drive.google.com/uc?export=view&id=18uM2BSZrvxleh6OUqqRV8IcYtnWck-rQ/",
+            "https://drive.google.com/uc?export=view&id=18uM2BSZrvxleh6OUqqRV8IcYtnWck-rQ",
             "https://drive.google.com/uc?export=view&id=1trqEBbQPrpRmdFtKPjiqMuDdW_gaO9JH",
             "https://drive.google.com/uc?export=view&id=1AJXQK4WKmKBBLt5qTmL9rEYW3dZaYWFH",
             "https://drive.google.com/uc?export=view&id=1KyMv7lpdpYC5trLAXjIsAEMdTBLdISux",
