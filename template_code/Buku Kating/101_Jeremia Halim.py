@@ -468,11 +468,11 @@ if menu == "Departemen PSDA":
         data_list = [
             {
                 "nama": "Ferdy Kevin Naibaho",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "122450107",
+                "umur": "21",
+                "asal":"Medan",
+                "alamat": "Tanjung Senang",
+                "hobbi": "Futsal",
                 "sosmed": "@ferdy_kevin",
                 "kesan": "Abang cool abiez",  
                 "pesan":"semakin cool bang dan semangat terus bang jadi kadep!"# 1
@@ -919,14 +919,14 @@ if menu == "Departemen MIKFES":
             },
             {
                 "nama": "Fabiolla Charissa Putri",
-                "nim": "-",
-                "umur": "-",
-                "asal":"-",
-                "alamat": "-",
-                "hobbi": "-",
+                "nim": "123450035",
+                "umur": "20",
+                "asal":"Pesawaran, Lampung",
+                "alamat": "Pesawaran, Lampung",
+                "hobbi": "Main piano dan nyanyi",
                 "sosmed": "@pebby_olla525",
-                "kesan": "Kakak kalem, baik",  
-                "pesan":"semangat teruss kak!"# 1
+                "kesan": "Kakak kalem, baik, lucu",  
+                "pesan":"semangat teruss kak main musik dan kuliahnya!"# 1
             },
             {
                 "nama": "Fairuz Ary Syifa",
