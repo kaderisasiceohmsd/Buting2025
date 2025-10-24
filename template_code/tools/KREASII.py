@@ -244,7 +244,7 @@ def f_pdf(x:float, d1:int, d2:int)->float:
 # -------------------------
 def render_f_animated(df1:int, df2:int, Fcalc:float, Fcrit:float, alpha:float, height:int=600):
     W, H, PAD = 1000, height, 50
-    xmax = max(8.0, Fcrit*1.45, Fcalc*1.30, 6 + 0.6*df1)
+    xmax = max(8.0, Fcrit*1.6, Fcalc*1.15 if Fcalc < 15 else Fcalc*0.85, 10 + 1.2*df1)
     N = 520
     xs = [xmax*i/(N-1) for i in range(N)]
     ys = [f_pdf(x, df1, df2) for x in xs]
