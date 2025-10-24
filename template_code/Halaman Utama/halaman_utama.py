@@ -137,7 +137,7 @@ elif menu == "About Us":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1zujBrFyxrhkbGMpG6DjZfAekH-_jbcyc", #niko
             "https://drive.google.com/uc?export=view&id=1NRBQH_QT8lNsbMgg6gWx4wvw-yfxObUU", #rahma
-            "https://drive.google.com/uc?export=view&id=1PlYQrm1pg9FoCmZHf9o79lLAYC2ozbuZ", #fadya
+            "https://drive.google.com/uc?export=view&id=1dM1sfaWa59jFaga9H3FAWNka24gW8Mpd", #fadya
             "https://drive.google.com/uc?export=view&id=1RpUljY4kbmbHDiXhbts5hZMmpfh1usw3", #indah
             "https://drive.google.com/uc?export=view&id=1qI4MFay1-fhuszwZQwlPxYsv2BY-ybne", #caca
             "https://drive.google.com/uc?export=view&id=1Cl0u_FOfQlMiPuROPViGGepppIommkko", #anggun
