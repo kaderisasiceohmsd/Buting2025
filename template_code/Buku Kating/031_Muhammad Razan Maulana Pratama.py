@@ -475,8 +475,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Belwis",
                 "hobbi": "Main",
                 "sosmed": "@allyapasha_",
-                "kesan": "-",
-                "pesan": "-"#3
+                "kesan": "Kak Allya ini serem awalnya, tapi kalo di ajak ngobrol di luar waktu serius ka Allya ini baik banget kalo di sapa sapa balik dan dengan penuh senyum",
+                "pesan": "Semangat terus kuliahnya kak, sehat terus dan semoga perkuliahan nya dilancarkan"#3
             },
             {
                 "nama": "Ahmad Rizky",
@@ -486,8 +486,8 @@ if menu == "Departemen PSDA":
                 "alamat": "GH",
                 "hobbi": "Ngekader",
                 "sosmed": "@ahmad.rizky__",
-                "kesan": "-",
-                "pesan": "-"#4
+                "kesan": "Bang Ahmad ini baik dan ramah, pikiran nya terbuka banget apalagi kalo bahas politik",
+                "pesan": "Semangat terus Bang, sehat selalu, semoga semua yang diinginkan tercapai dan dimudahkan"#4
             },
             {
                 "nama": "Arienta Khusnul Ananda",
@@ -497,8 +497,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Cari Kesibukan",
                 "sosmed": "@arientakhsnl_",
-                "kesan": "-",
-                "pesan": "-"#5
+                "kesan": "Kak Arienta ini baik banget dan ramah, walaupun raut muka nya agak serem",
+                "pesan": "Sehat-sehat terus kak, semangat kuliahnya, semoga cita-citanya tercapai"#5
             },
             {
                 "nama": "Daffa Hadyan Navista",
@@ -508,8 +508,8 @@ if menu == "Departemen PSDA":
                 "alamat": "Airan",
                 "hobbi": "Jailin Miyor",
                 "sosmed": "@daffahdynn_",
-                "kesan": "-",
-                "pesan": "-"#6
+                "kesan": "Bang Daffa ini muka nya serem tapi kalo udah kenal bang Daffa itu baik banget dan lucu juga walau terkadang asal bunyi",
+                "pesan": ""#6
             },
             {
                 "nama": "Ginda Fajar Riadi Marpaung",
