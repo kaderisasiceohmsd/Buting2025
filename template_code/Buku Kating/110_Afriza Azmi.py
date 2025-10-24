@@ -1439,7 +1439,7 @@ if menu == "Departemen Internal":
                 "alamat": "Urip",
                 "hobbi": "Berkuda",
                 "sosmed": "@may_dahlia12",
-                "kesan": "serem banget sii kak, senyum laaa kali kalii,  
+                "kesan": "serem banget sii kak, senyum laaa kali kalii",  
                 "pesan":"jangan serem serem yaa kak"# 1
             },
             {
