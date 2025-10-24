@@ -448,12 +448,12 @@ elif menu == "Departemen Medkraf":
             },
               {
                 "nama": "Try Yani Rizki Nur Rohmah",
-                "nim": "",
-                "umur": "",
-                "asal": "",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "nim": "122450020",
+                "umur": "20",
+                "asal": "Lampung Barat",
+                "alamat": "Korpri",
+                "hobbi": "Belajar",
+                "sosmed": "@tryyanitiaaa",
                 "kesan": "Keliatan banget vibes positif nya",  
                 "pesan": "Semoga cepat lulus ya kak"# 1
             },
@@ -713,11 +713,11 @@ if menu == "Departemen SSD":
             {
                 "nama": "Nabila Zakiyah Zahra",
                 "nim": "123450023",
-                "umur": ".",
-                "asal": ".",
-                "alamat": ".",
-                "hobbi": ".",
-                "sosmed": ".",
+                "umur": "21",
+                "asal": "Bandar Lampung",
+                "alamat": "Way Halim",
+                "hobbi": "Jogging",
+                "sosmed": "@nabila_zazahra",
                 "kesan": "Kakaknya kalau ngomong lembut banget dan ramah",  
                 "pesan":"Terus jadi orang yang vibes positif ya kak"# 6
             },
@@ -843,10 +843,10 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Aisyah Musfirah",
                 "nim": "123450084",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
+                "umur": "21",
+                "asal":"Bengkulu",
+                "alamat": "Jl.Lapas",
+                "hobbi": "Maskeran",
                 "sosmed": "@_aishsahi",
                 "kesan": "kakaknya aura vibes positif banget kalem juga ",  
                 "pesan":"Jangan lupa makan dan minum kak, semangat terus"# 4
@@ -953,22 +953,22 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Fairuz Ary Syifa",
                 "nim": "123450044",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "Sukarame",
+                "hobbi": "Tidur",
+                "sosmed": "@_fairuzary",
                 "kesan": "Kakaknya tipe yang langsung asik deh kayaknya",  
                 "pesan":"Semangat terus ya kak di dunia perkuliahannya"# 14
             },
             {
                 "nama": "Tanty Widyiastuti",
                 "nim": "123450094",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@i",
+                "umur": "20",
+                "asal":"Lampung Tengah",
+                "alamat": "Asrama TB 4",
+                "hobbi": "Tidur",
+                "sosmed": "@tvnty_",
                 "kesan": "Keliatannya kakaknya galak aslinya perhatian",  
                 "pesan":"Makasi kak dah nanyain keadaanku waktu di notiz hut"# 15
             },
@@ -1009,33 +1009,33 @@ if menu == "Departemen MIKFES":
             {
                 "nama": "Rahma Oktavia Albar",
                 "nim": "123450003",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "umur": "19",
+                "asal":"Bengkulu Selatan",
+                "alamat": "Jl.Lapas Raya",
+                "hobbi": "Main Catur",
+                "sosmed": "@_rhmaoktvia",
                 "kesan": "Kakaknya vibes positif pake banget",  
                 "pesan":"Tetap jadi orang vibes positif terus ya kak"# 19
             },
             {
                 "nama": "Rahmah Gustriana Deka",
                 "nim": "123450102",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "umur": "20",
+                "asal":"Lampung",
+                "alamat": "Airan 1",
+                "hobbi": "Main ke embung",
+                "sosmed": "@gustriana.d",
                 "kesan": "Kakaknya baik banget dan perhatian",  
                 "pesan":"Semangat terus buat kakaknya jangan patah semangat"# 20
             },
             {
                 "nama": "Razin Hafid Hamdi",
                 "nim": "123450096",
-                "umur": "",
-                "asal":"",
-                "alamat": "",
-                "hobbi": "",
-                "sosmed": "@",
+                "umur": "20",
+                "asal":"Sumatera Barat",
+                "alamat": "Belwis",
+                "hobbi": "Futsal",
+                "sosmed": "@razyn.hfd",
                 "kesan": "Abangnya baik banget mau bantuin dan ngasih tau banyak hal tentang website",  
                 "pesan":"Makasih ya bang ilmu ilmunya"# 21
             },
@@ -1575,22 +1575,22 @@ elif menu == "Departemen PSDA":
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "122450107",
-                "umur": " ",
-                "asal":" ",
-                "alamat": " ",
-                "hobbi": " ",
-                "sosmed": "@ ",
+                "umur": "21",
+                "asal":"Medan",
+                "alamat": "Tanjung Senang ",
+                "hobbi": "Futsal ",
+                "sosmed": "@ferdy_kevin ",
                 "kesan": "Tegas, beribawa, tapi pas penampilan angkatan 22 di paskah abangnya lucu banget",  
                 "pesan":"Semangat terus bang jangan lupa ibadah bang"# 1
             },
             {
                 "nama": "Nisrina Nur Afifah",
                 "nim": "122450052",
-                "umur": " ",
-                "asal":" ",
-                "alamat": " ",
-                "hobbi": " ",
-                "sosmed": "@i",
+                "umur": "20 ",
+                "asal": "Bekasi ",
+                "alamat": "Korpsu ",
+                "hobbi": "Jalan jalan ",
+                "sosmed": "@afifahhnsrn",
                 "kesan": "Kakaknya baik dan perhatian",  
                 "pesan":"Semangat terus buat kakaknya semoga cepat lulus kak"# 2
             },
@@ -1735,7 +1735,7 @@ elif menu == "Departemen PSDA":
                 "umur": "20",
                 "asal": "Way Kanan",
                 "alamat": "Untung",
-                "hobbi": "-",
+                "hobbi": "Scroll Tiktok",
                 "sosmed": "@rismaa.mustika_",
                 "kesan": "Kakaknya serem, tapi aslinya murah senyum",
                 "pesan": "Tetap semangat dan jangan tinggalkan ibadah ya kak" # 15
@@ -1878,6 +1878,7 @@ elif menu == "Departemen PSDA":
 
 
 # Tambahkan menu lainnya sesuai kebutuhan
+
 
 
 
