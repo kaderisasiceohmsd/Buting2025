@@ -134,7 +134,7 @@ elif menu == "About Us":
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1qI3HDfMsbus9TnzJ5oDHUBjCrReAUmdq",
             "https://drive.google.com/uc?export=view&id=1tEVXxONkKHSRX3-NGqVILi0bC1Rwdz8t",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1YkImAh1qxs0ZGoZdT2xCb9I7KFZ0M84G",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1c7p7YO8HUUeKU2u1ylmlenrV1w3FSBPz",
             "https://drive.google.com/uc?export=view&id=1lZJmTmcLzgSV1DY93G1KGJPvm16LlvT4",
@@ -142,7 +142,7 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1IVDJ_x6SUqUo9OBnzwPbnvQ5BV7doSN3",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1l0tjYOpCsdmiFyR8sOFZptAXRfOglaZb",
             "https://drive.google.com/uc?export=view&id=12jDkEy792p-ldCTfPQpWZehx6oexcBh_",
         ]
         data_list = [
@@ -163,9 +163,9 @@ elif menu == "About Us":
             {
                 "nama": "Wielman Itolo Halawa",
                 "sebagai": "Anggota",
-                "nim": "122450083",
-                "fun_fact": "nyemilin es bata",
-                "motto_hidup": "mantap",
+                "nim": "122450072",
+                # "fun_fact": "dari awal kuliah, selalu ditanyain udah bisa lompat batu apa belum",
+                "motto_hidup": "hidup itu berproses, sesuaikanlah",
             },
             {
                 "nama": "Charrlindah",
@@ -203,11 +203,11 @@ elif menu == "About Us":
                 "motto_hidup": "yang bisa dilakuin sekarang, jangan ditunda besok",
             },
             {
-                "nama": "gio silma",
+                "nama": "Gio Silma",
                 "sebagai": "Anggotaa",
-                "nim": "122450110",
-                "fun_fact": "nyemilin es batu, kiko",
-                "motto_hidup": "jalanin dulu keles",
+                "nim": "122450069",
+                "fun_fact": "-",
+                "motto_hidup": "-",
             },
             {
                 "nama": "Risa Romadona",
