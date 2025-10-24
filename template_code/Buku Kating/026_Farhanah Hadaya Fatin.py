@@ -113,7 +113,7 @@ if menu == "Kesekjenan":
                 "umur": "21",
                 "asal":"Cikarang",
                 "alamat": "Pulau Damar",
-                "hobi": "Ikut lomba burung murai",
+                "hobbi": "Ikut lomba burung murai",
                 "sosmed": "@_erendraa",
                 "kesan": "Asik banget abang ini, sngat chill",  
                 "pesan":"Selalu gini terus ya bang, semangat ngerjain TA-nya!"# 1
@@ -124,7 +124,7 @@ if menu == "Kesekjenan":
                 "umur": "20",
                 "asal":"Tangerang",
                 "alamat": "Jalan Lapas",
-                "hobi": "Baca Buku SQL",
+                "hobbi": "Baca Buku SQL",
                 "sosmed": "@johanneskrisjnnn",
                 "kesan": "Asli keren beut bang, kalcer abisss",  
                 "pesan":"semangat kuliahnya banggg!"# 1
@@ -135,7 +135,7 @@ if menu == "Kesekjenan":
                 "umur": "19",
                 "asal":"Tangerang",
                 "alamat": "Ayres kost",
-                "hobi": "Jajan",
+                "hobbi": "Jajan",
                 "sosmed": "@celisabethh_",
                 "kesan": "Senyumnya cakep, ceria banget juga kakaknya",  
                 "pesan":"Sering-sering ya kak senyumnyaa, candu"# 1
@@ -146,7 +146,7 @@ if menu == "Kesekjenan":
                 "umur": "21",
                 "asal":"Palembang",
                 "alamat": "Belwis",
-                "hobi": "Membaca",
+                "hobbi": "Membaca",
                 "sosmed": "@puspadrr",
                 "kesan": "Adem banget kakk, berasa lagi di tempat rindang kalau liat kakak",  
                 "pesan":"Semangat jalanin hari-harinya kak!"# 1
@@ -157,7 +157,7 @@ if menu == "Kesekjenan":
                 "umur": "21",
                 "asal":"Kelagian Kecil, Pahawang",
                 "alamat": "Pesawaran",
-                "hobi": "Ngambilin Lanyard",
+                "hobbi": "Ngambilin Lanyard",
                 "sosmed": "@eksantyfebriana",
                 "kesan": "Kakak jahill, tapi seru aselik",  
                 "pesan":"Iseng terus ya kak, udah jadi ciri khas kakak soalnya hehe"# 1
@@ -168,7 +168,7 @@ if menu == "Kesekjenan":
                 "umur": "21",
                 "asal":"Padang",
                 "alamat": "Gya kost",
-                "hobi": "Cute",
+                "hobbi": "Cute",
                 "sosmed": "@farahanumafifahh",
                 "kesan": "Gak teerlalu banyak ngomong, tapi sekali ngomong langsung berasa asiknyaa",  
                 "pesan": "Senyum nya manis kak, senyum terus dong"# 1
@@ -203,7 +203,7 @@ if menu == "Baleg":
                 "umur": "21",
                 "asal":"Tanjung Morawa",
                 "alamat": "B2 no 2",
-                "hobi": "main volly bareng feby",
+                "hobbi": "main volly bareng feby",
                 "sosmed": "@jeremia_s_",
                 "kesan": "Seru banget abangnya aslik, keren juga lagi",  
                 "pesan":"Selalu jadi keren ya bang"# 1
@@ -214,7 +214,7 @@ if menu == "Baleg":
                 "umur": "21",
                 "asal":"Kendari",
                 "alamat": "Bandar Lampung Ujung",
-                "hobi": "kalo badmood liat zaldi",
+                "hobbi": "kalo badmood liat zaldi",
                 "sosmed": "@_.dheamelia",
                 "kesan": "Ramah banget kakaknya, mukanya juga manisss",  
                 "pesan": "Jaldinya jangan dikantongin ya kak kalau lagi badmood =D"# 1
@@ -225,7 +225,7 @@ if menu == "Baleg":
                 "umur": "22",
                 "asal":"Teluk",
                 "alamat": "Teluk",
-                "hobi": "Nawarin Alat Pancing",
+                "hobbi": "Nawarin Alat Pancing",
                 "sosmed": "@renishapg",
                 "kesan": "Cakep banget kakak ini, lucuk",  
                 "pesan":"ayok mancing kak"# 1
@@ -236,7 +236,7 @@ if menu == "Baleg":
                 "umur": "20",
                 "asal":"Bandar Lampung",
                 "alamat": "Wakatobi",
-                "hobi": "Bowling",
+                "hobbi": "Bowling",
                 "sosmed": "@ansftynn",
                 "kesan": "Easy going bgt kakak ini, seru diajak ngobrol",  
                 "pesan":"Sehat terus kak, nanti kita main"# 1
@@ -247,7 +247,7 @@ if menu == "Baleg":
                 "umur": "20",
                 "asal":"Lampung Barat",
                 "alamat": "Sukabumi",
-                "hobi": "Liatin langit",
+                "hobbi": "Liatin langit",
                 "sosmed": "@givarooo",
                 "kesan": "asik banget ngobrol sama abang, waktu jadi gk kerasa",  
                 "pesan":"Liatin yang lain bang langitnya bosen diliatin"# 1
@@ -258,7 +258,7 @@ if menu == "Baleg":
                 "umur": "20",
                 "asal":"Bekasi",
                 "alamat": "Wai huwi",
-                "hobi": "Mancing keributan",
+                "hobbi": "Mancing keributan",
                 "sosmed": "@fby.wlndr",
                 "kesan": "Kalem banget.. mana mirip sama dipa kakak ini",  
                 "pesan":"Mending mancing ikan sama saya aja kak"# 1
@@ -269,7 +269,7 @@ if menu == "Baleg":
                 "umur": "18",
                 "asal":"Bandar Lampung",
                 "alamat": "Way Halim",
-                "hobi": "Nonton live putri padang",
+                "hobbi": "Nonton live putri padang",
                 "sosmed": "@dhruchyo",
                 "kesan": "Loh kok... bang kapan jualan lagi bang",  
                 "pesan":"hayoyo, semangat yang bang lulus bntar lagi"# 1
@@ -280,7 +280,7 @@ if menu == "Baleg":
                 "umur": "21",
                 "asal":"Jakarta",
                 "alamat": "Korpri",
-                "hobi": "Nyobain Makanan Baru",
+                "hobbi": "Nyobain Makanan Baru",
                 "sosmed": "@myrrinn",
                 "kesan": "Abang ini keren bgt, auranya dapet banget",  
                 "pesan":"Semangat ngerjain TA-nya bang!"# 1
@@ -302,7 +302,7 @@ if menu == "Baleg":
                 "umur": "21",
                 "asal":"Sumatera Barat",
                 "alamat": "Belwis",
-                "hobi": "ngumpulin batu unik dipantai",
+                "hobbi": "ngumpulin batu unik dipantai",
                 "sosmed": "@berlyyanda",
                 "kesan": "Asik kakak ini ngobrolnya, kalau cerita seru banget",  
                 "pesan":"Selalu jadi keren ya kakk"# 1
@@ -313,7 +313,7 @@ if menu == "Baleg":
                 "umur": "19",
                 "asal":"Melbourne",
                 "alamat": "GH",
-                "hobi": "Main Padel",
+                "hobbi": "Main Padel",
                 "sosmed": "@iamridhomanik",
                 "kesan": "Abang ini gacor banget anjai, pengen kek dia",  
                 "pesan": "Tetep jadi gacor ya bang"# 1
@@ -335,7 +335,7 @@ if menu == "Baleg":
                 "umur": "19",
                 "asal":"Sumatera Utara",
                 "alamat": "Belwis",
-                "hobi": "Main ML hero semua franco",
+                "hobbi": "Main ML hero semua franco",
                 "sosmed": "@Monica_tjg",
                 "kesan": "Jago bener kakak ini, jadi fans berat",  
                 "pesan":"Main ml jangan sampe lupa makan kak"# 1
@@ -346,7 +346,7 @@ if menu == "Baleg":
                 "umur": "17",
                 "asal":"Tangerang",
                 "alamat": "Belwis",
-                "hobi": "Dengerin ka wawa ngomong",
+                "hobbi": "Dengerin ka wawa ngomong",
                 "sosmed": "@fer_yulius",
                 "kesan": "Adem banget muka abang ini, berasa banget pendengar yang baik",  
                 "pesan":"Selalu jadi pendengarnya kak wawa ya bang"# 1
@@ -371,7 +371,7 @@ if menu == "Senator":
                 "umur": "20",
                 "asal":"Palembang",
                 "alamat": "Raden Saleh",
-                "hobi": "Mancing",
+                "hobbi": "Mancing",
                 "sosmed": "@bintangtwinkle",
                 "kesan": "Asik banget abang ini, keren juga  lagi jadi senat",  
                 "pesan": "Tetep mancing walau sibuk jadi senat"# 1
