@@ -1461,7 +1461,7 @@ if menu == "Departemen Internal":
                 "umur": 20,
                 "asal": "Padang",
                 "alamat": "Perumnas, Way Kandis",
-                "hobi": "Futsal",
+                "hobbi": "Futsal",
                 "sosmed": "@hnfdzky_",
                 "kesan": "Santai tapi niat, keren banget kalo udah turun langsung.",
                 "pesan": "Semoga makin sukses dan tetep jadi pribadi yang solid!"
