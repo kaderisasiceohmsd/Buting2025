@@ -392,8 +392,8 @@ if menu == "Senator":
                 "alamat": "Raden Saleh",
                 "hobbi": "Denger lagu, rapat",
                 "sosmed": "@bintangtwinkle",
-                "kesan": "Abang kece kura-kura",  
-                "pesan":"semangat terus bangg menggapai mimpinya!"# 1
+                "kesan": "Abang kalem, nyantui, asik",  
+                "pesan":"sesuai nama abang, jadilah bintang yang menghiasi langit"# 1
             },
             {
                 "nama": "Nadya Ratu Anjani",
@@ -403,8 +403,8 @@ if menu == "Senator":
                 "alamat": "Sukarame",
                 "hobbi": "Denger lagu, maen roblox",
                 "sosmed": "@nadyaanjanani",
-                "kesan": "Kakak ini asik, baik",  
-                "pesan":"semangat terus kuliahnya, dan langgeng terus ya kak ;)"# 1
+                "kesan": "Kakak ini baik, ramah, murah senyum",  
+                "pesan":"semangat terus kuliahnya, dan langgeng terus ya kak hehe"# 1
             },
             {
                 "nama": "Fathinah Nur Azizah",
@@ -414,8 +414,8 @@ if menu == "Senator":
                 "alamat": "Asrama TB1",
                 "hobbi": "Ice Skating",
                 "sosmed": "@fathinahazzh",
-                "kesan": "Kakak ini baik, seru",  
-                "pesan":"keep positive kak!"# 1
+                "kesan": "positive vibes, baik, pinter",  
+                "pesan":"lakukan sesuatu dengan sungguh sungguh dari hati kakak"# 1
             },
             {
                 "nama": "Lia Hana Ichisasmita",
@@ -425,8 +425,8 @@ if menu == "Senator":
                 "alamat": "Belakang indomaret belwis",
                 "hobbi": "Rebahan",
                 "sosmed": "@lia.h_264",
-                "kesan": "kakaknya kerenn",  
-                "pesan":"semangat terus kuliahnya kakak!"# 1
+                "kesan": "humoris, baik",  
+                "pesan":"semua bisa karena terbiasa"# 1
             },
         ]
         display_images_with_data(gambar_urls, data_list)
