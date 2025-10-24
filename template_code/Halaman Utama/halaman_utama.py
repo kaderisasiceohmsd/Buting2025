@@ -140,6 +140,14 @@ elif menu == "About Us":
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1fAiTcaBB9h3SNpR1Dt0QZmxuHgcxLEKS",
+            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+
+               
         ]
         data_list = [
             {
@@ -210,7 +218,7 @@ elif menu == "About Us":
                 "sebagai": "Anggotaa",
                 "nim": "124450054",
                 "fun_fact": "susah hapalin nama orang baru",
-                "motto_hidup": "yang penting bisa makan",
+                "motto_hidup": "tebarkan kebaikan maka ia akan kembali padamu",
             },
             {
                 "nama": "Razan",
