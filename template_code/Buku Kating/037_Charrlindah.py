@@ -227,7 +227,7 @@ if menu == "Baleg":
                 "alamat": "C2",
                 "hobbi": "Belajar Mengaji",
                 "sosmed": "@ansftynn_",
-                "kesan": "ramaah banget kak anisa",
+                "kesan": "ramaah banget kak anisa hihi",
                 "pesan":"jangan lupa jaga kesehatan yaa kak, mam yang banyak"
             },
             {
