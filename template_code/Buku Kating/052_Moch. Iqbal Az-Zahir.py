@@ -366,17 +366,16 @@ if menu == "Baleg":
 if menu == "Senator":
     def senator():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1raJs9jl9lRH_uXDa-zvEahnIpVGmYQfD",
-            "https://drive.google.com/uc?export=view&id=1nsw4dSdxhoYLYBHqLCCl7-itIb2UCwM9",
-            "https://drive.google.com/uc?export=view&id=1Xpj686MS9YMA4h2Zh2hLYHP5MvdUeZaz",
+            "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
+            "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
+            "https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
 
-"https://drive.google.com/uc?export=view&id=1v61dGBOHfg7uBKsGAliC-kOOLr2VckDz",
-            "https://drive.google.com/uc?export=view&id=1nSAbDLAvG3VYM8zadbrAVf_3NgQmaumR",
-            "https://drive.google.com/uc?export=view&id=1COdHLghT9LQ1lcv_nT5zix_zuSdaDzkb",
+"https://drive.google.com/uc?export=view&id=1ePFq5fup7onWqO9tZf5fk_4MVd-6RvxH",
+         
         ]
         data_list = [
             {
-                "nama": "Rendra Eka Prayoga",
+                "nama": "Rian Bintang Wijaya",
                 "nim": "122450112",
                 "umur": "21",
                 "asal":"Cikarang",
@@ -418,28 +417,7 @@ if menu == "Senator":
                 "kesan": "Keren abisss",  
                 "pesan":"semangat terus kuliahnya kakak !!!"# 1
             },
-            {
-                "nama": "kakak",
-                "nim": "122450043",
-                "umur": "20",
-                "asal":"Tangerang",
-                "alamat": "Jl.Lapas",
-                "hobbi": "Baca buku SQL",
-                "sosmed": "@johanneskrisjnnn",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
-            {
-                "nama": "Kakak CCc",
-                "nim": "122450000",
-                "umur": "18",
-                "asal":"Bekasi",
-                "alamat": "Gg.sakum",
-                "hobbi": "Mainn Bola, Belajar",
-                "sosmed": "@i",
-                "kesan": "Kakak ini asik saya suka belajar dengan dia",  
-                "pesan":"semangat terus kuliahnya kakak !!!"# 1
-            },
+            
         ]
         display_images_with_data(gambar_urls, data_list)
     senator()
