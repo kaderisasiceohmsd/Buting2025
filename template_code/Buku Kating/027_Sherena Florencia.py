@@ -448,11 +448,11 @@ elif menu == "Departemen PSDA":
             {
                 "nama": "Ferdy Kevin Naibaho",
                 "nim": "122450107",
-                "umur": " ",
-                "asal":" ",
+                "umur": "21 ",
+                "asal":"Sumatera Barat",
                 "alamat": " ",
                 "hobbi": " ",
-                "sosmed": "@ ",
+                "sosmed": "@ferdy_kevin",
                 "kesan": "Awalnya aku takut ama kakaknya, tapi ternyata ga semenakutkan itu kakaknya juga keren dan asik, seru banget",  
                 "pesan":"Jangan menyerahhhhh tidak boleh menyerahhhh tetap SEMANGATTTT"# 1
             },
@@ -465,7 +465,7 @@ elif menu == "Departemen PSDA":
                 "hobbi": "Jalan jalan",
                 "sosmed": "@afifahhnsrn",
                 "kesan": "Kakaknya cantik banget, tegas tapi baik. Tapi kakaknya cantik banget, aku sering curi curi pandang ke kakak, karna emang secantik itu, maaf ya kak ku suka liatin kakak",  
-                "pesan":"Semangat terrus ya kak, dilancarkan kuliahnya, mau dong kak di spill" skincare nya# 1
+                "pesan":"Semangat terrus ya kak, dilancarkan kuliahnya, mau dong kak di spill skincare nya" # 1
             },
             {
                 "nama": "Allya Nurul Islami Pasha",
