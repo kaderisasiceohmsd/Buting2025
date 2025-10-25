@@ -735,6 +735,7 @@ if menu == "Departemen PSDA":
         ]
         display_images_with_data(gambar_urls, data_list)
     psda()
+    
 if menu == "Departemen MIKFES":
     def mikfes():
         gambar_urls = [
@@ -1007,6 +1008,7 @@ if menu == "Departemen MIKFES":
         ]
         display_images_with_data(gambar_urls, data_list)
     mikfes()
+    
 if menu == "Departemen Eksternal":
     def eksternal():
         gambar_urls = [
