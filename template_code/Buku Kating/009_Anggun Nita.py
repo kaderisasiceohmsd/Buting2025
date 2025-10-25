@@ -132,10 +132,10 @@ if menu == "Kesekjenan":
             {
                 "nama": "Elisabeth Claudia Simanjuntak",
                 "nim": "122450123",
-                "umur": "19",
-                "asal":"Tanggerang",
-                "alamat": "Airest Kost",
-                "hobbi": "siram shopee",
+                "umur": "24",
+                "asal":"Baduy dalem",
+                "alamat": "Ayres Kost",
+                "hobbi": "makan kuaci",
                 "sosmed": "@celisabeth_",
                 "kesan": "Kakaknya cantik dan asik",  
                 "pesan":"semangat terus kuliahnya kakak"# 3
@@ -143,7 +143,7 @@ if menu == "Kesekjenan":
             {
                 "nama": "Syadza Puspadari Azhar",
                 "nim": "122450072",
-                "umur": "18",
+                "umur": "21",
                 "asal":"Palembang",
                 "alamat": "Belwis",
                 "hobbi": "Membaca",
@@ -155,9 +155,9 @@ if menu == "Kesekjenan":
                 "nama": "Eksanty F. Sukma Islamiatyr",
                 "nim": "12245001",
                 "umur": "19",
-                "asal":"Rote, NTT",
-                "alamat": "rajabasa",
-                "hobbi": "baca buku , saku pramuka",
+                "asal":"Wakatobi, Sulawesi Tenggara",
+                "alamat": "Mutun, Pesawaran",
+                "hobbi": "Ngomenin tiktok cewe cantik",
                 "sosmed": "@eksantyfebriana",
                 "kesan": "Kakaknya asik bangett ",  
                 "pesan":"semangat terus kuliahnya kakak"# 5
@@ -166,9 +166,9 @@ if menu == "Kesekjenan":
                 "nama": "Farahanum Afifah Ardiansyah",
                 "nim": "122450056",
                 "umur": "21",
-                "asal":"kota Padang,Sumbar",
-                "alamat": "Sukarame",
-                "hobbi": "Tidur",
+                "asal":"kota Padang,Sumatera barat",
+                "alamat": " Gya Kost Korpri",
+                "hobbi": "Cute Jenderal",
                 "sosmed": "@farahanumafifah",
                 "kesan": "Kakaknya asik bangett ",  
                 "pesan":"semangat terus kuliahnya kakak"# 6
@@ -268,7 +268,7 @@ elif menu == "Baleg":
                 "nim": "123450078",
                 "umur": "20",
                 "asal":"Lampung Barat",
-                "alamat": "Sukabumi,Lampung",
+                "alamat": "Sukabumi",
                 "hobbi": "dengerin spotify",
                 "sosmed": "@givarooo",
                 "kesan": "abangnya asik banget",  
@@ -313,7 +313,7 @@ elif menu == "Baleg":
                 "umur": "19",
                 "asal":"Medan",
                 "alamat": "GH",
-                "hobbi": "Mainn paddle",
+                "hobbi": "Mainn padel",
                 "sosmed": "@iamridhomanik",
                 "kesan": "abangnya punya semangat positif yang keren",  
                 "pesan":"Semangat kuliahnya bang"#11
@@ -369,8 +369,8 @@ elif menu == "Senator":
                     "nim": "122450094",
                     "umur": "20",
                     "asal":"Palembang",
-                    "alamat": "Tanya caesar",
-                    "hobbi": "padel",
+                    "alamat": "Jalan Raden Saleh",
+                    "hobbi": "Dengar lagu, nyanyi, rapat",
                     "sosmed": "@bintangtwinkle",
                     "kesan": "Abangnya sangat menyenangkan",  
                     "pesan":"Semangat kuliahnya bang"# 1
@@ -379,8 +379,8 @@ elif menu == "Senator":
                     "nama": "Nadya Ratu Anjani",
                     "nim": "123450089",
                     "umur": "20",
-                    "asal":"Jakarta",
-                    "alamat": "belakang indomaret belwis",
+                    "asal":" Bandar Lampung",
+                    "alamat": "Sukarame",
                     "hobbi": "Maen roblox",
                     "sosmed": "@nadyaanjaani",
                     "kesan": "Kakaknya asik",  
@@ -391,8 +391,8 @@ elif menu == "Senator":
                     "nim": "123450072",
                     "umur": "20",
                     "asal":"jakarta",
-                    "alamat": "123450072",
-                    "hobbi": "like instagram",
+                    "alamat": "Asrama TB 1",
+                    "hobbi": "Main ice skating",
                     "sosmed": "@fathinahnazzh",
                     "kesan": "kakaknya sangat menyenangkan",  
                     "pesan":"Semangat kuliahnya kak"#3
@@ -400,10 +400,10 @@ elif menu == "Senator":
                 {
                     "nama": "Lia Hana Ichisasmita",
                     "nim": "123450083",
-                    "umur": "20",
-                    "asal":"Bandar Lampung",
-                    "alamat": "Sukarame",
-                    "hobbi": "dengerin lagu",
+                    "umur": "21",
+                    "asal":"Jakarta",
+                    "alamat": "Belakang Indomart Belwis",
+                    "hobbi": "Rebahan",
                     "sosmed": "@lia.h_264",
                     "kesan": "Kakaknya asik",  
                     "pesan":"Semangat kuliahnya kak"#4
@@ -504,7 +504,7 @@ elif menu == "Departemen PSDA":
                 "umur": "21",
                 "asal":"Sumatera Barat",
                 "alamat": "Sebelah kost kak Arienta",
-                "hobbi": "",
+                "hobbi": "Jahilin miyor",
                 "sosmed": "@daffahdynn_",
                 "kesan": "Abangnya tegas tapi asik juga",  
                 "pesan":"Sukses selalu bang"# 1
@@ -561,8 +561,8 @@ elif menu == "Departemen PSDA":
                 "alamat": "Dekat masjid",
                 "hobbi": "Belajar",
                 "sosmed": "@vany.salsabilaa",
-                "kesan": "",  
-                "pesan":""# 1
+                "kesan": "Kakaknya cantik banget",  
+                "pesan":"Semangat kuliahnya kak"# 1
             },
             {
                 "nama": "Ahmad Sahidin Akbar",
@@ -889,7 +889,7 @@ elif menu == "Departemen MIKFES":
                 "alamat": "Jl. Raden Sale, Airan",
                 "hobbi": "Membaca",
                 "sosmed": "@eeffiidefi",
-                "kesan": "Kak Afifah ceria dan baik hati",  
+                "kesan": "Kak efi ceria dan baik hati",  
                 "pesan":"Semoga selalu dikelilingi hal-hal baik ", # 1
             },
             {
@@ -1130,7 +1130,7 @@ elif menu == "Departemen Eksternal":
                 "asal":"Bandar Lampung",
                 "alamat": "Bandar Lampung",
                 "hobbi": "Baca",
-                "sosmed": "@",
+                "sosmed": "@syahrialdi_rchm",
                 "kesan": "Bang aldi keren, santai, tapi tetap sopan dan berkarisma.",  
                 "pesan":"Semoga karier dan mimpinya berjalan lancar semua ya bang"# 1
             },
@@ -1857,6 +1857,7 @@ elif menu == "Departemen Medkraf":
         ]
         display_images_with_data(gambar_urls, data_list)
     DepartemenMedkraf()
+
 
 
 
