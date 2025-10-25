@@ -415,6 +415,7 @@ if menu == "Senator":
         ]
         display_images_with_data(gambar_urls, data_list)
     senator()
+    
 if menu == "Departemen PSDA":
     def psda():
         gambar_urls = [
