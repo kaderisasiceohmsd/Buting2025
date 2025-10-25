@@ -1492,8 +1492,9 @@ if menu == "Departemen Internal":
         ]
         display_images_with_data(gambar_urls, data_list)
     internal()
-    if menu == "Departemen SSD":
-    def ssd():
+    
+ if menu == "Departemen SSD":
+     def ssd():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1P1wtS0WxKMK9foNjtamPs3SvuMy2ZC2d",
             "https://drive.google.com/uc?export=view&id=1XwRgo5F3n9CiDSOLygXlAarLD9m-cfkB",
