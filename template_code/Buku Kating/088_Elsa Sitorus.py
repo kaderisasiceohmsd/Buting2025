@@ -1497,18 +1497,17 @@ if menu == "Departemen Internal":
 if menu == "Departemen SSD":
     def Departemen_SSD():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1fR4Rzf5TT0jJs_tMO6HWQrfC_IE-keYM",
+            "https://drive.google.com/uc?export=view&id=1oyEQCOq942RayWNyl1E0xZma8osY-Fqv",
+            "https://drive.google.com/uc?export=view&id=191PqBnt9ap1-kj4hTEY7qg3zq3eL8B3B",
+            "https://drive.google.com/uc?export=view&id=1XznuA-q3LGp5IZYZTtJIzSZvOYzHXXgM",
+            "https://drive.google.com/uc?export=view&id=1dpIGNsB9cmZOFlJqJQb_laN1vh4Rxuvi",
+            "https://drive.google.com/uc?export=view&id=15rMtUwJH5cxetCWK9siZRIrFNzZbgc7J",
+            "https://drive.google.com/uc?export=view&id=1mDilWA_NyPTUn9EjfNh9LnvdLSE-KGkk",
+            "https://drive.google.com/uc?export=view&id=13TROmF2gaw4EfseKzUQlOXb4MnPhfw9Z",
+            "https://drive.google.com/uc?export=view&id=1LOD56Zx5-Iss_IlxHQOA38GrghWU_-Js",
+            "https://drive.google.com/uc?export=view&id=1aZEL8TCl4PuL83zwN5AAGRJTRsxDx6x1",
+            "https://drive.google.com/uc?export=view&id=1XoKxrBOhLa0bdf_uStDFOz_eGATUhTXv",
         ]
         data_list = [
             {
@@ -1519,8 +1518,8 @@ if menu == "Departemen SSD":
                 "alamat": "Belakang PB",
                 "hobbi": "jogging",
                 "sosmed": "@dananghk_",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 1
+                "kesan": "Orang terkeren yang kutemui di ITERA, makasih bang sudah jadi orang yang mengayomi dan memberikan banyak banget pelajaran ",
+                "pesan": "Semangat bang untuk segala apapun yang abang jalalanin saat ini, jangan nyerah bang untuk segala apapun yang ingin gapai, tetap jadi orang baik ya bang !!!"   # 1
             },
             {
                 "nama": "Syalaisha Andina Putriansyah",
@@ -1530,8 +1529,8 @@ if menu == "Departemen SSD":
                 "alamat": "Sukarame",
                 "hobbi": "Baca novel",
                 "sosmed": "@syalaishaa_31",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 2
+                "kesan": " Positive Vibes banget ",
+                "pesan": "Semangat kuliahnya kak,  jangan lupa jaga kesehatan !!!"   # 2
             },
             {
                 "nama": "Ahmad Rizqi",
@@ -1541,8 +1540,8 @@ if menu == "Departemen SSD":
                 "alamat": "Airan",
                 "hobbi": "beli parfum",
                 "sosmed": "@den_iki__",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 3
+                "kesan": "Abangnya seru ",
+                "pesan": "Jangan lupa tidur bang !!!"   # 3
             },
             {
                 "nama": "Anadia Carana",
@@ -1552,8 +1551,8 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "jogging",
                 "sosmed": "@anadiacrn__",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 4
+                "kesan": "Hunble Vibesnya kerasa banget ",
+                "pesan": "Jangan lupa istirahat kakak !!!"   # 4
             },
             {
                 "nama": "Aprilia Dewi Hutapea",
@@ -1563,8 +1562,8 @@ if menu == "Departemen SSD":
                 "alamat": "Lampung Selatan",
                 "hobbi": "nonton dramashort di fb",
                 "sosmed": "@aphrtjp__",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 5
+                "kesan": "Cantik banget ",
+                "pesan": "Jangan lupa senyum hari ini kak !!!"   # 5
             },
             {
                 "nama": "Nabila Zakiyah Zahra",
@@ -1574,8 +1573,8 @@ if menu == "Departemen SSD":
                 "alamat": "Way Halim",
                 "hobbi": "jogging",
                 "sosmed": "@nabila_zazahra",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 6
+                "kesan": "Orangnya lemah lembut ",
+                "pesan": "Semangat kak, jangan lelah jadi orang baik !!!"   # 6
             },
             {
                 "nama": "Dhafim Razaqa Luthfi",
@@ -1585,8 +1584,8 @@ if menu == "Departemen SSD":
                 "alamat": "Sukarame",
                 "hobbi": "Belajar",
                 "sosmed": "@dhafinrzqa13",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 7
+                "kesan": "Abangnya keren ",
+                "pesan": "Semangat bang, terus jadi orang keren !!!"   # 7
             },
             {
                 "nama": "Devi Rahayu",
@@ -1596,8 +1595,8 @@ if menu == "Departemen SSD":
                 "alamat": "Way Kandis",
                 "hobbi": "nonton drakor",
                 "sosmed": "@deviirhyu",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 8
+                "kesan": "Lucu dan cantik banget ",
+                "pesan": "Semangat kak, jangan lupa bahagia !!!"   # 8
             },
              {
                 "nama": "Enggli Rahmadhani",
@@ -1607,8 +1606,8 @@ if menu == "Departemen SSD":
                 "alamat": "gg.perwira 2",
                 "hobbi": "menonton alur cerita film",
                 "sosmed": "@engirahmdhnii",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 9
+                "kesan": "Cantik parah ",
+                "pesan": "Semangat kak, jangan lupa bahagia hari ini !!!"   # 9
             },
             {
                 "nama": "Hanifah Inaya Sani",
@@ -1618,8 +1617,8 @@ if menu == "Departemen SSD":
                 "alamat": "Korpri",
                 "hobbi": "Masak",
                 "sosmed": "@_inayasani",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 10
+                "kesan": "Cantik banget kakaknya ",
+                "pesan": "semangat terus kuliahnya kakak, jangan lupa untuk  istirahat !!!"   # 10
             },
             {
                 "nama": "Nydia Manda Putri",
@@ -1629,8 +1628,8 @@ if menu == "Departemen SSD":
                 "alamat": "Tanjung Karang",
                 "hobbi": "Main",
                 "sosmed": "@nydiaputr_",
-                "kesan": "keren banget banggg bisa jadi ",
-                "pesan": "semangat terus kuliahnya kakak !!!"   # 11
+                "kesan": "Vibes cewek keren ",
+                "pesan": "Semangat kak, jangan lupa makan, tidur, senyum dan bahagia !!!"   # 11
             },
         ]
         display_images_with_data(gambar_urls, data_list)
@@ -1639,25 +1638,25 @@ if menu == "Departemen SSD":
 if menu == "Departemen Medkraf":
     def Departemen_Medkraf():
         gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1kzYwn5FRXg5r9vl2O5qXOxOZaPqPlhgN",
+            "https://drive.google.com/uc?export=view&id=1zG-dWtUMfm7H2OdsoBk4Vlr3ZD4WDTmh",
+            "https://drive.google.com/uc?export=view&id=1SoJHDBtDX1CBp_dgQcrdcHn3kgHGJIma",
+            "https://drive.google.com/uc?export=view&id=1-ul8ljmBEk-Q8nxUe9M7xQZ1QTgVgs7V",
+            "https://drive.google.com/uc?export=view&id=1IGQMgwdfO-0cq8TT1nZDai3d4DPIv6jH",
+            "https://drive.google.com/uc?export=view&id=1pFyMgOevlUG65q-ykW3DydH3Xa_Osm7W",
+            "https://drive.google.com/uc?export=view&id=1QJjYEzkokk9lnmomBMxxlezxYiAs-9mV",
+            "https://drive.google.com/uc?export=view&id=1_uFBf5GvR93vVnEFwHeuTJ4r1NtdVug7",
+            "https://drive.google.com/uc?export=view&id=19Xif2o2utiyzYstF7yMKhjkCzzh3anXs",
+            "https://drive.google.com/uc?export=view&id=1vaUdzBAl4JYnhJfP6bTl0-jB4XAV0DNX",
+            "https://drive.google.com/uc?export=view&id=1ScwF-8XbOOBDd5HBeodXA_bCKqIeCnG2",
+            "https://drive.google.com/uc?export=view&id=1TZ37eOOSzE-Eoyr8HfDd4jLaiSNupVVD",
+            "https://drive.google.com/uc?export=view&id=1fvRv8C0tsX5u3uAdkqOsl25jH_0sECEk",
+            "https://drive.google.com/uc?export=view&id=1wxltuY6u6G_ioIMFduiGwA1PnkY7c3RR",
+            "https://drive.google.com/uc?export=view&id=1rQUe1bLdnG2d8cM7RyUxt23R0lItbGrB",
+            "https://drive.google.com/uc?export=view&id=1tYs9UEZxwvaSYS_IoZlGXAqtPL-2hpv_",
+            "https://drive.google.com/uc?export=view&id=1T0Iegf9jIDSh4rRavu8wPum45zWhonAY",
             "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
-            "https://drive.google.com/uc?export=view&id=1tBo0l5pxH4N8o3rNk-Iupet4c12OATy_",
+            "https://drive.google.com/uc?export=view&id=1046uPggIT8BFUoKKIGX0bBPQkjHGNa1m",
         ]
         data_list = [
             {
