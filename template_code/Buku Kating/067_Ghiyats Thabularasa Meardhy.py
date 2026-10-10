@@ -1145,6 +1145,7 @@ if menu == "Departemen Eksternal":
                 "sosmed": "@deaa.rsni",
                 "kesan": "selalu tampil dengan senyum",
                 "pesan": "Senyum Kakak bikin suasana jadi lebih ramah dan terbuka"
+            },    
             {
                 "nama": "Cindy Laura Manik",
                 "nim": "123450112",
